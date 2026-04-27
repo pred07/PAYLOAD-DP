@@ -3,7 +3,7 @@
 ## Overview
 EXPLOITDECK is a high-performance, automated repository of security exploitation vectors. It serves as a centralized hub for penetration testing payloads across 20 distinct vulnerability categories.
 
-**Live Dashboard**: [https://pred07.github.io/PAYLOAD-DP/](https://pred07.github.io/PAYLOAD-DP/)
+**Live Dashboard**: [https://pred07.github.io/EXPLOITDECK/](https://pred07.github.io/EXPLOITDECK/)
 
 The database is updated automatically via a recursive crawling engine that aggregates data from over 90 specialized security repositories.
 
