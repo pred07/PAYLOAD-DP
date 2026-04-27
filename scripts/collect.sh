@@ -5,7 +5,7 @@
 # Uses GitHub Token (5000 req/hr) to crawl 90+ repos
 # ============================================================
 
-DATA_DIR="data"
+DATA_DIR="docs/data"
 TEMP_DIR=".tmp_payloads"
 MASTER_LIST="${DATA_DIR}/payloads.txt"
 META_FILE="${DATA_DIR}/meta.json"

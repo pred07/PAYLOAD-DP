@@ -1,7 +1,11 @@
 # EXPLOITDECK | Security Payload Database
 
 ## Overview
-EXPLOITDECK is a high-performance, automated repository of security exploitation vectors. It serves as a centralized hub for penetration testing payloads across 20 distinct vulnerability categories. The database is updated automatically via a recursive crawling engine that aggregates data from over 90 specialized security repositories.
+EXPLOITDECK is a high-performance, automated repository of security exploitation vectors. It serves as a centralized hub for penetration testing payloads across 20 distinct vulnerability categories.
+
+**Live Dashboard**: [https://pred07.github.io/PAYLOAD-DP/](https://pred07.github.io/PAYLOAD-DP/)
+
+The database is updated automatically via a recursive crawling engine that aggregates data from over 90 specialized security repositories.
 
 ## Version
 Current Version: 1.0.0
@@ -31,9 +35,9 @@ The database provides extensive coverage for the following vulnerability classes
 
 ## Database Structure
 Data is organized into category-specific flat files for maximum compatibility with security tools:
-- `/data/*.txt`: Individual category payload lists.
-- `/data/payloads.txt`: Unified master payload list.
-- `/data/meta.json`: Database metadata and update timestamps.
+- `/docs/data/*.txt`: Individual category payload lists.
+- `/docs/data/payloads.txt`: Unified master payload list.
+- `/docs/data/meta.json`: Database metadata and update timestamps.
 
 ## Automation Pipeline
 The repository utilizes GitHub Actions to maintain data freshness:
@@ -42,7 +46,7 @@ The repository utilizes GitHub Actions to maintain data freshness:
 - **Validation**: Basic syntax verification and normalization of exploitation strings.
 
 ## Usage
-Payloads can be utilized directly in security tools such as Burp Suite, ffuf, or custom automation scripts by referencing the raw URLs in the `/data` directory.
+Payloads can be utilized directly in security tools such as Burp Suite, ffuf, or custom automation scripts by referencing the raw URLs in the `/docs/data` directory.
 
 ## License
 This project is for educational and authorized penetration testing purposes only. Refer to the LICENSE file for details.

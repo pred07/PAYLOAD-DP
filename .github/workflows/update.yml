@@ -31,10 +31,10 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if [[ -n $(git status --porcelain data/) ]]; then
+          if [[ -n $(git status --porcelain docs/data/) ]]; then
             git config user.name 'pred07'
             git config user.email 'pred07@users.noreply.github.com'
-            git add data/
+            git add docs/data/
             MSGS=("syncing latest payloads" "updated datasets" "adding new findings" "database maintenance" "refreshed sources" "synced with upstream")
             git commit -m "${MSGS[$RANDOM % ${#MSGS[@]}]}"
             git push origin main

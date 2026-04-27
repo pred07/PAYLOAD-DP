@@ -4,7 +4,7 @@ let currentFile = 'sqli.txt';
 // ── META ────────────────────────────────────────────────────────────────
 async function loadMetadata() {
     try {
-        const res = await fetch('../data/meta.json');
+        const res = await fetch('./data/meta.json');
         if (!res.ok) throw new Error();
         const data = await res.json();
         document.getElementById('total-count').textContent =
@@ -26,7 +26,7 @@ async function loadPayloads(filename) {
     document.getElementById('payload-list').innerHTML = '';
 
     try {
-        const res = await fetch(`../data/${filename}`);
+        const res = await fetch(`./data/${filename}`);
         if (!res.ok) throw new Error(res.status);
         const text = await res.text();
         currentPayloads = text.split('\n').map(l => l.trim()).filter(Boolean);
