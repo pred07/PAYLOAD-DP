@@ -1,43 +1,54 @@
- # PAYLOAD-DP 🛡️
+# 💀 EXPLOITDECK
 
-A production-ready, fully automated security payload aggregation system. It automatically collects, cleanses, deduplicates, and categorizes security payloads from multiple high-quality public repositories every 4 hours.
+> **Curated Offensive Payload Database**
+> "Maximum coverage. Minimum noise. Professional-grade aggregation."
 
-## 🚀 Features
+![Dashboard Mockup](https://raw.githubusercontent.com/pred07/PAYLOAD-DP/main/docs/screenshot.png)
 
-- **Multi-Source Aggregation**: Pulls from over 15+ curated security repositories.
-- **Automated Processing**: Cleans, normalizes (lowercase, trim), and deduplicates payloads.
-- **Smart Categorization**: Automatically sorts payloads into SQLi, XSS, SSRF, SSTI, and LFI categories.
-- **Zero Maintenance**: Powered by GitHub Actions; runs on a schedule with no manual intervention required.
-- **Metadata Tracking**: Includes real-time statistics on total payload counts and category distributions.
+## 🚀 Overview
+**EXPLOITDECK** is a high-performance aggregation engine that crawls 90+ top-tier security repositories (PayloadsAllTheThings, SecLists, PayloadBox, etc.) to build a unified, deduplicated, and categorized database of web application vulnerabilities.
 
-## 📁 Project Structure
+## ⚡ Key Features
+- **90+ Repositories**: Deep recursive discovery across the entire security ecosystem.
+- **20+ Categories**: Precision filtering for SQLi, XSS, SSRF, LFI, SSTI, RCE, JWT, and more.
+- **Smart Cleanup**: Automatic removal of HTML boilerplate, 404 pages, and duplicate entries.
+- **Premium UI**: Dark-mode dashboard with real-time search and copy-to-clipboard.
+- **Auto-Sync**: GitHub Actions pipeline refreshes the database every 12 hours.
 
-- `data/`: Contains the processed payload files.
-  - `payloads.txt`: Master list of all unique payloads.
-  - `sqli.txt`, `xss.txt`, `ssrf.txt`, etc.: Categorized lists.
-  - `metadata.json`: Summary of the last update.
-- `scripts/collect.sh`: The core engine for fetching and processing.
-- `sources.txt`: Curated list of payload sources.
-- `.github/workflows/update.yml`: GitHub Actions schedule configuration.
+## 📂 Category Coverage
+1.  **SQL Injection** (Error-based, Blind, Time-based)
+2.  **Cross-Site Scripting (XSS)** (Tags, Handlers, Protocols)
+3.  **SSRF** (Cloud Metadata, Internal IPs)
+4.  **LFI / Path Traversal**
+5.  **SSTI** (Template Injection)
+6.  **RCE / Command Injection**
+7.  **XXE** (XML External Entity)
+8.  **Open Redirect**
+9.  **NoSQL Injection**
+10. **LDAP Injection**
+11. **HTTP Header / Host Injection**
+12. **JWT Attacks**
+13. **CRLF / Header Injection**
+14. **GraphQL / Introspection**
+15. **CORS Bypass**
+16. **Insecure Deserialization**
+17. **Prototype Pollution**
+18. **Cloud Metadata (AWS/GCP/Azure)**
+19. **WordPress Specific**
+20. **Encoding / Bypass / Obfuscation**
 
-## ⚙️ Setup Instructions
+## 🛠️ Usage
+### Local Run
+```bash
+# Aggregates payloads from all sources
+./scripts/collect.sh
+```
 
-1. **Fork/Clone** the repository.
-2. **Push to GitHub**:
-   ```bash
-   git add .
-   git commit -m "Initialize project"
-   git push origin main
-   ```
-3. **Enable Actions**: GitHub Actions will automatically start running every 4 hours. You can also trigger it manually from the "Actions" tab.
+### Dashboard
+Open `docs/index.html` in your browser to access the interactive dashboard.
 
-## 🌐 Categories Included
-
-- SQL Injection (SQLi)
-- Cross-Site Scripting (XSS)
-- Server-Side Request Forgery (SSRF)
-- Server-Side Template Injection (SSTI)
-- Local/Remote File Inclusion (LFI/RFI)
+## 🤝 Contributing
+Found a missing repo or category? Open an issue or a casual PR.
 
 ---
-*Maintained automatically by PAYLOAD-DP Bot.*
+*Built for security researchers and penetration testers.*
