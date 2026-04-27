@@ -1,4 +1,4 @@
-name: Automated Payload Aggregation
+name: Payload Aggregation
 
 on:
   schedule:
@@ -8,38 +8,36 @@ on:
 jobs:
   update-database:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Random Execution Delay
+      - name: Random delay
         run: |
           DELAY=$((RANDOM % 45))
-          echo "[*] Sleeping for $DELAY minutes to avoid automation patterns..."
+          echo "Sleeping ${DELAY}m before starting..."
           sleep $((DELAY * 60))
 
-      - name: Run collection pipeline
+      - name: Run aggregation pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x scripts/collect.sh
           ./scripts/collect.sh
 
-      - name: Commit and Push if changed
+      - name: Commit if changed
         run: |
           if [[ -n $(git status --porcelain data/) ]]; then
-            # Using main user identity for casual appearance
-            git config --global user.name 'pred07'
-            git config --global user.email 'pred07@users.noreply.github.com'
+            git config user.name 'pred07'
+            git config user.email 'pred07@users.noreply.github.com'
             git add data/
-            
-            # Selection of human-like casual commit messages
-            MESSAGES=("syncing latest payloads" "updated datasets" "adding new findings" "database maintenance" "refreshed sources" "synced with upstream")
-            RANDOM_MSG=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
-            
-            git commit -m "$RANDOM_MSG"
+            MSGS=("syncing latest payloads" "updated datasets" "adding new findings" "database maintenance" "refreshed sources" "synced with upstream")
+            git commit -m "${MSGS[$RANDOM % ${#MSGS[@]}]}"
             git push origin main
           else
-            echo "[*] No data changes detected. No commit necessary."
+            echo "No changes detected."
           fi
