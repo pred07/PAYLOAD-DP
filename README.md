@@ -1,54 +1,48 @@
-# 💀 EXPLOITDECK
+# EXPLOITDECK | Security Payload Database
 
-> **Curated Offensive Payload Database**
-> "Maximum coverage. Minimum noise. Professional-grade aggregation."
+## Overview
+EXPLOITDECK is a high-performance, automated repository of security exploitation vectors. It serves as a centralized hub for penetration testing payloads across 20 distinct vulnerability categories. The database is updated automatically via a recursive crawling engine that aggregates data from over 90 specialized security repositories.
 
-![Dashboard Mockup](https://raw.githubusercontent.com/pred07/PAYLOAD-DP/main/docs/screenshot.png)
+## Version
+Current Version: 1.0.0
 
-## 🚀 Overview
-**EXPLOITDECK** is a high-performance aggregation engine that crawls 90+ top-tier security repositories (PayloadsAllTheThings, SecLists, PayloadBox, etc.) to build a unified, deduplicated, and categorized database of web application vulnerabilities.
+## Category Coverage
+The database provides extensive coverage for the following vulnerability classes:
+- SQL Injection (SQLi)
+- Cross-Site Scripting (XSS)
+- Server-Side Request Forgery (SSRF)
+- Local File Inclusion (LFI)
+- Server-Side Template Injection (SSTI)
+- Command Injection (RCE)
+- XML External Entity (XXE)
+- Open Redirect
+- NoSQL Injection
+- LDAP Injection
+- HTTP Headers Fuzzing
+- JSON Web Token (JWT)
+- CRLF Injection
+- GraphQL Injection
+- CORS Misconfiguration
+- Insecure Deserialization
+- Prototype Pollution
+- Cloud Metadata Exploitation
+- WordPress Discovery
+- Advanced Encoding/Polyglots
 
-## ⚡ Key Features
-- **90+ Repositories**: Deep recursive discovery across the entire security ecosystem.
-- **20+ Categories**: Precision filtering for SQLi, XSS, SSRF, LFI, SSTI, RCE, JWT, and more.
-- **Smart Cleanup**: Automatic removal of HTML boilerplate, 404 pages, and duplicate entries.
-- **Premium UI**: Dark-mode dashboard with real-time search and copy-to-clipboard.
-- **Auto-Sync**: GitHub Actions pipeline refreshes the database every 12 hours.
+## Database Structure
+Data is organized into category-specific flat files for maximum compatibility with security tools:
+- `/data/*.txt`: Individual category payload lists.
+- `/data/payloads.txt`: Unified master payload list.
+- `/data/meta.json`: Database metadata and update timestamps.
 
-## 📂 Category Coverage
-1.  **SQL Injection** (Error-based, Blind, Time-based)
-2.  **Cross-Site Scripting (XSS)** (Tags, Handlers, Protocols)
-3.  **SSRF** (Cloud Metadata, Internal IPs)
-4.  **LFI / Path Traversal**
-5.  **SSTI** (Template Injection)
-6.  **RCE / Command Injection**
-7.  **XXE** (XML External Entity)
-8.  **Open Redirect**
-9.  **NoSQL Injection**
-10. **LDAP Injection**
-11. **HTTP Header / Host Injection**
-12. **JWT Attacks**
-13. **CRLF / Header Injection**
-14. **GraphQL / Introspection**
-15. **CORS Bypass**
-16. **Insecure Deserialization**
-17. **Prototype Pollution**
-18. **Cloud Metadata (AWS/GCP/Azure)**
-19. **WordPress Specific**
-20. **Encoding / Bypass / Obfuscation**
+## Automation Pipeline
+The repository utilizes GitHub Actions to maintain data freshness:
+- **Crawling Engine**: Recursive discovery of new payloads from global security research.
+- **Deduplication**: Automatic removal of redundant vectors to maintain list efficiency.
+- **Validation**: Basic syntax verification and normalization of exploitation strings.
 
-## 🛠️ Usage
-### Local Run
-```bash
-# Aggregates payloads from all sources
-./scripts/collect.sh
-```
+## Usage
+Payloads can be utilized directly in security tools such as Burp Suite, ffuf, or custom automation scripts by referencing the raw URLs in the `/data` directory.
 
-### Dashboard
-Open `docs/index.html` in your browser to access the interactive dashboard.
-
-## 🤝 Contributing
-Found a missing repo or category? Open an issue or a casual PR.
-
----
-*Built for security researchers and penetration testers.*
+## License
+This project is for educational and authorized penetration testing purposes only. Refer to the LICENSE file for details.

