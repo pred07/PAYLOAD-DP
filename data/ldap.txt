@@ -1,1 +1,5 @@
 *)(cn=*)
+*)(&(objectClass=*))
+*)(&(password=*))
+*)(&(uid=admin))
+*)(&(userPassword=*))

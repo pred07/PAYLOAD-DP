@@ -1,1 +1,3 @@
+Access-Control-Allow-Origin: *
 Origin: https://attacker.com
+Origin: https://localhost

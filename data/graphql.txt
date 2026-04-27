@@ -1,1 +1,3 @@
+query { user(id: 1) { password } }
 {__schema{types{name}}}
+{__schema{types{name,fields{name,args{name}}}}}

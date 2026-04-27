@@ -1,1 +1,10 @@
+/%09/google.com
+/%5cgoogle.com
+//attacker.com
 //google.com
+/\google.com
+/http://google.com
+https://attacker.com
+/https://google.com
+https://google.com
+javascript:window.location.href="https://google.com"

