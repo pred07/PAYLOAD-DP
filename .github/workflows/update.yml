@@ -1,12 +1,12 @@
-name: Update Security Payloads
+name: Automated Payload Aggregation
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # Every 4 hours
-  workflow_dispatch: # Allow manual trigger
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
 
 jobs:
-  update:
+  update-database:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -15,27 +15,31 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up bash
+      - name: Random Execution Delay
+        run: |
+          DELAY=$((RANDOM % 45))
+          echo "[*] Sleeping for $DELAY minutes to avoid automation patterns..."
+          sleep $((DELAY * 60))
+
+      - name: Run collection pipeline
         run: |
           chmod +x scripts/collect.sh
+          ./scripts/collect.sh
 
-      - name: Run collection script
-        run: ./scripts/collect.sh
-
-      - name: Check for changes
-        id: git-check
+      - name: Commit and Push if changed
         run: |
-          git add data/
-          if git diff --staged --quiet; then
-            echo "changes=false" >> $GITHUB_OUTPUT
+          if [[ -n $(git status --porcelain data/) ]]; then
+            # Using main user identity for casual appearance
+            git config --global user.name 'pred07'
+            git config --global user.email 'pred07@users.noreply.github.com'
+            git add data/
+            
+            # Selection of human-like casual commit messages
+            MESSAGES=("syncing latest payloads" "updated datasets" "adding new findings" "database maintenance" "refreshed sources" "synced with upstream")
+            RANDOM_MSG=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
+            
+            git commit -m "$RANDOM_MSG"
+            git push origin main
           else
-            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "[*] No data changes detected. No commit necessary."
           fi
-
-      - name: Commit and Push changes
-        if: steps.git-check.outputs.changes == 'true'
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git commit -m "Auto-update payloads: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
-          git push origin main

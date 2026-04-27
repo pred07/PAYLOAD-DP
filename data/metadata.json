@@ -1,0 +1,11 @@
+{
+  "last_updated": "2026-04-27T10:39:12Z",
+  "total_payloads": 11190,
+  "categories": {
+    "sqli": 1,
+    "xss": 0,
+    "ssrf": 2,
+    "lfi": 3,
+    "ssti": 0
+  }
+}
