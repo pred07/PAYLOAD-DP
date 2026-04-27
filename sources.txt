@@ -1,0 +1,28 @@
+# SQL Injection
+https://raw.githubusercontent.com/payloadbox/sql-injection-payload-list/master/Intruder/exploit.txt
+https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/SQL%20Injection/Intruder/Generic_SQLI.txt
+https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/SQL%20Injection/Intruder/detect_backend.txt
+
+# XSS
+https://raw.githubusercontent.com/payloadbox/xss-payload-list/master/Intruder/xss-payload-list.txt
+https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/XSS%20Injection/Intruder/xss-payloads.txt
+https://raw.githubusercontent.com/pg021/XSS-Payloads/master/payload.txt
+
+# SSRF
+https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Server%20Side%20Request%20Forgery/SSRF%20Payloads.txt
+https://raw.githubusercontent.com/payloadbox/ssrf-payload-list/master/ssrf-payloads.txt
+
+# SSTI
+https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/Server%20Side%20Template%20Injection/Intruder/ssti.txt
+https://raw.githubusercontent.com/payloadbox/ssti-payloads/master/ssti-payloads.txt
+
+# LFI/RFI
+https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/File%20Inclusion/Intruder/LFI-graceful.txt
+https://raw.githubusercontent.com/payloadbox/rfi-payload-list/master/rfi-payloads.txt
+https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/LFI/LFI-Jhaddix.txt
+
+# Command Injection
+https://raw.githubusercontent.com/payloadbox/command-injection-payload-list/master/command-injection-payload-list.txt
+
+# Open Redirect
+https://raw.githubusercontent.com/payloadbox/open-redirect-payload-list/master/open-redirect-payload-list.txt
