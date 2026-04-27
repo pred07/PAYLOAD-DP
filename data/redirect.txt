@@ -1,0 +1,6 @@
+//google.com
+https://google.com
+/\google.com
+/%2f%2fgoogle.com
+/%5c%5cgoogle.com
+javascript:void(location.href='https://google.com')

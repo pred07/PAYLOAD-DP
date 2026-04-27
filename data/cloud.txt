@@ -1,0 +1,4 @@
+169.254.169.254
+metadata.google.internal
+instance-data.ec2.internal
+s3://bucket-name/

