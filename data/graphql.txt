@@ -1,4 +1,1 @@
-{__schema{types{name,fields{name}}}}
-query { __typename }
-mutation { ... }
-fragment on ...
+404: Not Found

@@ -1,10 +1,1 @@
-{{7*7}}
-${7*7}
-\${7*7}
-<%= 7*7 %>
-#{7*7}
-[[7*7]]
-{{self}}
-{{config.items()}}
-${"z".join(["a","b"])}
-<#assign ex="freemarker.template.utility.Execute"?new()>${ex("id")}
+404: Not Found

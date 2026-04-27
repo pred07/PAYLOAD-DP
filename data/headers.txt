@@ -1,5 +1,1 @@
-X-Forwarded-For: 127.0.0.1
-X-Real-IP: 127.0.0.1
-Host: attacker.com
-X-Forwarded-Host: attacker.com
-Forwarded: for=127.0.0.1;host=attacker.com
+404: Not Found

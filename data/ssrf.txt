@@ -1,10 +1,1 @@
-http://169.254.169.254/latest/meta-data/
-http://localhost:80
-http://127.0.0.1:22
-http://metadata.google.internal/computeMetadata/v1/
-http://instance-data/latest/meta-data/
-gopher://localhost:11211/_stats
-dict://localhost:11211/stat
-file:///etc/passwd
-http://169.254.169.254/latest/user-data
-http://10.0.0.1/admin
+404: Not Found

