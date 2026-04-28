@@ -98,6 +98,20 @@ function renderPayloads(list) {
 // ── SEARCH ───────────────────────────────────────────────────────────────
 document.getElementById('search-input').addEventListener('input', e => {
     const q = e.target.value.toLowerCase().trim();
+    
+    // Smart Jump: If search matches a category name, switch to it
+    const tabs = document.querySelectorAll('.tab-btn');
+    const matchedTab = Array.from(tabs).find(t => t.textContent.toLowerCase() === q);
+    
+    if (matchedTab && !matchedTab.classList.contains('active')) {
+        tabs.forEach(b => b.classList.remove('active'));
+        matchedTab.classList.add('active');
+        loadPayloads(matchedTab.dataset.file);
+        // Clear search after jump to show the full category
+        setTimeout(() => { e.target.value = ''; }, 500);
+        return;
+    }
+
     renderPayloads(q ? currentPayloads.filter(p => p.includes(q)) : currentPayloads);
 });
 
