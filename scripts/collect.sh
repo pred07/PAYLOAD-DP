@@ -101,7 +101,7 @@ REPOS=(
 # ── SEED DATA (Professional Baseline) ──────────────────────
 seed_data() {
     echo "[*] Injecting professional baseline seeds..."
-    cat <<EOF >> "${TEMP_DIR}/new_master.txt"
+    cat <<'EOF' >> "${TEMP_DIR}/new_master.txt"
 ' OR 1=1--
 admin' --
 ' UNION SELECT NULL,NULL,NULL--

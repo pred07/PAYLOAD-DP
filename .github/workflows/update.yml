@@ -37,6 +37,7 @@ jobs:
             git add docs/data/
             MSGS=("syncing latest payloads" "updated datasets" "adding new findings" "database maintenance" "refreshed sources" "synced with upstream")
             git commit -m "${MSGS[$RANDOM % ${#MSGS[@]}]}"
+            git pull --rebase origin main
             git push origin main
           else
             echo "No changes detected."
