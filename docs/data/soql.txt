@@ -1,0 +1,2 @@
+FIND {admin*}
+' OR Name LIKE '%'

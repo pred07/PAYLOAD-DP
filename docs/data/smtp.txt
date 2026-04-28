@@ -1,0 +1,2 @@
+\r\nBcc: victim@domain.com
+\r\nSubject: Spoofed
