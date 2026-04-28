@@ -1,0 +1,4 @@
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiJ9.
+eyJhbGciOiJub25lIn0.eyJzdWIiOiJhZG1pbiJ9.
+# --- NOSQL, JWT, LDAP, CORS ---

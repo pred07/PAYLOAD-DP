@@ -1,0 +1,2 @@
+query { user { password } }
+{__schema{types{name}}}
