@@ -7,7 +7,6 @@
 
 DATA_DIR="docs/data"
 TEMP_DIR=".tmp_payloads"
-MASTER_LIST="${DATA_DIR}/payloads.txt"
 META_FILE="${DATA_DIR}/meta.json"
 GITHUB_TOKEN="${GITHUB_TOKEN:-}"  # Set via env or Actions secret
 
@@ -399,21 +398,18 @@ if [[ "$1" != "--skip-crawl" ]]; then
     done
 fi
 
-# ── COMPILE MASTER ──────────────────────────────────────────
-echo "[*] Compiling master database..."
+SRC="${TEMP_DIR}/new_master.txt"
 seed_data
-cat "$TEMP_DIR"/*.clean 2>/dev/null | sort -u >> "${TEMP_DIR}/new_master.txt"
-sort -u "${TEMP_DIR}/new_master.txt" -o "${TEMP_DIR}/new_master.txt"
+cat "$TEMP_DIR"/*.clean 2>/dev/null | sort -u >> "$SRC"
+sort -u "$SRC" -o "$SRC"
 
-if [ ! -s "${TEMP_DIR}/new_master.txt" ]; then
+if [ ! -s "$SRC" ]; then
     echo "[!] Empty dataset. Aborting."
     rm -rf "$TEMP_DIR"; exit 1
 fi
 
-TOTAL=$(wc -l < "${TEMP_DIR}/new_master.txt")
-echo "[*] Total unique payloads: $TOTAL — extracting 20 categories..."
-
-SRC="${TEMP_DIR}/new_master.txt"
+TOTAL=$(wc -l < "$SRC")
+echo "[*] Total unique payloads: $TOTAL — extracting 30 categories..."
 
 # ── 20 CATEGORIES ───────────────────────────────────────────
 
@@ -508,16 +504,29 @@ grep -aiP 'SELECT\s+.*\s+FROM\s+.*\s+WHERE|FIND\s+\{.*\}|Name\s+LIKE' "$SRC" | s
 grep -aiP '\{__name__=~|\{.*=\".*\"\}|histogram_quantile|rate\(' "$SRC" | sort -u > "${DATA_DIR}/promql.txt"
 
 # ── FINALIZE ────────────────────────────────────────────────
-mv "${TEMP_DIR}/new_master.txt" "$MASTER_LIST"
+# ── CHUNKING & CLEANUP ──────────────────────────────────────
+echo "[*] Splitting files > 90MB to satisfy GitHub limits..."
+CHUNK_MANIFEST=""
+for f in "${DATA_DIR}"/*.txt; do
+    base=$(basename "$f")
+    size=$(stat -c%s "$f" 2>/dev/null || stat -f%z "$f" 2>/dev/null)
+    
+    if [ "$size" -gt 94371840 ]; then
+        echo " [!] Splitting $base ($(($size/1024/1024))MB)"
+        split -b 90M -d --additional-suffix=.txt "$f" "${DATA_DIR}/${base%.txt}_part"
+        rm "$f"
+    fi
+done
+
+# Cleanup temp data
 rm -rf "$TEMP_DIR"
 
 TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-COUNT=$(wc -l < "$MASTER_LIST")
 
 cat <<EOF > "$META_FILE"
 {
   "last_updated": "$TIMESTAMP",
-  "total_payloads": $COUNT,
+  "total_payloads": $TOTAL,
   "repos_crawled": ${#REPOS[@]}
 }
 EOF

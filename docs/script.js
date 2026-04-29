@@ -24,12 +24,35 @@ async function loadPayloads(filename) {
     currentFile = filename;
     document.getElementById('payload-count-bar').textContent = 'Fetching...';
     document.getElementById('payload-list').innerHTML = '';
+    currentPayloads = [];
 
     try {
+        // First try to load the main file
         const res = await fetch(`./data/${filename}`);
-        if (!res.ok) throw new Error(res.status);
-        const text = await res.text();
-        currentPayloads = text.split('\n').map(l => l.trim()).filter(Boolean);
+        if (res.ok) {
+            const text = await res.text();
+            currentPayloads = text.split('\n').map(l => l.trim()).filter(Boolean);
+        } else {
+            // If main file doesn't exist, try loading chunks (_part00, _part01...)
+            let part = 0;
+            let hasMore = true;
+            const baseName = filename.replace('.txt', '');
+            
+            while (hasMore && part < 50) { // Safety limit of 50 chunks
+                const partName = `${baseName}_part${part.toString().padStart(2, '0')}.txt`;
+                const pRes = await fetch(`./data/${partName}`);
+                if (pRes.ok) {
+                    const pText = await pRes.text();
+                    const pLines = pText.split('\n').map(l => l.trim()).filter(Boolean);
+                    currentPayloads.push(...pLines);
+                    part++;
+                } else {
+                    hasMore = false;
+                }
+            }
+        }
+
+        if (currentPayloads.length === 0) throw new Error('Empty');
         renderPayloads(currentPayloads);
     } catch (e) {
         document.getElementById('payload-count-bar').textContent = '[!] FAILED TO LOAD FILE';
