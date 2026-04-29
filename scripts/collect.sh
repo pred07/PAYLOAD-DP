@@ -418,94 +418,94 @@ SRC="${TEMP_DIR}/new_master.txt"
 # ── 20 CATEGORIES ───────────────────────────────────────────
 
 # 1. SQLi
-grep -iP '(select|union|insert|update|delete|drop|alter|exec)\b|sleep\s*\(|benchmark\s*\(|information_schema|pg_sleep|waitfor\s+delay|load_file|into\s+(outfile|dumpfile)|xp_cmdshell|cast\(|convert\(' "$SRC" | sort -u > "${DATA_DIR}/sqli.txt"
+grep -aiP '(select|union|insert|update|delete|drop|alter|exec)\b|sleep\s*\(|benchmark\s*\(|information_schema|pg_sleep|waitfor\s+delay|load_file|into\s+(outfile|dumpfile)|xp_cmdshell|cast\(|convert\(' "$SRC" | sort -u > "${DATA_DIR}/sqli.txt"
 
 # 2. XSS
-grep -iP '<script|alert\s*\(|prompt\s*\(|confirm\s*\(|onerror\s*=|onload\s*=|onclick\s*=|onmouse|onfocus|onblur|<svg|<img|<body|<input|<iframe|javascript:|data:text|expression\(|vbscript:' "$SRC" | sort -u > "${DATA_DIR}/xss.txt"
+grep -aiP '<script|alert\s*\(|prompt\s*\(|confirm\s*\(|onerror\s*=|onload\s*=|onclick\s*=|onmouse|onfocus|onblur|<svg|<img|<body|<input|<iframe|javascript:|data:text|expression\(|vbscript:' "$SRC" | sort -u > "${DATA_DIR}/xss.txt"
 
 # 3. SSRF
-grep -iP '169\.254\.169\.254|127\.0\.0\.|localhost|0\.0\.0\.0|internal|metadata\.google|instance-data|gopher://|dict://|file://|aws\.amazon|s3\.amazonaws|kubernetes' "$SRC" | sort -u > "${DATA_DIR}/ssrf.txt"
+grep -aiP '169\.254\.169\.254|127\.0\.0\.|localhost|0\.0\.0\.0|internal|metadata\.google|instance-data|gopher://|dict://|file://|aws\.amazon|s3\.amazonaws|kubernetes' "$SRC" | sort -u > "${DATA_DIR}/ssrf.txt"
 
 # 4. LFI
-grep -iP '(\.\./){1,}|/etc/(passwd|shadow|group|hosts|crontab)|windows/(system32|win\.ini|boot\.ini|system\.ini)|/proc/(self|version|cmdline)|/var/log|/root/\.' "$SRC" | sort -u > "${DATA_DIR}/lfi.txt"
+grep -aiP '(\.\./){1,}|/etc/(passwd|shadow|group|hosts|crontab)|windows/(system32|win\.ini|boot\.ini|system\.ini)|/proc/(self|version|cmdline)|/var/log|/root/\.' "$SRC" | sort -u > "${DATA_DIR}/lfi.txt"
 
 # 5. SSTI
-grep -iP '\{\{.{1,50}\}\}|%7b%7b|#\{.{1,50}\}|\$\{.{1,50}\}|<%=|<%.{1,50}%>|\$\{7\*7\}|\{\{7\*7\}\}|@\{' "$SRC" | sort -u > "${DATA_DIR}/ssti.txt"
+grep -aiP '\{\{.{1,50}\}\}|%7b%7b|#\{.{1,50}\}|\$\{.{1,50}\}|<%=|<%.{1,50}%>|\$\{7\*7\}|\{\{7\*7\}\}|@\{' "$SRC" | sort -u > "${DATA_DIR}/ssti.txt"
 
 # 6. RCE / Command Injection
-grep -iP ';\s*(id|whoami|cat\s|ls\s|pwd|uname|curl\s|wget\s|bash|sh\s)|`(id|whoami|cat|ls)`|\$\((id|whoami|cat)\)|\|\s*(id|whoami|bash|nc\s|ncat)|(cmd|exec|system|passthru|popen)\s*\(' "$SRC" | sort -u > "${DATA_DIR}/rce.txt"
+grep -aiP ';\s*(id|whoami|cat\s|ls\s|pwd|uname|curl\s|wget\s|bash|sh\s)|`(id|whoami|cat|ls)`|\$\((id|whoami|cat)\)|\|\s*(id|whoami|bash|nc\s|ncat)|(cmd|exec|system|passthru|popen)\s*\(' "$SRC" | sort -u > "${DATA_DIR}/rce.txt"
 
 # 7. XXE
-grep -iP '<!entity|<!doctype.{1,100}system|<!doctype.{1,100}public|file:///|expect://|php://input' "$SRC" | sort -u > "${DATA_DIR}/xxe.txt"
+grep -aiP '<!entity|<!doctype.{1,100}system|<!doctype.{1,100}public|file:///|expect://|php://input' "$SRC" | sort -u > "${DATA_DIR}/xxe.txt"
 
 # 8. Open Redirect
-grep -iP '^//[a-z0-9]|https?://[a-z0-9].*\.[a-z]{2,}|/\\|%2f%2f|%5c%5c|\\\\' "$SRC" | grep -ivP 'localhost|127\.|raw\.github|cdn\.' | sort -u > "${DATA_DIR}/redirect.txt"
+grep -aiP '^//[a-z0-9]|https?://[a-z0-9].*\.[a-z]{2,}|/\\|%2f%2f|%5c%5c|\\\\' "$SRC" | grep -ivP 'localhost|127\.|raw\.github|cdn\.' | sort -u > "${DATA_DIR}/redirect.txt"
 
 # 9. NoSQL
-grep -iP '\$where|\$gt|\$lt|\$ne|\$in|\$regex|\$exists|\$or|\$and|\$elemMatch|true,.*\|\||0;return|MongoClient|nosql' "$SRC" | sort -u > "${DATA_DIR}/nosql.txt"
+grep -aiP '\$where|\$gt|\$lt|\$ne|\$in|\$regex|\$exists|\$or|\$and|\$elemMatch|true,.*\|\||0;return|MongoClient|nosql' "$SRC" | sort -u > "${DATA_DIR}/nosql.txt"
 
 # 10. LDAP
-grep -iP '\*\)|%2a%29|\|\(|!\(|(uid|cn|dc|ou|objectclass)=|\)%28|\(\|' "$SRC" | sort -u > "${DATA_DIR}/ldap.txt"
+grep -aiP '\*\)|%2a%29|\|\(|!\(|(uid|cn|dc|ou|objectclass)=|\)%28|\(\|' "$SRC" | sort -u > "${DATA_DIR}/ldap.txt"
 
 # 11. HTTP Headers
-grep -iP '^(x-forwarded-for|x-real-ip|x-originating-ip|host|x-host|forwarded|x-forwarded-host|x-remote-ip|cf-connecting-ip|true-client-ip):' "$SRC" | sort -u > "${DATA_DIR}/headers.txt"
+grep -aiP '^(x-forwarded-for|x-real-ip|x-originating-ip|host|x-host|forwarded|x-forwarded-host|x-remote-ip|cf-connecting-ip|true-client-ip):' "$SRC" | sort -u > "${DATA_DIR}/headers.txt"
 
 # 12. JWT
-grep -iP 'eyj[a-z0-9_-]{10,}|alg.*none|hs256|rs256|bearer\s|jwt|\"typ\".*jwt' "$SRC" | sort -u > "${DATA_DIR}/jwt.txt"
+grep -aiP 'eyj[a-z0-9_-]{10,}|alg.*none|hs256|rs256|bearer\s|jwt|\"typ\".*jwt' "$SRC" | sort -u > "${DATA_DIR}/jwt.txt"
 
 # 13. CRLF / Header Injection
-grep -iP '%0d%0a|%0a%0d|\\\\r\\\\n|\\\\n\\\\r|%0d|%0a|(set-cookie|location|content-type):' "$SRC" | sort -u > "${DATA_DIR}/crlf.txt"
+grep -aiP '%0d%0a|%0a%0d|\\\\r\\\\n|\\\\n\\\\r|%0d|%0a|(set-cookie|location|content-type):' "$SRC" | sort -u > "${DATA_DIR}/crlf.txt"
 
 # 14. GraphQL
-grep -iP '__schema|__type|__typename|introspection|query\s*\{|mutation\s*\{|fragment\s+on|graphql|/graphql' "$SRC" | sort -u > "${DATA_DIR}/graphql.txt"
+grep -aiP '__schema|__type|__typename|introspection|query\s*\{|mutation\s*\{|fragment\s+on|graphql|/graphql' "$SRC" | sort -u > "${DATA_DIR}/graphql.txt"
 
 # 15. CORS
-grep -iP 'access-control-allow-(origin|credentials|methods)|null.{0,10}origin|origin:\s*https?://|withcredentials' "$SRC" | sort -u > "${DATA_DIR}/cors.txt"
+grep -aiP 'access-control-allow-(origin|credentials|methods)|null.{0,10}origin|origin:\s*https?://|withcredentials' "$SRC" | sort -u > "${DATA_DIR}/cors.txt"
 
 # 16. Deserialization
-grep -iP 'rO0AB|aced0005|o:[0-9]+:|a:[0-9]+:|phpobject|java\.lang\.(runtime|processbuilder)|deserializ|pickle|marshal\.loads|yaml\.load' "$SRC" | sort -u > "${DATA_DIR}/deserial.txt"
+grep -aiP 'rO0AB|aced0005|o:[0-9]+:|a:[0-9]+:|phpobject|java\.lang\.(runtime|processbuilder)|deserializ|pickle|marshal\.loads|yaml\.load' "$SRC" | sort -u > "${DATA_DIR}/deserial.txt"
 
 # 17. Prototype Pollution
-grep -iP '__proto__|constructor\.prototype|object\.prototype|\[\"__proto__\"\]|%5b__proto__%5d|proto\[' "$SRC" | sort -u > "${DATA_DIR}/pollution.txt"
+grep -aiP '__proto__|constructor\.prototype|object\.prototype|\[\"__proto__\"\]|%5b__proto__%5d|proto\[' "$SRC" | sort -u > "${DATA_DIR}/pollution.txt"
 
 # 18. Cloud Metadata
-grep -iP '169\.254\.169\.254|metadata\.google|instance-data|imds|aws_access_key|aws_secret|s3\.amazonaws|storage\.googleapis|blob\.core\.windows|\.compute\.internal' "$SRC" | sort -u > "${DATA_DIR}/cloud.txt"
+grep -aiP '169\.254\.169\.254|metadata\.google|instance-data|imds|aws_access_key|aws_secret|s3\.amazonaws|storage\.googleapis|blob\.core\.windows|\.compute\.internal' "$SRC" | sort -u > "${DATA_DIR}/cloud.txt"
 
 # 19. WordPress
-grep -iP 'wp-config|wp-admin|wp-login|wp-content|wp-includes|xmlrpc\.php|/wp-json|wordpress' "$SRC" | sort -u > "${DATA_DIR}/wordpress.txt"
+grep -aiP 'wp-config|wp-admin|wp-login|wp-content|wp-includes|xmlrpc\.php|/wp-json|wordpress' "$SRC" | sort -u > "${DATA_DIR}/wordpress.txt"
 
 # 20. Encoding / Bypass
-grep -iP '^([%0-9a-f]{2}){2,}|^0x[0-9a-f]+|&#x[0-9a-f]+;|\\\\u[0-9a-f]{4}|\\\\x[0-9a-f]{2}|base64|%00|null\s*byte' "$SRC" | sort -u > "${DATA_DIR}/encoding.txt"
+grep -aiP '^([%0-9a-f]{2}){2,}|^0x[0-9a-f]+|&#x[0-9a-f]+;|\\\\u[0-9a-f]{4}|\\\\x[0-9a-f]{2}|base64|%00|null\s*byte' "$SRC" | sort -u > "${DATA_DIR}/encoding.txt"
 
 # 21. CSV Injection
-grep -iP '^[=\+\-\@].*\(.*\)' "$SRC" | sort -u > "${DATA_DIR}/csv.txt"
+grep -aiP '^[=\+\-\@].*\(.*\)' "$SRC" | sort -u > "${DATA_DIR}/csv.txt"
 
 # 22. XPath Injection
-grep -iP '\''\s*or\s*1=1|\/\/\*|count\(|child::|parent::|descendant::' "$SRC" | sort -u > "${DATA_DIR}/xpath.txt"
+grep -aiP '\''\s*or\s*1=1|\/\/\*|count\(|child::|parent::|descendant::' "$SRC" | sort -u > "${DATA_DIR}/xpath.txt"
 
 # 23. SSI Injection
-grep -iP '<!--#|#exec|#include|#echo|#config' "$SRC" | sort -u > "${DATA_DIR}/ssi.txt"
+grep -aiP '<!--#|#exec|#include|#echo|#config' "$SRC" | sort -u > "${DATA_DIR}/ssi.txt"
 
 # 24. Code Injection
-grep -iP '(eval|exec|system|passthru|popen|shell_exec|base64_decode|__import__|require|include)\s*\(' "$SRC" | sort -u > "${DATA_DIR}/code.txt"
+grep -aiP '(eval|exec|system|passthru|popen|shell_exec|base64_decode|__import__|require|include)\s*\(' "$SRC" | sort -u > "${DATA_DIR}/code.txt"
 
 # 25. Log Injection
-grep -iP '\$\{jndi:|\$\{env:|\$\{\w+:|%d\{|%m\{|%n' "$SRC" | sort -u > "${DATA_DIR}/log.txt"
+grep -aiP '\$\{jndi:|\$\{env:|\$\{\w+:|%d\{|%m\{|%n' "$SRC" | sort -u > "${DATA_DIR}/log.txt"
 
 # 26. SMTP / Email Injection
-grep -iP '(\\\\r\\\\n|%0d%0a)(bcc|cc|to|subject|from):' "$SRC" | sort -u > "${DATA_DIR}/smtp.txt"
+grep -aiP '(\\\\r\\\\n|%0d%0a)(bcc|cc|to|subject|from):' "$SRC" | sort -u > "${DATA_DIR}/smtp.txt"
 
 # 27. CSS Injection
-grep -iP 'expression\(|background-image:\s*url|behavior:|@-moz-document|@import\s+url' "$SRC" | sort -u > "${DATA_DIR}/css.txt"
+grep -aiP 'expression\(|background-image:\s*url|behavior:|@-moz-document|@import\s+url' "$SRC" | sort -u > "${DATA_DIR}/css.txt"
 
 # 28. ORM Injection
-grep -iP '\?id\[\]=|where:\s*\"|find_by|ActiveRecord|Hibernate' "$SRC" | sort -u > "${DATA_DIR}/orm.txt"
+grep -aiP '\?id\[\]=|where:\s*\"|find_by|ActiveRecord|Hibernate' "$SRC" | sort -u > "${DATA_DIR}/orm.txt"
 
 # 29. SOQL / SOSL Injection
-grep -iP 'SELECT\s+.*\s+FROM\s+.*\s+WHERE|FIND\s+\{.*\}|Name\s+LIKE' "$SRC" | sort -u > "${DATA_DIR}/soql.txt"
+grep -aiP 'SELECT\s+.*\s+FROM\s+.*\s+WHERE|FIND\s+\{.*\}|Name\s+LIKE' "$SRC" | sort -u > "${DATA_DIR}/soql.txt"
 
 # 30. PromQL Injection
-grep -iP '\{__name__=~|\{.*=\".*\"\}|histogram_quantile|rate\(' "$SRC" | sort -u > "${DATA_DIR}/promql.txt"
+grep -aiP '\{__name__=~|\{.*=\".*\"\}|histogram_quantile|rate\(' "$SRC" | sort -u > "${DATA_DIR}/promql.txt"
 
 # ── FINALIZE ────────────────────────────────────────────────
 mv "${TEMP_DIR}/new_master.txt" "$MASTER_LIST"
