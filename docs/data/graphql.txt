@@ -18719,8 +18719,6 @@ public-process-field-ui-graphql
 public/wp-includes/ixr/class-ixr-introspectionserver.php
 publiclinkattributes.graphql
 pushmessages.graphql
-pyrasite	2.0	code injection and introspection of running python processes.	http://pyrasite.com/
-python2-pyrasite	2.0	code injection and introspection of running python processes	archstrike
 qa-graphql
 qa-graphql-directories
 qa1-master-graphql-service-websockets

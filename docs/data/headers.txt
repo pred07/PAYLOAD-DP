@@ -8,6 +8,7 @@ host: graph.windows.net
 host: localhost
 host: localhost:8080
 true-client-ip: 127.0.0.1
+x-forwarded-for: 127.0.0.1
 x-forwarded-for: client1, proxy1, proxy2
 x-forwarded-host: 127.0.0.1
 x-forwarded-host: localhost
@@ -16,3 +17,4 @@ x-forwarded-host: localhost:8080
 x-host: 127.0.0.1
 x-originating-ip: 127.0.0.1
 x-real-ip: 127.0.0.1
+x-remote-ip: 127.0.0.1

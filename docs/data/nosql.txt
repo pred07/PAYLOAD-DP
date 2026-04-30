@@ -1,5 +1,6 @@
 !$netsec!$
 !mo$ney
+# --- NOSQL, JWT, LDAP, CORS ---
 $$induswebi$$
 $$ltm1234$$
 $$nelis
@@ -150,9 +151,6 @@ $where: '1 == 1'
 78gh1$netto
 79nur$ing1
 @uz$incw
-[$ne]=1
-[$ne]=toto
-[$regex]=a.*
 \';select version from v$instance --
 \\';select version from v$instance --
 \\n';select version from v$instance --
@@ -364,7 +362,6 @@ dtmdefaultbaseiterators$internalaxisiteratorbase.class
 dtmdefaultbasetraversers$indexeddtmaxistraverser.class
 e3$inc@603
 echo "$newurl" >> ./session/$safelogname.$safehostname.siteanalysis.txt
-echo "[data-extracted: $inj3ct req:$k "$safefilename"-rdiff-$k-$payloadcounter-$reqcount.txt] $method url: $uhostname	$page"??"$badparams" >> ./output/"$safefilename"$safelogname.txt
 echo "[data-extracted: $inj3ct req:$k "$safefilename"-rdiff-$k-$payloadcounter-$reqcount.txt] $method url: $uhostname$page"?"$badparams" >> ./output/"$safefilename"$safelogname.txt
 echo "[data-extracted: $inj3ct req:$k "$safefilename"-rdiff-$k-$payloadcounter-$reqcount.txt] $method url: $uhostname$page"?"$static"??"$badparams" >> ./output/"$safefilename"$safelogname.txt
 echo "[data-extracted: $inj3ct req:$k "$safefilename"-rdiff-$k-$payloadcounter-$reqcount.txt] $method url: $uhostname$page"???"$badparams" >> ./output/"$safefilename"$safelogname.txt

