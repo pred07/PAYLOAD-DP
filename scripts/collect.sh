@@ -504,17 +504,27 @@ grep -aiP 'SELECT\s+.*\s+FROM\s+.*\s+WHERE|FIND\s+\{.*\}|Name\s+LIKE' "$SRC" | s
 grep -aiP '\{__name__=~|\{.*=\".*\"\}|histogram_quantile|rate\(' "$SRC" | sort -u > "${DATA_DIR}/promql.txt"
 
 # ── FINALIZE ────────────────────────────────────────────────
+echo "[*] Finalizing master database..."
+cp "$SRC" "${DATA_DIR}/payloads.txt"
+
 # ── CHUNKING & CLEANUP ──────────────────────────────────────
-echo "[*] Splitting files > 90MB to satisfy GitHub limits..."
-CHUNK_MANIFEST=""
+echo "[*] Splitting files > 50MB to satisfy GitHub limits..."
 for f in "${DATA_DIR}"/*.txt; do
+    [ -e "$f" ] || continue
     base=$(basename "$f")
-    size=$(stat -c%s "$f" 2>/dev/null || stat -f%z "$f" 2>/dev/null)
     
-    if [ "$size" -gt 94371840 ]; then
+    # Use du -b for byte count on Linux, or stat if du -b not available
+    size=$(stat -c%s "$f" 2>/dev/null || stat -f%z "$f" 2>/dev/null || du -b "$f" | cut -f1)
+    
+    if [ -n "$size" ] && [ "$size" -gt 52428800 ]; then
         echo " [!] Splitting $base ($(($size/1024/1024))MB)"
-        split -b 90M -d --additional-suffix=.txt "$f" "${DATA_DIR}/${base%.txt}_part"
-        rm "$f"
+        # Use split with numeric suffixes and .txt extension
+        if split -b 45M -d --additional-suffix=.txt "$f" "${DATA_DIR}/${base%.txt}_part"; then
+            rm "$f"
+            echo " [OK] $base split into chunks"
+        else
+            echo " [ERR] Failed to split $base"
+        fi
     fi
 done
 
@@ -535,7 +545,7 @@ echo ""
 echo "═══════════════════════════════════════"
 echo " PAYLOAD-DP AGGREGATION COMPLETE"
 echo "═══════════════════════════════════════"
-echo " Total Payloads : $COUNT"
+echo " Total Payloads : $TOTAL"
 echo " SQLi           : $(wc -l < ${DATA_DIR}/sqli.txt)"
 echo " XSS            : $(wc -l < ${DATA_DIR}/xss.txt)"
 echo " SSRF           : $(wc -l < ${DATA_DIR}/ssrf.txt)"
