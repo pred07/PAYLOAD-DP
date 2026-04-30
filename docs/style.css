@@ -145,6 +145,32 @@ header { text-align: center; margin-bottom: 50px; padding-top: 20px; }
     padding: 40px 22px; text-align: center;
 }
 
+.load-more-container {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background: var(--card);
+}
+
+.load-more-btn {
+    background: var(--accent-dim);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.load-more-btn:hover {
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 0 15px var(--glow);
+}
+
 .copy-btn {
     background: none; border: 1px solid var(--border);
     color: var(--text-dim); cursor: pointer;

@@ -65,10 +65,44 @@ async function loadPayloads(filename) {
 const COPY_ICON = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`;
 const CHECK_ICON = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>`;
 
+let currentDisplayList = [];
+const itemsPerPage = 500;
+let displayedCount = 0;
+
+function createPayloadRow(payload) {
+    const row = document.createElement('div');
+    row.className = 'payload-item';
+
+    const code = document.createElement('span');
+    code.className = 'payload-text';
+    code.textContent = payload;
+
+    const btn = document.createElement('button');
+    btn.className = 'copy-btn';
+    btn.innerHTML = COPY_ICON;
+    btn.title = 'Copy';
+    btn.addEventListener('click', () => {
+        navigator.clipboard.writeText(payload).then(() => {
+            btn.innerHTML = CHECK_ICON;
+            btn.classList.add('copied');
+            setTimeout(() => {
+                btn.innerHTML = COPY_ICON;
+                btn.classList.remove('copied');
+            }, 1800);
+        });
+    });
+
+    row.appendChild(code);
+    row.appendChild(btn);
+    return row;
+}
+
 function renderPayloads(list) {
     const bar  = document.getElementById('payload-count-bar');
     const box  = document.getElementById('payload-list');
     box.innerHTML = '';
+    currentDisplayList = list;
+    displayedCount = 0;
 
     if (!list.length) {
         bar.textContent = '0 payloads';
@@ -76,46 +110,43 @@ function renderPayloads(list) {
         return;
     }
 
-    const display = list.slice(0, 500);
-    bar.textContent = `Showing ${display.length.toLocaleString()} of ${list.length.toLocaleString()} payloads`;
+    showNextBatch();
+}
 
+function showNextBatch() {
+    const box = document.getElementById('payload-list');
+    const bar = document.getElementById('payload-count-bar');
+    
+    // Remove existing "Load More" button container
+    const existingMore = document.querySelector('.load-more-container');
+    if (existingMore) existingMore.remove();
+
+    const start = displayedCount;
+    const end = Math.min(start + itemsPerPage, currentDisplayList.length);
+    const batch = currentDisplayList.slice(start, end);
+    
     const frag = document.createDocumentFragment();
-    display.forEach(payload => {
-        const row = document.createElement('div');
-        row.className = 'payload-item';
-
-        const code = document.createElement('span');
-        code.className = 'payload-text';
-        code.textContent = payload;
-
-        const btn = document.createElement('button');
-        btn.className = 'copy-btn';
-        btn.innerHTML = COPY_ICON;
-        btn.title = 'Copy';
-        btn.addEventListener('click', () => {
-            navigator.clipboard.writeText(payload).then(() => {
-                btn.innerHTML = CHECK_ICON;
-                btn.classList.add('copied');
-                setTimeout(() => {
-                    btn.innerHTML = COPY_ICON;
-                    btn.classList.remove('copied');
-                }, 1800);
-            });
-        });
-
-        row.appendChild(code);
-        row.appendChild(btn);
-        frag.appendChild(row);
+    batch.forEach(payload => {
+        frag.appendChild(createPayloadRow(payload));
     });
-
-    if (list.length > 500) {
-        const more = document.createElement('div');
-        more.className = 'payload-empty';
-        more.textContent = `// ${(list.length - 500).toLocaleString()} more — use search to filter`;
-        frag.appendChild(more);
-    }
-
+    
     box.appendChild(frag);
+    displayedCount = end;
+    
+    bar.textContent = `Showing ${displayedCount.toLocaleString()} of ${currentDisplayList.length.toLocaleString()} payloads`;
+    
+    if (displayedCount < currentDisplayList.length) {
+        const container = document.createElement('div');
+        container.className = 'load-more-container';
+        
+        const btn = document.createElement('button');
+        btn.className = 'load-more-btn';
+        btn.textContent = `Load More (${(currentDisplayList.length - displayedCount).toLocaleString()} remaining)`;
+        btn.addEventListener('click', () => showNextBatch());
+        
+        container.appendChild(btn);
+        box.appendChild(container);
+    }
 }
 
 // ── SEARCH ───────────────────────────────────────────────────────────────
