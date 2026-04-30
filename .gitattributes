@@ -1,0 +1,5 @@
+docs/data/*.txt text
+*.sh text eol=lf
+*.js text
+*.css text
+*.html text
