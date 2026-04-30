@@ -57896,7 +57896,6 @@ x-envoy-internal
 x-forward-for: 127.0.0.1
 x-forwarded-by: 127.0.0.1
 x-forwarded-for-original: 127.0.0.1
-x-forwarded-for: 127.0.0.1
 x-forwarded-host: 127.0.0.1
 x-forwarded-host: localhost
 x-forwarded-host: localhost:80
@@ -57918,7 +57917,6 @@ x-proxy-url: 127.0.0.1
 x-proxyuser-ip: 127.0.0.1
 x-real-ip: 127.0.0.1
 x-remote-addr: 127.0.0.1
-x-remote-ip: 127.0.0.1
 x-rewrite-url: 127.0.0.1
 x-true-ip: 127.0.0.1
 x-twitter-internal

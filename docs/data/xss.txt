@@ -1294,7 +1294,6 @@ ${alert(1337)}`' autofocus
 %3cscript%3ealert(%22xss%22)%3c/script%3e/index.html
 %3cscript%3ealert('xss')%3c/script%3e
 %3cscript%3ealert(1)%3c/script%00testtest%3e
-%3cscript%3ealert(1)%3c/script%3e
 %3cscript%3ealert(document.cookie);%3c%2fscript%3e
 %3cscript%3ealert(vulnerable)%3c%2fscript%3e
 %3csvg%2fx%3d%22%3e%22%2f%3cscript%3ealert(%22xss%22)%3c%2fscript%3e()%2f%2f
@@ -14917,7 +14916,6 @@ ${alert(1337)}`' autofocus
 <script>alert('vulnerable')</script>.thtml
 <script>alert('x')</script>=a
 <script>alert('xss');</script>
-<script>alert('xss')</script>
 <script>alert('xss')</script>.aspx
 <script>alert((+[][+[]]+[])[++[[]][+[]]]+([![]]+[])[++[++[[]][+[]]][+[]]]+([!![]]+[])[++[++[++[[]][+[]]][+[]]][+[]]]+([!![]]+[])[++[[]][+[]]]+([!![]]+[])[+[]])</script>
 <script>alert(/x/)</script>
