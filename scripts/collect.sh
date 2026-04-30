@@ -380,11 +380,22 @@ discover_and_fetch() {
         if curl -sSL -f --connect-timeout 8 --max-time 20 "$raw_url" -o "${TEMP_DIR}/${out_name}" 2>/dev/null; then
             cat "${TEMP_DIR}/${out_name}" | \
                 tr -d '\r' | \
+                # 1. Remove ANSI Escape sequences (terminal junk like [2K)
+                sed 's/\x1B\[[0-9;]*[JKmsu]//g' | \
+                # 2. Convert to lowercase and trim
                 tr '[:upper:]' '[:lower:]' | \
                 sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | \
+                # 3. Filter out lines that look like tool output (status: 200, size: 123, etc)
+                grep -avE "status: [0-9]{3}|size: [0-9]+|words: [0-9]+|lines: [0-9]+" | \
+                # 4. Remove obvious comments and separators
                 sed '/^#/d; /^\/\//d; /^;/d' | \
+                # 5. Remove lines with binary/non-printable junk
+                grep -avP '[^\x20-\x7E]' | \
+                # 6. Skip lines that are just massive repetitions (e.g., aaaaaa...)
+                grep -avP '(.)\1{30,}' | \
+                # 7. Basic HTML/Error block removal
                 grep -avE "^<html|^<!doc|^404 |^error:|^---+$|^====|^\*\*\*" | \
-                awk 'length($0) >= 3' \
+                awk 'length($0) >= 3 && length($0) <= 2048' \
                 > "${TEMP_DIR}/${out_name}.clean"
         fi
         rm -f "${TEMP_DIR}/${out_name}"
