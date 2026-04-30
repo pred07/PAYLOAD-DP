@@ -1,6 +1,5 @@
 !$netsec!$
 !mo$ney
-# --- NOSQL, JWT, LDAP, CORS ---
 $$induswebi$$
 $$ltm1234$$
 $$nelis

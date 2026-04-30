@@ -76814,8 +76814,6 @@ $wp-plugins$/wordpress-thumbnail-slider/timthumb.php
 /wp-content/plugins/cimy-counter/cc_redirect.php
 /wp-content/plugins/cimy-counter/cimy_counter.php
 /wp-content/plugins/civicrm/civicrm/packages/openflashchart/php-ofc-library/ofc_upload_image.php
-/wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%0a%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-912.000000
-/wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v2'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-885.000000
 /wp-content/plugins/ck-offers/assets/css/%23a
 /wp-content/plugins/ck-offers/assets/css/%23ab
 /wp-content/plugins/ck-offers/assets/css/%23ad
@@ -77523,8 +77521,6 @@ $wp-plugins$/wordpress-thumbnail-slider/timthumb.php
 /wp-content/plugins/elementor-pro/changelog.txt
 /wp-content/plugins/elementor/
 /wp-content/plugins/elementor/assets/
-/wp-content/plugins/elementor/assets/css/%22data:image/svg+xml;charset=utf-8,%3csvg%20viewbox='0%200%20120%20120'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cdefs%3e%3cpath%20id='a'%20stroke='%236c6c6c'%20stroke-width='11'%20stroke-linecap='round'%20d='m60%207v20'/%3e%3c/defs%3e%3cuse%20xlink:href='%23a'%20opacity='.27'/%3e%3cuse%20xlink:href='%23a'%20opacity='.27'%20transform='rotate(30%2060%2060
-/wp-content/plugins/elementor/assets/css/%22data:image/svg+xml;charset=utf-8,%3csvg%20viewbox='0%200%20120%20120'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cdefs%3e%3cpath%20id='a'%20stroke='%23fff'%20stroke-width='11'%20stroke-linecap='round'%20d='m60%207v20'/%3e%3c/defs%3e%3cuse%20xlink:href='%23a'%20opacity='.27'/%3e%3cuse%20xlink:href='%23a'%20opacity='.27'%20transform='rotate(30%2060%2060
 /wp-content/plugins/elementor/assets/css/frontend-msie.min.css
 /wp-content/plugins/elementor/assets/images/placeholder.png
 /wp-content/plugins/elementor/assets/js/frontend.min.js
@@ -134301,8 +134297,6 @@ wp-content/plugins/cjte-image-zoomer/
 wp-content/plugins/cjte-imagezoomer/
 wp-content/plugins/cjte-wp-core-editor/
 wp-content/plugins/ck-and-syntaxhighlighter/
-wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%0a%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-912.000000
-wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v2'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-885.000000
 wp-content/plugins/ck-offers/assets/css/%23a
 wp-content/plugins/ck-offers/assets/css/%23ab
 wp-content/plugins/ck-offers/assets/css/%23ad
@@ -147512,8 +147506,6 @@ wp-content/plugins/elementor-pro/changelog.txt
 wp-content/plugins/elementor-templater/
 wp-content/plugins/elementor/
 wp-content/plugins/elementor/assets/
-wp-content/plugins/elementor/assets/css/%22data:image/svg+xml;charset=utf-8,%3csvg%20viewbox='0%200%20120%20120'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cdefs%3e%3cpath%20id='a'%20stroke='%236c6c6c'%20stroke-width='11'%20stroke-linecap='round'%20d='m60%207v20'/%3e%3c/defs%3e%3cuse%20xlink:href='%23a'%20opacity='.27'/%3e%3cuse%20xlink:href='%23a'%20opacity='.27'%20transform='rotate(30%2060%2060
-wp-content/plugins/elementor/assets/css/%22data:image/svg+xml;charset=utf-8,%3csvg%20viewbox='0%200%20120%20120'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cdefs%3e%3cpath%20id='a'%20stroke='%23fff'%20stroke-width='11'%20stroke-linecap='round'%20d='m60%207v20'/%3e%3c/defs%3e%3cuse%20xlink:href='%23a'%20opacity='.27'/%3e%3cuse%20xlink:href='%23a'%20opacity='.27'%20transform='rotate(30%2060%2060
 wp-content/plugins/elementor/assets/css/frontend-msie.min.css
 wp-content/plugins/elementor/assets/images/placeholder.png
 wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot

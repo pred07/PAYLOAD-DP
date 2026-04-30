@@ -1,6 +1,5 @@
 !9jwtsxhnntp
 !changethismercurehubjwtsecretkey!
-# --- NOSQL, JWT, LDAP, CORS ---
 %26echo%20muqjwt$((7%2b78))$(echo%20muqjwt)muqjwt
 &#34;/tmp/jwtsecret &#34;```
 '&&echo$ifsjjwtom$((43%2b29))$(echo$ifsjjwtom)jjwtom&

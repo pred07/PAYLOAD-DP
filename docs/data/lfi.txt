@@ -14696,12 +14696,6 @@ $(`cat /etc/passwd`)
 ??/??/windows/system32/drivers/etc/hosts
 ??/etc/passwd
 ??/windows/system32/drivers/etc/hosts
-[seccheck]/..%252f..%252f../ext.ini
-[seccheck]/..%255c..%255c../ext.ini
-[seccheck]/..%2f../ext.ini
-[seccheck]/..252f..252f../ext.ini
-[seccheck]/..255c..255c../ext.ini
-[seccheck]/..2f../ext.ini
 \.../
 \..//etc/passwd
 \../\..//etc/passwd

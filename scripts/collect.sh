@@ -395,6 +395,11 @@ discover_and_fetch() {
                 grep -avP '(.)\1{30,}' | \
                 # 7. Basic HTML/Error block removal
                 grep -avE "^<html|^<!doc|^404 |^error:|^---+$|^====|^\*\*\*" | \
+                # 8. Audit Fix: Remove Markdown (#, [, ---) and boilerplate (viewbox, variant=)
+                grep -avE "^# |^\[|^-{3,}|^table of contents" | \
+                grep -avE "variant=\"|viewbox=\"|data-view-component|aria-hidden" | \
+                # 9. Audit Fix: Remove generic placeholders and tool noise
+                grep -avE "test@gmail\.com|pepepepe|REPLACE_ME|\{\{ \.nodelete \}\}" | \
                 awk 'length($0) >= 3 && length($0) <= 2048' \
                 > "${TEMP_DIR}/${out_name}.clean"
         fi
