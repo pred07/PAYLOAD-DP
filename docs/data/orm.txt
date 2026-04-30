@@ -56,8 +56,6 @@
 /tactiverecordrelationcontext.php
 /walletactive/walletactiverecordbyid
 /web-inf/classes/hibernate.cfg.xml
-/æ–‡ç« ç›®å½•/find_by_id
-/文章目录/find_by_id
 003_spring_and_hibernate.zip
 02 activerecord
 03_06_0790_change_prepare_to_hibernate_to_up.sql
@@ -629,7 +627,6 @@ activerecordtest
 activerecordtest.php
 activerecordtesttrait.php
 activerecordviz
-activerecord���ݲ�ѯ����.txt
 activitystore.hibernate.cfg.xml
 addrbook.hibernate.cfg.xml
 admingui.hibernate.cfg.xml
@@ -1487,7 +1484,6 @@ hibernate-settings.xml.erb
 hibernate-shard.cfg.xml
 hibernate-simple.cfg.xml
 hibernate-slave.cfg.xml
-hibernate-source/源代码及重要说明/hibernate_struts_training_itemmgr/webroot/index.jsp
 hibernate-spatial
 hibernate-spatial.cfg.xml
 hibernate-spring-web/webapp/index.jsp
@@ -1602,7 +1598,6 @@ hibernate.cfg.xml.example.mysql
 hibernate.cfg.xml.example.oracle
 hibernate.cfg.xml.example.postgresql
 hibernate.cfg.xml.ftl
-hibernate.cfg.xml.homologação
 hibernate.cfg.xml.jdbc
 hibernate.cfg.xml.jndi
 hibernate.cfg.xml.launch
@@ -1611,7 +1606,6 @@ hibernate.cfg.xml.mine
 hibernate.cfg.xml.mysql
 hibernate.cfg.xml.old
 hibernate.cfg.xml.postgres
-hibernate.cfg.xml.produção
 hibernate.cfg.xml.r34
 hibernate.cfg.xml.r41
 hibernate.cfg.xml.resrc
@@ -2091,8 +2085,6 @@ hibernatewebapp.zip
 hibernatework
 hibernateworkflowentry.hbm.xml
 hibernatewriteoperationintegrationtest-context.xml
-hibernate关联关系.xml
-hibernate连接mycat例子详解_正能量_20150507.rar
 hibernatingrhinos.profiler.appender.nhibernatelog4net.dll
 hide,australian seal,leatherette,leatheroid,accumulate,amass,backlog,be consumed,be gone,be incognito,bearskin,beat,beat all hollow,beat hollow,beaver,beaverette,becloud,befog,best,black fox,black marten,black sable,blanket,blind,block,blot out,brook mink,buckskin,burrow,bury,cache,calf,calfskin,camouflage,capeskin,cat,cease,cease to be,cease to exist,chinchilla,chinchillette,cloak,cloud,coast seal,coat,collect,conceal,coney,cover,cover up,cowhide,cumulate,curtain,cuticle,deerskin,defeat,dematerialize,depart,dermis,destroy,die,die away,die out,disappear,disguise,dispel,disperse,dissemble,dissipate,dissolve,distract attention from,ditch,do a fade-out,do in,doeskin,dress down,drop from sight,drub,dwindle,eclipse,electric seal,ensconce,enshroud,entomb,envelop,ermine,erode,evanesce,evaporate,exit,fade,fade away,fade out,fell,fix,flagellate,flail,flax,flee,fleece,flesh,flog,fly,fox,fur,furring,furs,garner,garner up,gather into barns,genet,give a dressing-down,gloss over,go,go away,go into hiding,go to ground,go underground,goatskin,harbor,heap up,hibernate,hide away,hide out,hoard,hoard up,hold,hole up,hors de combat,hush up,imitation fur,imitation leather,integument,inter,jacket,jaguar,keep,keep quiet,keep secret,keep under cover,lambaste,lapin,larrup,lash,lather,lay up,leather,leather paper,leave no trace,leave the scene,leopard,lick,lie,lie close,lie doggo,lie hid,lie low,lie snug,lodge,lurk,mantle,marmot,marten,mask,masquerade,melt,melt away,merino,mink,mole,moleskin,monkey,muskrat,nutria,obfuscate,obscure,occult,otter,outclass,outdo,outer layer,outer skin,outfight,outgeneral,outmaneuver,outpoint,outrun,outsail,outshine,paddle,pass,pass away,pass out,pelt,peltry,pelts,perish,pigskin,pile up,plant,play peekaboo,put,put up,rabbit,rabbitskin,raccoon,rawhide,remain anonymous,repress,retire from sight,rind,ruin,sable,save,save up,scourge,screen,seclude,secrete,settle,shade,shagreen,sheath,sheepskin,shelter,shield,shroud,silence,sink,sink away,sit tight,skin,skin alive,skins,skunk,slur over,squirrel,squirrel away,stash,stay in hiding,stock up,stockpile,store up,stripe,suffer an eclipse,suppress,take cover,tan,tegument,thrash,tiger,treasure,treasure up,trim,triumph over,trounce,undo,vair,vanish,vanish from sight,varnish,veil,wallop,waste,waste away,wear a mask,wear away,wear out,welt,whale,whip,white fox,whitewash,wool,worst
 hiemsubrephibernate.cfg.xml
@@ -3221,7 +3213,6 @@ sparks/php-activerecord/0.0.2/vendor/php-activerecord/lib/sqlbuilder.php
 sparks/php-activerecord/0.0.2/vendor/php-activerecord/lib/table.php
 sparks/php-activerecord/0.0.2/vendor/php-activerecord/lib/utils.php
 sparks/php-activerecord/0.0.2/vendor/php-activerecord/lib/validations.php
-spring+jpa+hibernate中persistence.xml详解.html
 spring-config-hibernate-jpa.xml
 spring-config-hibernate.xml
 spring-context-hibernate.xml
@@ -3643,4 +3634,3 @@ yii/framework/db/ar/cactiverecord.php
 yii/framework/db/ar/cactiverecordbehavior.php
 zen.datastore.nhibernate.sqllite-net45.html
 zenoh_activerecord.dll
-��ͨhibernate

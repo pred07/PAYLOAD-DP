@@ -1,4 +1,3 @@
-[01;34mgraphql[0m
 -/graphql-explorer
 .changeset/add-graphql-singular.md
 .changeset/fix-graphql-plural.md

