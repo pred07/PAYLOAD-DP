@@ -39,7 +39,8 @@ jobs:
             git add -A
             MSGS=("syncing latest payloads" "updated datasets" "adding new findings" "database maintenance" "refreshed sources" "synced with upstream")
             git commit -m "${MSGS[$RANDOM % ${#MSGS[@]}]}"
-            git pull --rebase origin main
+            # Handle potential rebase conflicts by favoring remote structure (theirs) for splits
+            git pull --rebase origin main || (git rebase --abort && git pull --rebase origin main -X theirs)
             git push origin main
           else
             echo "No changes detected."

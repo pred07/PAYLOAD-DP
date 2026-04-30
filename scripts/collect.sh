@@ -508,18 +508,23 @@ echo "[*] Finalizing master database..."
 cp "$SRC" "${DATA_DIR}/payloads.txt"
 
 # ── CHUNKING & CLEANUP ──────────────────────────────────────
-echo "[*] Splitting files > 50MB to satisfy GitHub limits..."
+echo "[*] Cleaning up old chunks and splitting large files (>25MB)..."
+# Remove old part files first to avoid duplicates/stale data
+rm -f "${DATA_DIR}"/*_part*.txt
+
 for f in "${DATA_DIR}"/*.txt; do
     [ -e "$f" ] || continue
     base=$(basename "$f")
     
-    # Use du -b for byte count on Linux, or stat if du -b not available
+    # Skip if it's the master payloads file (we split that too, but we handle it in the loop)
+    # Actually, we should split everything that's too big.
+    
     size=$(stat -c%s "$f" 2>/dev/null || stat -f%z "$f" 2>/dev/null || du -b "$f" | cut -f1)
     
-    if [ -n "$size" ] && [ "$size" -gt 52428800 ]; then
-        echo " [!] Splitting $base ($(($size/1024/1024))MB)"
-        # Use split with numeric suffixes and .txt extension
-        if split -b 45M -d --additional-suffix=.txt "$f" "${DATA_DIR}/${base%.txt}_part"; then
+    if [ -n "$size" ] && [ "$size" -gt 26214400 ]; then
+        echo " [!] Splitting $base ($(($size/1024/1024))MB)..."
+        # Split into 25MB chunks
+        if split -b 25M -d -a 2 --additional-suffix=.txt "$f" "${DATA_DIR}/${base%.txt}_part"; then
             rm "$f"
             echo " [OK] $base split into chunks"
         else
