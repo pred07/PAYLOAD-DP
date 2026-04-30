@@ -1,2 +1,20 @@
 X-Forwarded-For: 127.0.0.1
 X-Remote-IP: 127.0.0.1
+forwarded: for=127.0.0.1;proto=http;by=127.0.0.1
+forwarded: for=192.0.2.43, for=198.51.100.17
+forwarded: for=192.0.2.60;proto=http;by=203.0.113.43
+host: google.com
+host: graph.windows.net
+host: localhost
+host: localhost:8080
+true-client-ip: 127.0.0.1
+x-forwarded-for: 127.0.0.1
+x-forwarded-for: client1, proxy1, proxy2
+x-forwarded-host: 127.0.0.1
+x-forwarded-host: localhost
+x-forwarded-host: localhost:80
+x-forwarded-host: localhost:8080
+x-host: 127.0.0.1
+x-originating-ip: 127.0.0.1
+x-real-ip: 127.0.0.1
+x-remote-ip: 127.0.0.1

