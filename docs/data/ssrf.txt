@@ -1,18 +1,4 @@
 [01;34mkubernetes[0m
-[2k.phan/internal_stubs/dom.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/imagick.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/intl.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/memcached.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/oci8.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/pcntl.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/pgsql.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/readme [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/redis.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/sockets.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/sqlsrv.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k.phan/internal_stubs/tideways.phan_php [status: 403, size: 146, words: 3, lines: 8]
-[2k/boxes/oracle-vagrant-boxes/kubernetes/.env [status: 403, size: 4062, words: 588, lines: 89]
-[2k/kubernetes/.env        [status: 403, size: 4062, words: 588, lines: 89]
 "& ping -i 30 127.0.0.1 &"
 "'dsn: mysql:host=localhost;dbname=" ext:yml | ext:txt "password:"
 "+onmouseover="window.location='http://localhost'
