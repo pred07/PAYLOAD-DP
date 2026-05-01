@@ -70055,6 +70055,7 @@ bsf_page4_onupdate
 bsf_rotateleftbutton_onupdate
 bsf_rotaterightbutton_onupdate
 bsf_slider_onupdate
+bsi-md-uk-med-tech-mdr-update-april-2016-presentation-uk-en.pdf
 bsm_core_data_insert.sql
 bsm_single_insert.sql
 bsselect.resource-meta.xml
