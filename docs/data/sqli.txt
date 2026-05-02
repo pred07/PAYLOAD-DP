@@ -72591,7 +72591,6 @@ changelog/update-stricter-global-unique-id
 changelog/update-switch-version-button-location
 changelog/update-woopayments-methods-logos-component
 changelog/update-wp-68-context-types
-changelog/update-wp-68-editor-types
 changelog/update-wp-68-media-types
 changelog/update-wp-68-packages
 changemainupdate
@@ -91635,8 +91634,6 @@ email-account/modals/select-folder.js
 email-account/modals/select-folder.tpl
 email-analytics/jobs/update-member-email-analytics/index.js
 email-delete
-email-editor/changelog/update-wp-68-editor-types
-email-editor/changelog/update-wp-68-packages
 email-editor/src/components/template-select/async.ts
 email-editor/src/components/template-select/index.ts
 email-editor/src/components/template-select/select-modal.tsx
@@ -106951,8 +106948,6 @@ js/dist/5.1.0a1/bundle.forms.apphookselect.min.js
 js/dynamic-rows/action-delete.js
 js/e2e-utils-playwright/changelog/update-59804
 js/editor/dialog/fck_select.html
-js/email-editor/changelog/update-wp-68-editor-types
-js/email-editor/changelog/update-wp-68-packages
 js/email-editor/src/components/template-select/async.ts
 js/email-editor/src/components/template-select/index.ts
 js/email-editor/src/components/template-select/select-modal.tsx
@@ -122189,8 +122184,6 @@ packages/js/date/changelog/update-59804
 packages/js/date/changelog/update-wp-68-packages
 packages/js/dependency-extraction-webpack-plugin/changelog/update-59804
 packages/js/e2e-utils-playwright/changelog/update-59804
-packages/js/email-editor/changelog/update-wp-68-editor-types
-packages/js/email-editor/changelog/update-wp-68-packages
 packages/js/email-editor/src/components/template-select/async.ts
 packages/js/email-editor/src/components/template-select/index.ts
 packages/js/email-editor/src/components/template-select/select-modal.tsx
@@ -167532,7 +167525,6 @@ update-worker.js
 update-worker.py
 update-workspace-mirror.sh
 update-wp-68-context-types
-update-wp-68-editor-types
 update-wp-68-media-types
 update-wp-68-packages
 update-write
