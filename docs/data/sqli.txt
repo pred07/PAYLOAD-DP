@@ -101488,6 +101488,7 @@ http/controllers/v1/admin/update/finishupdatecontroller.php
 http/controllers/v1/admin/update/migrateupdatecontroller.php
 http/controllers/v1/admin/update/unzipupdatecontroller.php
 http/controllers/v1/admin/update/updatecontroller.php
+http://onedrop.today/robots.txt
 http_feed.2.update.sqlpp
 http_feed.6.update.sqlpp
 http_feed_json.2.update.sqlpp
@@ -168584,6 +168585,9 @@ update/layout-builder.php
 update/layoutbuildercontextmappingupdatepathtest.php
 update/log.txt
 update/map.php
+update/may2026cdeupdate$
+update/may2026cdeupdate/~
+update/may2026cdeupdate?
 update/menublockdepthtest.php
 update/menutreestorageschemaupdatetest.php
 update/mexico
@@ -177133,6 +177137,7 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
+wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments
