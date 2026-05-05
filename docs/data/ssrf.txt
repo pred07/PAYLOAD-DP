@@ -13642,6 +13642,7 @@ en/glossary/internalexternal-rich-media/feed/
 en/internal
 en/internal/
 en/internal/internal-lead-referral-form
+en/internaljustice/files
 en/servers/racks-internal
 enable-secure-admin-internal-user.1
 enabledforinternaluse
@@ -15703,7 +15704,6 @@ http://169.254.169.254.nicelocal.com/
 http://169.254.169.254/latest/meta-data/
 http://169.254.169.254/latest/meta-data/iam/security-credentials/
 http://169.254.169.254/latest/user-data/
-http://aws.amazon.com/robots.txt
 http://instance-data/latest/meta-data/
 http://internalhost.eu
 http://localhost
@@ -24067,6 +24067,8 @@ internal/objectprovider.php
 internal/objectprovidertest.php
 internal/openapi.json
 internal/ordercoupondatamigrator.php
+internal/orderreviews/scheduler.php
+internal/orderreviews/schedulertest.php
 internal/orders/cardicons/amex.svg
 internal/orders/cardicons/diners.svg
 internal/orders/cardicons/discover.svg
@@ -46417,6 +46419,7 @@ php/src/internal/logging/remoteloggertest.php
 php/src/internal/mcp/mcpadapterprovidertest.php
 php/src/internal/mcp/woocommerceresttransporttest.php
 php/src/internal/mcstatstest.php
+php/src/internal/orderreviews/schedulertest.php
 php/src/internal/orders/ippfunctionstest.php
 php/src/internal/orders/mobilemessaginghandlertest.php
 php/src/internal/orders/orderactionsrestcontrollertest.php
@@ -47795,6 +47798,7 @@ plugins/woocommerce/src/internal/mcp/mcpadapterprovider.php
 plugins/woocommerce/src/internal/mcp/transport/woocommerceresttransport.php
 plugins/woocommerce/src/internal/mcstats.php
 plugins/woocommerce/src/internal/ordercoupondatamigrator.php
+plugins/woocommerce/src/internal/orderreviews/scheduler.php
 plugins/woocommerce/src/internal/orders/cardicons/amex.svg
 plugins/woocommerce/src/internal/orders/cardicons/diners.svg
 plugins/woocommerce/src/internal/orders/cardicons/discover.svg
@@ -48257,6 +48261,7 @@ plugins/woocommerce/tests/php/src/internal/logging/remoteloggertest.php
 plugins/woocommerce/tests/php/src/internal/mcp/mcpadapterprovidertest.php
 plugins/woocommerce/tests/php/src/internal/mcp/woocommerceresttransporttest.php
 plugins/woocommerce/tests/php/src/internal/mcstatstest.php
+plugins/woocommerce/tests/php/src/internal/orderreviews/schedulertest.php
 plugins/woocommerce/tests/php/src/internal/orders/ippfunctionstest.php
 plugins/woocommerce/tests/php/src/internal/orders/mobilemessaginghandlertest.php
 plugins/woocommerce/tests/php/src/internal/orders/orderactionsrestcontrollertest.php
@@ -48519,7 +48524,6 @@ preferencesinternal-cache-data-proxy-vpn
 preferencesinternalgateway
 premise/front/getpingdata?url=http://0.0.0.0:9600/sm/api/v1/firewall/zone/services?zone=;/usr/bin/id;
 premista-internal
-premium/http://s3.amazonaws.com/robots.txt
 prepareinternalpurchaseorder
 prepopulatesql_applicationinformation_dc_localhost443.sql
 prepopulatesql_applicationinformation_dc_localhost8080.sql
@@ -51952,6 +51956,8 @@ src/internal/mcstats.php
 src/internal/mcstatstest.php
 src/internal/namespace.ts
 src/internal/ordercoupondatamigrator.php
+src/internal/orderreviews/scheduler.php
+src/internal/orderreviews/schedulertest.php
 src/internal/orders/cardicons/amex.svg
 src/internal/orders/cardicons/diners.svg
 src/internal/orders/cardicons/discover.svg
@@ -54069,6 +54075,7 @@ tests/php/src/internal/logging/remoteloggertest.php
 tests/php/src/internal/mcp/mcpadapterprovidertest.php
 tests/php/src/internal/mcp/woocommerceresttransporttest.php
 tests/php/src/internal/mcstatstest.php
+tests/php/src/internal/orderreviews/schedulertest.php
 tests/php/src/internal/orders/ippfunctionstest.php
 tests/php/src/internal/orders/mobilemessaginghandlertest.php
 tests/php/src/internal/orders/orderactionsrestcontrollertest.php
@@ -57598,6 +57605,7 @@ woocommerce/src/internal/mcp/mcpadapterprovider.php
 woocommerce/src/internal/mcp/transport/woocommerceresttransport.php
 woocommerce/src/internal/mcstats.php
 woocommerce/src/internal/ordercoupondatamigrator.php
+woocommerce/src/internal/orderreviews/scheduler.php
 woocommerce/src/internal/orders/cardicons/amex.svg
 woocommerce/src/internal/orders/cardicons/diners.svg
 woocommerce/src/internal/orders/cardicons/discover.svg
@@ -58061,6 +58069,7 @@ woocommerce/tests/php/src/internal/logging/remoteloggertest.php
 woocommerce/tests/php/src/internal/mcp/mcpadapterprovidertest.php
 woocommerce/tests/php/src/internal/mcp/woocommerceresttransporttest.php
 woocommerce/tests/php/src/internal/mcstatstest.php
+woocommerce/tests/php/src/internal/orderreviews/schedulertest.php
 woocommerce/tests/php/src/internal/orders/ippfunctionstest.php
 woocommerce/tests/php/src/internal/orders/mobilemessaginghandlertest.php
 woocommerce/tests/php/src/internal/orders/orderactionsrestcontrollertest.php
@@ -58666,7 +58675,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://karlsruhe.de/robots.txt
+zh/internalhttp://news9.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php

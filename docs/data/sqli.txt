@@ -53438,6 +53438,9 @@ action.update.php
 action/action.post_update.php
 action/bulk/category/delete-categories-bulk-action-extension.ts
 action/bulk/customer/delete-customers-bulk-action-extension.ts
+action/common/delete/constants.ts
+action/common/delete/delete-block.action.ts
+action/common/delete/manifests.ts
 action/delete.html.twig
 action/delete.php
 action/delete.rb
@@ -68993,6 +68996,9 @@ block-templates/changelog/update-59804
 block-templates/changelog/update-pnpm-10-upgrade
 block-templates/changelog/update-wp-68-packages
 block.post_update.php
+block/action/common/delete/constants.ts
+block/action/common/delete/delete-block.action.ts
+block/action/common/delete/manifests.ts
 block/adminhtml/catalog/product/composite/fieldset/options/type/select.php
 block/adminhtml/order/create/store/select.php
 block/adminhtml/product/composite/update/result.php
@@ -69003,6 +69009,9 @@ block/adminhtml/widget/grid/column/renderer/button/delete.php
 block/adminhtml/widget/instance/edit/chooser/_files/design-abstraction_select.html
 block/adminhtml/widget/instance/edit/chooser/_files/page_types_select.html
 block/block.post_update.php
+block/block/action/common/delete/constants.ts
+block/block/action/common/delete/delete-block.action.ts
+block/block/action/common/delete/manifests.ts
 block/catalog/product/view/type/bundle/option/select.php
 block/checkout/address/select.php
 block/delete.php
@@ -72577,6 +72586,7 @@ changelog/update-product-editor-tweak-attributes-layout
 changelog/update-product-editor-tweak-form-fields-gap
 changelog/update-product-editor-use-token-field-for-terms
 changelog/update-product-editor-validate-term-tokens
+changelog/update-product-filters-no-multiple
 changelog/update-product_editor_naming
 changelog/update-remove-banner-layout-from-inbox-note
 changelog/update-remove-media-library
@@ -75292,6 +75302,7 @@ common/components/select.test.ts
 common/components/select.tsx
 common/content/header/title_block/actions/update.html.twig
 common/delete/constants.ts
+common/delete/delete-block.action.ts
 common/delete/delete.action.kind.ts
 common/delete/delete.action.ts
 common/delete/index.ts
@@ -83315,6 +83326,7 @@ delete-block-in-inlines-middle-001.htm
 delete-block-in-inlines-middle-001.htm.ini
 delete-block-in-inlines-middle-001.xht
 delete-block-in-inlines-middle-001.xht.ini
+delete-block.action.ts
 delete-blog
 delete-blog.php
 delete-blog.php3
@@ -87177,6 +87189,7 @@ delete/data/ideletedatabuilder.cs
 delete/defaultconstraint/deletedefaultconstraintbuilder.cs
 delete/defaultconstraint/ideletedefaultconstraintoncolumnbuilder.cs
 delete/defaultconstraint/ideletedefaultconstraintontablebuilder.cs
+delete/delete-block.action.ts
 delete/delete-with-relation.action.kind.ts
 delete/delete-with-relation.action.ts
 delete/delete.action.kind.ts
@@ -101299,7 +101312,6 @@ htdocs/core/actions_addupdatedelete.inc.php
 htdocs/core/tpl/subtotalline_select.tpl.php
 htdocs/delete.php
 htdocs/group/delete.php
-htdocs/includes/ckeditor/ckeditor/plugins/forms/dialogs/select.js
 htdocs/includes/jquery/plugins/multiselect/jquery.multi-select.js
 htdocs/includes/jquery/plugins/multiselect/jquery.multi-select.min.js
 htdocs/includes/sabre/composer/autoload_files.php
@@ -122009,6 +122021,9 @@ packages/babel/test/fixtures/transformation/es6.classes-exec/shadow-container.js
 packages/babel/test/fixtures/transformation/es6.classes-exec/super-change-proto.js
 packages/babel/test/fixtures/transformation/es6.spec.block-scoping-fail/update.js
 packages/babel/test/fixtures/transformation/es6.spec.block-scoping-pass/update.js
+packages/block/block/action/common/delete/constants.ts
+packages/block/block/action/common/delete/delete-block.action.ts
+packages/block/block/action/common/delete/manifests.ts
 packages/checkout/utils/extension-cart-update.ts
 packages/components/sort-select/index.tsx
 packages/components/sort-select/stories/index.stories.tsx
@@ -124911,6 +124926,7 @@ plugins/woocommerce/changelog/update-create-term-modal-ii
 plugins/woocommerce/changelog/update-email-post-reset-content-action-label
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
 plugins/woocommerce/changelog/update-pnpm-10-upgrade
+plugins/woocommerce/changelog/update-product-filters-no-multiple
 plugins/woocommerce/changelog/update-wp-68-packages
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
@@ -145924,6 +145940,9 @@ src/orchard.web/modules/orchard.jquery/scripts/ui/effect-drop.min.js
 src/oro/bundle/distributionbundle/entity/packageupdate.php
 src/oro/component/layout/callbacklayoutupdate.php
 src/our.umbraco.ditflo.web/umbraco/actions/delete.aspx
+src/packages/block/block/action/common/delete/constants.ts
+src/packages/block/block/action/common/delete/delete-block.action.ts
+src/packages/block/block/action/common/delete/manifests.ts
 src/packages/core/culture/components/input-culture-select/input-culture-select.element.ts
 src/packages/core/culture/components/input-culture-select/input-culture-select.stories.ts
 src/packages/core/entity-action/common/delete/constants.ts
@@ -146613,6 +146632,9 @@ src/umbraco.infrastructure/migrations/expressions/update/updatedatabuilder.cs
 src/umbraco.infrastructure/persistence/relations/contentrelationsupdate.cs
 src/umbraco.web.ui.client/lib/bootstrap-tabdrop/bootstrap-tabdrop.js
 src/umbraco.web.ui.client/src/libs/observable-api/utils/partial-update-frozen-array.function.ts
+src/umbraco.web.ui.client/src/packages/block/block/action/common/delete/constants.ts
+src/umbraco.web.ui.client/src/packages/block/block/action/common/delete/delete-block.action.ts
+src/umbraco.web.ui.client/src/packages/block/block/action/common/delete/manifests.ts
 src/umbraco.web.ui.client/src/packages/core/culture/components/input-culture-select/input-culture-select.element.ts
 src/umbraco.web.ui.client/src/packages/core/culture/components/input-culture-select/input-culture-select.stories.ts
 src/umbraco.web.ui.client/src/packages/core/entity-action/common/delete/constants.ts
@@ -158140,6 +158162,9 @@ umbraco.tests.integration/umbraco.infrastructure/services/contentblueprinteditin
 umbraco.tests.integration/umbraco.infrastructure/services/contenteditingservicetests.delete.cs
 umbraco.tests.integration/umbraco.infrastructure/services/contenteditingservicetests.update.cs
 umbraco.web.ui.client/src/libs/observable-api/utils/partial-update-frozen-array.function.ts
+umbraco.web.ui.client/src/packages/block/block/action/common/delete/constants.ts
+umbraco.web.ui.client/src/packages/block/block/action/common/delete/delete-block.action.ts
+umbraco.web.ui.client/src/packages/block/block/action/common/delete/manifests.ts
 umbraco.web.ui.client/src/packages/core/culture/components/input-culture-select/input-culture-select.element.ts
 umbraco.web.ui.client/src/packages/core/culture/components/input-culture-select/input-culture-select.stories.ts
 umbraco.web.ui.client/src/packages/core/entity-action/common/delete/constants.ts
@@ -165954,6 +165979,7 @@ update-product-editor-tweak-attributes-layout
 update-product-editor-tweak-form-fields-gap
 update-product-editor-use-token-field-for-terms
 update-product-editor-validate-term-tokens
+update-product-filters-no-multiple
 update-product-from-store-products-no-quantity.sql
 update-product-from-store-products.sql
 update-product.sql
@@ -175538,6 +175564,7 @@ woocommerce/changelog/update-create-term-modal-ii
 woocommerce/changelog/update-email-post-reset-content-action-label
 woocommerce/changelog/update-pay-506-always-show-payment-radio
 woocommerce/changelog/update-pnpm-10-upgrade
+woocommerce/changelog/update-product-filters-no-multiple
 woocommerce/changelog/update-wp-68-packages
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
@@ -177136,7 +177163,6 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
-wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments
