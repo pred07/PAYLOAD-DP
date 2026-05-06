@@ -1198,7 +1198,6 @@
 37364 quill of introspection.sql
 38771 infused quill of introspection.sql
 42disallow/graphql/query/
-64293-add-graphql-settings-toggle
 64325-graphql-settings-query-limits
 64350-graphql-settings-endpoint-url
 64415-64297-graphql-settings-object-cache
@@ -5509,7 +5508,6 @@ catalogurlrewritegraphql/test/unit/model/resolver/categoryurlsuffixtest.php
 catalogurlrewritegraphql/test/unit/model/resolver/producturlsuffixtest.php
 cc-graphql.zip
 cgraphql
-changelog/64293-add-graphql-settings-toggle
 changelog/64325-graphql-settings-query-limits
 changelog/64350-graphql-settings-endpoint-url
 changelog/64415-64297-graphql-settings-object-cache
@@ -17512,7 +17510,6 @@ native_client_sdk/doc_generated/pepper_stable/c/group___typedefs.html
 nebenstellengraphql1view
 net::dbus::binding::introspector - handler for object introspection data
 newsgraphql1view
-newsletter/$http://graphql.org/robots.txt
 newslettergraphql/composer.json
 newslettergraphql/etc/di.xml
 newslettergraphql/etc/graphql/di.xml
@@ -18638,7 +18635,6 @@ plugins/users-permissions/server/graphql/types/update-role-payload.js
 plugins/users-permissions/server/graphql/types/user-input.js
 plugins/users-permissions/server/graphql/utils.js
 plugins/users-permissions/users-graphql.test.api.js
-plugins/woocommerce/changelog/64293-add-graphql-settings-toggle
 plugins/woocommerce/changelog/64325-graphql-settings-query-limits
 plugins/woocommerce/changelog/64350-graphql-settings-endpoint-url
 plugins/woocommerce/changelog/64415-64297-graphql-settings-object-cache
@@ -23242,7 +23238,6 @@ wishlistgraphql/test/unit/model/resolver/wishlist/addtocarttest.php
 wishlistgraphql/test/unit/model/resolver/wishlistitemstest.php
 wlan-ui-graphql
 woo-graphql-api
-woocommerce/changelog/64293-add-graphql-settings-toggle
 woocommerce/changelog/64325-graphql-settings-query-limits
 woocommerce/changelog/64350-graphql-settings-endpoint-url
 woocommerce/changelog/64415-64297-graphql-settings-object-cache

@@ -43796,8 +43796,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 63312walter
 63385-add-wooplug-6268-core-profiler-obw-update-shipping-integration-placements
 636824walter
-63925-update-marketplace-host-plan-orders-label
-64152-wooplug-6527-regression-mini-cart-does-not-update-or-open-when-adding
 64disallow/rsvp-update-response
 65-update-article-detail-layout.sql
 658577-update-addons.sql
@@ -72204,20 +72202,13 @@ changelog/58436-update-36803-update-country-turkey
 changelog/58792-update-blueprint-doc-exporter-ui
 changelog/61753-fix-support-composer-update
 changelog/63385-add-wooplug-6268-core-profiler-obw-update-shipping-integration-placements
-changelog/63925-update-marketplace-host-plan-orders-label
-changelog/64152-wooplug-6527-regression-mini-cart-does-not-update-or-open-when-adding
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
-changelog/copilot-fix-autocomplete-zip-code-update
 changelog/dev-add-note-drop-image-layout
 changelog/dev-ci-lint-monorepo-job-update
 changelog/fix-beta-tester-delete-option-error
 changelog/fix-product-editor-images-drop-error
 changelog/fix-select-control-deprecated-size-warning
-changelog/fix-update-mypos-icon
-changelog/fix-wooplug-3402-db-update-note-reappear
-changelog/myaccount-nav-update
-changelog/opr-cart-update-partial-addr
 changelog/release-6-3-1-1/2020-09-04-symfony-update-4.4.11.md
 changelog/release-6-3-2-0/2020-09-07-consider-admin-order-for-stock-update.md
 changelog/release-6-3-2-0/2020-09-11-update-jest-and-vue-test-utils.md
@@ -72540,15 +72531,12 @@ changelog/tweak-select-tree-2
 changelog/update-52732-nox-mobile-views
 changelog/update-59804
 changelog/update-abrev-global-unique-id
-changelog/update-add-to-cart-with-options-e2e-tests-unify-utils
 changelog/update-blueprint-require-permission-exporters-api
 changelog/update-branding-updates-to-woocommerce
 changelog/update-create-shipping-classes-optimistically
-changelog/update-create-term-modal
 changelog/update-create-term-modal-ii
 changelog/update-dataviews_package
 changelog/update-e2e-product-editor-create-simple-product
-changelog/update-email-post-reset-content-action-label
 changelog/update-export-product-edits
 changelog/update-fix-performance-issues-in-attributes-modal
 changelog/update-introduce-attributes-combobox-control
@@ -77456,7 +77444,6 @@ coordinatorupdate
 cop out,abatement of differences,abstain,abstention,accommodate,accommodation,adjust,adjustment,alibi,anythingarianism,arrangement,bargain,cash in,check out,compose,composition,compound,compromise,concession,conk,cop a plea,croak,deal,desertion of principle,die,drop,duck responsibility,duck the issue,escape without penalty,evade,evade responsibility,evade the issue,evasion,evasion of responsibility,excuse,fence-sitting,forsake the world,get away with,get by,get off,get off cheap,give and take,give way,give-and-take,giving way,go,go at liberty,go fifty-fifty,go free,go into retirement,go scot free,impartiality,independence,kick in,kick off,lame excuse,likely story,live alone,live apart,live in retirement,make a deal,make an adjustment,make concessions,meet halfway,mugwumpery,mugwumpism,mutual concession,neutralism,neutrality,nonalignment,noncommitment,noninvolvement,nonpartisanism,nothingarianism,out,peg out,play politics,poor excuse,reach a compromise,remain incommunicado,retire,rusticate,settle,settlement,sit it out,split the difference,stand neuter,stay at home,straddle,strict neutrality,strike a balance,strike a bargain,surrender,take the mean,take the veil,trim,understanding,win freedom,yield,yielding
 cop.alter
 copernicaprofile_update
-copilot-fix-autocomplete-zip-code-update
 copupdate
 copupdate.asp
 copupdate.jsp
@@ -96227,9 +96214,7 @@ fix-plugin-update
 fix-product-editor-images-drop-error
 fix-select-control-deprecated-size-warning
 fix-update-in-process
-fix-update-mypos-icon
 fix-update.go
-fix-wooplug-3402-db-update-note-reappear
 fix_exec.py
 fixdelete.sql
 fixed-image-all-position-drag-and-drop
@@ -117434,7 +117419,6 @@ my_switch_select.xml
 my_update.htm
 my_update.php
 myaccounst-security-webapps-limited-update-informations
-myaccount-nav-update
 myaccount-securety-webapps-limite-update-information
 myaccount-securety-webapps-limited-update-information
 myaccount-securety-webapps-limitid-update-information
@@ -120813,7 +120797,6 @@ opportunity/massupdate.php
 opportunityfreelancebriefupdate
 opportunitysearchupdate
 opposition party,american party,anti-monopoly party,bull moose party,communist party,conservative party,constitutional union party,democratic party,democratic-republican party,farmer-labor party,federalist party,free soil party,greenback party,know-nothing party,labour party,liberal party,liberal republican party,liberty party,national republican party,populist party,progressive party,prohibition party,republican party,socialist labor party,socialist party,socialist workers party,tammany hall,tory party,whig party,camp,city hall,faction,machine,major party,minor party,multiple party system,one-party system,party,party in power,political machine,political party,splinter party,third party,two-party system
-opr-cart-update-partial-addr
 opstalter
 opt-union-ru
 optexec
@@ -124912,22 +124895,9 @@ plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
-plugins/woocommerce/changelog/63925-update-marketplace-host-plan-orders-label
-plugins/woocommerce/changelog/64152-wooplug-6527-regression-mini-cart-does-not-update-or-open-when-adding
-plugins/woocommerce/changelog/copilot-fix-autocomplete-zip-code-update
-plugins/woocommerce/changelog/fix-select-control-deprecated-size-warning
-plugins/woocommerce/changelog/fix-update-mypos-icon
-plugins/woocommerce/changelog/fix-wooplug-3402-db-update-note-reappear
-plugins/woocommerce/changelog/myaccount-nav-update
-plugins/woocommerce/changelog/opr-cart-update-partial-addr
-plugins/woocommerce/changelog/update-add-to-cart-with-options-e2e-tests-unify-utils
-plugins/woocommerce/changelog/update-create-term-modal
 plugins/woocommerce/changelog/update-create-term-modal-ii
-plugins/woocommerce/changelog/update-email-post-reset-content-action-label
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
-plugins/woocommerce/changelog/update-pnpm-10-upgrade
 plugins/woocommerce/changelog/update-product-filters-no-multiple
-plugins/woocommerce/changelog/update-wp-68-packages
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -162354,7 +162324,6 @@ update-activiti-nullable-columns.sql
 update-activity-import.sql
 update-activity.xml
 update-add
-update-add-to-cart-with-options-e2e-tests-unify-utils
 update-addbretagnetopic.xml
 update-addforbachtopic.xml
 update-addgrenoblecompetency.xml
@@ -163262,7 +163231,6 @@ update-crawler-site.jsp
 update-crawler-site.php
 update-create
 update-create-shipping-classes-optimistically
-update-create-term-modal
 update-create-term-modal-ii
 update-created
 update-created-account
@@ -164190,7 +164158,6 @@ update-element.ts
 update-elkjop
 update-email
 update-email-address.php
-update-email-post-reset-content-action-label
 update-email-settings.php
 update-email.js
 update-employee
@@ -175550,22 +175517,9 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
-woocommerce/changelog/63925-update-marketplace-host-plan-orders-label
-woocommerce/changelog/64152-wooplug-6527-regression-mini-cart-does-not-update-or-open-when-adding
-woocommerce/changelog/copilot-fix-autocomplete-zip-code-update
-woocommerce/changelog/fix-select-control-deprecated-size-warning
-woocommerce/changelog/fix-update-mypos-icon
-woocommerce/changelog/fix-wooplug-3402-db-update-note-reappear
-woocommerce/changelog/myaccount-nav-update
-woocommerce/changelog/opr-cart-update-partial-addr
-woocommerce/changelog/update-add-to-cart-with-options-e2e-tests-unify-utils
-woocommerce/changelog/update-create-term-modal
 woocommerce/changelog/update-create-term-modal-ii
-woocommerce/changelog/update-email-post-reset-content-action-label
 woocommerce/changelog/update-pay-506-always-show-payment-radio
-woocommerce/changelog/update-pnpm-10-upgrade
 woocommerce/changelog/update-product-filters-no-multiple
-woocommerce/changelog/update-wp-68-packages
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -177163,6 +177117,7 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
+wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments
