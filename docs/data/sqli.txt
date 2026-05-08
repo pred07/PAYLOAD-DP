@@ -43793,6 +43793,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 6228__create_proc_koski_sa_p_lataa_ytr_update.sql
 62insert
 63-update-document-type-id.sql
+63270-update-53125-implement-preview-mode-flag
 63312walter
 63385-add-wooplug-6268-core-profiler-obw-update-shipping-integration-placements
 636824walter
@@ -52405,6 +52406,7 @@ __tests__/fieldtreeselect.spec.ts
 __tests__/multiselect.spec.ts
 __tests__/multitreeselect.spec.ts
 __tests__/select.spec.ts
+__tests__/settings-email-listing-update-cell.test.tsx
 __tests__/ticket-information-update.spec.ts
 __tests__/treeselect.spec.ts
 __tests__/uselocaleupdate.spec.ts
@@ -54754,12 +54756,17 @@ admin/client/marketplace/components/woo-update-manager-plugin/plugin-install-not
 admin/client/marketplace/components/woo-update-manager-plugin/woo-update-manager-plugin.scss
 admin/client/products/fills/more-menu-items/delete-variation-menu-item.tsx
 admin/client/products/fills/more-menu-items/test/delete-variation-menu-item.test.tsx
+admin/client/settings-email/__tests__/settings-email-listing-update-cell.test.tsx
+admin/client/settings-email/settings-email-listing-update-cell.story.tsx
+admin/client/settings-email/settings-email-listing-update-cell.tsx
 admin/client/settings-payments/components/modals/test/woo-payments-update-required-modal.test.tsx
 admin/client/settings-payments/components/modals/woo-payments-update-required-modal.tsx
 admin/client/settings-payments/onboarding/providers/woopayments/components/custom-select-control/index.tsx
 admin/client/settings-payments/onboarding/providers/woopayments/components/custom-select-control/style.scss
 admin/client/settings-payments/onboarding/providers/woopayments/components/grouped-select-control/index.tsx
 admin/client/settings-payments/onboarding/providers/woopayments/components/grouped-select-control/style.scss
+admin/client/wp-admin-scripts/email-editor-integration/hooks/use-apply-update.ts
+admin/client/wp-admin-scripts/email-editor-integration/review-update-plugin.tsx
 admin/client/wp-admin-scripts/fulfillments/components/action-buttons/test/update-button.test.js
 admin/client/wp-admin-scripts/fulfillments/components/action-buttons/update-button.tsx
 admin/client/wp-admin-scripts/woo-plugin-update-connect-notice/index.js
@@ -62400,6 +62407,7 @@ app/code/magento/sales/cron/gridasyncinsert.php
 app/code/magento/sales/model/gridasyncinsert.php
 app/code/magento/sales/model/order/invoice/plugin/addressupdate.php
 app/code/magento/sales/model/resourcemodel/order/payment/encryptionupdate.php
+app/code/magento/sales/model/resourcemodel/quote/delete.php
 app/code/magento/sales/view/adminhtml/templates/order/create/store/select.phtml
 app/code/magento/sales/view/adminhtml/web/js/grid/columns/multiselect.js
 app/code/magento/sales/view/frontend/email/creditmemo_update.html
@@ -72201,6 +72209,7 @@ changelog/57935-update-blueprint-docs
 changelog/58436-update-36803-update-country-turkey
 changelog/58792-update-blueprint-doc-exporter-ui
 changelog/61753-fix-support-composer-update
+changelog/63270-update-53125-implement-preview-mode-flag
 changelog/63385-add-wooplug-6268-core-profiler-obw-update-shipping-integration-placements
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
@@ -72526,6 +72535,7 @@ changelog/release-6-7-3-0/2025-08-27-update-sales-channel-context-after-switchin
 changelog/release-6-7-3-0/2025-09-08-fix-missing-promotion-rule-select.md
 changelog/release-6-7-4-0/2025-10-15-update-health-check-api.md
 changelog/release-6-7-4-0/2025-10-23-fix-google-consent-mode-v2-default-update.md
+changelog/rsm-140-add-update-available-indicator-email-list
 changelog/task-update-eslint-config
 changelog/tweak-select-tree-2
 changelog/update-52732-nox-mobile-views
@@ -72574,6 +72584,7 @@ changelog/update-product-editor-tweak-attributes-layout
 changelog/update-product-editor-tweak-form-fields-gap
 changelog/update-product-editor-use-token-field-for-terms
 changelog/update-product-editor-validate-term-tokens
+changelog/update-product-filter-style-handling
 changelog/update-product-filters-no-multiple
 changelog/update-product_editor_naming
 changelog/update-remove-banner-layout-from-inbox-note
@@ -73756,12 +73767,17 @@ client/admin/client/marketplace/components/woo-update-manager-plugin/plugin-inst
 client/admin/client/marketplace/components/woo-update-manager-plugin/woo-update-manager-plugin.scss
 client/admin/client/products/fills/more-menu-items/delete-variation-menu-item.tsx
 client/admin/client/products/fills/more-menu-items/test/delete-variation-menu-item.test.tsx
+client/admin/client/settings-email/__tests__/settings-email-listing-update-cell.test.tsx
+client/admin/client/settings-email/settings-email-listing-update-cell.story.tsx
+client/admin/client/settings-email/settings-email-listing-update-cell.tsx
 client/admin/client/settings-payments/components/modals/test/woo-payments-update-required-modal.test.tsx
 client/admin/client/settings-payments/components/modals/woo-payments-update-required-modal.tsx
 client/admin/client/settings-payments/onboarding/providers/woopayments/components/custom-select-control/index.tsx
 client/admin/client/settings-payments/onboarding/providers/woopayments/components/custom-select-control/style.scss
 client/admin/client/settings-payments/onboarding/providers/woopayments/components/grouped-select-control/index.tsx
 client/admin/client/settings-payments/onboarding/providers/woopayments/components/grouped-select-control/style.scss
+client/admin/client/wp-admin-scripts/email-editor-integration/hooks/use-apply-update.ts
+client/admin/client/wp-admin-scripts/email-editor-integration/review-update-plugin.tsx
 client/admin/client/wp-admin-scripts/fulfillments/components/action-buttons/test/update-button.test.js
 client/admin/client/wp-admin-scripts/fulfillments/components/action-buttons/update-button.tsx
 client/admin/client/wp-admin-scripts/woo-plugin-update-connect-notice/index.js
@@ -73823,6 +73839,9 @@ client/res/templates/modals/select-records.tpl
 client/res/templates/stream/notes/update.tpl
 client/res/templates/wysiwyg/modals/insert-image.tpl
 client/res/templates/wysiwyg/modals/insert-link.tpl
+client/settings-email/__tests__/settings-email-listing-update-cell.test.tsx
+client/settings-email/settings-email-listing-update-cell.story.tsx
+client/settings-email/settings-email-listing-update-cell.tsx
 client/settings-payments/components/modals/test/woo-payments-update-required-modal.test.tsx
 client/settings-payments/components/modals/woo-payments-update-required-modal.tsx
 client/settings-payments/onboarding/providers/woopayments/components/custom-select-control/index.tsx
@@ -73865,6 +73884,8 @@ client/src/views/user/modals/select-position.js
 client/src/views/wysiwyg/modals/insert-image.js
 client/src/views/wysiwyg/modals/insert-link.js
 client/thirdparty/filedrop/upload.aspx
+client/wp-admin-scripts/email-editor-integration/hooks/use-apply-update.ts
+client/wp-admin-scripts/email-editor-integration/review-update-plugin.tsx
 client/wp-admin-scripts/fulfillments/components/action-buttons/test/update-button.test.js
 client/wp-admin-scripts/fulfillments/components/action-buttons/update-button.tsx
 client/wp-admin-scripts/woo-plugin-update-connect-notice/index.js
@@ -74590,6 +74611,7 @@ code/magento/sales/cron/gridasyncinsert.php
 code/magento/sales/model/gridasyncinsert.php
 code/magento/sales/model/order/invoice/plugin/addressupdate.php
 code/magento/sales/model/resourcemodel/order/payment/encryptionupdate.php
+code/magento/sales/model/resourcemodel/quote/delete.php
 code/magento/sales/view/adminhtml/templates/order/create/store/select.phtml
 code/magento/sales/view/adminhtml/web/js/grid/columns/multiselect.js
 code/magento/sales/view/frontend/email/creditmemo_update.html
@@ -78654,9 +78676,11 @@ core/modules/update/src/form/updateform.php
 core/modules/update/src/form/updatemanagerinstall.php
 core/modules/update/src/form/updatemanagerupdate.php
 core/modules/update/src/form/updateready.php
+core/modules/update/src/hook/updatecronhooks.php
 core/modules/update/src/hook/updatehooks.php
 core/modules/update/src/hook/updaterequirements.php
 core/modules/update/src/hook/updatethemehooks.php
+core/modules/update/src/mailhandler.php
 core/modules/update/src/moduleversion.php
 core/modules/update/src/projectcorecompatibility.php
 core/modules/update/src/projectrelease.php
@@ -91634,6 +91658,8 @@ email-account/modals/select-folder.js
 email-account/modals/select-folder.tpl
 email-analytics/jobs/update-member-email-analytics/index.js
 email-delete
+email-editor-integration/hooks/use-apply-update.ts
+email-editor-integration/review-update-plugin.tsx
 email-editor/src/components/template-select/async.ts
 email-editor/src/components/template-select/index.ts
 email-editor/src/components/template-select/select-modal.tsx
@@ -101077,6 +101103,7 @@ hooks/targetlistdelete.php
 hooks/test/use-update-preferred-autocomplete-provider.ts
 hooks/tests/usekeyboarddraganddrop.test.ts
 hooks/update
+hooks/use-apply-update.ts
 hooks/use-drag-and-drop.mdx
 hooks/use-update-preferred-autocomplete-provider.ts
 hooks/usedraganddrop.ts
@@ -111561,6 +111588,7 @@ magento/sales/cron/gridasyncinsert.php
 magento/sales/model/gridasyncinsert.php
 magento/sales/model/order/invoice/plugin/addressupdate.php
 magento/sales/model/resourcemodel/order/payment/encryptionupdate.php
+magento/sales/model/resourcemodel/quote/delete.php
 magento/sales/view/adminhtml/templates/order/create/store/select.phtml
 magento/sales/view/adminhtml/web/js/grid/columns/multiselect.js
 magento/sales/view/frontend/email/creditmemo_update.html
@@ -114155,6 +114183,7 @@ model/resourcemodel/layout/update/collection.php
 model/resourcemodel/layout/update/collectiontest.php
 model/resourcemodel/order/payment/encryptionupdate.php
 model/resourcemodel/quote/address/rate/delete.php
+model/resourcemodel/quote/delete.php
 model/resourcemodel/theme/customization/update.php
 model/rule/condition/product/subselect.php
 model/stockitemsave/onproductupdate/byproductmodel/byquantityandstockstatustest.php
@@ -115574,9 +115603,11 @@ modules/update/src/controller/updatecontroller.php
 modules/update/src/form/updatemanagerinstall.php
 modules/update/src/form/updatemanagerupdate.php
 modules/update/src/form/updateready.php
+modules/update/src/hook/updatecronhooks.php
 modules/update/src/hook/updatehooks.php
 modules/update/src/hook/updaterequirements.php
 modules/update/src/hook/updatethemehooks.php
+modules/update/src/mailhandler.php
 modules/update/src/moduleversion.php
 modules/update/src/plugin/migrate/source/updatesettings.php
 modules/update/src/projectcorecompatibility.php
@@ -124895,8 +124926,11 @@ plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
+plugins/woocommerce/changelog/63270-update-53125-implement-preview-mode-flag
+plugins/woocommerce/changelog/rsm-140-add-update-available-indicator-email-list
 plugins/woocommerce/changelog/update-create-term-modal-ii
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
+plugins/woocommerce/changelog/update-product-filter-style-handling
 plugins/woocommerce/changelog/update-product-filters-no-multiple
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
@@ -124905,12 +124939,17 @@ plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manage
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/woo-update-manager-plugin.scss
 plugins/woocommerce/client/admin/client/products/fills/more-menu-items/delete-variation-menu-item.tsx
 plugins/woocommerce/client/admin/client/products/fills/more-menu-items/test/delete-variation-menu-item.test.tsx
+plugins/woocommerce/client/admin/client/settings-email/__tests__/settings-email-listing-update-cell.test.tsx
+plugins/woocommerce/client/admin/client/settings-email/settings-email-listing-update-cell.story.tsx
+plugins/woocommerce/client/admin/client/settings-email/settings-email-listing-update-cell.tsx
 plugins/woocommerce/client/admin/client/settings-payments/components/modals/test/woo-payments-update-required-modal.test.tsx
 plugins/woocommerce/client/admin/client/settings-payments/components/modals/woo-payments-update-required-modal.tsx
 plugins/woocommerce/client/admin/client/settings-payments/onboarding/providers/woopayments/components/custom-select-control/index.tsx
 plugins/woocommerce/client/admin/client/settings-payments/onboarding/providers/woopayments/components/custom-select-control/style.scss
 plugins/woocommerce/client/admin/client/settings-payments/onboarding/providers/woopayments/components/grouped-select-control/index.tsx
 plugins/woocommerce/client/admin/client/settings-payments/onboarding/providers/woopayments/components/grouped-select-control/style.scss
+plugins/woocommerce/client/admin/client/wp-admin-scripts/email-editor-integration/hooks/use-apply-update.ts
+plugins/woocommerce/client/admin/client/wp-admin-scripts/email-editor-integration/review-update-plugin.tsx
 plugins/woocommerce/client/admin/client/wp-admin-scripts/fulfillments/components/action-buttons/test/update-button.test.js
 plugins/woocommerce/client/admin/client/wp-admin-scripts/fulfillments/components/action-buttons/update-button.tsx
 plugins/woocommerce/client/admin/client/wp-admin-scripts/woo-plugin-update-connect-notice/index.js
@@ -131991,6 +132030,7 @@ resourcemodel/layout/update/collection.php
 resourcemodel/layout/update/collectiontest.php
 resourcemodel/order/payment/encryptionupdate.php
 resourcemodel/quote/address/rate/delete.php
+resourcemodel/quote/delete.php
 resourcemodel/theme/customization/update.php
 resourceqaservice_qadataupdate
 resources-update-sample.xml
@@ -132798,6 +132838,7 @@ reverse_update
 revert_sentence_delete.sql
 review-sort-select/index.tsx
 review-sort-select/style.scss
+review-update-plugin.tsx
 review-workflows/admin/src/routes/content-manager/model/id/components/assigneeselect.tsx
 review-workflows/admin/src/routes/content-manager/model/id/components/stageselect.tsx
 review-workflows/admin/src/routes/content-manager/model/id/components/tests/assigneeselect.test.tsx
@@ -133466,6 +133507,7 @@ rs.update
 rsalter
 rshowalter
 rslartunion-com-au
+rsm-140-add-update-available-indicator-email-list
 rspamd_update.conf
 rss-generation-drop.sql
 rss-generation-sc-drop.sql
@@ -134128,6 +134170,7 @@ sales/cron/gridasyncinsert.php
 sales/model/gridasyncinsert.php
 sales/model/order/invoice/plugin/addressupdate.php
 sales/model/resourcemodel/order/payment/encryptionupdate.php
+sales/model/resourcemodel/quote/delete.php
 sales/src/database/migrations/2026_04_09_120100_change_tax_category_id_fk_on_order_items_to_null_on_delete.php
 sales/view/adminhtml/templates/order/create/store/select.phtml
 sales/view/adminhtml/web/js/grid/columns/multiselect.js
@@ -141970,6 +142013,12 @@ settings-editor/src/form-controls/single-select-page-with-search/suffix.tsx
 settings-editor/src/form-controls/single-select-page-with-search/types.ts
 settings-editor/src/form-controls/single-select-page-with-search/utils.ts
 settings-editor/src/form-controls/single-select-page.tsx
+settings-email-listing-update-cell.story.tsx
+settings-email-listing-update-cell.test.tsx
+settings-email-listing-update-cell.tsx
+settings-email/__tests__/settings-email-listing-update-cell.test.tsx
+settings-email/settings-email-listing-update-cell.story.tsx
+settings-email/settings-email-listing-update-cell.tsx
 settings-payments/components/modals/test/woo-payments-update-required-modal.test.tsx
 settings-payments/components/modals/woo-payments-update-required-modal.tsx
 settings-payments/onboarding/providers/woopayments/components/custom-select-control/index.tsx
@@ -165946,6 +165995,7 @@ update-product-editor-tweak-attributes-layout
 update-product-editor-tweak-form-fields-gap
 update-product-editor-use-token-field-for-terms
 update-product-editor-validate-term-tokens
+update-product-filter-style-handling
 update-product-filters-no-multiple
 update-product-from-store-products-no-quantity.sql
 update-product-from-store-products.sql
@@ -168679,9 +168729,11 @@ update/src/controller/updatecontroller.php
 update/src/form/updatemanagerinstall.php
 update/src/form/updatemanagerupdate.php
 update/src/form/updateready.php
+update/src/hook/updatecronhooks.php
 update/src/hook/updatehooks.php
 update/src/hook/updaterequirements.php
 update/src/hook/updatethemehooks.php
+update/src/mailhandler.php
 update/src/moduleversion.php
 update/src/plugin/migrate/source/updatesettings.php
 update/src/projectcorecompatibility.php
@@ -169757,6 +169809,7 @@ usc union county airport
 usc_update
 usccreditunion-org
 usdrop
+use-apply-update.ts
 use-drag-and-drop.mdx
 use-index-no-union.sql
 use-parent-settings/select.js
@@ -175517,8 +175570,11 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
+woocommerce/changelog/63270-update-53125-implement-preview-mode-flag
+woocommerce/changelog/rsm-140-add-update-available-indicator-email-list
 woocommerce/changelog/update-create-term-modal-ii
 woocommerce/changelog/update-pay-506-always-show-payment-radio
+woocommerce/changelog/update-product-filter-style-handling
 woocommerce/changelog/update-product-filters-no-multiple
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
@@ -175527,12 +175583,17 @@ woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/woo-update-manager-plugin.scss
 woocommerce/client/admin/client/products/fills/more-menu-items/delete-variation-menu-item.tsx
 woocommerce/client/admin/client/products/fills/more-menu-items/test/delete-variation-menu-item.test.tsx
+woocommerce/client/admin/client/settings-email/__tests__/settings-email-listing-update-cell.test.tsx
+woocommerce/client/admin/client/settings-email/settings-email-listing-update-cell.story.tsx
+woocommerce/client/admin/client/settings-email/settings-email-listing-update-cell.tsx
 woocommerce/client/admin/client/settings-payments/components/modals/test/woo-payments-update-required-modal.test.tsx
 woocommerce/client/admin/client/settings-payments/components/modals/woo-payments-update-required-modal.tsx
 woocommerce/client/admin/client/settings-payments/onboarding/providers/woopayments/components/custom-select-control/index.tsx
 woocommerce/client/admin/client/settings-payments/onboarding/providers/woopayments/components/custom-select-control/style.scss
 woocommerce/client/admin/client/settings-payments/onboarding/providers/woopayments/components/grouped-select-control/index.tsx
 woocommerce/client/admin/client/settings-payments/onboarding/providers/woopayments/components/grouped-select-control/style.scss
+woocommerce/client/admin/client/wp-admin-scripts/email-editor-integration/hooks/use-apply-update.ts
+woocommerce/client/admin/client/wp-admin-scripts/email-editor-integration/review-update-plugin.tsx
 woocommerce/client/admin/client/wp-admin-scripts/fulfillments/components/action-buttons/test/update-button.test.js
 woocommerce/client/admin/client/wp-admin-scripts/fulfillments/components/action-buttons/update-button.tsx
 woocommerce/client/admin/client/wp-admin-scripts/woo-plugin-update-connect-notice/index.js
@@ -175835,6 +175896,8 @@ wound,abrade,abrasion,abscess,abuse,ache,aching,afflict,affront,aggrieve,agonize
 wowexec
 wows_update.zip
 wowupdate
+wp-admin-scripts/email-editor-integration/hooks/use-apply-update.ts
+wp-admin-scripts/email-editor-integration/review-update-plugin.tsx
 wp-admin-scripts/fulfillments/components/action-buttons/test/update-button.test.js
 wp-admin-scripts/fulfillments/components/action-buttons/update-button.tsx
 wp-admin-scripts/woo-plugin-update-connect-notice/index.js
@@ -177117,7 +177180,6 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
-wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments
