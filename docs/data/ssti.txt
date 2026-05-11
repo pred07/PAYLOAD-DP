@@ -580,9 +580,6 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{cookiecutter.project_slug}}
 {{cookiecutter.project_slug}}_datamodel.xml
 {{cookiecutter.repo_name}}
-{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/templates/404.html
-{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/templates/500.html
-{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/templates/base.html
 {{cookiecutter.stem_name}}.xml
 {{cookiecutter.stem_name}}_build.xml
 {{cycler.__init__.__globals__.os}}
