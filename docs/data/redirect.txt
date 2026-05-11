@@ -2529,6 +2529,7 @@ $~u4\\
 -1<script>a=/crosssitescripting/\ndocument.cookie=true;</script>
 -6\\w!,_ni.2-}dd~11mi!/hv.`obyb
 -> https://docs.hackerone.com/hackers/quality-reports.html
+-\\57
 -\\k6o"&v'ua2'`gd"wbw6vr8m[mqw(
 -\\l
 -^\\@[-^\\@[
@@ -5835,6 +5836,7 @@ Origin: https://attacker.com
 \/\/yoururl.com
 \/\:type\/
 \000045xpr\000065 ss/*blabl/\\aaaaa!!!*
+\7-\\85
 \[]\\
 \\ \.exe;50
 \\"&
@@ -6262,7 +6264,9 @@ Origin: https://attacker.com
 \\64\.exe;45
 \\6=
 \\80.152.179
+\\87g9b
 \\89d\.exe;70
+\\92-l5
 \\::1\c$\windows\system32\drivers\etc\hosts
 \\::1\c$\windows\system32\drivers\etc\hosts.
 \\<script\\>
@@ -12759,10 +12763,12 @@ b3|;$0\\mnm;ibb05&njk;v!m/o\\==f
 b=\"url(\\"\";
 b?rj9l*%?`ef%c'[[~shv$`mth\\|3=
 b@8>\\_q9l4mt`0y>y)a
+b\6\\5
 b\\!b11
 b\\%
 b\\0
 b\\1
+b\\13
 b\\2103
 b\\24
 b\\2\50
@@ -13063,6 +13069,7 @@ bookmark renewal check agent [http://www.bookmark.ne.jp/]
 bookmark renewal check agent [http://www.bookmark.ne.jp/] (version 2.0beta)
 bookmarkbase(2/;http://bookmarkbase.com)
 books/*/http://worldometers.info/robots.txt
+borg\\7
 bozx#h\\si[i9~vjmyzi#+?6
 bqk,*/t"kn|@p#o"rqz-0nuzz|<<\\m
 bqneh\\3
@@ -13617,6 +13624,7 @@ csc\\50434125
 csc\\504\5275
 csd\\
 csd\\301
+csd\\31
 csd\\519
 csd\\75a
 cse html validator lite online (http://online.htmlvalidator.com/php/onlinevallite.php)
@@ -13627,6 +13635,7 @@ csgi\\2
 csgi\\3
 csgi\\4
 csn0\\62
+csn\\62
 csws\\0
 ct\\9
 ctiu<gcqg|m9w%w;,r\\gi=njetvz1q
@@ -13779,6 +13788,7 @@ demo/safari-reader-test-nielshttp://mathispower4u.com/robots.txt
 denmex websearch (http://search.denmex.com)
 department of computing            | http://www.doc.mmu.ac.uk/staff/mikew.html
 dept\\
+dept\\2
 dept\\20
 dept\\34
 dept\\67
@@ -13796,6 +13806,7 @@ dhvrw%c*\\@c>i+jfr"}.,pc5ki"tcq
 diagem/1.1 (http://www.skyrocket.gr.jp/diagem.html)
 dieing4\\"1
 digitalsubscription/imagedownload/http://sos.mo.gov/robots.txt
+diku\\92
 dingjie yang http://www.websecuritylens.org
 dir%20c:\\
 dir=http://www.evil.com/getdata.php
@@ -13897,6 +13908,7 @@ e\\60\d
 e\\60\e
 e\\60\f
 e\\60\g
+e\\82
 e\\x
 e\{89b3v|>n\\x9gky+?\{qvkx&9[in'9
 eam/vib?id=c:\\windows\\win.ini
@@ -14569,25 +14581,38 @@ gt\\241c
 gt\\338a
 gt\\342a
 gt\\406a
+gt\\46
 gt\\491a
 gt\\493c
 gt\\502a
+gt\\52
 gt\\582a
 gt\\585a
 gt\\602b
 gt\\627b
+gt\\62b
+gt\\73
 gt\\730a
 gt\\791a
 gt\\862c
 gt\\936c
+gt\\96b
 gt\\\
+gt\\\12
 gt\\\12a
+gt\\\22
 gt\\\22a
+gt\\\25
 gt\\\25c
+gt\\\46
 gt\\\46c
+gt\\\48
 gt\\\48a
+gt\\\75
 gt\\\75c
+gt\\\95
 gt\\\95a
+gt\\\98
 gt\\\98c
 gt\\\99d
 gungho/0.08004 (http://code.google.com/p/gungho-crawler/wiki/index)
@@ -16530,6 +16555,7 @@ kocmohabt (+http://www.kocmohabt.tk/) appengine-google; (+http://code.google.com
 korean/search/\?query=.
 kqq0~"o4=\\cjc7o[2r@d}g;gqg-^ut
 kr\\60_x7060
+kr\\6_76
 kr\\\3_x6886
 krugle/krugle&#44;nutch/0.8+ (krugle web crawler; http://www.krugle.com/crawler/info.html; webcrawler@krugle.com)
 ksbfu$p5rvpcu|r%d\\i.h"2y"dk0k1
@@ -16740,6 +16766,7 @@ m\\1
 m\\2
 m\\2_vivek
 m\\34
+m\\35b3
 m\\4
 m\\7-318-10
 m\\7-318\7
@@ -16892,8 +16919,11 @@ metaspinner/0.01 (metaspinner; http://www.meta-spinner.de/; support@meta-spinner
 metatagsdir/0.7 (+http://metatagsdir.com/directory/)
 metrics.torproject.org: http://rougmnvswfsmd4dq.onion/
 mf1\\401
+mf1\\41
 mf1\\703
+mf1\\73
 mf1\\801
+mf1\\81
 mgp9yqo1zxt]~fj_jjn\\x\\b;>2c,eg
 mhtml:http://html5sec.org/test.html!xss.htmlmhtml:http://html5sec.org/test.gif!xss.html
 mickeyd\\\'s
@@ -19305,6 +19335,7 @@ msnbot/x.xx ( http://search.msn.com/msnbot.htm)
 msrbot (http://research.microsoft.com/research/sv/msrbot)
 msrbot (http://research.microsoft.com/research/sv/msrbot/)
 mt4/http://virgin.com/robots.txt
+mth\\4
 muddnext\\1
 muddnext\\6
 muddnext\\8
@@ -19565,7 +19596,9 @@ o2\\3\\9
 o2ugx>fv,|1"4xo\{ojdn\\rn\\'f=a@=
 o<;#)sd(goy\\,a(n_i!2a`/&('t@5;
 o?5[})r;"u\\b''s={y-x,$-3\\8#n{*z
+o\\1
 o\\1a
+o\\2
 o\\2a
 o\\\
 o\\\\\\\rourke
@@ -20668,34 +20701,61 @@ s&xgz+;mvh-0p;gum\\h]\{t1v|;x;k&
 s*,d`lc\\xah^1u_d<ba$mvhuvtppar
 s.t.a.l.k.e.r. (http://www.seo-tools.net/en/bot.aspx)
 s220\\\"esh12
+s\1\\46
+s\2\2\\4
+s\2\\3\5
+s\2\\\21
 s\\0
 s\\000
 s\\1
+s\\13
 s\\14
 s\\19
 s\\2
 s\\20
+s\\25
 s\\3
+s\\31
+s\\311\4
 s\\38
+s\\3\19
 s\\4
+s\\411\4
+s\\41\27
 s\\5
 s\\50
+s\\52student
 s\\550b
 s\\6
+s\\61fgt
+s\\61ho
 s\\6a11
 s\\6a\7
 s\\7
+s\\71wdv
 s\\76
 s\\7w007
 s\\8
+s\\81\47
+s\\87
 s\\8a20
 s\\9
 s\\901a
+s\\93mon
 s\\95
 s\\\00
 s\\\2
+s\\\24
+s\\\2k
+s\\\2sbq
+s\\\3
+s\\\3wfe
 s\\\48
 s\\\4cr
+s\\\5
+s\\\5\18
+s\\\5\23
+s\\\5\\4
 s\\a
 s\\a05
 s\\u~axf;.es~q[ms}h%,eimm3"f[@=
@@ -22815,6 +22875,7 @@ system\\oracle\\smss\.exe;80
 syswow64\\com\\svchost\.exe;80
 szb2@)k?2#d<\{wbd)0>z\\x#/a5=q+o
 t)!~arebyxjwu\\u%hsy*pdwhyxw9>=
+t-\\3-3
 t-\\30-3
 t4$vo\\!^i7^e8|xg&r<y\\t8dt||lq}
 t4\\_!jaz%8?xm\\y_|o!eie"'?mo!jb
@@ -23492,6 +23553,7 @@ wps/contenthandler/!ut/p/digest!8skkfbwr_twczcvoc9dn3g/?uri=http://www.redbooks.
 wps/myproxy/http/www.redbooks.ibm.com/redbooks.nsf/redbookabstracts/sg247798.html?logout&redirectto=http://example.com
 wps/proxy/http/www.redbooks.ibm.com/redbooks.nsf/redbookabstracts/sg247798.html?logout&redirectto=http://example.com
 wr\\113
+wr\\16
 written in <a href="http://web.nexor.co.uk/public/perl/perl.html">perl
 ws-\\
 ws-\\1
@@ -23544,6 +23606,7 @@ x-\\507
 x-\\544
 x-\\857
 x-\\923
+x-\\93
 x-\\930
 x-nautilus-desktop:%2f%2f%2f.xml
 x-wap-profile: http://wap.samsungmobile.com/uaprof/sgh-i777.xml

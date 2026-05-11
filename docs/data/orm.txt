@@ -1766,6 +1766,7 @@ hibernate3.jar
 hibernate3.reveng.xml
 hibernate3.xml
 hibernate3.xml.svn-base
+hibernate3/src/main/webapp/index.html
 hibernate30-cfg.xml
 hibernate31
 hibernate31-cfg.xml
@@ -1781,6 +1782,7 @@ hibernate4.sql
 hibernate4.windup.test.xml
 hibernate4.windup.xml
 hibernate4/hibernate.cfg.xml
+hibernate4/src/main/webapp/index.html
 hibernate4_0040_persistence-informix.xml
 hibernate4_0040_persistence-oracle.xml
 hibernate4_0040_persistence-sqlserver.xml
@@ -2980,6 +2982,7 @@ pillar.fluentruleengine.nhibernate.dll
 pillar.fluentruleengine.nhibernate.xml
 pillar.nhibernate.dll
 placeorderfacade-hibernate-beans.xml
+plugins/inspectiongadgets/src/inspectiondescriptions/hibernateresource.html
 pmc_find_by_name
 pocnhibernate.exe
 pocnhibernate.exe.config

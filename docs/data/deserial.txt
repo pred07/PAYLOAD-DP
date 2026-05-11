@@ -243,6 +243,7 @@ app/code/magento/user/setup/patch/data/upgradeserializedfields.php
 app/lib/core/zend/amf/parse/deserializer.php
 app/lib/core/zend/serializer/adapter/pythonpickle.php
 app_deserialization.log
+appinventor/lib/closure-library/closure/goog/proto2/lazydeserializer.js
 apple_pickles.xml
 application/libraries/zend/amf/parse/amf0/deserializer.php
 application/libraries/zend/amf/parse/amf3/deserializer.php
@@ -412,6 +413,7 @@ classdeserializer.java
 classes/sabreamf/amf0/deserializer.php
 classes/sabreamf/amf3/deserializer.php
 classes/sabreamf/deserializer.php
+closure/goog/proto2/lazydeserializer.js
 cloudpickle
 cloudpickle-1.2.2-src.zip
 cloudpickle.py
@@ -1121,6 +1123,10 @@ nicklepickle53
 nikkipickle
 nikkipickle1
 ninjapickle
+node_modules/bson/deserializer_bak.js
+node_modules/bson/lib/bson/parser/deserializer.js
+node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/deserializer_bak.js
+node_modules/mongoose/node_modules/bson/deserializer_bak.js
 nodeserializer.java
 nonplus,gordian knot,abecedarian,addle,amaze,answer,answer conclusively,argue down,astonish,astound,baffle,bafflement,balk,bamboozle,beat,bewilderment,blast,boggle,bother,brave,bring up short,buffalo,challenge,check,checkmate,circumvent,confound,confoundment,confront,confuse,confusion,confute,contradict,contravene,controvert,counter,counteract,countermand,counterwork,cross,crush,crux,dabbler,dash,daze,defeat,defy,demolish,deny,destroy,dilemma,dilettante,discomfit,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,discountenance,dish,dismay,dismiss,dispose of,disrupt,disturbance,dumbfound,elude,embarrassment,enigma,faze,finish,fix,floor,flummox,flurry,fluster,foil,frustrate,fuddle,get,jam,keep in suspense,knock the chocks,knot,knotty point,lick,maze,muddle,mystery,mystify,node,nodus,nonprofessional,overcome,overthrow,overturn,overwhelm,oxymoron,paradox,paralyze,parry,perplex,perplexity,perturbation,pickle,plight,pons asinorum,poser,pother,predicament,problem,put to silence,puzzle,puzzlement,quandary,rattle,rebut,reduce to silence,refute,riddle,ruin,sabotage,scotch,scrape,settle,shock,shut up,silence,smash all opposition,smatterer,spike,spoil,squash,squelch,stew,stick,stonewall,stop,stump,stun,stymie,subvert,take aback,teaser,throw,thwart,tyro,unassuredness,undermine,upset,vexed question
 nopickles4
@@ -2087,6 +2093,7 @@ pickleweasel
 pickleweasel4eva
 pickleweasle
 pickleweed
+picklewick
 picklewix-com
 picklewood72
 pickleworm
@@ -2119,6 +2126,7 @@ playlist.pickle.zip
 playlistversionconnection.pickle.zip
 plight,adverse circumstances,adversity,affiance,affliction,aggravation,annoyance,assurance,assure,avouch,avouchment,baffle,bafflement,bearings,become engaged,betroth,bewilderment,bind,blight,bother,box,breakers ahead,bummer,cardhouse,care,case,catch-22,cause for alarm,circumstance,circumstances,clutch,complication,condition,confoundment,confusion,contract,contract an engagement,corner,countersign,covenant,crisis,cross,crunch,curse,danger,dangerous ground,difficulties,difficulty,dilemma,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,disturbance,downer,embarrassing position,embarrassment,emergency,endangerment,engage,engagement,enigma,estate,extremity,faith,fine how-do-you-do,fix,footing,gaping chasm,gathering clouds,guarantee,hard knocks,hard life,hard lot,hardcase,hardship,hazard,hell to pay,hobble,hole,hot water,house of cards,how-do-you-do,imbroglio,imperilment,irritation,jam,jeopardy,location,lot,make a promise,menace,mess,mix,modality,mode,morass,mystery,nonplus,oath,parlous straits,parole,pass,peril,perplexity,perturbation,pickle,pinch,place,pledge,position,posture,pother,predicament,pressure,pretty pass,pretty pickle,pretty predicament,problem,promise,publish the banns,puzzle,puzzlement,quagmire,quandary,quicksand,rank,riddle,rigor,risk,rocks ahead,scrape,sea of troubles,situation,slough,solemn declaration,spot,squeeze,standing,state,station,status,stew,sticky wicket,storm clouds,strait,straits,stress,stress of life,swamp,swear,thin ice,threat,tight spot,tight squeeze,tightrope,trial,tribulation,tricky spot,troth,trouble,troubles,unassuredness,underwrite,unholy mess,upset,vale of tears,vicissitude,vouch,vow,warrant,warranty,word,word of honor
 plot_pickled_graph.xml
+plugins/inspectiongadgets/src/inspectiondescriptions/deserializableclassinsecurecontext.html
 plugins/mentionplugin/deserializementionhtml.ts
 plugins/richembedplugin/deserializerichembedhtml.spec.tsx
 plugins/richembedplugin/deserializerichembedhtml.ts
@@ -2161,6 +2169,7 @@ protected/vendors/zend/serializer/adapter/pythonpickle.php
 proto          = b'\x80'  # identify pickle protocol
 provider/emptybodydeserializerprovider.php
 pubertpickle
+public/vendor/jquery/deserialize/jquery.deserialize.min.js
 pubmed.pickle.old
 puckeredpickle-com
 pungent,attic,acerb,acerbate,acerbic,acescent,acid,acrid,acrimonious,acute,afflictive,agonizing,amaroidal,aphoristic,aromatic,asperous,astringent,atrocious,axiomatic,barbed,biting,bitter,bitter as gall,brilliant,caustic,clever,coarse,consuming,crab,crabbed,cramping,crisp,cruel,cutting,deafening,distressing,droll,dry,epigrammatic,escharotic,exciting,excruciating,facetious,flavorful,formulaic,formulistic,funny,gnawing,gnomic,grave,green,griping,hard,harrowing,harsh,hot,humorous,humorsome,hurtful,hurting,incisive,intense,irritating,jesting,jocose,jocular,joking,joky,joshing,keen,keen-witted,lively,loud,mordant,nimble-witted,nose-piercing,nose-tickling,oppressive,painful,paroxysmal,penetrating,peppery,peppy,pickled,piercing,piquant,pithy,platitudinous,poignant,pointed,proverbial,provocative,quick-witted,racking,racy,rapier-like,reeking,rich,rough,salt,salty,sapid,sarcastic,scathing,scintillating,seasoned,sec,sententious,severe,sharp,shooting,smart,snappy,sour,sour as vinegar,soured,sourish,sparkling,spasmatic,spasmic,spasmodic,spicy,spirited,sprightly,stabbing,stern,stimulating,stinging,strong,strong-scented,strong-smelling,succinct,suffocating,tangy,tart,tartish,tasty,terse,thundering,tormenting,torturous,trenchant,uninteresting,unripe,unsweet,unsweetened,upsetting,vinegarish,vinegary,vitriolic,vivacious,whimsical,witty,zesty
@@ -2350,6 +2359,7 @@ src/jms/serializer/eventdispatcher/predeserializeevent.php
 src/jms/serializer/genericdeserializationvisitor.php
 src/jms/serializer/jsondeserializationvisitor.php
 src/jms/serializer/xmldeserializationvisitor.php
+src/orchard.web/modules/orchard.layouts/scripts/jquery.deserialize.js
 src/prestashopbundle/apiplatform/provider/emptybodydeserializerprovider.php
 src/scripts/vanilla-editor/plugins/mentionplugin/deserializementionhtml.ts
 src/scripts/vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.spec.tsx
@@ -2481,6 +2491,7 @@ there was an error deserializing the object of type
 there was an error deserializing the object of type system.uint32
 there was an error while trying to deserialize parameter
 thinkphp/extend/vendor/zend/amf/parse/deserializer.php
+third_party/closure/goog/proto2/lazydeserializer.js
 thomasbigpickle
 thrift/lib/hack/src/protocol/simplephpobject/tsimplephpobjectprotocol.php
 thrift/lib/hack/src/protocol/simplephpobject/tsimplephpobjectprotocolkeyediteratorwrapper.php

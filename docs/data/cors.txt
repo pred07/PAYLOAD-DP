@@ -28,6 +28,11 @@ supplierloginwithcredentials
 tao-case-insensitive-null-opaque-origin.sub.html.ini
 tao-null-opaque-origin.html.ini
 tao-null-opaque-origin.sub.html.ini
+tests/src/testrequestwithcredentials.js
+tests/wpt/web-platform-tests/xmlhttprequest/xmlhttprequest-withcredentials.any.js
+tests/wpt/web-platform-tests/xmlhttprequest/xmlhttprequest-withcredentials.html
+tests/wpt/web-platform-tests/xmlhttprequest/xmlhttprequest-withcredentials.js
+tests/wpt/web-platform-tests/xmlhttprequest/xmlhttprequest-withcredentials.worker.js
 the response header contained multiple access-control-allow-credentials headers.
 the response header contained multiple access-control-allow-origin headers.
 withcredentials

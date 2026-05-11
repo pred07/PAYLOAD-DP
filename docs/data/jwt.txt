@@ -1506,6 +1506,10 @@ expired_jwt
 express-jwt
 express-jwt-tests.ts
 express-jwt.d.ts
+extensions/amp-access/0.1/amp-access-server-jwt.js
+extensions/amp-access/0.1/jwt.js
+extensions/amp-access/0.1/test/test-amp-access-server-jwt.js
+extensions/amp-access/0.1/test/test-jwt.js
 extensions/libraries/redcore/api/oauth2/encryption/firebasejwt.php
 extensions/libraries/redcore/api/oauth2/encryption/jwt.php
 extensions/libraries/redcore/api/oauth2/granttype/jwtbearer.php
@@ -3664,6 +3668,16 @@ nkjwt
 nnjwtest
 nocs-57b8bb4484-r6jwt
 node-jwt
+node_modules/express-jwt/lib/errors/unauthorizederror.js
+node_modules/express-jwt/lib/index.js
+node_modules/jsonwebtoken/test/jwt.hs.tests.js
+node_modules/jsonwebtoken/test/jwt.rs.tests.js
+node_modules/jwt-simple/index.js
+node_modules/jwt-simple/lib/jwt.js
+node_modules/jwt-simple/test/basic.js
+node_modules/twilio/node_modules/jwt-simple/index.js
+node_modules/twilio/node_modules/jwt-simple/lib/jwt.js
+node_modules/twilio/node_modules/jwt-simple/test/basic.js
 nodejs-jwt-apiproxy.zip
 not_development_only_jwt_secret
 nsjwtjobs
