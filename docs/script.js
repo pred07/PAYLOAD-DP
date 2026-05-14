@@ -181,7 +181,7 @@ document.getElementById('search-input').addEventListener('input', e => {
         return;
     }
 
-    renderPayloads(q ? currentPayloads.filter(p => p.includes(q)) : currentPayloads);
+    renderPayloads(q ? currentPayloads.filter(p => p.toLowerCase().includes(q)) : currentPayloads);
 });
 
 // ── TABS ─────────────────────────────────────────────────────────────────
