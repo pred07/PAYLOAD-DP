@@ -1,0 +1,42 @@
+name: CVE Intel Update
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-cve:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run CVE fetch
+        run: |
+          python scripts/fetch_cve.py
+
+      - name: Commit if changed
+        run: |
+          if [[ -n $(git status --porcelain docs/data/cve.txt) ]]; then
+            git config user.name 'pred07'
+            git config user.email 'pred07@users.noreply.github.com'
+            git add docs/data/cve.txt
+            git commit -m "update daily cve intel [$(date -u +'%Y-%m-%d')]"
+            git pull --rebase origin main || (git rebase --abort && git pull --rebase origin main -X theirs)
+            git push origin main
+          else
+            echo "No changes in CVE intel."
+          fi

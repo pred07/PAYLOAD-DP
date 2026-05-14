@@ -13,11 +13,26 @@ async function loadMetadata() {
         document.getElementById('last-updated').textContent =
             d.toLocaleString('en-US', { month:'short', day:'numeric', year:'numeric',
                 hour:'2-digit', minute:'2-digit', timeZone:'UTC' }) + ' UTC';
+        
+        // Also fetch CVE count
+        const cveRes = await fetch('./data/cve.txt');
+        if (cveRes.ok) {
+            const cveText = await cveRes.text();
+            const count = cveText.split('\n').filter(Boolean).length;
+            document.getElementById('cve-count').textContent = count.toLocaleString();
+        }
     } catch {
         document.getElementById('total-count').textContent = '—';
+        document.getElementById('cve-count').textContent = '—';
         document.getElementById('last-updated').textContent = '—';
     }
 }
+
+// ── NAVIGATION ──────────────────────────────────────────────────────────
+document.getElementById('cve-intel-card').addEventListener('click', () => {
+    const cveBtn = document.querySelector('.tab-btn[data-file="cve.txt"]');
+    if (cveBtn) cveBtn.click();
+});
 
 // ── LOAD PAYLOADS ────────────────────────────────────────────────────────
 async function loadPayloads(filename) {
