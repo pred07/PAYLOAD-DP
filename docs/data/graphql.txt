@@ -7006,7 +7006,6 @@ creategraphqllog
 createscgraphql
 createworkspacegraphqlauth
 crehana-graphql-service-auth-dev
-crehana-graphql-service-marketplace-dev
 crehana-graphql-service-users-dev
 cross-relate-yarpp-wpgraphql
 crud-notifications/schema.graphql
@@ -7262,7 +7261,6 @@ deletescgraphql
 delivery-app-graphql
 delivery/graphql
 demo-graphql
-demo-graphql-shoppingone
 demos/introspectionutils.java
 dependency/graphqlschemadependencyprovider.php
 depire-graphql
@@ -8279,7 +8277,6 @@ devgraphqlutilityquery3
 devgraphqlutilityquery4
 devservgraphql
 dhcobjectintrospection
-digital-gcpdashboards-graphql
 digital__metric__type_8h.xml
 digitalsecurity-graphql
 directfb-remove-redefinition-of-__typeof__.patch
@@ -10414,7 +10411,6 @@ graphql-kariba
 graphql-let
 graphql-local
 graphql-m2
-graphql-mesh-poc
 graphql-middleware
 graphql-moke
 graphql-mutation
@@ -10445,7 +10441,6 @@ graphql-relay
 graphql-relay-npm-0.6.0-fc47a08f8d-0027d8c844.zip
 graphql-relay==2.0.1
 graphql-relayspecification.md
-graphql-replica
 graphql-request
 graphql-ruby
 graphql-sandbox
@@ -20643,7 +20638,6 @@ stubs/graphql/type/definition/resolveinfo.stub
 submitted_works__recordings__tracks__product__type
 submitted_works__recordings__tracks__product__type__in
 subscribe.graphql
-subscriptiongraphql
 subscriptions/aitexttoolupdates.graphql
 subscriptions/appmaintenance.graphql
 subscriptions/checklisttemplateupdates.graphql
