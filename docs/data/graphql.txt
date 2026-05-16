@@ -1203,6 +1203,8 @@
 64415-64297-graphql-settings-object-cache
 64448-64298-graphql-settings-apq
 64488-64301-graphql-settings-cache-ttl
+64596-64166-graphql-opcache-cache
+64881-fix-graphql-early-textdomain-regression
 6disallow/graphql
 <qbsearch-input class="search-input" data-scope="repo:coffinxp/payloads" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="lcfm5zcjgneuvewjd4fijuso-iwgyazdpwzkygn2z4bq6fjtuhqaekuy4e3efb1hb_z76arffwhhyuhj3rtkjq" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/getsuggestednavigationdestinations" data-current-repository="coffinxp/payloads" data-current-org="" data-current-owner="coffinxp" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
 @types-graphql-relay-npm-0.6.0-42f83eb536-d123310206.zip
@@ -1261,6 +1263,7 @@ actueelgraphql2view
 actueelgraphql3view
 actueelgraphql6view
 actueelgraphql7view
+add-filters-for-graphql-debug-and-introspection
 add-graphql-infrastructure-unit-tests
 add-graphql-singular.md
 add-wpgraphql-send-mail
@@ -1492,6 +1495,8 @@ api-functional/testsuite/magento/graphql/eavgraphql/attributeslisttest.php
 api-functional/testsuite/magento/graphql/fedex/setfedexshippingmethodsoncarttest.php
 api-functional/testsuite/magento/graphql/framework/errorhandlertest.php
 api-functional/testsuite/magento/graphql/framework/querycomplexitylimitertest.php
+api-functional/testsuite/magento/graphql/framework/querynestingdepthtest.php
+api-functional/testsuite/magento/graphql/framework/requestbodysizelimittest.php
 api-functional/testsuite/magento/graphql/framework/requiredinputargumenttest.php
 api-functional/testsuite/magento/graphql/getcustomerauthenticationheader.php
 api-functional/testsuite/magento/graphql/giftmessage/cart/giftmessagetest.php
@@ -1660,8 +1665,8 @@ api-functional/testsuite/magento/graphql/quote/shippingaddresssameasbillingtest.
 api-functional/testsuite/magento/graphql/quote/shippingmethodandratetest.php
 api-functional/testsuite/magento/graphql/quote/stockavailabilitytest.php
 api-functional/testsuite/magento/graphql/quote/storeconfigresolvertest.php
-api-functional/testsuite/magento/graphql/quotecommercegraphql/customer/clearcarttest.php
-api-functional/testsuite/magento/graphql/quotecommercegraphql/guest/clearcarttest.php
+api-functional/testsuite/magento/graphql/quotecommercecegraphql/customer/clearcarttest.php
+api-functional/testsuite/magento/graphql/quotecommercecegraphql/guest/clearcarttest.php
 api-functional/testsuite/magento/graphql/relatedproduct/getrelatedproductstest.php
 api-functional/testsuite/magento/graphql/relatedproduct/multistorerelatedproductstest.php
 api-functional/testsuite/magento/graphql/review/createproductreviewstest.php
@@ -2821,6 +2826,7 @@ app/code/magento/graphql/model/backpressure/graphqltoomanyrequestsexception.php
 app/code/magento/graphql/model/backpressure/requesttypeextractorinterface.php
 app/code/magento/graphql/model/config/disablesession.php
 app/code/magento/graphql/model/entityattributelist.php
+app/code/magento/graphql/model/graphql/requestconfiguration.php
 app/code/magento/graphql/model/mutation/batchresult.php
 app/code/magento/graphql/model/mutation/resolver/errortyperesolver.php
 app/code/magento/graphql/model/query/context.php
@@ -3011,14 +3017,14 @@ app/code/magento/paypalgraphql/readme.md
 app/code/magento/paypalgraphql/registration.php
 app/code/magento/quote/etc/graphql/di.xml
 app/code/magento/quotebundleoptions/etc/graphql/di.xml
-app/code/magento/quotecommercegraphql/composer.json
-app/code/magento/quotecommercegraphql/etc/module.xml
-app/code/magento/quotecommercegraphql/etc/schema.graphqls
-app/code/magento/quotecommercegraphql/model/cart/clearcarterror.php
-app/code/magento/quotecommercegraphql/model/cart/clearcartitems.php
-app/code/magento/quotecommercegraphql/model/resolver/clearcart.php
-app/code/magento/quotecommercegraphql/readme.md
-app/code/magento/quotecommercegraphql/registration.php
+app/code/magento/quotecommercecegraphql/composer.json
+app/code/magento/quotecommercecegraphql/etc/module.xml
+app/code/magento/quotecommercecegraphql/etc/schema.graphqls
+app/code/magento/quotecommercecegraphql/model/cart/clearcarterror.php
+app/code/magento/quotecommercecegraphql/model/cart/clearcartitems.php
+app/code/magento/quotecommercecegraphql/model/resolver/clearcart.php
+app/code/magento/quotecommercecegraphql/readme.md
+app/code/magento/quotecommercecegraphql/registration.php
 app/code/magento/quoteconfigurableoptions/etc/graphql/di.xml
 app/code/magento/quotedownloadablelinks/etc/graphql/di.xml
 app/code/magento/quotegraphql/composer.json
@@ -4560,6 +4566,8 @@ app/graphql/gql/types/input/login_input_type.rb
 app/graphql/gql/types/input/object_attribute_value_input_type.rb
 app/graphql/gql/types/input/organization_input_type.rb
 app/graphql/gql/types/input/out_of_office_input_type.rb
+app/graphql/gql/types/input/selector/node_input_type.rb
+app/graphql/gql/types/input/selector/object_input_type.rb
 app/graphql/gql/types/input/system_import_configuration_input_type.rb
 app/graphql/gql/types/input/system_information_type.rb
 app/graphql/gql/types/input/template_render_context_input_type.rb
@@ -5523,6 +5531,9 @@ changelog/64350-graphql-settings-endpoint-url
 changelog/64415-64297-graphql-settings-object-cache
 changelog/64448-64298-graphql-settings-apq
 changelog/64488-64301-graphql-settings-cache-ttl
+changelog/64596-64166-graphql-opcache-cache
+changelog/64881-fix-graphql-early-textdomain-regression
+changelog/add-filters-for-graphql-debug-and-introspection
 changelog/add-graphql-infrastructure-unit-tests
 changelog/flexibilize-graphql-auth
 changelog/flexibilize-graphql-status-codes
@@ -6201,6 +6212,7 @@ code/magento/graphql/model/backpressure/graphqltoomanyrequestsexception.php
 code/magento/graphql/model/backpressure/requesttypeextractorinterface.php
 code/magento/graphql/model/config/disablesession.php
 code/magento/graphql/model/entityattributelist.php
+code/magento/graphql/model/graphql/requestconfiguration.php
 code/magento/graphql/model/mutation/batchresult.php
 code/magento/graphql/model/mutation/resolver/errortyperesolver.php
 code/magento/graphql/model/query/context.php
@@ -6392,14 +6404,14 @@ code/magento/paypalgraphql/readme.md
 code/magento/paypalgraphql/registration.php
 code/magento/quote/etc/graphql/di.xml
 code/magento/quotebundleoptions/etc/graphql/di.xml
-code/magento/quotecommercegraphql/composer.json
-code/magento/quotecommercegraphql/etc/module.xml
-code/magento/quotecommercegraphql/etc/schema.graphqls
-code/magento/quotecommercegraphql/model/cart/clearcarterror.php
-code/magento/quotecommercegraphql/model/cart/clearcartitems.php
-code/magento/quotecommercegraphql/model/resolver/clearcart.php
-code/magento/quotecommercegraphql/readme.md
-code/magento/quotecommercegraphql/registration.php
+code/magento/quotecommercecegraphql/composer.json
+code/magento/quotecommercecegraphql/etc/module.xml
+code/magento/quotecommercecegraphql/etc/schema.graphqls
+code/magento/quotecommercecegraphql/model/cart/clearcarterror.php
+code/magento/quotecommercecegraphql/model/cart/clearcartitems.php
+code/magento/quotecommercecegraphql/model/resolver/clearcart.php
+code/magento/quotecommercecegraphql/readme.md
+code/magento/quotecommercecegraphql/registration.php
 code/magento/quoteconfigurableoptions/etc/graphql/di.xml
 code/magento/quotedownloadablelinks/etc/graphql/di.xml
 code/magento/quotegraphql/composer.json
@@ -7831,6 +7843,8 @@ dev/tests/api-functional/testsuite/magento/graphql/eavgraphql/attributeslisttest
 dev/tests/api-functional/testsuite/magento/graphql/fedex/setfedexshippingmethodsoncarttest.php
 dev/tests/api-functional/testsuite/magento/graphql/framework/errorhandlertest.php
 dev/tests/api-functional/testsuite/magento/graphql/framework/querycomplexitylimitertest.php
+dev/tests/api-functional/testsuite/magento/graphql/framework/querynestingdepthtest.php
+dev/tests/api-functional/testsuite/magento/graphql/framework/requestbodysizelimittest.php
 dev/tests/api-functional/testsuite/magento/graphql/framework/requiredinputargumenttest.php
 dev/tests/api-functional/testsuite/magento/graphql/getcustomerauthenticationheader.php
 dev/tests/api-functional/testsuite/magento/graphql/giftmessage/cart/giftmessagetest.php
@@ -7999,8 +8013,8 @@ dev/tests/api-functional/testsuite/magento/graphql/quote/shippingaddresssameasbi
 dev/tests/api-functional/testsuite/magento/graphql/quote/shippingmethodandratetest.php
 dev/tests/api-functional/testsuite/magento/graphql/quote/stockavailabilitytest.php
 dev/tests/api-functional/testsuite/magento/graphql/quote/storeconfigresolvertest.php
-dev/tests/api-functional/testsuite/magento/graphql/quotecommercegraphql/customer/clearcarttest.php
-dev/tests/api-functional/testsuite/magento/graphql/quotecommercegraphql/guest/clearcarttest.php
+dev/tests/api-functional/testsuite/magento/graphql/quotecommercecegraphql/customer/clearcarttest.php
+dev/tests/api-functional/testsuite/magento/graphql/quotecommercecegraphql/guest/clearcarttest.php
 dev/tests/api-functional/testsuite/magento/graphql/relatedproduct/getrelatedproductstest.php
 dev/tests/api-functional/testsuite/magento/graphql/relatedproduct/multistorerelatedproductstest.php
 dev/tests/api-functional/testsuite/magento/graphql/review/createproductreviewstest.php
@@ -9319,6 +9333,7 @@ framework/graphql/query/postfetchprocessorinterface.php
 framework/graphql/query/promise.php
 framework/graphql/query/querycomplexitylimiter.php
 framework/graphql/query/querydataformatter.php
+framework/graphql/query/querylengthconfiguration.php
 framework/graphql/query/queryparser.php
 framework/graphql/query/queryprocessor.php
 framework/graphql/query/queryresponseformatterinterface.php
@@ -9410,6 +9425,7 @@ framework/graphql/schemafactory.php
 framework/graphql/test/unit/query/enumlookuptest.php
 framework/graphql/test/unit/query/fieldstest.php
 framework/graphql/test/unit/query/querydataformattertest.php
+framework/graphql/test/unit/query/queryparsertest.php
 framework/graphql/test/unit/query/resolver/argument/validator/compositevalidatortest.php
 framework/graphql/test/unit/query/resolver/argument/validator/searchcriteriavalidatortest.php
 framework/graphql/test/unit/query/resolver/promisefactorytest.php
@@ -10567,6 +10583,7 @@ graphql/
 graphql/*
 graphql/.eslintignore
 graphql/.eslintrc
+graphql/.eslintrc.cjs
 graphql/.gitattributes
 graphql/.npmignore
 graphql/?query={}
@@ -10586,6 +10603,7 @@ graphql/_files/schemad.graphqls
 graphql/_graphql
 graphql/admin
 graphql/admin/.eslintrc
+graphql/admin/.eslintrc.cjs
 graphql/admin/src/index.ts
 graphql/admin/src/pluginid.ts
 graphql/admin/src/translations/cs.json
@@ -11035,6 +11053,8 @@ graphql/fragments/usertaskbartabattributes.api.ts
 graphql/fragments/usertaskbartabattributes.graphql
 graphql/framework/errorhandlertest.php
 graphql/framework/querycomplexitylimitertest.php
+graphql/framework/querynestingdepthtest.php
+graphql/framework/requestbodysizelimittest.php
 graphql/framework/requiredinputargumenttest.php
 graphql/getcustomerauthenticationheader.php
 graphql/giftmessage/cart/giftmessagetest.php
@@ -11626,6 +11646,8 @@ graphql/gql/types/input/login_input_type.rb
 graphql/gql/types/input/object_attribute_value_input_type.rb
 graphql/gql/types/input/organization_input_type.rb
 graphql/gql/types/input/out_of_office_input_type.rb
+graphql/gql/types/input/selector/node_input_type.rb
+graphql/gql/types/input/selector/object_input_type.rb
 graphql/gql/types/input/system_import_configuration_input_type.rb
 graphql/gql/types/input/system_information_type.rb
 graphql/gql/types/input/template_render_context_input_type.rb
@@ -11913,6 +11935,7 @@ graphql/model/backpressure/graphqltoomanyrequestsexception.php
 graphql/model/backpressure/requesttypeextractorinterface.php
 graphql/model/config/disablesession.php
 graphql/model/entityattributelist.php
+graphql/model/graphql/requestconfiguration.php
 graphql/model/mutation/batchresult.php
 graphql/model/mutation/resolver/errortyperesolver.php
 graphql/model/query/context.php
@@ -12534,6 +12557,7 @@ graphql/query/promise.php
 graphql/query/querycomplexitylimiter.php
 graphql/query/querycomplexitylimitertest.php
 graphql/query/querydataformatter.php
+graphql/query/querylengthconfiguration.php
 graphql/query/queryparser.php
 graphql/query/queryprocessor.php
 graphql/query/queryresponseformatterinterface.php
@@ -12738,8 +12762,8 @@ graphql/quote/shippingaddresssameasbillingtest.php
 graphql/quote/shippingmethodandratetest.php
 graphql/quote/stockavailabilitytest.php
 graphql/quote/storeconfigresolvertest.php
-graphql/quotecommercegraphql/customer/clearcarttest.php
-graphql/quotecommercegraphql/guest/clearcarttest.php
+graphql/quotecommercecegraphql/customer/clearcarttest.php
+graphql/quotecommercecegraphql/guest/clearcarttest.php
 graphql/readme.md
 graphql/realtime
 graphql/redoc
@@ -12748,6 +12772,7 @@ graphql/registration.php
 graphql/relatedproduct/getrelatedproductstest.php
 graphql/relatedproduct/multistorerelatedproductstest.php
 graphql/relations.test.api.js
+graphql/requestconfiguration.php
 graphql/resolvercacheabstract.php
 graphql/resolvers
 graphql/resolvers-configs.js
@@ -12893,6 +12918,7 @@ graphql/serializer_spec.rb
 graphql/serializers/organization.rb
 graphql/serializers/user.rb
 graphql/server/.eslintrc
+graphql/server/.eslintrc.cjs
 graphql/server/exception/batchedqueriesarenotsupported.php
 graphql/server/exception/cannotparsejsonbody.php
 graphql/server/exception/cannotparsevariables.php
@@ -13169,6 +13195,7 @@ graphql/test/unit/plugin/disablesessiontest.php
 graphql/test/unit/query/enumlookuptest.php
 graphql/test/unit/query/fieldstest.php
 graphql/test/unit/query/querydataformattertest.php
+graphql/test/unit/query/queryparsertest.php
 graphql/test/unit/query/resolver/argument/validator/compositevalidatortest.php
 graphql/test/unit/query/resolver/argument/validator/searchcriteriavalidatortest.php
 graphql/test/unit/query/resolver/promisefactorytest.php
@@ -14153,7 +14180,6 @@ how-to-authorize-graphql.md
 howtographql-com
 htdocs/includes/ace/src/mode-graphqlschema.js
 htdocs/includes/ace/src/snippets/graphqlschema.js
-http://apollographql.com/robots.txt
 http___schemas.xmlsoap.org_soap_envelope_
 http_request_configuration__md__type__.xml
 hypergraphql
@@ -14518,6 +14544,7 @@ internal/magento/framework/graphql/query/postfetchprocessorinterface.php
 internal/magento/framework/graphql/query/promise.php
 internal/magento/framework/graphql/query/querycomplexitylimiter.php
 internal/magento/framework/graphql/query/querydataformatter.php
+internal/magento/framework/graphql/query/querylengthconfiguration.php
 internal/magento/framework/graphql/query/queryparser.php
 internal/magento/framework/graphql/query/queryprocessor.php
 internal/magento/framework/graphql/query/queryresponseformatterinterface.php
@@ -14609,6 +14636,7 @@ internal/magento/framework/graphql/schemafactory.php
 internal/magento/framework/graphql/test/unit/query/enumlookuptest.php
 internal/magento/framework/graphql/test/unit/query/fieldstest.php
 internal/magento/framework/graphql/test/unit/query/querydataformattertest.php
+internal/magento/framework/graphql/test/unit/query/queryparsertest.php
 internal/magento/framework/graphql/test/unit/query/resolver/argument/validator/compositevalidatortest.php
 internal/magento/framework/graphql/test/unit/query/resolver/argument/validator/searchcriteriavalidatortest.php
 internal/magento/framework/graphql/test/unit/query/resolver/promisefactorytest.php
@@ -14881,6 +14909,7 @@ lib/internal/magento/framework/graphql/query/postfetchprocessorinterface.php
 lib/internal/magento/framework/graphql/query/promise.php
 lib/internal/magento/framework/graphql/query/querycomplexitylimiter.php
 lib/internal/magento/framework/graphql/query/querydataformatter.php
+lib/internal/magento/framework/graphql/query/querylengthconfiguration.php
 lib/internal/magento/framework/graphql/query/queryparser.php
 lib/internal/magento/framework/graphql/query/queryprocessor.php
 lib/internal/magento/framework/graphql/query/queryresponseformatterinterface.php
@@ -14972,6 +15001,7 @@ lib/internal/magento/framework/graphql/schemafactory.php
 lib/internal/magento/framework/graphql/test/unit/query/enumlookuptest.php
 lib/internal/magento/framework/graphql/test/unit/query/fieldstest.php
 lib/internal/magento/framework/graphql/test/unit/query/querydataformattertest.php
+lib/internal/magento/framework/graphql/test/unit/query/queryparsertest.php
 lib/internal/magento/framework/graphql/test/unit/query/resolver/argument/validator/compositevalidatortest.php
 lib/internal/magento/framework/graphql/test/unit/query/resolver/argument/validator/searchcriteriavalidatortest.php
 lib/internal/magento/framework/graphql/test/unit/query/resolver/promisefactorytest.php
@@ -15987,6 +16017,7 @@ magento/framework/graphql/query/postfetchprocessorinterface.php
 magento/framework/graphql/query/promise.php
 magento/framework/graphql/query/querycomplexitylimiter.php
 magento/framework/graphql/query/querydataformatter.php
+magento/framework/graphql/query/querylengthconfiguration.php
 magento/framework/graphql/query/queryparser.php
 magento/framework/graphql/query/queryprocessor.php
 magento/framework/graphql/query/queryresponseformatterinterface.php
@@ -16078,6 +16109,7 @@ magento/framework/graphql/schemafactory.php
 magento/framework/graphql/test/unit/query/enumlookuptest.php
 magento/framework/graphql/test/unit/query/fieldstest.php
 magento/framework/graphql/test/unit/query/querydataformattertest.php
+magento/framework/graphql/test/unit/query/queryparsertest.php
 magento/framework/graphql/test/unit/query/resolver/argument/validator/compositevalidatortest.php
 magento/framework/graphql/test/unit/query/resolver/argument/validator/searchcriteriavalidatortest.php
 magento/framework/graphql/test/unit/query/resolver/promisefactorytest.php
@@ -16326,6 +16358,8 @@ magento/graphql/fedex/_files/enable_fedex_shipping_method_rollback.php
 magento/graphql/fedex/setfedexshippingmethodsoncarttest.php
 magento/graphql/framework/errorhandlertest.php
 magento/graphql/framework/querycomplexitylimitertest.php
+magento/graphql/framework/querynestingdepthtest.php
+magento/graphql/framework/requestbodysizelimittest.php
 magento/graphql/framework/requiredinputargumenttest.php
 magento/graphql/getcustomerauthenticationheader.php
 magento/graphql/giftmessage/cart/giftmessagetest.php
@@ -16370,6 +16404,7 @@ magento/graphql/model/backpressure/graphqltoomanyrequestsexception.php
 magento/graphql/model/backpressure/requesttypeextractorinterface.php
 magento/graphql/model/config/disablesession.php
 magento/graphql/model/entityattributelist.php
+magento/graphql/model/graphql/requestconfiguration.php
 magento/graphql/model/mutation/batchresult.php
 magento/graphql/model/mutation/resolver/errortyperesolver.php
 magento/graphql/model/query/context.php
@@ -16571,8 +16606,8 @@ magento/graphql/quote/shippingaddresssameasbillingtest.php
 magento/graphql/quote/shippingmethodandratetest.php
 magento/graphql/quote/stockavailabilitytest.php
 magento/graphql/quote/storeconfigresolvertest.php
-magento/graphql/quotecommercegraphql/customer/clearcarttest.php
-magento/graphql/quotecommercegraphql/guest/clearcarttest.php
+magento/graphql/quotecommercecegraphql/customer/clearcarttest.php
+magento/graphql/quotecommercecegraphql/guest/clearcarttest.php
 magento/graphql/readme.md
 magento/graphql/registration.php
 magento/graphql/relatedproduct/getrelatedproductstest.php
@@ -16904,14 +16939,14 @@ magento/paypalgraphql/readme.md
 magento/paypalgraphql/registration.php
 magento/quote/etc/graphql/di.xml
 magento/quotebundleoptions/etc/graphql/di.xml
-magento/quotecommercegraphql/composer.json
-magento/quotecommercegraphql/etc/module.xml
-magento/quotecommercegraphql/etc/schema.graphqls
-magento/quotecommercegraphql/model/cart/clearcarterror.php
-magento/quotecommercegraphql/model/cart/clearcartitems.php
-magento/quotecommercegraphql/model/resolver/clearcart.php
-magento/quotecommercegraphql/readme.md
-magento/quotecommercegraphql/registration.php
+magento/quotecommercecegraphql/composer.json
+magento/quotecommercecegraphql/etc/module.xml
+magento/quotecommercecegraphql/etc/schema.graphqls
+magento/quotecommercecegraphql/model/cart/clearcarterror.php
+magento/quotecommercecegraphql/model/cart/clearcartitems.php
+magento/quotecommercecegraphql/model/resolver/clearcart.php
+magento/quotecommercecegraphql/readme.md
+magento/quotecommercecegraphql/registration.php
 magento/quoteconfigurableoptions/etc/graphql/di.xml
 magento/quotedownloadablelinks/etc/graphql/di.xml
 magento/quotegraphql/composer.json
@@ -17411,6 +17446,7 @@ mocksgraphqlplugin.js
 mode-graphqlschema.js
 model/backpressure/graphqlcontext.php
 model/backpressure/graphqltoomanyrequestsexception.php
+model/graphql/requestconfiguration.php
 modeler/modules/mbeansdescriptorsintrospectionsource.java
 models/form_updater/graphql/serializer.rb
 models/form_updater/graphql/serializer_spec.rb
@@ -17547,6 +17583,7 @@ native_client_sdk/doc_generated/pepper_stable/c/group___typedefs.html
 nebenstellengraphql1view
 net::dbus::binding::introspector - handler for object introspection data
 newsgraphql1view
+newsletter/$http://graphql.org/robots.txt
 newslettergraphql/composer.json
 newslettergraphql/etc/di.xml
 newslettergraphql/etc/graphql/di.xml
@@ -17932,9 +17969,11 @@ packages/graphql/validator/sdlvalidationcontext.php
 packages/graphql/validator/validationcontext.php
 packages/plugins/graphql/.eslintignore
 packages/plugins/graphql/.eslintrc
+packages/plugins/graphql/.eslintrc.cjs
 packages/plugins/graphql/.gitattributes
 packages/plugins/graphql/.npmignore
 packages/plugins/graphql/admin/.eslintrc
+packages/plugins/graphql/admin/.eslintrc.cjs
 packages/plugins/graphql/admin/src/index.ts
 packages/plugins/graphql/admin/src/pluginid.ts
 packages/plugins/graphql/admin/src/translations/cs.json
@@ -17958,6 +17997,7 @@ packages/plugins/graphql/package.json
 packages/plugins/graphql/readme.md
 packages/plugins/graphql/rollup.config.mjs
 packages/plugins/graphql/server/.eslintrc
+packages/plugins/graphql/server/.eslintrc.cjs
 packages/plugins/graphql/server/src/bootstrap.ts
 packages/plugins/graphql/server/src/config/default-config.ts
 packages/plugins/graphql/server/src/config/index.ts
@@ -18498,9 +18538,11 @@ platform_introspection_spec.rb
 plugin/graphql.php
 plugins/graphql/.eslintignore
 plugins/graphql/.eslintrc
+plugins/graphql/.eslintrc.cjs
 plugins/graphql/.gitattributes
 plugins/graphql/.npmignore
 plugins/graphql/admin/.eslintrc
+plugins/graphql/admin/.eslintrc.cjs
 plugins/graphql/admin/src/index.ts
 plugins/graphql/admin/src/pluginid.ts
 plugins/graphql/admin/src/translations/cs.json
@@ -18532,6 +18574,7 @@ plugins/graphql/readme.md
 plugins/graphql/relations.test.api.js
 plugins/graphql/rollup.config.mjs
 plugins/graphql/server/.eslintrc
+plugins/graphql/server/.eslintrc.cjs
 plugins/graphql/server/src/bootstrap.ts
 plugins/graphql/server/src/config/default-config.ts
 plugins/graphql/server/src/config/index.ts
@@ -18679,6 +18722,9 @@ plugins/woocommerce/changelog/64350-graphql-settings-endpoint-url
 plugins/woocommerce/changelog/64415-64297-graphql-settings-object-cache
 plugins/woocommerce/changelog/64448-64298-graphql-settings-apq
 plugins/woocommerce/changelog/64488-64301-graphql-settings-cache-ttl
+plugins/woocommerce/changelog/64596-64166-graphql-opcache-cache
+plugins/woocommerce/changelog/64881-fix-graphql-early-textdomain-regression
+plugins/woocommerce/changelog/add-filters-for-graphql-debug-and-introspection
 plugins/woocommerce/changelog/add-graphql-infrastructure-unit-tests
 plugins/woocommerce/changelog/flexibilize-graphql-auth
 plugins/woocommerce/changelog/flexibilize-graphql-status-codes
@@ -19132,16 +19178,16 @@ quiz-graphql-syd-beta
 quiz-graphql-yul-beta
 quote/etc/graphql/di.xml
 quotebundleoptions/etc/graphql/di.xml
-quotecommercegraphql/composer.json
-quotecommercegraphql/customer/clearcarttest.php
-quotecommercegraphql/etc/module.xml
-quotecommercegraphql/etc/schema.graphqls
-quotecommercegraphql/guest/clearcarttest.php
-quotecommercegraphql/model/cart/clearcarterror.php
-quotecommercegraphql/model/cart/clearcartitems.php
-quotecommercegraphql/model/resolver/clearcart.php
-quotecommercegraphql/readme.md
-quotecommercegraphql/registration.php
+quotecommercecegraphql/composer.json
+quotecommercecegraphql/customer/clearcarttest.php
+quotecommercecegraphql/etc/module.xml
+quotecommercecegraphql/etc/schema.graphqls
+quotecommercecegraphql/guest/clearcarttest.php
+quotecommercecegraphql/model/cart/clearcarterror.php
+quotecommercecegraphql/model/cart/clearcartitems.php
+quotecommercecegraphql/model/resolver/clearcart.php
+quotecommercecegraphql/readme.md
+quotecommercecegraphql/registration.php
 quoteconfigurableoptions/etc/graphql/di.xml
 quotedownloadablelinks/etc/graphql/di.xml
 quotegraphql/composer.json
@@ -20978,6 +21024,8 @@ tests/api-functional/testsuite/magento/graphql/eavgraphql/attributeslisttest.php
 tests/api-functional/testsuite/magento/graphql/fedex/setfedexshippingmethodsoncarttest.php
 tests/api-functional/testsuite/magento/graphql/framework/errorhandlertest.php
 tests/api-functional/testsuite/magento/graphql/framework/querycomplexitylimitertest.php
+tests/api-functional/testsuite/magento/graphql/framework/querynestingdepthtest.php
+tests/api-functional/testsuite/magento/graphql/framework/requestbodysizelimittest.php
 tests/api-functional/testsuite/magento/graphql/framework/requiredinputargumenttest.php
 tests/api-functional/testsuite/magento/graphql/getcustomerauthenticationheader.php
 tests/api-functional/testsuite/magento/graphql/giftmessage/cart/giftmessagetest.php
@@ -21146,8 +21194,8 @@ tests/api-functional/testsuite/magento/graphql/quote/shippingaddresssameasbillin
 tests/api-functional/testsuite/magento/graphql/quote/shippingmethodandratetest.php
 tests/api-functional/testsuite/magento/graphql/quote/stockavailabilitytest.php
 tests/api-functional/testsuite/magento/graphql/quote/storeconfigresolvertest.php
-tests/api-functional/testsuite/magento/graphql/quotecommercegraphql/customer/clearcarttest.php
-tests/api-functional/testsuite/magento/graphql/quotecommercegraphql/guest/clearcarttest.php
+tests/api-functional/testsuite/magento/graphql/quotecommercecegraphql/customer/clearcarttest.php
+tests/api-functional/testsuite/magento/graphql/quotecommercecegraphql/guest/clearcarttest.php
 tests/api-functional/testsuite/magento/graphql/relatedproduct/getrelatedproductstest.php
 tests/api-functional/testsuite/magento/graphql/relatedproduct/multistorerelatedproductstest.php
 tests/api-functional/testsuite/magento/graphql/review/createproductreviewstest.php
@@ -21784,6 +21832,8 @@ testsuite/magento/graphql/fedex/_files/enable_fedex_shipping_method_rollback.php
 testsuite/magento/graphql/fedex/setfedexshippingmethodsoncarttest.php
 testsuite/magento/graphql/framework/errorhandlertest.php
 testsuite/magento/graphql/framework/querycomplexitylimitertest.php
+testsuite/magento/graphql/framework/querynestingdepthtest.php
+testsuite/magento/graphql/framework/requestbodysizelimittest.php
 testsuite/magento/graphql/framework/requiredinputargumenttest.php
 testsuite/magento/graphql/getcustomerauthenticationheader.php
 testsuite/magento/graphql/giftmessage/cart/giftmessagetest.php
@@ -21999,8 +22049,8 @@ testsuite/magento/graphql/quote/shippingaddresssameasbillingtest.php
 testsuite/magento/graphql/quote/shippingmethodandratetest.php
 testsuite/magento/graphql/quote/stockavailabilitytest.php
 testsuite/magento/graphql/quote/storeconfigresolvertest.php
-testsuite/magento/graphql/quotecommercegraphql/customer/clearcarttest.php
-testsuite/magento/graphql/quotecommercegraphql/guest/clearcarttest.php
+testsuite/magento/graphql/quotecommercecegraphql/customer/clearcarttest.php
+testsuite/magento/graphql/quotecommercecegraphql/guest/clearcarttest.php
 testsuite/magento/graphql/relatedproduct/getrelatedproductstest.php
 testsuite/magento/graphql/relatedproduct/multistorerelatedproductstest.php
 testsuite/magento/graphql/review/createproductreviewstest.php
@@ -23310,6 +23360,9 @@ woocommerce/changelog/64350-graphql-settings-endpoint-url
 woocommerce/changelog/64415-64297-graphql-settings-object-cache
 woocommerce/changelog/64448-64298-graphql-settings-apq
 woocommerce/changelog/64488-64301-graphql-settings-cache-ttl
+woocommerce/changelog/64596-64166-graphql-opcache-cache
+woocommerce/changelog/64881-fix-graphql-early-textdomain-regression
+woocommerce/changelog/add-filters-for-graphql-debug-and-introspection
 woocommerce/changelog/add-graphql-infrastructure-unit-tests
 woocommerce/changelog/flexibilize-graphql-auth
 woocommerce/changelog/flexibilize-graphql-status-codes
