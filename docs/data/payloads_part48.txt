@@ -1,16 +1,4 @@
-com/js/deletecomment/$script
-||phncdn.com/js/deletevideo/$script
-||phncdn.com/js/edituserdropdown/$script
-||phncdn.com/js/et.ready.$script
-||phncdn.com/js/fav_like_user_feed/$script
-||phncdn.com/js/filters_menu/$script
-||phncdn.com/js/flipbook/$script
-||phncdn.com/js/follow_button/$script
-||phncdn.com/js/general-min.js$script
-||phncdn.com/js/general_tablet-min.js$script
-||phncdn.com/js/home_setup-min.js$script
-||phncdn.com/js/home_setup_tablet-min.js$script
-||phncdn.com/js/html5player.js?$script
+html5player.js?$script
 ||phncdn.com/js/infinite.$script
 ||phncdn.com/js/ipad/$script
 ||phncdn.com/js/is_online/$script
