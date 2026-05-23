@@ -638,7 +638,11 @@ add_your_jwtt_secret
 aditjwtsecret
 admin-jwt-configuration.test.api.ts
 admin/admin-jwt-configuration.test.api.ts
+admin/admin/src/utils/jwt.ts
+admin/admin/src/utils/tests/jwt.test.ts
 admin/default/build/assets/email-5ajwt575.svg
+admin/src/utils/jwt.ts
+admin/src/utils/tests/jwt.test.ts
 admin888/ewebeditor/zjwtadmin_login.asp
 admin_account_jwt
 adminadobeims/authorization/_files/jwtrs256.key
@@ -1262,6 +1266,8 @@ content-api/auth-jwt-algorithm.test.api.js
 convertapitokentojwtauth
 cookie_check=yes; lang=en_us%3bus; tsrce=settingsnodeweb; ts=vr%3de012017a1640a101aa0c24dafffd19fe%26vrexpyrs%3d1627438410%26vtexpyrs%3d1532769433%26vt%3de01201911640a101aa0c24dafffd19fd; x-pp-s=eyj0ijoimtuzmjc2nzy2ndq5myisim0ioiiwin0; nsid=s%3ay8glvpmkfkxj_mr2hof2tvmhueguxf1n.8s5le6ieok4gevlg59wyswy8xxzcycxwk7nwtun3utq; akdc=ccg11-origin-www-1.paypal.com; akavpau_ppsd=1532768264~id=928bd1c25ce0be991ae8f454b7c7fc8c; xppcts=f34bc8847fea2560; login_email=pete.johnson%40shaw.ca; ui_experience=home%3d2%26login_type%3demail_password; fn_dt=344a91a6fb904898a12a18a9a268cfcf; id_token=idtoken3a976f8244b84dfe948aa108edef4953; khcl0euy7aksmgfvhl7j5e7hptk=wguwe1-mrq4xoiqepo9cyaieqt2dgexq3mfzofvq-6br53skk66ufddoukdh35iuwjwxzeo33lpstkal; hac80bwxscjqz7km6voxulob534=4sixhbrkowaac6vovotkkvgd937rbje-l3g1b6zvfps0xsennvljdymdx1nsoq5e2nyynxwatknrkuhqavt9bxsdyfug8akgxrurrxw9rptrnzoll5b_2qkvbd_i6gqiwkilz0; x-pp-ads=atoboc1cw36jqolibn15jwf.2uvpho4; navcmd=_restriction-details; x-pp-p=px45apy-swrncghzjjzv6vdwdmordffif07-wchblleotuwiplwkbamfdwd6x.zga3das4imy-eotdphtc2fkw2bqb3ctl1n4ydwv9rwbkxioejsfkupxlmxgnvny5jbgnn3zevmr8nar969rtxhuyf9nbe7fgwihrnox0yz.dxxf6qux8ggvnh12nnyk.8alk2owfx3y8jdst8wtag9mtqy7zrzzsl-xtzabaarsuufulswdjuixpcs-o1ki484; segm=kpdr9wad9vnd2klo5j9sdt3jd9dr8ddbshd72ddrt8zqpln941oplfgh9isom0wdwngll83ghjir932dfkd8fcou; cwrclyrk4locv1fydgbaxinl6ig=off2i1vuw2k_ftkk5if_rl61amxxjgyp4ekn16v1tfjk5_e01fzhgus6h0ojnguomuyi3rynk5yykbm7unnli5mpha21vzgenb_ggqybqdblrw9uygrhmcywqe4gcve2afr0ebpddcyvwwp2hpf8f0pwpkqsyzc7c22bzsigaoblsn3lysnbaezbawkwhn1vwb3d_91yehpdnf-rgh6df3reyxfzssntwo5kugue7knpamyqil_ngqoj0la
 core/admin/admin-jwt-configuration.test.api.ts
+core/admin/admin/src/utils/jwt.ts
+core/admin/admin/src/utils/tests/jwt.test.ts
 core/authentication/jwt/defaultkeyfactory.php
 core/authentication/jwt/exceptions/expired.php
 core/authentication/jwt/exceptions/invalid.php
@@ -3758,6 +3764,8 @@ p4-gd7moeyjqt5aw-k6zhzbqssvel6guk-561946-i1-v6exp3.ds.metric
 p4-gd7moeyjqt5aw-k6zhzbqssvel6guk-561946-i2-v6exp3.v4.metric
 p4-gd7moeyjqt5aw-k6zhzbqssvel6guk-if-v6exp3-v4.metric
 p4-hjneyjitcgynq-a5tkz4tmxlzdl7h6-if-v6exp3-v4.metric
+packages/core/admin/admin/src/utils/jwt.ts
+packages/core/admin/admin/src/utils/tests/jwt.test.ts
 packages/core/core/src/services/__tests__/session-manager-jwt-config.test.ts
 packages/lexik_jwt_authentication.yaml
 packages/plugins/users-permissions/server/services/__tests__/jwt.test.js
@@ -4153,6 +4161,7 @@ src/utils/jwt-payload.test.ts
 src/utils/jwt-payload.ts
 src/utils/jwt.test.ts
 src/utils/jwt.ts
+src/utils/tests/jwt.test.ts
 src/utils/verify-session-jwt.ts
 srf9jwti2napc8uw
 srjjwtwan
@@ -4272,6 +4281,7 @@ tests/integration/testsuite/magento/jwtusertoken/api/revokedrepositorytest.php
 tests/integration/testsuite/magento/jwtusertoken/model/issuertest.php
 tests/integration/testsuite/magento/jwtusertoken/model/readertest.php
 tests/integration/testsuite/magento/jwtusertoken/model/revokertest.php
+tests/jwt.test.ts
 tests/jwtauthtest.php
 tests/jwtmanagertest.php
 tests/jwttest.php
@@ -4424,6 +4434,7 @@ utils/jwt-payload.test.ts
 utils/jwt-payload.ts
 utils/jwt.test.ts
 utils/jwt.ts
+utils/tests/jwt.test.ts
 utils/verify-session-jwt.ts
 utkbjwtynhbpv
 utnljwtj

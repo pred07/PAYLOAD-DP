@@ -43878,6 +43878,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 63312walter
 63385-add-wooplug-6268-core-profiler-obw-update-shipping-integration-placements
 636824walter
+64720-fix-update-rest-api-docs-references
 64disallow/rsvp-update-response
 65-update-article-detail-layout.sql
 658577-update-addons.sql
@@ -45004,6 +45005,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 ?*service-drop-off-pick-up=
 ?content=public&module=organisationupdate
 ?content=public&module=personupdate
+?delete-token=
 ?id=qq0w&action=qq1w&page=qq2w&name=qq3w&f=qq4w&url=qq5w&email=qq6w&type=qq7w&file=qq8w&title=qq9w&code=qq10w&q=qq11w&user=qq12w&token=qq13w&t=qq14w&c=qq15w&data=qq16w&mode=qq17w&order=qq18w&lang=qq19w&p=qq20w&key=qq21w&status=qq22w&start=qq23w&charset=qq24w&s=qq25w&post=qq26w&login=qq27w&search=qq28w&content=qq29w&comment=qq30w&step=qq31w&ajax=qq32w&debug=qq33w&state=qq34w&query=qq35w&error=qq36w&save=qq37w&sort=qq38w&format=qq39w&tab=qq40w&offset=qq41w&edit=qq42w&preview=qq43w&filter=qq44w&from=qq45w&view=qq46w&a=qq47w&limit=qq48w&do=qq49w&plugin=qq50w&theme=qq51w&text=qq52w&test=qq53w&path=qq54w&pass=qq55w&dir=qq56w&show=qq57w&h=qq58w&value=qq59w&filename=qq60w&redirect=qq61w&year=qq62w&group=qq63w&template=qq64w&subject=qq65w&m=qq66w&u=qq67w&dest=qq68w&uri=qq69w&continue=qq70w&window=qq71w&next=qq72w&reference=qq73w&site=qq74w&html=qq75w&val=qq76w&validate=qq77w&domain=qq78w&callback=qq79w&return=qq80w&feed=qq81w&host=qq82w&port=qq83w&to=qq84w&out=qq85w&navigation=qq86w&open=qq87w&account=qq88w&number=qq89w&no=qq90w&doc=qq91w&profile=qq92w&report=qq93w&daemon=qq94w&upload=qq95w&execute=qq96w&download=qq97w&log=qq98w&ip=qq99w&cli=qq100w&cmd=qq101w&document=qq102w&folder=qq103w&root=qq104w&pg=qq105w&style=qq106w&pdf=qq107w&php_path=qq108w&select=qq109w&role=qq110w&update=qq111w&where=qq112w&params=qq113w&process=qq114w&row=qq115w&table=qq116w&sel=qq117w&results=qq118w&sleep=qq119w&fetch=qq120w&keyword=qq121w&column=qq122w&field=qq123w&delete=qq124w&string=qq125w&activity=qq126w&access=qq127w&admin=qq128w&dbg=qq129w&grant=qq130w&alter=qq131w&clone=qq132w&create=qq133w&disable=qq134w&enable=qq135w&exec=qq136w&load=qq137w&make=qq138w&modify=qq139w&rename=qq140w&reset=qq141w&shell=qq142w&toggle=qq143w&adm=qq144w&cfg=qq145w&config=qq146w&utm_source=qq147w&utm_campaign=qq148w&utm_medium=qq149w&&0zhat=qq150w&
 ?id=qq0w&action=qq1w&page=qq2w&name=qq3w&f=qq4w&url=qq5w&email=qq6w&type=qq7w&file=qq8w&title=qq9w&code=qq10w&q=qq11w&user=qq12w&token=qq13w&t=qq14w&c=qq15w&data=qq16w&mode=qq17w&order=qq18w&lang=qq19w&p=qq20w&key=qq21w&status=qq22w&start=qq23w&charset=qq24w&s=qq25w&post=qq26w&login=qq27w&search=qq28w&content=qq29w&comment=qq30w&step=qq31w&ajax=qq32w&debug=qq33w&state=qq34w&query=qq35w&error=qq36w&save=qq37w&sort=qq38w&format=qq39w&tab=qq40w&offset=qq41w&edit=qq42w&preview=qq43w&filter=qq44w&from=qq45w&view=qq46w&a=qq47w&limit=qq48w&do=qq49w&plugin=qq50w&theme=qq51w&text=qq52w&test=qq53w&path=qq54w&pass=qq55w&dir=qq56w&show=qq57w&h=qq58w&value=qq59w&filename=qq60w&redirect=qq61w&year=qq62w&group=qq63w&template=qq64w&subject=qq65w&m=qq66w&u=qq67w&dest=qq68w&uri=qq69w&continue=qq70w&window=qq71w&next=qq72w&reference=qq73w&site=qq74w&html=qq75w&val=qq76w&validate=qq77w&domain=qq78w&callback=qq79w&return=qq80w&feed=qq81w&host=qq82w&port=qq83w&to=qq84w&out=qq85w&navigation=qq86w&open=qq87w&account=qq88w&number=qq89w&no=qq90w&doc=qq91w&profile=qq92w&report=qq93w&daemon=qq94w&upload=qq95w&execute=qq96w&download=qq97w&log=qq98w&ip=qq99w&cli=qq100w&cmd=qq101w&document=qq102w&folder=qq103w&root=qq104w&pg=qq105w&style=qq106w&pdf=qq107w&php_path=qq108w&select=qq109w&role=qq110w&update=qq111w&where=qq112w&params=qq113w&process=qq114w&row=qq115w&table=qq116w&sel=qq117w&results=qq118w&sleep=qq119w&fetch=qq120w&keyword=qq121w&column=qq122w&field=qq123w&delete=qq124w&string=qq125w&activity=qq126w&access=qq127w&admin=qq128w&dbg=qq129w&grant=qq130w&alter=qq131w&clone=qq132w&create=qq133w&disable=qq134w&enable=qq135w&exec=qq136w&load=qq137w&make=qq138w&modify=qq139w&rename=qq140w&reset=qq141w&shell=qq142w&toggle=qq143w&adm=qq144w&cfg=qq145w&config=qq146w&utm_source=qq147w&utm_campaign=qq148w&utm_medium=qq149w&&dwm84=qq150w&
 ?module=organisationupdate
@@ -55442,6 +55444,9 @@ admin/views/checkoutattribute/_createorupdate.cshtml
 admin/views/checkoutattribute/_createorupdate.info.cshtml
 admin/views/checkoutattribute/_createorupdate.values.cshtml
 admin/views/class-yoast-input-select.php
+admin/views/contactformattribute/_createorupdate.cshtml
+admin/views/contactformattribute/_createorupdate.info.cshtml
+admin/views/contactformattribute/_createorupdate.values.cshtml
 admin/views/country/_createorupdate.cshtml
 admin/views/country/_createorupdate.info.cshtml
 admin/views/country/_createorupdate.states.cshtml
@@ -61493,6 +61498,7 @@ api/ajax_insert.php
 api/all/settings/abity-select.myshopify.com
 api/analytics/views/update
 api/apiconfiguration/checkversionupdate
+api/apidefinition/generator/schema/storeapi/components/schemas/cartitemsupdate.json
 api/apis/v1/select
 api/app/checkupdate
 api/appbaseinfo/checkupdate
@@ -62058,6 +62064,7 @@ apiclientdelete
 apicmswl-rentanddrop
 apicredentialdelete
 apicredentialupdate
+apidefinition/generator/schema/storeapi/components/schemas/cartitemsupdate.json
 apidelete
 apidelete.php
 apiexec-sub
@@ -65832,6 +65839,8 @@ arberdelete
 arbitrary/actiondelete.xml
 arbitrary/multiselect.xml
 arbitrary/select.xml
+arc-raiders-flashpoint-update-addresses-a-major-player-complaint
+arc-raiders-riven-tides-update-launch-details
 arc.select.sql
 arcaliveupdate
 archbishop alter high school
@@ -65898,6 +65907,9 @@ areas/admin/views/checkoutattribute/_createorupdate.condition.cshtml
 areas/admin/views/checkoutattribute/_createorupdate.cshtml
 areas/admin/views/checkoutattribute/_createorupdate.info.cshtml
 areas/admin/views/checkoutattribute/_createorupdate.values.cshtml
+areas/admin/views/contactformattribute/_createorupdate.cshtml
+areas/admin/views/contactformattribute/_createorupdate.info.cshtml
+areas/admin/views/contactformattribute/_createorupdate.values.cshtml
 areas/admin/views/country/_createorupdate.cshtml
 areas/admin/views/country/_createorupdate.info.cshtml
 areas/admin/views/country/_createorupdate.states.cshtml
@@ -66059,6 +66071,7 @@ armada-update-roks-4-9
 armada-update-roks-4-9-52963ab9e9c57d804693f47efde33d1e-0000
 armaturenbrettschalter
 armdrop
+armored-core-6-steam-update-spurs-hope-of-a-dlc-reveal-at-the-game-awards
 arousedexec
 arpagrunion
 arpanet_exec
@@ -67851,6 +67864,7 @@ bal04.exec
 balancerewards/email_update.jsp
 balancerewards/v1/email_update.jsp
 balanceupdate
+balatro-creator-reflects-on-university-and-bad-grades-promising-hes-still-working-on-that-11-update
 balgrp-acc-01.exec
 balidrop
 balkanunion
@@ -68854,6 +68868,7 @@ black out,annul,becloud,bedarken,bedim,begloom,black,blacken,block the light,blo
 black sabbath - reunion
 black-drop-inspired-by-aeros
 black-flat-steel-strip-80mm-x-10mmmassive-winter-price-drop-on-this-black-flat.aspx
+black-myth-wukong-gets-an-update-thats-so-big-on-ps5-you-might-need-to-delete-the-game-and-redownload-it
 blackberry_ui_contextmenu_action_select.xml
 blackberry_ui_dialog_d_delete.xml
 blackdrop
@@ -71570,6 +71585,7 @@ cartitem_delete.sql
 cartitem_insert.sql
 cartitem_update.sql
 cartitemsupdate
+cartitemsupdate.json
 cartlinebulkupdate
 cartlinedelete
 cartlinesdelete
@@ -72361,6 +72377,7 @@ changelog/58792-update-blueprint-doc-exporter-ui
 changelog/61753-fix-support-composer-update
 changelog/63270-update-53125-implement-preview-mode-flag
 changelog/63385-add-wooplug-6268-core-profiler-obw-update-shipping-integration-placements
+changelog/64720-fix-update-rest-api-docs-references
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
 changelog/add-tree-select-control
@@ -72368,6 +72385,7 @@ changelog/dev-add-note-drop-image-layout
 changelog/dev-ci-lint-monorepo-job-update
 changelog/fix-beta-tester-delete-option-error
 changelog/fix-product-editor-images-drop-error
+changelog/fix-rsm-3550-stock-multiselect
 changelog/fix-select-control-deprecated-size-warning
 changelog/release-6-3-1-1/2020-09-04-symfony-update-4.4.11.md
 changelog/release-6-3-2-0/2020-09-07-consider-admin-order-for-stock-update.md
@@ -72691,11 +72709,16 @@ changelog/rsm-141-update-banner
 changelog/rsm-145-tracks-block-email-update
 changelog/rsm-146-e2e-update-propagation
 changelog/task-update-eslint-config
+changelog/tweak-products-app-delete-modal-no-quotes
+changelog/tweak-searchable-chip-select-spacing
 changelog/tweak-select-tree-2
 changelog/update-52732-nox-mobile-views
 changelog/update-59804
 changelog/update-abrev-global-unique-id
+changelog/update-add-to-cart-with-options-filter-inner-blocks
+changelog/update-add-to-cart-with-options-filter-inner-blocks-backwards-compatibility
 changelog/update-always-show-sale-price
+changelog/update-block-references-may-2026
 changelog/update-blueprint-require-permission-exporters-api
 changelog/update-branding-updates-to-woocommerce
 changelog/update-categories-remove-description
@@ -72705,12 +72728,15 @@ changelog/update-dataviews_package
 changelog/update-dimensions-row-layout
 changelog/update-e2e-product-editor-create-simple-product
 changelog/update-export-product-edits
+changelog/update-featured-product-checkbox
 changelog/update-fix-performance-issues-in-attributes-modal
 changelog/update-images-field-label-drag-and-size
+changelog/update-inner-blocks-protocol-unify-context-prefix
 changelog/update-introduce-attributes-combobox-control
 changelog/update-introduce-optimistc-query-update
 changelog/update-locutus-dependency
 changelog/update-migrate-reactify-feature-flag
+changelog/update-move-init-colors-to-chips-block
 changelog/update-move-logic-to-add-new-attribute
 changelog/update-navigation-while-on-input
 changelog/update-nox-in-context-onboarding-preload
@@ -72721,6 +72747,7 @@ changelog/update-pnpm-10-upgrade
 changelog/update-populate-attribute-terms-optimistically
 changelog/update-product-attribute-types
 changelog/update-product-description-mobile
+changelog/update-product-edit-field-groups
 changelog/update-product-editor-add-new-attribute-iteration
 changelog/update-product-editor-attribute-types
 changelog/update-product-editor-creating-shipping-class-a11y-enhancements
@@ -72747,19 +72774,26 @@ changelog/update-product-filters-no-multiple
 changelog/update-product-list-header-layout
 changelog/update-product-status-and-catalog-visibility-dropdowns
 changelog/update-product_editor_naming
+changelog/update-products-app-add-new-button
 changelog/update-products-app-add-new-menu
 changelog/update-products-app-admin-theme-color
 changelog/update-products-app-category-label-singular
 changelog/update-products-app-drawer
+changelog/update-products-app-grouped-products-field
+changelog/update-products-app-rest-api-v4-blueprint
+changelog/update-products-app-variation-row-actions
 changelog/update-products-quick-edit-fields
 changelog/update-remove-banner-layout-from-inbox-note
 changelog/update-remove-featured-helper-text
 changelog/update-remove-media-library
 changelog/update-remove-product-title-underline
+changelog/update-remove-shipping-class-filter
 changelog/update-remove-tags-helper-text
 changelog/update-remove-type-from-quick-edit
 changelog/update-replace-with-combobox
 changelog/update-rsm-108-ability-category-description
+changelog/update-sale-schedule-fields
+changelog/update-schedule-sale-control
 changelog/update-select-all-variations-action
 changelog/update-select-fields-use-ui-primitive
 changelog/update-separate-php-and-js-tests
@@ -72773,7 +72807,11 @@ changelog/update-stock-column-badge
 changelog/update-storybook_documentation
 changelog/update-stricter-global-unique-id
 changelog/update-switch-version-button-location
+changelog/update-taxonomy-fields-chip-select
+changelog/update-variation-selector-color-swatches
+changelog/update-wc-visual-attribute-feature-toggle
 changelog/update-woopayments-methods-logos-component
+changelog/update-wooprd-3539-readd-mercadopago-to-nox
 changelog/update-wp-68-context-types
 changelog/update-wp-68-media-types
 changelog/update-wp-68-packages
@@ -73494,6 +73532,7 @@ claimstatusfromsubmittedtodraftbyassigneeupdate
 claimstatusfromsubmittedtodraftbydelegateupdate
 claimupdate
 claimworkflowupdate
+clair-obscur-expedition-33-one-year-anniversary-update
 clam-update.conf
 clamupdate,123456
 clamupdate,clamupdate
@@ -75367,6 +75406,7 @@ comment.php?mode=delete&sid=1&cid=&lt;script&gt;alert(document.cookie)&lt;/scrip
 comment.post_update.php
 comment.select.php
 comment.update.php
+comment/*/delete
 comment/comment.post_update.php
 comment/delete
 comment/smile_select.html
@@ -76113,6 +76153,7 @@ components/bulk-action-modals/delete-modal.tsx
 components/cart-checkout/local-pickup-select/index.tsx
 components/cart-checkout/local-pickup-select/style.scss
 components/cart-checkout/local-pickup-select/test/index.tsx
+components/changelog/64720-fix-update-rest-api-docs-references
 components/changelog/fix-select-control-deprecated-size-warning
 components/changelog/update-pnpm-10-upgrade
 components/changelog/update-wp-68-media-types
@@ -76391,6 +76432,7 @@ components/reviews/review-sort-select/index.tsx
 components/reviews/review-sort-select/style.scss
 components/rooms/roomprivateuserselect.vue
 components/rooms/roomselect.vue
+components/schemas/cartitemsupdate.json
 components/searchable-chip-select/chip-with-remove.tsx
 components/searchable-chip-select/index.ts
 components/searchable-chip-select/item.tsx
@@ -77075,6 +77117,9 @@ contactbatchupdate
 contactcreatedeleteupdate
 contactdelete
 contactfiltersupdate
+contactformattribute/_createorupdate.cshtml
+contactformattribute/_createorupdate.info.cshtml
+contactformattribute/_createorupdate.values.cshtml
 contactformdelete
 contactformupdate
 contactgroupdelete
@@ -78055,6 +78100,7 @@ core/event/delete.event.ts
 core/fields/types/multiselect/views/package.json
 core/fields/types/relationship/views/relationshipselect/package.json
 core/fields/types/select/views/package.json
+core/framework/api/apidefinition/generator/schema/storeapi/components/schemas/cartitemsupdate.json
 core/framework/app/lifecycle/_fixtures/shippingmethodactiveflagupdate/test/manifest.xml
 core/framework/app/lifecycle/_fixtures/shippingmethodupdate/test/manifest.xml
 core/framework/app/lifecycle/update/abstractappupdater.php
@@ -78120,6 +78166,7 @@ core/framework/update/struct/version.php
 core/framework/update/struct/versiontest.php
 core/framework/update/subscriber/updatesubscriber.php
 core/framework/update/subscriber/updatesubscribertest.php
+core/framework/webhook/outbox/outboxinsert.php
 core/frontend/services/theme-engine/middleware/update-global-template-options.js
 core/frontend/services/theme-engine/middleware/update-local-template-options.js
 core/gii/generators/crud/templates/default/update.php
@@ -80408,6 +80455,7 @@ crf_msnwnd_onupdate
 cria_internacao_2012_2_fieo_ec8_select.sql
 cricketinfo-update
 cricunion-com
+crimson-desert-major-content-update
 crimsonalter
 crimsonalter-livejournal-com
 cristal-union
@@ -81499,6 +81547,7 @@ data/cache_stepselect
 data/cache_stepselect/index.html
 data/cart/update-payment-methods.ts
 data/changelog/63385-add-wooplug-6268-core-profiler-obw-update-shipping-integration-placements
+data/changelog/64720-fix-update-rest-api-docs-references
 data/changelog/update-pnpm-10-upgrade
 data/changelog/update-settings-payments-type-for-onboarding-supported
 data/changelog/update-wp-68-packages
@@ -88413,6 +88462,7 @@ difficultyleveldelete
 diffidence,pyrrhonism,afraidness,apprehension,bashfulness,boggle,boggling,caution,cautiousness,compunction,demur,demurral,distrust,distrustfulness,doubt,doubtfulness,dubiety,dubiousness,falter,faltering,fearfulness,half-belief,hesitance,hesitancy,hesitating,hesitation,jumpiness,lack of self-confidence,lack of self-reliance,leeriness,misdoubt,misgiving,mistrust,mistrustfulness,modesty,objection,pause,protest,qualm,qualm of conscience,qualmishness,question,recoil,scruple,scrupulosity,scrupulousness,self-depreciation,self-detraction,self-distrust,self-doubt,self-effacement,shadow of doubt,shilly-shally,shilly-shallying,shrinking,shrinkingness,shyness,skepticalness,skepticism,skittishness,stage fright,startlishness,stickling,suspicion,suspiciousness,tentativeness,timidity,timorousness,total skepticism,uncertainty,wariness,weak ego
 diffinsert.sql
 diffopdelete.php
+digestive-health/some-antibiotics-can-alter-your-gut-microbiome-for-years/
 digexec
 digitaalter
 digital-fernsehen/select-video/redxclub.html
@@ -90123,6 +90173,7 @@ drop-empty-secondary-indexes.1.ddl.sqlpp
 drop-empty-secondary-indexes.2.update.sqlpp
 drop-empty-secondary-indexes.3.query.sqlpp
 drop-empty-tables-from.sql
+drop-everything-and-play-sektori
 drop-everything-and-start-over.sql
 drop-everything.sql
 drop-everything.xml
@@ -91860,6 +91911,7 @@ eliza_select.pl
 elliot.walter
 elmah.io.umbraco.example/umbraco/actions/delete.aspx
 elmselect-com
+elon-musks-grok-reportedly-had-an-update-delayed-thanks-to-its-lacklustre-baldurs-gate-3-knowledge
 elrond-db-delete.sql
 elseselect.sql
 elt([randnum]=[randnum],sleep([sleeptime]))
@@ -94211,26 +94263,39 @@ experiencestatusbar_update
 experienceupdate
 experiment-delete.sql
 experimental-products-app/changelog/add-tree-select-control
+experimental-products-app/changelog/fix-rsm-3550-stock-multiselect
+experimental-products-app/changelog/tweak-products-app-delete-modal-no-quotes
+experimental-products-app/changelog/tweak-searchable-chip-select-spacing
 experimental-products-app/changelog/update-always-show-sale-price
 experimental-products-app/changelog/update-categories-remove-description
 experimental-products-app/changelog/update-dimensions-row-layout
+experimental-products-app/changelog/update-featured-product-checkbox
 experimental-products-app/changelog/update-images-field-label-drag-and-size
+experimental-products-app/changelog/update-product-edit-field-groups
 experimental-products-app/changelog/update-product-list-header-layout
 experimental-products-app/changelog/update-product-status-and-catalog-visibility-dropdowns
+experimental-products-app/changelog/update-products-app-add-new-button
 experimental-products-app/changelog/update-products-app-add-new-menu
 experimental-products-app/changelog/update-products-app-admin-theme-color
 experimental-products-app/changelog/update-products-app-category-label-singular
 experimental-products-app/changelog/update-products-app-drawer
+experimental-products-app/changelog/update-products-app-grouped-products-field
+experimental-products-app/changelog/update-products-app-rest-api-v4-blueprint
+experimental-products-app/changelog/update-products-app-variation-row-actions
 experimental-products-app/changelog/update-products-quick-edit-fields
 experimental-products-app/changelog/update-remove-featured-helper-text
 experimental-products-app/changelog/update-remove-product-title-underline
+experimental-products-app/changelog/update-remove-shipping-class-filter
 experimental-products-app/changelog/update-remove-tags-helper-text
 experimental-products-app/changelog/update-remove-type-from-quick-edit
+experimental-products-app/changelog/update-sale-schedule-fields
+experimental-products-app/changelog/update-schedule-sale-control
 experimental-products-app/changelog/update-select-all-variations-action
 experimental-products-app/changelog/update-select-fields-use-ui-primitive
 experimental-products-app/changelog/update-sku-remove-description
 experimental-products-app/changelog/update-status-options-and-labels
 experimental-products-app/changelog/update-stock-column-badge
+experimental-products-app/changelog/update-taxonomy-fields-chip-select
 experimental-products-app/src/fields/components/searchable-chip-select/chip-with-remove.tsx
 experimental-products-app/src/fields/components/searchable-chip-select/index.ts
 experimental-products-app/src/fields/components/searchable-chip-select/item.tsx
@@ -94893,7 +94958,6 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
-false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -94945,6 +95009,7 @@ faqcategoryupdate
 faqdelete
 faqtypeupdate
 faqupdate
+far-cry-6-the-long-drop-worker-key-walkthrough-8034
 far-drag-n-drop-plugin
 farbidentifikationsschalter
 farbschalter
@@ -96514,6 +96579,7 @@ fix-beta-tester-delete-option-error
 fix-percent-complete-select-box.sql
 fix-plugin-update
 fix-product-editor-images-drop-error
+fix-rsm-3550-stock-multiselect
 fix-select-control-deprecated-size-warning
 fix-update-in-process
 fix-update.go
@@ -97556,7 +97622,18 @@ forumcategorydelete.php
 forumcategorydelete/
 forumdelete
 forums insert.sql
+forums/1st-pregnancy/topic/oura-ring-wearers-did-you-temp-drop-in-early-pregnancy-147990784.html
+forums/april-2025-babies/topic/temperature-drop-when-period-due-but-positive-test-163579886.html
 forums/cache/db_update.lock
+forums/december-2021-babies/topic/evening-primrose-oil-insert-it-or-orally-125341632.html
+forums/december-2023-babies/topic/drop-in-percentiles-156357183.html
+forums/february-2025-babies/topic/ours-ring-temp-drop-162543426.html
+forums/march-2016-babies/topic/2nd-3rd-time-moms-when-did-baby-quot-drop-quot.html
+forums/march-2022-babies/topic/does-anyone-know-how-to-install-the-infant-insert-in-a-nuna-pipa-car-seat-129722348.html
+forums/november-2023-babies/topic/drop-your-maternity-leave-email-templates-please-154277111.html
+forums/trying-to-conceive/topic/8-amp-9-dpo-temp-drop.html
+forums/trying-to-conceive/topic/drop-in-lh-before-surge-109740850.html
+forums/trying-to-conceive/topic/temp-drop-5-dpo-87607054.html
 forums/view_user.php?list=1&letter=&sort_by='select
 forums_update
 forumselect
@@ -97757,6 +97834,7 @@ framecolordelete
 framecolorupdate
 frameprotector\framedrop\itemframedropitemevent
 framework/admin/thirdparty/chosen/coffee/lib/select-parser.coffee
+framework/api/apidefinition/generator/schema/storeapi/components/schemas/cartitemsupdate.json
 framework/app/lifecycle/_fixtures/shippingmethodactiveflagupdate/test/manifest.xml
 framework/app/lifecycle/_fixtures/shippingmethodupdate/test/manifest.xml
 framework/app/lifecycle/update/abstractappupdater.php
@@ -97902,6 +97980,7 @@ framework/view/model/layout/update/validator.php
 framework/view/page/config/reader/_files/_layout_update.xml
 framework/view/test/unit/model/layout/update/validatortest.php
 framework/view/update.html
+framework/webhook/outbox/outboxinsert.php
 frameworkupdate.exe
 fran.walter
 francais/update
@@ -98940,6 +99019,7 @@ generator/lib/behavior/archivable/templates/querysetarchiveondelete.php
 generator/lib/behavior/archivable/templates/querysetarchiveonupdate.php
 generator/lib/behavior/i18n/templates/objectpostdelete.php
 generator/lib/task/propelsqlexec.php
+generator/schema/storeapi/components/schemas/cartitemsupdate.json
 generators/crud/default/views/update.php
 generic-delete-teardown.xml
 generic-select.sql
@@ -101528,6 +101608,7 @@ how the european union allowed hungary to become an illiberal model
 how walter mondale transformed the vice presidency
 how-to-airdrop-between-windows-macos-ios-and-android-1826014518
 how-to-delete-facebook-website
+how-to-delete-outpost-starfield-9352
 how-to-finally-delete-duplicate-icloud-contacts-1847271375
 how-to-find-and-delete-all-your-old-unused-accounts-1847470037
 how-to-hide-or-mass-delete-all-images-in-a-microsoft-wo-1846861306
@@ -106412,6 +106493,7 @@ itineraryitembulkdelete
 itineraryitembulkupdate
 itineraryupdate
 itms-pdupdate
+its-been-a-while-since-weve-had-an-update-but-froms-parent-company-promises-duskbloods-is-still-coming-out-this-year
 itselect
 itself,i,i myself,alter,alter ego,alterum,better self,ego,ethical self,he,her,herself,him,himself,inner man,inner self,it,me,my humble self,myself,number one,oneself,other self,ourselves,self,she,subconscious self,subliminal self,superego,them,themselves,they,you,yours truly,yourself,yourselves
 itsystem_delete
@@ -107153,6 +107235,7 @@ js/classes/draganddrop.js
 js/components/associated-product-insert-listing.js
 js/components/attribute-set-select.js
 js/components/attributes-insert-listing.js
+js/components/changelog/64720-fix-update-rest-api-docs-references
 js/components/changelog/fix-select-control-deprecated-size-warning
 js/components/changelog/update-pnpm-10-upgrade
 js/components/changelog/update-wp-68-media-types
@@ -107243,6 +107326,7 @@ js/customer-effort-score/changelog/update-pnpm-10-upgrade
 js/customer-effort-score/changelog/update-wp-68-packages
 js/data/cart/update-payment-methods.ts
 js/data/changelog/63385-add-wooplug-6268-core-profiler-obw-update-shipping-integration-placements
+js/data/changelog/64720-fix-update-rest-api-docs-references
 js/data/changelog/update-pnpm-10-upgrade
 js/data/changelog/update-settings-payments-type-for-onboarding-supported
 js/data/changelog/update-wp-68-packages
@@ -107274,26 +107358,39 @@ js/eslint-plugin/changelog/dev-ci-lint-monorepo-job-update
 js/eslint-plugin/changelog/task-update-eslint-config
 js/eslint-plugin/changelog/update-59804
 js/experimental-products-app/changelog/add-tree-select-control
+js/experimental-products-app/changelog/fix-rsm-3550-stock-multiselect
+js/experimental-products-app/changelog/tweak-products-app-delete-modal-no-quotes
+js/experimental-products-app/changelog/tweak-searchable-chip-select-spacing
 js/experimental-products-app/changelog/update-always-show-sale-price
 js/experimental-products-app/changelog/update-categories-remove-description
 js/experimental-products-app/changelog/update-dimensions-row-layout
+js/experimental-products-app/changelog/update-featured-product-checkbox
 js/experimental-products-app/changelog/update-images-field-label-drag-and-size
+js/experimental-products-app/changelog/update-product-edit-field-groups
 js/experimental-products-app/changelog/update-product-list-header-layout
 js/experimental-products-app/changelog/update-product-status-and-catalog-visibility-dropdowns
+js/experimental-products-app/changelog/update-products-app-add-new-button
 js/experimental-products-app/changelog/update-products-app-add-new-menu
 js/experimental-products-app/changelog/update-products-app-admin-theme-color
 js/experimental-products-app/changelog/update-products-app-category-label-singular
 js/experimental-products-app/changelog/update-products-app-drawer
+js/experimental-products-app/changelog/update-products-app-grouped-products-field
+js/experimental-products-app/changelog/update-products-app-rest-api-v4-blueprint
+js/experimental-products-app/changelog/update-products-app-variation-row-actions
 js/experimental-products-app/changelog/update-products-quick-edit-fields
 js/experimental-products-app/changelog/update-remove-featured-helper-text
 js/experimental-products-app/changelog/update-remove-product-title-underline
+js/experimental-products-app/changelog/update-remove-shipping-class-filter
 js/experimental-products-app/changelog/update-remove-tags-helper-text
 js/experimental-products-app/changelog/update-remove-type-from-quick-edit
+js/experimental-products-app/changelog/update-sale-schedule-fields
+js/experimental-products-app/changelog/update-schedule-sale-control
 js/experimental-products-app/changelog/update-select-all-variations-action
 js/experimental-products-app/changelog/update-select-fields-use-ui-primitive
 js/experimental-products-app/changelog/update-sku-remove-description
 js/experimental-products-app/changelog/update-status-options-and-labels
 js/experimental-products-app/changelog/update-stock-column-badge
+js/experimental-products-app/changelog/update-taxonomy-fields-chip-select
 js/experimental-products-app/src/fields/components/searchable-chip-select/chip-with-remove.tsx
 js/experimental-products-app/src/fields/components/searchable-chip-select/index.ts
 js/experimental-products-app/src/fields/components/searchable-chip-select/item.tsx
@@ -112634,6 +112731,9 @@ maptoolselect.xml
 mapupdate
 mapupdate-api
 mapupdate-eu
+marathon-carri-community-reaction-season-1-update
+marathon-mid-season-update-claymore-thermal-scopes-mercy
+marathon-update-cryo-archives-added-locked
 marauroa_drop.sql
 marble-drop
 marbledrop
@@ -113081,6 +113181,7 @@ media-select-bulk-downloader
 media-share-drop-down-menu
 media.post_update.php
 media.turbotaxcpaselect
+media/*/delete
 media/com_joomlaupdate
 media/com_joomlaupdate/default.js
 media/com_joomlaupdate/encryption.js
@@ -116372,6 +116473,7 @@ monogoheadlesscustomeraddressdelete
 monopolhalter
 monorepo-utils/src/code-freeze/commands/version-bump/lib/update.ts
 monster-drop.sql
+monster-hunter-wilds-patch-1-041-final-update-full
 montanunion
 montecito union
 month.exec
@@ -118419,6 +118521,7 @@ new-attribute-insert-form.js
 new-exec-wired-bpdvjmkjrt
 new-kbo-bce-select-be
 new-kbo-bce-select-be-acc
+new-mario-kart-world-update-adds-much-loved-battle-mode-but-nerfs-boomerangs
 new-recent-posts-select-categories-by-thao-marky
 new-select-lang.erna
 new-theme/js/app/widgets/ps-select.vue
@@ -118696,6 +118799,7 @@ nimbleunion
 ninerdrop
 nineselect-com
 ninsert
+nioh-3-free-content-update-april-2026-announced
 nipponselect
 nipponselect-com
 nist-exec.pgeconfig.xml
@@ -118808,6 +118912,7 @@ node-update-aggregator
 node-update-sqlmap.xml
 node.delete.desc.xml
 node.post_update.php
+node/*/delete
 node/node.post_update.php
 node/src/nodebulkupdate.php
 node/src/plugin/views/field/revisionlinkdelete.php
@@ -119617,6 +119722,9 @@ nop.web/areas/admin/views/checkoutattribute/_createorupdate.condition.cshtml
 nop.web/areas/admin/views/checkoutattribute/_createorupdate.cshtml
 nop.web/areas/admin/views/checkoutattribute/_createorupdate.info.cshtml
 nop.web/areas/admin/views/checkoutattribute/_createorupdate.values.cshtml
+nop.web/areas/admin/views/contactformattribute/_createorupdate.cshtml
+nop.web/areas/admin/views/contactformattribute/_createorupdate.info.cshtml
+nop.web/areas/admin/views/contactformattribute/_createorupdate.values.cshtml
 nop.web/areas/admin/views/country/_createorupdate.cshtml
 nop.web/areas/admin/views/country/_createorupdate.info.cshtml
 nop.web/areas/admin/views/country/_createorupdate.states.cshtml
@@ -122045,6 +122153,8 @@ out_of_order_update.sql
 out_v2_select.xml
 outboundorderupdate
 outboundqtyupdate
+outbox/outboxinsert.php
+outboxinsert.php
 outdrop
 outerjoin_select.bug-2946.sql
 outfitselect.xml
@@ -122487,6 +122597,7 @@ packages/js/block-templates/changelog/dev-ci-lint-monorepo-job-update
 packages/js/block-templates/changelog/update-59804
 packages/js/block-templates/changelog/update-pnpm-10-upgrade
 packages/js/block-templates/changelog/update-wp-68-packages
+packages/js/components/changelog/64720-fix-update-rest-api-docs-references
 packages/js/components/changelog/fix-select-control-deprecated-size-warning
 packages/js/components/changelog/update-pnpm-10-upgrade
 packages/js/components/changelog/update-wp-68-media-types
@@ -122561,6 +122672,7 @@ packages/js/customer-effort-score/changelog/update-59804
 packages/js/customer-effort-score/changelog/update-pnpm-10-upgrade
 packages/js/customer-effort-score/changelog/update-wp-68-packages
 packages/js/data/changelog/63385-add-wooplug-6268-core-profiler-obw-update-shipping-integration-placements
+packages/js/data/changelog/64720-fix-update-rest-api-docs-references
 packages/js/data/changelog/update-pnpm-10-upgrade
 packages/js/data/changelog/update-settings-payments-type-for-onboarding-supported
 packages/js/data/changelog/update-wp-68-packages
@@ -122584,26 +122696,39 @@ packages/js/eslint-plugin/changelog/dev-ci-lint-monorepo-job-update
 packages/js/eslint-plugin/changelog/task-update-eslint-config
 packages/js/eslint-plugin/changelog/update-59804
 packages/js/experimental-products-app/changelog/add-tree-select-control
+packages/js/experimental-products-app/changelog/fix-rsm-3550-stock-multiselect
+packages/js/experimental-products-app/changelog/tweak-products-app-delete-modal-no-quotes
+packages/js/experimental-products-app/changelog/tweak-searchable-chip-select-spacing
 packages/js/experimental-products-app/changelog/update-always-show-sale-price
 packages/js/experimental-products-app/changelog/update-categories-remove-description
 packages/js/experimental-products-app/changelog/update-dimensions-row-layout
+packages/js/experimental-products-app/changelog/update-featured-product-checkbox
 packages/js/experimental-products-app/changelog/update-images-field-label-drag-and-size
+packages/js/experimental-products-app/changelog/update-product-edit-field-groups
 packages/js/experimental-products-app/changelog/update-product-list-header-layout
 packages/js/experimental-products-app/changelog/update-product-status-and-catalog-visibility-dropdowns
+packages/js/experimental-products-app/changelog/update-products-app-add-new-button
 packages/js/experimental-products-app/changelog/update-products-app-add-new-menu
 packages/js/experimental-products-app/changelog/update-products-app-admin-theme-color
 packages/js/experimental-products-app/changelog/update-products-app-category-label-singular
 packages/js/experimental-products-app/changelog/update-products-app-drawer
+packages/js/experimental-products-app/changelog/update-products-app-grouped-products-field
+packages/js/experimental-products-app/changelog/update-products-app-rest-api-v4-blueprint
+packages/js/experimental-products-app/changelog/update-products-app-variation-row-actions
 packages/js/experimental-products-app/changelog/update-products-quick-edit-fields
 packages/js/experimental-products-app/changelog/update-remove-featured-helper-text
 packages/js/experimental-products-app/changelog/update-remove-product-title-underline
+packages/js/experimental-products-app/changelog/update-remove-shipping-class-filter
 packages/js/experimental-products-app/changelog/update-remove-tags-helper-text
 packages/js/experimental-products-app/changelog/update-remove-type-from-quick-edit
+packages/js/experimental-products-app/changelog/update-sale-schedule-fields
+packages/js/experimental-products-app/changelog/update-schedule-sale-control
 packages/js/experimental-products-app/changelog/update-select-all-variations-action
 packages/js/experimental-products-app/changelog/update-select-fields-use-ui-primitive
 packages/js/experimental-products-app/changelog/update-sku-remove-description
 packages/js/experimental-products-app/changelog/update-status-options-and-labels
 packages/js/experimental-products-app/changelog/update-stock-column-badge
+packages/js/experimental-products-app/changelog/update-taxonomy-fields-chip-select
 packages/js/experimental-products-app/src/fields/components/searchable-chip-select/chip-with-remove.tsx
 packages/js/experimental-products-app/src/fields/components/searchable-chip-select/index.ts
 packages/js/experimental-products-app/src/fields/components/searchable-chip-select/item.tsx
@@ -125315,15 +125440,24 @@ plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
 plugins/woocommerce/changelog/63270-update-53125-implement-preview-mode-flag
+plugins/woocommerce/changelog/64720-fix-update-rest-api-docs-references
 plugins/woocommerce/changelog/rsm-140-add-update-available-indicator-email-list
 plugins/woocommerce/changelog/rsm-141-update-banner
 plugins/woocommerce/changelog/rsm-145-tracks-block-email-update
 plugins/woocommerce/changelog/rsm-146-e2e-update-propagation
+plugins/woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks
+plugins/woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks-backwards-compatibility
+plugins/woocommerce/changelog/update-block-references-may-2026
 plugins/woocommerce/changelog/update-create-term-modal-ii
+plugins/woocommerce/changelog/update-inner-blocks-protocol-unify-context-prefix
+plugins/woocommerce/changelog/update-move-init-colors-to-chips-block
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
 plugins/woocommerce/changelog/update-product-filter-style-handling
 plugins/woocommerce/changelog/update-product-filters-no-multiple
 plugins/woocommerce/changelog/update-rsm-108-ability-category-description
+plugins/woocommerce/changelog/update-variation-selector-color-swatches
+plugins/woocommerce/changelog/update-wc-visual-attribute-feature-toggle
+plugins/woocommerce/changelog/update-wooprd-3539-readd-mercadopago-to-nox
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -126145,6 +126279,9 @@ presentation/nop.web/areas/admin/views/checkoutattribute/_createorupdate.conditi
 presentation/nop.web/areas/admin/views/checkoutattribute/_createorupdate.cshtml
 presentation/nop.web/areas/admin/views/checkoutattribute/_createorupdate.info.cshtml
 presentation/nop.web/areas/admin/views/checkoutattribute/_createorupdate.values.cshtml
+presentation/nop.web/areas/admin/views/contactformattribute/_createorupdate.cshtml
+presentation/nop.web/areas/admin/views/contactformattribute/_createorupdate.info.cshtml
+presentation/nop.web/areas/admin/views/contactformattribute/_createorupdate.values.cshtml
 presentation/nop.web/areas/admin/views/country/_createorupdate.cshtml
 presentation/nop.web/areas/admin/views/country/_createorupdate.info.cshtml
 presentation/nop.web/areas/admin/views/country/_createorupdate.states.cshtml
@@ -130904,6 +131041,8 @@ recordtypedelete
 recordtypeupdate
 recordunion-com
 recordupdate
+recovery-safety/a-drop-in-heart-rate-during-exercise/
+recovery-safety/exercises-for-wrist-drop/
 recovery-update-accounts-security
 recovery/update/assets/javascript/jquery.installer.js
 recovery/update/bin/update.php
@@ -134559,6 +134698,7 @@ sagging,abatement,abridgment,alleviation,attenuation,bagging,baggy,ballooning,co
 sagiwall_update
 sahaunion
 sahaunion-com
+sailor-piece-sea-2-update
 sailselect
 saint denis,reunion
 saint-paul,reunion
@@ -135589,6 +135729,7 @@ schema.drop.sql
 schema/db/mysql/definition/columns/onupdate.php
 schema/entity_test_update.schema.yml
 schema/metadata/app/select.json
+schema/storeapi/components/schemas/cartitemsupdate.json
 schema/update.schema.yml
 schema/update.source.schema.yml
 schema_0030-drop-action-log-check-constraint.sql
@@ -135609,6 +135750,7 @@ schemafielddelete
 schemafieldupdate
 schemainsert.java
 schemaprnupdate.sql
+schemas/cartitemsupdate.json
 schemaupdate
 schemaupdate.hbm.xml
 schemaupdate.mysql.2.sql
@@ -144034,6 +144176,7 @@ sleep(5)='
 sleep(9999)
 sleep(__time__)#
 sleep,ko,annihilation,ataraxia,ataraxy,bane,be caught napping,be neglectful,be negligent,beauty sleep,beddy-bye,bedtime,biological death,blackout,blanket drill,bye-bye,calmness,catalepsy,catatonia,catatony,catnap,cessation of life,clinical death,coma,comfort,composure,contemplation,crossing the bar,curtains,death,death knell,debt of nature,decease,default,demise,departure,disregard,dissolution,doom,doss,doze,dreamland,drop off,drowse,dying,ease,ebb of life,end,end of life,ending,eternal rest,exit,expiration,extinction,extinguishment,fail,faint,final summons,finger of death,fitful sleep,forty winks,fust,gloss over,going,going off,grave,grayout,hand of death,hang fire,hibernation,idle,ignore,imperturbability,inactivity,jaws of death,kayo,knell,knockout,land of nod,lapse,last debt,last muster,last rest,last roundup,last sleep,leaving life,let go,let ride,let slide,let slip,light sleep,lipothymia,lipothymy,lose sight of,lose track of,loss of life,lucid stillness,making an end,marmoreal repose,nap,neglect,nirvana,nirvana principle,nod,nod off,not care for,not get involved,not heed,not think,nothingness,oblivion,obliviousness,overlook,oversleep,parting,pass over,passing,passing away,passing over,peace,peacefulness,perishing,placidity,placidness,pound,quiescence,quiescency,quiet,quietism,quietness,quietude,quietus,relax,relaxation,release,repose,rest,restfulness,reward,satori,saw logs,saw wood,semiconsciousness,senselessness,sentence of death,serenity,shades of death,shadow of death,shut-eye,siesta,silence,silken repose,sleep soundly,sleepland,sleepwalking,slumber,slumberland,smolder,snooze,snoozle,snore,somatic death,somnambulism,somniloquy,somnus,stagnate,stillness,stupor,summons of death,swoon,syncope,take a nap,take for granted,tranquillity,unbuttoned ease,unconsciousness,vegetate,winter sleep,wise passiveness
+sleep/can-changing-your-sleep-position-alter-your-dreams.aspx
 sleep_select.go
 sleeping pill,amytal,amytal pill,demerol,dolophine,h,luminal,luminal pill,m,mickey finn,nembutal,nembutal pill,seconal,seconal pill,tuinal,tuinal pill,alcohol,amobarbital sodium,analgesic,anesthetic,anodyne,barb,barbiturate,barbiturate pill,black stuff,blue,blue angel,blue devil,blue heaven,blue velvet,calmative,chloral hydrate,codeine,codeine cough syrup,depressant,depressor,dolly,dope,downer,drug,goofball,hard stuff,heroin,hop,horse,hypnotic,junk,knockout drop,knockout drops,laudanum,liquor,lotus,meperidine,methadone,morphia,morphine,narcotic,opiate,opium,pacifier,pain killer,pain-killer,paregoric,pen yan,phenobarbital,phenobarbital sodium,purple heart,quietener,rainbow,red,scag,secobarbital sodium,sedative,shit,sleep-inducer,sleeper,sleeping draught,smack,sodium thiopental,somnifacient,soother,soothing syrup,soporific,tar,tranquilizer,turps,white stuff,yellow,yellow jacket
 sleeptrackupdate
@@ -144470,6 +144613,7 @@ songselect
 songselect.xml
 songupdate
 sonic hires ex-mazda marketing exec as echopark's first marketing chief
+sonic-origins-cheat-codes-level-select-debug-mode-super-sonic-9031
 sonja-walter
 sonn&: select * from users where id='1' <@$_ or 1=1 -- 1'
 sonnu: select * from users where id='1' <@$_ union select 1,version() -- 1'
@@ -145770,6 +145914,7 @@ src/contrib/corona/src/webapp/cm/exec.jsp
 src/core/content/product/dataabstractionlayer/stockupdate/abstractstockupdatefilter.php
 src/core/content/product/dataabstractionlayer/stockupdate/stockupdatefilterprovider.php
 src/core/domain/product/supplier/productsupplierupdate.php
+src/core/framework/api/apidefinition/generator/schema/storeapi/components/schemas/cartitemsupdate.json
 src/core/framework/app/lifecycle/update/abstractappupdater.php
 src/core/framework/app/lifecycle/update/appupdater.php
 src/core/framework/dataabstractionlayer/attribute/ondelete.php
@@ -145795,6 +145940,7 @@ src/core/framework/update/steps/validresult.php
 src/core/framework/update/struct/validationresult.php
 src/core/framework/update/struct/version.php
 src/core/framework/update/subscriber/updatesubscriber.php
+src/core/framework/webhook/outbox/outboxinsert.php
 src/core/grid/position/positionupdate.php
 src/core/migration/traits/mailsubjectupdate.php
 src/core/migration/traits/mailupdate.php
@@ -146557,6 +146703,9 @@ src/presentation/nop.web/areas/admin/views/checkoutattribute/_createorupdate.con
 src/presentation/nop.web/areas/admin/views/checkoutattribute/_createorupdate.cshtml
 src/presentation/nop.web/areas/admin/views/checkoutattribute/_createorupdate.info.cshtml
 src/presentation/nop.web/areas/admin/views/checkoutattribute/_createorupdate.values.cshtml
+src/presentation/nop.web/areas/admin/views/contactformattribute/_createorupdate.cshtml
+src/presentation/nop.web/areas/admin/views/contactformattribute/_createorupdate.info.cshtml
+src/presentation/nop.web/areas/admin/views/contactformattribute/_createorupdate.values.cshtml
 src/presentation/nop.web/areas/admin/views/country/_createorupdate.cshtml
 src/presentation/nop.web/areas/admin/views/country/_createorupdate.info.cshtml
 src/presentation/nop.web/areas/admin/views/country/_createorupdate.states.cshtml
@@ -147489,6 +147638,7 @@ standupdate
 stangenholzalter
 stanunion-k12-ca-us
 star wars battlefront with tatooine3 update and crack from yahaa
+stardew-valley-getting-new-marriage-options-better-children-in-next-update
 stardrop
 stardropteardrop
 stardust_update
@@ -148175,6 +148325,7 @@ store_variantinventoryupdate
 store_visible_update
 storeactiveupdate
 storeallupdate
+storeapi/components/schemas/cartitemsupdate.json
 storeapi/routes/v1/agentic/checkoutsessionsupdate.php
 storeauthorizedupdate
 storebulkdelete
@@ -150836,6 +150987,7 @@ taxonomy.delete.get.desc.xml
 taxonomy.post_update.php
 taxonomy.update.post.desc.xml
 taxonomy/taxonomy.post_update.php
+taxonomy/term/*/delete
 taxonomy_orderselect
 taxonomy_select
 taxonomy_super_select
@@ -153985,6 +154137,7 @@ tomalter#1
 tome,best seller,book,bound book,classic,coloring book,definitive work,folio,great work,hardback,juvenile,juvenile book,limp-cover book,magnum opus,nonbook,notebook,novel,opus,opuscule,opusculum,paperback,picture book,playbook,pocket book,prayer book,production,psalmbook,psalter,publication,serial,sketchbook,soft-cover,songbook,standard work,storybook,title,trade book,volume,work,writing
 tomexec
 tommydrop
+tomodachi-life-living-the-dream-delete-mii
 tomsalter
 tomwalter
 tonfilmzeitalter
@@ -157948,7 +158101,6 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
-true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -158083,6 +158235,8 @@ twart/views/bank/bankdelete.aspx
 twart/views/customer/delete.aspx
 twart/views/employee/delete.aspx
 twdsupplydrop
+tweak-products-app-delete-modal-no-quotes
+tweak-searchable-chip-select-spacing
 tweak-select-tree-2
 tweetdelete
 tweetdelete-net
@@ -162886,6 +163040,8 @@ update-activiti-nullable-columns.sql
 update-activity-import.sql
 update-activity.xml
 update-add
+update-add-to-cart-with-options-filter-inner-blocks
+update-add-to-cart-with-options-filter-inner-blocks-backwards-compatibility
 update-addbretagnetopic.xml
 update-addforbachtopic.xml
 update-addgrenoblecompetency.xml
@@ -163219,6 +163375,7 @@ update-billing-info.xml
 update-billing_on_errorcode.sql
 update-binary
 update-binfmts
+update-block-references-may-2026
 update-block-template-logging-threshold.tsx
 update-blocks.conf
 update-blog
@@ -164984,6 +165141,7 @@ update-favourite-game-id.sql
 update-favourite-username.sql
 update-favourites
 update-fe3qcpy-hfeybomg6dv7a.eu
+update-featured-product-checkbox
 update-features.sql
 update-federation-api-reference-docs.sh
 update-federation-generated-swagger-docs.sh
@@ -165453,6 +165611,7 @@ update-inframaster
 update-ingress-k8s.sh
 update-initramfs
 update-initramfs.conf
+update-inner-blocks-protocol-unify-context-prefix
 update-input.jsp
 update-installed-alias-dry-run.test
 update-installed-alias.test
@@ -165962,6 +166121,7 @@ update-mono.exe
 update-moss-station-json.prs.sql
 update-motd
 update-motd.d
+update-move-init-colors-to-chips-block
 update-move-logic-to-add-new-attribute
 update-multiattributes-v1.1.sql
 update-multiattributes-v1.2.sql
@@ -166496,6 +166656,7 @@ update-prodelasticbeanstalkdebug
 update-prodstatussftp-service
 update-product-attribute-types
 update-product-description-mobile
+update-product-edit-field-groups
 update-product-editor-add-new-attribute-iteration
 update-product-editor-attribute-types
 update-product-editor-creating-shipping-class-a11y-enhancements
@@ -166525,10 +166686,14 @@ update-product-list-header-layout
 update-product-status-and-catalog-visibility-dropdowns
 update-product.sql
 update-product_editor_naming
+update-products-app-add-new-button
 update-products-app-add-new-menu
 update-products-app-admin-theme-color
 update-products-app-category-label-singular
 update-products-app-drawer
+update-products-app-grouped-products-field
+update-products-app-rest-api-v4-blueprint
+update-products-app-variation-row-actions
 update-products-quick-edit-fields
 update-prodv1
 update-profile
@@ -167106,6 +167271,7 @@ update-remove-banner-layout-from-inbox-note
 update-remove-featured-helper-text
 update-remove-media-library
 update-remove-product-title-underline
+update-remove-shipping-class-filter
 update-remove-tags-helper-text
 update-remove-type-from-quick-edit
 update-removeforbach.xml
@@ -167154,6 +167320,7 @@ update-s3
 update-s3-authdbms-v2sslvpn-m
 update-sacerdotes-fields.sql
 update-salary.cfm
+update-sale-schedule-fields
 update-salt.conf
 update-same-index.sql
 update-sameip-ok.xml
@@ -167165,6 +167332,7 @@ update-sc-check-for-cycle.xml
 update-sc-expected.xml
 update-sc-initial.xml
 update-sc4
+update-schedule-sale-control
 update-scheduledantrunner.xml
 update-schema-0.sql
 update-schema-4.1_to_4.2.sql
@@ -167529,6 +167697,7 @@ update-task-dataset-part1.xml
 update-task-dataset-part1.xml.svn-base
 update-taxonomies.xml
 update-taxonomy-cat.sql
+update-taxonomy-fields-chip-select
 update-taxonomy-shop.sql
 update-taxonomy.sql
 update-tda
@@ -167925,6 +168094,7 @@ update-valid-version
 update-valid-view
 update-validate
 update-variants-partitions.sql
+update-variation-selector-color-swatches
 update-variations.spec.ts
 update-vcl.sql
 update-vehicle-set-dialogflow-response.xml
@@ -168077,6 +168247,7 @@ update-w
 update-wagw-station-json.prs.sql
 update-waow-station-json.prs.sql
 update-ware.co.kr
+update-wc-visual-attribute-feature-toggle
 update-weather-conds-with-prefix.sql
 update-weather-to-add-missing-observations.sql
 update-weather-with-timebuckets.sql
@@ -168113,6 +168284,7 @@ update-wiki-monitoring
 update-winra
 update-without-using-ftp
 update-woopayments-methods-logos-component
+update-wooprd-3539-readd-mercadopago-to-nox
 update-worker.js
 update-worker.py
 update-workspace-mirror.sh
@@ -169004,9 +169176,6 @@ update/dashboards.ts
 update/databaseversioncheckupdatetest.php
 update/datain.asp
 update/db
-update/december2025update$
-update/december2025update/~
-update/december2025update?
 update/default.aspx
 update/default.php
 update/default.xml
@@ -169068,9 +169237,6 @@ update/exception/updatepackagenotfoundexception.php
 update/expressions/updatedataexpression.cs
 update/extensions.ts
 update/external_data_source_attribute_spec.rb
-update/february2026update$
-update/february2026update/~
-update/february2026update?
 update/field-service-contacts$
 update/field-service-contacts/~
 update/field-service-contacts?
@@ -169162,9 +169328,6 @@ update/items.ts
 update/iupdatebuilder.cs
 update/iupdatetablebuilder.cs
 update/iupdatewherebuilder.cs
-update/january2026update$
-update/january2026update/~
-update/january2026update?
 update/jsonapi.php
 update/jsonapi.settings.yml
 update/jsonapiupdatepathtest.php
@@ -169175,9 +169338,6 @@ update/layout-builder.php
 update/layoutbuildercontextmappingupdatepathtest.php
 update/log.txt
 update/map.php
-update/may2026cdeupdate$
-update/may2026cdeupdate/~
-update/may2026cdeupdate?
 update/menublockdepthtest.php
 update/menutreestorageschemaupdatetest.php
 update/mexico
@@ -169189,9 +169349,6 @@ update/new
 update/new/test_files_diff.php
 update/nodecontenttranslationupdatetest.php
 update/notifications.ts
-update/november2025update$
-update/november2025update/~
-update/november2025update?
 update/old/test_files_diff.php
 update/operations.ts
 update/panels.ts
@@ -173263,6 +173420,9 @@ views/company/update.php
 views/configuration/_createorupdate.cshtml
 views/contact/modals/select-for-portal-user.js
 views/contact/update.php
+views/contactformattribute/_createorupdate.cshtml
+views/contactformattribute/_createorupdate.info.cshtml
+views/contactformattribute/_createorupdate.values.cshtml
 views/contacts/update.js.haml
 views/contacts/update.js.haml_spec.rb
 views/contacts/update.php
@@ -175196,6 +175356,7 @@ webform_views_select
 webgestalter
 webgl_objects_update.html
 webhook/afterdelete.php
+webhook/outbox/outboxinsert.php
 webhookchannelupdate
 webhookclient_delete
 webhookconfigsdao_delete.sql
@@ -175645,6 +175806,7 @@ whacked,all in,beat,beat up,beaten,bone-weary,bushed,dead,dead-and-alive,dead-ti
 whalter
 what-we-do/health/healthy-early-years-london/awards/update.php
 what-we-do/health/healthy-schools-london/awards/update.php
+what-weve-been-playing-lara-croft-walter-white
 what_to_alter.sql
 whatmaps::security-update-origins "";
 whatmaps::security-update-origins:: "${distro_id} ${distro_codename}-security";
@@ -175941,6 +176103,7 @@ windowsupdate.exe
 windowsupdate.microsoft.com
 windowsupdate.xml
 windrop
+windrose-first-content-update-details
 windspeedduplicateoninsert.sql
 wine merchant,baker,barkeep,barkeeper,barmaid,barman,bartender,bookdealer,bookseller,bootlegger,brewer,brewmaster,butcher,chandler,clothing merchant,confectioner,distiller,draper,drysalter,fishmonger,fishwife,florist,footwear merchant,fruiterer,furnisher,furrier,greengrocer,grocer,groceryman,haberdasher,hardwareman,ironmonger,jeweler,liquor dealer,liquor merchant,liquor store owner,mixologist,moonshiner,newsdealer,perfumer,poulterer,publican,saddler,stationer,tapster,tapstress,tobacconist,vintner
 wineawardfactdelete
@@ -176124,15 +176287,24 @@ woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
 woocommerce/changelog/63270-update-53125-implement-preview-mode-flag
+woocommerce/changelog/64720-fix-update-rest-api-docs-references
 woocommerce/changelog/rsm-140-add-update-available-indicator-email-list
 woocommerce/changelog/rsm-141-update-banner
 woocommerce/changelog/rsm-145-tracks-block-email-update
 woocommerce/changelog/rsm-146-e2e-update-propagation
+woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks
+woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks-backwards-compatibility
+woocommerce/changelog/update-block-references-may-2026
 woocommerce/changelog/update-create-term-modal-ii
+woocommerce/changelog/update-inner-blocks-protocol-unify-context-prefix
+woocommerce/changelog/update-move-init-colors-to-chips-block
 woocommerce/changelog/update-pay-506-always-show-payment-radio
 woocommerce/changelog/update-product-filter-style-handling
 woocommerce/changelog/update-product-filters-no-multiple
 woocommerce/changelog/update-rsm-108-ability-category-description
+woocommerce/changelog/update-variation-selector-color-swatches
+woocommerce/changelog/update-wc-visual-attribute-feature-toggle
+woocommerce/changelog/update-wooprd-3539-readd-mercadopago-to-nox
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -177766,7 +177938,6 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
-wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments
@@ -178807,6 +178978,7 @@ x_vhosts-update.sql
 xalter
 xamldraganddrop
 xattr.delete.desc.xml
+xbox-quick-resume-fix-disable-april-update-series-x-s
 xc_for_update.sql
 xcart1/under_update.html
 xcart1/under_update.html_var_de

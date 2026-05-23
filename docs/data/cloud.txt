@@ -162,11 +162,11 @@ http://169.254.169.254.nicelocal.com/
 http://169.254.169.254/latest/meta-data/
 http://169.254.169.254/latest/meta-data/iam/security-credentials/
 http://169.254.169.254/latest/user-data/
+http://firebasestorage.googleapis.com/robots.txt
 http://instance-data/latest/meta-data/
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
-http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http://storage.googleapis.com/robots.txt
 https://bdn-data.s3.amazonaws.com/uploads/wpforms/
