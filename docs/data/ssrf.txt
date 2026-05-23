@@ -3433,8 +3433,11 @@ $sitepreview/localhost:2006/wizard/
 /transfer/internal
 /transfers_internal_transfer
 /trufusionportal/jsp/internal_admin_contact_login.jsp
+/typo3/sysext/cms/tslib/content/class.tslib_content_contentobjectarrayinternal.php
+/typo3/sysext/cms/tslib/content/class.tslib_content_userinternal.php
 /typo3/sysext/frontend/classes/contentobject/contentobjectarrayinternalcontentobject.php
 /typo3/sysext/frontend/classes/contentobject/userinternalcontentobject.php
+/typo3/sysext/linkvalidator/classes/linktype/class.tx_linkvalidator_linktype_internal.php
 /typo3/sysext/linkvalidator/classes/linktype/internallinktype.php
 /u/internal/logout
 /urgency/addlocalhost
