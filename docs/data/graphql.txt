@@ -7,6 +7,7 @@
 .dev/rubocop/cop/zammad/graphql_authorize_requires_permission.rb
 .dev/rubocop/cop/zammad/graphql_authorized_requires_enabled_setting.rb
 .dev/rubocop/cop/zammad/graphql_csrf_skip_verification.rb
+.dev/rubocop/cop/zammad/graphql_forbid_sensitive_fields.rb
 .gitlab/check_graphql_api_consistency.sh
 .graphql_code_generator.js
 .graphqlconfig.yml
@@ -6999,6 +7000,8 @@ cop/zammad/graphql_authorized_requires_enabled_setting.rb
 cop/zammad/graphql_authorized_requires_enabled_setting_spec.rb
 cop/zammad/graphql_csrf_skip_verification.rb
 cop/zammad/graphql_csrf_skip_verification_spec.rb
+cop/zammad/graphql_forbid_sensitive_fields.rb
+cop/zammad/graphql_forbid_sensitive_fields_spec.rb
 core/database/schemaintrospectiontesttrait.php
 core/graphql-errors.ts
 core/graphql-ts/package.json
@@ -13756,6 +13759,8 @@ graphql_channel_spec.rb
 graphql_controller.rb
 graphql_csrf_skip_verification.rb
 graphql_csrf_skip_verification_spec.rb
+graphql_forbid_sensitive_fields.rb
+graphql_forbid_sensitive_fields_spec.rb
 graphql_fragment_cache.rb
 graphql_introspection.json
 graphql_introspection_generator.rb
@@ -17639,6 +17644,7 @@ native_client_sdk/doc_generated/pepper_stable/c/group___typedefs.html
 nebenstellengraphql1view
 net::dbus::binding::introspector - handler for object introspection data
 newsgraphql1view
+newsletter/$http://graphql.org/robots.txt
 newslettergraphql/composer.json
 newslettergraphql/etc/di.xml
 newslettergraphql/etc/graphql/di.xml
@@ -19510,6 +19516,8 @@ rubocop/cop/zammad/graphql_authorized_requires_enabled_setting.rb
 rubocop/cop/zammad/graphql_authorized_requires_enabled_setting_spec.rb
 rubocop/cop/zammad/graphql_csrf_skip_verification.rb
 rubocop/cop/zammad/graphql_csrf_skip_verification_spec.rb
+rubocop/cop/zammad/graphql_forbid_sensitive_fields.rb
+rubocop/cop/zammad/graphql_forbid_sensitive_fields_spec.rb
 rules/disableintrospection.php
 runtimeintrospection
 s-graphql-genialcam
@@ -20335,6 +20343,7 @@ spec/rubocop/cop/zammad/graphql_authorize_disallowed_spec.rb
 spec/rubocop/cop/zammad/graphql_authorize_requires_permission_spec.rb
 spec/rubocop/cop/zammad/graphql_authorized_requires_enabled_setting_spec.rb
 spec/rubocop/cop/zammad/graphql_csrf_skip_verification_spec.rb
+spec/rubocop/cop/zammad/graphql_forbid_sensitive_fields_spec.rb
 spec/support/graphql.rb
 splunk_introspection_io_stats.xml
 sportslistgraphql1view
@@ -23796,6 +23805,7 @@ workday__basic__md__type__.xml
 workday__md__type__.xml
 wp-content/plugins/simple-graphql-api/
 wp-content/plugins/worker/src/monolog/processor/introspectionprocessor.php
+wp-content/uploads/wp-import-export-lite/http://apollographql.com/robots.txt
 wp-graphql
 wp-includes/ixr/class-ixr-introspectionserver.php
 wp/wp-includes/ixr/class-ixr-introspectionserver.php
@@ -23824,6 +23834,8 @@ zammad/graphql_authorized_requires_enabled_setting.rb
 zammad/graphql_authorized_requires_enabled_setting_spec.rb
 zammad/graphql_csrf_skip_verification.rb
 zammad/graphql_csrf_skip_verification_spec.rb
+zammad/graphql_forbid_sensitive_fields.rb
+zammad/graphql_forbid_sensitive_fields_spec.rb
 zammad/graphql_introspection_generator.rb
 zend/xmlrpc/client/serverintrospection.php
 zipgraphqlconfirm
