@@ -768,6 +768,7 @@ api/src/utils/is-directus-jwt.test.ts
 api/src/utils/is-directus-jwt.ts
 api/src/utils/jwt.test.ts
 api/src/utils/jwt.ts
+api/src/utils/verify-session-jwt.test.ts
 api/src/utils/verify-session-jwt.ts
 api/token-jwt/tkn
 api/tpi/jwt
@@ -4162,6 +4163,7 @@ src/utils/jwt-payload.ts
 src/utils/jwt.test.ts
 src/utils/jwt.ts
 src/utils/tests/jwt.test.ts
+src/utils/verify-session-jwt.test.ts
 src/utils/verify-session-jwt.ts
 srf9jwti2napc8uw
 srjjwtwan
@@ -4435,6 +4437,7 @@ utils/jwt-payload.ts
 utils/jwt.test.ts
 utils/jwt.ts
 utils/tests/jwt.test.ts
+utils/verify-session-jwt.test.ts
 utils/verify-session-jwt.ts
 utkbjwtynhbpv
 utnljwtj
@@ -4633,6 +4636,7 @@ vendor/tymon/jwt-auth/tests/validators/tokenvalidatortest.php
 vendor/zfcampus/zf-oauth2/test/adapter/pdo/jwtaccesstokentest.php
 vendor/zfcampus/zf-oauth2/test/adapter/pdo/jwtbearertest.php
 verify-internal-jwt.xml
+verify-session-jwt.test.ts
 verify-session-jwt.ts
 verifydynamicjwt
 verifyjwt
