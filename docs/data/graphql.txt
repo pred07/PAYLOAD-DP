@@ -10645,6 +10645,7 @@ graphql/admin/.eslintrc.cjs
 graphql/admin/src/index.ts
 graphql/admin/src/pluginid.ts
 graphql/admin/src/translations/cs.json
+graphql/admin/src/translations/da.json
 graphql/admin/src/translations/dk.json
 graphql/admin/src/translations/en.json
 graphql/admin/src/translations/es.json
@@ -17649,6 +17650,7 @@ native_client_sdk/doc_generated/pepper_stable/c/group___typedefs.html
 nebenstellengraphql1view
 net::dbus::binding::introspector - handler for object introspection data
 newsgraphql1view
+newsletter/$http://graphql.org/robots.txt
 newslettergraphql/composer.json
 newslettergraphql/etc/di.xml
 newslettergraphql/etc/graphql/di.xml
@@ -18042,6 +18044,7 @@ packages/plugins/graphql/admin/.eslintrc.cjs
 packages/plugins/graphql/admin/src/index.ts
 packages/plugins/graphql/admin/src/pluginid.ts
 packages/plugins/graphql/admin/src/translations/cs.json
+packages/plugins/graphql/admin/src/translations/da.json
 packages/plugins/graphql/admin/src/translations/dk.json
 packages/plugins/graphql/admin/src/translations/en.json
 packages/plugins/graphql/admin/src/translations/es.json
@@ -18623,6 +18626,7 @@ plugins/graphql/admin/.eslintrc.cjs
 plugins/graphql/admin/src/index.ts
 plugins/graphql/admin/src/pluginid.ts
 plugins/graphql/admin/src/translations/cs.json
+plugins/graphql/admin/src/translations/da.json
 plugins/graphql/admin/src/translations/dk.json
 plugins/graphql/admin/src/translations/en.json
 plugins/graphql/admin/src/translations/es.json

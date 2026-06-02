@@ -24224,6 +24224,9 @@ internal/package-lock.json
 internal/package.json
 internal/portal
 internal/prod.json
+internal/productattributes/visualattributetermadmin.php
+internal/productattributes/visualattributetermmeta.php
+internal/productattributes/visualattributetermmetatest.php
 internal/productattributeslookup/clirunner.php
 internal/productattributeslookup/dataregenerator.php
 internal/productattributeslookup/dataregeneratortest.php
@@ -24320,8 +24323,11 @@ internal/pushnotifications/services/notificationpreferencesservice.php
 internal/pushnotifications/services/notificationpreferencesservicetest.php
 internal/pushnotifications/services/notificationprocessor.php
 internal/pushnotifications/services/notificationprocessortest.php
+internal/pushnotifications/services/notificationretryhandler.php
+internal/pushnotifications/services/notificationretryhandlertest.php
 internal/pushnotifications/services/pendingnotificationstore.php
 internal/pushnotifications/services/pendingnotificationstoretest.php
+internal/pushnotifications/traits/authorizespushnotificationrequests.php
 internal/pushnotifications/traits/convertsexceptionstowperror.php
 internal/pushnotifications/triggers/newordernotificationtrigger.php
 internal/pushnotifications/triggers/newordernotificationtriggertest.php
@@ -46678,6 +46684,7 @@ php/src/internal/orders/orderstatusrestcontrollertest.php
 php/src/internal/orders/paymentinfotest.php
 php/src/internal/orders/pointofsaleemailhandlertest.php
 php/src/internal/orders/pointofsaleorderutiltest.php
+php/src/internal/productattributes/visualattributetermmetatest.php
 php/src/internal/productattributeslookup/dataregeneratortest.php
 php/src/internal/productattributeslookup/filterertest.php
 php/src/internal/productattributeslookup/lookupdatastoretest.php
@@ -46714,6 +46721,7 @@ php/src/internal/pushnotifications/notifications/stocknotificationtest.php
 php/src/internal/pushnotifications/pushnotificationstest.php
 php/src/internal/pushnotifications/services/notificationpreferencesservicetest.php
 php/src/internal/pushnotifications/services/notificationprocessortest.php
+php/src/internal/pushnotifications/services/notificationretryhandlertest.php
 php/src/internal/pushnotifications/services/pendingnotificationstoretest.php
 php/src/internal/pushnotifications/triggers/newordernotificationtriggertest.php
 php/src/internal/pushnotifications/triggers/newreviewnotificationtriggertest.php
@@ -48089,6 +48097,8 @@ plugins/woocommerce/src/internal/orders/paymentinfo.php
 plugins/woocommerce/src/internal/orders/pointofsaleemailhandler.php
 plugins/woocommerce/src/internal/orders/pointofsaleorderutil.php
 plugins/woocommerce/src/internal/orders/taxescontroller.php
+plugins/woocommerce/src/internal/productattributes/visualattributetermadmin.php
+plugins/woocommerce/src/internal/productattributes/visualattributetermmeta.php
 plugins/woocommerce/src/internal/productattributeslookup/clirunner.php
 plugins/woocommerce/src/internal/productattributeslookup/dataregenerator.php
 plugins/woocommerce/src/internal/productattributeslookup/filterer.php
@@ -48149,7 +48159,9 @@ plugins/woocommerce/src/internal/pushnotifications/pushnotifications.php
 plugins/woocommerce/src/internal/pushnotifications/roadmap.md
 plugins/woocommerce/src/internal/pushnotifications/services/notificationpreferencesservice.php
 plugins/woocommerce/src/internal/pushnotifications/services/notificationprocessor.php
+plugins/woocommerce/src/internal/pushnotifications/services/notificationretryhandler.php
 plugins/woocommerce/src/internal/pushnotifications/services/pendingnotificationstore.php
+plugins/woocommerce/src/internal/pushnotifications/traits/authorizespushnotificationrequests.php
 plugins/woocommerce/src/internal/pushnotifications/traits/convertsexceptionstowperror.php
 plugins/woocommerce/src/internal/pushnotifications/triggers/newordernotificationtrigger.php
 plugins/woocommerce/src/internal/pushnotifications/triggers/newreviewnotificationtrigger.php
@@ -48604,6 +48616,7 @@ plugins/woocommerce/tests/php/src/internal/orders/orderstatusrestcontrollertest.
 plugins/woocommerce/tests/php/src/internal/orders/paymentinfotest.php
 plugins/woocommerce/tests/php/src/internal/orders/pointofsaleemailhandlertest.php
 plugins/woocommerce/tests/php/src/internal/orders/pointofsaleorderutiltest.php
+plugins/woocommerce/tests/php/src/internal/productattributes/visualattributetermmetatest.php
 plugins/woocommerce/tests/php/src/internal/productattributeslookup/dataregeneratortest.php
 plugins/woocommerce/tests/php/src/internal/productattributeslookup/filterertest.php
 plugins/woocommerce/tests/php/src/internal/productattributeslookup/lookupdatastoretest.php
@@ -48640,6 +48653,7 @@ plugins/woocommerce/tests/php/src/internal/pushnotifications/notifications/stock
 plugins/woocommerce/tests/php/src/internal/pushnotifications/pushnotificationstest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/services/notificationpreferencesservicetest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/services/notificationprocessortest.php
+plugins/woocommerce/tests/php/src/internal/pushnotifications/services/notificationretryhandlertest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/services/pendingnotificationstoretest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/triggers/newordernotificationtriggertest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/triggers/newreviewnotificationtriggertest.php
@@ -52399,6 +52413,9 @@ src/internal/orders/pointofsaleemailhandlertest.php
 src/internal/orders/pointofsaleorderutil.php
 src/internal/orders/pointofsaleorderutiltest.php
 src/internal/orders/taxescontroller.php
+src/internal/productattributes/visualattributetermadmin.php
+src/internal/productattributes/visualattributetermmeta.php
+src/internal/productattributes/visualattributetermmetatest.php
 src/internal/productattributeslookup/clirunner.php
 src/internal/productattributeslookup/dataregenerator.php
 src/internal/productattributeslookup/dataregeneratortest.php
@@ -52495,8 +52512,11 @@ src/internal/pushnotifications/services/notificationpreferencesservice.php
 src/internal/pushnotifications/services/notificationpreferencesservicetest.php
 src/internal/pushnotifications/services/notificationprocessor.php
 src/internal/pushnotifications/services/notificationprocessortest.php
+src/internal/pushnotifications/services/notificationretryhandler.php
+src/internal/pushnotifications/services/notificationretryhandlertest.php
 src/internal/pushnotifications/services/pendingnotificationstore.php
 src/internal/pushnotifications/services/pendingnotificationstoretest.php
+src/internal/pushnotifications/traits/authorizespushnotificationrequests.php
 src/internal/pushnotifications/traits/convertsexceptionstowperror.php
 src/internal/pushnotifications/triggers/newordernotificationtrigger.php
 src/internal/pushnotifications/triggers/newordernotificationtriggertest.php
@@ -54589,6 +54609,7 @@ tests/php/src/internal/orders/orderstatusrestcontrollertest.php
 tests/php/src/internal/orders/paymentinfotest.php
 tests/php/src/internal/orders/pointofsaleemailhandlertest.php
 tests/php/src/internal/orders/pointofsaleorderutiltest.php
+tests/php/src/internal/productattributes/visualattributetermmetatest.php
 tests/php/src/internal/productattributeslookup/dataregeneratortest.php
 tests/php/src/internal/productattributeslookup/filterertest.php
 tests/php/src/internal/productattributeslookup/lookupdatastoretest.php
@@ -54625,6 +54646,7 @@ tests/php/src/internal/pushnotifications/notifications/stocknotificationtest.php
 tests/php/src/internal/pushnotifications/pushnotificationstest.php
 tests/php/src/internal/pushnotifications/services/notificationpreferencesservicetest.php
 tests/php/src/internal/pushnotifications/services/notificationprocessortest.php
+tests/php/src/internal/pushnotifications/services/notificationretryhandlertest.php
 tests/php/src/internal/pushnotifications/services/pendingnotificationstoretest.php
 tests/php/src/internal/pushnotifications/triggers/newordernotificationtriggertest.php
 tests/php/src/internal/pushnotifications/triggers/newreviewnotificationtriggertest.php
@@ -58150,6 +58172,8 @@ woocommerce/src/internal/orders/paymentinfo.php
 woocommerce/src/internal/orders/pointofsaleemailhandler.php
 woocommerce/src/internal/orders/pointofsaleorderutil.php
 woocommerce/src/internal/orders/taxescontroller.php
+woocommerce/src/internal/productattributes/visualattributetermadmin.php
+woocommerce/src/internal/productattributes/visualattributetermmeta.php
 woocommerce/src/internal/productattributeslookup/clirunner.php
 woocommerce/src/internal/productattributeslookup/dataregenerator.php
 woocommerce/src/internal/productattributeslookup/filterer.php
@@ -58210,7 +58234,9 @@ woocommerce/src/internal/pushnotifications/pushnotifications.php
 woocommerce/src/internal/pushnotifications/roadmap.md
 woocommerce/src/internal/pushnotifications/services/notificationpreferencesservice.php
 woocommerce/src/internal/pushnotifications/services/notificationprocessor.php
+woocommerce/src/internal/pushnotifications/services/notificationretryhandler.php
 woocommerce/src/internal/pushnotifications/services/pendingnotificationstore.php
+woocommerce/src/internal/pushnotifications/traits/authorizespushnotificationrequests.php
 woocommerce/src/internal/pushnotifications/traits/convertsexceptionstowperror.php
 woocommerce/src/internal/pushnotifications/triggers/newordernotificationtrigger.php
 woocommerce/src/internal/pushnotifications/triggers/newreviewnotificationtrigger.php
@@ -58666,6 +58692,7 @@ woocommerce/tests/php/src/internal/orders/orderstatusrestcontrollertest.php
 woocommerce/tests/php/src/internal/orders/paymentinfotest.php
 woocommerce/tests/php/src/internal/orders/pointofsaleemailhandlertest.php
 woocommerce/tests/php/src/internal/orders/pointofsaleorderutiltest.php
+woocommerce/tests/php/src/internal/productattributes/visualattributetermmetatest.php
 woocommerce/tests/php/src/internal/productattributeslookup/dataregeneratortest.php
 woocommerce/tests/php/src/internal/productattributeslookup/filterertest.php
 woocommerce/tests/php/src/internal/productattributeslookup/lookupdatastoretest.php
@@ -58702,6 +58729,7 @@ woocommerce/tests/php/src/internal/pushnotifications/notifications/stocknotifica
 woocommerce/tests/php/src/internal/pushnotifications/pushnotificationstest.php
 woocommerce/tests/php/src/internal/pushnotifications/services/notificationpreferencesservicetest.php
 woocommerce/tests/php/src/internal/pushnotifications/services/notificationprocessortest.php
+woocommerce/tests/php/src/internal/pushnotifications/services/notificationretryhandlertest.php
 woocommerce/tests/php/src/internal/pushnotifications/services/pendingnotificationstoretest.php
 woocommerce/tests/php/src/internal/pushnotifications/triggers/newordernotificationtriggertest.php
 woocommerce/tests/php/src/internal/pushnotifications/triggers/newreviewnotificationtriggertest.php
@@ -59277,8 +59305,8 @@ zend_tool_project-internals.xml
 zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
+zh/internalhttp://apress.com/robots.txt
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://karlsruhe.de/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php

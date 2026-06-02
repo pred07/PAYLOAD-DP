@@ -62812,6 +62812,7 @@ app/components/tiers/segment-select.hbs
 app/components/tiers/segment-select.js
 app/components/toggle/select.js
 app/components/toggle/tests/select.test.js
+app/console/commands/bulkdelete.php
 app/controllers/_application_controller/_modal_generic_confirm_delete.coffee
 app/controllers/_plugin/app_config_update.coffee
 app/controllers/_ui_element/_application_tree_select.coffee
@@ -70602,6 +70603,7 @@ bulkcustomergroupinsert
 bulkcustomerinsert
 bulkcustomerstageinstructioninsert
 bulkdelete
+bulkdelete.php
 bulkdesignerproductsupdate
 bulkdomaininsert
 bulkedit-insert.aspx
@@ -72739,6 +72741,7 @@ changelog/update-e2e-product-editor-create-simple-product
 changelog/update-export-product-edits
 changelog/update-featured-product-checkbox
 changelog/update-fix-performance-issues-in-attributes-modal
+changelog/update-iapi-wp-min-catalog
 changelog/update-images-field-label-drag-and-size
 changelog/update-inner-blocks-protocol-unify-context-prefix
 changelog/update-introduce-attributes-combobox-control
@@ -72814,6 +72817,7 @@ changelog/update-settings-router-calypso-package
 changelog/update-sku-remove-description
 changelog/update-status-options-and-labels
 changelog/update-stock-column-badge
+changelog/update-store-stock-order-pn-icon-emoji
 changelog/update-storybook_documentation
 changelog/update-stricter-global-unique-id
 changelog/update-swatches-styles
@@ -72825,6 +72829,7 @@ changelog/update-woopayments-methods-logos-component
 changelog/update-wp-68-context-types
 changelog/update-wp-68-media-types
 changelog/update-wp-68-packages
+changelog/woomob-2766-update-useqrlogintoken-error-handling
 changemainupdate
 changemodifiedupdate
 changenewupdate
@@ -75354,6 +75359,7 @@ commands.exec
 commands.update-recordings.conf
 commands/admin/__tests__/delete-user.test.ts
 commands/admin/delete-user.ts
+commands/bulkdelete.php
 commands/delete/collections.ts
 commands/delete/comments.ts
 commands/delete/dashboards.ts
@@ -77035,6 +77041,7 @@ console/command/update/config/show.php
 console/command/update/config/validate.php
 console/command/update/update.php
 console/command/user/delete.php
+console/commands/bulkdelete.php
 console/commands/exchangerateupdate.php
 console/octoberupdate.php
 console/testdata/exec.js
@@ -79738,6 +79745,7 @@ core/themes/default_admin/migration/media/icons/general/drop.svg
 core/themes/default_admin/templates/admin/update-project-status.html.twig
 core/themes/default_admin/templates/admin/update-version.html.twig
 core/themes/olivero/olivero.post_update.php
+core/themes/olivero/tests/src/functional/update/oliveropostupdatetest.php
 core/themes/seven/css/classy/components/tableselect.css
 core/themes/seven/css/components/update-status.css
 core/themes/seven/css/theme/update-report.css
@@ -83337,7 +83345,6 @@ delete-address-instance.xml.curl
 delete-admin
 delete-admin-object.1
 delete-administrator
-delete-affinity
 delete-after-date1619708000534-admin
 delete-agency-by-key.sql
 delete-alert-rule.inc.php
@@ -88487,6 +88494,7 @@ difficultyleveldelete
 diffidence,pyrrhonism,afraidness,apprehension,bashfulness,boggle,boggling,caution,cautiousness,compunction,demur,demurral,distrust,distrustfulness,doubt,doubtfulness,dubiety,dubiousness,falter,faltering,fearfulness,half-belief,hesitance,hesitancy,hesitating,hesitation,jumpiness,lack of self-confidence,lack of self-reliance,leeriness,misdoubt,misgiving,mistrust,mistrustfulness,modesty,objection,pause,protest,qualm,qualm of conscience,qualmishness,question,recoil,scruple,scrupulosity,scrupulousness,self-depreciation,self-detraction,self-distrust,self-doubt,self-effacement,shadow of doubt,shilly-shally,shilly-shallying,shrinking,shrinkingness,shyness,skepticalness,skepticism,skittishness,stage fright,startlishness,stickling,suspicion,suspiciousness,tentativeness,timidity,timorousness,total skepticism,uncertainty,wariness,weak ego
 diffinsert.sql
 diffopdelete.php
+digestive-health/some-antibiotics-can-alter-your-gut-microbiome-for-years/
 digexec
 digitaalter
 digital-fernsehen/select-video/redxclub.html
@@ -98606,6 +98614,7 @@ functional/update/layoutbuildercontextmappingupdatepathtest.php
 functional/update/menublockdepthtest.php
 functional/update/menutreestorageschemaupdatetest.php
 functional/update/nodecontenttranslationupdatetest.php
+functional/update/oliveropostupdatetest.php
 functional/update/pathaliasrevisionindexesupdatepathtest.php
 functional/update/readme.txt
 functional/update/removepathkeytest.php
@@ -99944,6 +99953,10 @@ government/agencies-departments-offices/agencies-departments-offices/office-of-t
 government/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/departments/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
+government/departments/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
+government/departments/office-of-the-clerk-recorder/marriages-and-civil-unions/marriage-and-civil-union-rules-and-guidance
+government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-and-guidance
+government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government_drop
 governmentcompanyupdate
 governmentinfoupdate
@@ -101907,6 +101920,7 @@ http/controllers/v1/admin/update/migrateupdatecontroller.php
 http/controllers/v1/admin/update/unzipupdatecontroller.php
 http/controllers/v1/admin/update/updatecontroller.php
 http://onedrop.today/robots.txt
+http://raindrop.io/robots.txt
 http_feed.2.update.sqlpp
 http_feed.6.update.sqlpp
 http_feed_json.2.update.sqlpp
@@ -112782,6 +112796,7 @@ markalter
 markasreadbeforeupdate.php
 markclienttodelete
 markdelete
+markdown/report-bulk-delete.blade.php
 markdown_insert
 markdown_version_update.xml
 marked_delete
@@ -118344,6 +118359,8 @@ negativhalter
 negotiator,agent,arbitrator,bargainer,broker,business agent,cardholder,connection,contact,deputy,front,front man,go-between,interagent,interceder,intercessor,intermediary,intermediate,intermediate agent,intermediator,intermedium,internuncio,interpleader,intervener,interventionist,interventor,labor organizer,mediator,medium,middleman,mouthpiece,negotiant,negotiatress,negotiatrix,ombudsman,organizer,shop steward,spokesman,spokeswoman,trade unionist,union member,union officer,unionist
 neighbor,abut,abut on,abutter,acquaintance,adjacent,adjoin,adjoiner,adjoining,advocate,alter ego,appose,backer,be contiguous,be in contact,best friend,border,border on,borderer,bordering,bosom friend,bring near,brother,butt,bystander,casual acquaintance,close acquaintance,close friend,communicate,confidant,confidante,conjoin,connect,connecting,conterminous,contiguous,coterminous,end to end,endways,endwise,face to face,familiar,favorer,fellow,fellow creature,fellowman,friend,immediate,immediate neighbor,inseparable friend,intimate,join,joined,juxtapose,juxtaposed,juxtaposit,juxtapositional,juxtapositive,lie by,line,looker-on,lover,march,neighborer,neighboring,next,onlooker,other self,partisan,pickup,put with,repository,stand by,supporter,sympathizer,tangent,touch,verge,verge upon,well-wisher
 neighbor-update-source.xml.i
+neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-gallery
+neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-image-gallery
 neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/new-page
 neighborhoodselect
 neighborhoodupdate
@@ -120003,6 +120020,7 @@ notifications-update
 notifications/1/delete
 notifications/1/update
 notifications/3d_callback/details_update/:product
+notifications/markdown/report-bulk-delete.blade.php
 notifications/setup/tables_update.inc.php
 notifications_delete
 notifications_select
@@ -120621,6 +120639,7 @@ olist-jaccard.2.update.sqlpp
 oliver.schowalter-hay
 olivero.post_update.php
 olivero/olivero.post_update.php
+olivero/tests/src/functional/update/oliveropostupdatetest.php
 ols-fw-update.exe
 olya.buhgalter
 olympicsupdate-com
@@ -125465,6 +125484,7 @@ plugins/woocommerce/changelog/update-add-to-cart-with-options-filter-inner-block
 plugins/woocommerce/changelog/update-block-references-may-2026
 plugins/woocommerce/changelog/update-create-term-modal-ii
 plugins/woocommerce/changelog/update-display-style-switch-to-editor-components
+plugins/woocommerce/changelog/update-iapi-wp-min-catalog
 plugins/woocommerce/changelog/update-inner-blocks-protocol-unify-context-prefix
 plugins/woocommerce/changelog/update-move-init-colors-to-chips-block
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
@@ -125472,9 +125492,11 @@ plugins/woocommerce/changelog/update-product-filter-style-handling
 plugins/woocommerce/changelog/update-product-filters-no-multiple
 plugins/woocommerce/changelog/update-rest-api-docs
 plugins/woocommerce/changelog/update-rsm-108-ability-category-description
+plugins/woocommerce/changelog/update-store-stock-order-pn-icon-emoji
 plugins/woocommerce/changelog/update-swatches-styles
 plugins/woocommerce/changelog/update-variation-selector-color-swatches
 plugins/woocommerce/changelog/update-wc-visual-attribute-feature-toggle
+plugins/woocommerce/changelog/woomob-2766-update-useqrlogintoken-error-handling
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -131060,6 +131082,8 @@ recordtypedelete
 recordtypeupdate
 recordunion-com
 recordupdate
+recovery-safety/a-drop-in-heart-rate-during-exercise/
+recovery-safety/exercises-for-wrist-drop/
 recovery-update-accounts-security
 recovery/update/assets/javascript/jquery.installer.js
 recovery/update/bin/update.php
@@ -132316,6 +132340,7 @@ reply,esp,acknowledge,acknowledgment,action and reaction,advocate,allege in supp
 repo-update
 repobranchdelete
 repocheckoutupdate
+report-bulk-delete.blade.php
 report/customsql/categorydelete.php
 report/customsql/delete.php
 report_delete
@@ -132976,6 +133001,7 @@ resources/views/modals/partials/categories-select.blade.php
 resources/views/modals/partials/fieldset-select.blade.php
 resources/views/modals/partials/manufacturer-select.blade.php
 resources/views/models/bulk-delete.blade.php
+resources/views/notifications/markdown/report-bulk-delete.blade.php
 resources/views/pages/delete.blade.php
 resources/views/partials/_permalink_select.html.twig
 resources/views/partials/_select.html.twig
@@ -144188,6 +144214,7 @@ sleep(5)='
 sleep(9999)
 sleep(__time__)#
 sleep,ko,annihilation,ataraxia,ataraxy,bane,be caught napping,be neglectful,be negligent,beauty sleep,beddy-bye,bedtime,biological death,blackout,blanket drill,bye-bye,calmness,catalepsy,catatonia,catatony,catnap,cessation of life,clinical death,coma,comfort,composure,contemplation,crossing the bar,curtains,death,death knell,debt of nature,decease,default,demise,departure,disregard,dissolution,doom,doss,doze,dreamland,drop off,drowse,dying,ease,ebb of life,end,end of life,ending,eternal rest,exit,expiration,extinction,extinguishment,fail,faint,final summons,finger of death,fitful sleep,forty winks,fust,gloss over,going,going off,grave,grayout,hand of death,hang fire,hibernation,idle,ignore,imperturbability,inactivity,jaws of death,kayo,knell,knockout,land of nod,lapse,last debt,last muster,last rest,last roundup,last sleep,leaving life,let go,let ride,let slide,let slip,light sleep,lipothymia,lipothymy,lose sight of,lose track of,loss of life,lucid stillness,making an end,marmoreal repose,nap,neglect,nirvana,nirvana principle,nod,nod off,not care for,not get involved,not heed,not think,nothingness,oblivion,obliviousness,overlook,oversleep,parting,pass over,passing,passing away,passing over,peace,peacefulness,perishing,placidity,placidness,pound,quiescence,quiescency,quiet,quietism,quietness,quietude,quietus,relax,relaxation,release,repose,rest,restfulness,reward,satori,saw logs,saw wood,semiconsciousness,senselessness,sentence of death,serenity,shades of death,shadow of death,shut-eye,siesta,silence,silken repose,sleep soundly,sleepland,sleepwalking,slumber,slumberland,smolder,snooze,snoozle,snore,somatic death,somnambulism,somniloquy,somnus,stagnate,stillness,stupor,summons of death,swoon,syncope,take a nap,take for granted,tranquillity,unbuttoned ease,unconsciousness,vegetate,winter sleep,wise passiveness
+sleep/can-changing-your-sleep-position-alter-your-dreams.aspx
 sleep_select.go
 sleeping pill,amytal,amytal pill,demerol,dolophine,h,luminal,luminal pill,m,mickey finn,nembutal,nembutal pill,seconal,seconal pill,tuinal,tuinal pill,alcohol,amobarbital sodium,analgesic,anesthetic,anodyne,barb,barbiturate,barbiturate pill,black stuff,blue,blue angel,blue devil,blue heaven,blue velvet,calmative,chloral hydrate,codeine,codeine cough syrup,depressant,depressor,dolly,dope,downer,drug,goofball,hard stuff,heroin,hop,horse,hypnotic,junk,knockout drop,knockout drops,laudanum,liquor,lotus,meperidine,methadone,morphia,morphine,narcotic,opiate,opium,pacifier,pain killer,pain-killer,paregoric,pen yan,phenobarbital,phenobarbital sodium,purple heart,quietener,rainbow,red,scag,secobarbital sodium,sedative,shit,sleep-inducer,sleeper,sleeping draught,smack,sodium thiopental,somnifacient,soother,soothing syrup,soporific,tar,tranquilizer,turps,white stuff,yellow,yellow jacket
 sleeptrackupdate
@@ -146179,6 +146206,7 @@ src/functional/update/layoutbuildercontextmappingupdatepathtest.php
 src/functional/update/menublockdepthtest.php
 src/functional/update/menutreestorageschemaupdatetest.php
 src/functional/update/nodecontenttranslationupdatetest.php
+src/functional/update/oliveropostupdatetest.php
 src/functional/update/pathaliasrevisionindexesupdatepathtest.php
 src/functional/update/readme.txt
 src/functional/update/removepathkeytest.php
@@ -152688,6 +152716,7 @@ tests/src/functional/update/layoutbuildercontextmappingupdatepathtest.php
 tests/src/functional/update/menublockdepthtest.php
 tests/src/functional/update/menutreestorageschemaupdatetest.php
 tests/src/functional/update/nodecontenttranslationupdatetest.php
+tests/src/functional/update/oliveropostupdatetest.php
 tests/src/functional/update/pathaliasrevisionindexesupdatepathtest.php
 tests/src/functional/update/readme.txt
 tests/src/functional/update/removepathkeytest.php
@@ -153409,6 +153438,7 @@ themes/new-theme/js/pages/product/shop/pre-select-product-shop/index.ts
 themes/new-theme/js/pages/product/shop/select-shop-modal.ts
 themes/new-theme/js/pages/themes/delete-theme-handler.ts
 themes/olivero/olivero.post_update.php
+themes/olivero/tests/src/functional/update/oliveropostupdatetest.php
 themes/pc2/assets/js/date-time/select.monthselect.html
 themes/pc2/assets/js/date-time/select.yearselect.html
 themes/pc2/assets/js/div.chzn-drop.html
@@ -165490,6 +165520,7 @@ update-hurlcastortojpa1-kb.sql
 update-hurlcastortojpa2-anno.sql
 update-hurlimageurls-anno.sql
 update-i
+update-iapi-wp-min-catalog
 update-icon
 update-icon-caches
 update-icon-caches.gtk2
@@ -167658,6 +167689,7 @@ update-storage
 update-storage-objects.sh
 update-storagemx
 update-store
+update-store-stock-order-pn-icon-emoji
 update-storybook_documentation
 update-stream
 update-stricter-global-unique-id
@@ -169375,6 +169407,7 @@ update/new/test_files_diff.php
 update/nodecontenttranslationupdatetest.php
 update/notifications.ts
 update/old/test_files_diff.php
+update/oliveropostupdatetest.php
 update/operations.ts
 update/panels.ts
 update/pathaliasrevisionindexesupdatepathtest.php
@@ -173665,6 +173698,7 @@ views/newslettersubscription/_createorupdate.cshtml
 views/newslettersubscriptiontype/_createorupdate.cshtml
 views/note/update.php
 views/notification/update.php
+views/notifications/markdown/report-bulk-delete.blade.php
 views/notifications/update.php
 views/object_manager/attribute/multi_tree_select.jst.eco
 views/object_manager/attribute/multiselect.jst.eco
@@ -176326,6 +176360,7 @@ woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks-backwa
 woocommerce/changelog/update-block-references-may-2026
 woocommerce/changelog/update-create-term-modal-ii
 woocommerce/changelog/update-display-style-switch-to-editor-components
+woocommerce/changelog/update-iapi-wp-min-catalog
 woocommerce/changelog/update-inner-blocks-protocol-unify-context-prefix
 woocommerce/changelog/update-move-init-colors-to-chips-block
 woocommerce/changelog/update-pay-506-always-show-payment-radio
@@ -176333,9 +176368,11 @@ woocommerce/changelog/update-product-filter-style-handling
 woocommerce/changelog/update-product-filters-no-multiple
 woocommerce/changelog/update-rest-api-docs
 woocommerce/changelog/update-rsm-108-ability-category-description
+woocommerce/changelog/update-store-stock-order-pn-icon-emoji
 woocommerce/changelog/update-swatches-styles
 woocommerce/changelog/update-variation-selector-color-swatches
 woocommerce/changelog/update-wc-visual-attribute-feature-toggle
+woocommerce/changelog/woomob-2766-update-useqrlogintoken-error-handling
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -176431,6 +176468,7 @@ woodstock union middle school
 woodstock-or-the-cavalier-by-sir-walter-scott.html.zip
 woodstockunion
 woolgathering,walter mitty,absence of mind,absent,absentminded,absentmindedness,absorbed,absorption,abstracted,abstractedness,abstraction,bemused,bemusement,brown study,castle-building,daydream,daydreamer,daydreaming,daydreamy,depth of thought,dream,dreaming,dreamy,drowsing,ecstatic,elsewhere,engrossed,engrossment,fantasy,fantasying,faraway,fit of abstraction,half-awake,in a reverie,in the clouds,lost,lost in thought,meditative,mooning,moonraking,muse,museful,musefulness,musing,muted ecstasy,napping,nodding,oblivious,pensive,pipe dream,pipe-dreaming,preoccupation,preoccupied,rapt,reverie,somewhere else,stargazing,study,taken up,trance,transported,unconscious,wrapped in thought
+woomob-2766-update-useqrlogintoken-error-handling
 woop_configuration_update
 woop_store_update
 woopayments/components/custom-select-control/index.tsx
