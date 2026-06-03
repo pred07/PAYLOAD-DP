@@ -52544,6 +52544,7 @@ _createorupdate.inventory.cshtml
 _createorupdate.mappings.cshtml
 _createorupdate.menuitems.cshtml
 _createorupdate.multimedia.cshtml
+_createorupdate.multimedia.object3d.cshtml
 _createorupdate.multimedia.pictures.cshtml
 _createorupdate.multimedia.videos.cshtml
 _createorupdate.notes.cshtml
@@ -54818,6 +54819,7 @@ admin/basic/departmenttreeselect.aspx
 admin/basic/departmentztreeselect.aspx
 admin/basic/dictionarygrouptreeselect.aspx
 admin/basic/menuztreeselect.aspx
+admin/basic/update.html.twig
 admin/basic/userposttreeselect.aspx
 admin/basic/usertreeselect.aspx
 admin/batchpriceupdate.aspx
@@ -55509,6 +55511,7 @@ admin/views/product/_createorupdate.giftcard.cshtml
 admin/views/product/_createorupdate.info.cshtml
 admin/views/product/_createorupdate.inventory.cshtml
 admin/views/product/_createorupdate.multimedia.cshtml
+admin/views/product/_createorupdate.multimedia.object3d.cshtml
 admin/views/product/_createorupdate.multimedia.pictures.cshtml
 admin/views/product/_createorupdate.multimedia.videos.cshtml
 admin/views/product/_createorupdate.prices.cshtml
@@ -55840,6 +55843,7 @@ adminbundle/resources/config/app/twig_hooks/taxon/update.yaml
 adminbundle/resources/config/app/twig_hooks/zone/update.yaml
 adminbundle/templates/catalog_promotion/grid/action/delete.html.twig
 adminbundle/templates/customer/show/content/header/title_block/actions/delete.html.twig
+adminbundle/templates/order/update.html.twig
 adminbundle/templates/product/show/content/page_body/attributes/types/select.html.twig
 adminbundle/templates/product_attribute/form/configuration/select/choices.html.twig
 adminbundle/templates/product_attribute/form/configuration/select/max_entries.html.twig
@@ -65974,6 +65978,7 @@ areas/admin/views/product/_createorupdate.giftcard.cshtml
 areas/admin/views/product/_createorupdate.info.cshtml
 areas/admin/views/product/_createorupdate.inventory.cshtml
 areas/admin/views/product/_createorupdate.multimedia.cshtml
+areas/admin/views/product/_createorupdate.multimedia.object3d.cshtml
 areas/admin/views/product/_createorupdate.multimedia.pictures.cshtml
 areas/admin/views/product/_createorupdate.multimedia.videos.cshtml
 areas/admin/views/product/_createorupdate.prices.cshtml
@@ -68146,6 +68151,7 @@ basic/modules/settings/currencyupdate/resources/index.js
 basic/modules/settings/currencyupdate/resources/index.min.js
 basic/modules/settings/currencyupdate/resources/index.min.js.map
 basic/modules/settings/picklist/delete.tpl
+basic/update.html.twig
 basic/vendor/composer/autoload_files.php
 basic/vendor/ezyang/htmlpurifier/maintenance/update-config.php
 basic/vendor/ezyang/htmlpurifier/maintenance/update-freshmeat.php
@@ -70715,6 +70721,7 @@ bundle/adminbundle/resources/config/app/twig_hooks/taxon/update.yaml
 bundle/adminbundle/resources/config/app/twig_hooks/zone/update.yaml
 bundle/adminbundle/templates/catalog_promotion/grid/action/delete.html.twig
 bundle/adminbundle/templates/customer/show/content/header/title_block/actions/delete.html.twig
+bundle/adminbundle/templates/order/update.html.twig
 bundle/adminbundle/templates/product/show/content/page_body/attributes/types/select.html.twig
 bundle/adminbundle/templates/product_attribute/form/configuration/select/choices.html.twig
 bundle/adminbundle/templates/product_attribute/form/configuration/select/max_entries.html.twig
@@ -72722,6 +72729,7 @@ changelog/task-update-eslint-config
 changelog/tweak-products-app-delete-modal-no-quotes
 changelog/tweak-searchable-chip-select-spacing
 changelog/tweak-select-tree-2
+changelog/update-47865-orders-table-query-build
 changelog/update-52732-nox-mobile-views
 changelog/update-59804
 changelog/update-abrev-global-unique-id
@@ -88494,7 +88502,6 @@ difficultyleveldelete
 diffidence,pyrrhonism,afraidness,apprehension,bashfulness,boggle,boggling,caution,cautiousness,compunction,demur,demurral,distrust,distrustfulness,doubt,doubtfulness,dubiety,dubiousness,falter,faltering,fearfulness,half-belief,hesitance,hesitancy,hesitating,hesitation,jumpiness,lack of self-confidence,lack of self-reliance,leeriness,misdoubt,misgiving,mistrust,mistrustfulness,modesty,objection,pause,protest,qualm,qualm of conscience,qualmishness,question,recoil,scruple,scrupulosity,scrupulousness,self-depreciation,self-detraction,self-distrust,self-doubt,self-effacement,shadow of doubt,shilly-shally,shilly-shallying,shrinking,shrinkingness,shyness,skepticalness,skepticism,skittishness,stage fright,startlishness,stickling,suspicion,suspiciousness,tentativeness,timidity,timorousness,total skepticism,uncertainty,wariness,weak ego
 diffinsert.sql
 diffopdelete.php
-digestive-health/some-antibiotics-can-alter-your-gut-microbiome-for-years/
 digexec
 digitaalter
 digital-fernsehen/select-video/redxclub.html
@@ -101920,7 +101927,6 @@ http/controllers/v1/admin/update/migrateupdatecontroller.php
 http/controllers/v1/admin/update/unzipupdatecontroller.php
 http/controllers/v1/admin/update/updatecontroller.php
 http://onedrop.today/robots.txt
-http://raindrop.io/robots.txt
 http_feed.2.update.sqlpp
 http_feed.6.update.sqlpp
 http_feed_json.2.update.sqlpp
@@ -105456,13 +105462,8 @@ integerinsert.exe.config
 integerinsert.vshost.exe
 integerinsert.vshost.exe.config
 integerinsert.vshost.exe.manifest
-integrate-plugin/changelog/43595-update-wireit-0.14.3
-integrate-plugin/changelog/54996-chore-update-wireit
-integrate-plugin/changelog/55095-dev-rewrite-wireit-deps-update
 integrate-plugin/changelog/dev-ci-lint-monorepo-job-update
-integrate-plugin/changelog/update-59804
 integrate-plugin/changelog/update-separate-php-and-js-tests
-integrate-plugin/changelog/update-wp-68-packages
 integration,anschluss,accommodation,adaptation,addition,adjustment,admixture,affiliation,agglomeration,aggregation,agreement,alignment,alliance,alloyage,amalgamation,approximation,assimilation,association,attunement,balancing,blend,blending,cabal,cahoots,cartel,centralization,coadunation,coalescence,coalition,coaptation,colleagueship,collectivity,collegialism,collegiality,combination,combine,combo,comminglement,commingling,commixture,complex,composition,comradeship,confederacy,confederation,confraternity,congeries,conglomeration,conjugation,conjunction,consolidation,conspiracy,coordination,copartnership,copartnery,differentiation,division,eclecticism,ecumenism,embodiment,encompassment,enosis,entirety,equalization,equalizing,equating,equation,equilibration,evening,evening up,evolution,extrapolation,federalization,federation,fellowship,fraternalism,fraternity,fraternization,freemasonry,fusion,harmonization,hookup,identity,immixture,inclusion,incorporation,individuality,indivisibility,intactness,integer,integrality,integrity,interfusion,interlarding,interlardment,interminglement,intermingling,intermixture,interpolation,inversion,inviolability,involution,irreducibility,junction,junta,league,marriage,meld,melding,merger,mingling,mixing,mixture,multiplication,notation,oneness,organic unity,package,package deal,particularity,partnership,pluralism,practice,proportion,purity,reconcilement,reconciliation,reduction,regularization,regulation,selfsameness,simplicity,singleness,singularity,sodality,solidarity,solidification,solidity,sorority,squaring,subtraction,symmetrization,synchronization,syncretism,syndication,syneresis,synthesis,tie-in,tie-up,timing,totality,transformation,undividedness,unification,uniformity,union,uniqueness,unity,univocity,wedding,whole,wholeness
 integration-xupdate.xml
 integration/administrator/components/com_joomlaupdate/update.cy.js
@@ -105687,7 +105688,6 @@ internal-js-tests/changelog/update-pnpm-10-upgrade
 internal-js-tests/changelog/update-settings-router-calypso-package
 internal-js-tests/changelog/update-wp-68-packages
 internal-migrations/5.0.0-05-drop-slug-unique-index.ts
-internal-style-build/changelog/update-wp-68-packages
 internal-update-adfs2
 internal/abilities/domain/productdelete.php
 internal/abilities/domain/productupdate.php
@@ -107499,13 +107499,8 @@ js/imgareaselect/jquery.imgareaselect.min.js
 js/insert-ajax.es6.js
 js/insert-ajax.js
 js/insert-form.js
-js/integrate-plugin/changelog/43595-update-wireit-0.14.3
-js/integrate-plugin/changelog/54996-chore-update-wireit
-js/integrate-plugin/changelog/55095-dev-rewrite-wireit-deps-update
 js/integrate-plugin/changelog/dev-ci-lint-monorepo-job-update
-js/integrate-plugin/changelog/update-59804
 js/integrate-plugin/changelog/update-separate-php-and-js-tests
-js/integrate-plugin/changelog/update-wp-68-packages
 js/internal-js-tests/changelog/42860-update-pnpm
 js/internal-js-tests/changelog/43595-update-wireit-0.14.3
 js/internal-js-tests/changelog/47385-dev-update-pnpm9-1
@@ -107517,7 +107512,6 @@ js/internal-js-tests/changelog/update-59804
 js/internal-js-tests/changelog/update-pnpm-10-upgrade
 js/internal-js-tests/changelog/update-settings-router-calypso-package
 js/internal-js-tests/changelog/update-wp-68-packages
-js/internal-style-build/changelog/update-wp-68-packages
 js/jasmine/tests/app/code/magento/catalog/adminhtml/js/components/product-ui-select.test.js
 js/jasmine/tests/app/code/magento/customer/adminhtml/js/view/form/components/insert-listing.test.js
 js/jasmine/tests/app/code/magento/ui/adminhtml/js/form/insert.test.js
@@ -119818,6 +119812,7 @@ nop.web/areas/admin/views/product/_createorupdate.giftcard.cshtml
 nop.web/areas/admin/views/product/_createorupdate.info.cshtml
 nop.web/areas/admin/views/product/_createorupdate.inventory.cshtml
 nop.web/areas/admin/views/product/_createorupdate.multimedia.cshtml
+nop.web/areas/admin/views/product/_createorupdate.multimedia.object3d.cshtml
 nop.web/areas/admin/views/product/_createorupdate.multimedia.pictures.cshtml
 nop.web/areas/admin/views/product/_createorupdate.multimedia.videos.cshtml
 nop.web/areas/admin/views/product/_createorupdate.prices.cshtml
@@ -121706,6 +121701,7 @@ order/create/store/select.phtml
 order/invoice/plugin/addressupdate.php
 order/orderofsellselect.aspx
 order/payment/encryptionupdate.php
+order/update.html.twig
 order/update.yaml
 order_1.2.update.sqlpp
 order_by_failure.2.update.sqlpp
@@ -122799,13 +122795,8 @@ packages/js/expression-evaluation/changelog/55095-dev-rewrite-wireit-deps-update
 packages/js/expression-evaluation/changelog/dev-ci-lint-monorepo-job-update
 packages/js/expression-evaluation/changelog/update-59804
 packages/js/expression-evaluation/changelog/update-wp-68-packages
-packages/js/integrate-plugin/changelog/43595-update-wireit-0.14.3
-packages/js/integrate-plugin/changelog/54996-chore-update-wireit
-packages/js/integrate-plugin/changelog/55095-dev-rewrite-wireit-deps-update
 packages/js/integrate-plugin/changelog/dev-ci-lint-monorepo-job-update
-packages/js/integrate-plugin/changelog/update-59804
 packages/js/integrate-plugin/changelog/update-separate-php-and-js-tests
-packages/js/integrate-plugin/changelog/update-wp-68-packages
 packages/js/internal-js-tests/changelog/42860-update-pnpm
 packages/js/internal-js-tests/changelog/43595-update-wireit-0.14.3
 packages/js/internal-js-tests/changelog/47385-dev-update-pnpm9-1
@@ -122817,7 +122808,6 @@ packages/js/internal-js-tests/changelog/update-59804
 packages/js/internal-js-tests/changelog/update-pnpm-10-upgrade
 packages/js/internal-js-tests/changelog/update-settings-router-calypso-package
 packages/js/internal-js-tests/changelog/update-wp-68-packages
-packages/js/internal-style-build/changelog/update-wp-68-packages
 packages/js/navigation/changelog/54996-chore-update-wireit
 packages/js/navigation/changelog/55095-dev-rewrite-wireit-deps-update
 packages/js/navigation/changelog/dev-ci-lint-monorepo-job-update
@@ -125479,6 +125469,7 @@ plugins/woocommerce/changelog/rsm-140-add-update-available-indicator-email-list
 plugins/woocommerce/changelog/rsm-141-update-banner
 plugins/woocommerce/changelog/rsm-145-tracks-block-email-update
 plugins/woocommerce/changelog/rsm-146-e2e-update-propagation
+plugins/woocommerce/changelog/update-47865-orders-table-query-build
 plugins/woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks
 plugins/woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks-backwards-compatibility
 plugins/woocommerce/changelog/update-block-references-may-2026
@@ -126378,6 +126369,7 @@ presentation/nop.web/areas/admin/views/product/_createorupdate.giftcard.cshtml
 presentation/nop.web/areas/admin/views/product/_createorupdate.info.cshtml
 presentation/nop.web/areas/admin/views/product/_createorupdate.inventory.cshtml
 presentation/nop.web/areas/admin/views/product/_createorupdate.multimedia.cshtml
+presentation/nop.web/areas/admin/views/product/_createorupdate.multimedia.object3d.cshtml
 presentation/nop.web/areas/admin/views/product/_createorupdate.multimedia.pictures.cshtml
 presentation/nop.web/areas/admin/views/product/_createorupdate.multimedia.videos.cshtml
 presentation/nop.web/areas/admin/views/product/_createorupdate.prices.cshtml
@@ -127769,6 +127761,7 @@ product/_createorupdate.giftcard.cshtml
 product/_createorupdate.info.cshtml
 product/_createorupdate.inventory.cshtml
 product/_createorupdate.multimedia.cshtml
+product/_createorupdate.multimedia.object3d.cshtml
 product/_createorupdate.multimedia.pictures.cshtml
 product/_createorupdate.multimedia.videos.cshtml
 product/_createorupdate.prices.cshtml
@@ -131082,8 +131075,6 @@ recordtypedelete
 recordtypeupdate
 recordunion-com
 recordupdate
-recovery-safety/a-drop-in-heart-rate-during-exercise/
-recovery-safety/exercises-for-wrist-drop/
 recovery-update-accounts-security
 recovery/update/assets/javascript/jquery.installer.js
 recovery/update/bin/update.php
@@ -144214,7 +144205,6 @@ sleep(5)='
 sleep(9999)
 sleep(__time__)#
 sleep,ko,annihilation,ataraxia,ataraxy,bane,be caught napping,be neglectful,be negligent,beauty sleep,beddy-bye,bedtime,biological death,blackout,blanket drill,bye-bye,calmness,catalepsy,catatonia,catatony,catnap,cessation of life,clinical death,coma,comfort,composure,contemplation,crossing the bar,curtains,death,death knell,debt of nature,decease,default,demise,departure,disregard,dissolution,doom,doss,doze,dreamland,drop off,drowse,dying,ease,ebb of life,end,end of life,ending,eternal rest,exit,expiration,extinction,extinguishment,fail,faint,final summons,finger of death,fitful sleep,forty winks,fust,gloss over,going,going off,grave,grayout,hand of death,hang fire,hibernation,idle,ignore,imperturbability,inactivity,jaws of death,kayo,knell,knockout,land of nod,lapse,last debt,last muster,last rest,last roundup,last sleep,leaving life,let go,let ride,let slide,let slip,light sleep,lipothymia,lipothymy,lose sight of,lose track of,loss of life,lucid stillness,making an end,marmoreal repose,nap,neglect,nirvana,nirvana principle,nod,nod off,not care for,not get involved,not heed,not think,nothingness,oblivion,obliviousness,overlook,oversleep,parting,pass over,passing,passing away,passing over,peace,peacefulness,perishing,placidity,placidness,pound,quiescence,quiescency,quiet,quietism,quietness,quietude,quietus,relax,relaxation,release,repose,rest,restfulness,reward,satori,saw logs,saw wood,semiconsciousness,senselessness,sentence of death,serenity,shades of death,shadow of death,shut-eye,siesta,silence,silken repose,sleep soundly,sleepland,sleepwalking,slumber,slumberland,smolder,snooze,snoozle,snore,somatic death,somnambulism,somniloquy,somnus,stagnate,stillness,stupor,summons of death,swoon,syncope,take a nap,take for granted,tranquillity,unbuttoned ease,unconsciousness,vegetate,winter sleep,wise passiveness
-sleep/can-changing-your-sleep-position-alter-your-dreams.aspx
 sleep_select.go
 sleeping pill,amytal,amytal pill,demerol,dolophine,h,luminal,luminal pill,m,mickey finn,nembutal,nembutal pill,seconal,seconal pill,tuinal,tuinal pill,alcohol,amobarbital sodium,analgesic,anesthetic,anodyne,barb,barbiturate,barbiturate pill,black stuff,blue,blue angel,blue devil,blue heaven,blue velvet,calmative,chloral hydrate,codeine,codeine cough syrup,depressant,depressor,dolly,dope,downer,drug,goofball,hard stuff,heroin,hop,horse,hypnotic,junk,knockout drop,knockout drops,laudanum,liquor,lotus,meperidine,methadone,morphia,morphine,narcotic,opiate,opium,pacifier,pain killer,pain-killer,paregoric,pen yan,phenobarbital,phenobarbital sodium,purple heart,quietener,rainbow,red,scag,secobarbital sodium,sedative,shit,sleep-inducer,sleeper,sleeping draught,smack,sodium thiopental,somnifacient,soother,soothing syrup,soporific,tar,tranquilizer,turps,white stuff,yellow,yellow jacket
 sleeptrackupdate
@@ -146806,6 +146796,7 @@ src/presentation/nop.web/areas/admin/views/product/_createorupdate.giftcard.csht
 src/presentation/nop.web/areas/admin/views/product/_createorupdate.info.cshtml
 src/presentation/nop.web/areas/admin/views/product/_createorupdate.inventory.cshtml
 src/presentation/nop.web/areas/admin/views/product/_createorupdate.multimedia.cshtml
+src/presentation/nop.web/areas/admin/views/product/_createorupdate.multimedia.object3d.cshtml
 src/presentation/nop.web/areas/admin/views/product/_createorupdate.multimedia.pictures.cshtml
 src/presentation/nop.web/areas/admin/views/product/_createorupdate.multimedia.videos.cshtml
 src/presentation/nop.web/areas/admin/views/product/_createorupdate.prices.cshtml
@@ -147121,6 +147112,7 @@ src/sylius/bundle/adminbundle/resources/config/app/twig_hooks/taxon/update.yaml
 src/sylius/bundle/adminbundle/resources/config/app/twig_hooks/zone/update.yaml
 src/sylius/bundle/adminbundle/templates/catalog_promotion/grid/action/delete.html.twig
 src/sylius/bundle/adminbundle/templates/customer/show/content/header/title_block/actions/delete.html.twig
+src/sylius/bundle/adminbundle/templates/order/update.html.twig
 src/sylius/bundle/adminbundle/templates/product/show/content/page_body/attributes/types/select.html.twig
 src/sylius/bundle/adminbundle/templates/product_attribute/form/configuration/select/choices.html.twig
 src/sylius/bundle/adminbundle/templates/product_attribute/form/configuration/select/max_entries.html.twig
@@ -149843,6 +149835,7 @@ sylius/bundle/adminbundle/resources/config/app/twig_hooks/taxon/update.yaml
 sylius/bundle/adminbundle/resources/config/app/twig_hooks/zone/update.yaml
 sylius/bundle/adminbundle/templates/catalog_promotion/grid/action/delete.html.twig
 sylius/bundle/adminbundle/templates/customer/show/content/header/title_block/actions/delete.html.twig
+sylius/bundle/adminbundle/templates/order/update.html.twig
 sylius/bundle/adminbundle/templates/product/show/content/page_body/attributes/types/select.html.twig
 sylius/bundle/adminbundle/templates/product_attribute/form/configuration/select/choices.html.twig
 sylius/bundle/adminbundle/templates/product_attribute/form/configuration/select/max_entries.html.twig
@@ -151529,6 +151522,7 @@ templates/account/profile_update/update/content/main/form/phone_number.html.twig
 templates/account/profile_update/update/content/main/header.html.twig
 templates/account/profile_update/update/content/main/header/subtitle.html.twig
 templates/account/profile_update/update/content/main/header/title.html.twig
+templates/admin/basic/update.html.twig
 templates/admin/entity-manager/modals/select-icon.tpl
 templates/admin/locale-translation-update-info.html.twig
 templates/admin/union.tpl.php
@@ -151602,6 +151596,7 @@ templates/modals/mass-update.tpl
 templates/modals/select-records-with-categories.tpl
 templates/modals/select-records.tpl
 templates/order/create/store/select.phtml
+templates/order/update.html.twig
 templates/product/composite/fieldset/options/type/select.phtml
 templates/product/show/content/page_body/attributes/types/select.html.twig
 templates/product/view/options/type/select.phtml
@@ -162626,6 +162621,7 @@ update-41l-deapp-modtable-ricerca.sql
 update-422.xml
 update-42a-deapp-funcmod-procrnaseq.sql
 update-43a-deapp-newview-hg19.sql
+update-47865-orders-table-query-build
 update-4to5.sql
 update-5
 update-5.0.1-5.1.0-db2.sql
@@ -173745,6 +173741,7 @@ views/product/_createorupdate.giftcard.cshtml
 views/product/_createorupdate.info.cshtml
 views/product/_createorupdate.inventory.cshtml
 views/product/_createorupdate.multimedia.cshtml
+views/product/_createorupdate.multimedia.object3d.cshtml
 views/product/_createorupdate.multimedia.pictures.cshtml
 views/product/_createorupdate.multimedia.videos.cshtml
 views/product/_createorupdate.prices.cshtml
@@ -176355,6 +176352,7 @@ woocommerce/changelog/rsm-140-add-update-available-indicator-email-list
 woocommerce/changelog/rsm-141-update-banner
 woocommerce/changelog/rsm-145-tracks-block-email-update
 woocommerce/changelog/rsm-146-e2e-update-propagation
+woocommerce/changelog/update-47865-orders-table-query-build
 woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks
 woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks-backwards-compatibility
 woocommerce/changelog/update-block-references-may-2026

@@ -3446,6 +3446,9 @@ app/frontend/apps/desktop/components/search/graphql/queries/quicksearch.mocks.ts
 app/frontend/apps/desktop/components/search/graphql/queries/searchcounts.api.ts
 app/frontend/apps/desktop/components/search/graphql/queries/searchcounts.graphql
 app/frontend/apps/desktop/components/search/graphql/queries/searchcounts.mocks.ts
+app/frontend/apps/desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.api.ts
+app/frontend/apps/desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.graphql
+app/frontend/apps/desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.mocks.ts
 app/frontend/apps/desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.api.ts
 app/frontend/apps/desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.graphql
 app/frontend/apps/desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.mocks.ts
@@ -4760,6 +4763,9 @@ apps/desktop/components/search/graphql/queries/quicksearch.mocks.ts
 apps/desktop/components/search/graphql/queries/searchcounts.api.ts
 apps/desktop/components/search/graphql/queries/searchcounts.graphql
 apps/desktop/components/search/graphql/queries/searchcounts.mocks.ts
+apps/desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.api.ts
+apps/desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.graphql
+apps/desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.mocks.ts
 apps/desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.api.ts
 apps/desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.graphql
 apps/desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.mocks.ts
@@ -6911,6 +6917,9 @@ components/search/graphql/queries/quicksearch.mocks.ts
 components/search/graphql/queries/searchcounts.api.ts
 components/search/graphql/queries/searchcounts.graphql
 components/search/graphql/queries/searchcounts.mocks.ts
+components/search/graphql/subscriptions/searchtaskbaritemstateupdates.api.ts
+components/search/graphql/subscriptions/searchtaskbaritemstateupdates.graphql
+components/search/graphql/subscriptions/searchtaskbaritemstateupdates.mocks.ts
 components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.api.ts
 components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.graphql
 components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.mocks.ts
@@ -7314,6 +7323,9 @@ desktop/components/search/graphql/queries/quicksearch.mocks.ts
 desktop/components/search/graphql/queries/searchcounts.api.ts
 desktop/components/search/graphql/queries/searchcounts.graphql
 desktop/components/search/graphql/queries/searchcounts.mocks.ts
+desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.api.ts
+desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.graphql
+desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.mocks.ts
 desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.api.ts
 desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.graphql
 desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.mocks.ts
@@ -9509,6 +9521,9 @@ frontend/apps/desktop/components/search/graphql/queries/quicksearch.mocks.ts
 frontend/apps/desktop/components/search/graphql/queries/searchcounts.api.ts
 frontend/apps/desktop/components/search/graphql/queries/searchcounts.graphql
 frontend/apps/desktop/components/search/graphql/queries/searchcounts.mocks.ts
+frontend/apps/desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.api.ts
+frontend/apps/desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.graphql
+frontend/apps/desktop/components/search/graphql/subscriptions/searchtaskbaritemstateupdates.mocks.ts
 frontend/apps/desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.api.ts
 frontend/apps/desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.graphql
 frontend/apps/desktop/components/ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.mocks.ts
@@ -13141,6 +13156,9 @@ graphql/subscriptions/organizationupdates.mocks.ts
 graphql/subscriptions/pushmessages.api.ts
 graphql/subscriptions/pushmessages.graphql
 graphql/subscriptions/pushmessages.mocks.ts
+graphql/subscriptions/searchtaskbaritemstateupdates.api.ts
+graphql/subscriptions/searchtaskbaritemstateupdates.graphql
+graphql/subscriptions/searchtaskbaritemstateupdates.mocks.ts
 graphql/subscriptions/templateupdates.api.ts
 graphql/subscriptions/templateupdates.graphql
 graphql/subscriptions/templateupdates.mocks.ts
@@ -17650,7 +17668,6 @@ native_client_sdk/doc_generated/pepper_stable/c/group___typedefs.html
 nebenstellengraphql1view
 net::dbus::binding::introspector - handler for object introspection data
 newsgraphql1view
-newsletter/$http://graphql.org/robots.txt
 newslettergraphql/composer.json
 newslettergraphql/etc/di.xml
 newslettergraphql/etc/graphql/di.xml
@@ -19647,8 +19664,12 @@ search/graphql/queries/searchcounts.mocks.ts
 search/graphql/queries/searchoverview.api.ts
 search/graphql/queries/searchoverview.graphql
 search/graphql/queries/searchoverview.mocks.ts
+search/graphql/subscriptions/searchtaskbaritemstateupdates.api.ts
+search/graphql/subscriptions/searchtaskbaritemstateupdates.graphql
+search/graphql/subscriptions/searchtaskbaritemstateupdates.mocks.ts
 searchcounts.graphql
 searchoverview.graphql
+searchtaskbaritemstateupdates.graphql
 securitystate.graphql
 securitysystemintrospection.xml
 seen.graphql
@@ -20808,6 +20829,7 @@ subscriptions/macrosupdate.graphql
 subscriptions/onlinenotificationscount.graphql
 subscriptions/organizationupdates.graphql
 subscriptions/pushmessages.graphql
+subscriptions/searchtaskbaritemstateupdates.graphql
 subscriptions/templateupdates.graphql
 subscriptions/ticketaiassistancesummaryupdates.graphql
 subscriptions/ticketarticlesupdates.graphql
