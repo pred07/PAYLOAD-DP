@@ -4536,6 +4536,7 @@ accounts-kubernetes
 accounts.e.internal
 accounts.internal
 accounts.w.internal
+accounts/services/internal_transfer.py
 accountsbyinternalids
 accounttempinternal
 accountx-internal
@@ -13897,10 +13898,12 @@ erl_internal.beam
 erl_internal.xml
 erp-internal
 erp.internal
+erpnext/accounts/services/internal_transfer.py
 erpnext/setup/doctype/employee_internal_work_history/__init__.py
 erpnext/setup/doctype/employee_internal_work_history/employee_internal_work_history.json
 erpnext/setup/doctype/employee_internal_work_history/employee_internal_work_history.py
 erpnext/setup/doctype/employee_internal_work_history/readme.md
+erpnext/stock/services/internal_transfer.py
 error-dev-internalstart
 error-internal-cache-data-proxy-vpn
 error-internal-site
@@ -15758,7 +15761,7 @@ http://169.254.169.254.nicelocal.com/
 http://169.254.169.254/latest/meta-data/
 http://169.254.169.254/latest/meta-data/iam/security-credentials/
 http://169.254.169.254/latest/user-data/
-http://docs.aws.amazon.com/robots.txt
+http://aws.amazon.com/robots.txt
 http://instance-data/latest/meta-data/
 http://internalhost.eu
 http://localhost
@@ -17323,16 +17326,17 @@ internal-build/.eslintrc.cjs
 internal-build/configs/tsconfig.json
 internal-build/package.json
 internal-build/scripts/generate-types.mjs
+internal-build/src/composer/index.ts
 internal-build/src/esbuild/args.ts
 internal-build/src/esbuild/assets.ts
 internal-build/src/esbuild/index.ts
-internal-build/src/esbuild/logger.ts
 internal-build/src/esbuild/options.ts
 internal-build/src/index.ts
 internal-build/src/style-build/index.cjs
 internal-build/src/style-build/style-asset-plugin.cjs
 internal-build/src/style-build/webpack-rtl-plugin.cjs
 internal-build/src/tsconfig.json
+internal-build/src/utils/logger.ts
 internal-build/styles/_breakpoints.scss
 internal-build/styles/_colors.scss
 internal-build/styles/_mixins.scss
@@ -18913,6 +18917,7 @@ internal/__tests__/mcpcapabilityregistry.test.ts
 internal/__tests__/mcpconfiguration.test.ts
 internal/__tests__/mcpserverfactory.test.ts
 internal/__tests__/syncmcpsessioncapabilities.test.ts
+internal/abandonedcartrecovery/manualsendhandler.php
 internal/abilities/abilitiescategories.php
 internal/abilities/abilitiesloader.php
 internal/abilities/abilitiesloadertest.php
@@ -18974,6 +18979,7 @@ internal/admin/emailpreview/emailpreview.php
 internal/admin/emailpreview/emailpreviewrestcontroller.php
 internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 internal/admin/emailpreview/emailpreviewtest.php
+internal/admin/emailpreview/previeworder.php
 internal/admin/emails/emaillistingrestcontroller.php
 internal/admin/events.php
 internal/admin/featureplugin.php
@@ -19407,7 +19413,6 @@ internal/caches/productcachecontrollertest.php
 internal/caches/productcachetest.php
 internal/caches/productversionstringinvalidator.php
 internal/caches/productversionstringinvalidatortest.php
-internal/caches/staleobjectattribution.php
 internal/caches/taxrateversionstringinvalidator.php
 internal/caches/taxrateversionstringinvalidatortest.php
 internal/caches/versionstringgenerator.php
@@ -19477,6 +19482,8 @@ internal/datastores/custommetadatastore.php
 internal/datastores/orders/customorderstablecontroller.php
 internal/datastores/orders/datasynchronizer.php
 internal/datastores/orders/datasynchronizertests.php
+internal/datastores/orders/hposordercapabilityhelper.php
+internal/datastores/orders/hposordercapabilityhelpertest.php
 internal/datastores/orders/legacydatacleanup.php
 internal/datastores/orders/legacydatacleanuptests.php
 internal/datastores/orders/legacydatahandler.php
@@ -19556,6 +19563,10 @@ internal/email/emailstylesync.php
 internal/email/emailstylesynctest.php
 internal/email/orderpriceformatter.php
 internal/email/orderpriceformattertest.php
+internal/email/unsubscribes/endpoint.php
+internal/email/unsubscribes/endpointtest.php
+internal/email/unsubscribes/storage.php
+internal/email/unsubscribes/storagetest.php
 internal/emaileditor/blockemailrenderer.php
 internal/emaileditor/blockemailrenderertest.php
 internal/emaileditor/emailapicontroller.php
@@ -19577,6 +19588,7 @@ internal/emaileditor/personalizationtags/customertagsprovider.php
 internal/emaileditor/personalizationtags/ordertagsprovider.php
 internal/emaileditor/personalizationtags/sitetagsprovider.php
 internal/emaileditor/personalizationtags/storetagsprovider.php
+internal/emaileditor/personalizationtags/unsubscribetagsprovider.php
 internal/emaileditor/transactionalemailpersonalizer.php
 internal/emaileditor/transactionalemailpersonalizertest.php
 internal/emaileditor/wctransactionalemails/fixtures/block/test-fallback.php
@@ -21556,6 +21568,7 @@ internal/magento/framework/graphql/exception/graphqlauthenticationexception.php
 internal/magento/framework/graphql/exception/graphqlauthorizationexception.php
 internal/magento/framework/graphql/exception/graphqlinputexception.php
 internal/magento/framework/graphql/exception/graphqlnosuchentityexception.php
+internal/magento/framework/graphql/exception/graphqlserverexception.php
 internal/magento/framework/graphql/exception/invalidrequestinterface.php
 internal/magento/framework/graphql/exception/methodnotallowedexception.php
 internal/magento/framework/graphql/exception/unsupportedmediatypeexception.php
@@ -22171,6 +22184,7 @@ internal/magento/framework/messagequeue/mergedmessageprocessor.php
 internal/magento/framework/messagequeue/mergerfactory.php
 internal/magento/framework/messagequeue/mergerinterface.php
 internal/magento/framework/messagequeue/messagecontroller.php
+internal/magento/framework/messagequeue/messagedeliverymode.php
 internal/magento/framework/messagequeue/messageencoder.php
 internal/magento/framework/messagequeue/messageidgenerator.php
 internal/magento/framework/messagequeue/messageidgeneratorinterface.php
@@ -22214,6 +22228,7 @@ internal/magento/framework/messagequeue/queuefactory.php
 internal/magento/framework/messagequeue/queuefactoryinterface.php
 internal/magento/framework/messagequeue/queueinterface.php
 internal/magento/framework/messagequeue/queuerepository.php
+internal/magento/framework/messagequeue/queueresolver.php
 internal/magento/framework/messagequeue/readme.md
 internal/magento/framework/messagequeue/registration.php
 internal/magento/framework/messagequeue/rpc/consumer.php
@@ -22280,6 +22295,7 @@ internal/magento/framework/messagequeue/test/unit/publisher/config/validator/for
 internal/magento/framework/messagequeue/test/unit/publisher/config/xml/convertertest.php
 internal/magento/framework/messagequeue/test/unit/publisher/xsdtest.php
 internal/magento/framework/messagequeue/test/unit/publishertest.php
+internal/magento/framework/messagequeue/test/unit/queueresolvertest.php
 internal/magento/framework/messagequeue/test/unit/rpc/responsequeuenamebuildertest.php
 internal/magento/framework/messagequeue/test/unit/topology/config/queueconfigitem/datamappertest.php
 internal/magento/framework/messagequeue/test/unit/topology/config/remoteservice/readertest.php
@@ -23263,6 +23279,7 @@ internal/magento/framework/stdlib/test/unit/datetime/filter/datetimetest.php
 internal/magento/framework/stdlib/test/unit/datetime/timezone/validatortest.php
 internal/magento/framework/stdlib/test/unit/datetime/timezonetest.php
 internal/magento/framework/stdlib/test/unit/stringutilstest.php
+internal/magento/framework/stomp/bulk/exchange.php
 internal/magento/framework/stomp/bulk/queue.php
 internal/magento/framework/stomp/composer.json
 internal/magento/framework/stomp/config.php
@@ -23272,6 +23289,12 @@ internal/magento/framework/stomp/connection/factory.php
 internal/magento/framework/stomp/connection/factoryoptions.php
 internal/magento/framework/stomp/connectiontyperesolver.php
 internal/magento/framework/stomp/diagnostics.php
+internal/magento/framework/stomp/exception/clientexception.php
+internal/magento/framework/stomp/exchange.php
+internal/magento/framework/stomp/exchangefactory.php
+internal/magento/framework/stomp/jolokia/artemisclient.php
+internal/magento/framework/stomp/jolokia/clientinterface.php
+internal/magento/framework/stomp/jolokia/requestfailedexception.php
 internal/magento/framework/stomp/queue.php
 internal/magento/framework/stomp/queuefactory.php
 internal/magento/framework/stomp/readme.md
@@ -23279,7 +23302,7 @@ internal/magento/framework/stomp/registration.php
 internal/magento/framework/stomp/stompclient.php
 internal/magento/framework/stomp/stompclientfactory.php
 internal/magento/framework/stomp/stompclientinterface.php
-internal/magento/framework/stomp/test/unit/bulk/queuetest.php
+internal/magento/framework/stomp/stompclientprovider.php
 internal/magento/framework/stomp/test/unit/configpooltest.php
 internal/magento/framework/stomp/test/unit/configtest.php
 internal/magento/framework/stomp/test/unit/connection/factorytest.php
@@ -24301,6 +24324,7 @@ internal/productfilters/readme.md
 internal/productfilters/taxonomyhierarchydata.php
 internal/productfilters/taxonomyhierarchydatatest.php
 internal/productimage/matchimagebysku.php
+internal/purchase-flow-all
 internal/pushnotifications/controllers/notificationpreferencesrestcontroller.php
 internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 internal/pushnotifications/controllers/pushnotificationrestcontroller.php
@@ -25052,6 +25076,7 @@ internal_tools_layout.xml
 internal_tools_toolbar.xml
 internal_top
 internal_transaction_update_in_batches.sql
+internal_transfer.py
 internal_transfer_workflow.xml
 internal_transition.xml
 internal_type.xml
@@ -28050,16 +28075,17 @@ js/internal-build/.eslintrc.cjs
 js/internal-build/configs/tsconfig.json
 js/internal-build/package.json
 js/internal-build/scripts/generate-types.mjs
+js/internal-build/src/composer/index.ts
 js/internal-build/src/esbuild/args.ts
 js/internal-build/src/esbuild/assets.ts
 js/internal-build/src/esbuild/index.ts
-js/internal-build/src/esbuild/logger.ts
 js/internal-build/src/esbuild/options.ts
 js/internal-build/src/index.ts
 js/internal-build/src/style-build/index.cjs
 js/internal-build/src/style-build/style-asset-plugin.cjs
 js/internal-build/src/style-build/webpack-rtl-plugin.cjs
 js/internal-build/src/tsconfig.json
+js/internal-build/src/utils/logger.ts
 js/internal-build/styles/_breakpoints.scss
 js/internal-build/styles/_colors.scss
 js/internal-build/styles/_mixins.scss
@@ -31523,6 +31549,7 @@ lib/internal/magento/framework/graphql/exception/graphqlauthenticationexception.
 lib/internal/magento/framework/graphql/exception/graphqlauthorizationexception.php
 lib/internal/magento/framework/graphql/exception/graphqlinputexception.php
 lib/internal/magento/framework/graphql/exception/graphqlnosuchentityexception.php
+lib/internal/magento/framework/graphql/exception/graphqlserverexception.php
 lib/internal/magento/framework/graphql/exception/invalidrequestinterface.php
 lib/internal/magento/framework/graphql/exception/methodnotallowedexception.php
 lib/internal/magento/framework/graphql/exception/unsupportedmediatypeexception.php
@@ -32056,7 +32083,6 @@ lib/internal/magento/framework/messagequeue/bulk/publisher.php
 lib/internal/magento/framework/messagequeue/bulk/queue/queuefactory.php
 lib/internal/magento/framework/messagequeue/bulk/queue/queuefactoryinterface.php
 lib/internal/magento/framework/messagequeue/bulk/queue/queueinterface.php
-lib/internal/magento/framework/messagequeue/bulk/queue/queuerepository.php
 lib/internal/magento/framework/messagequeue/bulk/rpc/publisher.php
 lib/internal/magento/framework/messagequeue/bulkpublisherinterface.php
 lib/internal/magento/framework/messagequeue/callbackinvoker.php
@@ -32138,6 +32164,7 @@ lib/internal/magento/framework/messagequeue/mergedmessageprocessor.php
 lib/internal/magento/framework/messagequeue/mergerfactory.php
 lib/internal/magento/framework/messagequeue/mergerinterface.php
 lib/internal/magento/framework/messagequeue/messagecontroller.php
+lib/internal/magento/framework/messagequeue/messagedeliverymode.php
 lib/internal/magento/framework/messagequeue/messageencoder.php
 lib/internal/magento/framework/messagequeue/messageidgenerator.php
 lib/internal/magento/framework/messagequeue/messageidgeneratorinterface.php
@@ -32181,6 +32208,7 @@ lib/internal/magento/framework/messagequeue/queuefactory.php
 lib/internal/magento/framework/messagequeue/queuefactoryinterface.php
 lib/internal/magento/framework/messagequeue/queueinterface.php
 lib/internal/magento/framework/messagequeue/queuerepository.php
+lib/internal/magento/framework/messagequeue/queueresolver.php
 lib/internal/magento/framework/messagequeue/readme.md
 lib/internal/magento/framework/messagequeue/registration.php
 lib/internal/magento/framework/messagequeue/rpc/consumer.php
@@ -32247,6 +32275,7 @@ lib/internal/magento/framework/messagequeue/test/unit/publisher/config/validator
 lib/internal/magento/framework/messagequeue/test/unit/publisher/config/xml/convertertest.php
 lib/internal/magento/framework/messagequeue/test/unit/publisher/xsdtest.php
 lib/internal/magento/framework/messagequeue/test/unit/publishertest.php
+lib/internal/magento/framework/messagequeue/test/unit/queueresolvertest.php
 lib/internal/magento/framework/messagequeue/test/unit/rpc/responsequeuenamebuildertest.php
 lib/internal/magento/framework/messagequeue/test/unit/topology/config/queueconfigitem/datamappertest.php
 lib/internal/magento/framework/messagequeue/test/unit/topology/config/remoteservice/readertest.php
@@ -33230,6 +33259,7 @@ lib/internal/magento/framework/stdlib/test/unit/datetime/filter/datetimetest.php
 lib/internal/magento/framework/stdlib/test/unit/datetime/timezone/validatortest.php
 lib/internal/magento/framework/stdlib/test/unit/datetime/timezonetest.php
 lib/internal/magento/framework/stdlib/test/unit/stringutilstest.php
+lib/internal/magento/framework/stomp/bulk/exchange.php
 lib/internal/magento/framework/stomp/bulk/queue.php
 lib/internal/magento/framework/stomp/composer.json
 lib/internal/magento/framework/stomp/config.php
@@ -33239,6 +33269,12 @@ lib/internal/magento/framework/stomp/connection/factory.php
 lib/internal/magento/framework/stomp/connection/factoryoptions.php
 lib/internal/magento/framework/stomp/connectiontyperesolver.php
 lib/internal/magento/framework/stomp/diagnostics.php
+lib/internal/magento/framework/stomp/exception/clientexception.php
+lib/internal/magento/framework/stomp/exchange.php
+lib/internal/magento/framework/stomp/exchangefactory.php
+lib/internal/magento/framework/stomp/jolokia/artemisclient.php
+lib/internal/magento/framework/stomp/jolokia/clientinterface.php
+lib/internal/magento/framework/stomp/jolokia/requestfailedexception.php
 lib/internal/magento/framework/stomp/queue.php
 lib/internal/magento/framework/stomp/queuefactory.php
 lib/internal/magento/framework/stomp/readme.md
@@ -33246,7 +33282,7 @@ lib/internal/magento/framework/stomp/registration.php
 lib/internal/magento/framework/stomp/stompclient.php
 lib/internal/magento/framework/stomp/stompclientfactory.php
 lib/internal/magento/framework/stomp/stompclientinterface.php
-lib/internal/magento/framework/stomp/test/unit/bulk/queuetest.php
+lib/internal/magento/framework/stomp/stompclientprovider.php
 lib/internal/magento/framework/stomp/test/unit/configpooltest.php
 lib/internal/magento/framework/stomp/test/unit/configtest.php
 lib/internal/magento/framework/stomp/test/unit/connection/factorytest.php
@@ -45966,16 +46002,17 @@ packages/js/internal-build/.eslintrc.cjs
 packages/js/internal-build/configs/tsconfig.json
 packages/js/internal-build/package.json
 packages/js/internal-build/scripts/generate-types.mjs
+packages/js/internal-build/src/composer/index.ts
 packages/js/internal-build/src/esbuild/args.ts
 packages/js/internal-build/src/esbuild/assets.ts
 packages/js/internal-build/src/esbuild/index.ts
-packages/js/internal-build/src/esbuild/logger.ts
 packages/js/internal-build/src/esbuild/options.ts
 packages/js/internal-build/src/index.ts
 packages/js/internal-build/src/style-build/index.cjs
 packages/js/internal-build/src/style-build/style-asset-plugin.cjs
 packages/js/internal-build/src/style-build/webpack-rtl-plugin.cjs
 packages/js/internal-build/src/tsconfig.json
+packages/js/internal-build/src/utils/logger.ts
 packages/js/internal-build/styles/_breakpoints.scss
 packages/js/internal-build/styles/_colors.scss
 packages/js/internal-build/styles/_mixins.scss
@@ -46619,6 +46656,7 @@ php/src/internal/comingsoon/comingsoonhelpertest.php
 php/src/internal/comingsoon/comingsoonrequesthandlertest.php
 php/src/internal/customers/searchservicetest.php
 php/src/internal/datastores/orders/datasynchronizertests.php
+php/src/internal/datastores/orders/hposordercapabilityhelpertest.php
 php/src/internal/datastores/orders/legacydatacleanuptests.php
 php/src/internal/datastores/orders/legacydatahandlertests.php
 php/src/internal/datastores/orders/orderstabledatastorecachecrossbleedtest.php
@@ -46666,6 +46704,8 @@ php/src/internal/email/emailcolorstest.php
 php/src/internal/email/emailloggertest.php
 php/src/internal/email/emailstylesynctest.php
 php/src/internal/email/orderpriceformattertest.php
+php/src/internal/email/unsubscribes/endpointtest.php
+php/src/internal/email/unsubscribes/storagetest.php
 php/src/internal/emaileditor/blockemailrenderertest.php
 php/src/internal/emaileditor/emailapicontrollertest.php
 php/src/internal/emaileditor/emailstub.php
@@ -47724,6 +47764,7 @@ plugins/woocommerce/client/blocks/docs/internal-developers/translations/translat
 plugins/woocommerce/lib/packages/symfony/component/cssselector/exception/internalerrorexception.php
 plugins/woocommerce/src/api/attributes/internal.php
 plugins/woocommerce/src/enums/orderinternalstatus.php
+plugins/woocommerce/src/internal/abandonedcartrecovery/manualsendhandler.php
 plugins/woocommerce/src/internal/abilities/abilitiescategories.php
 plugins/woocommerce/src/internal/abilities/abilitiesloader.php
 plugins/woocommerce/src/internal/abilities/abilitiesregistry.php
@@ -47762,6 +47803,7 @@ plugins/woocommerce/src/internal/admin/customereffortscoretracks.php
 plugins/woocommerce/src/internal/admin/emailimprovements/emailimprovements.php
 plugins/woocommerce/src/internal/admin/emailpreview/emailpreview.php
 plugins/woocommerce/src/internal/admin/emailpreview/emailpreviewrestcontroller.php
+plugins/woocommerce/src/internal/admin/emailpreview/previeworder.php
 plugins/woocommerce/src/internal/admin/emails/emaillistingrestcontroller.php
 plugins/woocommerce/src/internal/admin/events.php
 plugins/woocommerce/src/internal/admin/featureplugin.php
@@ -47996,7 +48038,6 @@ plugins/woocommerce/src/internal/caches/ordersversionstringinvalidator.php
 plugins/woocommerce/src/internal/caches/productcache.php
 plugins/woocommerce/src/internal/caches/productcachecontroller.php
 plugins/woocommerce/src/internal/caches/productversionstringinvalidator.php
-plugins/woocommerce/src/internal/caches/staleobjectattribution.php
 plugins/woocommerce/src/internal/caches/taxrateversionstringinvalidator.php
 plugins/woocommerce/src/internal/caches/versionstringgenerator.php
 plugins/woocommerce/src/internal/cli/migrator/commands/listcommand.php
@@ -48030,6 +48071,7 @@ plugins/woocommerce/src/internal/customers/searchservice.php
 plugins/woocommerce/src/internal/datastores/custommetadatastore.php
 plugins/woocommerce/src/internal/datastores/orders/customorderstablecontroller.php
 plugins/woocommerce/src/internal/datastores/orders/datasynchronizer.php
+plugins/woocommerce/src/internal/datastores/orders/hposordercapabilityhelper.php
 plugins/woocommerce/src/internal/datastores/orders/legacydatacleanup.php
 plugins/woocommerce/src/internal/datastores/orders/legacydatahandler.php
 plugins/woocommerce/src/internal/datastores/orders/orderstabledatastore.php
@@ -48050,6 +48092,8 @@ plugins/woocommerce/src/internal/email/emailfont.php
 plugins/woocommerce/src/internal/email/emaillogger.php
 plugins/woocommerce/src/internal/email/emailstylesync.php
 plugins/woocommerce/src/internal/email/orderpriceformatter.php
+plugins/woocommerce/src/internal/email/unsubscribes/endpoint.php
+plugins/woocommerce/src/internal/email/unsubscribes/storage.php
 plugins/woocommerce/src/internal/emaileditor/blockemailrenderer.php
 plugins/woocommerce/src/internal/emaileditor/emailapicontroller.php
 plugins/woocommerce/src/internal/emaileditor/emailpatterns/patternscontroller.php
@@ -48067,6 +48111,7 @@ plugins/woocommerce/src/internal/emaileditor/personalizationtags/customertagspro
 plugins/woocommerce/src/internal/emaileditor/personalizationtags/ordertagsprovider.php
 plugins/woocommerce/src/internal/emaileditor/personalizationtags/sitetagsprovider.php
 plugins/woocommerce/src/internal/emaileditor/personalizationtags/storetagsprovider.php
+plugins/woocommerce/src/internal/emaileditor/personalizationtags/unsubscribetagsprovider.php
 plugins/woocommerce/src/internal/emaileditor/transactionalemailpersonalizer.php
 plugins/woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoapplier.php
 plugins/woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummary.php
@@ -48081,14 +48126,6 @@ plugins/woocommerce/src/internal/emaileditor/wctransactionalemails/wctransaction
 plugins/woocommerce/src/internal/emaileditor/woocontentprocessor.php
 plugins/woocommerce/src/internal/features/featurescontroller.php
 plugins/woocommerce/src/internal/features/orderdetailredesign/init.php
-plugins/woocommerce/src/internal/features/productblockeditor/producttemplates/abstractproductformtemplate.php
-plugins/woocommerce/src/internal/features/productblockeditor/producttemplates/downloadableproducttrait.php
-plugins/woocommerce/src/internal/features/productblockeditor/producttemplates/group.php
-plugins/woocommerce/src/internal/features/productblockeditor/producttemplates/productblock.php
-plugins/woocommerce/src/internal/features/productblockeditor/producttemplates/productvariationtemplate.php
-plugins/woocommerce/src/internal/features/productblockeditor/producttemplates/section.php
-plugins/woocommerce/src/internal/features/productblockeditor/producttemplates/simpleproducttemplate.php
-plugins/woocommerce/src/internal/features/productblockeditor/producttemplates/subsection.php
 plugins/woocommerce/src/internal/integrations/wpconsentapi.php
 plugins/woocommerce/src/internal/integrations/wppostsimporter.php
 plugins/woocommerce/src/internal/jetpack/jetpackconnection.php
@@ -48559,6 +48596,7 @@ plugins/woocommerce/tests/php/src/internal/comingsoon/comingsoonhelpertest.php
 plugins/woocommerce/tests/php/src/internal/comingsoon/comingsoonrequesthandlertest.php
 plugins/woocommerce/tests/php/src/internal/customers/searchservicetest.php
 plugins/woocommerce/tests/php/src/internal/datastores/orders/datasynchronizertests.php
+plugins/woocommerce/tests/php/src/internal/datastores/orders/hposordercapabilityhelpertest.php
 plugins/woocommerce/tests/php/src/internal/datastores/orders/legacydatacleanuptests.php
 plugins/woocommerce/tests/php/src/internal/datastores/orders/legacydatahandlertests.php
 plugins/woocommerce/tests/php/src/internal/datastores/orders/orderstabledatastorecachecrossbleedtest.php
@@ -48606,6 +48644,8 @@ plugins/woocommerce/tests/php/src/internal/email/emailcolorstest.php
 plugins/woocommerce/tests/php/src/internal/email/emailloggertest.php
 plugins/woocommerce/tests/php/src/internal/email/emailstylesynctest.php
 plugins/woocommerce/tests/php/src/internal/email/orderpriceformattertest.php
+plugins/woocommerce/tests/php/src/internal/email/unsubscribes/endpointtest.php
+plugins/woocommerce/tests/php/src/internal/email/unsubscribes/storagetest.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/blockemailrenderertest.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/emailapicontrollertest.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/emailstub.php
@@ -50541,6 +50581,7 @@ services/internal
 services/internal-keys/index.ts
 services/internal/
 services/internal/wadl
+services/internal_transfer.py
 services/internals/args/has-published-version.ts
 services/internals/args/index.ts
 services/internals/args/pagination.ts
@@ -51735,6 +51776,7 @@ src/googleanalytics/internals/util.php
 src/googleanalytics/internals/x10.php
 src/host/localhost.php
 src/http/internalrequest.php
+src/internal/abandonedcartrecovery/manualsendhandler.php
 src/internal/abilities/abilitiescategories.php
 src/internal/abilities/abilitiesloader.php
 src/internal/abilities/abilitiesloadertest.php
@@ -51793,6 +51835,7 @@ src/internal/admin/emailpreview/emailpreview.php
 src/internal/admin/emailpreview/emailpreviewrestcontroller.php
 src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 src/internal/admin/emailpreview/emailpreviewtest.php
+src/internal/admin/emailpreview/previeworder.php
 src/internal/admin/emails/emaillistingrestcontroller.php
 src/internal/admin/events.php
 src/internal/admin/featureplugin.php
@@ -52212,7 +52255,6 @@ src/internal/caches/productcachecontrollertest.php
 src/internal/caches/productcachetest.php
 src/internal/caches/productversionstringinvalidator.php
 src/internal/caches/productversionstringinvalidatortest.php
-src/internal/caches/staleobjectattribution.php
 src/internal/caches/taxrateversionstringinvalidator.php
 src/internal/caches/taxrateversionstringinvalidatortest.php
 src/internal/caches/versionstringgenerator.php
@@ -52264,6 +52306,8 @@ src/internal/datastores/custommetadatastore.php
 src/internal/datastores/orders/customorderstablecontroller.php
 src/internal/datastores/orders/datasynchronizer.php
 src/internal/datastores/orders/datasynchronizertests.php
+src/internal/datastores/orders/hposordercapabilityhelper.php
+src/internal/datastores/orders/hposordercapabilityhelpertest.php
 src/internal/datastores/orders/legacydatacleanup.php
 src/internal/datastores/orders/legacydatacleanuptests.php
 src/internal/datastores/orders/legacydatahandler.php
@@ -52331,6 +52375,10 @@ src/internal/email/emailstylesync.php
 src/internal/email/emailstylesynctest.php
 src/internal/email/orderpriceformatter.php
 src/internal/email/orderpriceformattertest.php
+src/internal/email/unsubscribes/endpoint.php
+src/internal/email/unsubscribes/endpointtest.php
+src/internal/email/unsubscribes/storage.php
+src/internal/email/unsubscribes/storagetest.php
 src/internal/emaileditor/blockemailrenderer.php
 src/internal/emaileditor/blockemailrenderertest.php
 src/internal/emaileditor/emailapicontroller.php
@@ -52352,6 +52400,7 @@ src/internal/emaileditor/personalizationtags/customertagsprovider.php
 src/internal/emaileditor/personalizationtags/ordertagsprovider.php
 src/internal/emaileditor/personalizationtags/sitetagsprovider.php
 src/internal/emaileditor/personalizationtags/storetagsprovider.php
+src/internal/emaileditor/personalizationtags/unsubscribetagsprovider.php
 src/internal/emaileditor/transactionalemailpersonalizer.php
 src/internal/emaileditor/transactionalemailpersonalizertest.php
 src/internal/emaileditor/wctransactionalemails/fixtures/block/test-fallback.php
@@ -53072,6 +53121,7 @@ stgpasinternal
 stibskubernetesservice-dns-cb138592
 stmdevkubernetes-dns-6b997664
 stmlocalhost
+stock/services/internal_transfer.py
 stock_internal_move_view.xml
 stock_internal_move_view_ept.xml
 stock_internal_picking_report.xml
@@ -54561,6 +54611,7 @@ tests/php/src/internal/comingsoon/comingsoonhelpertest.php
 tests/php/src/internal/comingsoon/comingsoonrequesthandlertest.php
 tests/php/src/internal/customers/searchservicetest.php
 tests/php/src/internal/datastores/orders/datasynchronizertests.php
+tests/php/src/internal/datastores/orders/hposordercapabilityhelpertest.php
 tests/php/src/internal/datastores/orders/legacydatacleanuptests.php
 tests/php/src/internal/datastores/orders/legacydatahandlertests.php
 tests/php/src/internal/datastores/orders/orderstabledatastorecachecrossbleedtest.php
@@ -54608,6 +54659,8 @@ tests/php/src/internal/email/emailcolorstest.php
 tests/php/src/internal/email/emailloggertest.php
 tests/php/src/internal/email/emailstylesynctest.php
 tests/php/src/internal/email/orderpriceformattertest.php
+tests/php/src/internal/email/unsubscribes/endpointtest.php
+tests/php/src/internal/email/unsubscribes/storagetest.php
 tests/php/src/internal/emaileditor/blockemailrenderertest.php
 tests/php/src/internal/emaileditor/emailapicontrollertest.php
 tests/php/src/internal/emaileditor/emailstub.php
@@ -57816,6 +57869,7 @@ woocommerce/client/blocks/docs/internal-developers/translations/translations-in-
 woocommerce/lib/packages/symfony/component/cssselector/exception/internalerrorexception.php
 woocommerce/src/api/attributes/internal.php
 woocommerce/src/enums/orderinternalstatus.php
+woocommerce/src/internal/abandonedcartrecovery/manualsendhandler.php
 woocommerce/src/internal/abilities/abilitiescategories.php
 woocommerce/src/internal/abilities/abilitiesloader.php
 woocommerce/src/internal/abilities/abilitiesregistry.php
@@ -57854,6 +57908,7 @@ woocommerce/src/internal/admin/customereffortscoretracks.php
 woocommerce/src/internal/admin/emailimprovements/emailimprovements.php
 woocommerce/src/internal/admin/emailpreview/emailpreview.php
 woocommerce/src/internal/admin/emailpreview/emailpreviewrestcontroller.php
+woocommerce/src/internal/admin/emailpreview/previeworder.php
 woocommerce/src/internal/admin/emails/emaillistingrestcontroller.php
 woocommerce/src/internal/admin/events.php
 woocommerce/src/internal/admin/featureplugin.php
@@ -58088,7 +58143,6 @@ woocommerce/src/internal/caches/ordersversionstringinvalidator.php
 woocommerce/src/internal/caches/productcache.php
 woocommerce/src/internal/caches/productcachecontroller.php
 woocommerce/src/internal/caches/productversionstringinvalidator.php
-woocommerce/src/internal/caches/staleobjectattribution.php
 woocommerce/src/internal/caches/taxrateversionstringinvalidator.php
 woocommerce/src/internal/caches/versionstringgenerator.php
 woocommerce/src/internal/cli/migrator/commands/listcommand.php
@@ -58122,6 +58176,7 @@ woocommerce/src/internal/customers/searchservice.php
 woocommerce/src/internal/datastores/custommetadatastore.php
 woocommerce/src/internal/datastores/orders/customorderstablecontroller.php
 woocommerce/src/internal/datastores/orders/datasynchronizer.php
+woocommerce/src/internal/datastores/orders/hposordercapabilityhelper.php
 woocommerce/src/internal/datastores/orders/legacydatacleanup.php
 woocommerce/src/internal/datastores/orders/legacydatahandler.php
 woocommerce/src/internal/datastores/orders/orderstabledatastore.php
@@ -58142,6 +58197,8 @@ woocommerce/src/internal/email/emailfont.php
 woocommerce/src/internal/email/emaillogger.php
 woocommerce/src/internal/email/emailstylesync.php
 woocommerce/src/internal/email/orderpriceformatter.php
+woocommerce/src/internal/email/unsubscribes/endpoint.php
+woocommerce/src/internal/email/unsubscribes/storage.php
 woocommerce/src/internal/emaileditor/blockemailrenderer.php
 woocommerce/src/internal/emaileditor/emailapicontroller.php
 woocommerce/src/internal/emaileditor/emailpatterns/patternscontroller.php
@@ -58159,6 +58216,7 @@ woocommerce/src/internal/emaileditor/personalizationtags/customertagsprovider.ph
 woocommerce/src/internal/emaileditor/personalizationtags/ordertagsprovider.php
 woocommerce/src/internal/emaileditor/personalizationtags/sitetagsprovider.php
 woocommerce/src/internal/emaileditor/personalizationtags/storetagsprovider.php
+woocommerce/src/internal/emaileditor/personalizationtags/unsubscribetagsprovider.php
 woocommerce/src/internal/emaileditor/transactionalemailpersonalizer.php
 woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoapplier.php
 woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummary.php
@@ -58173,7 +58231,6 @@ woocommerce/src/internal/emaileditor/wctransactionalemails/wctransactionalemails
 woocommerce/src/internal/emaileditor/woocontentprocessor.php
 woocommerce/src/internal/features/featurescontroller.php
 woocommerce/src/internal/features/orderdetailredesign/init.php
-woocommerce/src/internal/features/productblockeditor/producttemplates/abstractproductformtemplate.php
 woocommerce/src/internal/features/productblockeditor/producttemplates/downloadableproducttrait.php
 woocommerce/src/internal/features/productblockeditor/producttemplates/group.php
 woocommerce/src/internal/features/productblockeditor/producttemplates/productblock.php
@@ -58651,6 +58708,7 @@ woocommerce/tests/php/src/internal/comingsoon/comingsoonhelpertest.php
 woocommerce/tests/php/src/internal/comingsoon/comingsoonrequesthandlertest.php
 woocommerce/tests/php/src/internal/customers/searchservicetest.php
 woocommerce/tests/php/src/internal/datastores/orders/datasynchronizertests.php
+woocommerce/tests/php/src/internal/datastores/orders/hposordercapabilityhelpertest.php
 woocommerce/tests/php/src/internal/datastores/orders/legacydatacleanuptests.php
 woocommerce/tests/php/src/internal/datastores/orders/legacydatahandlertests.php
 woocommerce/tests/php/src/internal/datastores/orders/orderstabledatastorecachecrossbleedtest.php
@@ -58698,6 +58756,8 @@ woocommerce/tests/php/src/internal/email/emailcolorstest.php
 woocommerce/tests/php/src/internal/email/emailloggertest.php
 woocommerce/tests/php/src/internal/email/emailstylesynctest.php
 woocommerce/tests/php/src/internal/email/orderpriceformattertest.php
+woocommerce/tests/php/src/internal/email/unsubscribes/endpointtest.php
+woocommerce/tests/php/src/internal/email/unsubscribes/storagetest.php
 woocommerce/tests/php/src/internal/emaileditor/blockemailrenderertest.php
 woocommerce/tests/php/src/internal/emaileditor/emailapicontrollertest.php
 woocommerce/tests/php/src/internal/emaileditor/emailstub.php
@@ -59355,7 +59415,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://pub.dev/robots.txt
+zh/internalhttp://exploratorium.edu/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php

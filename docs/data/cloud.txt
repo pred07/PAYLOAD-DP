@@ -17,6 +17,7 @@ aimdstaging
 alimds
 amazon_aws_access_key_id
 amazon_aws_secret_access_key
+api*?hl=http://storage.googleapis.com/robots.txt
 apimds
 aroudik-nsenter-ip-192-168-119-192.us-east-2.compute.internal
 artifacts_aws_access_key_id=

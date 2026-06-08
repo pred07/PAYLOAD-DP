@@ -2130,7 +2130,9 @@ api/plugins/graphql/fields/date.test.api.js
 api/plugins/graphql/fields/datetime.test.api.js
 api/plugins/graphql/has-published-version.test.api.js
 api/plugins/graphql/publication-filter.test.api.js
+api/plugins/graphql/relation-order.test.api.js
 api/plugins/graphql/relations.test.api.js
+api/plugins/graphql/repeatable-component-order.test.api.js
 api/plugins/graphql/single-type.test.api.js
 api/plugins/graphql/utils.test.api.js
 api/plugins/i18n/graphql.test.api.js
@@ -9041,6 +9043,7 @@ exception/graphqlauthenticationexception.php
 exception/graphqlauthorizationexception.php
 exception/graphqlinputexception.php
 exception/graphqlnosuchentityexception.php
+exception/graphqlserverexception.php
 express-graphql
 express-graphql-npm-0.11.0-c15bd88c96-91fdcc9bf6.zip
 extend-express-app/schema.graphql
@@ -9365,6 +9368,7 @@ framework/graphql/exception/graphqlauthenticationexception.php
 framework/graphql/exception/graphqlauthorizationexception.php
 framework/graphql/exception/graphqlinputexception.php
 framework/graphql/exception/graphqlnosuchentityexception.php
+framework/graphql/exception/graphqlserverexception.php
 framework/graphql/exception/invalidrequestinterface.php
 framework/graphql/exception/methodnotallowedexception.php
 framework/graphql/exception/unsupportedmediatypeexception.php
@@ -10983,6 +10987,7 @@ graphql/exception/graphqlauthenticationexception.php
 graphql/exception/graphqlauthorizationexception.php
 graphql/exception/graphqlinputexception.php
 graphql/exception/graphqlnosuchentityexception.php
+graphql/exception/graphqlserverexception.php
 graphql/exception/invalidrequestinterface.php
 graphql/exception/methodnotallowedexception.php
 graphql/exception/unsupportedmediatypeexception.php
@@ -12830,7 +12835,9 @@ graphql/redoc.html
 graphql/registration.php
 graphql/relatedproduct/getrelatedproductstest.php
 graphql/relatedproduct/multistorerelatedproductstest.php
+graphql/relation-order.test.api.js
 graphql/relations.test.api.js
+graphql/repeatable-component-order.test.api.js
 graphql/requestconfiguration.php
 graphql/resolvercacheabstract.php
 graphql/resolvers
@@ -14063,6 +14070,7 @@ graphqlschemautils.js
 graphqlsegment-test.js
 graphqlsegment.js
 graphqlserver
+graphqlserverexception.php
 graphqlservice
 graphqlsessiontest.php
 graphqlsharp.sln.ghostdoc.xml
@@ -14611,6 +14619,7 @@ internal/magento/framework/graphql/exception/graphqlauthenticationexception.php
 internal/magento/framework/graphql/exception/graphqlauthorizationexception.php
 internal/magento/framework/graphql/exception/graphqlinputexception.php
 internal/magento/framework/graphql/exception/graphqlnosuchentityexception.php
+internal/magento/framework/graphql/exception/graphqlserverexception.php
 internal/magento/framework/graphql/exception/invalidrequestinterface.php
 internal/magento/framework/graphql/exception/methodnotallowedexception.php
 internal/magento/framework/graphql/exception/unsupportedmediatypeexception.php
@@ -14976,6 +14985,7 @@ lib/internal/magento/framework/graphql/exception/graphqlauthenticationexception.
 lib/internal/magento/framework/graphql/exception/graphqlauthorizationexception.php
 lib/internal/magento/framework/graphql/exception/graphqlinputexception.php
 lib/internal/magento/framework/graphql/exception/graphqlnosuchentityexception.php
+lib/internal/magento/framework/graphql/exception/graphqlserverexception.php
 lib/internal/magento/framework/graphql/exception/invalidrequestinterface.php
 lib/internal/magento/framework/graphql/exception/methodnotallowedexception.php
 lib/internal/magento/framework/graphql/exception/unsupportedmediatypeexception.php
@@ -16082,6 +16092,7 @@ magento/framework/graphql/exception/graphqlauthenticationexception.php
 magento/framework/graphql/exception/graphqlauthorizationexception.php
 magento/framework/graphql/exception/graphqlinputexception.php
 magento/framework/graphql/exception/graphqlnosuchentityexception.php
+magento/framework/graphql/exception/graphqlserverexception.php
 magento/framework/graphql/exception/invalidrequestinterface.php
 magento/framework/graphql/exception/methodnotallowedexception.php
 magento/framework/graphql/exception/unsupportedmediatypeexception.php
@@ -18671,7 +18682,9 @@ plugins/graphql/license
 plugins/graphql/package.json
 plugins/graphql/publication-filter.test.api.js
 plugins/graphql/readme.md
+plugins/graphql/relation-order.test.api.js
 plugins/graphql/relations.test.api.js
+plugins/graphql/repeatable-component-order.test.api.js
 plugins/graphql/rollup.config.mjs
 plugins/graphql/server/.eslintrc
 plugins/graphql/server/.eslintrc.cjs
@@ -21421,7 +21434,9 @@ tests/api/plugins/graphql/fields/date.test.api.js
 tests/api/plugins/graphql/fields/datetime.test.api.js
 tests/api/plugins/graphql/has-published-version.test.api.js
 tests/api/plugins/graphql/publication-filter.test.api.js
+tests/api/plugins/graphql/relation-order.test.api.js
 tests/api/plugins/graphql/relations.test.api.js
+tests/api/plugins/graphql/repeatable-component-order.test.api.js
 tests/api/plugins/graphql/single-type.test.api.js
 tests/api/plugins/graphql/utils.test.api.js
 tests/api/plugins/i18n/graphql.test.api.js

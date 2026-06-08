@@ -43769,7 +43769,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 524-rhnmessage-drop.sql
 525-rhnmessagepriority-drop.sql
 526-rhnmessagetype-drop.sql
-52655-update-settings-gutenberg-components-edit-site
 52674139delete
 527-rhnsatelliteservergroup-drop.sql
 528-rhn_host_check_suites-drop.sql
@@ -43821,9 +43820,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 56246-update-settings-router-calypso-package
 56257-update-wp-control-button-margin
 56341-update-register-woo-block-type-util-react-18
-56386-update-remove-types-wp-core-data
-56398-update-prod-editor-attribute-input-field-test-react-18
-56695-update-react-18-use-variations-ts-error
 568900walter
 56_leafes_update.sql
 56_nodes_update.sql
@@ -53362,6 +53358,7 @@ accountproviderdelete
 accountresetpassexec
 accountresponsibleupdate
 accounts-update
+accounts/services/child_item_update.py
 accounts/update.js.haml
 accounts/update.js.haml_spec.rb
 accounts_delete
@@ -55503,6 +55500,10 @@ admin/views/menu/_menuitemcreateorupdate.cshtml
 admin/views/messagetemplate/_createorupdate.cshtml
 admin/views/newslettersubscription/_createorupdate.cshtml
 admin/views/newslettersubscriptiontype/_createorupdate.cshtml
+admin/views/pricelist/_createorupdate.cshtml
+admin/views/pricelist/_createorupdate.customers.cshtml
+admin/views/pricelist/_createorupdate.info.cshtml
+admin/views/pricelist/_createorupdate.products.cshtml
 admin/views/product/_createorupdate.crosssellsproducts.cshtml
 admin/views/product/_createorupdate.cshtml
 admin/views/product/_createorupdate.downloadableproduct.cshtml
@@ -65970,6 +65971,10 @@ areas/admin/views/menu/_menuitemcreateorupdate.cshtml
 areas/admin/views/messagetemplate/_createorupdate.cshtml
 areas/admin/views/newslettersubscription/_createorupdate.cshtml
 areas/admin/views/newslettersubscriptiontype/_createorupdate.cshtml
+areas/admin/views/pricelist/_createorupdate.cshtml
+areas/admin/views/pricelist/_createorupdate.customers.cshtml
+areas/admin/views/pricelist/_createorupdate.info.cshtml
+areas/admin/views/pricelist/_createorupdate.products.cshtml
 areas/admin/views/product/_createorupdate.crosssellsproducts.cshtml
 areas/admin/views/product/_createorupdate.cshtml
 areas/admin/views/product/_createorupdate.downloadableproduct.cshtml
@@ -68897,11 +68902,15 @@ blackpinkupdate-com
 blacksabbath-reunion
 blackstudentunion
 blade/button/delete.blade.php
+blade/input/category-select.blade.php
+blade/input/company-select.blade.php
 blade/input/country-select.blade.php
 blade/input/email-format-select.blade.php
 blade/input/locale-select.blade.php
 blade/input/location-select.blade.php
+blade/input/manufacturer-select.blade.php
 blade/input/select.blade.php
+blade/input/supplier-select.blade.php
 blade/input/username-select.blade.php
 blake ferguson sacked by japanese rugby union club after drug-related arrest
 blank/magento_b2b/web/css/source/actions/_actions-select.less
@@ -69274,6 +69283,7 @@ blocks/docs/designers/theming/class-names-update-340.md
 blocks/docs/designers/theming/class-names-update-460.md
 blocks/docs/third-party-developers/extensibility/rest-api/extend-rest-api-update-cart.md
 blocks/download_file.html.twig
+blocks/extension-cart-update.php
 blocks/featured-items/with-update-button-attributes.tsx
 blocks/generic/select/block.json
 blocks/generic/select/edit.tsx
@@ -69293,6 +69303,7 @@ blocks/product-fields/downloads/insert-url-menu-item/types.ts
 blocks/sharing_cart/bulkdelete.php
 blocks/tests/e2e/plugins/extension-cart-update.php
 blocks/tests/e2e/plugins/update-price.php
+blocks/update-price.php
 blocksdelete
 blockupdate
 blockupdate.asp
@@ -72376,16 +72387,12 @@ changelog-insert-rules.xml
 changelog/42860-update-pnpm
 changelog/43595-update-wireit-0.14.3
 changelog/47385-dev-update-pnpm9-1
-changelog/52655-update-settings-gutenberg-components-edit-site
 changelog/52961-update-dompurify
 changelog/54996-chore-update-wireit
 changelog/55095-dev-rewrite-wireit-deps-update
 changelog/56246-update-settings-router-calypso-package
 changelog/56257-update-wp-control-button-margin
 changelog/56341-update-register-woo-block-type-util-react-18
-changelog/56386-update-remove-types-wp-core-data
-changelog/56398-update-prod-editor-attribute-input-field-test-react-18
-changelog/56695-update-react-18-use-variations-ts-error
 changelog/57219-update-remove-zip-feature-from-blueprint
 changelog/57935-update-blueprint-docs
 changelog/58436-update-36803-update-country-turkey
@@ -72732,6 +72739,7 @@ changelog/tweak-select-tree-2
 changelog/update-47865-orders-table-query-build
 changelog/update-52732-nox-mobile-views
 changelog/update-59804
+changelog/update-64418-integration-with-product-object-caching
 changelog/update-abrev-global-unique-id
 changelog/update-add-to-cart-with-options-filter-inner-blocks
 changelog/update-add-to-cart-with-options-filter-inner-blocks-backwards-compatibility
@@ -72802,6 +72810,7 @@ changelog/update-products-app-drawer
 changelog/update-products-app-grouped-products-field
 changelog/update-products-app-rest-api-v4-blueprint
 changelog/update-products-app-variation-row-actions
+changelog/update-products-control-ts
 changelog/update-products-quick-edit-fields
 changelog/update-remove-banner-layout-from-inbox-note
 changelog/update-remove-featured-helper-text
@@ -72834,7 +72843,6 @@ changelog/update-taxonomy-fields-chip-select
 changelog/update-variation-selector-color-swatches
 changelog/update-wc-visual-attribute-feature-toggle
 changelog/update-woopayments-methods-logos-component
-changelog/update-wp-68-context-types
 changelog/update-wp-68-media-types
 changelog/update-wp-68-packages
 changelog/woomob-2766-update-useqrlogintoken-error-handling
@@ -73304,6 +73312,7 @@ child-module-entry-datums-parent-select-other-same-case-type.xml
 child-module-entry-datums-parent-select-other.xml
 child-module-with-parent-select-and-case-list.xml
 child-module-with-parent-select-entry-datums-added.xml
+child_item_update.py
 child_process.exec.js
 childdelete
 childpolicyupdate
@@ -74003,7 +74012,6 @@ client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo
 client/admin/client/marketplace/components/woo-update-manager-plugin/plugin-install-notice.tsx
 client/admin/client/marketplace/components/woo-update-manager-plugin/woo-update-manager-plugin.scss
 client/admin/client/products/fills/more-menu-items/delete-variation-menu-item.tsx
-client/admin/client/products/fills/more-menu-items/test/delete-variation-menu-item.test.tsx
 client/admin/client/settings-email/__tests__/settings-email-listing-update-cell.test.tsx
 client/admin/client/settings-email/settings-email-listing-update-cell.story.tsx
 client/admin/client/settings-email/settings-email-listing-update-cell.tsx
@@ -80213,10 +80221,6 @@ create-modified-update
 create-new-update
 create-number-update
 create-open-update
-create-product-editor-block/changelog/42860-update-pnpm
-create-product-editor-block/changelog/43595-update-wireit-0.14.3
-create-product-editor-block/changelog/47385-dev-update-pnpm9-1
-create-product-editor-block/changelog/54996-chore-update-wireit
 create-product-editor-block/changelog/dev-ci-lint-monorepo-job-update
 create-public-update
 create-published-update
@@ -83353,6 +83357,7 @@ delete-address-instance.xml.curl
 delete-admin
 delete-admin-object.1
 delete-administrator
+delete-affinity
 delete-after-date1619708000534-admin
 delete-agency-by-key.sql
 delete-alert-rule.inc.php
@@ -88502,6 +88507,7 @@ difficultyleveldelete
 diffidence,pyrrhonism,afraidness,apprehension,bashfulness,boggle,boggling,caution,cautiousness,compunction,demur,demurral,distrust,distrustfulness,doubt,doubtfulness,dubiety,dubiousness,falter,faltering,fearfulness,half-belief,hesitance,hesitancy,hesitating,hesitation,jumpiness,lack of self-confidence,lack of self-reliance,leeriness,misdoubt,misgiving,mistrust,mistrustfulness,modesty,objection,pause,protest,qualm,qualm of conscience,qualmishness,question,recoil,scruple,scrupulosity,scrupulousness,self-depreciation,self-detraction,self-distrust,self-doubt,self-effacement,shadow of doubt,shilly-shally,shilly-shallying,shrinking,shrinkingness,shyness,skepticalness,skepticism,skittishness,stage fright,startlishness,stickling,suspicion,suspiciousness,tentativeness,timidity,timorousness,total skepticism,uncertainty,wariness,weak ego
 diffinsert.sql
 diffopdelete.php
+digestive-health/some-antibiotics-can-alter-your-gut-microbiome-for-years/
 digexec
 digitaalter
 digital-fernsehen/select-video/redxclub.html
@@ -91167,6 +91173,8 @@ e107_update.php
 e2 tpc update.xls
 e2e-pw/data/shared/batch-update.js
 e2e-pw/data/shared/batch-update.ts
+e2e-pw/test-plugins/blocks/extension-cart-update.php
+e2e-pw/test-plugins/blocks/update-price.php
 e2e-pw/tests/email-editor/update-propagation/backward-compat.spec.ts
 e2e-pw/tests/email-editor/update-propagation/core-flows.spec.ts
 e2e-pw/tests/email-editor/update-propagation/helpers/classifications.ts
@@ -92969,6 +92977,7 @@ erp_documenttypemydesk_menu_action_delete.xml
 erp_documenttypetree_document_menu_action_delete.xml
 erp_eventdefinitionmydesk_menu_action_delete.xml
 erp_eventdefinitiontree_program_menu_action_delete.xml
+erpnext/accounts/services/child_item_update.py
 erpnext/patches/v16_0/migrate_asset_type_checkboxes_to_select.py
 erpnext/projects/doctype/project_update/__init__.py
 erpnext/projects/doctype/project_update/project_update.js
@@ -94998,6 +95007,7 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
+false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -101926,7 +101936,6 @@ http/controllers/v1/admin/update/finishupdatecontroller.php
 http/controllers/v1/admin/update/migrateupdatecontroller.php
 http/controllers/v1/admin/update/unzipupdatecontroller.php
 http/controllers/v1/admin/update/updatecontroller.php
-http://onedrop.today/robots.txt
 http_feed.2.update.sqlpp
 http_feed.6.update.sqlpp
 http_feed_json.2.update.sqlpp
@@ -103869,12 +103878,16 @@ input-events-exec-command.html.ini
 input-events-get-target-ranges-forwarddelete.tentative.html.ini
 input-onselect.xml
 input-select.html
+input/category-select.blade.php
+input/company-select.blade.php
 input/country-select.blade.php
 input/email-format-select.blade.php
 input/locale-select.blade.php
 input/location-select.blade.php
+input/manufacturer-select.blade.php
 input/select.blade.php
 input/select.js
+input/supplier-select.blade.php
 input/upload_file_input_type.rb
 input/username-select.blade.php
 input_bg_round_select.xml
@@ -107343,10 +107356,6 @@ js/components/src/tree-select-control/test/tags.test.js
 js/components/src/tree-select-control/useisequalrefvalue.js
 js/components/use-parent-settings/select.js
 js/components/visible-on-option/select.js
-js/create-product-editor-block/changelog/42860-update-pnpm
-js/create-product-editor-block/changelog/43595-update-wireit-0.14.3
-js/create-product-editor-block/changelog/47385-dev-update-pnpm9-1
-js/create-product-editor-block/changelog/54996-chore-update-wireit
 js/create-product-editor-block/changelog/dev-ci-lint-monorepo-job-update
 js/cropper/dragdrop.js
 js/cropper/dragdrop.license
@@ -107574,21 +107583,10 @@ js/pages/product/shop/select-shop-modal.ts
 js/pages/themes/delete-theme-handler.ts
 js/plugins/dragdrop/plugin.es5.js
 js/plugins/dragdrop/plugin.es6.js
-js/product-editor/changelog/47385-dev-update-pnpm9-1
-js/product-editor/changelog/52655-update-settings-gutenberg-components-edit-site
-js/product-editor/changelog/52961-update-dompurify
-js/product-editor/changelog/54996-chore-update-wireit
-js/product-editor/changelog/55095-dev-rewrite-wireit-deps-update
-js/product-editor/changelog/56246-update-settings-router-calypso-package
-js/product-editor/changelog/56341-update-register-woo-block-type-util-react-18
-js/product-editor/changelog/56386-update-remove-types-wp-core-data
-js/product-editor/changelog/56398-update-prod-editor-attribute-input-field-test-react-18
-js/product-editor/changelog/56695-update-react-18-use-variations-ts-error
 js/product-editor/changelog/dev-ci-lint-monorepo-job-update
 js/product-editor/changelog/fix-product-editor-images-drop-error
 js/product-editor/changelog/task-update-eslint-config
 js/product-editor/changelog/tweak-select-tree-2
-js/product-editor/changelog/update-59804
 js/product-editor/changelog/update-abrev-global-unique-id
 js/product-editor/changelog/update-create-shipping-classes-optimistically
 js/product-editor/changelog/update-dataviews_package
@@ -107601,7 +107599,6 @@ js/product-editor/changelog/update-move-logic-to-add-new-attribute
 js/product-editor/changelog/update-navigation-while-on-input
 js/product-editor/changelog/update-number-control-improvements
 js/product-editor/changelog/update-pft-populate-template-selector
-js/product-editor/changelog/update-pnpm-10-upgrade
 js/product-editor/changelog/update-populate-attribute-terms-optimistically
 js/product-editor/changelog/update-product-attribute-types
 js/product-editor/changelog/update-product-description-mobile
@@ -107631,19 +107628,11 @@ js/product-editor/changelog/update-remove-media-library
 js/product-editor/changelog/update-replace-with-combobox
 js/product-editor/changelog/update-storybook_documentation
 js/product-editor/changelog/update-stricter-global-unique-id
-js/product-editor/changelog/update-wp-68-context-types
-js/product-editor/changelog/update-wp-68-media-types
-js/product-editor/changelog/update-wp-68-packages
 js/product-editor/src/blocks/generic/select/block.json
 js/product-editor/src/blocks/generic/select/edit.tsx
 js/product-editor/src/blocks/generic/select/index.ts
 js/product-editor/src/blocks/generic/select/readme.md
 js/product-editor/src/blocks/generic/select/types.ts
-js/product-editor/src/blocks/product-fields/downloads/edit-downloads-modal/images/union-icon.tsx
-js/product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/index.ts
-js/product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/insert-url-menu-item.tsx
-js/product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/style.scss
-js/product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/types.ts
 js/product-editor/src/components/product-select/index.ts
 js/product-editor/src/components/product-select/product-select.tsx
 js/product-editor/src/components/product-select/styles.scss
@@ -107652,8 +107641,6 @@ js/product-editor/src/components/variations-table/update-stock-menu-item/index.t
 js/product-editor/src/components/variations-table/update-stock-menu-item/update-stock-menu-item.tsx
 js/product-editor/src/components/variations-table/variation-actions-menus/multiple-update-menu.tsx
 js/product-editor/src/components/variations-table/variation-actions-menus/single-update-menu.tsx
-js/product-editor/src/components/variations-table/variation-actions-menus/test/variation-quick-update-menu-item.test.tsx
-js/product-editor/src/components/variations-table/variation-actions-menus/variation-quick-update-menu-item.tsx
 js/product-editor/src/utils/defer-select-in-focus.ts
 js/project-select-box.js
 js/public.countryselect.js
@@ -119804,6 +119791,10 @@ nop.web/areas/admin/views/menu/_menuitemcreateorupdate.cshtml
 nop.web/areas/admin/views/messagetemplate/_createorupdate.cshtml
 nop.web/areas/admin/views/newslettersubscription/_createorupdate.cshtml
 nop.web/areas/admin/views/newslettersubscriptiontype/_createorupdate.cshtml
+nop.web/areas/admin/views/pricelist/_createorupdate.cshtml
+nop.web/areas/admin/views/pricelist/_createorupdate.customers.cshtml
+nop.web/areas/admin/views/pricelist/_createorupdate.info.cshtml
+nop.web/areas/admin/views/pricelist/_createorupdate.products.cshtml
 nop.web/areas/admin/views/product/_createorupdate.crosssellsproducts.cshtml
 nop.web/areas/admin/views/product/_createorupdate.cshtml
 nop.web/areas/admin/views/product/_createorupdate.downloadableproduct.cshtml
@@ -122692,10 +122683,6 @@ packages/js/components/src/tree-select-control/test/index.test.js
 packages/js/components/src/tree-select-control/test/options.test.js
 packages/js/components/src/tree-select-control/test/tags.test.js
 packages/js/components/src/tree-select-control/useisequalrefvalue.js
-packages/js/create-product-editor-block/changelog/42860-update-pnpm
-packages/js/create-product-editor-block/changelog/43595-update-wireit-0.14.3
-packages/js/create-product-editor-block/changelog/47385-dev-update-pnpm9-1
-packages/js/create-product-editor-block/changelog/54996-chore-update-wireit
 packages/js/create-product-editor-block/changelog/dev-ci-lint-monorepo-job-update
 packages/js/csv-export/changelog/54996-chore-update-wireit
 packages/js/csv-export/changelog/55095-dev-rewrite-wireit-deps-update
@@ -122839,21 +122826,10 @@ packages/js/onboarding/changelog/update-nox-in-context-onboarding-preload
 packages/js/onboarding/changelog/update-storybook_documentation
 packages/js/onboarding/changelog/update-woopayments-methods-logos-component
 packages/js/onboarding/changelog/update-wp-68-packages
-packages/js/product-editor/changelog/47385-dev-update-pnpm9-1
-packages/js/product-editor/changelog/52655-update-settings-gutenberg-components-edit-site
-packages/js/product-editor/changelog/52961-update-dompurify
-packages/js/product-editor/changelog/54996-chore-update-wireit
-packages/js/product-editor/changelog/55095-dev-rewrite-wireit-deps-update
-packages/js/product-editor/changelog/56246-update-settings-router-calypso-package
-packages/js/product-editor/changelog/56341-update-register-woo-block-type-util-react-18
-packages/js/product-editor/changelog/56386-update-remove-types-wp-core-data
-packages/js/product-editor/changelog/56398-update-prod-editor-attribute-input-field-test-react-18
-packages/js/product-editor/changelog/56695-update-react-18-use-variations-ts-error
 packages/js/product-editor/changelog/dev-ci-lint-monorepo-job-update
 packages/js/product-editor/changelog/fix-product-editor-images-drop-error
 packages/js/product-editor/changelog/task-update-eslint-config
 packages/js/product-editor/changelog/tweak-select-tree-2
-packages/js/product-editor/changelog/update-59804
 packages/js/product-editor/changelog/update-abrev-global-unique-id
 packages/js/product-editor/changelog/update-create-shipping-classes-optimistically
 packages/js/product-editor/changelog/update-dataviews_package
@@ -122866,7 +122842,6 @@ packages/js/product-editor/changelog/update-move-logic-to-add-new-attribute
 packages/js/product-editor/changelog/update-navigation-while-on-input
 packages/js/product-editor/changelog/update-number-control-improvements
 packages/js/product-editor/changelog/update-pft-populate-template-selector
-packages/js/product-editor/changelog/update-pnpm-10-upgrade
 packages/js/product-editor/changelog/update-populate-attribute-terms-optimistically
 packages/js/product-editor/changelog/update-product-attribute-types
 packages/js/product-editor/changelog/update-product-description-mobile
@@ -122876,12 +122851,9 @@ packages/js/product-editor/changelog/update-product-editor-creating-shipping-cla
 packages/js/product-editor/changelog/update-product-editor-description-editor-skeleton
 packages/js/product-editor/changelog/update-product-editor-disable-add-button-when-no-attributes
 packages/js/product-editor/changelog/update-product-editor-doc-more-menu-slotfill
-packages/js/product-editor/changelog/update-product-editor-dont-invalidate-when-creating-new-attribute
-packages/js/product-editor/changelog/update-product-editor-filter-linked-products-only-when-tab-selected
 packages/js/product-editor/changelog/update-product-editor-fix-requesting-terms-issue
 packages/js/product-editor/changelog/update-product-editor-generic-blocks-doc
 packages/js/product-editor/changelog/update-product-editor-handle-shipping-classes-slug
-packages/js/product-editor/changelog/update-product-editor-increase-attribute-row-according-to-options
 packages/js/product-editor/changelog/update-product-editor-increase-loading-terms-number-per-request
 packages/js/product-editor/changelog/update-product-editor-render-new-attribute-right-after-selected
 packages/js/product-editor/changelog/update-product-editor-reorganize-attributes-data
@@ -122896,29 +122868,10 @@ packages/js/product-editor/changelog/update-remove-media-library
 packages/js/product-editor/changelog/update-replace-with-combobox
 packages/js/product-editor/changelog/update-storybook_documentation
 packages/js/product-editor/changelog/update-stricter-global-unique-id
-packages/js/product-editor/changelog/update-wp-68-context-types
-packages/js/product-editor/changelog/update-wp-68-media-types
-packages/js/product-editor/changelog/update-wp-68-packages
-packages/js/product-editor/src/blocks/generic/select/block.json
-packages/js/product-editor/src/blocks/generic/select/edit.tsx
-packages/js/product-editor/src/blocks/generic/select/index.ts
-packages/js/product-editor/src/blocks/generic/select/readme.md
-packages/js/product-editor/src/blocks/generic/select/types.ts
-packages/js/product-editor/src/blocks/product-fields/downloads/edit-downloads-modal/images/union-icon.tsx
-packages/js/product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/index.ts
-packages/js/product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/insert-url-menu-item.tsx
-packages/js/product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/style.scss
-packages/js/product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/types.ts
 packages/js/product-editor/src/components/product-select/index.ts
 packages/js/product-editor/src/components/product-select/product-select.tsx
 packages/js/product-editor/src/components/product-select/styles.scss
 packages/js/product-editor/src/components/product-select/types.ts
-packages/js/product-editor/src/components/variations-table/update-stock-menu-item/index.ts
-packages/js/product-editor/src/components/variations-table/update-stock-menu-item/update-stock-menu-item.tsx
-packages/js/product-editor/src/components/variations-table/variation-actions-menus/multiple-update-menu.tsx
-packages/js/product-editor/src/components/variations-table/variation-actions-menus/single-update-menu.tsx
-packages/js/product-editor/src/components/variations-table/variation-actions-menus/test/variation-quick-update-menu-item.test.tsx
-packages/js/product-editor/src/components/variations-table/variation-actions-menus/variation-quick-update-menu-item.tsx
 packages/js/product-editor/src/utils/defer-select-in-focus.ts
 packages/js/remote-logging/changelog/54996-chore-update-wireit
 packages/js/remote-logging/changelog/55095-dev-rewrite-wireit-deps-update
@@ -125470,6 +125423,7 @@ plugins/woocommerce/changelog/rsm-141-update-banner
 plugins/woocommerce/changelog/rsm-145-tracks-block-email-update
 plugins/woocommerce/changelog/rsm-146-e2e-update-propagation
 plugins/woocommerce/changelog/update-47865-orders-table-query-build
+plugins/woocommerce/changelog/update-64418-integration-with-product-object-caching
 plugins/woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks
 plugins/woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks-backwards-compatibility
 plugins/woocommerce/changelog/update-block-references-may-2026
@@ -125481,6 +125435,7 @@ plugins/woocommerce/changelog/update-move-init-colors-to-chips-block
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
 plugins/woocommerce/changelog/update-product-filter-style-handling
 plugins/woocommerce/changelog/update-product-filters-no-multiple
+plugins/woocommerce/changelog/update-products-control-ts
 plugins/woocommerce/changelog/update-rest-api-docs
 plugins/woocommerce/changelog/update-rsm-108-ability-category-description
 plugins/woocommerce/changelog/update-store-stock-order-pn-icon-emoji
@@ -125493,8 +125448,6 @@ plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/plugin-install-notice.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/woo-update-manager-plugin.scss
-plugins/woocommerce/client/admin/client/products/fills/more-menu-items/delete-variation-menu-item.tsx
-plugins/woocommerce/client/admin/client/products/fills/more-menu-items/test/delete-variation-menu-item.test.tsx
 plugins/woocommerce/client/admin/client/settings-email/__tests__/settings-email-listing-update-cell.test.tsx
 plugins/woocommerce/client/admin/client/settings-email/settings-email-listing-update-cell.story.tsx
 plugins/woocommerce/client/admin/client/settings-email/settings-email-listing-update-cell.tsx
@@ -125544,8 +125497,6 @@ plugins/woocommerce/client/blocks/packages/checkout/utils/extension-cart-update.
 plugins/woocommerce/client/blocks/packages/components/sort-select/index.tsx
 plugins/woocommerce/client/blocks/packages/components/sort-select/stories/index.stories.tsx
 plugins/woocommerce/client/blocks/packages/components/sort-select/style.scss
-plugins/woocommerce/client/blocks/tests/e2e/plugins/extension-cart-update.php
-plugins/woocommerce/client/blocks/tests/e2e/plugins/update-price.php
 plugins/woocommerce/client/legacy/js/admin/wc-brands-enhanced-select.js
 plugins/woocommerce/client/legacy/js/admin/wc-enhanced-select.js
 plugins/woocommerce/client/legacy/js/frontend/country-select.js
@@ -125560,6 +125511,8 @@ plugins/woocommerce/src/internal/abilities/domain/productupdate.php
 plugins/woocommerce/src/storeapi/routes/v1/agentic/checkoutsessionsupdate.php
 plugins/woocommerce/tests/e2e-pw/data/shared/batch-update.js
 plugins/woocommerce/tests/e2e-pw/data/shared/batch-update.ts
+plugins/woocommerce/tests/e2e-pw/test-plugins/blocks/extension-cart-update.php
+plugins/woocommerce/tests/e2e-pw/test-plugins/blocks/update-price.php
 plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/backward-compat.spec.ts
 plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/core-flows.spec.ts
 plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/classifications.ts
@@ -126361,6 +126314,10 @@ presentation/nop.web/areas/admin/views/menu/_menuitemcreateorupdate.cshtml
 presentation/nop.web/areas/admin/views/messagetemplate/_createorupdate.cshtml
 presentation/nop.web/areas/admin/views/newslettersubscription/_createorupdate.cshtml
 presentation/nop.web/areas/admin/views/newslettersubscriptiontype/_createorupdate.cshtml
+presentation/nop.web/areas/admin/views/pricelist/_createorupdate.cshtml
+presentation/nop.web/areas/admin/views/pricelist/_createorupdate.customers.cshtml
+presentation/nop.web/areas/admin/views/pricelist/_createorupdate.info.cshtml
+presentation/nop.web/areas/admin/views/pricelist/_createorupdate.products.cshtml
 presentation/nop.web/areas/admin/views/product/_createorupdate.crosssellsproducts.cshtml
 presentation/nop.web/areas/admin/views/product/_createorupdate.cshtml
 presentation/nop.web/areas/admin/views/product/_createorupdate.downloadableproduct.cshtml
@@ -126604,6 +126561,10 @@ pricelist.delete
 pricelist.detail.delete
 pricelist.detail.integer.delete
 pricelist.reference.delete
+pricelist/_createorupdate.cshtml
+pricelist/_createorupdate.customers.cshtml
+pricelist/_createorupdate.info.cshtml
+pricelist/_createorupdate.products.cshtml
 pricelist_select.xml
 pricelistcustomerupdate
 pricelistdelete
@@ -127645,21 +127606,10 @@ producerproductupdate
 producerunion
 producet_update
 product-delete.spec.ts
-product-editor/changelog/47385-dev-update-pnpm9-1
-product-editor/changelog/52655-update-settings-gutenberg-components-edit-site
-product-editor/changelog/52961-update-dompurify
-product-editor/changelog/54996-chore-update-wireit
-product-editor/changelog/55095-dev-rewrite-wireit-deps-update
-product-editor/changelog/56246-update-settings-router-calypso-package
-product-editor/changelog/56341-update-register-woo-block-type-util-react-18
-product-editor/changelog/56386-update-remove-types-wp-core-data
-product-editor/changelog/56398-update-prod-editor-attribute-input-field-test-react-18
-product-editor/changelog/56695-update-react-18-use-variations-ts-error
 product-editor/changelog/dev-ci-lint-monorepo-job-update
 product-editor/changelog/fix-product-editor-images-drop-error
 product-editor/changelog/task-update-eslint-config
 product-editor/changelog/tweak-select-tree-2
-product-editor/changelog/update-59804
 product-editor/changelog/update-abrev-global-unique-id
 product-editor/changelog/update-create-shipping-classes-optimistically
 product-editor/changelog/update-dataviews_package
@@ -127672,7 +127622,6 @@ product-editor/changelog/update-move-logic-to-add-new-attribute
 product-editor/changelog/update-navigation-while-on-input
 product-editor/changelog/update-number-control-improvements
 product-editor/changelog/update-pft-populate-template-selector
-product-editor/changelog/update-pnpm-10-upgrade
 product-editor/changelog/update-populate-attribute-terms-optimistically
 product-editor/changelog/update-product-attribute-types
 product-editor/changelog/update-product-description-mobile
@@ -127702,15 +127651,11 @@ product-editor/changelog/update-remove-media-library
 product-editor/changelog/update-replace-with-combobox
 product-editor/changelog/update-storybook_documentation
 product-editor/changelog/update-stricter-global-unique-id
-product-editor/changelog/update-wp-68-context-types
-product-editor/changelog/update-wp-68-media-types
-product-editor/changelog/update-wp-68-packages
 product-editor/src/blocks/generic/select/block.json
 product-editor/src/blocks/generic/select/edit.tsx
 product-editor/src/blocks/generic/select/index.ts
 product-editor/src/blocks/generic/select/readme.md
 product-editor/src/blocks/generic/select/types.ts
-product-editor/src/blocks/product-fields/downloads/edit-downloads-modal/images/union-icon.tsx
 product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/index.ts
 product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/insert-url-menu-item.tsx
 product-editor/src/blocks/product-fields/downloads/insert-url-menu-item/style.scss
@@ -127723,8 +127668,6 @@ product-editor/src/components/variations-table/update-stock-menu-item/index.ts
 product-editor/src/components/variations-table/update-stock-menu-item/update-stock-menu-item.tsx
 product-editor/src/components/variations-table/variation-actions-menus/multiple-update-menu.tsx
 product-editor/src/components/variations-table/variation-actions-menus/single-update-menu.tsx
-product-editor/src/components/variations-table/variation-actions-menus/test/variation-quick-update-menu-item.test.tsx
-product-editor/src/components/variations-table/variation-actions-menus/variation-quick-update-menu-item.tsx
 product-editor/src/utils/defer-select-in-focus.ts
 product-exec
 product-fields/downloads/edit-downloads-modal/images/union-icon.tsx
@@ -131075,6 +131018,8 @@ recordtypedelete
 recordtypeupdate
 recordunion-com
 recordupdate
+recovery-safety/a-drop-in-heart-rate-during-exercise/
+recovery-safety/exercises-for-wrist-drop/
 recovery-update-accounts-security
 recovery/update/assets/javascript/jquery.installer.js
 recovery/update/bin/update.php
@@ -132959,11 +132904,15 @@ resources/views/backend/post/partials/modals/delete.blade.php
 resources/views/backend/tag/partials/modals/delete.blade.php
 resources/views/backend/user/partials/modals/delete.blade.php
 resources/views/blade/button/delete.blade.php
+resources/views/blade/input/category-select.blade.php
+resources/views/blade/input/company-select.blade.php
 resources/views/blade/input/country-select.blade.php
 resources/views/blade/input/email-format-select.blade.php
 resources/views/blade/input/locale-select.blade.php
 resources/views/blade/input/location-select.blade.php
+resources/views/blade/input/manufacturer-select.blade.php
 resources/views/blade/input/select.blade.php
+resources/views/blade/input/supplier-select.blade.php
 resources/views/blade/input/username-select.blade.php
 resources/views/categories/update.blade.php
 resources/views/components/form/select.blade.php
@@ -142335,6 +142284,7 @@ services.union
 services.update.beta.cfm
 services.update.cfm
 services.update.functions.cfm
+services/child_item_update.py
 services/contentblueprinteditingservicetests.delete.cs
 services/contentblueprinteditingservicetests.update.cs
 services/contenteditingservicetests.delete.cs
@@ -144205,6 +144155,7 @@ sleep(5)='
 sleep(9999)
 sleep(__time__)#
 sleep,ko,annihilation,ataraxia,ataraxy,bane,be caught napping,be neglectful,be negligent,beauty sleep,beddy-bye,bedtime,biological death,blackout,blanket drill,bye-bye,calmness,catalepsy,catatonia,catatony,catnap,cessation of life,clinical death,coma,comfort,composure,contemplation,crossing the bar,curtains,death,death knell,debt of nature,decease,default,demise,departure,disregard,dissolution,doom,doss,doze,dreamland,drop off,drowse,dying,ease,ebb of life,end,end of life,ending,eternal rest,exit,expiration,extinction,extinguishment,fail,faint,final summons,finger of death,fitful sleep,forty winks,fust,gloss over,going,going off,grave,grayout,hand of death,hang fire,hibernation,idle,ignore,imperturbability,inactivity,jaws of death,kayo,knell,knockout,land of nod,lapse,last debt,last muster,last rest,last roundup,last sleep,leaving life,let go,let ride,let slide,let slip,light sleep,lipothymia,lipothymy,lose sight of,lose track of,loss of life,lucid stillness,making an end,marmoreal repose,nap,neglect,nirvana,nirvana principle,nod,nod off,not care for,not get involved,not heed,not think,nothingness,oblivion,obliviousness,overlook,oversleep,parting,pass over,passing,passing away,passing over,peace,peacefulness,perishing,placidity,placidness,pound,quiescence,quiescency,quiet,quietism,quietness,quietude,quietus,relax,relaxation,release,repose,rest,restfulness,reward,satori,saw logs,saw wood,semiconsciousness,senselessness,sentence of death,serenity,shades of death,shadow of death,shut-eye,siesta,silence,silken repose,sleep soundly,sleepland,sleepwalking,slumber,slumberland,smolder,snooze,snoozle,snore,somatic death,somnambulism,somniloquy,somnus,stagnate,stillness,stupor,summons of death,swoon,syncope,take a nap,take for granted,tranquillity,unbuttoned ease,unconsciousness,vegetate,winter sleep,wise passiveness
+sleep/can-changing-your-sleep-position-alter-your-dreams.aspx
 sleep_select.go
 sleeping pill,amytal,amytal pill,demerol,dolophine,h,luminal,luminal pill,m,mickey finn,nembutal,nembutal pill,seconal,seconal pill,tuinal,tuinal pill,alcohol,amobarbital sodium,analgesic,anesthetic,anodyne,barb,barbiturate,barbiturate pill,black stuff,blue,blue angel,blue devil,blue heaven,blue velvet,calmative,chloral hydrate,codeine,codeine cough syrup,depressant,depressor,dolly,dope,downer,drug,goofball,hard stuff,heroin,hop,horse,hypnotic,junk,knockout drop,knockout drops,laudanum,liquor,lotus,meperidine,methadone,morphia,morphine,narcotic,opiate,opium,pacifier,pain killer,pain-killer,paregoric,pen yan,phenobarbital,phenobarbital sodium,purple heart,quietener,rainbow,red,scag,secobarbital sodium,sedative,shit,sleep-inducer,sleeper,sleeping draught,smack,sodium thiopental,somnifacient,soother,soothing syrup,soporific,tar,tranquilizer,turps,white stuff,yellow,yellow jacket
 sleeptrackupdate
@@ -145925,7 +145876,6 @@ src/components/variations-table/update-stock-menu-item/index.ts
 src/components/variations-table/update-stock-menu-item/update-stock-menu-item.tsx
 src/components/variations-table/variation-actions-menus/multiple-update-menu.tsx
 src/components/variations-table/variation-actions-menus/single-update-menu.tsx
-src/components/variations-table/variation-actions-menus/test/variation-quick-update-menu-item.test.tsx
 src/components/variations-table/variation-actions-menus/variation-quick-update-menu-item.tsx
 src/components/yfbackdrop.vue
 src/composer/selfupdate/keys.php
@@ -146788,6 +146738,10 @@ src/presentation/nop.web/areas/admin/views/menu/_menuitemcreateorupdate.cshtml
 src/presentation/nop.web/areas/admin/views/messagetemplate/_createorupdate.cshtml
 src/presentation/nop.web/areas/admin/views/newslettersubscription/_createorupdate.cshtml
 src/presentation/nop.web/areas/admin/views/newslettersubscriptiontype/_createorupdate.cshtml
+src/presentation/nop.web/areas/admin/views/pricelist/_createorupdate.cshtml
+src/presentation/nop.web/areas/admin/views/pricelist/_createorupdate.customers.cshtml
+src/presentation/nop.web/areas/admin/views/pricelist/_createorupdate.info.cshtml
+src/presentation/nop.web/areas/admin/views/pricelist/_createorupdate.products.cshtml
 src/presentation/nop.web/areas/admin/views/product/_createorupdate.crosssellsproducts.cshtml
 src/presentation/nop.web/areas/admin/views/product/_createorupdate.cshtml
 src/presentation/nop.web/areas/admin/views/product/_createorupdate.downloadableproduct.cshtml
@@ -151848,6 +151802,8 @@ test-org.jsoup.select.elementstest.xml
 test-org.jsoup.select.queryparsertest.xml
 test-org.jsoup.select.selectortest.xml
 test-osx-select.c
+test-plugins/blocks/extension-cart-update.php
+test-plugins/blocks/update-price.php
 test-procedure-with-single-select.js
 test-psc-10043-update
 test-public-update
@@ -152363,6 +152319,8 @@ tests/drupal/tests/core/update/updateorderingtest.php
 tests/drupal/tests/core/update/updateregistrytest.php
 tests/e2e-pw/data/shared/batch-update.js
 tests/e2e-pw/data/shared/batch-update.ts
+tests/e2e-pw/test-plugins/blocks/extension-cart-update.php
+tests/e2e-pw/test-plugins/blocks/update-price.php
 tests/e2e-pw/tests/email-editor/update-propagation/backward-compat.spec.ts
 tests/e2e-pw/tests/email-editor/update-propagation/core-flows.spec.ts
 tests/e2e-pw/tests/email-editor/update-propagation/helpers/classifications.ts
@@ -158145,6 +158103,7 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
+true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -162714,6 +162673,7 @@ update-61-i2b2metadata-i2b2-seq.sql
 update-61a-metadata-funcmod-addontnode.sql
 update-62a-metadata-modtable-i2b2.sql
 update-63a-metadata-modtable-i2b2sec.sql
+update-64418-integration-with-product-object-caching
 update-6to7.sql
 update-7
 update-7.1.0.sql
@@ -166745,6 +166705,7 @@ update-products-app-drawer
 update-products-app-grouped-products-field
 update-products-app-rest-api-v4-blueprint
 update-products-app-variation-row-actions
+update-products-control-ts
 update-products-quick-edit-fields
 update-prodv1
 update-profile
@@ -168341,7 +168302,6 @@ update-woopayments-methods-logos-component
 update-worker.js
 update-worker.py
 update-workspace-mirror.sh
-update-wp-68-context-types
 update-wp-68-media-types
 update-wp-68-packages
 update-write
@@ -173435,11 +173395,15 @@ views/automatic-plugin-update.php
 views/banner/update.php
 views/bill/update.php
 views/blade/button/delete.blade.php
+views/blade/input/category-select.blade.php
+views/blade/input/company-select.blade.php
 views/blade/input/country-select.blade.php
 views/blade/input/email-format-select.blade.php
 views/blade/input/locale-select.blade.php
 views/blade/input/location-select.blade.php
+views/blade/input/manufacturer-select.blade.php
 views/blade/input/select.blade.php
+views/blade/input/supplier-select.blade.php
 views/blade/input/username-select.blade.php
 views/blog/_createorupdate.cshtml
 views/blog/_createorupdate.info.cshtml
@@ -173733,6 +173697,10 @@ views/post/update.php
 views/postanalytics/components/date-range-select.tsx
 views/posts/update.php
 views/priacy/update.php
+views/pricelist/_createorupdate.cshtml
+views/pricelist/_createorupdate.customers.cshtml
+views/pricelist/_createorupdate.info.cshtml
+views/pricelist/_createorupdate.products.cshtml
 views/product/_createorupdate.crosssellsproducts.cshtml
 views/product/_createorupdate.cshtml
 views/product/_createorupdate.downloadableproduct.cshtml
@@ -176353,6 +176321,7 @@ woocommerce/changelog/rsm-141-update-banner
 woocommerce/changelog/rsm-145-tracks-block-email-update
 woocommerce/changelog/rsm-146-e2e-update-propagation
 woocommerce/changelog/update-47865-orders-table-query-build
+woocommerce/changelog/update-64418-integration-with-product-object-caching
 woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks
 woocommerce/changelog/update-add-to-cart-with-options-filter-inner-blocks-backwards-compatibility
 woocommerce/changelog/update-block-references-may-2026
@@ -176364,6 +176333,7 @@ woocommerce/changelog/update-move-init-colors-to-chips-block
 woocommerce/changelog/update-pay-506-always-show-payment-radio
 woocommerce/changelog/update-product-filter-style-handling
 woocommerce/changelog/update-product-filters-no-multiple
+woocommerce/changelog/update-products-control-ts
 woocommerce/changelog/update-rest-api-docs
 woocommerce/changelog/update-rsm-108-ability-category-description
 woocommerce/changelog/update-store-stock-order-pn-icon-emoji
@@ -176376,8 +176346,6 @@ woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/ac
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/plugin-install-notice.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/woo-update-manager-plugin.scss
-woocommerce/client/admin/client/products/fills/more-menu-items/delete-variation-menu-item.tsx
-woocommerce/client/admin/client/products/fills/more-menu-items/test/delete-variation-menu-item.test.tsx
 woocommerce/client/admin/client/settings-email/__tests__/settings-email-listing-update-cell.test.tsx
 woocommerce/client/admin/client/settings-email/settings-email-listing-update-cell.story.tsx
 woocommerce/client/admin/client/settings-email/settings-email-listing-update-cell.tsx
@@ -176443,6 +176411,8 @@ woocommerce/src/internal/abilities/domain/productupdate.php
 woocommerce/src/storeapi/routes/v1/agentic/checkoutsessionsupdate.php
 woocommerce/tests/e2e-pw/data/shared/batch-update.js
 woocommerce/tests/e2e-pw/data/shared/batch-update.ts
+woocommerce/tests/e2e-pw/test-plugins/blocks/extension-cart-update.php
+woocommerce/tests/e2e-pw/test-plugins/blocks/update-price.php
 woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/backward-compat.spec.ts
 woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/core-flows.spec.ts
 woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/classifications.ts
@@ -178007,6 +177977,7 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
+wp-content/uploads/http://european-union.europa.eu/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments
