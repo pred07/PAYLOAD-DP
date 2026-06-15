@@ -42,13 +42,10 @@ aws_secret_key
 aws_secret_key=
 aws_secrets.json
 aws_secrets.yaml
-blob.core.windows.net.rproxy
-bsh9fimdsp
 bucketeer_aws_access_key_id
 bucketeer_aws_access_key_id=
 bucketeer_aws_secret_access_key
 bucketeer_aws_secret_access_key=
-byrosimds
 chennaimds
 chronicle-assets.s3.amazonaws.com.indianapolis.libproxy
 ciimds0395
@@ -66,9 +63,6 @@ dannimds
 diariopresenterm.blob.core.windows.net
 dimds
 dimdsc
-dimdsep.880049
-dimdsep880050
-dimdsep880060
 dimdss
 do-ip-10-188-34-37.us-west-2.compute.internal
 do-ip-192-168-31-190.ap-northeast-1.compute.internal
@@ -151,7 +145,6 @@ etcd-manager-main-ip-172-20-62-75.eu-central-1.compute.internal
 etcd-manager-main-ip-172-31-66-142.ap-south-1.compute.internal
 filename:credentials aws_access_key_id
 filetype:env intext:aws_secret
-fimdsd27
 fiscaltimedimdst.sql
 gimds
 gmmimds
@@ -206,8 +199,6 @@ instance-datascience
 irimds3
 jbkimds916
 joachimds
-keimdsh
-keimdsh07
 kimds
 kimdsampson
 kimdsjtr0169
@@ -342,13 +333,8 @@ mlimds
 mobileimdsrp
 muslimdsnuly
 mysimds
-nimds4ml
 nimdslx
-opgeruimds
 opgeruimdst
-opgeruimdstaatnetjesgevoel
-opgeruimdste
-opimds23
 periodicoabcrm.blob.core.windows.net
 polkdoimds19de0
 portale/temi/soggettoautorizzatovenditaonlinefarmacimds.jsp

