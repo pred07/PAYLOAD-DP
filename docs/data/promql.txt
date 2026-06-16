@@ -1,8 +1,11 @@
 <svg onload=navigator.vibrate(500)>
 <svg onload=navigator.vibrate([500,300,100])>
 federate?match[]={__name__=~".+"}
+ferrichexacyanoferrate(ii).xml
 for line_number, line in enumerate(submit_response['response']):
 framerate()
 navigator.vibrate(500)
 rostrate(d)
+ssb-catalog-generate(shoppica-flatro-support-tags-in-category).xml
+ssb-catalog-generate(shoppica-support-tags-in-category).xml
 {__name__=~".+"}
