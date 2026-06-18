@@ -7635,7 +7635,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 ._workout_select.xml
 .bhmvop .segmentedcontrol-text:after{content:"blame";display:block;font-weight:600;height:0;overflow:hidden;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;visibility:hidden;}/*!sc*/
 .changeset/drop-field-path.md
-.changeset/fix-batch-update-revisions.md
 .chatadmin/update.asp
 .creditunion
 .dbgjoi .segmentedcontrol-text:after{content:"code";display:block;font-weight:600;height:0;overflow:hidden;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;visibility:hidden;}/*!sc*/
@@ -24747,6 +24746,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 /live/livingupdate
 /live/session/update
 /livebanner/update
+/liveblog/2026/6/*?*update=
 /livekingkong/update
 /livelesson/update
 /livelessonfunction/update
@@ -43867,6 +43867,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 63-update-document-type-id.sql
 63312walter
 636824walter
+63793-fix-wcag-metabox-delete-contrast
 64disallow/rsvp-update-response
 65-update-article-detail-layout.sql
 658577-update-addons.sql
@@ -45005,6 +45006,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 ?q=nodedelete
 ?q=user/sammlung/delete/
 ?ref=cityselect-nearby$
+?select-model-name
 ?sqli1=; drop table users --
 ?sqli5=10;drop members --
 ?todelete=
@@ -52470,6 +52472,7 @@ __snapshots__/v-fancy-select.test.ts.snap
 __snapshots__/v-select.test.ts.snap
 __tdelete
 __tests__/action-articledelete.spec.ts
+__tests__/bulkdelete.test.ts
 __tests__/commonselect.spec.ts
 __tests__/delete-many.test.ts
 __tests__/delete-user.test.ts
@@ -61724,6 +61727,7 @@ api/planetf1liveupdate
 api/plugin/update-user-info
 api/plugins/lou-multi-select/js/jquery.multi-select.js
 api/plugins/users-permissions/content-api/auth-password-update-revokes-sessions.test.api.ts
+api/plugins/users-permissions/content-api/user-update-relations.test.api.js
 api/post/analytics/action=update
 api/posts_delete.php
 api/posts_update.php
@@ -70604,6 +70608,7 @@ bulkcustomerinsert
 bulkcustomerstageinstructioninsert
 bulkdelete
 bulkdelete.php
+bulkdelete.test.ts
 bulkdesignerproductsupdate
 bulkdomaininsert
 bulkedit-insert.aspx
@@ -72377,6 +72382,7 @@ changelog/57219-update-remove-zip-feature-from-blueprint
 changelog/57935-update-blueprint-docs
 changelog/58792-update-blueprint-doc-exporter-ui
 changelog/61753-fix-support-composer-update
+changelog/63793-fix-wcag-metabox-delete-contrast
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
 changelog/add-tree-select-control
@@ -72711,8 +72717,10 @@ changelog/update-47865-orders-table-query-build
 changelog/update-59804
 changelog/update-abrev-global-unique-id
 changelog/update-always-show-sale-price
+changelog/update-blocks-e2e-core-cutover
 changelog/update-blueprint-require-permission-exporters-api
 changelog/update-branding-updates-to-woocommerce
+changelog/update-cart-checkout-slotfill-wp68
 changelog/update-categories-remove-description
 changelog/update-create-shipping-classes-optimistically
 changelog/update-dataviews_package
@@ -72729,6 +72737,7 @@ changelog/update-move-logic-to-add-new-attribute
 changelog/update-navigation-while-on-input
 changelog/update-nox-in-context-onboarding-preload
 changelog/update-number-control-improvements
+changelog/update-number-spin-control
 changelog/update-pay-506-always-show-payment-radio
 changelog/update-pft-populate-template-selector
 changelog/update-pnpm-10-upgrade
@@ -72777,6 +72786,9 @@ changelog/update-remove-product-title-underline
 changelog/update-remove-shipping-class-filter
 changelog/update-remove-tags-helper-text
 changelog/update-remove-type-from-quick-edit
+changelog/update-rename-settings-ui-entry
+changelog/update-rename-settings-ui-package
+changelog/update-rename-settings-ui-script-handle
 changelog/update-rename-visual-attribute-picker
 changelog/update-replace-with-combobox
 changelog/update-sale-schedule-fields
@@ -72788,6 +72800,7 @@ changelog/update-settings-edits
 changelog/update-settings-payments-type-for-onboarding-supported
 changelog/update-settings-return-to-wc-home
 changelog/update-settings-router-calypso-package
+changelog/update-settings-ui-layout-width-spacing
 changelog/update-sku-remove-description
 changelog/update-status-options-and-labels
 changelog/update-stock-column-badge
@@ -77162,6 +77175,7 @@ contains_regexp.2.update.sqlpp
 contains_regexp_with_flag.2.update.sqlpp
 contaoupdate
 content-api/auth-password-update-revokes-sessions.test.api.ts
+content-api/user-update-relations.test.api.js
 content-apt-offline-update-computer-offline.xml
 content-broken-packages-interrupted-installation-update-new-lubuntu-release.xml
 content-delete-all-data-hard-disk.xml
@@ -77185,6 +77199,7 @@ content-manager/model/id/components/assigneeselect.tsx
 content-manager/model/id/components/stageselect.tsx
 content-manager/model/id/components/tests/assigneeselect.test.tsx
 content-manager/model/id/components/tests/stageselect.test.tsx
+content-manager/server/src/controllers/__tests__/bulkdelete.test.ts
 content-none-select-1.html.ini
 content-none-select-2.html.ini
 content-search-files-all-folders-and-delete-them-optional.xml
@@ -77575,6 +77590,7 @@ controller/update.php
 controller_deck_select.xml
 controller_delete.cs
 controller_faction_select.xml
+controllers/__tests__/bulkdelete.test.ts
 controllers/_application_controller/_modal_generic_confirm_delete.coffee
 controllers/_plugin/app_config_update.coffee
 controllers/_ui_element/_application_tree_select.coffee
@@ -77991,6 +78007,7 @@ core/content-manager/admin/src/hooks/tests/usekeyboarddraganddrop.test.ts
 core/content-manager/admin/src/hooks/usedraganddrop.ts
 core/content-manager/admin/src/hooks/usekeyboarddraganddrop.ts
 core/content-manager/api/many-relations-update.test.api.js
+core/content-manager/server/src/controllers/__tests__/bulkdelete.test.ts
 core/content-type-builder/admin/src/components/allowedtypesselect.tsx
 core/content-type-builder/admin/src/components/booleandefaultvalueselect.tsx
 core/content/product/dataabstractionlayer/stockupdate/abstractstockupdatefilter.php
@@ -87773,6 +87790,7 @@ departmentsupdate
 departmenttypedelete
 departmentupdate
 depdrop.php
+dependency-extraction-webpack-plugin/changelog/update-rename-settings-ui-entry
 dependency/_files/layout_handle_update.xml
 dependencyinjection/update.xml
 dependencyupdate
@@ -96551,7 +96569,6 @@ fitzswalter
 fitzwalter
 fix-another-update-in-progress
 fix-automatic-update
-fix-batch-update-revisions.md
 fix-beta-tester-delete-option-error
 fix-percent-complete-select-box.sql
 fix-plugin-update
@@ -107240,6 +107257,7 @@ js/data/utils/update-state.ts
 js/date/changelog/dev-ci-lint-monorepo-job-update
 js/delete-user-account.js
 js/delete-with-confirm.js
+js/dependency-extraction-webpack-plugin/changelog/update-rename-settings-ui-entry
 js/dist-typings/common/components/multiselect.d.ts
 js/dist-typings/common/components/select.d.ts
 js/dist/5.1.0a1/bundle.forms.apphookselect.min.js
@@ -107479,6 +107497,8 @@ js/settings-editor/src/form-controls/single-select-page-with-search/suffix.tsx
 js/settings-editor/src/form-controls/single-select-page-with-search/types.ts
 js/settings-editor/src/form-controls/single-select-page-with-search/utils.ts
 js/settings-editor/src/form-controls/single-select-page.tsx
+js/settings-ui/changelog/update-number-spin-control
+js/settings-ui/changelog/update-rename-settings-ui-package
 js/site.widgets.rich_select.js
 js/sortablecheckboxselect.js
 js/src/common/components/multiselect.tsx
@@ -122345,6 +122365,7 @@ packages/core/content-manager/admin/src/constants/draganddrop.ts
 packages/core/content-manager/admin/src/hooks/tests/usekeyboarddraganddrop.test.ts
 packages/core/content-manager/admin/src/hooks/usedraganddrop.ts
 packages/core/content-manager/admin/src/hooks/usekeyboarddraganddrop.ts
+packages/core/content-manager/server/src/controllers/__tests__/bulkdelete.test.ts
 packages/core/content-type-builder/admin/src/components/allowedtypesselect.tsx
 packages/core/content-type-builder/admin/src/components/booleandefaultvalueselect.tsx
 packages/core/core/src/utils/update-notifier/index.ts
@@ -122474,6 +122495,7 @@ packages/js/customer-effort-score/changelog/dev-ci-lint-monorepo-job-update
 packages/js/data/changelog/update-settings-payments-type-for-onboarding-supported
 packages/js/data/src/use-select-with-refresh.ts
 packages/js/date/changelog/dev-ci-lint-monorepo-job-update
+packages/js/dependency-extraction-webpack-plugin/changelog/update-rename-settings-ui-entry
 packages/js/email-editor/src/components/template-select/async.ts
 packages/js/email-editor/src/components/template-select/index.ts
 packages/js/email-editor/src/components/template-select/select-modal.tsx
@@ -122617,6 +122639,8 @@ packages/js/settings-editor/src/form-controls/single-select-page-with-search/suf
 packages/js/settings-editor/src/form-controls/single-select-page-with-search/types.ts
 packages/js/settings-editor/src/form-controls/single-select-page-with-search/utils.ts
 packages/js/settings-editor/src/form-controls/single-select-page.tsx
+packages/js/settings-ui/changelog/update-number-spin-control
+packages/js/settings-ui/changelog/update-rename-settings-ui-package
 packages/language/app-language-select/app-language-select.element.ts
 packages/language/app-language-select/manifests.ts
 packages/permit/packages/permit_access/data/pcategory_update
@@ -125119,6 +125143,7 @@ plugins/update-price.php
 plugins/userimages/userimages.profile.update.php
 plugins/userimages/userimages.users.edit.update.php
 plugins/users-permissions/content-api/auth-password-update-revokes-sessions.test.api.ts
+plugins/users-permissions/content-api/user-update-relations.test.api.js
 plugins/users-permissions/server/graphql/mutations/crud/role/delete-role.js
 plugins/users-permissions/server/graphql/mutations/crud/role/update-role.js
 plugins/users-permissions/server/graphql/mutations/crud/user/delete-user.js
@@ -125145,11 +125170,16 @@ plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
+plugins/woocommerce/changelog/63793-fix-wcag-metabox-delete-contrast
 plugins/woocommerce/changelog/fix-wc-update-10802-missing-orders-meta-table-check
 plugins/woocommerce/changelog/update-47865-orders-table-query-build
+plugins/woocommerce/changelog/update-blocks-e2e-core-cutover
+plugins/woocommerce/changelog/update-cart-checkout-slotfill-wp68
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
 plugins/woocommerce/changelog/update-products-control-ts
+plugins/woocommerce/changelog/update-rename-settings-ui-script-handle
 plugins/woocommerce/changelog/update-rename-visual-attribute-picker
+plugins/woocommerce/changelog/update-settings-ui-layout-width-spacing
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -141852,6 +141882,7 @@ server/services/update-check.test.js
 server/services/update-check/index.js
 server/services/update-check/run-update-check.js
 server/services/update-check/update-check-service.js
+server/src/controllers/__tests__/bulkdelete.test.ts
 server/src/services/internals/types/delete-mutation-response.ts
 server/update-check.js
 server/update-user-traffic-source
@@ -142295,6 +142326,8 @@ settings-payments/onboarding/providers/woopayments/components/custom-select-cont
 settings-payments/onboarding/providers/woopayments/components/grouped-select-control/index.tsx
 settings-payments/onboarding/providers/woopayments/components/grouped-select-control/style.scss
 settings-select
+settings-ui/changelog/update-number-spin-control
+settings-ui/changelog/update-rename-settings-ui-package
 settings-update
 settings-update.xml
 settings/bandelete.php
@@ -145595,6 +145628,7 @@ src/console/selfupdate/newversioncheckerinterface.php
 src/constants/draganddrop.ts
 src/container/__tests__/relaycontainer_hasoptimisticupdate-test.js
 src/contrib/corona/src/webapp/cm/exec.jsp
+src/controllers/__tests__/bulkdelete.test.ts
 src/core/content/product/dataabstractionlayer/stockupdate/abstractstockupdatefilter.php
 src/core/content/product/dataabstractionlayer/stockupdate/stockupdatefilterprovider.php
 src/core/domain/product/supplier/productsupplierupdate.php
@@ -151967,6 +152001,7 @@ tests/api/core/strapi/document-service/delete.test.api.ts
 tests/api/core/strapi/document-service/update.test.api.ts
 tests/api/core/strapi/lifecycles/before-delete.test.api.js
 tests/api/plugins/users-permissions/content-api/auth-password-update-revokes-sessions.test.api.ts
+tests/api/plugins/users-permissions/content-api/user-update-relations.test.api.js
 tests/app/code/magento/catalog/adminhtml/js/components/product-ui-select.test.js
 tests/app/code/magento/customer/adminhtml/js/view/form/components/insert-listing.test.js
 tests/app/code/magento/ui/adminhtml/js/form/insert.test.js
@@ -163086,6 +163121,7 @@ update-billing_on_errorcode.sql
 update-binary
 update-binfmts
 update-block-template-logging-threshold.tsx
+update-blocks-e2e-core-cutover
 update-blocks.conf
 update-blog
 update-blue-stage
@@ -163121,6 +163157,7 @@ update-calendar
 update-canary
 update-caption
 update-cart
+update-cart-checkout-slotfill-wp68
 update-catalog
 update-catalog.csv
 update-categories-remove-description
@@ -166116,6 +166153,7 @@ update-number-session
 update-number-setting
 update-number-settings
 update-number-source
+update-number-spin-control
 update-number-sql
 update-number-status
 update-number-supervisor
@@ -166980,6 +167018,9 @@ update-remove-tags-helper-text
 update-remove-type-from-quick-edit
 update-removeforbach.xml
 update-removegrenoble.xml
+update-rename-settings-ui-entry
+update-rename-settings-ui-package
+update-rename-settings-ui-script-handle
 update-rename-visual-attribute-picker
 update-renaming-tool.xml
 update-replace-with-combobox
@@ -167116,6 +167157,7 @@ update-settings-payments-type-for-onboarding-supported
 update-settings-return-to-wc-home
 update-settings-router-calypso-package
 update-settings-test.xml
+update-settings-ui-layout-width-spacing
 update-settings.asciidoc
 update-settings.ini
 update-sftp
@@ -170313,6 +170355,7 @@ user-self-delete
 user-shopdrop
 user-update
 user-update-conf.py.conf
+user-update-relations.test.api.js
 user-update-retries-user-1613970060-gc7rd
 user-update.xml
 user-vis-int-3_1.2.update.sqlpp
@@ -170824,6 +170867,7 @@ users-drop-indexes.sql
 users-drop-tables.sql
 users-insert.sql
 users-permissions/content-api/auth-password-update-revokes-sessions.test.api.ts
+users-permissions/content-api/user-update-relations.test.api.js
 users-permissions/server/graphql/mutations/crud/role/delete-role.js
 users-permissions/server/graphql/mutations/crud/role/update-role.js
 users-permissions/server/graphql/mutations/crud/user/delete-user.js
@@ -176000,11 +176044,16 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
+woocommerce/changelog/63793-fix-wcag-metabox-delete-contrast
 woocommerce/changelog/fix-wc-update-10802-missing-orders-meta-table-check
 woocommerce/changelog/update-47865-orders-table-query-build
+woocommerce/changelog/update-blocks-e2e-core-cutover
+woocommerce/changelog/update-cart-checkout-slotfill-wp68
 woocommerce/changelog/update-pay-506-always-show-payment-radio
 woocommerce/changelog/update-products-control-ts
+woocommerce/changelog/update-rename-settings-ui-script-handle
 woocommerce/changelog/update-rename-visual-attribute-picker
+woocommerce/changelog/update-settings-ui-layout-width-spacing
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -177640,7 +177689,7 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
-wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
+wp-content/uploads/http://european-union.europa.eu/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments

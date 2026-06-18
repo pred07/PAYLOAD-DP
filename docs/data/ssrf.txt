@@ -6625,6 +6625,7 @@ arteryinternal
 article_action/internal.coffee
 article_internal.xml
 article_internal_bad.xml
+articles/gta-6-release-date-about-18-months-behind-original-target-take-two-boss-reveals-suggesting-spring-2025-was-once-the-goal-internally
 artifactory-docker-internal
 artifactory-internal
 artifactory.internal
@@ -15733,7 +15734,6 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
-http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -18959,6 +18959,7 @@ internal/admin/logging/filev2/searchlisttable.php
 internal/admin/logging/loghandlerfilev2.php
 internal/admin/logging/loghandlerfilev2test.php
 internal/admin/logging/pagecontroller.php
+internal/admin/logging/pagecontrollertest.php
 internal/admin/logging/settings.php
 internal/admin/logging/settingstest.php
 internal/admin/marketing.php
@@ -19124,6 +19125,7 @@ internal/admin/shippinglabelbanner.php
 internal/admin/shippinglabelbannerdisplayrules.php
 internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 internal/admin/sitehealth.php
+internal/admin/sitehealthtest.php
 internal/admin/suggestions/incentives/incentive.php
 internal/admin/suggestions/incentives/incentivetest.php
 internal/admin/suggestions/incentives/woopayments.php
@@ -19373,6 +19375,8 @@ internal/caches/productcache.php
 internal/caches/productcachecontroller.php
 internal/caches/productcachecontrollertest.php
 internal/caches/productcachetest.php
+internal/caches/producttransientsdeferrer.php
+internal/caches/producttransientsdeferrertest.php
 internal/caches/productversionstringinvalidator.php
 internal/caches/productversionstringinvalidatortest.php
 internal/caches/taxrateversionstringinvalidator.php
@@ -20498,6 +20502,7 @@ internal/magento/framework/cache/test/unit/frontend/adapter/symfony/lowlevelfron
 internal/magento/framework/cache/test/unit/frontend/adapter/symfony/magentodatabaseadaptertest.php
 internal/magento/framework/cache/test/unit/frontend/adapter/symfonyadapters/filesystemtagadaptertest.php
 internal/magento/framework/cache/test/unit/frontend/adapter/symfonyadapters/generictagadaptertest.php
+internal/magento/framework/cache/test/unit/frontend/adapter/symfonyadapters/redistagadaptertest.php
 internal/magento/framework/cache/test/unit/frontend/adapter/zendtest.php
 internal/magento/framework/cache/test/unit/frontend/decorator/baretest.php
 internal/magento/framework/cache/test/unit/frontend/decorator/profilertest.php
@@ -20964,6 +20969,7 @@ internal/magento/framework/data/test/unit/form/element/obscuretest.php
 internal/magento/framework/data/test/unit/form/element/passwordtest.php
 internal/magento/framework/data/test/unit/form/element/radiotest.php
 internal/magento/framework/data/test/unit/form/element/resettest.php
+internal/magento/framework/data/test/unit/form/element/selecttest.php
 internal/magento/framework/data/test/unit/form/element/submittest.php
 internal/magento/framework/data/test/unit/form/element/textareatest.php
 internal/magento/framework/data/test/unit/form/element/texttest.php
@@ -21040,6 +21046,8 @@ internal/magento/framework/db/ddl/sequence.php
 internal/magento/framework/db/ddl/table.php
 internal/magento/framework/db/ddl/trigger.php
 internal/magento/framework/db/ddl/triggerfactory.php
+internal/magento/framework/db/deadlockrecoveryexecutor.php
+internal/magento/framework/db/deadlockrecoveryexecutorinterface.php
 internal/magento/framework/db/expressionconverter.php
 internal/magento/framework/db/fielddataconversionexception.php
 internal/magento/framework/db/fielddataconverter.php
@@ -21112,6 +21120,7 @@ internal/magento/framework/db/test/unit/db/logger/loggerproxytest.php
 internal/magento/framework/db/test/unit/db/statement/mysqltest.php
 internal/magento/framework/db/test/unit/ddl/sequencetest.php
 internal/magento/framework/db/test/unit/ddl/triggertest.php
+internal/magento/framework/db/test/unit/deadlockrecoveryexecutortest.php
 internal/magento/framework/db/test/unit/expressionconvertertest.php
 internal/magento/framework/db/test/unit/fielddataconverterfactorytest.php
 internal/magento/framework/db/test/unit/fielddataconvertertest.php
@@ -24389,6 +24398,7 @@ internal/restapi/routes/v4/refunds/collectionquery.php
 internal/restapi/routes/v4/refunds/controller.php
 internal/restapi/routes/v4/refunds/datautils.php
 internal/restapi/routes/v4/refunds/datautilstest.php
+internal/restapi/routes/v4/refunds/schema/refundpreviewschema.php
 internal/restapi/routes/v4/refunds/schema/refundschema.php
 internal/restapi/routes/v4/settings/account/controller.php
 internal/restapi/routes/v4/settings/account/schema/accountsettingsschema.php
@@ -24523,6 +24533,8 @@ internal/syscall/unix.initdone.
 internal/syscall/unix.randomtrap
 internal/syscall/unix.randomunsupported
 internal/system.json
+internal/tax/taxratedatastore.php
+internal/tax/taxratedatastoretest.php
 internal/telemetry/telemetrycontrollertest.php
 internal/terraform.json
 internal/test-config.json
@@ -30481,6 +30493,7 @@ lib/internal/magento/framework/cache/test/unit/frontend/adapter/symfony/lowlevel
 lib/internal/magento/framework/cache/test/unit/frontend/adapter/symfony/magentodatabaseadaptertest.php
 lib/internal/magento/framework/cache/test/unit/frontend/adapter/symfonyadapters/filesystemtagadaptertest.php
 lib/internal/magento/framework/cache/test/unit/frontend/adapter/symfonyadapters/generictagadaptertest.php
+lib/internal/magento/framework/cache/test/unit/frontend/adapter/symfonyadapters/redistagadaptertest.php
 lib/internal/magento/framework/cache/test/unit/frontend/adapter/zendtest.php
 lib/internal/magento/framework/cache/test/unit/frontend/decorator/baretest.php
 lib/internal/magento/framework/cache/test/unit/frontend/decorator/profilertest.php
@@ -30947,6 +30960,7 @@ lib/internal/magento/framework/data/test/unit/form/element/obscuretest.php
 lib/internal/magento/framework/data/test/unit/form/element/passwordtest.php
 lib/internal/magento/framework/data/test/unit/form/element/radiotest.php
 lib/internal/magento/framework/data/test/unit/form/element/resettest.php
+lib/internal/magento/framework/data/test/unit/form/element/selecttest.php
 lib/internal/magento/framework/data/test/unit/form/element/submittest.php
 lib/internal/magento/framework/data/test/unit/form/element/textareatest.php
 lib/internal/magento/framework/data/test/unit/form/element/texttest.php
@@ -31023,6 +31037,8 @@ lib/internal/magento/framework/db/ddl/sequence.php
 lib/internal/magento/framework/db/ddl/table.php
 lib/internal/magento/framework/db/ddl/trigger.php
 lib/internal/magento/framework/db/ddl/triggerfactory.php
+lib/internal/magento/framework/db/deadlockrecoveryexecutor.php
+lib/internal/magento/framework/db/deadlockrecoveryexecutorinterface.php
 lib/internal/magento/framework/db/expressionconverter.php
 lib/internal/magento/framework/db/fielddataconversionexception.php
 lib/internal/magento/framework/db/fielddataconverter.php
@@ -31095,6 +31111,7 @@ lib/internal/magento/framework/db/test/unit/db/logger/loggerproxytest.php
 lib/internal/magento/framework/db/test/unit/db/statement/mysqltest.php
 lib/internal/magento/framework/db/test/unit/ddl/sequencetest.php
 lib/internal/magento/framework/db/test/unit/ddl/triggertest.php
+lib/internal/magento/framework/db/test/unit/deadlockrecoveryexecutortest.php
 lib/internal/magento/framework/db/test/unit/expressionconvertertest.php
 lib/internal/magento/framework/db/test/unit/fielddataconverterfactorytest.php
 lib/internal/magento/framework/db/test/unit/fielddataconvertertest.php
@@ -46420,6 +46437,7 @@ php/src/internal/admin/loadertest.php
 php/src/internal/admin/logging/filev2/filecontrollertest.php
 php/src/internal/admin/logging/filev2/filetest.php
 php/src/internal/admin/logging/loghandlerfilev2test.php
+php/src/internal/admin/logging/pagecontrollertest.php
 php/src/internal/admin/logging/settingstest.php
 php/src/internal/admin/marketingrecommendations/inittest.php
 php/src/internal/admin/notes/installjpandwcspluginstest.php
@@ -46457,6 +46475,7 @@ php/src/internal/admin/settings/settingsuipages/productssettingspageadaptertest.
 php/src/internal/admin/settings/settingsuischematest.php
 php/src/internal/admin/settings/utilstest.php
 php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
+php/src/internal/admin/sitehealthtest.php
 php/src/internal/admin/suggestions/incentives/incentivetest.php
 php/src/internal/admin/suggestions/incentives/woopaymentstest.php
 php/src/internal/admin/suggestions/mocks/fakeincentive.php
@@ -46601,6 +46620,7 @@ php/src/internal/batchprocessing/batchprocessingcontrollertests.php
 php/src/internal/caches/ordersversionstringinvalidatortest.php
 php/src/internal/caches/productcachecontrollertest.php
 php/src/internal/caches/productcachetest.php
+php/src/internal/caches/producttransientsdeferrertest.php
 php/src/internal/caches/productversionstringinvalidatortest.php
 php/src/internal/caches/taxrateversionstringinvalidatortest.php
 php/src/internal/caches/versionstringgeneratortest.php
@@ -46791,6 +46811,7 @@ php/src/internal/stocknotifications/stocksynccontrollertests.php
 php/src/internal/stocknotifications/utilities/eligibilityservicetests.php
 php/src/internal/stocknotifications/utilities/stockmanagementhelpertests.php
 php/src/internal/stocknotifications/utilities/utmhelpertests.php
+php/src/internal/tax/taxratedatastoretest.php
 php/src/internal/telemetry/telemetrycontrollertest.php
 php/src/internal/traits/restapicachetest.php
 php/src/internal/transientfiles/transientfilesenginetest.php
@@ -47998,6 +48019,7 @@ plugins/woocommerce/src/internal/brands.php
 plugins/woocommerce/src/internal/caches/ordersversionstringinvalidator.php
 plugins/woocommerce/src/internal/caches/productcache.php
 plugins/woocommerce/src/internal/caches/productcachecontroller.php
+plugins/woocommerce/src/internal/caches/producttransientsdeferrer.php
 plugins/woocommerce/src/internal/caches/productversionstringinvalidator.php
 plugins/woocommerce/src/internal/caches/taxrateversionstringinvalidator.php
 plugins/woocommerce/src/internal/caches/versionstringgenerator.php
@@ -48231,6 +48253,7 @@ plugins/woocommerce/src/internal/restapi/routes/v4/products/readme.md
 plugins/woocommerce/src/internal/restapi/routes/v4/refunds/collectionquery.php
 plugins/woocommerce/src/internal/restapi/routes/v4/refunds/controller.php
 plugins/woocommerce/src/internal/restapi/routes/v4/refunds/datautils.php
+plugins/woocommerce/src/internal/restapi/routes/v4/refunds/schema/refundpreviewschema.php
 plugins/woocommerce/src/internal/restapi/routes/v4/refunds/schema/refundschema.php
 plugins/woocommerce/src/internal/restapi/routes/v4/settings/account/controller.php
 plugins/woocommerce/src/internal/restapi/routes/v4/settings/account/schema/accountsettingsschema.php
@@ -48309,6 +48332,7 @@ plugins/woocommerce/src/internal/stocknotifications/utilities/eligibilityservice
 plugins/woocommerce/src/internal/stocknotifications/utilities/hasherhelper.php
 plugins/woocommerce/src/internal/stocknotifications/utilities/stockmanagementhelper.php
 plugins/woocommerce/src/internal/stocknotifications/utilities/utmhelper.php
+plugins/woocommerce/src/internal/tax/taxratedatastore.php
 plugins/woocommerce/src/internal/traits/accessibleprivatemethods.php
 plugins/woocommerce/src/internal/traits/orderattributionmeta.php
 plugins/woocommerce/src/internal/traits/restapicache.php
@@ -48352,6 +48376,7 @@ plugins/woocommerce/tests/php/src/internal/admin/loadertest.php
 plugins/woocommerce/tests/php/src/internal/admin/logging/filev2/filecontrollertest.php
 plugins/woocommerce/tests/php/src/internal/admin/logging/filev2/filetest.php
 plugins/woocommerce/tests/php/src/internal/admin/logging/loghandlerfilev2test.php
+plugins/woocommerce/tests/php/src/internal/admin/logging/pagecontrollertest.php
 plugins/woocommerce/tests/php/src/internal/admin/logging/settingstest.php
 plugins/woocommerce/tests/php/src/internal/admin/marketingrecommendations/inittest.php
 plugins/woocommerce/tests/php/src/internal/admin/notes/installjpandwcspluginstest.php
@@ -48389,6 +48414,7 @@ plugins/woocommerce/tests/php/src/internal/admin/settings/settingsuipages/produc
 plugins/woocommerce/tests/php/src/internal/admin/settings/settingsuischematest.php
 plugins/woocommerce/tests/php/src/internal/admin/settings/utilstest.php
 plugins/woocommerce/tests/php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
+plugins/woocommerce/tests/php/src/internal/admin/sitehealthtest.php
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/incentives/incentivetest.php
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/incentives/woopaymentstest.php
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/mocks/fakeincentive.php
@@ -48533,6 +48559,7 @@ plugins/woocommerce/tests/php/src/internal/batchprocessing/batchprocessingcontro
 plugins/woocommerce/tests/php/src/internal/caches/ordersversionstringinvalidatortest.php
 plugins/woocommerce/tests/php/src/internal/caches/productcachecontrollertest.php
 plugins/woocommerce/tests/php/src/internal/caches/productcachetest.php
+plugins/woocommerce/tests/php/src/internal/caches/producttransientsdeferrertest.php
 plugins/woocommerce/tests/php/src/internal/caches/productversionstringinvalidatortest.php
 plugins/woocommerce/tests/php/src/internal/caches/taxrateversionstringinvalidatortest.php
 plugins/woocommerce/tests/php/src/internal/caches/versionstringgeneratortest.php
@@ -48722,6 +48749,7 @@ plugins/woocommerce/tests/php/src/internal/stocknotifications/stocksynccontrolle
 plugins/woocommerce/tests/php/src/internal/stocknotifications/utilities/eligibilityservicetests.php
 plugins/woocommerce/tests/php/src/internal/stocknotifications/utilities/stockmanagementhelpertests.php
 plugins/woocommerce/tests/php/src/internal/stocknotifications/utilities/utmhelpertests.php
+plugins/woocommerce/tests/php/src/internal/tax/taxratedatastoretest.php
 plugins/woocommerce/tests/php/src/internal/telemetry/telemetrycontrollertest.php
 plugins/woocommerce/tests/php/src/internal/traits/restapicachetest.php
 plugins/woocommerce/tests/php/src/internal/transientfiles/transientfilesenginetest.php
@@ -48915,6 +48943,7 @@ preferencesinternal-cache-data-proxy-vpn
 preferencesinternalgateway
 premise/front/getpingdata?url=http://0.0.0.0:9600/sm/api/v1/firewall/zone/services?zone=;/usr/bin/id;
 premista-internal
+premium/http://s3.amazonaws.com/robots.txt
 prepareinternalpurchaseorder
 prepopulatesql_applicationinformation_dc_localhost443.sql
 prepopulatesql_applicationinformation_dc_localhost8080.sql
@@ -50726,6 +50755,7 @@ sisinternal
 sit-internal
 sit-internal-curity
 sit.internal.community.nw.ops
+site-assets/internal/
 site-job-runner.production.general-01.us-central1.internal.k8s
 site-localhost-20120724-180633.zip
 site-localhost-20120904-004253.zip
@@ -51809,6 +51839,7 @@ src/internal/admin/logging/filev2/searchlisttable.php
 src/internal/admin/logging/loghandlerfilev2.php
 src/internal/admin/logging/loghandlerfilev2test.php
 src/internal/admin/logging/pagecontroller.php
+src/internal/admin/logging/pagecontrollertest.php
 src/internal/admin/logging/settings.php
 src/internal/admin/logging/settingstest.php
 src/internal/admin/marketing.php
@@ -51974,6 +52005,7 @@ src/internal/admin/shippinglabelbanner.php
 src/internal/admin/shippinglabelbannerdisplayrules.php
 src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 src/internal/admin/sitehealth.php
+src/internal/admin/sitehealthtest.php
 src/internal/admin/suggestions/incentives/incentive.php
 src/internal/admin/suggestions/incentives/incentivetest.php
 src/internal/admin/suggestions/incentives/woopayments.php
@@ -52209,6 +52241,8 @@ src/internal/caches/productcache.php
 src/internal/caches/productcachecontroller.php
 src/internal/caches/productcachecontrollertest.php
 src/internal/caches/productcachetest.php
+src/internal/caches/producttransientsdeferrer.php
+src/internal/caches/producttransientsdeferrertest.php
 src/internal/caches/productversionstringinvalidator.php
 src/internal/caches/productversionstringinvalidatortest.php
 src/internal/caches/taxrateversionstringinvalidator.php
@@ -52616,6 +52650,7 @@ src/internal/restapi/routes/v4/refunds/collectionquery.php
 src/internal/restapi/routes/v4/refunds/controller.php
 src/internal/restapi/routes/v4/refunds/datautils.php
 src/internal/restapi/routes/v4/refunds/datautilstest.php
+src/internal/restapi/routes/v4/refunds/schema/refundpreviewschema.php
 src/internal/restapi/routes/v4/refunds/schema/refundschema.php
 src/internal/restapi/routes/v4/settings/account/controller.php
 src/internal/restapi/routes/v4/settings/account/schema/accountsettingsschema.php
@@ -52722,6 +52757,8 @@ src/internal/stocknotifications/utilities/stockmanagementhelper.php
 src/internal/stocknotifications/utilities/stockmanagementhelpertests.php
 src/internal/stocknotifications/utilities/utmhelper.php
 src/internal/stocknotifications/utilities/utmhelpertests.php
+src/internal/tax/taxratedatastore.php
+src/internal/tax/taxratedatastoretest.php
 src/internal/telemetry/telemetrycontrollertest.php
 src/internal/traits/accessibleprivatemethods.php
 src/internal/traits/orderattributionmeta.php
@@ -54370,6 +54407,7 @@ tests/php/src/internal/admin/loadertest.php
 tests/php/src/internal/admin/logging/filev2/filecontrollertest.php
 tests/php/src/internal/admin/logging/filev2/filetest.php
 tests/php/src/internal/admin/logging/loghandlerfilev2test.php
+tests/php/src/internal/admin/logging/pagecontrollertest.php
 tests/php/src/internal/admin/logging/settingstest.php
 tests/php/src/internal/admin/marketingrecommendations/inittest.php
 tests/php/src/internal/admin/notes/installjpandwcspluginstest.php
@@ -54407,6 +54445,7 @@ tests/php/src/internal/admin/settings/settingsuipages/productssettingspageadapte
 tests/php/src/internal/admin/settings/settingsuischematest.php
 tests/php/src/internal/admin/settings/utilstest.php
 tests/php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
+tests/php/src/internal/admin/sitehealthtest.php
 tests/php/src/internal/admin/suggestions/incentives/incentivetest.php
 tests/php/src/internal/admin/suggestions/incentives/woopaymentstest.php
 tests/php/src/internal/admin/suggestions/mocks/fakeincentive.php
@@ -54551,6 +54590,7 @@ tests/php/src/internal/batchprocessing/batchprocessingcontrollertests.php
 tests/php/src/internal/caches/ordersversionstringinvalidatortest.php
 tests/php/src/internal/caches/productcachecontrollertest.php
 tests/php/src/internal/caches/productcachetest.php
+tests/php/src/internal/caches/producttransientsdeferrertest.php
 tests/php/src/internal/caches/productversionstringinvalidatortest.php
 tests/php/src/internal/caches/taxrateversionstringinvalidatortest.php
 tests/php/src/internal/caches/versionstringgeneratortest.php
@@ -54741,6 +54781,7 @@ tests/php/src/internal/stocknotifications/stocksynccontrollertests.php
 tests/php/src/internal/stocknotifications/utilities/eligibilityservicetests.php
 tests/php/src/internal/stocknotifications/utilities/stockmanagementhelpertests.php
 tests/php/src/internal/stocknotifications/utilities/utmhelpertests.php
+tests/php/src/internal/tax/taxratedatastoretest.php
 tests/php/src/internal/telemetry/telemetrycontrollertest.php
 tests/php/src/internal/traits/restapicachetest.php
 tests/php/src/internal/transientfiles/transientfilesenginetest.php
@@ -57971,6 +58012,7 @@ woocommerce/src/internal/brands.php
 woocommerce/src/internal/caches/ordersversionstringinvalidator.php
 woocommerce/src/internal/caches/productcache.php
 woocommerce/src/internal/caches/productcachecontroller.php
+woocommerce/src/internal/caches/producttransientsdeferrer.php
 woocommerce/src/internal/caches/productversionstringinvalidator.php
 woocommerce/src/internal/caches/taxrateversionstringinvalidator.php
 woocommerce/src/internal/caches/versionstringgenerator.php
@@ -58211,6 +58253,7 @@ woocommerce/src/internal/restapi/routes/v4/products/readme.md
 woocommerce/src/internal/restapi/routes/v4/refunds/collectionquery.php
 woocommerce/src/internal/restapi/routes/v4/refunds/controller.php
 woocommerce/src/internal/restapi/routes/v4/refunds/datautils.php
+woocommerce/src/internal/restapi/routes/v4/refunds/schema/refundpreviewschema.php
 woocommerce/src/internal/restapi/routes/v4/refunds/schema/refundschema.php
 woocommerce/src/internal/restapi/routes/v4/settings/account/controller.php
 woocommerce/src/internal/restapi/routes/v4/settings/account/schema/accountsettingsschema.php
@@ -58289,6 +58332,7 @@ woocommerce/src/internal/stocknotifications/utilities/eligibilityservice.php
 woocommerce/src/internal/stocknotifications/utilities/hasherhelper.php
 woocommerce/src/internal/stocknotifications/utilities/stockmanagementhelper.php
 woocommerce/src/internal/stocknotifications/utilities/utmhelper.php
+woocommerce/src/internal/tax/taxratedatastore.php
 woocommerce/src/internal/traits/accessibleprivatemethods.php
 woocommerce/src/internal/traits/orderattributionmeta.php
 woocommerce/src/internal/traits/restapicache.php
@@ -58332,6 +58376,7 @@ woocommerce/tests/php/src/internal/admin/loadertest.php
 woocommerce/tests/php/src/internal/admin/logging/filev2/filecontrollertest.php
 woocommerce/tests/php/src/internal/admin/logging/filev2/filetest.php
 woocommerce/tests/php/src/internal/admin/logging/loghandlerfilev2test.php
+woocommerce/tests/php/src/internal/admin/logging/pagecontrollertest.php
 woocommerce/tests/php/src/internal/admin/logging/settingstest.php
 woocommerce/tests/php/src/internal/admin/marketingrecommendations/inittest.php
 woocommerce/tests/php/src/internal/admin/notes/installjpandwcspluginstest.php
@@ -58369,6 +58414,7 @@ woocommerce/tests/php/src/internal/admin/settings/settingsuipages/productssettin
 woocommerce/tests/php/src/internal/admin/settings/settingsuischematest.php
 woocommerce/tests/php/src/internal/admin/settings/utilstest.php
 woocommerce/tests/php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
+woocommerce/tests/php/src/internal/admin/sitehealthtest.php
 woocommerce/tests/php/src/internal/admin/suggestions/incentives/incentivetest.php
 woocommerce/tests/php/src/internal/admin/suggestions/incentives/woopaymentstest.php
 woocommerce/tests/php/src/internal/admin/suggestions/mocks/fakeincentive.php
@@ -58513,6 +58559,7 @@ woocommerce/tests/php/src/internal/batchprocessing/batchprocessingcontrollertest
 woocommerce/tests/php/src/internal/caches/ordersversionstringinvalidatortest.php
 woocommerce/tests/php/src/internal/caches/productcachecontrollertest.php
 woocommerce/tests/php/src/internal/caches/productcachetest.php
+woocommerce/tests/php/src/internal/caches/producttransientsdeferrertest.php
 woocommerce/tests/php/src/internal/caches/productversionstringinvalidatortest.php
 woocommerce/tests/php/src/internal/caches/taxrateversionstringinvalidatortest.php
 woocommerce/tests/php/src/internal/caches/versionstringgeneratortest.php
@@ -58703,6 +58750,7 @@ woocommerce/tests/php/src/internal/stocknotifications/stocksynccontrollertests.p
 woocommerce/tests/php/src/internal/stocknotifications/utilities/eligibilityservicetests.php
 woocommerce/tests/php/src/internal/stocknotifications/utilities/stockmanagementhelpertests.php
 woocommerce/tests/php/src/internal/stocknotifications/utilities/utmhelpertests.php
+woocommerce/tests/php/src/internal/tax/taxratedatastoretest.php
 woocommerce/tests/php/src/internal/telemetry/telemetrycontrollertest.php
 woocommerce/tests/php/src/internal/traits/restapicachetest.php
 woocommerce/tests/php/src/internal/transientfiles/transientfilesenginetest.php
@@ -59238,8 +59286,8 @@ zend_tool_project-internals.xml
 zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
+zh/internalhttp://diyphotography.net/robots.txt
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://gazzetta.it/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php

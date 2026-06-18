@@ -2628,6 +2628,7 @@ app/code/magento/customergraphql/etc/graphql/di.xml
 app/code/magento/customergraphql/etc/graphql/events.xml
 app/code/magento/customergraphql/etc/module.xml
 app/code/magento/customergraphql/etc/schema.graphqls
+app/code/magento/customergraphql/i18n/en_us.csv
 app/code/magento/customergraphql/model/context/addcustomergrouptocontext.php
 app/code/magento/customergraphql/model/context/adduserinfotocontext.php
 app/code/magento/customergraphql/model/customer/address/createcustomeraddress.php
@@ -6010,6 +6011,7 @@ code/magento/customergraphql/etc/graphql/di.xml
 code/magento/customergraphql/etc/graphql/events.xml
 code/magento/customergraphql/etc/module.xml
 code/magento/customergraphql/etc/schema.graphqls
+code/magento/customergraphql/i18n/en_us.csv
 code/magento/customergraphql/model/context/addcustomergrouptocontext.php
 code/magento/customergraphql/model/context/adduserinfotocontext.php
 code/magento/customergraphql/model/customer/address/createcustomeraddress.php
@@ -7166,6 +7168,7 @@ customergraphql/etc/graphql/di.xml
 customergraphql/etc/graphql/events.xml
 customergraphql/etc/module.xml
 customergraphql/etc/schema.graphqls
+customergraphql/i18n/en_us.csv
 customergraphql/model/context/addcustomergrouptocontext.php
 customergraphql/model/context/adduserinfotocontext.php
 customergraphql/model/context/adduserinfotocontexttest.php
@@ -15851,6 +15854,7 @@ magento/customergraphql/etc/graphql/di.xml
 magento/customergraphql/etc/graphql/events.xml
 magento/customergraphql/etc/module.xml
 magento/customergraphql/etc/schema.graphqls
+magento/customergraphql/i18n/en_us.csv
 magento/customergraphql/model/context/addcustomergrouptocontext.php
 magento/customergraphql/model/context/adduserinfotocontext.php
 magento/customergraphql/model/context/adduserinfotocontexttest.php
@@ -17649,6 +17653,7 @@ native_client_sdk/doc_generated/pepper_stable/c/group___typedefs.html
 nebenstellengraphql1view
 net::dbus::binding::introspector - handler for object introspection data
 newsgraphql1view
+newsletter/$http://graphql.org/robots.txt
 newslettergraphql/composer.json
 newslettergraphql/etc/di.xml
 newslettergraphql/etc/graphql/di.xml
