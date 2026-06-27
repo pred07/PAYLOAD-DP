@@ -159954,14 +159954,12 @@ union cord
 union county
 union county adult high school
 union county alternative center
-union county area vocational ed center
 union county career & technical institute
 union county career and technology center
 union county early college
 union county elementary school
 union county high
 union county high school
-union county learning academy
 union county magnet high school
 union county middle school
 union county primary school

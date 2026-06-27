@@ -2695,13 +2695,9 @@ $wp-plugins$/wordpress-thumbnail-slider/timthumb.php
 /oldsite/wp-includes/wlwmanifest.xml
 /opt/bitnami/apps/wordpress/bnconfig
 /opt/bitnami/apps/wordpress/conf/banner.conf
-/opt/bitnami/apps/wordpress/conf/certs/server.crt
-/opt/bitnami/apps/wordpress/conf/certs/server.key
 /opt/bitnami/apps/wordpress/conf/htaccess.conf
 /opt/bitnami/apps/wordpress/conf/httpd-app.conf
 /opt/bitnami/apps/wordpress/conf/httpd-vhosts.conf
-/opt/bitnami/apps/wordpress/conf/php-fpm/php-settings.conf
-/opt/bitnami/apps/wordpress/conf/php-fpm/pool.conf
 /opt/bitnami/mysql/data/bitnami_wordpress/wp_users.ibd
 /opt/bitnami/use_wordpress
 /opt/bitnami/wordpress/wordpress-htaccess.conf
