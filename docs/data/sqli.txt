@@ -7635,6 +7635,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 ._workout_select.xml
 .bhmvop .segmentedcontrol-text:after{content:"blame";display:block;font-weight:600;height:0;overflow:hidden;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;visibility:hidden;}/*!sc*/
 .changeset/drop-field-path.md
+.changeset/mcp-files-update-data-schema.md
 .chatadmin/update.asp
 .creditunion
 .dbgjoi .segmentedcontrol-text:after{content:"code";display:block;font-weight:600;height:0;overflow:hidden;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;visibility:hidden;}/*!sc*/
@@ -43129,6 +43130,8 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 2026-04-08-13-05-35-drop-automated-emails-table.js
 2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
+2026-06-23-00-00-00-drop-gift-links-revoked-at.js
+2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 2026_04_09_120000_change_tax_category_id_fk_on_cart_items_to_null_on_delete.php
 2026_04_09_120100_change_tax_category_id_fk_on_order_items_to_null_on_delete.php
 203-rhnactionerrataupdate-indexes.sql
@@ -43858,9 +43861,12 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 6.28/2026-04-08-13-05-35-drop-automated-emails-table.js
 6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
+6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
+6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 60fps_select.xml
 61-update-reviews.sql
 61753-fix-support-composer-update
+61900-update-offline-payment-forms-dataform
 620union
 6228__create_proc_koski_sa_p_lataa_ytr_update.sql
 62insert
@@ -43870,6 +43876,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 63793-fix-wcag-metabox-delete-contrast
 64disallow/rsvp-update-response
 65-update-article-detail-layout.sql
+65385-update-algeria-provinces
 658577-update-addons.sql
 65dewdrop
 664-update-publisher-group-rules.sql
@@ -52690,6 +52697,7 @@ _meiew/friendlink_update.htm
 _meiew/user_update.htm
 _menuitemcreateorupdate.cshtml
 _modal_generic_confirm_delete.coffee
+_multi-select.scss
 _newselect
 _offeringunion
 _pgfunc_delete.sql
@@ -54921,7 +54929,6 @@ admin/db_update.php
 admin/dbupdate.asp
 admin/deepsoonarticleupdate.aspx
 admin/deepsoontreeupdate.aspx
-admin/default/build/assets/drag-and-drop.es-cbcm7iha.js
 admin/default/build/assets/drag-and-drop.es-jkadgoaa.js
 admin/default/game_delete.php
 admin/delete
@@ -55233,6 +55240,8 @@ admin/src/hooks/usedraganddrop.ts
 admin/src/hooks/useforceupdate.ts
 admin/src/hooks/usekeyboarddraganddrop.ts
 admin/src/pages/settings/components/tokens/tokentypeselect.tsx
+admin/src/resources/views/components/form/control-group/advance/multiselect.blade.php
+admin/src/resources/views/components/form/control-group/advance/select.blade.php
 admin/src/resources/views/emails/customers/gdpr/status-update-notification.blade.php
 admin/src/routes/content-manager/model/id/components/assigneeselect.tsx
 admin/src/routes/content-manager/model/id/components/stageselect.tsx
@@ -56145,6 +56154,7 @@ administration/resources/app/administration/src/app/component/form/select/entity
 administration/resources/app/administration/src/app/component/form/select/entity/sw-entity-tag-select/index.js
 administration/resources/app/administration/src/app/component/form/sw-select-field-deprecated/index.js
 administration/resources/app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+administration/resources/app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 administration/resources/app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field.scss
 administration/resources/app/administration/src/app/component/form/sw-select-field/index.ts
 administration/resources/app/administration/src/app/component/form/sw-select-field/sw-select-field.html.twig
@@ -56314,6 +56324,7 @@ administration/src/app/component/form/select/entity/sw-entity-single-select/sw-e
 administration/src/app/component/form/select/entity/sw-entity-tag-select/index.js
 administration/src/app/component/form/sw-select-field-deprecated/index.js
 administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 administration/src/app/component/form/sw-select-field-deprecated/sw-select-field.scss
 administration/src/app/component/form/sw-select-field/index.ts
 administration/src/app/component/form/sw-select-field/sw-select-field.html.twig
@@ -57155,6 +57166,8 @@ adumbrate,allude to,argue,augur,auspicate,becloud,bedim,bespeak,betoken,block ou
 adupdate
 aduser/aduser_select.asp
 advalter
+advance/multiselect.blade.php
+advance/select.blade.php
 advanced-auto-update-disable-tlc
 advanced-custom-field-select-form.xml
 advanced-custom-fields/core/fields/select.php
@@ -61396,6 +61409,7 @@ anstalter
 anstempl.delete
 answercreateandupdate
 answerdelete
+answers/*/delete
 answerupdate
 ant-update-plugin-xml.xml
 antagonism,abhorrence,abomination,aggression,aggressiveness,allergy,animosity,animus,annulling,antipathy,antithesis,argumentation,aversion,backlash,bad blood,bellicism,bellicosity,belligerence,belligerency,chauvinism,clash,clashing,cold sweat,collision,combativeness,competition,con,conflict,confrontation,confutation,contention,contentiousness,contradiction,contradistinction,contraindication,contraposition,contrariety,contrariness,contrast,controversy,counteraction,counterposition,counterworking,crankiness,creeping flesh,cross-purposes,crotchetiness,despitefulness,difference,disaccord,disaccordance,disagreement,discord,discordance,discordancy,discrepancy,disgust,disharmony,disparity,dissension,dissent,dissidence,dissonance,disunion,disunity,divergence,diversity,enmity,faction,ferocity,fierceness,fight,fractiousness,friction,hate,hatred,horror,hostility,inaccordance,incongruity,inconsistency,inequality,inimicalness,interference,jarring,jingoism,kick,loathing,malevolence,malice,malignity,martialism,militancy,militarism,mortal horror,nausea,negation,negativeness,nonconformity,noncooperation,nullification,obstinacy,oppositeness,opposition,opposure,oppugnance,oppugnancy,perverseness,perversity,polarity,pugnaciousness,pugnacity,quarrelsomeness,rancor,reaction,recalcitrance,recoil,refractoriness,renitency,repercussion,repugnance,repulsion,resistance,revolt,rivalry,saber rattling,showdown,shuddering,spite,spitefulness,strife,swimming upstream,truculence,uncooperativeness,unfriendliness,unharmoniousness,unpeacefulness,variance,vying,warmongering,warpath,withstanding
@@ -62188,6 +62202,7 @@ app/administration/src/app/component/form/select/entity/sw-entity-single-select/
 app/administration/src/app/component/form/select/entity/sw-entity-tag-select/index.js
 app/administration/src/app/component/form/sw-select-field-deprecated/index.js
 app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field.scss
 app/administration/src/app/component/form/sw-select-field/index.ts
 app/administration/src/app/component/form/sw-select-field/sw-select-field.html.twig
@@ -62321,7 +62336,7 @@ app/bower_components/iron-overlay-behavior/iron-overlay-backdrop.html
 app/bower_components/modernizr/feature-detects/css-userselect.js
 app/bower_components/modernizr/test/js/lib/jsonselect.js
 app/bundles/campaignbundle/assets/js/campaign-event-delete-modal.js
-app/bundles/corebundle/assets/css/libraries/multiselect/multi-select.less
+app/bundles/corebundle/assets/css/libraries/multiselect/_multi-select.scss
 app/bundles/corebundle/helper/update/exception/couldnotfetchlatestversionexception.php
 app/bundles/corebundle/helper/update/exception/latestversionsupportedexception.php
 app/bundles/corebundle/helper/update/exception/metadatanotfoundexception.php
@@ -62708,6 +62723,7 @@ app/component/form/select/entity/sw-entity-single-select/sw-entity-single-select
 app/component/form/select/entity/sw-entity-tag-select/index.js
 app/component/form/sw-select-field-deprecated/index.js
 app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 app/component/form/sw-select-field-deprecated/sw-select-field.scss
 app/component/form/sw-select-field/index.ts
 app/component/form/sw-select-field/sw-select-field.html.twig
@@ -63371,6 +63387,7 @@ app/views/generic/searchable_select.jst.eco
 app/views/generic/select.jst.eco
 app/views/leads/update.js.haml
 app/views/mailer/ticket_update/cs.html.erb
+app/views/mailer/ticket_update/da.html.erb
 app/views/mailer/ticket_update/de.html.erb
 app/views/mailer/ticket_update/en.html.erb
 app/views/mailer/ticket_update/es.html.erb
@@ -66408,12 +66425,12 @@ assets/ckeditor/plugins/forms/dialogs/select.js
 assets/cp/src/css/_entry-type-select.scss
 assets/cp/src/css/_grouped-entry-type-select.scss
 assets/cp/src/js/sortablecheckboxselect.js
+assets/css/libraries/multiselect/_multi-select.scss
 assets/css/libraries/multiselect/multi-select.less
 assets/delete-column.svg
 assets/delete-row.svg
 assets/delete-table.svg
 assets/delete.svg
-assets/drag-and-drop.es-cbcm7iha.js
 assets/drag-and-drop.es-jkadgoaa.js
 assets/foundation/controls/select/readme.md
 assets/foundation/controls/select/select.base.less
@@ -68767,6 +68784,7 @@ bimetallschalter
 bimmer-navigation-update-racing
 bin/apexec.pl
 bin/autoupdate.exe
+bin/build-test-update.php
 bin/exec-with-env
 bin/package-update-textdomain.js
 bin/php/ezexec.php
@@ -70465,6 +70483,7 @@ build-num-update.exe
 build-sun-update-packages.xml
 build-sun-update-production-image.xml
 build-system/exec.js
+build-test-update.php
 build-update-war.xml
 build-update.xml
 build-with-exec-steps.xml
@@ -70475,7 +70494,6 @@ build.exec.fs
 build.exec.fsproj
 build.in.update.xml
 build/assets/basemultiselect.2950bd7a.js
-build/assets/drag-and-drop.es-cbcm7iha.js
 build/assets/drag-and-drop.es-jkadgoaa.js
 build/blog/pages/blogdelete.page.php
 build/blog/templates/delete.php
@@ -70812,6 +70830,7 @@ bundler::cli::exec
 bundler::cli::update
 bundles/campaignbundle/assets/js/campaign-event-delete-modal.js
 bundles/core/org.eclipse.smarthome.core.autoupdate/about.html
+bundles/corebundle/assets/css/libraries/multiselect/_multi-select.scss
 bundles/corebundle/assets/css/libraries/multiselect/multi-select.less
 bundles/corebundle/helper/update/exception/couldnotfetchlatestversionexception.php
 bundles/corebundle/helper/update/exception/latestversionsupportedexception.php
@@ -72382,7 +72401,9 @@ changelog/57219-update-remove-zip-feature-from-blueprint
 changelog/57935-update-blueprint-docs
 changelog/58792-update-blueprint-doc-exporter-ui
 changelog/61753-fix-support-composer-update
+changelog/61900-update-offline-payment-forms-dataform
 changelog/63793-fix-wcag-metabox-delete-contrast
+changelog/65385-update-algeria-provinces
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
 changelog/add-tree-select-control
@@ -72392,6 +72413,7 @@ changelog/fix-beta-tester-delete-option-error
 changelog/fix-product-editor-images-drop-error
 changelog/fix-rsm-3550-stock-multiselect
 changelog/fix-wc-update-10802-missing-orders-meta-table-check
+changelog/hpos-orders-status-union-rewrite
 changelog/release-6-3-1-1/2020-09-04-symfony-update-4.4.11.md
 changelog/release-6-3-2-0/2020-09-07-consider-admin-order-for-stock-update.md
 changelog/release-6-3-2-0/2020-09-11-update-jest-and-vue-test-utils.md
@@ -72710,12 +72732,14 @@ changelog/release-6-7-3-0/2025-09-08-fix-missing-promotion-rule-select.md
 changelog/release-6-7-4-0/2025-10-15-update-health-check-api.md
 changelog/release-6-7-4-0/2025-10-23-fix-google-consent-mode-v2-default-update.md
 changelog/task-update-eslint-config
+changelog/testops-189-product-reviews-delete-flake
 changelog/tweak-products-app-delete-modal-no-quotes
 changelog/tweak-searchable-chip-select-spacing
 changelog/tweak-select-tree-2
 changelog/update-47865-orders-table-query-build
 changelog/update-59804
 changelog/update-abrev-global-unique-id
+changelog/update-action-scheduler-via-automation
 changelog/update-always-show-sale-price
 changelog/update-blocks-e2e-core-cutover
 changelog/update-blueprint-require-permission-exporters-api
@@ -72723,9 +72747,12 @@ changelog/update-branding-updates-to-woocommerce
 changelog/update-cart-checkout-slotfill-wp68
 changelog/update-categories-remove-description
 changelog/update-create-shipping-classes-optimistically
+changelog/update-cssmin-clean-css-5
 changelog/update-dataviews_package
 changelog/update-dimensions-row-layout
+changelog/update-e2e-core-serial-parallel-projects
 changelog/update-e2e-product-editor-create-simple-product
+changelog/update-email-verification-magic-link
 changelog/update-export-product-edits
 changelog/update-featured-product-checkbox
 changelog/update-fix-performance-issues-in-attributes-modal
@@ -72766,6 +72793,7 @@ changelog/update-product-editor-tweak-attributes-layout
 changelog/update-product-editor-tweak-form-fields-gap
 changelog/update-product-editor-use-token-field-for-terms
 changelog/update-product-editor-validate-term-tokens
+changelog/update-product-filter-status-availability
 changelog/update-product-list-header-layout
 changelog/update-product-status-and-catalog-visibility-dropdowns
 changelog/update-product_editor_naming
@@ -72788,11 +72816,11 @@ changelog/update-remove-tags-helper-text
 changelog/update-remove-type-from-quick-edit
 changelog/update-rename-settings-ui-entry
 changelog/update-rename-settings-ui-package
-changelog/update-rename-settings-ui-script-handle
 changelog/update-rename-visual-attribute-picker
 changelog/update-replace-with-combobox
 changelog/update-sale-schedule-fields
 changelog/update-schedule-sale-control
+changelog/update-section-scope-semantics
 changelog/update-select-all-variations-action
 changelog/update-select-fields-use-ui-primitive
 changelog/update-separate-php-and-js-tests
@@ -72800,15 +72828,18 @@ changelog/update-settings-edits
 changelog/update-settings-payments-type-for-onboarding-supported
 changelog/update-settings-return-to-wc-home
 changelog/update-settings-router-calypso-package
-changelog/update-settings-ui-layout-width-spacing
 changelog/update-sku-remove-description
 changelog/update-status-options-and-labels
 changelog/update-stock-column-badge
 changelog/update-storybook_documentation
 changelog/update-stricter-global-unique-id
+changelog/update-swatches-improvements
 changelog/update-switch-version-button-location
 changelog/update-taxonomy-fields-chip-select
+changelog/update-tell-agents-not-to-write-jquery
 changelog/update-woopayments-methods-logos-component
+changelog/update-woosubs-engine-make-phpstan-ci-required
+changelog/update-wordpress-package-catalog-wp-6-9
 changelog/update-wp-68-packages
 changemainupdate
 changemodifiedupdate
@@ -76020,6 +76051,7 @@ component/form/select/entity/sw-entity-single-select/sw-entity-single-select.spe
 component/form/select/entity/sw-entity-tag-select/index.js
 component/form/sw-select-field-deprecated/index.js
 component/form/sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+component/form/sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 component/form/sw-select-field-deprecated/sw-select-field.scss
 component/form/sw-select-field/index.ts
 component/form/sw-select-field/sw-select-field.html.twig
@@ -76312,6 +76344,8 @@ components/editor/modals/update-snippet.hbs
 components/editor/modals/update-snippet.js
 components/field-select-menu.vue
 components/fieldselect.vue
+components/form/control-group/advance/multiselect.blade.php
+components/form/control-group/advance/select.blade.php
 components/form/fields/fieldselect/__tests__/fieldselect.spec.ts
 components/form/fields/fieldselect/fieldselectinput.vue
 components/form/fields/fieldselect/index.ts
@@ -77488,6 +77522,8 @@ control sheet update.xlsx
 control-alt-delete.conf
 control-alt-delete.conf.init
 control-delete
+control-group/advance/multiselect.blade.php
+control-group/advance/select.blade.php
 control-update
 control/admin_app_prom_union.php
 control/categories_select.php
@@ -78047,6 +78083,8 @@ core/core/server/data/migrations/versions/6.27/2026-04-07-15-10-32-update-automa
 core/core/server/data/migrations/versions/6.28/2026-04-08-13-05-35-drop-automated-emails-table.js
 core/core/server/data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 core/core/server/data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
+core/core/server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
+core/core/server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 core/core/server/run-update-check.js
 core/core/server/services/email-analytics/jobs/update-member-email-analytics/index.js
 core/core/server/services/members/emails/update-email.js
@@ -78117,10 +78155,6 @@ core/framework/app/lifecycle/update/appupdater.php
 core/framework/app/lifecycle/update/defaultappupdatertest.php
 core/framework/app/manifest/_fixtures/test/resources/scripts/app-deleted/delete-script.twig
 core/framework/app/manifest/_fixtures/test/resources/scripts/app-updated/update-script.twig
-core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/multi-entity-select-field.xml
-core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/multi-select-field.xml
-core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/single-entity-select-field.xml
-core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/single-select-field.xml
 core/framework/dataabstractionlayer/attribute/ondelete.php
 core/framework/dataabstractionlayer/facade/_fixtures/apps/pageloadedexample/resources/scripts/writer-delete/script.twig
 core/framework/dataabstractionlayer/facade/_fixtures/apps/pageloadedexample/resources/scripts/writer-update/script.twig
@@ -78163,6 +78197,7 @@ core/framework/update/services/apiclienttest.php
 core/framework/update/services/extensioncompatibility.php
 core/framework/update/services/extensioncompatibilitytest.php
 core/framework/update/services/filesystem.php
+core/framework/update/services/filesystemtest.php
 core/framework/update/services/updatehtaccess.php
 core/framework/update/services/updatehtaccesstest.php
 core/framework/update/steps/deactivateextensionsstep.php
@@ -79588,6 +79623,8 @@ core/server/data/migrations/versions/6.27/2026-04-07-15-10-32-update-automated-e
 core/server/data/migrations/versions/6.28/2026-04-08-13-05-35-drop-automated-emails-table.js
 core/server/data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 core/server/data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
+core/server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
+core/server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 core/server/run-update-check.js
 core/server/services/email-analytics/jobs/update-member-email-analytics/index.js
 core/server/services/members/emails/update-email.js
@@ -79676,6 +79713,10 @@ core/strapi/src/cli/commands/admin/delete-user.ts
 core/system/customentity/_fixtures/custom-entity-test/resources/update.xml
 core/system/customentity/_fixtures/without-restrict-delete/manifest.xml
 core/system/customentity/_fixtures/without-restrict-delete/resources/entities.xml
+core/system/customfield/xml/customfieldtypes/_fixtures/multi-entity-select-field.xml
+core/system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
+core/system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
+core/system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
 core/templates/layouts/categorytree/massupdate.json
 core/templates/update.admin.php
 core/templates/update.use-cli.php
@@ -79797,6 +79838,7 @@ core_fake/src/driver/database/corefakewithallcustomclasses/update.php
 core_update.sql
 core_workflow/result/auto_select.rb
 core_workflow/result/select.rb
+corebundle/assets/css/libraries/multiselect/_multi-select.scss
 corebundle/assets/css/libraries/multiselect/multi-select.less
 corebundle/helper/update/exception/couldnotfetchlatestversionexception.php
 corebundle/helper/update/exception/latestversionsupportedexception.php
@@ -80741,6 +80783,7 @@ css-userselect.js
 css.union
 css/_entry-type-select.scss
 css/_grouped-entry-type-select.scss
+css/libraries/multiselect/_multi-select.scss
 css/libraries/multiselect/multi-select.less
 css/source/actions/_actions-multiselect.less
 css/source/actions/_actions-select.less
@@ -81133,6 +81176,10 @@ customfield/customfieldtypes/_fixtures/multi-entity-select-field.xml
 customfield/customfieldtypes/_fixtures/multi-select-field.xml
 customfield/customfieldtypes/_fixtures/single-entity-select-field.xml
 customfield/customfieldtypes/_fixtures/single-select-field.xml
+customfield/xml/customfieldtypes/_fixtures/multi-entity-select-field.xml
+customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
+customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
+customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
 customfielddelete
 customfieldschemadelete
 customfieldschemaupdate
@@ -81592,6 +81639,8 @@ data/migrations/versions/6.27/2026-04-07-15-10-32-update-automated-email-recipie
 data/migrations/versions/6.28/2026-04-08-13-05-35-drop-automated-emails-table.js
 data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
+data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
+data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 data/multiselect.php
 data/query?q=select+idsubjectstartdatetimeenddatetime+from+event
 data/resource/js/jquery.imgareaselect
@@ -82985,7 +83034,6 @@ default-update-uid
 default-update-uuid
 default.tck.exec.properties
 default/ads/comment/smile_select.html
-default/build/assets/drag-and-drop.es-cbcm7iha.js
 default/build/assets/drag-and-drop.es-jkadgoaa.js
 default/category/insert.html
 default/context/update.class.php
@@ -89555,7 +89603,6 @@ drag-and-drop-multiple-file-upload-for-woocommerce
 drag-and-drop-oplossing
 drag-and-drop-upload
 drag-and-drop-voting
-drag-and-drop.es-cbcm7iha.js
 drag-and-drop.es-jkadgoaa.js
 drag-and-drop.html
 drag-and-drop.js
@@ -91124,25 +91171,27 @@ e107_admin/sql/db_update/index.html
 e107_update.php
 e2 tpc update.xls
 e2e-pw/data/shared/batch-update.js
-e2e-pw/data/shared/batch-update.ts
-e2e-pw/test-plugins/blocks/extension-cart-update.php
-e2e-pw/test-plugins/blocks/update-price.php
-e2e-pw/tests/email-editor/update-propagation/backward-compat.spec.ts
-e2e-pw/tests/email-editor/update-propagation/core-flows.spec.ts
-e2e-pw/tests/email-editor/update-propagation/helpers/classifications.ts
-e2e-pw/tests/email-editor/update-propagation/helpers/leaked-state-checks.ts
-e2e-pw/tests/email-editor/update-propagation/helpers/seed-woo-email.ts
-e2e-pw/tests/email-editor/update-propagation/helpers/simulate-plugin-update.ts
-e2e-pw/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
-e2e-pw/tests/email-editor/update-propagation/helpers/tracks-spy.ts
-e2e-pw/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
-e2e-pw/tests/email-editor/update-propagation/scope.spec.ts
 e2e-pw/tests/product/product-delete.spec.ts
 e2e-pw/tests/product/update-variations.spec.ts
+e2e/data/shared/batch-update.ts
 e2e/plugins/extension-cart-update.php
 e2e/plugins/update-price.php
+e2e/test-plugins/blocks/extension-cart-update.php
+e2e/test-plugins/blocks/update-price.php
 e2e/tests/admin/members/multiselect-filters.test.ts
 e2e/tests/content-manager/conditional-fields/boolean-conditional-select-relation.spec.ts
+e2e/tests/email-editor/update-propagation/backward-compat.spec.ts
+e2e/tests/email-editor/update-propagation/core-flows.spec.ts
+e2e/tests/email-editor/update-propagation/helpers/classifications.ts
+e2e/tests/email-editor/update-propagation/helpers/leaked-state-checks.ts
+e2e/tests/email-editor/update-propagation/helpers/seed-woo-email.ts
+e2e/tests/email-editor/update-propagation/helpers/simulate-plugin-update.ts
+e2e/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
+e2e/tests/email-editor/update-propagation/helpers/tracks-spy.ts
+e2e/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
+e2e/tests/email-editor/update-propagation/scope.spec.ts
+e2e/tests/product/product-delete.spec.ts
+e2e/tests/product/update-variations.spec.ts
 e2e/tests/settings/rbac/actions/delete-role.spec.ts
 e2fs_stage1_5.exec
 e452walter
@@ -94952,6 +95001,7 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
+false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -97251,6 +97301,8 @@ form/configuration/select/multiple.html.twig
 form/content/update/header/actions/price_history.html.twig
 form/content/update/header/breadcrumbs.html.twig
 form/content/update/header/title_block/actions/manage_coupons.html.twig
+form/control-group/advance/multiselect.blade.php
+form/control-group/advance/select.blade.php
 form/element/action-delete.html
 form/element/action-delete.js
 form/element/actiondelete.php
@@ -97385,6 +97437,7 @@ form/select/entity/sw-entity-single-select/sw-entity-single-select.spec.js
 form/select/entity/sw-entity-tag-select/index.js
 form/sw-select-field-deprecated/index.js
 form/sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+form/sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 form/sw-select-field-deprecated/sw-select-field.scss
 form/sw-select-field/index.ts
 form/sw-select-field/sw-select-field.html.twig
@@ -97836,10 +97889,6 @@ framework/app/lifecycle/update/appupdater.php
 framework/app/lifecycle/update/defaultappupdatertest.php
 framework/app/manifest/_fixtures/test/resources/scripts/app-deleted/delete-script.twig
 framework/app/manifest/_fixtures/test/resources/scripts/app-updated/update-script.twig
-framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/multi-entity-select-field.xml
-framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/multi-select-field.xml
-framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/single-entity-select-field.xml
-framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/single-select-field.xml
 framework/app/manifest/xml/customfieldtypes/_fixtures/multi-entity-select-field.xml
 framework/app/manifest/xml/customfieldtypes/_fixtures/multi-select-field.xml
 framework/app/manifest/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
@@ -97955,6 +98004,7 @@ framework/update/services/apiclienttest.php
 framework/update/services/extensioncompatibility.php
 framework/update/services/extensioncompatibilitytest.php
 framework/update/services/filesystem.php
+framework/update/services/filesystemtest.php
 framework/update/services/updatehtaccess.php
 framework/update/services/updatehtaccesstest.php
 framework/update/steps/deactivateextensionsstep.php
@@ -99455,6 +99505,8 @@ ghost/core/core/server/data/migrations/versions/6.27/2026-04-07-15-10-32-update-
 ghost/core/core/server/data/migrations/versions/6.28/2026-04-08-13-05-35-drop-automated-emails-table.js
 ghost/core/core/server/data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 ghost/core/core/server/data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
+ghost/core/core/server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
+ghost/core/core/server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 ghost/core/core/server/run-update-check.js
 ghost/core/core/server/services/email-analytics/jobs/update-member-email-analytics/index.js
 ghost/core/core/server/services/members/emails/update-email.js
@@ -99877,6 +99929,33 @@ government/agencies-departments-offices/agencies-departments-offices-directory/c
 government/agencies-departments-offices/agencies-departments-offices-directory/denver-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/webb-vspc-ocr-service-update
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/copy-of-leafdrop-1/*
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/*
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-north-1
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-northeast-1
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-south-1
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-southeast-1
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-southwest-1
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-west-1
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-central
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-north
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-northeast
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-south
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-southeast
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-southwest
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-west
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/new-page
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/copy-of-leafdrop-central-1
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/copy-of-leafdrop-northeast-1
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/copy-of-leafdrop-southeast-1
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-central
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-north
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-northeast
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-south
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-southeast
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-southwest
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-west
+government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/seasonal-programs/copy-of-leafdrop-1
 government/agencies-departments-offices/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government_drop
@@ -101579,6 +101658,7 @@ hp software update client
 hp_delete.c
 hp_update.c
 hphs69reunion-org
+hpos-orders-status-union-rewrite
 hptunion-org
 hq-union
 hqdrop
@@ -105408,6 +105488,7 @@ integration/core/framework/dataabstractionlayer/write/fixture/setnullondelete/se
 integration/core/framework/dataabstractionlayer/write/fixture/setnullondelete/setnullondeletemanytoonedefinition.php
 integration/core/framework/dataabstractionlayer/write/fixture/setnullondelete/setnullondeleteparentdefinition.php
 integration/core/framework/update/event/updatepostprepareeventtest.php
+integration/core/framework/update/services/filesystemtest.php
 integration/core/system/customentity/_fixtures/custom-entity-test/resources/update.xml
 integration/core/system/customentity/_fixtures/without-restrict-delete/manifest.xml
 integration/core/system/customentity/_fixtures/without-restrict-delete/resources/entities.xml
@@ -107499,6 +107580,7 @@ js/settings-editor/src/form-controls/single-select-page-with-search/utils.ts
 js/settings-editor/src/form-controls/single-select-page.tsx
 js/settings-ui/changelog/update-number-spin-control
 js/settings-ui/changelog/update-rename-settings-ui-package
+js/settings-ui/changelog/update-section-scope-semantics
 js/site.widgets.rich_select.js
 js/sortablecheckboxselect.js
 js/src/common/components/multiselect.tsx
@@ -109885,6 +109967,7 @@ libraries/kimai/update/check.php
 libraries/kimai/update/version.php
 libraries/koowa/template/helper/select.php
 libraries/legacy/updater/update.php
+libraries/multiselect/_multi-select.scss
 libraries/multiselect/multi-select.less
 libraries/phpclasses/ultimatemysql/example.select.php
 libraries/regularlabs/fields/multiselect.php
@@ -112042,6 +112125,7 @@ maildrop-cc
 maildrop.conf
 maildrop.xml
 mailer/ticket_update/cs.html.erb
+mailer/ticket_update/da.html.erb
 mailer/ticket_update/de.html.erb
 mailer/ticket_update/en.html.erb
 mailer/ticket_update/es.html.erb
@@ -112929,6 +113013,7 @@ mcl_cmd_route_delete.xml
 mcl_cmd_scheduler_delete.xml
 mconmondaywebhookupdate
 mconupdate
+mcp-files-update-data-schema.md
 mcqualter
 mcreunion.org
 mcs-drop-akse1d545429d-7ac8d1d7
@@ -113934,6 +114019,8 @@ migrations/versions/6.27/2026-04-07-15-10-32-update-automated-email-recipients-f
 migrations/versions/6.28/2026-04-08-13-05-35-drop-automated-emails-table.js
 migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
+migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
+migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 migrationversionsdelete
 migrationversionsupdate
 mihewalter
@@ -117466,6 +117553,7 @@ multiselect-filters.test.ts
 multiselect-master.zip
 multiselect-ultimate-query-plugin
 multiselect-uncompressed.js
+multiselect.blade.php
 multiselect.coffee
 multiselect.cs
 multiselect.cshtml
@@ -117498,6 +117586,7 @@ multiselect.xsd
 multiselect.zip
 multiselect/.env
 multiselect/.git/config
+multiselect/_multi-select.scss
 multiselect/default.json
 multiselect/disabledfundingoptions.php
 multiselect/disabledfundingoptionstest.php
@@ -122641,6 +122730,7 @@ packages/js/settings-editor/src/form-controls/single-select-page-with-search/uti
 packages/js/settings-editor/src/form-controls/single-select-page.tsx
 packages/js/settings-ui/changelog/update-number-spin-control
 packages/js/settings-ui/changelog/update-rename-settings-ui-package
+packages/js/settings-ui/changelog/update-section-scope-semantics
 packages/language/app-language-select/app-language-select.element.ts
 packages/language/app-language-select/manifests.ts
 packages/permit/packages/permit_access/data/pcategory_update
@@ -122650,6 +122740,7 @@ packages/php/blueprint/changelog/58792-update-blueprint-doc-exporter-ui
 packages/php/blueprint/changelog/61753-fix-support-composer-update
 packages/php/blueprint/changelog/update-blueprint-require-permission-exporters-api
 packages/php/remote-specs-validation/changelog/dev-ci-lint-monorepo-job-update
+packages/php/woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
 packages/plugins/graphql/server/src/services/internals/types/delete-mutation-response.ts
 packages/plugins/users-permissions/server/graphql/mutations/crud/role/delete-role.js
 packages/plugins/users-permissions/server/graphql/mutations/crud/role/update-role.js
@@ -122728,6 +122819,8 @@ packages/user/user/entity-bulk-actions/delete/delete.action.ts
 packages/utils/shared/is-detailed-update-syntax.test.ts
 packages/utils/shared/is-detailed-update-syntax.ts
 packages/vanilla-icons/icons/delete.svg
+packages/webkul/admin/src/resources/views/components/form/control-group/advance/multiselect.blade.php
+packages/webkul/admin/src/resources/views/components/form/control-group/advance/select.blade.php
 packages/webkul/admin/src/resources/views/emails/customers/gdpr/status-update-notification.blade.php
 packages/webkul/checkout/src/database/migrations/2026_04_09_120000_change_tax_category_id_fk_on_cart_items_to_null_on_delete.php
 packages/webkul/core/src/console/commands/exchangerateupdate.php
@@ -124235,6 +124328,7 @@ php/src/trangebuttom_9_delete.php
 php/src/userbuttom_9_delete.php
 php/update.php
 php/vendor/composer/autoload_files.php
+php/woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
 php_curl_exec()_url_is_controlled_by_user.xml
 php_multiple_rows_update_delete.zip
 php_select
@@ -125170,16 +125264,26 @@ plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
+plugins/woocommerce/changelog/61900-update-offline-payment-forms-dataform
 plugins/woocommerce/changelog/63793-fix-wcag-metabox-delete-contrast
+plugins/woocommerce/changelog/65385-update-algeria-provinces
 plugins/woocommerce/changelog/fix-wc-update-10802-missing-orders-meta-table-check
+plugins/woocommerce/changelog/hpos-orders-status-union-rewrite
+plugins/woocommerce/changelog/testops-189-product-reviews-delete-flake
 plugins/woocommerce/changelog/update-47865-orders-table-query-build
+plugins/woocommerce/changelog/update-action-scheduler-via-automation
 plugins/woocommerce/changelog/update-blocks-e2e-core-cutover
 plugins/woocommerce/changelog/update-cart-checkout-slotfill-wp68
+plugins/woocommerce/changelog/update-cssmin-clean-css-5
+plugins/woocommerce/changelog/update-e2e-core-serial-parallel-projects
+plugins/woocommerce/changelog/update-email-verification-magic-link
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
+plugins/woocommerce/changelog/update-product-filter-status-availability
 plugins/woocommerce/changelog/update-products-control-ts
-plugins/woocommerce/changelog/update-rename-settings-ui-script-handle
 plugins/woocommerce/changelog/update-rename-visual-attribute-picker
-plugins/woocommerce/changelog/update-settings-ui-layout-width-spacing
+plugins/woocommerce/changelog/update-swatches-improvements
+plugins/woocommerce/changelog/update-tell-agents-not-to-write-jquery
+plugins/woocommerce/changelog/update-wordpress-package-catalog-wp-6-9
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -125247,21 +125351,23 @@ plugins/woocommerce/src/internal/abilities/domain/productdelete.php
 plugins/woocommerce/src/internal/abilities/domain/productupdate.php
 plugins/woocommerce/src/storeapi/routes/v1/agentic/checkoutsessionsupdate.php
 plugins/woocommerce/tests/e2e-pw/data/shared/batch-update.js
-plugins/woocommerce/tests/e2e-pw/data/shared/batch-update.ts
-plugins/woocommerce/tests/e2e-pw/test-plugins/blocks/extension-cart-update.php
-plugins/woocommerce/tests/e2e-pw/test-plugins/blocks/update-price.php
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/backward-compat.spec.ts
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/core-flows.spec.ts
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/classifications.ts
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/leaked-state-checks.ts
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/seed-woo-email.ts
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/simulate-plugin-update.ts
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/tracks-spy.ts
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
-plugins/woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/scope.spec.ts
 plugins/woocommerce/tests/e2e-pw/tests/product/product-delete.spec.ts
 plugins/woocommerce/tests/e2e-pw/tests/product/update-variations.spec.ts
+plugins/woocommerce/tests/e2e/data/shared/batch-update.ts
+plugins/woocommerce/tests/e2e/test-plugins/blocks/extension-cart-update.php
+plugins/woocommerce/tests/e2e/test-plugins/blocks/update-price.php
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/backward-compat.spec.ts
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/core-flows.spec.ts
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/classifications.ts
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/leaked-state-checks.ts
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/seed-woo-email.ts
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/simulate-plugin-update.ts
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/tracks-spy.ts
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
+plugins/woocommerce/tests/e2e/tests/email-editor/update-propagation/scope.spec.ts
+plugins/woocommerce/tests/e2e/tests/product/product-delete.spec.ts
+plugins/woocommerce/tests/e2e/tests/product/update-variations.spec.ts
 plugins/woocommerce/tests/legacy/unit-tests/admin/notes/class-wc-tests-notes-run-db-update.php
 plugins/woocommerce/tests/legacy/unit-tests/woocommerce-admin/db-updates/class-wc-tests-update-is-read-from-last-read.php
 plugins/woocommerce/tests/php/includes/cli/class-wc-cli-update-command-test.php
@@ -128972,7 +129078,6 @@ public/src/modules/topicselect.js
 public/static/highcharts-4.0.1/examples/dynamic-update
 public/static/highcharts-4.0.1/examples/dynamic-update/index.htm
 public/test/test_exec.php
-public/themes/admin/default/build/assets/drag-and-drop.es-cbcm7iha.js
 public/themes/admin/default/build/assets/drag-and-drop.es-jkadgoaa.js
 public/update.php
 public/vendor/jquery/event/jquery.event.drop.js
@@ -129909,6 +130014,7 @@ questionpooldelete
 questionpoolupdate
 questionreplydelete
 questionreplyupdate
+questions/*/delete
 questions_insert.sql
 questions_select.sql
 questionscontainerupdate
@@ -132374,6 +132480,7 @@ resources/app/administration/src/app/component/form/select/entity/sw-entity-sing
 resources/app/administration/src/app/component/form/select/entity/sw-entity-tag-select/index.js
 resources/app/administration/src/app/component/form/sw-select-field-deprecated/index.js
 resources/app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+resources/app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 resources/app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field.scss
 resources/app/administration/src/app/component/form/sw-select-field/index.ts
 resources/app/administration/src/app/component/form/sw-select-field/sw-select-field.html.twig
@@ -132649,6 +132756,8 @@ resources/views/blade/input/select.blade.php
 resources/views/blade/input/supplier-select.blade.php
 resources/views/blade/input/username-select.blade.php
 resources/views/categories/update.blade.php
+resources/views/components/form/control-group/advance/multiselect.blade.php
+resources/views/components/form/control-group/advance/select.blade.php
 resources/views/components/form/select.blade.php
 resources/views/dashboard/incidents/update.blade.php
 resources/views/default/column/filter/select.blade.php
@@ -141864,6 +141973,8 @@ server/data/migrations/versions/6.27/2026-04-07-15-10-32-update-automated-email-
 server/data/migrations/versions/6.28/2026-04-08-13-05-35-drop-automated-emails-table.js
 server/data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 server/data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
+server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
+server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 server/graphql/mutations/crud/role/delete-role.js
 server/graphql/mutations/crud/role/update-role.js
 server/graphql/mutations/crud/user/delete-user.js
@@ -142328,6 +142439,7 @@ settings-payments/onboarding/providers/woopayments/components/grouped-select-con
 settings-select
 settings-ui/changelog/update-number-spin-control
 settings-ui/changelog/update-rename-settings-ui-package
+settings-ui/changelog/update-section-scope-semantics
 settings-update
 settings-update.xml
 settings/bandelete.php
@@ -145290,6 +145402,7 @@ src/administration/resources/app/administration/src/app/component/form/select/en
 src/administration/resources/app/administration/src/app/component/form/select/entity/sw-entity-tag-select/index.js
 src/administration/resources/app/administration/src/app/component/form/sw-select-field-deprecated/index.js
 src/administration/resources/app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+src/administration/resources/app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 src/administration/resources/app/administration/src/app/component/form/sw-select-field-deprecated/sw-select-field.scss
 src/administration/resources/app/administration/src/app/component/form/sw-select-field/index.ts
 src/administration/resources/app/administration/src/app/component/form/sw-select-field/sw-select-field.html.twig
@@ -145465,6 +145578,7 @@ src/app/component/form/select/entity/sw-entity-single-select/sw-entity-single-se
 src/app/component/form/select/entity/sw-entity-tag-select/index.js
 src/app/component/form/sw-select-field-deprecated/index.js
 src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+src/app/component/form/sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 src/app/component/form/sw-select-field-deprecated/sw-select-field.scss
 src/app/component/form/sw-select-field/index.ts
 src/app/component/form/sw-select-field/sw-select-field.html.twig
@@ -146560,6 +146674,8 @@ src/query/select.php
 src/query/update.php
 src/renderers/dom/client/wrappers/__tests__/reactdomselect-test.js
 src/renderers/dom/client/wrappers/reactdomselect.js
+src/resources/views/components/form/control-group/advance/multiselect.blade.php
+src/resources/views/components/form/control-group/advance/select.blade.php
 src/resources/views/drop-in-ui.blade.php
 src/resources/views/emails/customers/gdpr/status-update-notification.blade.php
 src/resources/views/emails/customers/update-password.blade.php
@@ -149334,8 +149450,10 @@ sw-select-base/sw-select-base.html.twig
 sw-select-base/sw-select-base.scss
 sw-select-base/sw-select-base.spec.js
 sw-select-field-deprecated.html.twig
+sw-select-field-deprecated.spec.ts
 sw-select-field-deprecated/index.js
 sw-select-field-deprecated/sw-select-field-deprecated.html.twig
+sw-select-field-deprecated/sw-select-field-deprecated.spec.ts
 sw-select-field-deprecated/sw-select-field.scss
 sw-select-field.html.twig
 sw-select-field.scss
@@ -149855,6 +149973,10 @@ system/course/schoolselect.aspx
 system/customentity/_fixtures/custom-entity-test/resources/update.xml
 system/customentity/_fixtures/without-restrict-delete/manifest.xml
 system/customentity/_fixtures/without-restrict-delete/resources/entities.xml
+system/customfield/xml/customfieldtypes/_fixtures/multi-entity-select-field.xml
+system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
+system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
+system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
 system/dashboard/update.php
 system/dashboard/widget/update.php
 system/dashboards/update.class.php
@@ -151960,6 +152082,7 @@ testnewupdate
 testng-customsuitedelete.xml
 testnumberupdate
 testopenupdate
+testops-189-product-reviews-delete-flake
 testoverlay-geos-1046-union-lines.xml
 testoverlay-geos-997-union-fail.xml
 testoverlay-geos-997-union-slow.xml
@@ -152062,24 +152185,26 @@ tests/drupal/tests/core/update/updatehookregistrytest.php
 tests/drupal/tests/core/update/updateorderingtest.php
 tests/drupal/tests/core/update/updateregistrytest.php
 tests/e2e-pw/data/shared/batch-update.js
-tests/e2e-pw/data/shared/batch-update.ts
-tests/e2e-pw/test-plugins/blocks/extension-cart-update.php
-tests/e2e-pw/test-plugins/blocks/update-price.php
-tests/e2e-pw/tests/email-editor/update-propagation/backward-compat.spec.ts
-tests/e2e-pw/tests/email-editor/update-propagation/core-flows.spec.ts
-tests/e2e-pw/tests/email-editor/update-propagation/helpers/classifications.ts
-tests/e2e-pw/tests/email-editor/update-propagation/helpers/leaked-state-checks.ts
-tests/e2e-pw/tests/email-editor/update-propagation/helpers/seed-woo-email.ts
-tests/e2e-pw/tests/email-editor/update-propagation/helpers/simulate-plugin-update.ts
-tests/e2e-pw/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
-tests/e2e-pw/tests/email-editor/update-propagation/helpers/tracks-spy.ts
-tests/e2e-pw/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
-tests/e2e-pw/tests/email-editor/update-propagation/scope.spec.ts
 tests/e2e-pw/tests/product/product-delete.spec.ts
 tests/e2e-pw/tests/product/update-variations.spec.ts
+tests/e2e/data/shared/batch-update.ts
 tests/e2e/plugins/extension-cart-update.php
 tests/e2e/plugins/update-price.php
+tests/e2e/test-plugins/blocks/extension-cart-update.php
+tests/e2e/test-plugins/blocks/update-price.php
 tests/e2e/tests/content-manager/conditional-fields/boolean-conditional-select-relation.spec.ts
+tests/e2e/tests/email-editor/update-propagation/backward-compat.spec.ts
+tests/e2e/tests/email-editor/update-propagation/core-flows.spec.ts
+tests/e2e/tests/email-editor/update-propagation/helpers/classifications.ts
+tests/e2e/tests/email-editor/update-propagation/helpers/leaked-state-checks.ts
+tests/e2e/tests/email-editor/update-propagation/helpers/seed-woo-email.ts
+tests/e2e/tests/email-editor/update-propagation/helpers/simulate-plugin-update.ts
+tests/e2e/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
+tests/e2e/tests/email-editor/update-propagation/helpers/tracks-spy.ts
+tests/e2e/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
+tests/e2e/tests/email-editor/update-propagation/scope.spec.ts
+tests/e2e/tests/product/product-delete.spec.ts
+tests/e2e/tests/product/update-variations.spec.ts
 tests/e2e/tests/settings/rbac/actions/delete-role.spec.ts
 tests/email-editor/update-propagation/backward-compat.spec.ts
 tests/email-editor/update-propagation/core-flows.spec.ts
@@ -152189,6 +152314,7 @@ tests/integration/core/framework/dataabstractionlayer/write/fixture/setnullondel
 tests/integration/core/framework/dataabstractionlayer/write/fixture/setnullondelete/setnullondeletemanytoonedefinition.php
 tests/integration/core/framework/dataabstractionlayer/write/fixture/setnullondelete/setnullondeleteparentdefinition.php
 tests/integration/core/framework/update/event/updatepostprepareeventtest.php
+tests/integration/core/framework/update/services/filesystemtest.php
 tests/integration/core/system/customentity/_fixtures/custom-entity-test/resources/update.xml
 tests/integration/core/system/customentity/_fixtures/without-restrict-delete/manifest.xml
 tests/integration/core/system/customentity/_fixtures/without-restrict-delete/resources/entities.xml
@@ -152515,10 +152641,6 @@ tests/unit/core/content/product/dataabstractionlayer/stockupdate/stockupdatefilt
 tests/unit/core/content/product/dataabstractionlayer/stockupdate/teststockupdatefilter.php
 tests/unit/core/framework/app/manifest/_fixtures/test/resources/scripts/app-deleted/delete-script.twig
 tests/unit/core/framework/app/manifest/_fixtures/test/resources/scripts/app-updated/update-script.twig
-tests/unit/core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/multi-entity-select-field.xml
-tests/unit/core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/multi-select-field.xml
-tests/unit/core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/single-entity-select-field.xml
-tests/unit/core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/single-select-field.xml
 tests/unit/core/framework/migration/_fixtures/migrationindexersafeguard/deletestatement/v6_90/migration1000000001delete.php
 tests/unit/core/framework/migration/_fixtures/migrationindexersafeguard/rawsqldelete/v6_90/migration1000000001rawdelete.php
 tests/unit/core/framework/migration/_fixtures/migrationindexersafeguard/rawsqlinsert/v6_90/migration1000000001rawinsert.php
@@ -152542,6 +152664,10 @@ tests/unit/core/framework/update/steps/validresulttest.php
 tests/unit/core/framework/update/struct/validationresulttest.php
 tests/unit/core/framework/update/struct/versiontest.php
 tests/unit/core/framework/update/subscriber/updatesubscribertest.php
+tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-entity-select-field.xml
+tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
+tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
+tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
 tests/unit/espo/core/select
 tests/unit/espo/core/select/accesscontrol
 tests/unit/espo/core/select/accesscontrol/filterfactorytest.php
@@ -153053,7 +153179,6 @@ themeoptions/update.php
 themes-drop.sql
 themes/abound/views/customer/update.php
 themes/abound/views/personalinfo/update.php
-themes/admin/default/build/assets/drag-and-drop.es-cbcm7iha.js
 themes/admin/default/build/assets/drag-and-drop.es-jkadgoaa.js
 themes/admin/js/tableselect.js
 themes/admin/migration/js/tableselect.js
@@ -153451,6 +153576,7 @@ ticket_update/ar.md.erb
 ticket_update/bg.md.erb
 ticket_update/cs.html.erb
 ticket_update/cs.md.erb
+ticket_update/da.html.erb
 ticket_update/da.md.erb
 ticket_update/de.html.erb
 ticket_update/de.md.erb
@@ -157848,6 +157974,7 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
+true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -160870,10 +160997,6 @@ unit/core/content/product/dataabstractionlayer/stockupdate/stockupdatefilterprov
 unit/core/content/product/dataabstractionlayer/stockupdate/teststockupdatefilter.php
 unit/core/framework/app/manifest/_fixtures/test/resources/scripts/app-deleted/delete-script.twig
 unit/core/framework/app/manifest/_fixtures/test/resources/scripts/app-updated/update-script.twig
-unit/core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/multi-entity-select-field.xml
-unit/core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/multi-select-field.xml
-unit/core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/single-entity-select-field.xml
-unit/core/framework/app/manifest/xml/customfield/customfieldtypes/_fixtures/single-select-field.xml
 unit/core/framework/migration/_fixtures/migrationindexersafeguard/deletestatement/v6_90/migration1000000001delete.php
 unit/core/framework/migration/_fixtures/migrationindexersafeguard/rawsqldelete/v6_90/migration1000000001rawdelete.php
 unit/core/framework/migration/_fixtures/migrationindexersafeguard/rawsqlinsert/v6_90/migration1000000001rawinsert.php
@@ -160897,6 +161020,10 @@ unit/core/framework/update/steps/validresulttest.php
 unit/core/framework/update/struct/validationresulttest.php
 unit/core/framework/update/struct/versiontest.php
 unit/core/framework/update/subscriber/updatesubscribertest.php
+unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-entity-select-field.xml
+unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
+unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
+unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
 unit/espo/core/select/accesscontrol/filterfactorytest.php
 unit/espo/core/select/accesscontrol/filterresolverfactorytest.php
 unit/espo/core/select/accesscontrol/filterresolvertest.php
@@ -162677,6 +162804,7 @@ update-acount
 update-acpi.sh
 update-acq-date.xml.erb
 update-acq-funding.xml.erb
+update-action-scheduler-via-automation
 update-activate
 update-activate-function-template.sql
 update-active
@@ -163814,6 +163942,7 @@ update-crmpp-infra
 update-crontabs.xml
 update-cs
 update-csbackupconfig
+update-cssmin-clean-css-5
 update-cstg-19.10.0-beta.1.sql
 update-cstg-19.10.0.sql
 update-cstg-2.0-b4_to_2.0-b5.sql
@@ -164623,6 +164752,7 @@ update-driver.xml
 update-dsm
 update-dtc-source.sh
 update-e
+update-e2e-core-serial-parallel-projects
 update-e2e-product-editor-create-simple-product
 update-eakte
 update-edit
@@ -164631,6 +164761,7 @@ update-elkjop
 update-email
 update-email-address.php
 update-email-settings.php
+update-email-verification-magic-link
 update-email.js
 update-employee
 update-en
@@ -166421,6 +166552,7 @@ update-product-editor-tweak-attributes-layout
 update-product-editor-tweak-form-fields-gap
 update-product-editor-use-token-field-for-terms
 update-product-editor-validate-term-tokens
+update-product-filter-status-availability
 update-product-from-store-products-no-quantity.sql
 update-product-from-store-products.sql
 update-product-list-header-layout
@@ -167020,7 +167152,6 @@ update-removeforbach.xml
 update-removegrenoble.xml
 update-rename-settings-ui-entry
 update-rename-settings-ui-package
-update-rename-settings-ui-script-handle
 update-rename-visual-attribute-picker
 update-renaming-tool.xml
 update-replace-with-combobox
@@ -167115,6 +167246,7 @@ update-script_vm_1.1.0_beta3_to_vm_1.1.0_rc1.sql
 update-search
 update-secret-k8s.sh
 update-section
+update-section-scope-semantics
 update-secure
 update-secure-information
 update-secure.information
@@ -167157,7 +167289,6 @@ update-settings-payments-type-for-onboarding-supported
 update-settings-return-to-wc-home
 update-settings-router-calypso-package
 update-settings-test.xml
-update-settings-ui-layout-width-spacing
 update-settings.asciidoc
 update-settings.ini
 update-sftp
@@ -167406,6 +167537,7 @@ update-supported.conf
 update-svg-building-xml.sql
 update-svg-floor-xml.sql
 update-swagger-spec.sh
+update-swatches-improvements
 update-switch-version-button-location
 update-system
 update-system-divider.test.ts
@@ -167457,6 +167589,7 @@ update-team.sql
 update-teamlabs-develip-git
 update-teamvpn-intranet-accounts
 update-technologynews
+update-tell-agents-not-to-write-jquery
 update-temp
 update-temp-lab-db2-corp
 update-temper.xml
@@ -168028,6 +168161,8 @@ update-wiki-monitoring
 update-winra
 update-without-using-ftp
 update-woopayments-methods-logos-component
+update-woosubs-engine-make-phpstan-ci-required
+update-wordpress-package-catalog-wp-6-9
 update-worker.js
 update-worker.py
 update-workspace-mirror.sh
@@ -169161,6 +169296,7 @@ update/services/apiclienttest.php
 update/services/extensioncompatibility.php
 update/services/extensioncompatibilitytest.php
 update/services/filesystem.php
+update/services/filesystemtest.php
 update/services/updatehtaccess.php
 update/services/updatehtaccesstest.php
 update/setting.php
@@ -172701,6 +172837,8 @@ versions/6.27/2026-04-07-15-10-32-update-automated-email-recipients-foreign-key.
 versions/6.28/2026-04-08-13-05-35-drop-automated-emails-table.js
 versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
+versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
+versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 versionselect
 versionsupdate
 versiontoupdate.sql
@@ -173169,6 +173307,8 @@ views/comment/update.php
 views/comments/update.js.haml
 views/comments/update.php
 views/company/update.php
+views/components/form/control-group/advance/multiselect.blade.php
+views/components/form/control-group/advance/select.blade.php
 views/configuration/_createorupdate.cshtml
 views/contact/modals/select-for-portal-user.js
 views/contact/update.php
@@ -173294,6 +173434,7 @@ views/locations/bulk-delete.blade.php
 views/log/update.php
 views/login-details/update.php
 views/mailer/ticket_update/cs.html.erb
+views/mailer/ticket_update/da.html.erb
 views/mailer/ticket_update/de.html.erb
 views/mailer/ticket_update/en.html.erb
 views/mailer/ticket_update/es.html.erb
@@ -175138,6 +175279,8 @@ webinar/peopleforce-state-of-the-union-for-smbs-thank-you
 webinarupdate
 webkituserselect.js
 webklex/php-imap/vendor/composer/autoload_files.php
+webkul/admin/src/resources/views/components/form/control-group/advance/multiselect.blade.php
+webkul/admin/src/resources/views/components/form/control-group/advance/select.blade.php
 webkul/admin/src/resources/views/emails/customers/gdpr/status-update-notification.blade.php
 webkul/checkout/src/database/migrations/2026_04_09_120000_change_tax_category_id_fk_on_cart_items_to_null_on_delete.php
 webkul/core/src/console/commands/exchangerateupdate.php
@@ -176032,6 +176175,7 @@ woocommerce-drop-down-cart-widget
 woocommerce-drop-shop
 woocommerce-local-pickup-time-select
 woocommerce-modified-files(copy-and-overwrite-default-after-install-or-update)(temp-solution).zip
+woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
 woocommerce-update-1.4.php
 woocommerce-update-1.5.php
 woocommerce-update-2.0.15.php
@@ -176044,16 +176188,26 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
+woocommerce/changelog/61900-update-offline-payment-forms-dataform
 woocommerce/changelog/63793-fix-wcag-metabox-delete-contrast
+woocommerce/changelog/65385-update-algeria-provinces
 woocommerce/changelog/fix-wc-update-10802-missing-orders-meta-table-check
+woocommerce/changelog/hpos-orders-status-union-rewrite
+woocommerce/changelog/testops-189-product-reviews-delete-flake
 woocommerce/changelog/update-47865-orders-table-query-build
+woocommerce/changelog/update-action-scheduler-via-automation
 woocommerce/changelog/update-blocks-e2e-core-cutover
 woocommerce/changelog/update-cart-checkout-slotfill-wp68
+woocommerce/changelog/update-cssmin-clean-css-5
+woocommerce/changelog/update-e2e-core-serial-parallel-projects
+woocommerce/changelog/update-email-verification-magic-link
 woocommerce/changelog/update-pay-506-always-show-payment-radio
+woocommerce/changelog/update-product-filter-status-availability
 woocommerce/changelog/update-products-control-ts
-woocommerce/changelog/update-rename-settings-ui-script-handle
 woocommerce/changelog/update-rename-visual-attribute-picker
-woocommerce/changelog/update-settings-ui-layout-width-spacing
+woocommerce/changelog/update-swatches-improvements
+woocommerce/changelog/update-tell-agents-not-to-write-jquery
+woocommerce/changelog/update-wordpress-package-catalog-wp-6-9
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -176123,21 +176277,23 @@ woocommerce/src/internal/abilities/domain/productdelete.php
 woocommerce/src/internal/abilities/domain/productupdate.php
 woocommerce/src/storeapi/routes/v1/agentic/checkoutsessionsupdate.php
 woocommerce/tests/e2e-pw/data/shared/batch-update.js
-woocommerce/tests/e2e-pw/data/shared/batch-update.ts
-woocommerce/tests/e2e-pw/test-plugins/blocks/extension-cart-update.php
-woocommerce/tests/e2e-pw/test-plugins/blocks/update-price.php
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/backward-compat.spec.ts
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/core-flows.spec.ts
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/classifications.ts
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/leaked-state-checks.ts
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/seed-woo-email.ts
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/simulate-plugin-update.ts
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/helpers/tracks-spy.ts
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
-woocommerce/tests/e2e-pw/tests/email-editor/update-propagation/scope.spec.ts
 woocommerce/tests/e2e-pw/tests/product/product-delete.spec.ts
 woocommerce/tests/e2e-pw/tests/product/update-variations.spec.ts
+woocommerce/tests/e2e/data/shared/batch-update.ts
+woocommerce/tests/e2e/test-plugins/blocks/extension-cart-update.php
+woocommerce/tests/e2e/test-plugins/blocks/update-price.php
+woocommerce/tests/e2e/tests/email-editor/update-propagation/backward-compat.spec.ts
+woocommerce/tests/e2e/tests/email-editor/update-propagation/core-flows.spec.ts
+woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/classifications.ts
+woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/leaked-state-checks.ts
+woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/seed-woo-email.ts
+woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/simulate-plugin-update.ts
+woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
+woocommerce/tests/e2e/tests/email-editor/update-propagation/helpers/tracks-spy.ts
+woocommerce/tests/e2e/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
+woocommerce/tests/e2e/tests/email-editor/update-propagation/scope.spec.ts
+woocommerce/tests/e2e/tests/product/product-delete.spec.ts
+woocommerce/tests/e2e/tests/product/update-variations.spec.ts
 woocommerce/tests/legacy/unit-tests/admin/notes/class-wc-tests-notes-run-db-update.php
 woocommerce/tests/legacy/unit-tests/woocommerce-admin/db-updates/class-wc-tests-update-is-read-from-last-read.php
 woocommerce/tests/php/includes/cli/class-wc-cli-update-command-test.php
@@ -177689,7 +177845,6 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
-wp-content/uploads/http://european-union.europa.eu/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments

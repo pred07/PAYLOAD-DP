@@ -2110,6 +2110,7 @@ api/orders/fetchgraphql
 api/partner/graphql/
 api/pgds-platform/graphql
 api/pis-gateway/graphql/http
+api/plugins/graphql/collection-relation-order.test.api.js
 api/plugins/graphql/components.test.api.js
 api/plugins/graphql/cors.test.api.js
 api/plugins/graphql/crud.test.api.js
@@ -4671,6 +4672,7 @@ app/graphql/gql/types/ticket/article_type.rb
 app/graphql/gql/types/ticket/bulk_update_status_type.rb
 app/graphql/gql/types/ticket/cached/count_by_overview_type.rb
 app/graphql/gql/types/ticket/external_references/idoit_object_type.rb
+app/graphql/gql/types/ticket/external_references/issue_tracker_item/issue_type_type.rb
 app/graphql/gql/types/ticket/external_references/issue_tracker_item/label_type.rb
 app/graphql/gql/types/ticket/external_references/issue_tracker_item_type.rb
 app/graphql/gql/types/ticket/live_user/app_type.rb
@@ -10771,6 +10773,7 @@ graphql/cmsgraphql/model/resolver/blocktest.php
 graphql/cmsgraphql/model/resolver/pagetest.php
 graphql/cmsurlrewrite/routetest.php
 graphql/cmsurlrewrite/urlresolvertest.php
+graphql/collection-relation-order.test.api.js
 graphql/comparelist/comparelisttest.php
 graphql/complexity
 graphql/components.test.api.js
@@ -11260,6 +11263,7 @@ graphql/gql/mutations/ticket/update.rb
 graphql/gql/mutations/ticket/update/bulk.rb
 graphql/gql/mutations/ticket/update/bulk_spec.rb
 graphql/gql/mutations/ticket/update_spec.rb
+graphql/gql/mutations/ticket/update_suppress_notifications_spec.rb
 graphql/gql/mutations/two_factor_method_initiate_authentication.rb
 graphql/gql/mutations/two_factor_method_initiate_authentication_spec.rb
 graphql/gql/mutations/user/add.rb
@@ -11778,6 +11782,7 @@ graphql/gql/types/ticket/article_type.rb
 graphql/gql/types/ticket/bulk_update_status_type.rb
 graphql/gql/types/ticket/cached/count_by_overview_type.rb
 graphql/gql/types/ticket/external_references/idoit_object_type.rb
+graphql/gql/types/ticket/external_references/issue_tracker_item/issue_type_type.rb
 graphql/gql/types/ticket/external_references/issue_tracker_item/label_type.rb
 graphql/gql/types/ticket/external_references/issue_tracker_item_type.rb
 graphql/gql/types/ticket/live_user/app_type.rb
@@ -11952,6 +11957,7 @@ graphql/language/visitorremovenode.php
 graphql/language/visitorskipnode.php
 graphql/language/visitorstop.php
 graphql/license
+graphql/lint-staged.config.mjs
 graphql/listbyfirstlistedat/?
 graphql/listbyfirstlistedat?
 graphql/listingsbyactivityuids
@@ -17653,7 +17659,6 @@ native_client_sdk/doc_generated/pepper_stable/c/group___typedefs.html
 nebenstellengraphql1view
 net::dbus::binding::introspector - handler for object introspection data
 newsgraphql1view
-newsletter/$http://graphql.org/robots.txt
 newslettergraphql/composer.json
 newslettergraphql/etc/di.xml
 newslettergraphql/etc/graphql/di.xml
@@ -18065,6 +18070,7 @@ packages/plugins/graphql/admin/tsconfig.build.json
 packages/plugins/graphql/admin/tsconfig.json
 packages/plugins/graphql/jest.config.js
 packages/plugins/graphql/license
+packages/plugins/graphql/lint-staged.config.mjs
 packages/plugins/graphql/package.json
 packages/plugins/graphql/readme.md
 packages/plugins/graphql/rollup.config.mjs
@@ -18645,6 +18651,7 @@ plugins/graphql/admin/src/translations/zh.json
 plugins/graphql/admin/src/utils/prefixplugintranslations.ts
 plugins/graphql/admin/tsconfig.build.json
 plugins/graphql/admin/tsconfig.json
+plugins/graphql/collection-relation-order.test.api.js
 plugins/graphql/components.test.api.js
 plugins/graphql/cors.test.api.js
 plugins/graphql/crud.test.api.js
@@ -18654,6 +18661,7 @@ plugins/graphql/fields/datetime.test.api.js
 plugins/graphql/has-published-version.test.api.js
 plugins/graphql/jest.config.js
 plugins/graphql/license
+plugins/graphql/lint-staged.config.mjs
 plugins/graphql/package.json
 plugins/graphql/publication-filter.test.api.js
 plugins/graphql/readme.md
@@ -20187,6 +20195,7 @@ spec/graphql/gql/mutations/ticket/shared_draft/zoom/update_spec.rb
 spec/graphql/gql/mutations/ticket/title_update_spec.rb
 spec/graphql/gql/mutations/ticket/update/bulk_spec.rb
 spec/graphql/gql/mutations/ticket/update_spec.rb
+spec/graphql/gql/mutations/ticket/update_suppress_notifications_spec.rb
 spec/graphql/gql/mutations/two_factor_method_initiate_authentication_spec.rb
 spec/graphql/gql/mutations/user/add_first_admin_spec.rb
 spec/graphql/gql/mutations/user/add_spec.rb
@@ -21386,6 +21395,7 @@ tests/api-functional/testsuite/magento/quotegraphql/model/resolver/getdiscountst
 tests/api-functional/testsuite/magento/quotegraphql/model/resolver/placeordertest.php
 tests/api-tests/extend-graphql-schema.test.ts
 tests/api/core/upload/content-api/graphql.test.api.js
+tests/api/plugins/graphql/collection-relation-order.test.api.js
 tests/api/plugins/graphql/components.test.api.js
 tests/api/plugins/graphql/cors.test.api.js
 tests/api/plugins/graphql/crud.test.api.js

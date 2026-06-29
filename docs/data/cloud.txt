@@ -167,6 +167,7 @@ http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
 http://spoofed.169.254.169.254.xip.io/
+http://storage.googleapis.com/robots.txt
 https://bdn-data.s3.amazonaws.com/uploads/wpforms/
 i105-instance-data.xml
 i105-instance-data.xml_
@@ -351,7 +352,6 @@ opimds23
 periodicoabcrm.blob.core.windows.net
 polkdoimds19de0
 portale/temi/soggettoautorizzatovenditaonlinefarmacimds.jsp
-premium/http://s3.amazonaws.com/robots.txt
 root-doc-ip-192-168-24-128.ap-east-1.compute.internal
 root-doc-ip-192-168-56-207.ap-east-1.compute.internal
 s-ip-192-168-31-190.ap-northeast-1.compute.internal
