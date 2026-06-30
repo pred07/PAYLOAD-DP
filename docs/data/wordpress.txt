@@ -92047,7 +92047,6 @@ cricketmedia-wordpress.s3
 crimeaua1-wordpress-com
 cristandadeapologetica-wordpress-com
 cristianwordpress
-critical rce flaws in 'php everywhere' plugin affect thousands of wordpress sites
 criticusnixalsverdruss-wordpress-com
 crm4wordpress
 cronicosescolares-wordpress-com
@@ -107784,11 +107783,9 @@ wordpress backdoor.php
 wordpress backdoor.txt
 wordpress export.xml
 wordpress mass defacer (fud 2017).php
-wordpress may automatically disable google floc on websites
 wordpress plugin.zip
 wordpress shell.php
 wordpress super cache
-wordpress to automatically disable google floc on websites
 wordpress%20python%20library
 wordpress(1).sql
 wordpress(1).sql~

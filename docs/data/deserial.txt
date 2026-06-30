@@ -310,8 +310,6 @@ attack: jenkins xstream java library deserialization vulnerability
 attack: weblogic commons-collections java library deserialization
 auberginepickle
 aunt_may's_pickled_green_tomatoes.xml
-authorities in texas find over $4 million worth of meth in shipment of cucumber pickles
-authorities seize pickle shipment hiding $4 million worth of meth
 babypickle
 babypickles
 badge_podcastpickle
@@ -497,7 +495,6 @@ dehydrate,air-dry,anhydrate,bake,blast-freeze,blot,brine,brush,burn,corn,cure,de
 delegatingdeserializer.class
 delegatingdeserializer.java
 deletetest_testdeserialization.xml
-delicious pickles you can make from something you'd throw away
 delivery.pickle.zip
 department.pickle.zip
 depickle
