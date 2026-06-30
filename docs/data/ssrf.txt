@@ -166,6 +166,7 @@ $sitepreview/localhost:2006/wizard/
 '><script>window.open( "http://127.0.0.1:3555/xss_serve_payloads/x.html" )</script>
 '><video onprogress=alert(1)><source src=http://127.0.0.1:3555/xss_serve_payloads/x.ogg>
 '><video/onprogress=alert(1)><source/src=http://127.0.0.1:3555/xss_serve_payloads/x.ogg>
+'mortal kombat' video of sj sergeant performing baton tricks investigated by internal affairs
 *  android / mozilla/5.0 (linux; android 4.4.2; lenovoa3300-hv build/kot49h) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/30.0.0.0 safari/537.36 ucbrowser/3.1.0.40-
 *&amp;internal_ref*
 *.dev.internal
@@ -3528,6 +3529,10 @@ $sitepreview/localhost:2006/wizard/
 /v1/oauth2/internalprocess/osta
 /v1/oauth2/internaltopup
 /v1/reports/internal/report-template
+/v1/sys/internal/counters
+/v1/sys/internal/specs/openapi
+/v1/sys/internal/ui/feature-flags
+/v1/sys/internal/ui/mounts
 /v1/transfers/internal
 /v1_0/hospitalization/internal/hiswork
 /v1_0/webhook/aver_internal_webhook/
@@ -4128,6 +4133,7 @@ $sitepreview/localhost:2006/wizard/
 69-clickcounter-69-clickcounter_2.12-compile-internal.xml
 69-clickcounter-69-clickcounter_2.12-runtime-internal.xml
 69-clickcounter-69-clickcounter_2.12-test-internal.xml
+7 lynn police officers on leave pending internal investigation
 7328internal
 7bank-baas-platform-portal-internal-test
 7bp-internal-test
@@ -13849,6 +13855,7 @@ epsiloninternal
 eraterdemointernal-stage
 eraterdemointernal-test
 erenkubernetes-dns-9da34870
+ericsson releases details of internal probe into suspected isis bribes
 erl_internal.beam
 erl_internal.xml
 erp-internal
@@ -14227,6 +14234,7 @@ fabio-internal.csi-prod
 fabio-internal.mp-prod-flink
 fabio-internal.mp-prod-main
 fabrikinternalid.xml
+facebook downplays data breach in internal email
 fake_apiserverinternal_client.go
 fake_internal_container_lifecycle.go
 fallbackinternalxpointer.xml
@@ -16984,6 +16992,7 @@ internal 3way_template.xml
 internal 56kpci modem
 internal access.md
 internal affairs
+internal affairs report on ex-boston police officer patrick rose released to public
 internal auditory meatus
 internal carbon viral spiritual cyber dual diy environmental bluetooth
 internal caustic torments
@@ -42804,6 +42813,7 @@ network_kubernetes_pods.xml
 neu-prod-internal
 neu-prod-native-internal
 neugelb.private.internal
+new vulnerability in cri-o engine lets attackers escape kubernetes containers
 new-2022internal-link
 new-internallinks-teaser-folder.xml
 new-internallinksteaser-document.xml
@@ -50774,6 +50784,7 @@ simplecrmkubernetescluster-dns-46118ff6
 simpleflow_architecture_kubernetes.xml
 sinatra-internal
 sinch-internal-app-799d8cc5fc-n52zn
+singapore's controversial internal security act
 singlecertificateresolver$internaliterator.class
 singleinternalpropertytestfielditem.php
 sip.internal
