@@ -7635,8 +7635,8 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 ._workout_select.xml
 .bhmvop .segmentedcontrol-text:after{content:"blame";display:block;font-weight:600;height:0;overflow:hidden;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;visibility:hidden;}/*!sc*/
 .changeset/drop-field-path.md
-.changeset/mcp-files-update-data-schema.md
 .chatadmin/update.asp
+.claude/skills/umb-update-server-dependencies-for-minor/skill.md
 .creditunion
 .dbgjoi .segmentedcontrol-text:after{content:"code";display:block;font-weight:600;height:0;overflow:hidden;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;visibility:hidden;}/*!sc*/
 .delete
@@ -24747,7 +24747,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 /live/livingupdate
 /live/session/update
 /livebanner/update
-/liveblog/2026/6/*?*update=
+/liveblog/*?*update=
 /livekingkong/update
 /livelesson/update
 /livelessonfunction/update
@@ -43879,6 +43879,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 65385-update-algeria-provinces
 658577-update-addons.sql
 65dewdrop
+66014-fix-extension-cart-update-shipping-mode-sync
 664-update-publisher-group-rules.sql
 666union
 668-drop-inapp.sql
@@ -53067,6 +53068,7 @@ abort,abandon,belay,cancel,cease,close,conclude,cut it out,desist,determine,disc
 about-us/stakeholder-strategic-updates/stakeholder-strategic-update-event-2023
 about/*/update
 about/adminpanel/update.php
+about/governance/statements/anti-semitism-soviet-union
 about/showupdate.asp
 about_update.xml
 aboutupdate
@@ -63106,6 +63108,7 @@ app/lifecycle/_fixtures/shippingmethodupdate/test/manifest.xml
 app/lifecycle/update/abstractappupdater.php
 app/lifecycle/update/appupdater.php
 app/lifecycle/update/defaultappupdatertest.php
+app/livewire/reporttemplateselect.php
 app/locale/en_us/template/email/sales/creditmemo_update.html
 app/locale/en_us/template/email/sales/invoice_update.html
 app/locale/en_us/template/email/sales/order_update.html
@@ -72404,6 +72407,7 @@ changelog/61753-fix-support-composer-update
 changelog/61900-update-offline-payment-forms-dataform
 changelog/63793-fix-wcag-metabox-delete-contrast
 changelog/65385-update-algeria-provinces
+changelog/66014-fix-extension-cart-update-shipping-mode-sync
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
 changelog/add-tree-select-control
@@ -72793,8 +72797,10 @@ changelog/update-product-editor-tweak-attributes-layout
 changelog/update-product-editor-tweak-form-fields-gap
 changelog/update-product-editor-use-token-field-for-terms
 changelog/update-product-editor-validate-term-tokens
+changelog/update-product-filter-copy
 changelog/update-product-filter-status-availability
 changelog/update-product-list-header-layout
+changelog/update-product-publish-panel-catalog-visibility
 changelog/update-product-status-and-catalog-visibility-dropdowns
 changelog/update-product_editor_naming
 changelog/update-products-app-add-new-button
@@ -72814,7 +72820,6 @@ changelog/update-remove-product-title-underline
 changelog/update-remove-shipping-class-filter
 changelog/update-remove-tags-helper-text
 changelog/update-remove-type-from-quick-edit
-changelog/update-rename-settings-ui-entry
 changelog/update-rename-settings-ui-package
 changelog/update-rename-visual-attribute-picker
 changelog/update-replace-with-combobox
@@ -75034,6 +75039,7 @@ collectd_rsyslog_drop.conf
 collectearthupdate.xml
 collected-poems-1901-1918-by-walter-de-la-mare.html.zip
 collection-select
+collection-type/destructive-field-delete.spec.ts
 collection/delete
 collection/delete.php
 collection_card_insert.sql
@@ -77241,6 +77247,7 @@ content-select-com
 content-select-sqlmap.xml
 content-type-builder/admin/src/components/allowedtypesselect.tsx
 content-type-builder/admin/src/components/booleandefaultvalueselect.tsx
+content-type-builder/collection-type/destructive-field-delete.spec.ts
 content-type-for-delete.xml
 content-update-notification
 content-update-scheduler
@@ -77387,6 +77394,8 @@ content_topicsdelete
 content_topicsupdate
 content_townsdelete
 content_townsupdate
+content_translation.post_update.php
+content_translation/content_translation.post_update.php
 content_update.xml
 content_upload_file.xml
 content_wikisdelete
@@ -78378,6 +78387,7 @@ core/modules/content_moderation/tests/src/functional/update/defaultmoderationsta
 core/modules/content_moderation/tests/src/functional/update/entityformdisplaydependenciesupdatetest.php
 core/modules/content_moderation/tests/src/functional/update/moderatedcontentviewlatestrevisionupdatetest.php
 core/modules/content_moderation/tests/src/functional/update/moderationstateviewsfieldupdatetest.php
+core/modules/content_translation/content_translation.post_update.php
 core/modules/content_translation/src/tests/update
 core/modules/content_translation/src/tests/update/contenttranslationupdatetest.php
 core/modules/content_translation/tests/src/functional/update
@@ -87838,7 +87848,6 @@ departmentsupdate
 departmenttypedelete
 departmentupdate
 depdrop.php
-dependency-extraction-webpack-plugin/changelog/update-rename-settings-ui-entry
 dependency/_files/layout_handle_update.xml
 dependencyinjection/update.xml
 dependencyupdate
@@ -88057,6 +88066,7 @@ destinationupdate
 destinator update 3
 destinycreditunion
 destroydrop-com
+destructive-field-delete.spec.ts
 destruktionsanstalter
 desunion
 detail-update
@@ -89108,6 +89118,7 @@ docs/update.txt
 docs/user-guide/update-demo/local/angular.min.js
 docs/user-guide/update-demo/local/index.html
 docs/user-guide/update-demo/local/script.js
+docs/wc-cli/wc-cli-commands/wc-update.md
 docs/woo-marketplace/product-update-guidelines.md
 doctmpl.delete
 doctor/walter-mendoza
@@ -89618,6 +89629,7 @@ drag-drop-listing
 drag-drop-menu-items
 drag-drop-pricing-tables-builder
 drag-drop-selected-content.xml
+drag-drop-shallow.spec.ts
 drag-drop-tree
 drag-drop-validation.xml
 drag-drop-webkit-mobile
@@ -91180,6 +91192,7 @@ e2e/test-plugins/blocks/extension-cart-update.php
 e2e/test-plugins/blocks/update-price.php
 e2e/tests/admin/members/multiselect-filters.test.ts
 e2e/tests/content-manager/conditional-fields/boolean-conditional-select-relation.spec.ts
+e2e/tests/content-type-builder/collection-type/destructive-field-delete.spec.ts
 e2e/tests/email-editor/update-propagation/backward-compat.spec.ts
 e2e/tests/email-editor/update-propagation/core-flows.spec.ts
 e2e/tests/email-editor/update-propagation/helpers/classifications.ts
@@ -91190,6 +91203,7 @@ e2e/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
 e2e/tests/email-editor/update-propagation/helpers/tracks-spy.ts
 e2e/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
 e2e/tests/email-editor/update-propagation/scope.spec.ts
+e2e/tests/media-library/future/drag-drop-shallow.spec.ts
 e2e/tests/product/product-delete.spec.ts
 e2e/tests/product/update-variations.spec.ts
 e2e/tests/settings/rbac/actions/delete-role.spec.ts
@@ -98707,6 +98721,7 @@ fusion,anschluss,addition,admixture,affiliation,agglomeration,aggregation,agreem
 fussschalter
 futeupdate-13730204208
 futility,absurdity,aimlessness,bankruptcy,big deal,blank future,bleak outlook,bootlessness,counterproductiveness,counterproductivity,dead letter,defeat,emptiness,empty sound,failure,fatuity,fecklessness,flimsiness,foolishness,frivolity,frivolousness,fruitlessness,hollowness,hopelessness,idleness,ill success,impoliticalness,impoliticness,impossibility,impotence,inadvisability,inanity,inappropriateness,inaptitude,incongruity,inconvenience,inconveniency,ineffectiveness,ineffectuality,ineffectualness,inefficaciousness,inefficacy,ineptitude,inexpectation,inexpedience,inexpediency,infelicity,inopportuneness,insignificance,invalidity,levity,lightness,losing game,meaninglessness,mere noise,no go,no hope,noise,nonaccomplishment,nonsensicality,nonsuccess,not a prayer,nugacity,nullity,otiosity,phatic communion,pointlessness,profitlessness,purposelessness,rat race,senselessness,shallowness,silliness,slenderness,slightness,small hope,successlessness,superficiality,the absurd,triflingness,triteness,triviality,trivialness,undesirability,unfitness,unfittingness,unfortunateness,unhopefulness,unmeaningness,unmeetness,unproductiveness,unprofitability,unprofitableness,unseasonableness,unseemliness,unsignificancy,unsuccess,unsuccessfulness,unsuitability,untimeliness,unwiseness,uselessness,vacuity,valuelessness,vanity,vapidity,vicious circle,worthlessness,wrongness
+future/drag-drop-shallow.spec.ts
 futuretense/apps/adminforms/aclmgt/delete
 futuretense/apps/adminforms/usermgt/dodelete
 fuzdrop
@@ -99924,6 +99939,10 @@ gotg-1741-update-github-actions-with-staging-and
 goto/double_select.tpl
 gotoreunion.net
 gov_exec
+government/agencies-departments-offices-redirect/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
+government/agencies-departments-offices-redirect/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
+government/agencies-departments-offices-redirect/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
+government/agencies-departments-offices-redirect/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices-directory/clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/denver-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
@@ -99958,6 +99977,13 @@ government/agencies-departments-offices/agencies-departments-offices-directory/r
 government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/seasonal-programs/copy-of-leafdrop-1
 government/agencies-departments-offices/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
+government/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
+government/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
+government/departments/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
+government/departments/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
+government/departments/office-of-the-clerk-recorder/marriages-and-civil-unions/marriage-and-civil-union-rules-and-guidance
+government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-and-guidance
+government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government_drop
 governmentcompanyupdate
 governmentinfoupdate
@@ -107338,7 +107364,6 @@ js/data/utils/update-state.ts
 js/date/changelog/dev-ci-lint-monorepo-job-update
 js/delete-user-account.js
 js/delete-with-confirm.js
-js/dependency-extraction-webpack-plugin/changelog/update-rename-settings-ui-entry
 js/dist-typings/common/components/multiselect.d.ts
 js/dist-typings/common/components/select.d.ts
 js/dist/5.1.0a1/bundle.forms.apphookselect.min.js
@@ -110769,6 +110794,8 @@ liveupdate.symantecliveupdate.com
 liveupdate.xml
 liveupdate/
 liveupdate\luallres.dll
+livewire/report-template-select.blade.php
+livewire/reporttemplateselect.php
 livewire/update
 livingroomdelete
 livingroomsdelete
@@ -113013,7 +113040,6 @@ mcl_cmd_route_delete.xml
 mcl_cmd_scheduler_delete.xml
 mconmondaywebhookupdate
 mconupdate
-mcp-files-update-data-schema.md
 mcqualter
 mcreunion.org
 mcs-drop-akse1d545429d-7ac8d1d7
@@ -113112,6 +113138,7 @@ medexec-com
 medi-select-ca
 media-center/119/voluntary-recall----select-sterile-tray-kits
 media-insert-from-themes-dir
+media-library/future/drag-drop-shallow.spec.ts
 media-select-bulk-downloader
 media-share-drop-down-menu
 media.post_update.php
@@ -115208,6 +115235,7 @@ modules/content/include/onupdate.inc.php
 modules/content/notification_update.php
 modules/content_moderation/content_moderation.post_update.php
 modules/content_moderation/tests/src/functional/update/contentmoderationstateindexupdatepathtest.php
+modules/content_translation/content_translation.post_update.php
 modules/contentblocks/actions/delete.php
 modules/contextual/contextual.post_update.php
 modules/contextual/images/gear-select.png
@@ -118262,6 +118290,8 @@ negativhalter
 negotiator,agent,arbitrator,bargainer,broker,business agent,cardholder,connection,contact,deputy,front,front man,go-between,interagent,interceder,intercessor,intermediary,intermediate,intermediate agent,intermediator,intermedium,internuncio,interpleader,intervener,interventionist,interventor,labor organizer,mediator,medium,middleman,mouthpiece,negotiant,negotiatress,negotiatrix,ombudsman,organizer,shop steward,spokesman,spokeswoman,trade unionist,union member,union officer,unionist
 neighbor,abut,abut on,abutter,acquaintance,adjacent,adjoin,adjoiner,adjoining,advocate,alter ego,appose,backer,be contiguous,be in contact,best friend,border,border on,borderer,bordering,bosom friend,bring near,brother,butt,bystander,casual acquaintance,close acquaintance,close friend,communicate,confidant,confidante,conjoin,connect,connecting,conterminous,contiguous,coterminous,end to end,endways,endwise,face to face,familiar,favorer,fellow,fellow creature,fellowman,friend,immediate,immediate neighbor,inseparable friend,intimate,join,joined,juxtapose,juxtaposed,juxtaposit,juxtapositional,juxtapositive,lie by,line,looker-on,lover,march,neighborer,neighboring,next,onlooker,other self,partisan,pickup,put with,repository,stand by,supporter,sympathizer,tangent,touch,verge,verge upon,well-wisher
 neighbor-update-source.xml.i
+neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-gallery
+neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-image-gallery
 neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/new-page
 neighborhoodselect
 neighborhoodupdate
@@ -118613,6 +118643,7 @@ newslettersdelete
 newsletterssubscribersdelete
 newslettersubscription/_createorupdate.cshtml
 newslettersubscriptiontype/_createorupdate.cshtml
+newspapers/n/alter-net
 newsroomfeeddelete
 newsroomsettingsupdate
 newsroomstylepreviewupdate
@@ -122584,7 +122615,6 @@ packages/js/customer-effort-score/changelog/dev-ci-lint-monorepo-job-update
 packages/js/data/changelog/update-settings-payments-type-for-onboarding-supported
 packages/js/data/src/use-select-with-refresh.ts
 packages/js/date/changelog/dev-ci-lint-monorepo-job-update
-packages/js/dependency-extraction-webpack-plugin/changelog/update-rename-settings-ui-entry
 packages/js/email-editor/src/components/template-select/async.ts
 packages/js/email-editor/src/components/template-select/index.ts
 packages/js/email-editor/src/components/template-select/select-modal.tsx
@@ -125267,6 +125297,7 @@ plugins/woocommerce/bin/post-update.sh
 plugins/woocommerce/changelog/61900-update-offline-payment-forms-dataform
 plugins/woocommerce/changelog/63793-fix-wcag-metabox-delete-contrast
 plugins/woocommerce/changelog/65385-update-algeria-provinces
+plugins/woocommerce/changelog/66014-fix-extension-cart-update-shipping-mode-sync
 plugins/woocommerce/changelog/fix-wc-update-10802-missing-orders-meta-table-check
 plugins/woocommerce/changelog/hpos-orders-status-union-rewrite
 plugins/woocommerce/changelog/testops-189-product-reviews-delete-flake
@@ -125278,7 +125309,9 @@ plugins/woocommerce/changelog/update-cssmin-clean-css-5
 plugins/woocommerce/changelog/update-e2e-core-serial-parallel-projects
 plugins/woocommerce/changelog/update-email-verification-magic-link
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
+plugins/woocommerce/changelog/update-product-filter-copy
 plugins/woocommerce/changelog/update-product-filter-status-availability
+plugins/woocommerce/changelog/update-product-publish-panel-catalog-visibility
 plugins/woocommerce/changelog/update-products-control-ts
 plugins/woocommerce/changelog/update-rename-visual-attribute-picker
 plugins/woocommerce/changelog/update-swatches-improvements
@@ -132117,6 +132150,7 @@ repo-update
 repobranchdelete
 repocheckoutupdate
 report-bulk-delete.blade.php
+report-template-select.blade.php
 report/customsql/categorydelete.php
 report/customsql/delete.php
 report_delete
@@ -132164,6 +132198,7 @@ reportspageupdate.html
 reportsupdate
 reporttagdelete
 reporttemplatedelete
+reporttemplateselect.php
 reporttemplateupdate
 reporttypedelete
 reporttypeupdate
@@ -132778,6 +132813,7 @@ resources/views/forum/topics/delete.blade.php
 resources/views/hardware/bulk-delete.blade.php
 resources/views/helper/graph_dateselect.html.twig
 resources/views/helper/theme_select.html.twig
+resources/views/livewire/report-template-select.blade.php
 resources/views/locations/bulk-delete.blade.php
 resources/views/modals/modal-delete.blade.php
 resources/views/modals/partials/categories-select.blade.php
@@ -143890,6 +143926,7 @@ skilldelete
 skilllevelupframe_update
 skillplateupdate
 skillreflectiondelete
+skills/umb-update-server-dependencies-for-minor/skill.md
 skills_select.xml
 skillscountforselect
 skillselect
@@ -152160,6 +152197,7 @@ tests/composer/test/autoload/fixtures/autoload_files_target_dir.php
 tests/console/selfupdate/newversioncheckertest.php
 tests/console/update/check_test.php
 tests/content-manager/conditional-fields/boolean-conditional-select-relation.spec.ts
+tests/content-type-builder/collection-type/destructive-field-delete.spec.ts
 tests/core/database/stub/select.php
 tests/core/update/updatehookregistrytest.php
 tests/core/update/updateorderingtest.php
@@ -152193,6 +152231,7 @@ tests/e2e/plugins/update-price.php
 tests/e2e/test-plugins/blocks/extension-cart-update.php
 tests/e2e/test-plugins/blocks/update-price.php
 tests/e2e/tests/content-manager/conditional-fields/boolean-conditional-select-relation.spec.ts
+tests/e2e/tests/content-type-builder/collection-type/destructive-field-delete.spec.ts
 tests/e2e/tests/email-editor/update-propagation/backward-compat.spec.ts
 tests/e2e/tests/email-editor/update-propagation/core-flows.spec.ts
 tests/e2e/tests/email-editor/update-propagation/helpers/classifications.ts
@@ -152203,6 +152242,7 @@ tests/e2e/tests/email-editor/update-propagation/helpers/test-helper-plugin.ts
 tests/e2e/tests/email-editor/update-propagation/helpers/tracks-spy.ts
 tests/e2e/tests/email-editor/update-propagation/round-trip-idempotency.spec.ts
 tests/e2e/tests/email-editor/update-propagation/scope.spec.ts
+tests/e2e/tests/media-library/future/drag-drop-shallow.spec.ts
 tests/e2e/tests/product/product-delete.spec.ts
 tests/e2e/tests/product/update-variations.spec.ts
 tests/e2e/tests/settings/rbac/actions/delete-role.spec.ts
@@ -152421,6 +152461,7 @@ tests/legacy/unit-tests/woocommerce-admin/db-updates/class-wc-tests-update-is-re
 tests/lib/mage/multiselect.test.js
 tests/lib/php/depend/code/astforupdate.php
 tests/lib/rules/no-delete-var.js
+tests/media-library/future/drag-drop-shallow.spec.ts
 tests/mink/features/bootstrap/page/addressdelete.php
 tests/mock-license-server/src/routes/update.ts
 tests/modules/ajax_test/js/insert-ajax.es6.js
@@ -158628,6 +158669,7 @@ ulist-jaccard.2.update.sqlpp
 ulrich_walter.xml
 ultraselect
 umanit-update-urls
+umb-update-server-dependencies-for-minor/skill.md
 umbraco cms/umbraco/actions/delete.aspx
 umbraco dev/umbraco/actions/delete.aspx
 umbraco test/umbraco/actions/delete.aspx
@@ -166552,10 +166594,12 @@ update-product-editor-tweak-attributes-layout
 update-product-editor-tweak-form-fields-gap
 update-product-editor-use-token-field-for-terms
 update-product-editor-validate-term-tokens
+update-product-filter-copy
 update-product-filter-status-availability
 update-product-from-store-products-no-quantity.sql
 update-product-from-store-products.sql
 update-product-list-header-layout
+update-product-publish-panel-catalog-visibility
 update-product-status-and-catalog-visibility-dropdowns
 update-product.sql
 update-product_editor_naming
@@ -167150,7 +167194,6 @@ update-remove-tags-helper-text
 update-remove-type-from-quick-edit
 update-removeforbach.xml
 update-removegrenoble.xml
-update-rename-settings-ui-entry
 update-rename-settings-ui-package
 update-rename-visual-attribute-picker
 update-renaming-tool.xml
@@ -173429,6 +173472,7 @@ views/languages/update.php
 views/leads/update.js.haml
 views/leads/update.js.haml_spec.rb
 views/listpriceupdate.php
+views/livewire/report-template-select.blade.php
 views/location/update.php
 views/locations/bulk-delete.blade.php
 views/log/update.php
@@ -174674,6 +174718,8 @@ wc-admin-update-functions.php
 wc-brands-enhanced-select.js
 wc-bulk-product-delete
 wc-city-select
+wc-cli-commands/wc-update.md
+wc-cli/wc-cli-commands/wc-update.md
 wc-delete-orders
 wc-delete-product-images
 wc-enhanced-select.js
@@ -174683,6 +174729,7 @@ wc-state-update
 wc-update-all-prices-to-excl-vat
 wc-update-functions-test.php
 wc-update-functions.php
+wc-update.md
 wccucreditunion-coop
 wcupdate.exe
 wdelete
@@ -176191,6 +176238,7 @@ woocommerce/bin/post-update.sh
 woocommerce/changelog/61900-update-offline-payment-forms-dataform
 woocommerce/changelog/63793-fix-wcag-metabox-delete-contrast
 woocommerce/changelog/65385-update-algeria-provinces
+woocommerce/changelog/66014-fix-extension-cart-update-shipping-mode-sync
 woocommerce/changelog/fix-wc-update-10802-missing-orders-meta-table-check
 woocommerce/changelog/hpos-orders-status-union-rewrite
 woocommerce/changelog/testops-189-product-reviews-delete-flake
@@ -176202,7 +176250,9 @@ woocommerce/changelog/update-cssmin-clean-css-5
 woocommerce/changelog/update-e2e-core-serial-parallel-projects
 woocommerce/changelog/update-email-verification-magic-link
 woocommerce/changelog/update-pay-506-always-show-payment-radio
+woocommerce/changelog/update-product-filter-copy
 woocommerce/changelog/update-product-filter-status-availability
+woocommerce/changelog/update-product-publish-panel-catalog-visibility
 woocommerce/changelog/update-products-control-ts
 woocommerce/changelog/update-rename-visual-attribute-picker
 woocommerce/changelog/update-swatches-improvements
@@ -177845,6 +177895,7 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
+wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments

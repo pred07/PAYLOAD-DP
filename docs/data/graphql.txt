@@ -2157,6 +2157,13 @@ api/src/services/graphql/resolvers/query.ts
 api/src/services/graphql/resolvers/system-admin.ts
 api/src/services/graphql/resolvers/system-global.ts
 api/src/services/graphql/resolvers/system.ts
+api/src/services/graphql/rules/block-field-suggestions.test.ts
+api/src/services/graphql/rules/block-field-suggestions.ts
+api/src/services/graphql/rules/get-validation-rules.test.ts
+api/src/services/graphql/rules/get-validation-rules.ts
+api/src/services/graphql/rules/index.ts
+api/src/services/graphql/rules/limit-sensitive-mutations.test.ts
+api/src/services/graphql/rules/limit-sensitive-mutations.ts
 api/src/services/graphql/schema-cache.ts
 api/src/services/graphql/schema/get-types.test.ts
 api/src/services/graphql/schema/get-types.ts
@@ -2193,6 +2200,7 @@ api/src/services/graphql/utils/sanitize-gql-schema.ts
 api/src/utils/get-graphql-query-and-variables.test.ts
 api/src/utils/get-graphql-query-and-variables.ts
 api/src/utils/get-graphql-type.ts
+api/src/websocket/controllers/graphql.test.ts
 api/src/websocket/controllers/graphql.ts
 api/stores/saga-aqua/graphql
 api/study360/graphql
@@ -3748,6 +3756,9 @@ app/frontend/apps/desktop/pages/ticket/graphql/queries/linklist.mocks.ts
 app/frontend/apps/desktop/pages/ticket/graphql/queries/templates.api.ts
 app/frontend/apps/desktop/pages/ticket/graphql/queries/templates.graphql
 app/frontend/apps/desktop/pages/ticket/graphql/queries/templates.mocks.ts
+app/frontend/apps/desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.api.ts
+app/frontend/apps/desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.graphql
+app/frontend/apps/desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.mocks.ts
 app/frontend/apps/desktop/pages/ticket/graphql/queries/ticketattachments.api.ts
 app/frontend/apps/desktop/pages/ticket/graphql/queries/ticketattachments.graphql
 app/frontend/apps/desktop/pages/ticket/graphql/queries/ticketattachments.mocks.ts
@@ -3781,6 +3792,9 @@ app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/templateupdates.moc
 app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.api.ts
 app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.graphql
 app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.mocks.ts
+app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.api.ts
+app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.graphql
+app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.mocks.ts
 app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.api.ts
 app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.graphql
 app/frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.mocks.ts
@@ -4141,6 +4155,7 @@ app/frontend/shared/graphql/queries/session.mocks.ts
 app/frontend/shared/graphql/queries/translations.api.ts
 app/frontend/shared/graphql/queries/translations.graphql
 app/frontend/shared/graphql/queries/translations.mocks.ts
+app/frontend/shared/graphql/schema-types.ts
 app/frontend/shared/graphql/subscriptions/aitexttoolupdates.api.ts
 app/frontend/shared/graphql/subscriptions/aitexttoolupdates.graphql
 app/frontend/shared/graphql/subscriptions/aitexttoolupdates.mocks.ts
@@ -4380,6 +4395,7 @@ app/graphql/gql/queries/system/setup/info.rb
 app/graphql/gql/queries/templates.rb
 app/graphql/gql/queries/text_module/suggestions.rb
 app/graphql/gql/queries/ticket.rb
+app/graphql/gql/queries/ticket/ai/related_knowledge_base_answers.rb
 app/graphql/gql/queries/ticket/articles.rb
 app/graphql/gql/queries/ticket/attachments.rb
 app/graphql/gql/queries/ticket/checklist.rb
@@ -4433,6 +4449,7 @@ app/graphql/gql/subscriptions/organization_updates.rb
 app/graphql/gql/subscriptions/public_link_updates.rb
 app/graphql/gql/subscriptions/push_messages.rb
 app/graphql/gql/subscriptions/template_updates.rb
+app/graphql/gql/subscriptions/ticket/ai/related_knowledge_base_answers_updates.rb
 app/graphql/gql/subscriptions/ticket/ai_assistance/summary_updates.rb
 app/graphql/gql/subscriptions/ticket/article_updates.rb
 app/graphql/gql/subscriptions/ticket/by_customer_updates.rb
@@ -4662,6 +4679,8 @@ app/graphql/gql/types/system_setup_info_type.rb
 app/graphql/gql/types/tags_interface.rb
 app/graphql/gql/types/template_type.rb
 app/graphql/gql/types/text_module_type.rb
+app/graphql/gql/types/ticket/ai/related_knowledge_base_answer_type.rb
+app/graphql/gql/types/ticket/ai/related_knowledge_base_answers_result_type.rb
 app/graphql/gql/types/ticket/ai_assistance/summary_type.rb
 app/graphql/gql/types/ticket/article/highlighted_text_type.rb
 app/graphql/gql/types/ticket/article/media_error_state_type.rb
@@ -5066,6 +5085,9 @@ apps/desktop/pages/ticket/graphql/queries/linklist.mocks.ts
 apps/desktop/pages/ticket/graphql/queries/templates.api.ts
 apps/desktop/pages/ticket/graphql/queries/templates.graphql
 apps/desktop/pages/ticket/graphql/queries/templates.mocks.ts
+apps/desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.api.ts
+apps/desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.graphql
+apps/desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.mocks.ts
 apps/desktop/pages/ticket/graphql/queries/ticketattachments.api.ts
 apps/desktop/pages/ticket/graphql/queries/ticketattachments.graphql
 apps/desktop/pages/ticket/graphql/queries/ticketattachments.mocks.ts
@@ -5099,6 +5121,9 @@ apps/desktop/pages/ticket/graphql/subscriptions/templateupdates.mocks.ts
 apps/desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.api.ts
 apps/desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.graphql
 apps/desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.mocks.ts
+apps/desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.api.ts
+apps/desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.graphql
+apps/desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.mocks.ts
 apps/desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.api.ts
 apps/desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.graphql
 apps/desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.mocks.ts
@@ -6976,6 +7001,7 @@ controller/abstractgraphqlcachetest.php
 controller/graphql.php
 controller/graphqlcontrollertest.php
 controller/plugin/graphql.php
+controllers/graphql.test.ts
 controllers/graphql.ts
 controllers/graphql_controller.rb
 controllers/graphqlcontroller.php
@@ -7613,6 +7639,9 @@ desktop/pages/ticket/graphql/queries/linklist.mocks.ts
 desktop/pages/ticket/graphql/queries/templates.api.ts
 desktop/pages/ticket/graphql/queries/templates.graphql
 desktop/pages/ticket/graphql/queries/templates.mocks.ts
+desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.api.ts
+desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.graphql
+desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.mocks.ts
 desktop/pages/ticket/graphql/queries/ticketattachments.api.ts
 desktop/pages/ticket/graphql/queries/ticketattachments.graphql
 desktop/pages/ticket/graphql/queries/ticketattachments.mocks.ts
@@ -7646,6 +7675,9 @@ desktop/pages/ticket/graphql/subscriptions/templateupdates.mocks.ts
 desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.api.ts
 desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.graphql
 desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.mocks.ts
+desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.api.ts
+desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.graphql
+desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.mocks.ts
 desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.api.ts
 desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.graphql
 desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.mocks.ts
@@ -9810,6 +9842,9 @@ frontend/apps/desktop/pages/ticket/graphql/queries/linklist.mocks.ts
 frontend/apps/desktop/pages/ticket/graphql/queries/templates.api.ts
 frontend/apps/desktop/pages/ticket/graphql/queries/templates.graphql
 frontend/apps/desktop/pages/ticket/graphql/queries/templates.mocks.ts
+frontend/apps/desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.api.ts
+frontend/apps/desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.graphql
+frontend/apps/desktop/pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.mocks.ts
 frontend/apps/desktop/pages/ticket/graphql/queries/ticketattachments.api.ts
 frontend/apps/desktop/pages/ticket/graphql/queries/ticketattachments.graphql
 frontend/apps/desktop/pages/ticket/graphql/queries/ticketattachments.mocks.ts
@@ -9843,6 +9878,9 @@ frontend/apps/desktop/pages/ticket/graphql/subscriptions/templateupdates.mocks.t
 frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.api.ts
 frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.graphql
 frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.mocks.ts
+frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.api.ts
+frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.graphql
+frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.mocks.ts
 frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.api.ts
 frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.graphql
 frontend/apps/desktop/pages/ticket/graphql/subscriptions/ticketchecklistupdates.mocks.ts
@@ -10203,6 +10241,7 @@ frontend/shared/graphql/queries/session.mocks.ts
 frontend/shared/graphql/queries/translations.api.ts
 frontend/shared/graphql/queries/translations.graphql
 frontend/shared/graphql/queries/translations.mocks.ts
+frontend/shared/graphql/schema-types.ts
 frontend/shared/graphql/subscriptions/aitexttoolupdates.api.ts
 frontend/shared/graphql/subscriptions/aitexttoolupdates.graphql
 frontend/shared/graphql/subscriptions/aitexttoolupdates.mocks.ts
@@ -10603,6 +10642,7 @@ graphql.staging.ott
 graphql.svg
 graphql.test
 graphql.test.api.js
+graphql.test.ts
 graphql.ts
 graphql.tsx
 graphql.txt
@@ -11419,6 +11459,8 @@ graphql/gql/queries/templates_spec.rb
 graphql/gql/queries/text_module/suggestions.rb
 graphql/gql/queries/text_module/suggestions_spec.rb
 graphql/gql/queries/ticket.rb
+graphql/gql/queries/ticket/ai/related_knowledge_base_answers.rb
+graphql/gql/queries/ticket/ai/related_knowledge_base_answers_spec.rb
 graphql/gql/queries/ticket/articles.rb
 graphql/gql/queries/ticket/articles_spec.rb
 graphql/gql/queries/ticket/attachments.rb
@@ -11520,6 +11562,8 @@ graphql/gql/subscriptions/push_messages.rb
 graphql/gql/subscriptions/push_messages_spec.rb
 graphql/gql/subscriptions/template_updates.rb
 graphql/gql/subscriptions/template_updates_spec.rb
+graphql/gql/subscriptions/ticket/ai/related_knowledge_base_answers_updates.rb
+graphql/gql/subscriptions/ticket/ai/related_knowledge_base_answers_updates_spec.rb
 graphql/gql/subscriptions/ticket/ai_assistance/summary_updates.rb
 graphql/gql/subscriptions/ticket/ai_assistance/summary_updates_spec.rb
 graphql/gql/subscriptions/ticket/article_updates.rb
@@ -11772,6 +11816,8 @@ graphql/gql/types/system_setup_info_type.rb
 graphql/gql/types/tags_interface.rb
 graphql/gql/types/template_type.rb
 graphql/gql/types/text_module_type.rb
+graphql/gql/types/ticket/ai/related_knowledge_base_answer_type.rb
+graphql/gql/types/ticket/ai/related_knowledge_base_answers_result_type.rb
 graphql/gql/types/ticket/ai_assistance/summary_type.rb
 graphql/gql/types/ticket/article/highlighted_text_type.rb
 graphql/gql/types/ticket/article/media_error_state_type.rb
@@ -12482,6 +12528,9 @@ graphql/queries/ticket.mocks.ts
 graphql/queries/ticket/articles.api.ts
 graphql/queries/ticket/articles.graphql
 graphql/queries/ticket/articles.mocks.ts
+graphql/queries/ticketairelatedknowledgebaseanswers.api.ts
+graphql/queries/ticketairelatedknowledgebaseanswers.graphql
+graphql/queries/ticketairelatedknowledgebaseanswers.mocks.ts
 graphql/queries/ticketattachments.api.ts
 graphql/queries/ticketattachments.graphql
 graphql/queries/ticketattachments.mocks.ts
@@ -12834,6 +12883,13 @@ graphql/responsecontainserrorsexception.php
 graphql/review/createproductreviewstest.php
 graphql/review/getproductreviewstest.php
 graphql/rollup.config.mjs
+graphql/rules/block-field-suggestions.test.ts
+graphql/rules/block-field-suggestions.ts
+graphql/rules/get-validation-rules.test.ts
+graphql/rules/get-validation-rules.ts
+graphql/rules/index.ts
+graphql/rules/limit-sensitive-mutations.test.ts
+graphql/rules/limit-sensitive-mutations.ts
 graphql/sales/_files/address_data.php
 graphql/sales/_files/customer_order_with_multiple_shipments.php
 graphql/sales/_files/customer_order_with_multiple_shipments_rollback.php
@@ -12889,6 +12945,7 @@ graphql/salesrule/cartrulesstoreconfigtest.php
 graphql/salesrule/getappliedcartrulestest.php
 graphql/schema
 graphql/schema-cache.ts
+graphql/schema-types.ts
 graphql/schema.d.ts
 graphql/schema.json
 graphql/schema.php
@@ -13151,6 +13208,9 @@ graphql/subscriptions/templateupdates.mocks.ts
 graphql/subscriptions/ticketaiassistancesummaryupdates.api.ts
 graphql/subscriptions/ticketaiassistancesummaryupdates.graphql
 graphql/subscriptions/ticketaiassistancesummaryupdates.mocks.ts
+graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.api.ts
+graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.graphql
+graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.mocks.ts
 graphql/subscriptions/ticketarticlesupdates.api.ts
 graphql/subscriptions/ticketarticlesupdates.graphql
 graphql/subscriptions/ticketarticlesupdates.mocks.ts
@@ -18403,6 +18463,9 @@ pages/ticket/graphql/queries/templates.api.ts
 pages/ticket/graphql/queries/templates.graphql
 pages/ticket/graphql/queries/templates.mocks.ts
 pages/ticket/graphql/queries/ticket.mocks.ts
+pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.api.ts
+pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.graphql
+pages/ticket/graphql/queries/ticketairelatedknowledgebaseanswers.mocks.ts
 pages/ticket/graphql/queries/ticketattachments.api.ts
 pages/ticket/graphql/queries/ticketattachments.graphql
 pages/ticket/graphql/queries/ticketattachments.mocks.ts
@@ -18439,6 +18502,9 @@ pages/ticket/graphql/subscriptions/templateupdates.mocks.ts
 pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.api.ts
 pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.graphql
 pages/ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.mocks.ts
+pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.api.ts
+pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.graphql
+pages/ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.mocks.ts
 pages/ticket/graphql/subscriptions/ticketchecklistupdates.api.ts
 pages/ticket/graphql/subscriptions/ticketchecklistupdates.graphql
 pages/ticket/graphql/subscriptions/ticketchecklistupdates.mocks.ts
@@ -19227,6 +19293,7 @@ queries/templates.graphql
 queries/textmodule/textmodulesuggestions.graphql
 queries/ticket.graphql
 queries/ticket/articles.graphql
+queries/ticketairelatedknowledgebaseanswers.graphql
 queries/ticketattachments.graphql
 queries/ticketchecklist.graphql
 queries/ticketexternalreferencesidoitobjectlist.graphql
@@ -19724,6 +19791,13 @@ services/graphql/resolvers/query.ts
 services/graphql/resolvers/system-admin.ts
 services/graphql/resolvers/system-global.ts
 services/graphql/resolvers/system.ts
+services/graphql/rules/block-field-suggestions.test.ts
+services/graphql/rules/block-field-suggestions.ts
+services/graphql/rules/get-validation-rules.test.ts
+services/graphql/rules/get-validation-rules.ts
+services/graphql/rules/index.ts
+services/graphql/rules/limit-sensitive-mutations.test.ts
+services/graphql/rules/limit-sensitive-mutations.ts
 services/graphql/schema-cache.ts
 services/graphql/schema/get-types.test.ts
 services/graphql/schema/get-types.ts
@@ -20085,6 +20159,7 @@ shared/graphql/queries/session.mocks.ts
 shared/graphql/queries/translations.api.ts
 shared/graphql/queries/translations.graphql
 shared/graphql/queries/translations.mocks.ts
+shared/graphql/schema-types.ts
 shared/graphql/subscriptions/aitexttoolupdates.api.ts
 shared/graphql/subscriptions/aitexttoolupdates.graphql
 shared/graphql/subscriptions/aitexttoolupdates.mocks.ts
@@ -20272,6 +20347,7 @@ spec/graphql/gql/queries/system/import/state_spec.rb
 spec/graphql/gql/queries/system/setup/info_spec.rb
 spec/graphql/gql/queries/templates_spec.rb
 spec/graphql/gql/queries/text_module/suggestions_spec.rb
+spec/graphql/gql/queries/ticket/ai/related_knowledge_base_answers_spec.rb
 spec/graphql/gql/queries/ticket/articles_spec.rb
 spec/graphql/gql/queries/ticket/attachments_spec.rb
 spec/graphql/gql/queries/ticket/checklist_spec.rb
@@ -20320,6 +20396,7 @@ spec/graphql/gql/subscriptions/organization_updates_spec.rb
 spec/graphql/gql/subscriptions/public_link_updates_spec.rb
 spec/graphql/gql/subscriptions/push_messages_spec.rb
 spec/graphql/gql/subscriptions/template_updates_spec.rb
+spec/graphql/gql/subscriptions/ticket/ai/related_knowledge_base_answers_updates_spec.rb
 spec/graphql/gql/subscriptions/ticket/ai_assistance/summary_updates_spec.rb
 spec/graphql/gql/subscriptions/ticket/article_updates_spec.rb
 spec/graphql/gql/subscriptions/ticket/by_customer_updates_spec.rb
@@ -20554,6 +20631,13 @@ src/services/graphql/resolvers/query.ts
 src/services/graphql/resolvers/system-admin.ts
 src/services/graphql/resolvers/system-global.ts
 src/services/graphql/resolvers/system.ts
+src/services/graphql/rules/block-field-suggestions.test.ts
+src/services/graphql/rules/block-field-suggestions.ts
+src/services/graphql/rules/get-validation-rules.test.ts
+src/services/graphql/rules/get-validation-rules.ts
+src/services/graphql/rules/index.ts
+src/services/graphql/rules/limit-sensitive-mutations.test.ts
+src/services/graphql/rules/limit-sensitive-mutations.ts
 src/services/graphql/schema-cache.ts
 src/services/graphql/schema/get-types.test.ts
 src/services/graphql/schema/get-types.ts
@@ -20603,6 +20687,7 @@ src/utils/get-graphql-query-and-variables.ts
 src/utils/get-graphql-type.ts
 src/web/assets/pluginstore/dist/images/graphql.svg
 src/web/assets/pluginstore/src/images/graphql.svg
+src/websocket/controllers/graphql.test.ts
 src/websocket/controllers/graphql.ts
 ssgraphql
 stage-graphql
@@ -20814,6 +20899,7 @@ subscriptions/pushmessages.graphql
 subscriptions/searchtaskbaritemstateupdates.graphql
 subscriptions/templateupdates.graphql
 subscriptions/ticketaiassistancesummaryupdates.graphql
+subscriptions/ticketairelatedknowledgebaseanswersupdates.graphql
 subscriptions/ticketarticlesupdates.graphql
 subscriptions/ticketbulkupdatestatusupdates.graphql
 subscriptions/ticketbycustomerupdates.graphql
@@ -22537,6 +22623,9 @@ ticket/graphql/queries/ticket.mocks.ts
 ticket/graphql/queries/ticket/articles.api.ts
 ticket/graphql/queries/ticket/articles.graphql
 ticket/graphql/queries/ticket/articles.mocks.ts
+ticket/graphql/queries/ticketairelatedknowledgebaseanswers.api.ts
+ticket/graphql/queries/ticketairelatedknowledgebaseanswers.graphql
+ticket/graphql/queries/ticketairelatedknowledgebaseanswers.mocks.ts
 ticket/graphql/queries/ticketattachments.api.ts
 ticket/graphql/queries/ticketattachments.graphql
 ticket/graphql/queries/ticketattachments.mocks.ts
@@ -22597,6 +22686,9 @@ ticket/graphql/subscriptions/templateupdates.mocks.ts
 ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.api.ts
 ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.graphql
 ticket/graphql/subscriptions/ticketaiassistancesummaryupdates.mocks.ts
+ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.api.ts
+ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.graphql
+ticket/graphql/subscriptions/ticketairelatedknowledgebaseanswersupdates.mocks.ts
 ticket/graphql/subscriptions/ticketarticlesupdates.api.ts
 ticket/graphql/subscriptions/ticketarticlesupdates.graphql
 ticket/graphql/subscriptions/ticketarticlesupdates.mocks.ts
@@ -22639,6 +22731,8 @@ ticket/ticketpopoverwithtrigger/graphql/queries/ticketinfoforpopover.mocks.ts
 ticketaiassistanceenqueueknowledgebaseanswer.graphql
 ticketaiassistancesummarize.graphql
 ticketaiassistancesummaryupdates.graphql
+ticketairelatedknowledgebaseanswers.graphql
+ticketairelatedknowledgebaseanswersupdates.graphql
 ticketarticleattributes.graphql
 ticketarticleemailforwardreply.graphql
 ticketarticleretrymediadownload.graphql
@@ -23420,6 +23514,7 @@ web/packages/susographql/description
 web/wp/wp-includes/ixr/class-ixr-introspectionserver.php
 web_service_consumer__md__type__.xml
 website/server/buildgraphqlspec.js
+websocket/controllers/graphql.test.ts
 websocket/controllers/graphql.ts
 weeegraphql/composer.json
 weeegraphql/etc/module.xml
@@ -23811,6 +23906,7 @@ workday__basic__md__type__.xml
 workday__md__type__.xml
 wp-content/plugins/simple-graphql-api/
 wp-content/plugins/worker/src/monolog/processor/introspectionprocessor.php
+wp-content/uploads/wp-import-export-lite/http://apollographql.com/robots.txt
 wp-graphql
 wp-includes/ixr/class-ixr-introspectionserver.php
 wp/wp-includes/ixr/class-ixr-introspectionserver.php
