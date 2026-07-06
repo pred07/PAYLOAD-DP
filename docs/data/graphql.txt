@@ -23906,7 +23906,6 @@ workday__basic__md__type__.xml
 workday__md__type__.xml
 wp-content/plugins/simple-graphql-api/
 wp-content/plugins/worker/src/monolog/processor/introspectionprocessor.php
-wp-content/uploads/wp-import-export-lite/http://apollographql.com/robots.txt
 wp-graphql
 wp-includes/ixr/class-ixr-introspectionserver.php
 wp/wp-includes/ixr/class-ixr-introspectionserver.php
