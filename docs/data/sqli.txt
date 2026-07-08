@@ -31440,6 +31440,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 /update-organization
 /update-password
 /update-password-sms-code
+/update-personalized-offer
 /update-preprocessing-status
 /update-production-crop-sales/
 /update-profile
@@ -43810,6 +43811,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 55 raindrop
 55-update-lockeduntil.sql
 55095-dev-rewrite-wireit-deps-update
+55864-fix-hpos-custom-fields-delete-nonce
 55_leafes_insert.sql
 55_nodes_insert.sql
 55delete
@@ -54931,6 +54933,7 @@ admin/db_update.php
 admin/dbupdate.asp
 admin/deepsoonarticleupdate.aspx
 admin/deepsoontreeupdate.aspx
+admin/default/build/assets/drag-and-drop.es-cbcm7iha.js
 admin/default/build/assets/drag-and-drop.es-jkadgoaa.js
 admin/default/game_delete.php
 admin/delete
@@ -63945,6 +63948,7 @@ application/espo/classes/massaction/user/massupdate.php
 application/espo/classes/record/hooks/pipeline/afterdelete.php
 application/espo/classes/record/hooks/pipeline/beforedelete.php
 application/espo/classes/record/hooks/pipelinestage/afterdelete.php
+application/espo/classes/record/hooks/pipelinestage/beforedelete.php
 application/espo/classes/recordhooks/currencyrecordrate/afterdelete.php
 application/espo/classes/recordhooks/email/afterupdate.php
 application/espo/classes/recordhooks/email/beforeupdate.php
@@ -66435,6 +66439,7 @@ assets/delete-column.svg
 assets/delete-row.svg
 assets/delete-table.svg
 assets/delete.svg
+assets/drag-and-drop.es-cbcm7iha.js
 assets/drag-and-drop.es-jkadgoaa.js
 assets/foundation/controls/select/readme.md
 assets/foundation/controls/select/select.base.less
@@ -67350,6 +67355,7 @@ back_photoselect.jsp
 back_restoreselect.jsp
 back_voteselect.jsp
 backand test data insert script.sql
+backbodydrop
 backbodydrop-com
 backdrop
 backdrop%203
@@ -70497,6 +70503,7 @@ build.exec.fs
 build.exec.fsproj
 build.in.update.xml
 build/assets/basemultiselect.2950bd7a.js
+build/assets/drag-and-drop.es-cbcm7iha.js
 build/assets/drag-and-drop.es-jkadgoaa.js
 build/blog/pages/blogdelete.page.php
 build/blog/templates/delete.php
@@ -72022,6 +72029,7 @@ cde-kafdrop-uat
 cdelete
 cdexec
 cdio3 schema only aug 03 11 (drop questiontype).sql
+cdn-cgi/http://find-and-update.company-information.service.gov.uk/robots.txt
 cdn.update
 cdnselect
 cdnunion
@@ -72399,6 +72407,7 @@ changelog/43595-update-wireit-0.14.3
 changelog/47385-dev-update-pnpm9-1
 changelog/54996-chore-update-wireit
 changelog/55095-dev-rewrite-wireit-deps-update
+changelog/55864-fix-hpos-custom-fields-delete-nonce
 changelog/56246-update-settings-router-calypso-package
 changelog/57219-update-remove-zip-feature-from-blueprint
 changelog/57935-update-blueprint-docs
@@ -72416,6 +72425,7 @@ changelog/dev-ci-lint-monorepo-job-update
 changelog/fix-beta-tester-delete-option-error
 changelog/fix-product-editor-images-drop-error
 changelog/fix-rsm-3550-stock-multiselect
+changelog/fix-update-pnpm-lock
 changelog/fix-wc-update-10802-missing-orders-meta-table-check
 changelog/hpos-orders-status-union-rewrite
 changelog/release-6-3-1-1/2020-09-04-symfony-update-4.4.11.md
@@ -72736,6 +72746,7 @@ changelog/release-6-7-3-0/2025-09-08-fix-missing-promotion-rule-select.md
 changelog/release-6-7-4-0/2025-10-15-update-health-check-api.md
 changelog/release-6-7-4-0/2025-10-23-fix-google-consent-mode-v2-default-update.md
 changelog/task-update-eslint-config
+changelog/testops-179-fix-product-delete-quick-delete-flake
 changelog/testops-189-product-reviews-delete-flake
 changelog/tweak-products-app-delete-modal-no-quotes
 changelog/tweak-searchable-chip-select-spacing
@@ -72799,6 +72810,7 @@ changelog/update-product-editor-use-token-field-for-terms
 changelog/update-product-editor-validate-term-tokens
 changelog/update-product-filter-copy
 changelog/update-product-filter-status-availability
+changelog/update-product-image-use-larger-thumbnails
 changelog/update-product-list-header-layout
 changelog/update-product-publish-panel-catalog-visibility
 changelog/update-product-status-and-catalog-visibility-dropdowns
@@ -73697,6 +73709,7 @@ classes/pear/i18nv2/decoratedlist/htmlselect.php
 classes/record/hooks/pipeline/afterdelete.php
 classes/record/hooks/pipeline/beforedelete.php
 classes/record/hooks/pipelinestage/afterdelete.php
+classes/record/hooks/pipelinestage/beforedelete.php
 classes/recordhooks/call/afterupdate.php
 classes/recordhooks/campaign/beforeupdate.php
 classes/recordhooks/currencyrecordrate/afterdelete.php
@@ -77285,7 +77298,6 @@ content/product/dataabstractionlayer/stockupdate/stockupdatefilterprovider.php
 content/product/dataabstractionlayer/stockupdate/stockupdatefilterprovidertest.php
 content/product/dataabstractionlayer/stockupdate/teststockupdatefilter.php
 content/richtexteditor/tiptapstyleselect.spec.ts
-content/rtrupdate
 content/template/category.insert.php
 content/template/category.select.php
 content/template/category.update.php
@@ -77304,7 +77316,6 @@ content/twc/en/support/alerts/storm-update.html
 content/twc/en/support/faqs/checkout/am-i-eligible-to-select-cash-on-delivery.html
 content/twc/en/support/faqs/checkout/how-does-the-installation-option-i-select.html
 content/twc/en/support/faqs/checkout/what-happens-when-i-select-the-checkout.html
-content/update
 content/update/header/actions/price_history.html.twig
 content/update/header/breadcrumbs.html.twig
 content/update/header/title_block/actions/manage_coupons.html.twig
@@ -83047,6 +83058,7 @@ default-update-uid
 default-update-uuid
 default.tck.exec.properties
 default/ads/comment/smile_select.html
+default/build/assets/drag-and-drop.es-cbcm7iha.js
 default/build/assets/drag-and-drop.es-jkadgoaa.js
 default/category/insert.html
 default/context/update.class.php
@@ -89619,6 +89631,7 @@ drag-and-drop-multiple-file-upload-for-woocommerce
 drag-and-drop-oplossing
 drag-and-drop-upload
 drag-and-drop-voting
+drag-and-drop.es-cbcm7iha.js
 drag-and-drop.es-jkadgoaa.js
 drag-and-drop.html
 drag-and-drop.js
@@ -93112,6 +93125,7 @@ espo/classes/massaction/user/massupdate.php
 espo/classes/record/hooks/pipeline/afterdelete.php
 espo/classes/record/hooks/pipeline/beforedelete.php
 espo/classes/record/hooks/pipelinestage/afterdelete.php
+espo/classes/record/hooks/pipelinestage/beforedelete.php
 espo/classes/recordhooks/currencyrecordrate/afterdelete.php
 espo/classes/recordhooks/email/afterupdate.php
 espo/classes/recordhooks/email/beforeupdate.php
@@ -95020,7 +95034,6 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
-false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -96644,6 +96657,7 @@ fix-plugin-update
 fix-product-editor-images-drop-error
 fix-rsm-3550-stock-multiselect
 fix-update-in-process
+fix-update-pnpm-lock
 fix-update.go
 fix-wc-update-10802-missing-orders-meta-table-check
 fix_exec.py
@@ -98859,6 +98873,7 @@ garageband302update
 garbageframe_update
 gardinenhalter
 gardinenstangenhalter
+gardrop
 gargle,baptize,bath,bathe,bib,dentifrice,douche,draft,drain the cup,dram,drench,drink,drink bottoms-up,drink deep,drink hard,drink off,drink up,drop,flush,flush out,follow strong drink,grog,guzzle,holystone,imbibe,irrigate,jigger,jolt,knock back,lap,lap up,lather,launder,lave,libation,mop,mop up,mouthwash,nip,peg,potation,potion,pull,quaff,rinse,rinse out,ritually immerse,round,round of drinks,scour,scrub,scrub up,shampoo,shot,shower,sip,sluice,sluice out,snifter,snort,soak,soap,sponge,spot,suck,sup,swab,swig,swill,syringe,tipple,toivel,tooth powder,toothpaste,tope,toss down,toss off,tub,wash,wash out,wash up,wet
 garnetfaceteddrop
 garnish/src/checkboxselect.js
@@ -99944,6 +99959,7 @@ goto/double_select.tpl
 gotoreunion.net
 gov_exec
 government/agencies-departments-offices-redirect/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
+government/agencies-departments-offices-redirect/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices-redirect/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices-redirect/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
@@ -99982,6 +99998,11 @@ government/agencies-departments-offices/agencies-departments-offices/business-li
 government/agencies-departments-offices/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
+government/departments/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
+government/departments/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
+government/departments/office-of-the-clerk-recorder/marriages-and-civil-unions/marriage-and-civil-union-rules-and-guidance
+government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-and-guidance
+government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government_drop
 governmentcompanyupdate
 governmentinfoupdate
@@ -100497,6 +100518,7 @@ gsbfraisv2insert.sql
 gsbsc-web/webcontent/pages/employee/employee-select.jsp
 gsbsc-web/webcontent/pages/kpi/kpi-tree-select.jsp
 gsbsc-web/webcontent/pages/organization/organization-select.jsp
+gselect
 gselect.jsp
 gsf_onupdate
 gskmainloopselect.xml
@@ -101524,6 +101546,7 @@ hooks/foreignfielddelete.php
 hooks/pipeline/afterdelete.php
 hooks/pipeline/beforedelete.php
 hooks/pipelinestage/afterdelete.php
+hooks/pipelinestage/beforedelete.php
 hooks/targetlistdelete.php
 hooks/test/use-update-preferred-autocomplete-provider.ts
 hooks/tests/usekeyboarddraganddrop.test.ts
@@ -107012,6 +107035,7 @@ jobtypeupdate
 jobunion-api
 jobupdate
 jobupdate.xml
+jocivalter
 joealter
 joealter-com
 joeexec
@@ -118286,6 +118310,8 @@ negativhalter
 negotiator,agent,arbitrator,bargainer,broker,business agent,cardholder,connection,contact,deputy,front,front man,go-between,interagent,interceder,intercessor,intermediary,intermediate,intermediate agent,intermediator,intermedium,internuncio,interpleader,intervener,interventionist,interventor,labor organizer,mediator,medium,middleman,mouthpiece,negotiant,negotiatress,negotiatrix,ombudsman,organizer,shop steward,spokesman,spokeswoman,trade unionist,union member,union officer,unionist
 neighbor,abut,abut on,abutter,acquaintance,adjacent,adjoin,adjoiner,adjoining,advocate,alter ego,appose,backer,be contiguous,be in contact,best friend,border,border on,borderer,bordering,bosom friend,bring near,brother,butt,bystander,casual acquaintance,close acquaintance,close friend,communicate,confidant,confidante,conjoin,connect,connecting,conterminous,contiguous,coterminous,end to end,endways,endwise,face to face,familiar,favorer,fellow,fellow creature,fellowman,friend,immediate,immediate neighbor,inseparable friend,intimate,join,joined,juxtapose,juxtaposed,juxtaposit,juxtapositional,juxtapositive,lie by,line,looker-on,lover,march,neighborer,neighboring,next,onlooker,other self,partisan,pickup,put with,repository,stand by,supporter,sympathizer,tangent,touch,verge,verge upon,well-wisher
 neighbor-update-source.xml.i
+neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-gallery
+neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-image-gallery
 neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/new-page
 neighborhoodselect
 neighborhoodupdate
@@ -124668,6 +124694,7 @@ pipelinememberupdate
 pipelinescheduledelete
 pipelinescheduleupdate
 pipelinestage/afterdelete.php
+pipelinestage/beforedelete.php
 pipes,od,bagpipe,bagpipes,boatswain,captain,chanter,chief engineer,chief mate,commander,cornemuse,deck officer,doodlesack,drone,master,mate,musette,naval officer,navigating officer,navigator,patron,quartermaster,sailing master,second mate,shipmaster,skipper,sordellina,the old man,union pipes,watch officer
 pipestdininstdoutstderrstreamselect.php
 pipeupdate
@@ -125288,12 +125315,15 @@ plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
+plugins/woocommerce/changelog/55864-fix-hpos-custom-fields-delete-nonce
 plugins/woocommerce/changelog/61900-update-offline-payment-forms-dataform
 plugins/woocommerce/changelog/63793-fix-wcag-metabox-delete-contrast
 plugins/woocommerce/changelog/65385-update-algeria-provinces
 plugins/woocommerce/changelog/66014-fix-extension-cart-update-shipping-mode-sync
+plugins/woocommerce/changelog/fix-update-pnpm-lock
 plugins/woocommerce/changelog/fix-wc-update-10802-missing-orders-meta-table-check
 plugins/woocommerce/changelog/hpos-orders-status-union-rewrite
+plugins/woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
 plugins/woocommerce/changelog/testops-189-product-reviews-delete-flake
 plugins/woocommerce/changelog/update-47865-orders-table-query-build
 plugins/woocommerce/changelog/update-action-scheduler-via-automation
@@ -125305,6 +125335,7 @@ plugins/woocommerce/changelog/update-email-verification-magic-link
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
 plugins/woocommerce/changelog/update-product-filter-copy
 plugins/woocommerce/changelog/update-product-filter-status-availability
+plugins/woocommerce/changelog/update-product-image-use-larger-thumbnails
 plugins/woocommerce/changelog/update-product-publish-panel-catalog-visibility
 plugins/woocommerce/changelog/update-products-control-ts
 plugins/woocommerce/changelog/update-rename-visual-attribute-picker
@@ -129105,6 +129136,7 @@ public/src/modules/topicselect.js
 public/static/highcharts-4.0.1/examples/dynamic-update
 public/static/highcharts-4.0.1/examples/dynamic-update/index.htm
 public/test/test_exec.php
+public/themes/admin/default/build/assets/drag-and-drop.es-cbcm7iha.js
 public/themes/admin/default/build/assets/drag-and-drop.es-jkadgoaa.js
 public/update.php
 public/vendor/jquery/event/jquery.event.drop.js
@@ -130845,6 +130877,7 @@ record/chk_s_insert.php
 record/hooks/pipeline/afterdelete.php
 record/hooks/pipeline/beforedelete.php
 record/hooks/pipelinestage/afterdelete.php
+record/hooks/pipelinestage/beforedelete.php
 record/row-actions/update.js
 record/s_insert.php
 record/select-related.js
@@ -131140,6 +131173,7 @@ refreshcurrentupdate
 refreshdefaultupdate
 refreshdetailsupdate
 refreshdetailupdate
+refreshed-hphttp://alliantcreditunion.org/robots.txt
 refreshenabledupdate
 refreshexportedupdate
 refreshfinishedupdate
@@ -148557,6 +148591,7 @@ stukinsert
 stumble,bad job,balk,barge,be all thumbs,bevue,blunder,blunder away,blunder into,blunder on,blunder upon,bobble,boggle,bonehead play,boner,boo-boo,botch,breakdown,bumble,bump,bump into,bungle,butcher,capsize,careen,career,chance,clump,clumsy performance,collapse,come a cropper,come across,come up against,comedown,commit a gaffe,crash,cropper,culbute,deflation,deviate,discover,dive,downfall,encounter,err,error,etourderie,fall,fall down,fall flat,fall headlong,fall into error,fall over,fall prostrate,fall upon,false move,false step,falter,faux pas,find,flop,flounce,flounder,flub,fluff,foozle,forced landing,fumble,gag,gaucherie,get a cropper,go amiss,go astray,go awry,go wrong,halt,hash,have two minds,haw,header,hem,hem and haw,hesitate,hit,hit upon,hum,hum and haw,inadvertence,inadvertency,jib,labor,lapse,lapsus calami,lapsus linguae,light,limp,list,loose thread,luck,lumber,lurch,mammer,mar,meet,mess,miscalculate,miscue,misstep,mistake,muck,muddle,muff,murder,nose dive,off day,omission,oversight,pause,pitch,pitch and plunge,play havoc with,plunge,pose,pratfall,reel,rock,roll,run across,sad work,scruple,seethe,shy,slip,slip up,slipup,smash,snapper,spill,spoil,sprawl,spread-eagle,stagger,stammer,stick,stickle,strain,stray,struggle,stump,stutter,sway,swing,tailspin,take a fall,take a flop,take a header,take a pratfall,take a spill,thrash about,tilt,topple,topple down,topple over,toss,toss and tumble,toss and turn,totter,trip,tumble,turn turtle,volutation,wallop,wallow,wander,waver,welter,wobble,wrong step
 stummschalter
 stundenhalter
+stunion
 sturmgeldverwalter
 stutter,balbuties,dysphemia,falter,faltering,halt,hammer,haw,hem,hem and haw,hesitate,hesitation,hum,hum and haw,mammer,palilalia,stammer,stammering,stumble,stuttering,traulism
 stwselect
@@ -152113,6 +152148,7 @@ testnewupdate
 testng-customsuitedelete.xml
 testnumberupdate
 testopenupdate
+testops-179-fix-product-delete-quick-delete-flake
 testops-189-product-reviews-delete-flake
 testoverlay-geos-1046-union-lines.xml
 testoverlay-geos-997-union-fail.xml
@@ -153215,6 +153251,7 @@ themeoptions/update.php
 themes-drop.sql
 themes/abound/views/customer/update.php
 themes/abound/views/personalinfo/update.php
+themes/admin/default/build/assets/drag-and-drop.es-cbcm7iha.js
 themes/admin/default/build/assets/drag-and-drop.es-jkadgoaa.js
 themes/admin/js/tableselect.js
 themes/admin/migration/js/tableselect.js
@@ -158010,7 +158047,6 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
-true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -166515,6 +166551,7 @@ update-perm.sql
 update-permission
 update-permissions-table.sql
 update-person.xml
+update-personalized-offer
 update-pft-populate-template-selector
 update-ph
 update-phoenix-hbase-process.xml
@@ -166593,6 +166630,7 @@ update-product-filter-copy
 update-product-filter-status-availability
 update-product-from-store-products-no-quantity.sql
 update-product-from-store-products.sql
+update-product-image-use-larger-thumbnails
 update-product-list-header-layout
 update-product-publish-panel-catalog-visibility
 update-product-status-and-catalog-visibility-dropdowns
@@ -176230,12 +176268,15 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
+woocommerce/changelog/55864-fix-hpos-custom-fields-delete-nonce
 woocommerce/changelog/61900-update-offline-payment-forms-dataform
 woocommerce/changelog/63793-fix-wcag-metabox-delete-contrast
 woocommerce/changelog/65385-update-algeria-provinces
 woocommerce/changelog/66014-fix-extension-cart-update-shipping-mode-sync
+woocommerce/changelog/fix-update-pnpm-lock
 woocommerce/changelog/fix-wc-update-10802-missing-orders-meta-table-check
 woocommerce/changelog/hpos-orders-status-union-rewrite
+woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
 woocommerce/changelog/testops-189-product-reviews-delete-flake
 woocommerce/changelog/update-47865-orders-table-query-build
 woocommerce/changelog/update-action-scheduler-via-automation
@@ -176247,6 +176288,7 @@ woocommerce/changelog/update-email-verification-magic-link
 woocommerce/changelog/update-pay-506-always-show-payment-radio
 woocommerce/changelog/update-product-filter-copy
 woocommerce/changelog/update-product-filter-status-availability
+woocommerce/changelog/update-product-image-use-larger-thumbnails
 woocommerce/changelog/update-product-publish-panel-catalog-visibility
 woocommerce/changelog/update-products-control-ts
 woocommerce/changelog/update-rename-visual-attribute-picker
