@@ -15,6 +15,8 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 'ristocrat_pickles'_(aristocrat).xml
 (pickle71
 *{t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().exec('id').getinputstream())}
+-pickle06
+-pickle07
 .wafpickle
 .wafpickle-7
 /2018pickleballschedule.pdf
@@ -1492,6 +1494,7 @@ pickle99
 pickle9901
 pickle998
 pickle999
+pickle?
 pickle@12
 pickle_9
 pickle_bomb
