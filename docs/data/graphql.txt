@@ -10684,6 +10684,7 @@ graphql/admin/src/translations/dk.json
 graphql/admin/src/translations/en.json
 graphql/admin/src/translations/es.json
 graphql/admin/src/translations/fr.json
+graphql/admin/src/translations/ko.json
 graphql/admin/src/translations/pl.json
 graphql/admin/src/translations/ru.json
 graphql/admin/src/translations/sk.json
@@ -18117,6 +18118,7 @@ packages/plugins/graphql/admin/src/translations/dk.json
 packages/plugins/graphql/admin/src/translations/en.json
 packages/plugins/graphql/admin/src/translations/es.json
 packages/plugins/graphql/admin/src/translations/fr.json
+packages/plugins/graphql/admin/src/translations/ko.json
 packages/plugins/graphql/admin/src/translations/pl.json
 packages/plugins/graphql/admin/src/translations/ru.json
 packages/plugins/graphql/admin/src/translations/sk.json
@@ -18706,6 +18708,7 @@ plugins/graphql/admin/src/translations/dk.json
 plugins/graphql/admin/src/translations/en.json
 plugins/graphql/admin/src/translations/es.json
 plugins/graphql/admin/src/translations/fr.json
+plugins/graphql/admin/src/translations/ko.json
 plugins/graphql/admin/src/translations/pl.json
 plugins/graphql/admin/src/translations/ru.json
 plugins/graphql/admin/src/translations/sk.json

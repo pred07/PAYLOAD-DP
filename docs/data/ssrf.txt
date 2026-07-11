@@ -13655,7 +13655,6 @@ en/glossary/internalexternal-rich-media/feed/
 en/internal
 en/internal/
 en/internal/internal-lead-referral-form
-en/internaljustice/files
 en/servers/racks-internal
 enable-secure-admin-internal-user.1
 enabledforinternaluse
@@ -15742,7 +15741,6 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
-http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -15812,7 +15810,6 @@ icinga.internal
 icinga2.internal
 ickubernetesclusterdns-748462e4
 icons/internal-modifier.svg
-icons/visibility-internal.svg
 icons_slmcategoryinternaldata.catrsc
 icsystemonlinetools-internalsecurity
 ictqainternal
@@ -18889,6 +18886,8 @@ internal/__tests__/mcpconfiguration.test.ts
 internal/__tests__/mcpserverfactory.test.ts
 internal/__tests__/syncmcpsessioncapabilities.test.ts
 internal/abandonedcartrecovery/manualsendhandler.php
+internal/abandonedcartrecovery/scheduler.php
+internal/abandonedcartrecovery/schedulertest.php
 internal/abilities/abilitiescategories.php
 internal/abilities/abilitiesloader.php
 internal/abilities/abilitiesloadertest.php
@@ -24274,6 +24273,7 @@ internal/pos/poscontroller.php
 internal/pos/pospreset.php
 internal/prod.json
 internal/productattributes/visualattributetermadmin.php
+internal/productattributes/visualattributetermadmintest.php
 internal/productattributes/visualattributetermmeta.php
 internal/productattributes/visualattributetermmetatest.php
 internal/productattributeslookup/clirunner.php
@@ -24342,6 +24342,8 @@ internal/productfilters/queryclausestest.php
 internal/productfilters/readme.md
 internal/productfilters/taxonomyhierarchydata.php
 internal/productfilters/taxonomyhierarchydatatest.php
+internal/productgallery/productmediagallery.php
+internal/productgallery/productmediagallerytest.php
 internal/productimage/matchimagebysku.php
 internal/purchase-flow-all
 internal/pushnotifications/controllers/notificationpreferencesrestcontroller.php
@@ -27916,6 +27918,7 @@ isinternal_in
 isinternal_list
 isinternalcaseid
 isinternalnote
+isinternalurl.ts
 isl-internal
 ispatientdeactivatedinternal
 iss        - internal sublayer service
@@ -28307,6 +28310,8 @@ km.apim.stage.oh-internal
 kmsat.internal
 knowledge_base/internal_assets.rb
 knowledge_base/internal_assets_spec.rb
+koenig-lexical/src/utils/isinternalurl.ts
+koenig/koenig-lexical/src/utils/isinternalurl.ts
 kof-edge-demo-kubernetes-dns-c6d0d2b1
 kokos-kubernetes-dns-86758bf5
 kolla-kubernetes.config
@@ -46156,7 +46161,6 @@ packages/plugins/graphql/server/src/services/internals/types/publication-status.
 packages/plugins/graphql/server/src/services/internals/types/response-collection-meta.ts
 packages/rocketchat-internal-hubot/package.js
 packages/symfony/component/cssselector/exception/internalerrorexception.php
-packages/vanilla-icons/icons/visibility-internal.svg
 packagesinternal
 pact-broker-internal
 pad.internal
@@ -46465,6 +46469,7 @@ php/libs/sysplugins/smarty_internal_templatelexer.php
 php/libs/sysplugins/smarty_internal_templateparser.php
 php/libs/sysplugins/smarty_internal_utility.php
 php/libs/sysplugins/smarty_internal_write_file.php
+php/src/internal/abandonedcartrecovery/schedulertest.php
 php/src/internal/abilities/abilitiesloadertest.php
 php/src/internal/abilities/rest/restabilityfactorytest.php
 php/src/internal/abilities/testextensionabilitydefinition.php
@@ -46799,6 +46804,7 @@ php/src/internal/orders/paymentinfotest.php
 php/src/internal/orders/pointofsaleemailhandlertest.php
 php/src/internal/orders/pointofsaleorderutiltest.php
 php/src/internal/pos/capabilitiestest.php
+php/src/internal/productattributes/visualattributetermadmintest.php
 php/src/internal/productattributes/visualattributetermmetatest.php
 php/src/internal/productattributeslookup/dataregeneratortest.php
 php/src/internal/productattributeslookup/filterertest.php
@@ -46821,6 +46827,7 @@ php/src/internal/productfilters/filterdatatest.php
 php/src/internal/productfilters/paramstest.php
 php/src/internal/productfilters/queryclausestest.php
 php/src/internal/productfilters/taxonomyhierarchydatatest.php
+php/src/internal/productgallery/productmediagallerytest.php
 php/src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 php/src/internal/pushnotifications/controllers/pushnotificationrestcontrollertest.php
 php/src/internal/pushnotifications/controllers/pushtokenrestcontrollertest.php
@@ -47817,6 +47824,7 @@ plugins/woocommerce/lib/packages/symfony/component/cssselector/exception/interna
 plugins/woocommerce/src/api/attributes/internal.php
 plugins/woocommerce/src/enums/orderinternalstatus.php
 plugins/woocommerce/src/internal/abandonedcartrecovery/manualsendhandler.php
+plugins/woocommerce/src/internal/abandonedcartrecovery/scheduler.php
 plugins/woocommerce/src/internal/abilities/abilitiescategories.php
 plugins/woocommerce/src/internal/abilities/abilitiesloader.php
 plugins/woocommerce/src/internal/abilities/abilitiesregistry.php
@@ -48281,6 +48289,7 @@ plugins/woocommerce/src/internal/productfilters/params.php
 plugins/woocommerce/src/internal/productfilters/queryclauses.php
 plugins/woocommerce/src/internal/productfilters/readme.md
 plugins/woocommerce/src/internal/productfilters/taxonomyhierarchydata.php
+plugins/woocommerce/src/internal/productgallery/productmediagallery.php
 plugins/woocommerce/src/internal/productimage/matchimagebysku.php
 plugins/woocommerce/src/internal/pushnotifications/controllers/notificationpreferencesrestcontroller.php
 plugins/woocommerce/src/internal/pushnotifications/controllers/pushnotificationrestcontroller.php
@@ -48452,6 +48461,7 @@ plugins/woocommerce/src/internal/variationgallery/migration.php
 plugins/woocommerce/src/internal/variationgallery/package.php
 plugins/woocommerce/src/internal/variationgallery/telemetry.php
 plugins/woocommerce/src/internal/wccom/connectionhelper.php
+plugins/woocommerce/tests/php/src/internal/abandonedcartrecovery/schedulertest.php
 plugins/woocommerce/tests/php/src/internal/abilities/abilitiesloadertest.php
 plugins/woocommerce/tests/php/src/internal/abilities/rest/restabilityfactorytest.php
 plugins/woocommerce/tests/php/src/internal/abilities/testextensionabilitydefinition.php
@@ -48778,6 +48788,7 @@ plugins/woocommerce/tests/php/src/internal/orders/paymentinfotest.php
 plugins/woocommerce/tests/php/src/internal/orders/pointofsaleemailhandlertest.php
 plugins/woocommerce/tests/php/src/internal/orders/pointofsaleorderutiltest.php
 plugins/woocommerce/tests/php/src/internal/pos/capabilitiestest.php
+plugins/woocommerce/tests/php/src/internal/productattributes/visualattributetermadmintest.php
 plugins/woocommerce/tests/php/src/internal/productattributes/visualattributetermmetatest.php
 plugins/woocommerce/tests/php/src/internal/productattributeslookup/dataregeneratortest.php
 plugins/woocommerce/tests/php/src/internal/productattributeslookup/filterertest.php
@@ -48800,6 +48811,7 @@ plugins/woocommerce/tests/php/src/internal/productfilters/filterdatatest.php
 plugins/woocommerce/tests/php/src/internal/productfilters/paramstest.php
 plugins/woocommerce/tests/php/src/internal/productfilters/queryclausestest.php
 plugins/woocommerce/tests/php/src/internal/productfilters/taxonomyhierarchydatatest.php
+plugins/woocommerce/tests/php/src/internal/productgallery/productmediagallerytest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/controllers/pushnotificationrestcontrollertest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/controllers/pushtokenrestcontrollertest.php
@@ -51874,6 +51886,8 @@ src/googleanalytics/internals/x10.php
 src/host/localhost.php
 src/http/internalrequest.php
 src/internal/abandonedcartrecovery/manualsendhandler.php
+src/internal/abandonedcartrecovery/scheduler.php
+src/internal/abandonedcartrecovery/schedulertest.php
 src/internal/abilities/abilitiescategories.php
 src/internal/abilities/abilitiesloader.php
 src/internal/abilities/abilitiesloadertest.php
@@ -52636,6 +52650,7 @@ src/internal/pos/capabilitiestest.php
 src/internal/pos/poscontroller.php
 src/internal/pos/pospreset.php
 src/internal/productattributes/visualattributetermadmin.php
+src/internal/productattributes/visualattributetermadmintest.php
 src/internal/productattributes/visualattributetermmeta.php
 src/internal/productattributes/visualattributetermmetatest.php
 src/internal/productattributeslookup/clirunner.php
@@ -52704,6 +52719,8 @@ src/internal/productfilters/queryclausestest.php
 src/internal/productfilters/readme.md
 src/internal/productfilters/taxonomyhierarchydata.php
 src/internal/productfilters/taxonomyhierarchydatatest.php
+src/internal/productgallery/productmediagallery.php
+src/internal/productgallery/productmediagallerytest.php
 src/internal/productimage/matchimagebysku.php
 src/internal/pushnotifications/controllers/notificationpreferencesrestcontroller.php
 src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
@@ -53057,6 +53074,7 @@ src/umbraco.core/publishedcache/internal/internalpublishedcontent.cs
 src/umbraco.core/publishedcache/internal/internalpublishedproperty.cs
 src/unit/normalizer/internaltypeddatatesttrait.php
 src/unit/plugin/validation/constraint/linknotexistinginternalconstraintvalidatortest.php
+src/utils/isinternalurl.ts
 src/wp-admin/includes/class-wp-internal-pointers.php
 src/xerophp/remote/exception/internalerrorexception.php
 src/zabbix_java/src/com/zabbix/gateway/internalitemchecker.java
@@ -54539,6 +54557,7 @@ tests/mock/windowsazure/common/internal/filters/simplefiltermock.php
 tests/modules/entity_test/src/plugin/field/fieldtype/internalpropertytestfielditem.php
 tests/modules/entity_test/src/plugin/field/fieldtype/singleinternalpropertytestfielditem.php
 tests/modules/entity_test/tests/src/functional/rest/entitytestjsoninternalpropertynormalizertest.php
+tests/php/src/internal/abandonedcartrecovery/schedulertest.php
 tests/php/src/internal/abilities/abilitiesloadertest.php
 tests/php/src/internal/abilities/rest/restabilityfactorytest.php
 tests/php/src/internal/abilities/testextensionabilitydefinition.php
@@ -54873,6 +54892,7 @@ tests/php/src/internal/orders/paymentinfotest.php
 tests/php/src/internal/orders/pointofsaleemailhandlertest.php
 tests/php/src/internal/orders/pointofsaleorderutiltest.php
 tests/php/src/internal/pos/capabilitiestest.php
+tests/php/src/internal/productattributes/visualattributetermadmintest.php
 tests/php/src/internal/productattributes/visualattributetermmetatest.php
 tests/php/src/internal/productattributeslookup/dataregeneratortest.php
 tests/php/src/internal/productattributeslookup/filterertest.php
@@ -54895,6 +54915,7 @@ tests/php/src/internal/productfilters/filterdatatest.php
 tests/php/src/internal/productfilters/paramstest.php
 tests/php/src/internal/productfilters/queryclausestest.php
 tests/php/src/internal/productfilters/taxonomyhierarchydatatest.php
+tests/php/src/internal/productgallery/productmediagallerytest.php
 tests/php/src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 tests/php/src/internal/pushnotifications/controllers/pushnotificationrestcontrollertest.php
 tests/php/src/internal/pushnotifications/controllers/pushtokenrestcontrollertest.php
@@ -56139,6 +56160,7 @@ util/net/localhost-rsa-key.pem
 util/net/localhost-rsa.jks
 util/net/ocsp/testocspsoftfailinternalerror.java
 utils/config/internalconfighelper.php
+utils/isinternalurl.ts
 utils/sw-internal-link/index.js
 utils/sw-internal-link/sw-internal-link.html.twig
 utils/sw-internal-link/sw-internal-link.scss
@@ -56271,7 +56293,6 @@ validation/constraint/linknotexistinginternalconstraintvalidator.php
 validation/constraint/linknotexistinginternalconstraintvalidatortest.php
 valmarkinternal
 valves/rewrite/internalrewritemap.java
-vanilla-icons/icons/visibility-internal.svg
 vanilla/http/internalclient.php
 vanilla/http/internalclienttest.php
 vanilla/http/internalrequest.php
@@ -57105,7 +57126,6 @@ virtualworkplace-internalgwqa-emea
 virus-internal
 viscera,abdomen,anus,appendix,being,blind gut,bones,bosom,bowels,brain,breast,cecum,colon,duodenum,endocardium,entrails,esprit,foregut,giblets,gizzard,guts,heart,heart of hearts,heartstrings,hindgut,inmost heart,inmost soul,innards,inner mechanism,innermost being,insides,internals,intestine,inwards,jejunum,kidney,kishkes,large intestine,liver,liver and lights,lung,midgut,perineum,pump,pylorus,rectum,secret places,small intestine,soul,spirit,spleen,stomach,stuffing,ticker,tripes,vermiform appendix,vitals,works
 visceral,abdominal,affectional,affective,anal,appendical,cardiac,cecal,colic,colonic,coronary,demonstrative,duodenal,emotiometabolic,emotiomotor,emotional,emotiovascular,emotive,enteric,feeling,gastric,glandular,gut,ileac,instinctual,interior,internal,intestinal,intimate,intuitive,jejunal,mesogastric,of soul,overdemonstrative,pyloric,rectal,soulful,splanchnic
-visibility-internal.svg
 visioninternal
 visitor_checkin_internal
 visitor_complete_checkin_internal
@@ -57912,6 +57932,7 @@ woocommerce/lib/packages/symfony/component/cssselector/exception/internalerrorex
 woocommerce/src/api/attributes/internal.php
 woocommerce/src/enums/orderinternalstatus.php
 woocommerce/src/internal/abandonedcartrecovery/manualsendhandler.php
+woocommerce/src/internal/abandonedcartrecovery/scheduler.php
 woocommerce/src/internal/abilities/abilitiescategories.php
 woocommerce/src/internal/abilities/abilitiesloader.php
 woocommerce/src/internal/abilities/abilitiesregistry.php
@@ -58383,6 +58404,7 @@ woocommerce/src/internal/productfilters/params.php
 woocommerce/src/internal/productfilters/queryclauses.php
 woocommerce/src/internal/productfilters/readme.md
 woocommerce/src/internal/productfilters/taxonomyhierarchydata.php
+woocommerce/src/internal/productgallery/productmediagallery.php
 woocommerce/src/internal/productimage/matchimagebysku.php
 woocommerce/src/internal/pushnotifications/controllers/notificationpreferencesrestcontroller.php
 woocommerce/src/internal/pushnotifications/controllers/pushnotificationrestcontroller.php
@@ -58554,6 +58576,7 @@ woocommerce/src/internal/variationgallery/migration.php
 woocommerce/src/internal/variationgallery/package.php
 woocommerce/src/internal/variationgallery/telemetry.php
 woocommerce/src/internal/wccom/connectionhelper.php
+woocommerce/tests/php/src/internal/abandonedcartrecovery/schedulertest.php
 woocommerce/tests/php/src/internal/abilities/abilitiesloadertest.php
 woocommerce/tests/php/src/internal/abilities/rest/restabilityfactorytest.php
 woocommerce/tests/php/src/internal/abilities/testextensionabilitydefinition.php
@@ -58881,6 +58904,7 @@ woocommerce/tests/php/src/internal/orders/paymentinfotest.php
 woocommerce/tests/php/src/internal/orders/pointofsaleemailhandlertest.php
 woocommerce/tests/php/src/internal/orders/pointofsaleorderutiltest.php
 woocommerce/tests/php/src/internal/pos/capabilitiestest.php
+woocommerce/tests/php/src/internal/productattributes/visualattributetermadmintest.php
 woocommerce/tests/php/src/internal/productattributes/visualattributetermmetatest.php
 woocommerce/tests/php/src/internal/productattributeslookup/dataregeneratortest.php
 woocommerce/tests/php/src/internal/productattributeslookup/filterertest.php
@@ -58903,6 +58927,7 @@ woocommerce/tests/php/src/internal/productfilters/filterdatatest.php
 woocommerce/tests/php/src/internal/productfilters/paramstest.php
 woocommerce/tests/php/src/internal/productfilters/queryclausestest.php
 woocommerce/tests/php/src/internal/productfilters/taxonomyhierarchydatatest.php
+woocommerce/tests/php/src/internal/productgallery/productmediagallerytest.php
 woocommerce/tests/php/src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 woocommerce/tests/php/src/internal/pushnotifications/controllers/pushnotificationrestcontrollertest.php
 woocommerce/tests/php/src/internal/pushnotifications/controllers/pushtokenrestcontrollertest.php
@@ -59497,6 +59522,7 @@ zend_tool_project-internals.xml
 zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
+zh/internalhttp://apress.com/robots.txt
 zh/internalhttp://emsc-csem.org/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
