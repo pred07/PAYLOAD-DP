@@ -55249,7 +55249,6 @@ admin/src/hooks/useforceupdate.ts
 admin/src/hooks/usekeyboarddraganddrop.ts
 admin/src/members/components/bulk-action-modals/delete-modal.tsx
 admin/src/pages/settings/components/tokens/tokentypeselect.tsx
-admin/src/posts/analytics/components/date-range-select.tsx
 admin/src/resources/views/components/form/control-group/advance/multiselect.blade.php
 admin/src/resources/views/components/form/control-group/advance/select.blade.php
 admin/src/resources/views/emails/customers/gdpr/status-update-notification.blade.php
@@ -55259,6 +55258,7 @@ admin/src/routes/content-manager/model/id/components/tests/assigneeselect.test.t
 admin/src/routes/content-manager/model/id/components/tests/stageselect.test.tsx
 admin/src/routes/settings/hooks/usedraganddrop.ts
 admin/src/routes/settings/hooks/usekeyboarddraganddrop.ts
+admin/src/shared/analytics/date-range-select.tsx
 admin/stepselect.inc.php
 admin/storeselect.aspx
 admin/studentashx/studentdelete.ashx
@@ -61147,8 +61147,8 @@ analytics-union
 analytics/20170823_nzdusd_dropping_perfectly_towards_our_profit_target__remain_bearish_for_a_further_drop
 analytics/audjpy_dropped_perfectly__remain_bearish_for_a_further_drop
 analytics/bitcoin_profit_target_reached_perfectly__prepare_for_a_drop
-analytics/components/date-range-select.tsx
 analytics/cron/update.php
+analytics/date-range-select.tsx
 analytics/eurjpy_dropped_perfectly__remain_bearish_for_another_drop
 analytics/eurusd_testing_strong_resistance__prepare_for_a_drop
 analytics/model/connector/responsehandler/update.php
@@ -64570,7 +64570,7 @@ apps/admin/handlers/delete.php
 apps/admin/src/analytics/views/stats/components/date-range-select.tsx
 apps/admin/src/analytics/views/stats/components/newsletter-select.tsx
 apps/admin/src/members/components/bulk-action-modals/delete-modal.tsx
-apps/admin/src/posts/analytics/components/date-range-select.tsx
+apps/admin/src/shared/analytics/date-range-select.tsx
 apps/attributes/ajax/delete.php
 apps/blocks/handlers/delete.php
 apps/blog/handlers/delete.php
@@ -95060,6 +95060,7 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
+false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -99988,39 +99989,8 @@ gov_exec
 government/agencies-departments-offices/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices-directory/clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/denver-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/agencies-departments-offices/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/agencies-departments-offices/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/webb-vspc-ocr-service-update
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/copy-of-leafdrop-1/*
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/*
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-north-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-northeast-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-south-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-southeast-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-southwest-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-west-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-central
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-north
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-northeast
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-south
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-southeast
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-southwest
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-west
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/new-page
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/copy-of-leafdrop-central-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/copy-of-leafdrop-northeast-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/copy-of-leafdrop-southeast-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-central
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-north
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-northeast
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-south
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-southeast
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-southwest
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-west
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/seasonal-programs/copy-of-leafdrop-1
 government/agencies-departments-offices/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
-government/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government_drop
 governmentcompanyupdate
 governmentinfoupdate
@@ -125980,7 +125950,6 @@ posts-duplicated-delete
 posts-filter-multiselect
 posts-list/modals/delete-posts.hbs
 posts.mysql.drop.sql
-posts/analytics/components/date-range-select.tsx
 posts/src/views/members/components/bulk-action-modals/delete-modal.tsx
 posts/src/views/postanalytics/components/date-range-select.tsx
 posts_delete.xml
@@ -131210,7 +131179,6 @@ refreshcurrentupdate
 refreshdefaultupdate
 refreshdetailsupdate
 refreshdetailupdate
-refreshed-hphttp://alliantcreditunion.org/robots.txt
 refreshenabledupdate
 refreshexportedupdate
 refreshfinishedupdate
@@ -142773,6 +142741,7 @@ share_delete
 share_update.sql
 sharecropping,agrarianism,agricultural geology,agriculture,agrology,agronomics,agronomy,collective farm,collectivism,collectivity,collegiality,common ownership,communal effort,communion,communism,community,contour farming,cooperation,cooperative society,cultivation,culture,democracy,dirt farming,dry farming,dryland farming,farm economy,farming,fruit farming,geoponics,grain farming,husbandry,hydroponics,intensive farming,kibbutz,kolkhoz,mixed farming,profit sharing,public ownership,rural economy,socialism,state ownership,strip farming,subsistence farming,tank farming,thremmatology,tillage,tilth,town meeting,truck farming
 shared-branching-update-canvas-locations.aspx
+shared/analytics/date-range-select.tsx
 shared/batch-update.js
 shared/batch-update.ts
 shared/components/commonselect/types.ts
@@ -146627,7 +146596,6 @@ src/pocketmine/level/light/lightupdate.php
 src/pocketmine/level/light/skylightupdate.php
 src/pocketmine/level/lightupdate.php
 src/pocketmine/level/skylightupdate.php
-src/posts/analytics/components/date-range-select.tsx
 src/posts/delete.js
 src/presentation/nop.web/areas/admin/views/addressattribute/_createorupdate.cshtml
 src/presentation/nop.web/areas/admin/views/addressattribute/_createorupdate.info.cshtml
@@ -146963,6 +146931,7 @@ src/selection/insert.js
 src/selection/select.js
 src/selectize/select.tpl.html
 src/services/internals/types/delete-mutation-response.ts
+src/shared/analytics/date-range-select.tsx
 src/site/scripts/update-rules.php
 src/site/umbraco/actions/delete.aspx
 src/sitegroupcms.files/ajaxhandler/select.aspx
@@ -158093,6 +158062,7 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
+true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
