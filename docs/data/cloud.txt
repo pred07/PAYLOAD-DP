@@ -51,7 +51,6 @@ bucketeer_aws_secret_access_key=
 byrosimds
 chennaimds
 chronicle-assets.s3.amazonaws.com.indianapolis.libproxy
-ciimds0395
 cimds
 cloud_watch_aws_access_key
 cloud_watch_aws_secret_acess_key
@@ -65,7 +64,6 @@ d-ip-192-168-86-19.ap-east-1.compute.internal
 dannimds
 diariopresenterm.blob.core.windows.net
 dimds
-dimdsc
 dimdsep.880049
 dimdsep880050
 dimdsep880060
@@ -166,8 +164,8 @@ http://instance-data/latest/meta-data/
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
+http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
-http://storage.googleapis.com/robots.txt
 https://bdn-data.s3.amazonaws.com/uploads/wpforms/
 i105-instance-data.xml
 i105-instance-data.xml_

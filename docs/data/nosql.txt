@@ -1,5 +1,4 @@
 !$netsec!$
-!mo$ney
 # --- NOSQL, JWT, LDAP, CORS ---
 $$induswebi$$
 $$ltm1234$$
@@ -12,14 +11,11 @@ $1$ltfqavx.$8uhdybfy
 $1$w7f6oed/$ordsyso0
 $andboys
 $andeep$
-$andeep$andeep
 $andeepdey
 $ander
-$andgum1
 $andi666
 $andieg0
 $andmann
-$andmannttp
 $andra67
 $andrew2
 $android_url
@@ -31,7 +27,6 @@ $gtk+d3liv3r$
 $in6#qk
 $ina4
 $ind$
-$indabank
 $index
 $indhu90
 $indianboy$
@@ -40,13 +35,11 @@ $industry
 $ineseemak
 $ing
 $ing1$
-$ingat2015
 $ingo2019!!
 $ingrid12
 $inguila21
 $inject
 $injector
-$injector.html
 $innam4
 $inned17125savage2
 $insertandselectnode.ts
@@ -54,16 +47,12 @@ $insignia
 $integer16
 $interklaa$
 $interpolate
-$interpolate.html
-$interpolateprovider.html
 $interval
-$interval.html
 $inthebank
 $lt-1dm3n%
 $lt9kusep#
 $mpz$gte
 $ne
-$ne1469$
 $neakers
 $neakers1998
 $nebenjob
@@ -80,11 +69,9 @@ $newcareer$
 $newfilename
 $newrubbish
 $oracle2k$
-$orgel123
 $ori1976
 $original_url
 $orion$
-$orlmag1975
 $orry
 $orting55
 $where: '1 == 1'
@@ -142,7 +129,6 @@ $where: '1 == 1'
 13. nosql databases.rar
 174 $gtk+d3liv3r$
 1973$int
-1forthem$ney
 300$neg
 4$india
 41484$nettalp
@@ -170,11 +156,9 @@ $where: '1 == 1'
 \r\n;select version from v$instance
 \r\n;select version from v$instance --
 \r\n\';select version from v$instance --
-_inc/nosql.asp
 a$$e$$or
 a$$inck
 a$$ink
-a$$orted44
 a$$orteren
 a$$ortiment
 aanhit$ing
@@ -182,12 +166,8 @@ aanpa$$ing
 ab$orbeer
 ab$orberen
 ab$orptie
-abstractdoclet$indexkey.class
-abstractdoclet$interfacerelation.class
 activity_nosql.xml
 ad$orberen
-admin/nosql.asp
-adminheadnosql.asp
 adver$ing6
 af$plit$ing
 aflee$in$trument
@@ -199,7 +179,6 @@ agre$$or
 agribu$ine$$
 agrobu$ine$$
 albnosqldb
-ale$$andr0
 ale$$andra
 ale$$andro
 alek$andar
@@ -228,40 +207,18 @@ aq!sw@de#fr$gt%hy^ju&ki*
 aq!sw@de#fr$gt%hy^ju&ki*lo(
 arbeid$inten$ief
 arbeid$organi$atori$ch
-area$intersection.class
-area$intersection.h
 arend$neu$
 artit-nosql-layer
-asmcontenthandler$innerclassrule.class
-asmcontenthandler$interfacerule.class
-asmcontenthandler$interfacesrule.class
 aurora$orb$unauthenticated
 aurora$orb$unauthenticated invalid
 aurora$orb$unauthenticated:<invalid>
 aurora$orb$unauthenticated:invalid
 aurora$orb$unauthenticated:invalid_encrypted_password
-auto.$injector.html
 aw-report-nosql-beans.xml
 b$and(ns
 ba$$in
 ba$wa$$ing
 badparams=`echo "$badparams" | replace "$selinject" "$inj3ct"`
-basiccombopopup$invocationkeyhandler.class
-basiccombopopup$invocationkeyhandler.h
-basiccombopopup$invocationmousehandler.class
-basiccombopopup$invocationmousehandler.h
-basiccombopopup$invocationmousemotionhandler.class
-basiccombopopup$invocationmousemotionhandler.h
-basicdesktopiconui$internalframedefaultmenuicon.class
-basicdesktopiconui$internalframedefaultmenuicon.h
-basicfilechooserui$newfolderaction.class
-basicfilechooserui$newfolderaction.h
-basicinternalframeui$internalframeborder.class
-basicinternalframeui$internalframeborder.h
-basicinternalframeui$internalframelayout.class
-basicinternalframeui$internalframelayout.h
-basicinternalframeui$internalframepropertychangelistener.class
-basicinternalframeui$internalframepropertychangelistener.h
 be$li$$ing
 be$neeuw
 be$neeuwd
@@ -272,8 +229,6 @@ beheer$ing
 belood$ing
 ben$ink
 beu$ink
-bitwisexorcomposite$intcontext.class
-bitwisexorcomposite$intcontext.h
 ble$$ing
 ble$ing
 blik$em$nel
@@ -294,26 +249,16 @@ c@$$andr@000
 ca$$andra
 ca$$andrathe
 ca$ino
-canjaguar$neutralmode.class
 cat "$inputfile" | while read quack; do
 chapter.nosql.mongodb.xml
 cloudantnosqldb
 cm_build_nosql.xml
-componentview$interceptor.class
-componentview$interceptor.h
-concurrentskiplistmap$index.class
-concurrentskiplistmap$index.h
-conn/nosql.asp
-conn_nosql.asp
 constantpoolgen$index.class
 d!$ney87
 d$nek56
 d1$ney123
 dal-impl-jpa-nosql-context.xml
 dal-impl-jpa-nosql-integration-test-context.xml
-dao/nosql/drier/mongo.init.php
-dao/nosql/drier/redis.init.php
-dao/nosql/nosql.init.php
 darpa$inte
 database/nosql-11.2.2.0
 database/nosql-12.1.2.1
@@ -327,8 +272,6 @@ database/nosql-12.1.4.0
 database/nosql-12.1.4.2
 database/nosql-12.1.4.3
 database/nosql-12.2.4.4
-dataline$info.class
-dataline$info.h
 datasyncnosql.dll
 datasyncnosql.dll.config
 datasyncnosql2.dll
@@ -340,24 +283,13 @@ de#fr$gt%hy^ju&ki*
 de#fr$gt%hy^ju&ki*lo(
 deadly$ins
 deci$infor
-defaulteditorkit$insertbreakaction.class
-defaulteditorkit$insertbreakaction.h
-defaulteditorkit$insertcontentaction.class
-defaulteditorkit$insertcontentaction.h
-defaulteditorkit$inserttabaction.class
-defaulteditorkit$inserttabaction.h
-defaulteditorkit$nextwordaction.class
-defaulteditorkit$nextwordaction.h
 deferreddocumentimpl$intvector.class
 det$indonesia
 di$order.explain
 disk$infor
-docflavor$input_stream.class
-docflavor$input_stream.h
 dos.orm.nosql.dll
 dotcmsid_nosqlgen.hbm.xml
 dotcmsseq_nosqlgen.hbm.xml
-driverstationenhancedio$input_t.class
 drty$lt
 dtmdefaultbaseiterators$internalaxisiteratorbase.class
 dtmdefaultbasetraversers$indexeddtmaxistraverser.class
@@ -394,17 +326,12 @@ en/database/other-databases/nosql-database/22.1
 en/database/other-databases/nosql-database/22.2
 en/database/other-databases/nosql-database/22.3
 en/database/other-databases/nosql-database/23.1
-en/inc/nosql.asp
 encodeoutput=`echo $inputbuffer | replace " " "%20" | replace "." "%2e" | replace "<" "%3c" | replace ">" "%3e" | replace "?" "%3f" | replace "+" "%2b" | replace "*" "%2a" | replace ";" "%3b" | replace ":" "%3a" | replace "(" "%28" | replace ")" "%29" | replace "," "%2c" | replace "/" "%2f" | replace "|" "%7c"`
 encodinginfo$inencoding.class
 enddate$gt
 entity$internalentity.class
 fastonosql-com
-fastonosql.rb
 feed$inclu
-feedback/nosql.asp
-gapcontent$insertundo.class
-gapcontent$insertundo.h
 geo$gt
 getmongoclientlist
 gf$integra18
@@ -417,14 +344,10 @@ he$interes
 hell$ing02
 hello-mongoclient-5d46df9c58-bnd88
 htdocs/core/class/nosqldocument.class.php
-htmleditorkit$inserthtmltextaction.class
-htmleditorkit$inserthtmltextaction.h
 htools_h_nosql.sql
 icro$$ing
 ict$nec
 idbe3_lib_filtros_nosql.cfm
-idc/admini/include/nosqlhack.asp
-idc/include/nosqlhack.asp
 if [ $input -eq '1' ]
 if [ true = "$z" ] ; then echo "debug! encoder input: $inputbuffer";fi
 if [ true = "$z" ] ; then resp=`echo $and1eq1 | cut -d ":" -f 1`; time=`echo $and1eq1 | cut -d ":" -f 3`; echo "debug! status: $resp time: $time";fi
@@ -437,11 +360,7 @@ if [[ "$oldurl" == "$newurl" ]] ; then
 if [[ "$status1" == "200" && "$status999" == "200" && "$ordlngthdiff" == "1" && "$timedelay" == "0" ]] ; then
 if [[ $oracledb == 1 ]] ; then
 iloveja$in
-inc/connnosql.asp
-inc/nosql.asp
 inc/nosqlhack.asp
-include/nosql.asp
-include/nosqlhack.asp
 inputbuffer=`echo $inputbuffer | replace " " "/*d*/"`
 inputbuffer=`echo $inputbuffer | replace "'" "%bf%27"`
 inputbuffer=`echo $inputbuffer | replace "'" "%ef%bc%87"`
@@ -454,15 +373,9 @@ integrityhmac$integrityhmacsha1.class
 integrityhmac$integrityhmacsha256.class
 integrityhmac$integrityhmacsha384.class
 integrityhmac$integrityhmacsha512.class
-ior$internet_profile.class
-ior$internet_profile.h
 irc$inputh
 isis-nosql-objectstore.xml
 j@$dev$ingh
-jdwpconstants$commandset$interfacetype.class
-jdwpconstants$commandset$interfacetype.h
-jdwpconstants$invokeoptions.class
-jdwpconstants$invokeoptions.h
 jetty-nosql.xml
 jnosql.xml
 kingleeyung$andyungclov
@@ -475,30 +388,8 @@ libmongoclient
 libmongoclient.
 libmongoclient.rb
 lim@#$ind5
-line$info.class
-line$info.h
-livensconn/nosqlin.asp
 luanosql-unqlite
 lui$in
-memoryanalyze$1$info.class
-metalborders$internalframeborder.class
-metalborders$internalframeborder.h
-metalfilechooserui$indenticon.class
-metalfilechooserui$indenticon.h
-metaliconfactory$internalframealtmaximizeicon.class
-metaliconfactory$internalframealtmaximizeicon.h
-metaliconfactory$internalframecloseicon.class
-metaliconfactory$internalframecloseicon.h
-metaliconfactory$internalframedefaultmenuicon.class
-metaliconfactory$internalframedefaultmenuicon.h
-metaliconfactory$internalframemaximizeicon.class
-metaliconfactory$internalframemaximizeicon.h
-metaliconfactory$internalframeminimizeicon.class
-metaliconfactory$internalframeminimizeicon.h
-mididevice$info.class
-mididevice$info.h
-mixer$info.class
-mixer$info.h
 mongo-dao-nosql-test-context.xml
 mongoclient
 mongoclient-dev
@@ -511,19 +402,12 @@ mongoclient.zip
 mongoclient_lmfdb0.config
 mongoclient_ms.config
 mongoclient_solution.zip
-mongoclientdependsonbeanfactorypostprocessor.java
-mongoclientfactory.java
-mongoclientmatcher.php
-monosqls
 mozilla/5.0 (x11; linux x86_64) applewebkit/537.36 (khtml, like gecko) mongoclient/2.1.0 chrome/58.0.3029.110 electron/1.7.5 safari/537.36
 mpintlnosql1
 mpintlnosql2
 mutt$init8
-networktable$networktablekeycache.class
 newand1eq1time=`echo "$and1eq1" | cut -d ":" -f 3| cut -d "." -f1`
 newand1eq2time=`echo "$and1eq2" | cut -d ":" -f 3| cut -d "." -f1`
-ng.$interpolate.html
-ng.$interpolateprovider.html
 nopw$ne
 nosql
 nosql-aggregation
@@ -554,12 +438,10 @@ nosqlbench-dns-ea0d0705
 nosqlbooster-com
 nosqlbuildertaskfound.cs
 nosqlclient
-nosqlclient.rb
 nosqldb.exe
 nosqldb.exe.config
 nosqldb.vshost.exe
 nosqldb.vshost.exe.config
-nosqldriver.php
 nosqlfan-com
 nosqlhack
 nosqlhack.asp
@@ -573,15 +455,10 @@ nosqlited
 nosqljson.xml
 nosqlmap
 nosqloperationsform.xml
-nosqlquery.java
-nosqlresultset.java
 nosqlserver.xml
-nosqlstoragesource.java
 nosqlzoo
 oasis-datacore-core-mongoclient-context.xml
 oasis-datacore-core-mongoclient-devmode-context.xml
-objectstreamclass$interfacecomparator.class
-objectstreamclass$interfacecomparator.h
 oracle,3,aurora$orb$unauthenticated,<invalid>,invalid_encrypted_password,
 oracle,3,aurora$orb$unauthenticated,invalid,80c099f0eadf877e,aurora$orb$unauthenticated is an internal account of jserver. in 8i changing the password will prevent orb from working.
 oracle-nosql
@@ -604,37 +481,12 @@ osp$organization_type_list.sql
 osp$organization_view.sql
 osp$organization_ynq.sql
 p@$$new
-pageattributes$orientationrequestedtype.class
-pageattributes$orientationrequestedtype.h
-pageattributes$origintype.class
-pageattributes$origintype.h
-persistenceparser$inthandlercreator.class
-persistenceparser$inthandlercreator.h
-platform$android23.class
-platform$android41.class
-port$info.class
-port$info.h
-preferences$incompatibletypeexception.class
-printerdialog$pagesetuppanel$orientation.class
-printerdialog$pagesetuppanel$orientation.h
-processor$inputslicinghandler.class
 programming/database/15. nosql-databases/dictionary/dictionary.webapp/index.aspx
-query$andqueryexp.class
-query$andqueryexp.h
-query$inqueryexp.class
-query$inqueryexp.h
-query$instanceofqueryexp.class
-query$instanceofqueryexp.h
-query$orqueryexp.class
-query$orqueryexp.h
 r$integer.class
 ram$indrani
 rdf_graph_for_nosql_database.zip
-re$intpair.class
-re$intpair.h
 redirectlocation=`echo $and1eq2 | cut -d ":" -f 4,5,6,7,8,9,10`
 redis nosql database connector
-relay$invalidvalueexception.class
 remotenosqldb.exe
 remotenosqldb.exe.config
 remotenosqldb.vshost.exe
@@ -667,11 +519,8 @@ sql2nosql.settings.xml
 src/mongoclient.php
 src/utils/$insertandselectnode.ts
 standalone-nosql.xml
-stringcontent$insertundo.class
-stringcontent$insertundo.h
 svn::$index_allocation/entries
 sy/inc/nosql.asp
-ta350$lt1
 tepo$$ino
 test-com.example.project.calculatortests$nestedclass.xml
 test-org.apache.shindig.protocol.testhandler$input.xml
@@ -680,7 +529,6 @@ test-org.sonar.plugins.surefire.nestedtest$inner2$run.xml
 test/mongoclient-getserverversion.php
 test/mongoclienttest.php
 tests/suites/unit/joomla/database/stubs/nosqldriver.php
-thai$inha
 then sqlequallength=`echo $and1eq2 | cut -d ":" -f 2`
 then sqlunequallength=`echo $and1eq2 | cut -d ":" -f 2`
 titanfile-mongoclient-5556d65dfd-gtjkd
@@ -690,8 +538,6 @@ titanfile-mongoclient-8455b7f974-xb4sm
 titanfile-mongoclient-8688b44bb-rpnps
 titanlive-mongoclient-64bb8df578-7tbh9
 titanlive-mongoclient-c98755698-lsvsr
-tooltipmanager$insidetimeraction.class
-tooltipmanager$insidetimeraction.h
 top_nosql.asp
 true, $where: '1 == 1'
 tvb88$ne
@@ -709,8 +555,6 @@ webnotenosql/webnotenosql/views/home/index.aspx
 webnotenosql/webnotenosql/views/shared/error.aspx
 wefqd4$andy%ak47
 www.nosql
-xmlparser$input.class
-xmlparser$input.h
 { $ne: 1 }
 {"$gt": ""}
 {"$gt": undefined}

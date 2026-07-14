@@ -95,7 +95,6 @@ _protected/vendor/yiisoft/yii2/db/activerecord.php
 _protected/vendor/yiisoft/yii2/db/activerecordinterface.php
 _protected/vendor/yiisoft/yii2/db/baseactiverecord.php
 _web-inf_classes_spring-hibernate.xml.launch
-a.nhibernate33.xml
 abstracthibernatedaotest-context.xml
 abstractnhibernatedao
 abstractnhibernatedao.cs
@@ -113,20 +112,14 @@ activerecord-import
 activerecord-jdbc
 activerecord-relation
 activerecord.class.php
-activerecord.en.yml
 activerecord.exe.config
-activerecord.fr.yml
-activerecord.html
 activerecord.inc.php
-activerecord.ja.yml
 activerecord.page
 activerecord.php
-activerecord.rb
 activerecord.sql
 activerecord.sqlite3
 activerecord.xml
 activerecord.yml
-activerecord.zh-cn.yml
 activerecord/doc
 activerecord/sqlnet.log
 activerecord::activerecorderror
@@ -612,12 +605,9 @@ activerecord::validations::uniquenessvalidator
 activerecord::valuetoolong
 activerecord::version
 activerecord::wrappeddatabaseexception
-activerecord_test_case.rb
-activerecord_test_connector.rb
 activerecordassemblies.xml
 activerecordbase
 activerecordbase.php
-activerecordinterface.php
 activerecordlinq
 activerecordresultset
 activerecordresultset.php
@@ -625,7 +615,6 @@ activerecordssearch
 activerecordssearch.class.php
 activerecordtest
 activerecordtest.php
-activerecordtesttrait.php
 activerecordviz
 activitystore.hibernate.cfg.xml
 addrbook.hibernate.cfg.xml
@@ -659,7 +648,6 @@ appcontext-security-hibernate-production.xml
 appcontext-security-hibernate.xml
 application-hibernate.xml
 application/api/components/db/activerecord.php
-application/models/lsactiverecord.php
 application/modules/core/events/activerecordspecialevent.php
 application_context-hibernate.xml.i
 application_name.csm.new.hibernate.cfg.xml
@@ -702,7 +690,6 @@ autofaccontrib.nhibernate.dll
 banking-hibernate-repositories.xml
 base-project/src/main/webapp/hibernatecachestats.jsp
 base__hibernate.model.xml
-baseactiverecord.php
 baseactiverecord.stub
 basic/vendor/yiisoft/yii2/db/activerecord.php
 basic/vendor/yiisoft/yii2/db/activerecordinterface.php
@@ -715,7 +702,6 @@ beginning_hibernate
 bidirectionmanytomanyhibernate.cfg.xml
 bidirectiononetomanyhibernate.cfg.xml
 bidirectiononetoonehibernate.cfg.xml
-bin/nhibernate.xml
 birt-hibernate-data_binding
 birt-hibernate-edit_code
 birt-hibernate-edit_data_set
@@ -728,7 +714,6 @@ birt-hibernate-orig_filter
 birt-hibernate-orig_report
 birt-hibernate-table_in_report
 blog.hibernate.org.conf
-blog/blogonline/src/hibernate.cfg.xml
 body-1.0.0.final-hibernate-jpa-2.1-api-1.0.0.final.pom-vnff7.xml
 body-1.0.1.final-hibernate-jpa-2.0-api-1.0.1.final.pom-z3sau.xml
 body-1.0.7.final-jboss-javaee-6.0-with-hibernate-1.0.7.final.pom-t1gsv.xml
@@ -775,14 +760,11 @@ body-hibernate-validator-maven-metadata.xml-mmle9.xml
 book-code/asp.net design pattern/asppatternsc04/asppatterns.chap4.activerecord/asppatterns.chap4.activerecord.ui.mvc/default.aspx
 book-code/asp.net design pattern/asppatternsc04/asppatterns.chap4.activerecord/asppatterns.chap4.activerecord.ui.mvc/views/blog/addpost.aspx
 book-code/asp.net design pattern/asppatternsc04/asppatterns.chap4.activerecord/asppatterns.chap4.activerecord.ui.mvc/views/blog/index.aspx
-booksweb-inf/classes/hibernate.cfg.xml
 buendia-hibernate.cfg.xml
 build-hibernate.xml
 c3d.csm.new.hibernate.cfg.xml
 cachehibernateblobstoreentry.hbm.xml
 cactiverecord
-cactiverecord.php
-cactiverecordbehavior.php
 cae-hibernate.cfg.xml
 cagrid_csm.new.csm.hibernate.xml
 cagwas-domain-hibernate.cfg.xml.template
@@ -844,11 +826,6 @@ coast,abide,avalanche,bank,be a sideliner,be effortless,be painless,be still,bea
 code/hibernate_11-4/webroot/index.jsp
 codeigniter-activerecord
 com.vogella.jpa.service.hibernate.hibernatetodoservice.xml
-com/huo/dao/hibernate
-com/huo/hibernateutil
-com/stuman/dao/hibernate/.vs
-com/stuman/dao/hibernate/.vs/repository
-com/stuman/dao/hibernate/.vs/root
 commerceapp-hibernate.xml
 common-hibernate-db-context.xml
 common-hibernate.xml
@@ -874,17 +851,13 @@ config-spring-hibernate.xml
 config/hibernate.cfg.xml
 configdb.hibernate.build.cfg.xml
 configdb.hibernate.cfg.xml
-connfig/hibernate4/hibernate.cfg.xml
 console_hibernate.cfg.xml
 context-hibernate.xml
 context-repository-hibernate.xml
 core.hibernate.cfg.xml
-core/db/ar/cactiverecord.php
-core/db/ar/cactiverecordbehavior.php
 correlatedidentifers.hibernate.cfg.xml
 cosmos.logging.extensions.nhibernate.xml
 cpphibernate
-cpu_hibernate.c
 craft/app/framework/db/ar/cactiverecord.php
 craft/app/framework/db/ar/cactiverecordbehavior.php
 create-schema-hibernate_sequence.sql
@@ -906,13 +879,8 @@ csmupt45.csm.new.hibernate.cfg.xml
 csp-hibernate.cfg.xml
 ctodslabviewer.hibernate.cfg.xml.template
 ctx-common-hibernate.xml
-cubridactiverecordtest.php
 cursohibernate-es
-customhibernatejpaautoconfigurationtests.java
 dao-hibernate.xml
-dao/hibernate/.vs
-dao/hibernate/.vs/repository
-dao/hibernate/.vs/root
 dao_hibernate.xml
 dao_hibernate_transactional.xml
 daohibernatespringcontext.xml
@@ -971,7 +939,6 @@ ehcache-hibernate-rmi.xml
 ehcache-hibernate-test.xml
 ehcache-hibernate.xml
 ehcache_hibernate.xml
-ehomegoods/.cl/hibernate.reeng.xml
 ejb3test-hibernate.cfg.xml
 embed-hibernate.cfg.xml
 employee_hibernate.cfg.xml
@@ -1037,7 +1004,6 @@ find_by_date.xml
 find_by_days.xml
 find_by_hash.sqlite3
 find_by_id
-find_by_id_spec.rb
 find_by_location_button.xml
 find_by_name
 find_by_name.sql
@@ -1083,8 +1049,6 @@ generatenhibernatetable.sql
 generator-hibernate.cfg.xml
 geomajascontextlayerhibernate.xml
 global.nhibernatetesthelper.dll
-go/base/db/activerecord.php
-go/base/db/multilingualactiverecord.php
 gps-embeddedhibernate.xml
 gps-hibernate.xml
 gradle__com_fasterxml_jackson_datatype_jackson_datatype_hibernate4_2_3_3.xml
@@ -1229,12 +1193,6 @@ grails-hibernate-configuration-tests.xml
 grails_datastore_gorm_hibernate4_3_0_0_release.xml
 graphql::relay::activerecord
 gtfsmapping.hibernate.xml
-guestbook/src/com/huo/dao/hibernate
-guestbook/src/com/huo/hibernateutil
-guestbook/src/hibernate.cfg.xml
-guetstbkoo/guestbook/src/com/huo/dao/hibernate
-guetstbkoo/guestbook/src/com/huo/hibernateutil
-guetstbkoo/guestbook/src/hibernate.cfg.xml
 gwt-hibernate
 gwt-spring-hibernate-maven
 h2.hibernate.xml
@@ -1256,10 +1214,8 @@ hibernate-annotation-mapping-persistence.xml
 hibernate-annotation.cfg.xml
 hibernate-annotations
 hibernate-annotations.cfg.xml
-hibernate-annotations.jar
 hibernate-annotations.zip
 hibernate-applicationcontext-hazelcast.xml
-hibernate-asm.s
 hibernate-attachments.cfg.xml
 hibernate-auth.cfg.xml
 hibernate-auth.reveng.xml
@@ -1283,16 +1239,9 @@ hibernate-char.cfg.xml
 hibernate-char.reveng.xml
 hibernate-clean.cfg.xml
 hibernate-clustered.xml
-hibernate-commons-annotations-4.0.1.final.jar
-hibernate-commons-annotations-4.0.2.final.jar
-hibernate-commons-annotations-4.0.4.final.jar
-hibernate-commons-annotations-4.0.5.final.jar
-hibernate-commons-annotations-5.0.1.final.jar
-hibernate-commons-annotations.jar
 hibernate-config-core.xml
 hibernate-config-experiments.xml
 hibernate-config.xml
-hibernate-configuration-3.0.dtd
 hibernate-configuration-3.0.xml.ft
 hibernate-configuration-3.0.xml.html
 hibernate-configuration-examples.xml
@@ -1325,7 +1274,6 @@ hibernate-embedded.cfg.xml
 hibernate-entity-manager.xml
 hibernate-entitymanager
 hibernate-entitymanager-3.6.dtd
-hibernate-entitymanager.jar
 hibernate-envers
 hibernate-fake-mapping.xml
 hibernate-fieldbattle.cfg.xml
@@ -1360,9 +1308,6 @@ hibernate-jdbc.cfg.xml
 hibernate-jgroups-tcp.xml
 hibernate-jgroups-udp.xml
 hibernate-jndi.cfg.xml
-hibernate-jpa-2.0-api-1.0.0.final.jar
-hibernate-jpa-2.0-api-1.0.1.final.jar
-hibernate-jpa-2.1-api-1.0.0.final.jar
 hibernate-jpa-context.xml
 hibernate-jpa-junit.cfg.xml
 hibernate-jpa-np-context.xml
@@ -1385,7 +1330,6 @@ hibernate-map-pacjenci.hbm.xml
 hibernate-map-wyniki.hbm.xml
 hibernate-mapped-class-tests.xml
 hibernate-mapping
-hibernate-mapping-3.0.dtd
 hibernate-mapping-3.0.xml.ft
 hibernate-mapping-3.0.xml.html
 hibernate-mapping-3.6.dtd
@@ -1459,8 +1403,6 @@ hibernate-raw.cfg.xml
 hibernate-redis.conf
 hibernate-release.cfg.xml
 hibernate-resume
-hibernate-resume-generator.c
-hibernate-resume.c
 hibernate-reveng.xml
 hibernate-s1.cfg.xml
 hibernate-s2.cfg.xml
@@ -1529,7 +1471,6 @@ hibernate-xml.windup.test.xml
 hibernate-xml.windup.xml
 hibernate.bak.cfg.xml
 hibernate.britreport.cfg.xml
-hibernate.c
 hibernate.c3p0.cfg.xml
 hibernate.cfg-default.xml
 hibernate.cfg-example.xml
@@ -1646,7 +1587,6 @@ hibernate.fb.cfg.xml
 hibernate.freemark.cfg.xml
 hibernate.gwt.xml
 hibernate.gwtutil_testmem.cfg.xml
-hibernate.h
 hibernate.h2.cfg.xml
 hibernate.hbm.xml
 hibernate.hbm.xml.vm
@@ -1675,13 +1615,11 @@ hibernate.production.cfg.xml
 hibernate.properties
 hibernate.properties.sqlserver
 hibernate.properties.xml
-hibernate.reeng.xml
 hibernate.remote.xml
 hibernate.reveng.emailengine.xml
 hibernate.reveng.xml
 hibernate.reveng.xml.bak
 hibernate.reveng.xml.svn-base
-hibernate.s
 hibernate.scheduling.cfg.xml
 hibernate.spring.xml
 hibernate.sql
@@ -1689,7 +1627,6 @@ hibernate.sqlite.properties
 hibernate.sqlserver.properties
 hibernate.staging.hbm.xml
 hibernate.staging.properties
-hibernate.target
 hibernate.test.cfg.xml
 hibernate.test.common.properties
 hibernate.test.properties
@@ -1700,42 +1637,19 @@ hibernate.windup.xml
 hibernate.workflow.cfg.xml
 hibernate.xml
 hibernate.zip
-hibernate/action
-hibernate/cache
-hibernate/cfg
-hibernate/classic
-hibernate/collection
-hibernate/connection
 hibernate/connection_provider_class
 hibernate/current_session_context_class
 hibernate/dialect
 hibernate/flush_before_completion
 hibernate/generate_statistics
-hibernate/lib
 hibernate/part2/gs_hibernate_jndi/web/index.jsp
-hibernate/po
-hibernate/po/enrolled.hbm.xml
-hibernate/po/examineegrade.hbm.xml
-hibernate/po/examineeinfo.hbm.xml
-hibernate/po/examineerelation.hbm.xml
-hibernate/po/examineeresume.hbm.xml
-hibernate/po/examineewish.hbm.xml
-hibernate/po/recruitplan.hbm.xml
-hibernate/po/user.hbm.xml
 hibernate/show_sql
-hibernate/src/hibernatework
 hibernate/src/main/webapp/index.jsp
-hibernate/src/pojo
-hibernate/src/pojo/puriew.hbm.xml
-hibernate/src/pojo/role.hbm.xml
-hibernate/src/pojo/user.hbm.xml
 hibernate/stats
 hibernate/transaction_factory_class
 hibernate/transaction_flush_before_completion
 hibernate/transaction_manager_lookup_class
-hibernate/webrooserletesuccess.jsp
 hibernate0.sql
-hibernate00
 hibernate004
 hibernate1
 hibernate1.cfg.xml
@@ -1781,7 +1695,6 @@ hibernate4-xml.windup.xml
 hibernate4.sql
 hibernate4.windup.test.xml
 hibernate4.windup.xml
-hibernate4/hibernate.cfg.xml
 hibernate4/src/main/webapp/index.html
 hibernate4_0040_persistence-informix.xml
 hibernate4_0040_persistence-oracle.xml
@@ -1810,7 +1723,6 @@ hibernate5toolstest-testgeneratesqlschema_withoutunderscore-expected.sql
 hibernate5toolstest-testgeneratesqlschema_withunderscore-expected.sql
 hibernate_-_relational_persistence_for_idiomatic_java.xml
 hibernate_2.cfg.xml
-hibernate_32.c
 hibernate_4_2_2.xml
 hibernate_4_2_2_4_2_2.xml
 hibernate_4_2_2_4_2_2__4_.xml
@@ -1818,12 +1730,8 @@ hibernate_5_2_10_5_2_10.xml
 hibernate_5_2_16_5_2_16.xml
 hibernate_5_2_3_5_2_3.xml
 hibernate_5_2_9_5_2_9.xml
-hibernate_64.c
 hibernate_aproclog.cfg.xml
 hibernate_aproclog.reveng.xml
-hibernate_asm.s
-hibernate_asm_32.s
-hibernate_asm_64.s
 hibernate_bak.cfg.xml
 hibernate_c3p0_4_0_0_cr2.xml
 hibernate_c3p0_4_3_5_final.xml
@@ -1880,7 +1788,6 @@ hibernate_mysql.cfg.xml
 hibernate_mysql.conf
 hibernate_mysql_chebi_dump.cfg.xml
 hibernate_node.cfg.xml
-hibernate_nvs.c
 hibernate_objects.conf
 hibernate_postgres.cfg.xml
 hibernate_production_mysql.cfg.xml
@@ -1928,21 +1835,9 @@ hibernatecentraldb.cfg.xml.dev
 hibernatecentraldb.cfg.xml.inmem
 hibernatechangetrackertest-context.xml
 hibernateclinictests-context.xml
-hibernatecode
-hibernatecode/meta-inf
-hibernatecode/org
-hibernatecode/org/hibernate
-hibernatecode/org/hibernate/action
-hibernatecode/org/hibernate/cache
-hibernatecode/org/hibernate/cfg
-hibernatecode/org/hibernate/classic
-hibernatecode/org/hibernate/collection
-hibernatecode/org/hibernate/connection
-hibernatecode/org/hibernateentry
 hibernateconcepttestdataset.xml
 hibernateconfig.xml
 hibernateconfigitem.hbm.xml
-hibernateconfiguration.java
 hibernateconnectionfactory.xml
 hibernateconsole.cfg.xml
 hibernatecontext.xml
@@ -1951,7 +1846,6 @@ hibernatecriteriabuilder.java
 hibernatecurrentstep.hbm.xml
 hibernatecurrentstepprev.hbm.xml
 hibernated
-hibernatedao.java
 hibernatedao_jar.xml
 hibernatedao_war_exploded.xml
 hibernatedaos.test.1.xml
@@ -1964,7 +1858,6 @@ hibernatederbypersistenceservice.xml
 hibernatedocumentdaotest.xml
 hibernatedocumentservicetest-context.xml
 hibernatedynamicdaotest.spring.xml
-hibernateentry
 hibernateexample.sql
 hibernateexception
 hibernatefile.cfg.xml
@@ -1974,7 +1867,6 @@ hibernategtfsrelationaldaoimpltest.xml
 hibernateheaderscleaner_v1.0.zip
 hibernatehelloworldannotation.zip
 hibernatehelloworldxml.zip
-hibernatehelper.java
 hibernatehelper.java.xml
 hibernatehistorystep.hbm.xml
 hibernatehistorystepprev.hbm.xml
@@ -1994,8 +1886,6 @@ hibernateidentityobjectrelationshiptype.hbm.xml
 hibernateidentityobjecttype.hbm.xml
 hibernateinmem.cfg.xml
 hibernateinterceptor.java
-hibernatejpaautoconfiguration.java
-hibernatejpaautoconfigurationtests.java
 hibernatejpajotmspringtest-spring.xml
 hibernatejpaspringtest-spring.xml
 hibernatelocal.cfg.xml
@@ -2033,7 +1923,6 @@ hibernaterecreatedatabase.cfg.xml
 hibernaterepositorydaotest.xml
 hibernaterestaurant.hbm.xml
 hibernates
-hibernates.java
 hibernatesample_bak.sql
 hibernatesecondlevelcache.xml
 hibernatesequence.xml
@@ -2056,7 +1945,6 @@ hibernatesystemundertestdaotest.xml
 hibernatetemplate.cfg.xml
 hibernatetemplate.java
 hibernatetest.cfg.xml
-hibernatetest.java
 hibernatetest.sql
 hibernatetests-context.xml
 hibernatetestscore.blueprint.xml
@@ -2070,17 +1958,11 @@ hibernatetransactionmanagerbean.java
 hibernatetxscopetransactionmanagertests.xml
 hibernatetypemappings.xml
 hibernateuser.cfg.xml
-hibernateuserdao.java
-hibernateutil.class
 hibernateutil.java
-hibernateutils.java
 hibernateutils.xml
-hibernatevalidationproviderresolver.java
-hibernatevalidationproviderresolvertest.java
 hibernatevalidationtest.xml
 hibernatevalidator.gwt.xml
 hibernatewebapp.zip
-hibernatework
 hibernateworkflowentry.hbm.xml
 hibernatewriteoperationintegrationtest-context.xml
 hibernatingrhinos.profiler.appender.nhibernatelog4net.dll
@@ -2096,7 +1978,6 @@ hsql_hibernate.cfg.xml
 hsql_integration_test_hibernate.cfg.xml
 hsqldb-ormunit-hibernate-strategies.xml
 hubcrawl.nhibernate.dll
-hw_hibernate.h
 iactiverecord
 identifiers.hibernate.cfg.xml
 idp_catissuecore.hibernate.cfg.xml
@@ -2150,15 +2031,6 @@ javapersistencehibernateicon
 jbpm-less-hibernate-context.xml
 jbpm.hibernate.cfg.xml
 jixture-hibernate3-context.xml
-jkx/soft052/hibernate/po
-jkx/soft052/hibernate/po/enrolled.hbm.xml
-jkx/soft052/hibernate/po/examineegrade.hbm.xml
-jkx/soft052/hibernate/po/examineeinfo.hbm.xml
-jkx/soft052/hibernate/po/examineerelation.hbm.xml
-jkx/soft052/hibernate/po/examineeresume.hbm.xml
-jkx/soft052/hibernate/po/examineewish.hbm.xml
-jkx/soft052/hibernate/po/recruitplan.hbm.xml
-jkx/soft052/hibernate/po/user.hbm.xml
 jms_hibernate-cfg.xml
 job-db-hibernate.xml
 job-db-paging-hibernate.xml
@@ -2192,14 +2064,11 @@ lib/sequencer/unit/import/common/model/find_by/number.rb
 lib/sequencer/unit/import/common/model/find_by/same_named_attribute.rb
 lib/sequencer/unit/import/common/model/find_by/time_accounting_attributes.rb
 lib/sequencer/unit/import/common/model/find_by/user_attributes.rb
-library/db/ar/cactiverecord.php
-library/db/ar/cactiverecordbehavior.php
 libreplan-business-hibernate-test.cfg.xml
 libreplan-business-hibernate.cfg.xml
 libreplan-webapp-hibernate-test.cfg.xml
 lie low,be incognito,be latent,beware,burrow,couch,crawl,crouch,disappear,drop from sight,escape notice,go into hiding,go to ground,go underground,grovel,have a care,hibernate,hide,hide away,hide out,hole up,hug the earth,lie,lie beneath,lie close,lie doggo,lie dormant,lie hid,lie prone,lie prostrate,lie snug,lie under,look about one,look out,look sharp,lurk,make no sign,masquerade,mind,play peekaboo,qui vive,remain anonymous,retire from sight,sit tight,smolder,squat,stay in hiding,take care,take cover,take heed,underlie,watch out,wear a mask
 linq-to-nhibernate
-linqtonhibernatetests.cs
 lise-hibernate.cfg.xml
 local-hibernate-configuration.xml
 log4j2.fullstackspringhibernate-webservice.xml
@@ -2214,7 +2083,6 @@ machine.nhibernateextensions.dll
 magnum.fornhibernate.dll
 magnum.fornhibernate.xml
 manning publications - hibernate in action
-manningpublications-hibernateinaction
 manytomany.hibernate.cfg.xml
 mapfish-spring-hibernate.xml
 mapping-com.springsource.org.hibernate.validator-maven-metadata.xml-dktie.json
@@ -2600,10 +2468,6 @@ more/activerecord/spec/public
 motech-test-hibernate.cfg.xml
 motrice.postgres.create.hibernate.sql
 mssql2008dialect.hibernate.cfg.xml
-mssqlactiverecordtest.php
-mtk_hibernate_core.c
-mtk_hibernate_dpm.c
-mtk_hibernate_dpm.h
 mvn-hibernate.xml
 mvn-hibernate.xml.svn-base
 myfirstnhibernatesite.dll
@@ -2635,14 +2499,12 @@ nhibernate-caches
 nhibernate-cascade
 nhibernate-collections
 nhibernate-configuration
-nhibernate-configuration.xsd
 nhibernate-criteria
 nhibernate-envers
 nhibernate-futures
 nhibernate-info
 nhibernate-inheritance
 nhibernate-mapping
-nhibernate-mapping.xsd
 nhibernate-profiler
 nhibernate-projections
 nhibernate-properties.xml
@@ -2711,8 +2573,6 @@ nhibernate.nuspec.xml
 nhibernate.pdb
 nhibernate.proxygenerators.castledynamicproxy.dll
 nhibernate.proxygenerators.castledynamicproxy.xml
-nhibernate.readme.html
-nhibernate.releasenotes.txt
 nhibernate.search
 nhibernate.search.dll
 nhibernate.solrnet.dll
@@ -2829,7 +2689,6 @@ op-monitor.hibernate.cfg.xml
 opensim.data.nhibernate.addin.xml
 opensim.data.nhibernate.tests.dll.config
 oracle10g.hibernate.cfg.xml
-oracleactiverecordtest.php
 org-hibernate.xml
 org-netbeans-modules-hibernate.xml
 org-netbeans-modules-hibernate.xml_hidden
@@ -2837,7 +2696,6 @@ org-netbeans-modules-hibernate4lib.xml
 org-netbeans-modules-hibernatelib.xml
 org-netbeans-modules-hibernateweb.xml
 org.gnome.shell.extensions.hibernate-status-button.gschema.xml
-org.hibernate.eclipse.console.prefs
 org.hibernate.validator.source_5.1.1.final.zip
 org.openeos.dao.hibernate.xml
 org/hibernate
@@ -2998,7 +2856,6 @@ postgresql.hibernate.cfg.xml
 postgresql.hibernate.cfg.xml.erb
 postgresql.jndi.hibernate.cfg.xml
 postgresql82dialect.hibernate.cfg.xml
-postgresqlactiverecordtest.php
 potm_hibernate_1105
 potm_hibernate_1105_front
 prevail testify cooperate reopen suffice depart hibernate unfold vanish
@@ -3320,7 +3177,6 @@ sql-hibernate-entity-associations-query-many-to-one-join-example.sql
 sql-hibernate-entity-associations-query-one-to-many-join-example.sql
 sql_querieshibernatevariant.sql
 sqlite-nhibernate-config.xml
-sqliteactiverecordtest.php
 sqliteinmemory.nhibernate.config
 src.hibernate.cfg.xml
 src/activerecord.php
@@ -3368,11 +3224,8 @@ systemd-hibernate-resume-generator.8.xml
 systemd-hibernate-resume-generator.xml
 systemd-hibernate-resume@.service
 systemd-hibernate-resume@.service.8.xml
-systemd-hibernate-resume@.service.in
 systemd-hibernate-resume@.service.xml
 systemd-hibernate.service
-systemd-hibernate.service.in
-systemhibernate.java
 tactiverecord
 tactiverecord.php
 tactiverecordbelongsto

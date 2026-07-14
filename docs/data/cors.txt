@@ -18,7 +18,6 @@ authwithcredentials
 client_withcredentials.xml
 drop_not_null_original.sql
 environment_getexternalrefsinfowithcredentials
-fakeserviceclientwithcredentials.cs
 film_ref_or_null_on_original_language_id.sql
 loginwithcredentials
 origin: http://localhost
@@ -37,11 +36,7 @@ the response header contained multiple access-control-allow-credentials headers.
 the response header contained multiple access-control-allow-origin headers.
 withcredentials
 withcredentials-wrong-state.htm.ini
-xmlhttprequest-withcredentials.any.js
 xmlhttprequest-withcredentials.any.js.ini
-xmlhttprequest-withcredentials.html
 xmlhttprequest-withcredentials.html.ini
-xmlhttprequest-withcredentials.js
 xmlhttprequest-withcredentials.worker.ini
-xmlhttprequest-withcredentials.worker.js
 xmlhttprequest-withcredentials.worker.js.ini
