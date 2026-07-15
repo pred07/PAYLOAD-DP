@@ -95,6 +95,8 @@
 /*https://*/pdt*
 //*
 /content/add_valid_page.query.json?statement=//*
+/content/add_valid_path_to_a_page.query.json?statement=//*
+/content/we-retail.query.json?statement=//*
 06655//**
 1' and 1=(select count(*) from tablenames); --
 1234//**

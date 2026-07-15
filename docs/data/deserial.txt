@@ -51,6 +51,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 /vendor/typo3/phar-stream-wrapper/src/phar/deserializationexception.php
 04739 pickled egg.sql
 04740 pickled fish.sql
+091pickle
 1 -pickle06
 1 -pickle07
 1 2630pickles
@@ -75,6 +76,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 1073pickles
 10pickle
 10pickles
+111111mrpickles
 11139 pickled olthoi egg.sql
 11pickle
 11pickles
@@ -92,6 +94,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 14pickle
 15pickles
 17 pickle
+17pickle
 18pickles
 1974pickle
 1happypickle
@@ -170,8 +173,10 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 99pickles
 9epickles
 9pickles
+9pickleweasel4
 <owner class="java.lang.processbuilder">
 O:8:"Exploit":1:{s:4:"data";s:4:"test";}
+_compat_pickle.py
 _deserialization_exception.java.i
 _gone_in_a_second__pickles.xml
 a1pickles
@@ -185,6 +190,8 @@ abashed,abroad,adrift,afflicted,agitated,ashamed,astray,at sea,beset,bewildered,
 abroad,abashed,aberrant,adrift,afield,alfresco,all abroad,all off,all wrong,amiss,askew,astray,at fault,at large,at sea,away,away from home,awry,beside the mark,bewildered,beyond seas,bothered,broadly,clear,clueless,confused,corrupt,deceptive,defective,delusive,deviant,deviational,deviative,discomposed,disconcerted,dismayed,disoriented,distantly and broadly,distorted,distracted,distraught,disturbed,embarrassed,en plein air,errant,erring,erroneous,everywhere,extensively,fallacious,false,far afield,far and near,far and wide,faultful,faulty,flawed,guessing,heretical,heterodox,illogical,illusory,in a fix,in a maze,in a pickle,in a scrape,in a stew,in foreign parts,in the open,infinitely,lost,mazed,nonresident,not in residence,not right,not true,off,off the track,on all sides,on every side,on leave,on sabbatical leave,on the road,on tour,out,out of doors,outdoors,outside,oversea,overseas,peccant,perturbed,perverse,perverted,publicly,put-out,right and left,self-contradictory,straying,turned around,unfactual,unorthodox,unproved,untrue,upset,vastly,wide,widely,without a clue,wrong
 abstractdeserializer.class
 abstractdeserializer.java
+abstractlistdeserializer.java
+abstractmapdeserializer.java
 accesscontrolpolicytest_testdeserialization.xml
 acerbic,acerb,acerbate,acescent,acetose,acid,acidic,acidulent,acidulous,acrid,acrimonious,amaroidal,asperous,astringent,biting,bitter,bitter as gall,burning,caustic,choleric,coarse,corroding,corrosive,crab,crabbed,cutting,dry,embittered,escharotic,green,hard,harsh,incisive,irritating,keen,mordacious,mordant,nose-tickling,penetrating,pickled,piercing,piquant,poignant,pungent,rancorous,rankled,resentful,resenting,rough,scathing,scorching,sec,severe,sharp,sore,sour,sour as vinegar,soured,sourish,splenetic,stabbing,stewing,stinging,tart,tartish,trenchant,unripe,unsweet,unsweetened,vinegarish,vinegary,virulent,vitriolic,withering
 actiondeserializetest.xml
@@ -192,6 +199,7 @@ actiondeserializetest_1.xml
 actionmenuitem.pickle.zip
 activejob::deserializationerror
 adapted_pickle_juice_rye.xml
+add-mrpickles.txt
 adilpickle
 adilpickle32
 adrift,abashed,aberrant,abroad,afloat,all abroad,all off,all wrong,alternating,amiss,amorphous,askew,astray,at fault,at sea,aweigh,awry,beside the mark,beside the point,beside the question,bewildered,bothered,capricious,cast-off,changeable,changeful,clear,clueless,confused,corrupt,deceptive,defective,delusive,desultory,deviable,deviant,deviational,deviative,discomposed,disconcerted,dismayed,disoriented,distorted,distracted,distraught,disturbed,dizzy,eccentric,embarrassed,errant,erratic,erring,erroneous,extraneous,extrinsic,fallacious,false,fast and loose,faultful,faulty,fickle,fitful,flawed,flickering,flighty,flitting,floating,fluctuating,freakish,free,giddy,guessing,heretical,heterodox,illogical,illusory,immaterial,impertinent,impetuous,impulsive,in a fix,in a maze,in a pickle,in a scrape,in a stew,inadmissible,inapplicable,inapposite,inappropriate,incidental,inconsequent,inconsistent,inconstant,indecisive,infirm,irregular,irrelative,irrelevant,irresolute,irresponsible,loose,lost,mazed,mazy,mercurial,moody,nihil ad rem,nonessential,not at issue,not right,not true,off,off the subject,off the track,out,out-of-the-way,parenthetical,peccant,perturbed,perverse,perverted,put-out,rambling,restless,rickety,roving,scatterbrained,self-contradictory,shaky,shapeless,shifting,shifty,shuffling,spasmodic,spineless,started,straying,turned around,unaccountable,unanchored,unbound,uncertain,uncontrolled,undependable,undisciplined,undone,unessential,unfactual,unfastened,unfixed,unmoored,unorthodox,unpredictable,unproved,unreliable,unrestrained,unsettled,unstable,unstable as water,unstaid,unsteadfast,unsteady,unstuck,untied,untrue,upset,vacillating,vagrant,variable,vicissitudinary,vicissitudinous,volatile,wandering,wanton,wavering,wavery,wavy,wayward,whimsical,wide,wishy-washy,without a clue,wrong
@@ -207,6 +215,7 @@ allie_and_etell's_pickled_eggs_and_beets.xml
 am_ka_achar_(indian_mango_pickles).xml
 amazu_shuga_(pickled_pink_ginger).xml
 american-style_potato_salad_with_eggs_and_sweet_pickles.xml
+amf-io/amfdeserializer.php
 amf_deserializer
 amfbasedeserializer
 amfbasedeserializer.php
@@ -245,6 +254,7 @@ appwelcomeuserconnection.pickle.zip
 arrayblockingqueuedeserializer.class
 arrayblockingqueuedeserializer.java
 arraycheckpointdeserialize.xml
+arraydeserializer.java
 arrayuserdatadeserialize.xml
 articles_pickles_barcode1_sp1_1.xml
 articles_pickles_sp101_1.xml
@@ -311,6 +321,7 @@ banneruserconnection.pickle.zip
 bara-picklet
 basenodedeserializer.class
 basenodedeserializer.java
+basicdeserializer.java
 basicdeserializerfactory.class
 basicdeserializerfactory.java
 basil_marinated_catfish_with_pickled_peaches.xml
@@ -333,6 +344,7 @@ beandeserializermodifier.java
 bearings,abode,accommodation,achievement,adaptation,adjustment,alerion,alignment,animal charge,annulet,area,argent,armorial bearings,armory,arms,aspect,attitude,azimuth,azure,bandeau,bar,bar sinister,baton,bearing,bench mark,bend,bend sinister,billet,blazon,blazonry,bordure,broad arrow,cadency mark,canton,case,celestial navigation,chaplet,charge,chevron,chief,circumstance,coat of arms,cockatrice,condition,coronet,crescent,crest,cross,cross moline,crown,dead reckoning,device,difference,differencing,disorientation,district,eagle,emplacement,ermine,ermines,erminites,erminois,escutcheon,estate,exposure,falcon,fess,fess point,field,file,fix,flanch,fleur-de-lis,footing,fret,frontage,fur,fusil,garland,griffin,gules,gyron,hatchment,helmet,heraldic device,hole,honor point,impalement,impaling,inescutcheon,jam,label,latitude and longitude,lay,lie,lieu,line of position,lion,locale,locality,location,locus,lot,lozenge,mantling,marshaling,martlet,mascle,metal,modality,mode,motto,mullet,nombril point,octofoil,or,ordinary,orientation,orle,pale,paly,pass,pean,pheon,pickle,pilotage,pinpoint,place,placement,plight,point,position,position line,posture,predicament,purpure,quarter,quartering,radio bearing,rank,region,rose,sable,saltire,scutcheon,set,shield,site,situation,situs,spot,spread eagle,standing,state,station,status,stead,subordinary,tenne,tincture,torse,tressure,unicorn,vair,vert,whereabout,whereabouts,wreath,yale
 benpickles
 bewildered,abashed,abroad,adrift,agape,aghast,agog,all agog,amazed,astonished,astounded,astray,at a loss,at a nonplus,at a stand,at a standstill,at an impasse,at gaze,at sea,awed,awestruck,baffled,beguiled,bewitched,bothered,breathless,captivated,clueless,confounded,confused,discomposed,disconcerted,dismayed,disoriented,distracted,distraught,disturbed,dumbfounded,dumbstruck,embarrassed,enchanted,enraptured,enravished,enthralled,entranced,fascinated,flabbergasted,gaping,gauping,gazing,guessing,hypnotized,in a fix,in a maze,in a pickle,in a scrape,in a stew,in awe,in awe of,lost,lost in wonder,marveling,mazed,mesmerized,mystified,nonplussed,off the track,open-eyed,openmouthed,overwhelmed,perplexed,perturbed,popeyed,put-out,puzzled,rapt in wonder,spellbound,staggered,staring,stuck,stumped,stupefied,surprised,thunderstruck,turned around,under a charm,upset,wide-eyed,without a clue,wonder-struck,wondering
+bigintegerdeserializer.java
 bigpickle
 bigpickle1
 bigpickles
@@ -360,14 +372,17 @@ buffmypickle
 buffoon,columbine,hanswurst,harlequin,pantalone,pantaloon,polichinelle,pulcinella,punch,punchinello,scaramouch,ass,bad boy,booger,born fool,buffo,bugger,clown,cutup,devil,doodle,egregious ass,elf,enfant terrible,figure of fun,fool,funmaker,harlequin,hood,hoodlum,hooligan,ignoramus,imp,jack-pudding,jackass,jester,joker,jokester,knave,little devil,little monkey,little rascal,lunatic,merry-andrew,milksop,minx,mischief,mischief-maker,mooncalf,motley,motley fool,perfect fool,pickle-herring,pixie,practical joker,prankster,puck,rapscallion,rascal,rogue,rowdy,ruffian,scamp,scapegrace,schmuck,softhead,sop,stupid ass,tomfool,wag,zany
 builderbaseddeserializer.class
 builderbaseddeserializer.java
+bumpypickle
 burntpickle
 buttpickle
 bytearraydeserializer.class
+bytearraydeserializer.java
 bytebufferdeserializer.class
 bytebufferdeserializer.java
 bytesdeserializer.class
 c2pickle
 c9pickle
+cakeamfphp/amf-io/amfdeserializer.php
 camera.pickle.zip
 cameramocaptakeconnection.pickle.zip
 candidate.pickle.zip
@@ -390,11 +405,18 @@ chrispickles
 chromium-pickle-js
 circumstance,absolute fact,accepted fact,actual fact,adjunct,admitted fact,adventure,affair,appurtenance,aspect,axiom,bald fact,bare fact,bearings,brutal fact,case,circumstances,cold fact,component,conceded fact,condition,conditions,constituent,contents,datum,demonstrable fact,destiny,detail,doom,element,empirical fact,episode,established fact,estate,event,experience,fact,fact of experience,factor,feature,finances,fix,fixings,footing,formality,given fact,go,hap,happening,happenstance,hard fact,heraldry,incident,income,indisputable fact,inescapable fact,ingredient,integrant,item,jam,kismet,location,lot,makings,matter of fact,modality,mode,moira,naked fact,not guesswork,not opinion,occasion,occurrence,part,part and parcel,particular,pass,phenomenon,pickle,place,plain,plight,pomp,portion,position,positive fact,postulate,posture,predicament,pride,provable fact,rank,reality,resources,salient fact,self-evident fact,significant fact,simple fact,situation,sober fact,solemnity,specialty,spot,standing,state,state of affairs,station,status,stubborn fact,the case,the nitty-gritty,thing,turn of events,undeniable fact,weird,well-known fact
 citypickle
+cjsondeserializer.h
+cjsondeserializer.m
 class/system.web.extensions/test/aut/sys.net.jsonserialization/clientdeserializeserverserialize.aspx
 class/system.web.extensions/test/aut/sys.net.jsonserialization/clientserializeserverdeserialize.aspx
+classdeserializer.java
+classes/sabreamf/amf0/deserializer.php
+classes/sabreamf/amf3/deserializer.php
+classes/sabreamf/deserializer.php
 closure/goog/proto2/lazydeserializer.js
 cloudpickle
 cloudpickle-1.2.2-src.zip
+cloudpickle.py
 clown,babbitt,columbine,hanswurst,harlequin,pantalone,pantaloon,philistine,polichinelle,pulcinella,punch,punchinello,scaramouch,acrobat,aerialist,apple knocker,arriviste,ass,banana,bareback rider,be foolish,be stupid,blockhead,blunderer,blunderhead,boor,born fool,botcher,bounder,bourgeois,bucolic,buffo,buffoon,bumbler,bumpkin,bungler,burlesquer,cad,caper,caricaturist,churl,circus artist,clod,clodhopper,clodknocker,clot,clown around,comedian,comic,country bumpkin,cut up,cutup,dolt,doodle,egregious ass,epicier,epigrammatist,equestrian director,equilibrist,farceur,farmer,figure of fun,flier,fool,fool around,frivol,fumbler,funnyman,gag writer,gagman,gagster,galoot,gawk,get funny,go haywire,gowk,groundling,guttersnipe,harlequin,hayseed,hick,high-wire artist,hillbilly,hooligan,horse around,humorist,ignoramus,ill-bred fellow,invite ridicule,ironist,jack-pudding,jackass,jerk,jester,joker,jokesmith,jokester,juggler,klutz,lampooner,lion tamer,looby,lout,low fellow,lubber,lummox,lunatic,madcap,merry-andrew,milksop,mime,mooncalf,motley,motley fool,mountebank,mucker,mummer,nouveau riche,oaf,ox,parodist,parvenu,peasant,perfect fool,pickle-herring,play the buffoon,play the fool,prankster,provincial,punner,punster,quipster,reparteeist,ribald,ringmaster,rough,roughneck,rowdy,rube,ruffian,rustic,satirist,schmuck,slack-rope artist,slouch,slubberer,snake charmer,softhead,sop,stupid ass,sword swallower,tightrope walker,tomfool,trapeze artist,trifle,tumbler,upstart,vulgarian,vulgarist,wag,wagwit,wisecracker,wit,witling,yahoo,yokel,zany
 clutch,abduct,adhere to,amount,array,batch,bear hug,bind,bite,body,brood,budget,bunch,bundle,carry off,catch,cherish,chunk,clamp,clasp,cleave to,clench,climacteric,clinch,cling,clinging,clip,clump,cluster,clutches,complication,cone clutch,control,convergence of events,count,crisis,critical juncture,critical point,crossroads,crucial period,crunch,deal,death grip,disk clutch,dominance,domination,dose,embarrassing position,embarrassment,embrace,emergency,exigency,extremity,farrow,fine how-do-you-do,firm hold,foothold,footing,freeze to,friction clutch,fry,get,gob,grab,grapple,grasp,grip,gripe,group,hang on,hang on to,harbor,hatch,heap,hell to pay,high pressure,hinge,hobble,hold,hold fast,hold on,hold on to,hold tight,hot water,how-do-you-do,hug,hunk,imbroglio,imperativeness,influence,iron grip,jam,keep,keep hold of,kidnap,large amount,lay hold of,litter,lot,measure,mess,mix,morass,multiple-disk clutch,nab,nail,nest,never let go,nip,number,pack,parcel,parlous straits,part,pass,pickle,pinch,plate clutch,plight,portion,possession,power,predicament,press,pressure,pretty pass,pretty pickle,pretty predicament,purchase,push,quagmire,quantity,quicksand,ration,rim clutch,rub,scrape,seize,seizure,set,shanghai,slip friction clutch,slough,small amount,snag,snatch,spat,spawn,spot,squeeze,stew,stick to,sticky wicket,strait,straits,stress,sum,swamp,take,take hold of,tension,tenure,throttle,tight grip,tight spot,tight squeeze,tightrope,toehold,tricky spot,turn,turning point,unholy mess,urgency,young
 cmpickles
@@ -420,6 +442,8 @@ contextualdeserializer.class
 contextualdeserializer.java
 contextualkeydeserializer.class
 contextualkeydeserializer.java
+cookiepickle
+cookiescottpickle
 core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializer.php
 core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializertest.php
 core/src/settings/event/deserializing.php
@@ -436,6 +460,7 @@ crabbed,byzantine,acerb,acerbate,acerbic,acescent,anile,balled up,bearish,beyond
 crazypickle
 crunch,appulse,atomize,bang,bang into,belch,bind,bite,blare,blat,bray,break into pieces,break to pieces,break up,brunt,bulldozing,bulling,bump,bump into,burr,buzz,cackle,cannon,carambole,carom,carom into,caw,champ,chaw,chew,chirr,chomp,chump,clang,clangor,clank,clash,climacteric,clutch,collide,collision,come into collision,complication,concuss,concussion,confront each other,convergence of events,crack up,crack-up,crash,crash into,craunch,crisis,critical juncture,critical moment,critical point,croak,crossroads,crucial period,crump,crush,crux,cut to pieces,dash into,demolish,diffuse,disperse,disrupt,embarrassing position,embarrassment,emergency,encounter,exigency,extremity,fall foul of,fine how-do-you-do,fission,foul,fragment,grate,grind,groan,growl,grumble,hammering,hell to pay,high pressure,hinge,hit,hit against,hobble,hot water,how-do-you-do,hurt,hurtle,imbroglio,impact,imperativeness,impinge,impingement,jam,jangle,jar,juncture,knock,knock against,make mincemeat of,masticate,mauling,meet,meeting,mess,mince,mix,moment of truth,morass,munch,onslaught,parlous straits,pass,percuss,percussion,pickle,pinch,plight,predicament,press,pressure,pretty pass,pretty pickle,pretty predicament,pulverize,push,quagmire,quicksand,ramming,rasp,repercussion,rub,ruminate,run into,scatter,scranch,scrape,scratch,scrunch,shatter,shiver,shock,showdown,sideswipe,slam into,sledgehammering,slough,smack into,smash,smash into,smash up,smash-up,smashing,snarl,snore,splinter,spot,squash,squeeze,squish,stew,sticky wicket,strait,straits,stress,strike,strike against,swamp,tension,thrusting,tight spot,tight squeeze,tightrope,tricky spot,turn,turning point,twang,unholy mess,urgency,whomp
 crunchypickle9
+customdeserializationobject.php
 customentity01.pickle.zip
 customentity01_sg_plate_presets_connection.pickle.zip
 customentity01_sg_plate_types_connection.pickle.zip
@@ -455,8 +480,11 @@ data/upgradeserializedfields.php
 dataabstractionlayer/serializer/entity/promotionindividualcodeserializer.php
 dataabstractionlayer/serializer/entity/promotionindividualcodeserializertest.php
 datapickles.zip
+datedeserializer.java
 datedeserializers.class
 datedeserializers.java
+datetimedeserializer.java
+db2pickle.py
 dbpickle
 dcpickle
 dcpickles
@@ -484,10 +512,13 @@ deserializationconfig.java
 deserializationcontext.class
 deserializationcontext.html
 deserializationcontext.java
+deserializationcontext.php
 deserializationdata.xml
 deserializationexception.java
+deserializationexception.php
 deserializationfeature.class
 deserializationfeature.java
+deserializationperftest.java
 deserializationproblemhandler.class
 deserializationproblemhandler.java
 deserializationshouldresultincorrectconfiguration_source.xml
@@ -495,17 +526,33 @@ deserializationtest.php
 deserialize
 deserialize-add-ons.xml
 deserialize-metadata
+deserialize.go
+deserialize.js
+deserialize.py
+deserialize.r
 deserialize.sql
 deserialize_as_list.xml
+deserialize_test.go
 deserializeappointment
 deserializeapprovaltest.xml
+deserializecollection.cs
+deserializedictionary.cs
+deserializeexception.php
 deserializementionhtml.ts
 deserializeprovidertest.xml
 deserializer
+deserializer-manager-spec.coffee
+deserializer-manager.coffee
 deserializer.class
+deserializer.cs
+deserializer.go
+deserializer.h
 deserializer.html
+deserializer.java
+deserializer.js
 deserializer.out.xml
 deserializer.php
+deserializer.rb
 deserializer.xml
 deserializer/.env
 deserializer/.git/config
@@ -514,8 +561,10 @@ deserializer/json.php
 deserializer/jsontest.php
 deserializer/xml.php
 deserializer/xmltest.php
+deserializer_bak.js
 deserializercache.class
 deserializercache.java
+deserializercomparator.java
 deserializerfactory.class
 deserializerfactory.html
 deserializerfactory.java
@@ -590,6 +639,7 @@ dyllpickle
 dylpickle
 dylpickle1
 dylpickle1208
+eaglespickle09
 eatspickle
 eatspickle2
 edpicklesimer
@@ -612,16 +662,20 @@ entity/promotionindividualcodeserializertest.php
 entitydeserializer.class
 enumdeserializer.class
 enumdeserializer.java
+enumerationdeserializer.java
 enummapdeserializer.class
 enummapdeserializer.java
 enumsetdeserializer.class
 enumsetdeserializer.java
+environment.pickle
 epickle
 error in deserializing body of request message for operation 'readsettings
 espickle
 estate,everyman,john doe,public,absolute interest,acres,assets,bearings,belongings,benefit,blood,body politic,bracket,branch,capital,case,caste,category,chattels,circumstance,citizenry,claim,clan,class,common,common man,commonwealth,community,community at large,condition,contingent interest,demesne,development,division,domain,easement,equitable interest,equity,everybody,everyman,everyone,everywoman,farm,farmstead,fix,folk,folks,footing,form,fortune,general public,gentry,grade,grange,group,grouping,hacienda,head,heading,holding,holdings,home place,homecroft,homestead,house and grounds,house and lot,interest,jam,kin,label,land,level,limitation,location,lot,manor,mansion,men,messuage,modality,mode,nation,nationality,order,part,pass,people,people in general,percentage,persons,pickle,pigeonhole,place,plantation,plight,polity,populace,population,position,possessions,posture,predicament,property,public,race,ranch,rancho,rank,rating,repair,resources,right,right of entry,rubric,section,sept,set,settlement,shape,situation,society,spot,stake,standing,state,station,status,steading,strain,stratum,strict settlement,subdivision,subgroup,suborder,title,toft,trust,use,vested interest,villa,wealth,world,you and me
 evaporate,aerate,aerify,air-dry,anhydrate,atomize,attenuate,bake,be annihilated,be consumed,be destroyed,be gone,be no more,be wiped out,blast-freeze,blot,blow off,brine,brush,burn,carbonate,cast forth,cease,cease to be,cease to exist,chlorinate,clear,clear away,corn,cure,dehumidify,dehydrate,dematerialize,depart,desiccate,die,die away,die out,dilute,disappear,dispel,disperse,dissipate,dissolve,distill,do a fade-out,drain,drive away,dry,dry-cure,dry-salt,dwindle,embalm,emit,erode,escape,etherify,etherize,evanesce,exhale,exit,expire,exsiccate,fade,fade away,fade out,fire,flee,fleet,flit,fluidize,fly,fractionate,freeze,freeze-dry,fume,fumigate,gasify,give off,go,go away,hide,hydrogenate,insolate,irradiate,jerk,kiln,kipper,leave no trace,leave the scene,marinade,marinate,melt,melt away,melt like snow,mummify,oxygenate,parch,pass,pass away,pass off,pass out,perfume,perish,peter out,pickle,preservatize,quick-freeze,reek,refrigerate,retire from sight,rub,salt,scorch,sear,season,send out,shrivel,sink,sink away,smoke,smoke-cure,soak up,sponge,spray,steam,stuff,sublimate,sublime,suffer an eclipse,sun,sun-dry,swab,thin,thin out,torrefy,towel,vanish,vanish from sight,vaporize,volatilize,waste,waste away,weaken,wear away,weazen,wipe,wither,wizen
 event/deserializing.php
+event_deserializer.dart
+event_deserializer.ts
 eventlogentry.pickle.zip
 evilpickles
 extensiondeserializer.class
@@ -663,6 +717,7 @@ framework/webapi/test/unit/rest/request/deserializerfactorytest.php
 fred_and_pickles.xml
 freeze dry,anhydrate,blast-freeze,brine,corn,cure,dehydrate,desiccate,dry,dry-cure,dry-salt,embalm,evaporate,freeze,fume,irradiate,jerk,kipper,marinade,marinate,mummify,pickle,preservatize,quick-freeze,refrigerate,salt,season,smoke,smoke-cure,stuff
 freeze,ko,abide,anesthetize,anhydrate,appall,arrest,awe,balance,ballast,ban,be cold,be still,bedaze,benumb,besot,bite,bitter weather,blast,blast-freeze,bleak weather,blight,block,blunt,brake,brine,bring to,bring up short,change color,chatter,check,checkmate,chill,chloroform,coast,cold snap,cold wave,cold weather,coldcock,congeal,corn,counterbalance,cure,cut,cut short,dam,deaden,deadlock,debar,dehydrate,depth of winter,desensitize,desiccate,didder,dither,dope,draw rein,drive away,drive out,drug,dry,dry-cure,dry-salt,dull,eject,embalm,eternalize,eternize,etherize,evaporate,exclude,expel,firm,firm up,fix,force out,freeze out,freeze solid,freeze to death,freeze-dry,freezing weather,frost,frostbite,fume,funk,glaciate,glacify,go through,grow cold,grow pale,halt,hard winter,harden,have a chill,have goose pimples,hold,horrify,horripilate,ice,ice over,ice up,immobilization,immobilize,immortalize,irradiate,jerk,kayo,keep,keep alive,keep fresh,keep quiet,kipper,knock out,knock senseless,knock stiff,knock unconscious,lay out,lie still,lose courage,lose heat,marinade,marinate,mark time,monumentalize,mummify,nail down,narcotize,nip,not breathe,not stir,numb,obtund,ostracize,pale,palsy,paralyze,peg,penetrate,perennialize,perish with cold,perpetuate,petrify,pickle,pierce,pin,pin down,preservatize,preserve,preserve from oblivion,pull up,put paid to,put to sleep,quake,quick-freeze,quiver,raw weather,refreeze,refrigerate,regelate,reject,remain,remain motionless,repose,rest,retain,salt,scare stiff,scare to death,season,set,shake,shiver,shock,shudder,smoke,smoke-cure,snap,solidify,stabilitate,stabilize,stalemate,stall,stand,stand fast,stand firm,stand still,stay,stay put,steady,stem,stem the tide,stick,stick fast,stiffen,stop,stop cold,stop dead,stop short,strike dumb,strike terror into,stuff,stun,stupefy,subzero weather,take alarm,take fright,tarry,terrify,transfix,tread water,tremble,turn color,turn pale,winter,wintry weather,wintry wind,zero weather
+frenchpickle
 fried,afflicted,baked,bent,boiled,bombed,boozy,braised,broiled,browned,canned,cockeyed,cockeyed drunk,coddled,cooked,crocked,crocko,curried,deviled,disguised,drunk,elevated,fired,fricasseed,fuddled,grilled,half-seas over,heated,high,illuminated,inebriated,lit,lit up,loaded,lubricated,lushy,muddled,muzzy,oiled,organized,oven-baked,pan-broiled,parboiled,pickled,pie-eyed,pissed,pissy-eyed,pixilated,plastered,poached,polluted,potted,raddled,roast,roasted,sauteed,scalloped,seared,shellacked,shirred,skunk-drunk,smashed,soaked,soused,squiffy,steamed,stewed,stinko,swacked,tanked,tight,toasted
 friedpickles
 fromstringdeserializer.class
@@ -682,6 +737,7 @@ garypickler
 garypickles
 gavinpickle-com
 geekpickles
+genericdeserializationvisitor.php
 gepicklede
 get pickled
 getpickle
@@ -710,6 +766,8 @@ hamandpickle51
 happypickle
 harlequin,columbine,dalmatian,hanswurst,harlequin,pantalone,pantaloon,polichinelle,pulcinella,punch,punchinello,scaramouch,antigorite,bicolor,bicolored,buffo,buffoon,butterfly,candy cane,chameleon,check,checker,checkerboard,checkerwork,cheetah,chessboard,chrysotile,clown,colorful,colors in patches,colory,confetti,crazy,crazy quilt,crazy-work,daedal,dichromatic,divers-colored,firedog,fool,iris,jack-pudding,jaguar,jester,kaleidoscopic,leopard,mackerel,mackerel sky,many-colored,marble,marbled paper,marquetry,medley,merry-andrew,moire,mosaic,mother-of-pearl,motley,motley fool,multicolor,multicolored,multicolorous,nacre,ocelot,opal,ophite,parquet,parquetry,parti-color,parti-colored,patchwork,patchwork quilt,peacock,pickle-herring,plaid,polychromatic,polychrome,polychromic,prismal,rainbow,serpentine,serpentine marble,shot,shot silk,shot through,spectral,spectrum,tartan,tessellation,tesserae,thunder and lightning,tortoise shell,trichromatic,trichromic,tricolor,tricolored,two-tone,varicolored,variegated,variegated pattern,versicolor,versicolored,zany,zebra
 hazelpickle
+hb-buffer-deserialize-json.hh
+hb-buffer-deserialize-text.hh
 hear-me-out-pickle-spaghetti-1850451245
 hell to pay,bind,clutch,complication,crunch,embarrassing position,embarrassment,fine how-do-you-do,hobble,hot water,how-do-you-do,imbroglio,jam,mess,mix,morass,parlous straits,pass,pickle,pinch,plight,predicament,pretty pass,pretty pickle,pretty predicament,quagmire,quicksand,scrape,slough,spot,squeeze,stew,sticky wicket,strait,straits,swamp,tight spot,tight squeeze,tightrope,tricky spot,unholy mess
 herfstpickles
@@ -740,7 +798,9 @@ icomponentdeserializer.xml
 icon.pickle.zip
 icons/solid/pickleball.svg
 ideserializationcallback
+ideserializationcallback.cs
 ideserializationcallback.xml
+ideserializer.cs
 ideserializer.xml
 ih8pickles
 ihatepickles
@@ -773,8 +833,10 @@ india:123:
 inepickles2
 inline_deserialization_list_collection.xml
 inpickle
+inputstreamdeserializer.java
 inspectpickles
 integerdeserializer.class
+integerdeserializer.java
 integration/core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializertest.php
 internal/magento/framework/webapi/rest/request/deserializer/json.php
 internal/magento/framework/webapi/rest/request/deserializer/xml.php
@@ -789,6 +851,7 @@ ipickle
 ireallylikepickles
 irradiate,x-ray,activate,anhydrate,beacon,blast-freeze,brighten,brighten up,brine,charge,contaminate,corn,cure,dehydrate,desiccate,dry,dry-cure,dry-salt,edify,embalm,enlighten,evaporate,flood with light,floodlight,freeze,freeze-dry,fume,highlight,illume,illuminate,illumine,improve,infect,jerk,kipper,light,light up,lighten,luminate,marinade,marinate,mummify,overshine,pickle,poison,preservatize,quick-freeze,radiumize,refrigerate,relume,relumine,roentgenize,salt,season,shed light upon,shine upon,smoke,smoke-cure,spotlight,stuff,throw light upon,uplift
 item4035_pickledbeets.xml
+ixmldeserializable.h
 jackiepickles
 jackopickle
 jar-pickles-428088.xml
@@ -798,6 +861,7 @@ java.lang.runtime
 java.lang.runtimeexception
 java.lang.runtimepermission
 java_object_deserialization_user_input.xml
+javadeserializer.java
 javaserializationtest.testjavaobjectdeserializedinfirstcommand.bpmn20.xml
 javaserializationtest.testjavaobjectnotdeserializedifnotrequested.bpmn20.xml
 jazzpickle
@@ -817,21 +881,28 @@ jonah.pickle25
 jonpickles
 jpickle
 jpickle06
+jpickle1
 jpickles
 jpickles1954
 jpickles26
 jppickles
+jquery.deserialize.js
+jquery.deserialize.min.js
 json-deserialization
 jsonbdeserializer.html
 jsonbtypedeserializer.html
 jsondeserializationcontext.class
 jsondeserializationcontext.java
+jsondeserializationvisitor.php
 jsondeserialize.class
 jsondeserialize.java
 jsondeserializer.class
+jsondeserializer.cs
 jsondeserializer.java
+jsondeserializers.java
 jsonnodedeserializer.class
 jsonnodedeserializer.java
+jsonobjectdeserializer.java
 jsonpickle
 jsonpickle.zip
 judgepickles
@@ -867,6 +938,7 @@ latexpickle99
 launch.pickle.zip
 launchsceneconnection.pickle.zip
 launchshotconnection.pickle.zip
+lazydeserializer.js
 le_pickles
 legalholdtest_testdeserialization.xml
 lemon,acid,acidulant,aureate,auric,beige,bomb,bread-and-butter pickle,buff,buff-yellow,bust,canary,canary-yellow,chokecherry,citron,citron-yellow,crab apple,cream,creamy,dill pickle,dud,dull thud,ecru,fallow,fizzle,flat failure,flaxen,flop,floperoo,frost,gilded,gilt,gold,gold-colored,golden,green apple,lemon-yellow,lime,loser,luteolous,lutescent,ocherish,ocherous,ochery,ochreous,ochroid,ochrous,ochry,or,pickle,primrose,primrose-colored,primrose-yellow,saffron,saffron-colored,saffron-yellow,sallow,sand-colored,sandy,sour,sour balls,sour cream,sour grapes,sour pickle,sourdough,straw,straw-colored,total loss,turkey,verjuice,vinegar,washout,xanthic,xanthous,yellow,yellowish,yogurt
@@ -881,6 +953,8 @@ lib/internal/magento/framework/webapi/test/unit/rest/request/deserializer/jsonte
 lib/internal/magento/framework/webapi/test/unit/rest/request/deserializer/xmltest.php
 lib/internal/magento/framework/webapi/test/unit/rest/request/deserializerfactorytest.php
 lib/lib2to3/.pickle
+lib/pear/command/pickle.php
+lib/pear/command/pickle.xml
 lib/pear/pear/command/pickle.php
 lib/vendor/pear/pear/command/pickle.php
 lib/vendor/zend/amf/parse/amf0/deserializer.php
@@ -912,6 +986,7 @@ library/zend/amf/parser/amf3/deserializer.php
 library/zend/amf/parser/deserializer.php
 library/zend/serializer/adapter/pythonpickle.php
 library/zend/serializer/adapter/pythonpickleoptions.php
+license-cloudpickle.txt
 lifeisapickle
 lilpickle3000
 lime,acid,acidulant,allure,bait,bait the hook,birdlime,bola,bread-and-butter pickle,burden,catch,catch out,chokecherry,cobweb,crab apple,cramp,cripple,cumber,decoy,dill pickle,dragnet,embarrass,encumber,enmesh,ensnare,ensnarl,entangle,entoil,entrammel,entrap,entwine,enweb,fetter,fishhook,fly,gill net,gin,green apple,ground bait,hamper,hamstring,handicap,hobble,hook,hook in,impede,inveigle,involve,jig,lame,lariat,lasso,lemon,lumber,lure,mesh,meshes,net,noose,pickle,plug,pound net,press down,purse seine,saddle with,seine,shackle,snare,snarl,sniggle,sour,sour balls,sour cream,sour grapes,sour pickle,sourdough,spinner,spread the toils,springe,squid,tangle,toil,toils,trammel,trap,trawl,trip,verjuice,vinegar,weigh down,wind,wobbler,yogurt
@@ -962,6 +1037,7 @@ meatypickle1
 mediapickle-me
 meloenpickle
 mentionplugin/deserializementionhtml.ts
+messagedeserializer.java
 mikemcpickle
 mimpickles-com
 minipickle
@@ -997,6 +1073,7 @@ moonpickle
 moonpickle19
 moopicklecheese
 mopickled
+mopickles9
 morass,anarchy,baygall,bind,bog,bottom,bottomland,bottoms,buffalo wallow,chaos,clutch,complication,confusion,crunch,dunghill,embarrassing position,embarrassment,entanglement,everglade,fabulous formless darkness,fen,fenland,fine how-do-you-do,foul-up,glade,hassle,hell to pay,hobble,hog wallow,holm,hot water,how-do-you-do,imbroglio,jam,jungle,knot,labyrinth,license,marais,marish,marsh,marshland,meadow,mere,mesh,mess,mire,misrule,mix,mix-up,moor,moorland,moss,mud,mud flat,muddle,parlous straits,pass,peat bog,pickle,pinch,plight,predicament,pretty pass,pretty pickle,pretty predicament,quag,quagmire,quicksand,salt marsh,scrape,screw-up,skein,slob land,slough,snafu,snarl,sough,spot,squeeze,stew,sticky wicket,strait,straits,sump,swale,swamp,swampland,taiga,tangle,tight spot,tight squeeze,tightrope,tricky spot,unholy mess,view,wallow,wash,web
 mosterdpicklesfabriekje
 mozilla/5.0 (linux armv7l) applewebkit/537.36 (khtml, like gecko) chrome/38.0.2125.122 safari/537.36 opr/25.0.1620.0 omi/4.3.18.7.dominik.0 vstvb mb100 hbbtv/1.2.1 (; panasonic; mb100; 0.1.33.11; ;) smarttva/3.0.0 uid(00:09:df:ba:90:ba/mb100/panasonic/0.1.33.11)
@@ -1004,6 +1081,7 @@ mozilla/5.0 (linux armv7l) applewebkit/537.36 (khtml, like gecko) chrome/38.0.21
 mpickle
 mpickles
 mppickle
+mqttdeserializepublish.c
 mr-pickle24
 mr.pickles
 mr7pickles
@@ -1024,6 +1102,7 @@ mrpickles123
 mrpickles420
 mrpicklesa1
 mtolivepickles-com
+multiselectpicklistdeserializer.java
 mummify,air-dry,anhydrate,bake,blast-freeze,blot,brine,brush,burn,corn,cure,dehumidify,dehydrate,desiccate,drain,dry,dry up,dry-cure,dry-salt,embalm,evaporate,exsiccate,fire,freeze,freeze-dry,fume,insolate,irradiate,jerk,kiln,kipper,lay out,lie in state,marinade,marinate,mummy,parch,pickle,preservatize,quick-freeze,refrigerate,rub,salt,scorch,sear,season,shrivel,smoke,smoke-cure,soak up,sponge,stuff,sun,sun-dry,swab,torrefy,towel,weazen,welter,wilt,wipe,wither,wizen
 musicpickle69
 muzzy,addlebrained,addled,addleheaded,addlepated,afflicted,beclouded,befuddled,bent,blear-witted,blurred,boiled,bombed,boozy,breathy,canned,choked,choking,cloudy,cockeyed,cockeyed drunk,croaking,crocked,crocko,dizzy,drawling,drawly,dysphonic,elevated,fogged,foggy,fried,fuddlebrained,fuddled,guttural,half-seas over,harsh,hawking,hazy,high,hoarse,illuminated,in a fog,in a muddle,inarticulate,indistinct,lisping,lit,lit up,loaded,lubricated,lushy,mispronounced,misted,misty,muddled,muddleheaded,muddybrained,nasal,oiled,organized,pickled,pie-eyed,pissed,pissy-eyed,plastered,polluted,potted,puzzleheaded,quavering,raddled,scramblebrained,shaking,shaky,shellacked,skunk-drunk,smashed,snuffling,soaked,soused,squiffy,stewed,stifled,stinko,strangled,swacked,tanked,thick,throaty,tight,tremulous,twangy,velar
@@ -1036,11 +1115,13 @@ nannypickle
 natepickle
 neo4j-stream-deserializer
 neos.contentrepository/classes/typeconverter/nodeserializer.php
+net_layers_deserialize.m
 netpickle
 newpickle
 newscoop/include/pear/command/pickle.php
 nflpickles-com
 nicholpickle
+nickelpickle
 nickelpickle7
 nicklepickle
 nicklepickle53
@@ -1051,6 +1132,7 @@ node_modules/bson/deserializer_bak.js
 node_modules/bson/lib/bson/parser/deserializer.js
 node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/deserializer_bak.js
 node_modules/mongoose/node_modules/bson/deserializer_bak.js
+nodeserializer.java
 nonplus,gordian knot,abecedarian,addle,amaze,answer,answer conclusively,argue down,astonish,astound,baffle,bafflement,balk,bamboozle,beat,bewilderment,blast,boggle,bother,brave,bring up short,buffalo,challenge,check,checkmate,circumvent,confound,confoundment,confront,confuse,confusion,confute,contradict,contravene,controvert,counter,counteract,countermand,counterwork,cross,crush,crux,dabbler,dash,daze,defeat,defy,demolish,deny,destroy,dilemma,dilettante,discomfit,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,discountenance,dish,dismay,dismiss,dispose of,disrupt,disturbance,dumbfound,elude,embarrassment,enigma,faze,finish,fix,floor,flummox,flurry,fluster,foil,frustrate,fuddle,get,jam,keep in suspense,knock the chocks,knot,knotty point,lick,maze,muddle,mystery,mystify,node,nodus,nonprofessional,overcome,overthrow,overturn,overwhelm,oxymoron,paradox,paralyze,parry,perplex,perplexity,perturbation,pickle,plight,pons asinorum,poser,pother,predicament,problem,put to silence,puzzle,puzzlement,quandary,rattle,rebut,reduce to silence,refute,riddle,ruin,sabotage,scotch,scrape,settle,shock,shut up,silence,smash all opposition,smatterer,spike,spoil,squash,squelch,stew,stick,stonewall,stop,stump,stun,stymie,subvert,take aback,teaser,throw,thwart,tyro,unassuredness,undermine,upset,vexed question
 nopickles4
 noseids.pickle
@@ -1060,12 +1142,14 @@ nullifyingdeserializer.class
 nullifyingdeserializer.java
 numberdeserializers.class
 numberdeserializers.java
+numpy_pickle.py
 o:12:"dateinterval":1:{s:4:"days";o:3:"foo":0:{}}
 o:3:"foo":1:{s:1:"x";o:12:"dateinterval":1:{i:0;i:0;}}
 o:3:"foo":8:{i:0;i:0;i:1;i:1;i:2;i:2;i:3;i:3;i:4;i:4;i:5;i:5;i:6;i:6;i:7;i:7;}
 o:9:"exception":1:{s:19:"\00exception\00previous";r:1;}
 objectarraydeserializer.class
 objectarraydeserializer.java
+objectdeserializer.java
 objectlockconfigurationtest_testdeserialization.xml
 obscene_pickle
 oepickle
@@ -1075,7 +1159,9 @@ ohpickles
 olivemypickle-com
 omgpickle
 on the spot,pdq,aboard,among us,apace,as of now,as things are,at once,at present,at this juncture,at this moment,at this point,at this time,between two fires,but now,cornered,cursory,decisively,directly,endangered,even now,expeditious,expeditiously,festinate,feverish,flying,for the nonce,for this occasion,forthwith,furious,hasty,here,here and now,hereabout,hereabouts,hereat,hereinto,hereto,hereunto,hic et nunc,hither,hitherward,hitherwards,hurried,immediate,immediately,imperiled,in dutch,in a bind,in a fix,in a mess,in a pickle,in a predicament,in a scrape,in a spot,in danger,in deep water,in desperate case,in extremis,in jeopardy,in no time,in our time,in these days,in this place,in this vicinity,in trouble,instant,instantaneously,instanter,instantly,jeopardized,just here,just now,just then,last-minute,momentaneously,momentarily,momently,now,nowadays,on queer street,on board,on the dot,on the instant,on the nail,passing,pretty damned quick,prompt,promptly,pronto,quick,quickly,right away,right off,slap-bang,slapdash,smartly,snap,somewhere about,speedily,speedy,straightaway,straightway,subito,summarily,superficial,swift,swiftly,this day,this night,threatened,to this place,today,tonight,urgent,with all speed,with us,without delay,without further delay
+ondeserializedattribute.cs
 ondeserializedattribute.xml
+ondeserializingattribute.cs
 ondeserializingattribute.xml
 orangepickle
 orangepickles
@@ -1098,6 +1184,7 @@ pear/pear/command/pickle.php
 pear/pear/command/pickle.xml
 peepickle
 penapickle
+pepperpickles
 performer.pickle.zip
 performermocaptakeconnection.pickle.zip
 performerroutineconnection.pickle.zip
@@ -1145,14 +1232,20 @@ pickle-org
 pickle-protocol
 pickle-sub
 pickle-thecat-tumblr-com
+pickle-to-xml.py
 pickle-v.xml
 pickle.
 pickle.69
 pickle.asp
 pickle.aspx
+pickle.cc
+pickle.h
 pickle.jsp
 pickle.loads
 pickle.php
+pickle.py
+pickle.rb
+pickle.rst
 pickle.xml
 pickle/
 pickle0
@@ -1167,6 +1260,7 @@ pickle0412
 pickle0414
 pickle05
 pickle06
+pickle0612
 pickle07
 pickle08
 pickle08021991
@@ -1179,6 +1273,7 @@ pickle10
 pickle100
 pickle1000
 pickle1002
+pickle1008
 pickle101
 pickle102
 pickle11
@@ -1193,6 +1288,7 @@ pickle12
 pickle121
 pickle1212
 pickle12123
+pickle1213
 pickle1218
 pickle121970
 pickle122
@@ -1230,6 +1326,7 @@ pickle1996
 pickle1997
 pickle1998
 pickle1999
+pickle1psi
 pickle2
 pickle20
 pickle2000
@@ -1246,6 +1343,7 @@ pickle2009
 pickle2010
 pickle2011
 pickle204
+pickle206
 pickle21
 pickle211
 pickle2128
@@ -1270,6 +1368,7 @@ pickle2801
 pickle29
 pickle2909
 pickle2csv.xml
+pickle2db.py
 pickle3
 pickle30
 pickle300
@@ -1311,6 +1410,7 @@ pickle4u
 pickle4you
 pickle5
 pickle50
+pickle50!
 pickle51
 pickle52
 pickle53
@@ -1364,6 +1464,7 @@ pickle82
 pickle83
 pickle84
 pickle8428
+pickle8476
 pickle85
 pickle86
 pickle87
@@ -1392,16 +1493,23 @@ pickle9821
 pickle98315
 pickle99
 pickle9901
+pickle998
 pickle999
 pickle?
 pickle@12
+pickle_9
 pickle_bomb
 pickle_brine
 pickle_cache
 pickle_edward_99
 pickle_gerbers.zip
 pickle_rom.xml
+pickle_steps.rb
+pickle_support.cpp
+pickle_support.hpp
+pickle_unittest.cc
 picklea
+pickleable.py
 pickleannie
 picklearm
 picklebaby
@@ -1432,6 +1540,7 @@ pickleberries
 picklebig
 picklebill
 picklebirt
+picklebo
 picklebob
 pickleboing
 pickleboy
@@ -1458,6 +1567,7 @@ pickled-eggs
 pickled1
 pickled1ck
 pickled2
+pickled24
 pickled2w1q
 pickled69
 pickled9herring
@@ -1472,6 +1582,7 @@ pickledboaby
 pickledcat
 pickledcheese
 pickledcunt
+pickleddamfino
 pickledeath13
 pickledegg
 pickledeggs
@@ -1532,6 +1643,7 @@ picklegirl
 picklegod99
 picklegrass
 picklegreen
+picklegut1
 picklegw
 picklehe
 picklehead
@@ -1546,6 +1658,7 @@ picklejar
 picklejar-development
 picklejar.com
 picklejar1
+picklejar217
 picklejar514
 picklejar88
 picklejax6
@@ -1569,6 +1682,7 @@ picklekid101
 picklekid6
 picklekill
 pickleking
+picklekraut
 picklelake
 pickleleg
 picklelike
@@ -1580,6 +1694,7 @@ pickleman
 pickleman1
 pickleman12
 pickleman21
+pickleman3
 pickleman5000
 pickleman99
 picklemania
@@ -1629,6 +1744,8 @@ picklepoo123
 picklepoo2
 picklepop
 picklepot
+picklepot1
+picklepot5
 picklepotamus
 picklepower
 pickleprain
@@ -1642,6 +1759,7 @@ picklepuss1
 pickleq
 pickler
 pickler.config
+pickler.py
 pickler1
 pickler3
 pickler4
@@ -1708,6 +1826,7 @@ pickles114
 pickles12
 pickles1203
 pickles123
+pickles1230
 pickles1234
 pickles12345
 pickles124
@@ -1715,6 +1834,7 @@ pickles129
 pickles12qwerty
 pickles13
 pickles1317
+pickles1337
 pickles14
 pickles1484
 pickles15
@@ -1777,6 +1897,7 @@ pickles333
 pickles34
 pickles37
 pickles38
+pickles3rsa9503
 pickles4
 pickles40
 pickles42
@@ -1793,6 +1914,7 @@ pickles4u
 pickles4u2
 pickles5
 pickles5!
+pickles5030
 pickles52
 pickles53
 pickles54
@@ -1899,6 +2021,7 @@ picklesens
 picklesex
 picklesfamily
 picklesfan
+picklesfilefront
 picklesformyass
 picklesgo-team-image-pickles-20-07_picklesgo_landingpage_gohappycars_transparent.png.aspx
 pickleshare
@@ -1907,6 +2030,7 @@ picklesi
 picklesimer
 picklesismyhero
 picklesjg
+pickleslicer
 pickleslijn
 picklesmcc
 picklesmell
@@ -1941,13 +2065,17 @@ pickleszx3d56
 picklet
 picklet55
 pickletastic
+pickletester.py
 pickletickle
 pickletickler
 pickletink
 pickletits
+pickletjango
 pickletoast
 pickletoe
 pickletoes12
+pickletools.py
+pickletools.rst
 pickletp
 pickletree
 pickletree1
@@ -1960,6 +2088,7 @@ pickletv-rp-prodc
 pickletv-rp-prodc-itv1
 pickletv-rp-prodc-itv2
 pickleucy
+pickleuser
 picklevan2
 picklevikkas19
 picklevt
@@ -2012,9 +2141,11 @@ polluted,abandoned,afflicted,bad,bad for,bent,boiled,bombed,boozy,canned,cockeye
 pollypickle
 ponchopickles
 pork-belly-ribs-and-quick-pickle-slaw.aspx
+postdeserialize.php
 pother,abash,addle,addle the wits,ado,aggravate,aggravation,agitation,ail,annoy,badger,baffle,bafflement,bait,ball up,be at,be the matter,becloud,bedazzle,bedevil,befuddle,befuddlement,beset,bewilder,bewilderment,bother,botheration,brawl,bristle,broil,brouhaha,brown off,bug,bullyrag,burn up,burst,bustle,chaos,chivy,clamor,cloud,commotion,complicate matters,concern,confoundment,confuse,confusion,daze,dazzle,devil,dilemma,discombobulate,discombobulation,discomfit,discomfiture,discommode,discompose,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,dismay,disorder,disorganization,disorganize,disorient,disorientation,distemper,distress,disturb,disturbance,dither,dog,donnybrook,donnybrook fair,dustup,embarrass,embarrassment,embroilment,enigma,entangle,exasperate,exasperation,exercise,fash,feery-fary,ferment,fidgetiness,fit,fix,flap,flummox,flurry,fluster,flusteration,flustration,flutter,flutteriness,fog,foofaraw,fracas,free-for-all,frenzy,fret,fuddle,fuddlement,furore,fuss,fussiness,get,gripe,harass,harry,hassle,haze,heckle,hector,helter-skelter,hound,hubbub,hullabaloo,hurly-burly,inconvenience,irk,jam,jumble,lather,maelstrom,maze,melee,mess,miff,mist,mix up,moider,molest,muddle,muddlement,mystery,nag,needle,nettle,nonplus,nudzh,peeve,pell-mell,perplex,perplexity,persecute,perturb,perturbation,pester,pick on,pickle,pique,plague,plight,pluck the beard,predicament,problem,provoke,pucker,put out,put to it,puzzle,puzzlement,quandary,racket,raise hell,rampage,rattle,restlessness,riddle,ride,rile,riot,roil,rough-and-tumble,roughhouse,row,ruckus,ruction,ruffle,rumpus,scramble,scrape,shindy,shuffle,spasm,spurt,stew,stir,sweat,swirl,swivet,tease,throw into confusion,tizzy,to-do,torment,trouble,try the patience,tumult,turbulence,turmoil,tweak the nose,twitter,twitteration,unassuredness,unquiet,unsettle,unsettlement,uproar,upset,vex,vortex,whirl,whirlpool,whirlwind,worry
 potted,afflicted,bent,boiled,bombed,boozy,canned,capsule,cockeyed,cockeyed drunk,crocked,crocko,elevated,fried,fuddled,half-seas over,high,illuminated,lit,lit up,loaded,lubricated,lushy,muzzy,oiled,organized,pickled,pie-eyed,pissed,pissy-eyed,pixilated,plastered,pocket,polluted,raddled,screwy,shellacked,skunk-drunk,smashed,soaked,soused,squiffy,stewed,stinko,swacked,tanked,tight
 ppickle
+predeserializeevent.php
 predicament,adverse circumstances,adversity,affliction,aggravation,annoyance,baffle,bafflement,bearings,bewilderment,bind,blight,blood,bother,box,bracket,branch,breakers ahead,bummer,cardhouse,care,case,case of need,caste,category,cause for alarm,circumstance,clan,class,clutch,complication,condition,confoundment,confusion,corner,crisis,cross,crunch,curse,danger,dangerous ground,deep water,difficulties,difficulty,dilemma,dire necessity,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,disturbance,division,downer,embarrassing position,embarrassment,emergency,endangerment,enigma,estate,exigence,exigency,fine how-do-you-do,fix,footing,gaping chasm,gathering clouds,grade,group,grouping,hard knocks,hard life,hard lot,hardcase,hardship,hazard,head,heading,hell to pay,hobble,hole,hot,hot water,house of cards,how-do-you-do,imbroglio,immediacy,impasse,imperative,imperativeness,imperilment,in a bind,irritation,jam,jeopardy,kin,label,level,location,lot,matter of necessity,menace,mess,mix,modality,mode,morass,mystery,nonplus,order,parlous straits,pass,peril,perplexity,perturbation,pickle,pigeonhole,pinch,place,plight,position,posture,pother,pressingness,pressure,pretty pass,pretty pickle,pretty predicament,problem,puzzle,puzzlement,quagmire,quandary,quicksand,race,rank,rating,riddle,rigor,risk,rocks ahead,rubric,scrape,sea of troubles,section,sept,set,situation,slough,spot,squeeze,standing,state,station,status,stew,sticky wicket,storm clouds,strain,strait,straits,stratum,stress,stress of life,subdivision,subgroup,suborder,swamp,thin ice,threat,tight spot,tight squeeze,tightrope,title,trial,tribulation,tricky spot,trouble,troubles,unassuredness,unholy mess,upset,urgency,urgent need,vale of tears,vicissitude
 preserve,indian reservation,jell-o,anhydrate,archives,asylum,attend to,baby-sit,bank,bird sanctuary,blancmange,blast-freeze,bottle up,brine,can,candy,care for,chaperon,cherish,comfit,compote,confection,confectionery,confiture,conserve,conserves,continue,copyright,cork up,corn,cure,defend,dehydrate,desiccate,dry,dry-cure,dry-salt,embalm,eternalize,eternize,evaporate,extend,forest preserve,foster,freeze,freeze-dry,frosting,fume,game preserve,game reserve,game sanctuary,gelatin,glaze,guard,harbor,harbor of refuge,harborage,haven,hold,hold back,hold in,honey,husband,icing,immortalize,inhibit,irradiate,jam,jelly,jerk,keep,keep alive,keep back,keep by one,keep fresh,keep going,keep in,keep in reserve,keep in store,keep intact,keep inviolate,keep on hand,keep safe,keep up,keep watch over,kipper,lay by,lengthen,library,lock in,look after,look out for,look to,maintain,marinade,marinate,marmalade,matronize,meringue,mind,minister to,monumentalize,mother,mousse,mummify,museum,national forest,national park,not destroy,not endanger,not expend,not use up,not waste,nurse,nurture,paradise,park,patent,perennialize,perpetuate,pickle,port,preservatize,preserve from oblivion,preserves,prolong,protect,protege,protract,provide for,put apart,put aside,put by,put up,quick-freeze,refrigerate,refuge,register,repress,reservation,reserve,retain,ride herd on,safe haven,safeguard,safehold,salt,sanctuary,save,save up,season,see after,see to,set apart,set aside,set by,shelter,shepherd,shield,smoke,smoke-cure,snug harbor,spare,state forest,store,stronghold,stuff,support,suppress,sustain,sweet,sweet stuff,sweetmeat,sweets,take care of,take charge of,tend,tutti-frutti,uphold,watch,watch out for,watch over,whipped cream,wilderness preserve,wildlife preserve,withhold
 prestashopbundle/apiplatform/provider/emptybodydeserializerprovider.php
@@ -2052,6 +2183,7 @@ purplepickledonions
 purplepicklephotography-com
 purplepicklephotos-com
 purplepickles
+pussysourpickles
 puzzle,chinese puzzle,gordian knot,addle,ail,amaze,apply the mind,baffle,bafflement,baffling problem,bamboozle,be the matter,beat,befog,befuddle,beset,bewilder,bewilderment,boggle,bother,brain twister,brain-teaser,buffalo,cap,complicate matters,concern,confound,confoundment,confuse,confusion,consider,contemplate,conundrum,crossword puzzle,crux,dark horse,daze,decipher,dilemma,discommode,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,distract,distress,disturb,disturbance,dumbfound,embarrassment,enigma,enigmatic question,figure out,fix,flabbergast,floor,floorer,flummox,foil,frontier,frontiers of knowledge,frustrate,fuddle,get,hammer at,hammer away at,harass,inconvenience,irk,jam,jigsaw puzzle,keep in suspense,knot,knotty point,lick,matter of ignorance,maze,mind-boggler,muddle,mull over,muse on,muse over,mystery,mystification,mystify,n,node,nodus,nonplus,nut to crack,oxymoron,paradox,perplex,perplexed question,perplexity,perturb,perturbation,pickle,plague,plight,ponder over,pons asinorum,pose,poser,pother,predicament,problem,put out,put to it,puzzle out,puzzle over,puzzlement,puzzler,quandary,question,question mark,reflect over,riddle,scrape,sealed book,sixty-four dollar question,solve,sort out,stew,stew over,stick,sticker,study,stumble,stump,stumper,stymie,teaser,terra incognita,the incalculable,the strange,the unfamiliar,the unknowable,the unknown,think hard,think through,throw,torment,tough proposition,trouble,unassuredness,unexplored ground,unexplored territory,unknown quantity,unlock,unravel,upset,vex,vexed question,why,work out,worry,x,z
 py-cloudpickle
 py-pickleshare
@@ -2064,6 +2196,10 @@ py35-pickleshare
 python-pickleshare-0.7.5-5-any.pkg.tar.zst
 python_object_deserialization_user_input.xml
 pythonpickle.php
+pythonpickleoptions.php
+pythonpickleserializeprotocol0test.php
+pythonpickleserializeprotocol1test.php
+pythonpickleunserializetest.php
 quagmire,baygall,bind,bog,bottom,bottomland,bottoms,box,buffalo wallow,cesspool,cloaca,cloaca maxima,clutch,complication,corner,crunch,dilemma,drain,dump,embarrassing position,embarrassment,everglade,fen,fenland,fine how-do-you-do,fix,garbage dump,glade,hell to pay,hobble,hog wallow,hole,holm,hot water,how-do-you-do,imbroglio,jam,marais,marish,marsh,marshland,meadow,mere,mess,mire,mix,moor,moorland,morass,moss,mud,mud flat,parlous straits,pass,peat bog,pickle,pinch,plight,predicament,pretty pass,pretty pickle,pretty predicament,quag,quicksand,salt marsh,scrape,septic tank,sewer,sink,slob land,slough,sough,spot,squeeze,stew,sticky wicket,strait,straits,sump,swale,swamp,swampland,taiga,tight spot,tight squeeze,tightrope,tricky spot,unholy mess,wallow,wash
 quandary,gordian knot,baffle,bafflement,bewilderment,bother,confoundment,confusion,crux,difficulty,dilemma,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,disturbance,embarrassment,enigma,fix,jam,knot,knotty point,mystery,node,nodus,nonplus,oxymoron,paradox,perplexity,perturbation,pickle,plight,pons asinorum,poser,pother,predicament,problem,puzzle,puzzlement,riddle,scrape,stew,teaser,unassuredness,uncertainty,upset,vexed question
 quebecpickleball
@@ -2173,6 +2309,8 @@ sirpickles
 situation,anschauung,abode,alentours,allocation,ambience,ambit,angle,angle of vision,appointment,area,assignment,bargain,basis,bearings,bench mark,berth,billet,borderlands,capacity,case,character,circle,circuit,circumambiencies,circumjacencies,circumstance,circumstances,collocation,compass,condition,connection,context,deployment,deposit,deposition,disposition,district,emplacement,employment,engagement,entourage,environing circumstances,environment,environs,estate,eye,fix,footing,frame of reference,framework,gestalt,gestation,gig,gravidity,habitat,hole,incumbency,jam,job,kettle of fish,lading,latitude and longitude,lieu,light,loading,locale,locality,localization,locating,location,locus,lot,mental outlook,milieu,modality,mode,moonlighting,neighborhood,office,opening,outlook,outposts,outskirts,packing,pass,perimeter,periphery,pickle,picture,pinpoint,pinpointing,place,placement,placing,plight,point,point of view,position,positioning,post,posting,posture,precincts,predicament,purlieus,putting,rank,reference system,regard,region,reposition,respect,second job,service,setting,side,sight,site,situs,slant,spot,spotting,stand,standing,standpoint,state,state of affairs,station,stationing,status,status quo,stead,storage,stowage,suburbs,surroundings,system,tenure,total environment,universe,vacancy,vicinage,vicinity,view,viewpoint,where,whereabout,whereabouts
 skankin pickle live
 skankin' pickle
+skankinpicklelive
+slicedeserializer.java
 slippypickle
 slough,abandon,baygall,bilge,bilgewater,bind,bog,bottom,bottomland,bottoms,buffalo wallow,caries,carrion,case,cashier,cast,cast aside,cast away,cast off,chuck,chuckhole,clutch,complication,crunch,decay,decomposition,deep-six,desquamation,discard,dishwater,dispose of,ditch,ditchwater,dry gangrene,dry rot,dump,eighty-six,eliminate,embarrassing position,embarrassment,everglade,exuviae,exuviate,fen,fenland,fine how-do-you-do,foulness,gangrene,garbage,gas gangrene,get quit of,get rid of,get shut of,give away,glade,hell to pay,hobble,hog wallow,holm,hot water,how-do-you-do,husk,imbroglio,jam,jettison,jilt,junk,loblolly,marais,marish,marsh,marshland,meadow,mere,mess,mire,mix,moist gangrene,molt,moor,moorland,morass,mortification,moss,muckhole,mud,mud flat,mud puddle,mudhole,necrosis,necrotic tissue,noma,offal,offscourings,parlous straits,part with,pass,peat bog,pickle,pinch,plight,pod,predicament,pretty pass,pretty pickle,pretty predicament,puddle,putrefaction,putrescence,putridity,putridness,quagmire,quicksand,rancidity,rancidness,rankness,refuse,reject,remove,riffraff,rot,rottenness,salt marsh,scrap,scrape,scum,scurf,sewage,sewerage,shed,shell,shuck,skin,slip,slob land,slop,slops,sough,sphacelation,sphacelus,spoilage,spot,squeeze,stew,sticky wicket,strait,straits,sump,swale,swamp,swampland,swill,taiga,throw away,throw off,throw out,throw over,throw overboard,tight spot,tight squeeze,tightrope,tooth decay,toss overboard,tricky spot,unholy mess,wallow,wash
 slsc deserializer.dll
@@ -2210,6 +2348,7 @@ sportspickle
 sportspickle-com
 sportspicklecom
 springexporterunsafedeserialization.xml
+sqldatedeserializer.java
 src/channel/__tests__/phutilphpobjectprotocolchanneltestcase.php
 src/channel/phutilphpobjectprotocolchannel.php
 src/core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializer.php
@@ -2236,6 +2375,7 @@ stacktraceelementdeserializer.class
 stacktraceelementdeserializer.java
 staging.pickle
 standing,abeyant,abidingness,age,angle,antiquity,apathetic,base,bearings,cachet,candidacy,candidature,capacity,case,caste,cataleptic,catatonic,changelessness,character,circumstance,class,condition,consequence,constancy,continuance,continued,continuing,continuous,conventional,customary,dead,defeat of time,defiance of time,dignity,distance,diuturnity,dopey,dormant,dull,durability,durableness,duration,echelon,eminence,endurance,erect,established,estate,face,firmness,fix,fixed,fixedness,flat,foothold,footing,footplate,footrail,footrest,foul,frozenness,grade,groggy,ground,hardening,heavy,hierarchy,high place,hold,immobility,immovability,immovableness,immutability,in abeyance,in suspense,inactive,inert,invariability,invariableness,inveteracy,jam,kudos,languid,languorous,lastingness,latent,leaden,level,lifeless,location,locus standi,logy,long standing,long-lastingness,long-livedness,longevity,lot,maintenance,modality,mode,motionless,normal,ongoing,order,pass,passive,perch,perdurability,perennation,permanence,permanency,permanent,perpetual,perpetualness,perpetuity,persistence,persistency,perspective,phlegmatic,pickle,place,plight,position,post,posture,power structure,precedence,predicament,prestige,prominence,purchase,quiescence,rank,rate,rating,regular,reputation,repute,rigidity,running,running for office,seat,sedentary,set,situation,slack,sleeping,sluggish,slumbering,smoldering,solidity,sphere,spot,stability,stage,stagnant,stance,stand,standard,standing for office,standing place,stasis,state,static,station,stationary,stature,status,steadfastness,still,stratum,survival,survivance,suspended,tame,toehold,torpid,torpor,unaroused,unbroken,unchangeability,unchangingness,unmoving,unseated,upright,usual,venue,vertical,viewpoint
+statedeserializer.java
 station,angle,appoint,appointment,arable land,assign,barnyard,barton,base,bearings,berth,billet,blood,bracket,branch,case,caste,category,cattle ranch,chicken farm,circumstance,clan,class,collective farm,condition,cotton plantation,croft,dairy farm,demesne,demesne farm,depot,dignity,distance,division,dry farm,dude ranch,echelon,employment,engagement,estate,face,factory farm,fallow,farm,farmery,farmhold,farmland,farmplace,farmstead,farmyard,fix,footing,fruit farm,fur farm,garrison,gig,grade,grain farm,grange,grassland,ground,group,grouping,hacienda,head,heading,hierarchy,high place,homecroft,homefarm,homestead,incumbency,install,jam,job,kibbutz,kin,kolkhoz,kudos,label,lay,level,locate,location,lot,mains,manor farm,modality,mode,moonlighting,office,opening,orchard,order,park,pass,pasture,pen,perspective,pickle,pigeonhole,place,plantation,plight,pose,posit,position,post,posture,poultry farm,power structure,precedence,predicament,prestige,put,race,ranch,rancheria,rancho,rank,rate,rating,rubric,seat,second job,section,sept,service,set,sheep farm,site,situation,sphere,spot,stage,stand,standing,state,stature,status,steading,stick,stock farm,strain,stratum,subdivision,subgroup,submit,suborder,tenure,title,toft,truck farm,vacancy,venue,viewpoint
 status,angle,base,bearings,blood,bracket,branch,cachet,caliber,capacity,case,caste,category,character,circumstance,clan,class,condition,consequence,dignity,distance,distinction,division,echelon,eminence,estate,face,fix,footing,grade,ground,group,grouping,head,heading,hierarchy,high place,importance,jam,kin,kudos,label,level,location,lot,merit,modality,mode,order,part,pass,perspective,pickle,pigeonhole,place,plight,position,post,posture,power structure,precedence,predicament,prestige,prominence,quality,race,rank,rate,rating,relation,renown,reputation,repute,role,rubric,seat,section,sept,set,significance,situation,sphere,spot,stage,stand,standing,state,state of affairs,station,stature,status quo,strain,stratum,subdivision,subgroup,suborder,title,venue,viewpoint,worth
 status.pickle.zip
@@ -2255,6 +2395,7 @@ stewed,afflicted,baked,bent,boiled,bombed,boozy,braised,broiled,browned,canned,c
 sticky wicket,bind,clutch,complication,crunch,embarrassing position,embarrassment,fine how-do-you-do,hell to pay,hobble,hot water,how-do-you-do,imbroglio,jam,mess,mix,morass,parlous straits,pass,pickle,pinch,plight,predicament,pretty pass,pretty pickle,pretty predicament,quagmire,quicksand,scrape,slough,spot,squeeze,stew,strait,straits,swamp,tight spot,tight squeeze,tightrope,tricky spot,unholy mess
 stinko,afflicted,bent,boiled,bombed,boozy,canned,cockeyed,cockeyed drunk,crocked,crocko,disguised,drunk,elevated,fried,fuddled,half-seas over,high,illuminated,inebriated,lit,lit up,loaded,lubricated,lushy,muddled,muzzy,oiled,organized,pickled,pie-eyed,pissed,pissy-eyed,pixilated,plastered,polluted,potted,raddled,shellacked,skunk-drunk,smashed,soaked,soused,squiffy,stewed,swacked,tanked,tight
 stinkpickle
+stinkypickles416
 stochpoly_pickle.xml
 stop           = b'.'   # every pickle ends with stop
 stpickle
@@ -2266,6 +2407,7 @@ stringcollectiondeserializer.class
 stringcollectiondeserializer.java
 stringdeserializer.class
 stringdeserializer.java
+stringvaluedeserializer.java
 sunflowerpickles
 sunshinepickle
 superpickle
@@ -2286,6 +2428,8 @@ task.pickle.zip
 task_sg_software_package_connection.pickle.zip
 taskdependency.pickle.zip
 tasktemplate.pickle.zip
+taylorpickle53
+tdeserializer.java
 teacherpicklessonondemand
 test-de.ericdoerheit.befiot.core.test.serializationdeserializationtest.xml
 test-org.fcrepo.server.storage.translation.testatomdodeserializer.xml
@@ -2301,8 +2445,12 @@ test/unit/rest/request/deserializer/xmltest.php
 test/unit/rest/request/deserializerfactorytest.php
 test__phone=sw0-719__0146882808014018__com.shazam.android.acceptancetests.explore.deserializebootstraptest.xml
 test__tablet=sw720-up__0149c7ec1401f01b__com.shazam.android.acceptancetests.explore.deserializebootstraptest.xml
+test_cpickle.py
 test_io_rom_pickle.xml
+test_pickle.py
 test_pickle_dmd.xml
+test_pickletools.py
+test_xpickle.py
 testdeserialize_invoice.xml
 testdeserialize_utilitystatement.xml
 testdeserializeaplicationresponse.xml
@@ -2328,6 +2476,7 @@ tests/zendtest/serializer/adapter/pythonpickleserializeprotocol0test.php
 tests/zendtest/serializer/adapter/pythonpickleserializeprotocol1test.php
 tests/zendtest/serializer/adapter/pythonpickleunserializetest.php
 testsuite/magento/webapi/deserializationtest.php
+testtdeserializer.java
 textbufferdeserializefunc.xml
 tfpickle34
 the adventures of peregrine pickle
@@ -2348,6 +2497,7 @@ there was an error deserializing the object of type system.uint32
 there was an error while trying to deserialize parameter
 thinkphp/extend/vendor/zend/amf/parse/deserializer.php
 third_party/closure/goog/proto2/lazydeserializer.js
+thomasbigpickle
 thrift/lib/hack/src/protocol/simplephpobject/tsimplephpobjectprotocol.php
 thrift/lib/hack/src/protocol/simplephpobject/tsimplephpobjectprotocolkeyediteratorwrapper.php
 thrift/lib/php/src/protocol/simplephpobject/tsimplephpobjectprotocol.php
@@ -2392,11 +2542,13 @@ typedeserializerbase.class
 typedeserializerbase.java
 typewrappeddeserializer.class
 typewrappeddeserializer.java
+unfiltereddeserializer.java
 unholy mess,arsy-varsiness,bind,clutch,clutter,complication,crunch,embarrassing position,embarrassment,farrago,fine how-do-you-do,hash,hell to pay,helter-skelter,higgledy-piggledy,hobble,hodgepodge,hot water,how-do-you-do,hysteron proteron,imbroglio,jam,jumble,litter,mess,mishmash,mix,morass,parlous straits,pass,pickle,pinch,plight,predicament,pretty pass,pretty pickle,pretty predicament,quagmire,quicksand,scramble,scrape,slough,spot,squeeze,stew,sticky wicket,strait,straits,swamp,tight spot,tight squeeze,tightrope,topsy-turviness,topsy-turvydom,tricky spot,tumble,turmoil,welter
 unit/model/product/webapi/rest/requesttypebaseddeserializertest.php
 unit/rest/request/deserializer/jsontest.php
 unit/rest/request/deserializer/xmltest.php
 unit/rest/request/deserializerfactorytest.php
+unixtimestampdeserializer.java
 unknownextensiondeserializer.class
 unknownextensiondeserializer.java
 unpickled
@@ -2418,6 +2570,7 @@ v1/merchant-info/clubpickleballshop.myshopify.com
 v1/parking/landers/srgunturpickles.com
 v1/projects/picklemall/installations
 v1/shop/rhino-pickleball.myshopify.com/wishlist
+valuedeserializer.java
 vanilla-editor/plugins/mentionplugin/deserializementionhtml.ts
 vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.spec.tsx
 vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.ts
@@ -2458,6 +2611,7 @@ virginia_sweet_pickle_chunks.xml
 vitinhopickler
 watermelonpickle
 wddx-deserialize.xml
+wddx_deserialize
 webapi/deserializationtest.php
 webapi/rest/request/deserializer/json.php
 webapi/rest/request/deserializer/xml.php
@@ -2500,6 +2654,7 @@ xml/lib/deserializer/functions.php
 xml/lib/xmldeserializable.php
 xmldeserializable.php
 xmldeserializationevents.xml
+xmldeserializationvisitor.php
 xmldeserializer
 xmlrpcdeserializer.cs
 xmlrpcrequestdeserializer.cs
@@ -2527,6 +2682,7 @@ zif_abapgit_data_deserializer.intf.xml
 zoeypickle!
 zonked,afflicted,asleep,bent,boiled,bombed,boozy,canned,cataleptic,catatonic,cockeyed,cockeyed drunk,cold,comatose,crocked,crocko,dead,doped,drugged,drunk,drunken,elevated,fried,fuddled,half-conscious,half-seas over,high,hopped-up,illuminated,inebriated,lit,lit up,loaded,lubricated,lushy,muzzy,narcotized,nirvanic,oblivious,oiled,organized,out,out cold,out of it,pickled,pie-eyed,pissed,pissy-eyed,plastered,polluted,potted,raddled,semiconscious,senseless,shellacked,skunk-drunk,smashed,soaked,soused,spaced out,spaced-out,squiffy,stewed,stinko,stoned,strung out,swacked,tanked,tight,unconscious,wiped out,zonked out
 zope.xmlpickle.json
+zwavenodeserializer.java
 {{'a'.getclass().forname('javax.script.scriptenginemanager').newinstance().getenginebyname('javascript').eval(\"var x=new java.lang.processbuilder; x.command(\\\"netstat\\\"); org.apache.commons.io.ioutils.tostring(x.start().getinputstream())\")}}
 {{'a'.getclass().forname('javax.script.scriptenginemanager').newinstance().getenginebyname('javascript').eval(\"var x=new java.lang.processbuilder; x.command(\\\"uname\\\",\\\"-a\\\"); org.apache.commons.io.ioutils.tostring(x.start().getinputstream())\")}}
 {{'a'.getclass().forname('javax.script.scriptenginemanager').newinstance().getenginebyname('javascript').eval(\"var x=new java.lang.processbuilder; x.command(\\\"whoami\\\"); x.start()\")}}

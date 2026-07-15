@@ -1199,6 +1199,7 @@
 37364 quill of introspection.sql
 38771 infused quill of introspection.sql
 42disallow/graphql/query/
+6disallow/graphql
 <qbsearch-input class="search-input" data-scope="repo:coffinxp/payloads" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="lcfm5zcjgneuvewjd4fijuso-iwgyazdpwzkygn2z4bq6fjtuhqaekuy4e3efb1hb_z76arffwhhyuhj3rtkjq" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/getsuggestednavigationdestinations" data-current-repository="coffinxp/payloads" data-current-org="" data-current-owner="coffinxp" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
 @types-graphql-relay-npm-0.6.0-42f83eb536-d123310206.zip
 ___graphql
@@ -1231,6 +1232,7 @@ _files/schemab.graphqls
 _files/schemac.graphqls
 _files/schemad.graphqls
 _files/whitelist/graphql.txt
+_graphql
 _graphql_failure_handler_.xml
 _show__routing__route__type_bgp__type__destination_1.0.4.0_24__destination___route___routing___show_.xml
 _sql_server___issue_vision___schema.sql.i
@@ -1705,6 +1707,7 @@ api-functional/testsuite/magento/graphql/salesrule/cartrulesstoreconfigtest.php
 api-functional/testsuite/magento/graphql/salesrule/getappliedcartrulestest.php
 api-functional/testsuite/magento/graphql/sendfriend/sendfriendtest.php
 api-functional/testsuite/magento/graphql/sendfriend/storeconfigtest.php
+api-functional/testsuite/magento/graphql/store/availablestoreconfigtest.php
 api-functional/testsuite/magento/graphql/store/availablestorescachetest.php
 api-functional/testsuite/magento/graphql/store/availablestorestest.php
 api-functional/testsuite/magento/graphql/store/storeconfigcachetest.php
@@ -1718,6 +1721,7 @@ api-functional/testsuite/magento/graphql/tax/productviewtest.php
 api-functional/testsuite/magento/graphql/tax/storeconfigresolvertest.php
 api-functional/testsuite/magento/graphql/testmodule/graphqlmutationtest.php
 api-functional/testsuite/magento/graphql/testmodule/graphqlquerytest.php
+api-functional/testsuite/magento/graphql/ups/setupsshippingmethodsoncarttest.php
 api-functional/testsuite/magento/graphql/urlrewrite/routetest.php
 api-functional/testsuite/magento/graphql/urlrewrite/urlresolvertest.php
 api-functional/testsuite/magento/graphql/usps/setuspsshippingmethodsoncarttest.php
@@ -1740,6 +1744,7 @@ api-functional/testsuite/magento/graphql/wishlist/simpleproductwithcustomoptiont
 api-functional/testsuite/magento/graphql/wishlist/updatebundleproductsfromwishlisttest.php
 api-functional/testsuite/magento/graphql/wishlist/updateproductsfromwishlisttest.php
 api-functional/testsuite/magento/graphql/wishlist/wishlisttest.php
+api-functional/testsuite/magento/quotegraphql/model/cart/placeordermutextest.php
 api-functional/testsuite/magento/quotegraphql/model/discountstest.php
 api-functional/testsuite/magento/quotegraphql/model/resolver/getdiscountstest.php
 api-functional/testsuite/magento/quotegraphql/model/resolver/placeordertest.php
@@ -2689,6 +2694,7 @@ app/code/magento/customergraphql/model/resolver/deletecustomeraddress.php
 app/code/magento/customergraphql/model/resolver/deletecustomeraddressv2.php
 app/code/magento/customergraphql/model/resolver/generatecustomertoken.php
 app/code/magento/customergraphql/model/resolver/isemailavailable.php
+app/code/magento/customergraphql/model/resolver/issubscribed.php
 app/code/magento/customergraphql/model/resolver/requestpasswordresetemail.php
 app/code/magento/customergraphql/model/resolver/resendconfirmationemail.php
 app/code/magento/customergraphql/model/resolver/resetpassword.php
@@ -3060,6 +3066,7 @@ app/code/magento/quotegraphql/model/cart/createemptycartforguest.php
 app/code/magento/quotegraphql/model/cart/extractquoteaddressdata.php
 app/code/magento/quotegraphql/model/cart/getcartforcheckout.php
 app/code/magento/quotegraphql/model/cart/getcartforuser.php
+app/code/magento/quotegraphql/model/cart/getcartproducts.php
 app/code/magento/quotegraphql/model/cart/getshippingaddress.php
 app/code/magento/quotegraphql/model/cart/isactive.php
 app/code/magento/quotegraphql/model/cart/mergecarts/cartquantityvalidator.php
@@ -3068,6 +3075,8 @@ app/code/magento/quotegraphql/model/cart/payment/additionaldataproviderinterface
 app/code/magento/quotegraphql/model/cart/payment/additionaldataproviderpool.php
 app/code/magento/quotegraphql/model/cart/payment/paymentmethodbuilder.php
 app/code/magento/quotegraphql/model/cart/placeorder.php
+app/code/magento/quotegraphql/model/cart/placeordermutex.php
+app/code/magento/quotegraphql/model/cart/placeordermutexinterface.php
 app/code/magento/quotegraphql/model/cart/quoteaddressfactory.php
 app/code/magento/quotegraphql/model/cart/setbillingaddressoncart.php
 app/code/magento/quotegraphql/model/cart/setpaymentandplaceorder.php
@@ -3310,6 +3319,7 @@ app/code/magento/storegraphql/model/resolver/store/storeconfigdataprovider.php
 app/code/magento/storegraphql/model/resolver/storeconfigresolver.php
 app/code/magento/storegraphql/model/resolver/stores/configidentity.php
 app/code/magento/storegraphql/plugin/group.php
+app/code/magento/storegraphql/plugin/localizeemail.php
 app/code/magento/storegraphql/plugin/store.php
 app/code/magento/storegraphql/plugin/website.php
 app/code/magento/storegraphql/readme.md
@@ -4742,6 +4752,7 @@ app/src/composables/use-item/lib/get-graphql-query-fields.test.ts
 app/src/composables/use-item/lib/get-graphql-query-fields.ts
 app/state/graphqlstatediff.php
 appgraphql
+application/helpers/zend/xmlrpc/client/serverintrospection.php
 application/libraries/zend/xmlrpc/client/serverintrospection.php
 application/token-introspection+jwt
 applicationbuildchecksum.graphql
@@ -5265,6 +5276,7 @@ better-list-search/schema.graphql
 bigfilegraphql1view
 billiards-graphql
 bin/api-builder/code-templates/graphqlcontrollertemplate.php
+bin/phing/classes/phing/introspectionhelper.php
 blackbox/tests/db/routes/items/json-filter-graphql.seed.ts
 blackbox/tests/db/routes/items/json-filter-graphql.test.ts
 blackbox/tests/db/routes/items/json-function-graphql.seed.ts
@@ -5298,6 +5310,7 @@ bundlegraphql/model/resolver/product/fields/dynamicweight.php
 bundlegraphql/model/resolver/product/fields/priceview.php
 bundlegraphql/model/resolver/product/fields/shipbundleitems.php
 bundlegraphql/model/resolver/product/price/provider.php
+bundlegraphql/model/resolver/products/dataprovider/product/disabledproductoptionpostprocessor.php
 bundlegraphql/model/wishlist/bundleoptions.php
 bundlegraphql/readme.md
 bundlegraphql/registration.php
@@ -5309,6 +5322,9 @@ calendar/ics-file/graphql/queries/events.api.ts
 calendar/ics-file/graphql/queries/events.graphql
 calendar/ics-file/graphql/queries/events.mocks.ts
 callout-graphql-https
+callsfromgraphql.js
+callstographql-test.js
+callstographql.js
 camden-graphql
 candidate-graphql
 cardautographql1view
@@ -6049,6 +6065,7 @@ code/magento/customergraphql/model/customer/updatecustomeraccount.php
 code/magento/customergraphql/model/customer/validatecustomerdata.php
 code/magento/customergraphql/model/customer/validatecustomerdata/validateemail.php
 code/magento/customergraphql/model/customer/validatecustomerdata/validategender.php
+code/magento/customergraphql/model/customer/validatecustomerdata/validaterequiredarguments.php
 code/magento/customergraphql/model/formatter/customeraddresses.php
 code/magento/customergraphql/model/getcustomergroupname.php
 code/magento/customergraphql/model/getguestordersbyemail.php
@@ -6079,6 +6096,7 @@ code/magento/customergraphql/model/resolver/deletecustomeraddress.php
 code/magento/customergraphql/model/resolver/deletecustomeraddressv2.php
 code/magento/customergraphql/model/resolver/generatecustomertoken.php
 code/magento/customergraphql/model/resolver/isemailavailable.php
+code/magento/customergraphql/model/resolver/issubscribed.php
 code/magento/customergraphql/model/resolver/requestpasswordresetemail.php
 code/magento/customergraphql/model/resolver/resendconfirmationemail.php
 code/magento/customergraphql/model/resolver/resetpassword.php
@@ -6235,6 +6253,7 @@ code/magento/graphql/model/query/contextparametersinterface.php
 code/magento/graphql/model/query/contextparametersprocessorinterface.php
 code/magento/graphql/model/query/logger/loggerinterface.php
 code/magento/graphql/model/query/logger/loggerpool.php
+code/magento/graphql/model/query/logger/newrelic.php
 code/magento/graphql/model/query/resolver/context.php
 code/magento/graphql/model/query/usercontextparametersprocessorinterface.php
 code/magento/graphql/plugin/disablesession.php
@@ -6450,6 +6469,7 @@ code/magento/quotegraphql/model/cart/createemptycartforguest.php
 code/magento/quotegraphql/model/cart/extractquoteaddressdata.php
 code/magento/quotegraphql/model/cart/getcartforcheckout.php
 code/magento/quotegraphql/model/cart/getcartforuser.php
+code/magento/quotegraphql/model/cart/getcartproducts.php
 code/magento/quotegraphql/model/cart/getshippingaddress.php
 code/magento/quotegraphql/model/cart/isactive.php
 code/magento/quotegraphql/model/cart/mergecarts/cartquantityvalidator.php
@@ -6458,6 +6478,8 @@ code/magento/quotegraphql/model/cart/payment/additionaldataproviderinterface.php
 code/magento/quotegraphql/model/cart/payment/additionaldataproviderpool.php
 code/magento/quotegraphql/model/cart/payment/paymentmethodbuilder.php
 code/magento/quotegraphql/model/cart/placeorder.php
+code/magento/quotegraphql/model/cart/placeordermutex.php
+code/magento/quotegraphql/model/cart/placeordermutexinterface.php
 code/magento/quotegraphql/model/cart/quoteaddressfactory.php
 code/magento/quotegraphql/model/cart/setbillingaddressoncart.php
 code/magento/quotegraphql/model/cart/setpaymentandplaceorder.php
@@ -6700,6 +6722,7 @@ code/magento/storegraphql/model/resolver/store/storeconfigdataprovider.php
 code/magento/storegraphql/model/resolver/storeconfigresolver.php
 code/magento/storegraphql/model/resolver/stores/configidentity.php
 code/magento/storegraphql/plugin/group.php
+code/magento/storegraphql/plugin/localizeemail.php
 code/magento/storegraphql/plugin/store.php
 code/magento/storegraphql/plugin/website.php
 code/magento/storegraphql/readme.md
@@ -7202,6 +7225,7 @@ customergraphql/model/customer/updatecustomeraccount.php
 customergraphql/model/customer/validatecustomerdata.php
 customergraphql/model/customer/validatecustomerdata/validateemail.php
 customergraphql/model/customer/validatecustomerdata/validategender.php
+customergraphql/model/customer/validatecustomerdata/validaterequiredarguments.php
 customergraphql/model/formatter/customeraddresses.php
 customergraphql/model/getcustomergroupname.php
 customergraphql/model/getguestordersbyemail.php
@@ -7236,6 +7260,7 @@ customergraphql/model/resolver/deletecustomeraddress.php
 customergraphql/model/resolver/deletecustomeraddressv2.php
 customergraphql/model/resolver/generatecustomertoken.php
 customergraphql/model/resolver/isemailavailable.php
+customergraphql/model/resolver/issubscribed.php
 customergraphql/model/resolver/requestpasswordresetemail.php
 customergraphql/model/resolver/requestpasswordresetemailtest.php
 customergraphql/model/resolver/resendconfirmationemail.php
@@ -7252,8 +7277,10 @@ customergraphql/plugin/clearcustomersessionafterrequest.php
 customergraphql/plugin/model/mergeguestorder.php
 customergraphql/readme.md
 customergraphql/registration.php
+customergraphql/test/unit/model/context/adduserinfotocontexttest.php
 customergraphql/test/unit/model/getguestordersbyemailtest.php
 customergraphql/test/unit/model/resolver/cache/customer/modelhydratortest.php
+customergraphql/test/unit/model/resolver/issubscribedtest.php
 customergraphql/test/unit/model/resolver/revokecustomertokentest.php
 customergraphql/test/unit/model/validatorexceptionprocessortest.php
 customergraphql/test/unit/plugin/clearcustomersessionafterrequesttest.php
@@ -8315,6 +8342,7 @@ dhcobjectintrospection
 digital-gcpdashboards-graphql
 digital__metric__type_8h.xml
 digitalsecurity-graphql
+directfb-remove-redefinition-of-__typeof__.patch
 directorygraphql/composer.json
 directorygraphql/controller/httpheaderprocessor/currencyprocessor.php
 directorygraphql/controller/httprequestvalidator/currencyvalidator.php
@@ -8349,6 +8377,10 @@ django/db/backends/postgresql/introspection.py
 django/db/backends/postgresql_psycopg2/introspection.py
 django/db/backends/sqlite3/introspection.py
 doc/developer_manual/standards/how-to-authorize-graphql.md
+doc/en/html/security_2packages_2supported__data__types_2include_2php_2unit__tests_8php.html
+doc/en/html/security_2packages_2supported__data__types_2include_2php_2unit__tests_8php_source.html
+doc/en/html/supported__data__types_8php.html
+doc/en/html/supported__data__types_8php_source.html
 docs/components/icons/graphql.tsx
 docs/content/docs/graphql/filters.md
 docs/content/docs/graphql/overview.md
@@ -9071,6 +9103,7 @@ external/zend/xmlrpc/client/serverintrospection.php
 extract-graphql-query.xml
 facilitylistgraphql1view
 faine jade - introspection
+fainejade-introspection
 fd-graphql-gateway
 features/bootstrap/graphqlcontext.php
 field-groups/schema.graphql
@@ -9482,6 +9515,7 @@ framework/magento/testframework/testcase/graphql/client.php
 framework/magento/testframework/testcase/graphql/resolvercacheabstract.php
 framework/magento/testframework/testcase/graphql/responsecontainserrorsexception.php
 framework/magento/testframework/testcase/graphqlabstract.php
+fromgraphql.js
 frontend-graphql
 frontend/apps/desktop/components/betaui/graphql/mutations/betauisendfeedback.api.ts
 frontend/apps/desktop/components/betaui/graphql/mutations/betauisendfeedback.graphql
@@ -10281,6 +10315,7 @@ function.xmlrpc-server-register-introspection-callback.html
 fxaccounts-graphql
 gateway/api/graphql/cart
 gateway/api/graphql/products
+gdbusintrospection.h
 generalintrospection.sql
 generators/zammad/graphql_introspection_generator.rb
 generic.graphql
@@ -10320,6 +10355,7 @@ gobject-introspection-1.66.1nb1.tgz
 gobject-introspection-1.68.0-1-x86_64.pkg.tar.zst
 gobject-introspection-1.68.0.tgz
 gobject-introspection.rb
+gobjectintrospectionmacros.cmake
 gql/concerns/has_nested_graphql_name.rb
 gql/graphql.ts
 gr__noise__type_8h.xml
@@ -10449,6 +10485,7 @@ graphql-gql.tada/tada.generated.d.ts
 graphql-gql.tada/tada.ts
 graphql-gql.tada/tsconfig.json
 graphql-haproxy-stats
+graphql-ide.rb
 graphql-implementation.xml
 graphql-import
 graphql-indigenous-alcohol-study-app-2
@@ -10475,6 +10512,7 @@ graphql-org
 graphql-php
 graphql-playground
 graphql-playground-html
+graphql-playground.rb
 graphql-playground/internal
 graphql-playground/system
 graphql-playground/v1
@@ -10493,6 +10531,7 @@ graphql-rc
 graphql-relay
 graphql-relay-npm-0.6.0-fc47a08f8d-0027d8c844.zip
 graphql-relay==2.0.1
+graphql-relayspecification.md
 graphql-replica
 graphql-request
 graphql-ruby
@@ -11995,6 +12034,7 @@ graphql/model/query/contextparametersinterface.php
 graphql/model/query/contextparametersprocessorinterface.php
 graphql/model/query/logger/loggerinterface.php
 graphql/model/query/logger/loggerpool.php
+graphql/model/query/logger/newrelic.php
 graphql/model/query/resolver/context.php
 graphql/model/query/usercontextparametersprocessorinterface.php
 graphql/mutations
@@ -12593,6 +12633,7 @@ graphql/queries/userinfoforpopover.api.ts
 graphql/queries/userinfoforpopover.graphql
 graphql/queries/userinfoforpopover.mocks.ts
 graphql/query
+graphql/query/
 graphql/query/batchcontractresolverwrapper.php
 graphql/query/batchresolverwrapper.php
 graphql/query/compositevalidatortest.php
@@ -12691,6 +12732,7 @@ graphql/quote/_files/set_freeshipping_shipping_method.php
 graphql/quote/_files/set_gift_options.php
 graphql/quote/_files/set_multishipping_with_two_shipping_addresses.php
 graphql/quote/_files/set_new_billing_address.php
+graphql/quote/_files/set_new_billing_address_without_telephone.php
 graphql/quote/_files/set_new_shipping_address.php
 graphql/quote/_files/set_new_shipping_canada_address.php
 graphql/quote/addconfigurableproducttocarttest.php
@@ -13113,6 +13155,7 @@ graphql/service/graphqlrequest.php
 graphql/single-type.test.api.js
 graphql/snapshot.json
 graphql/sorting
+graphql/store/availablestoreconfigtest.php
 graphql/store/availablestorescachetest.php
 graphql/store/availablestorestest.php
 graphql/store/storeconfigcachetest.php
@@ -13257,6 +13300,7 @@ graphql/tax/_files/tax_rule_for_region_with_translated_titles_rollback.php
 graphql/tax/productviewtest.php
 graphql/tax/storeconfigresolvertest.php
 graphql/test/mftf/readme.md
+graphql/test/unit/controller/httprequestvalidator/httpverbvalidatortest.php
 graphql/test/unit/helper/error/aggregateexceptionmessageformattertest.php
 graphql/test/unit/model/backpressure/backpressurecontextfactorytest.php
 graphql/test/unit/model/config/disablesessiontest.php
@@ -13342,6 +13386,7 @@ graphql/types/string-or-float.ts
 graphql/types/update-role-payload.js
 graphql/types/user-input.js
 graphql/types/void.ts
+graphql/ups/setupsshippingmethodsoncarttest.php
 graphql/urlrewrite/routetest.php
 graphql/urlrewrite/urlresolvertest.php
 graphql/usps/_files/enable_usps_shipping_method.php
@@ -13933,6 +13978,7 @@ graphqlmutations/publiccreatewidget.php
 graphqlmutations/updatecoupon.php
 graphqlmutations/updateproduct.php
 graphqlmutationtest.php
+graphqlmutatorconstants.js
 graphqln
 graphqlnewrelic/composer.json
 graphqlnewrelic/etc/di.xml
@@ -13976,7 +14022,11 @@ graphqlqueries/overriddencapquery.php
 graphqlqueries/principalawarequery.php
 graphqlqueries/publicwidgetaccess.php
 graphqlquery
+graphqlqueryrunner-test.js
+graphqlqueryrunner.js
 graphqlquerytest.php
+graphqlrange-test.js
+graphqlrange.js
 graphqlreader.php
 graphqlreader/metareader/cacheannotationreader.php
 graphqlreader/metareader/deprecatedannotationreader.php
@@ -14057,6 +14107,8 @@ graphqlschemastitching/graphqlreader/typereadercomposite.php
 graphqlschemastitching/graphqlreadertest.php
 graphqlschemastitching/readme.md
 graphqlschemautils.js
+graphqlsegment-test.js
+graphqlsegment.js
 graphqlserver
 graphqlserverexception.php
 graphqlservice
@@ -14065,6 +14117,13 @@ graphqlsharp.sln.ghostdoc.xml
 graphqlsigproxy
 graphqlstatediff.php
 graphqlstatetest.php
+graphqlstorechangeemitter-test.js
+graphqlstorechangeemitter.js
+graphqlstorequeryresolver-test.js
+graphqlstorequeryresolver.js
+graphqlstorerangeutils-test.js
+graphqlstorerangeutils.js
+graphqlstoretestutils.js
 graphqlsubscription
 graphqltest
 graphqltest.php
@@ -14239,6 +14298,7 @@ highlightedtextupsert.graphql
 hil-audit-graphql-us
 hil-audit-graphql.dev
 history.graphql
+home/pp__type.html
 hooks/schema.graphql
 how-to-authorize-graphql.md
 howtographql-com
@@ -14747,6 +14807,7 @@ introspection-access-policies.xml
 introspection-acerca.xml
 introspection-acknowledgements.html.xml
 introspection-acknowledgements.xml
+introspection-and-debugging.md
 introspection-annotations.html.xml
 introspection-atom.xml
 introspection-atom.xml.yanel-rc
@@ -14826,11 +14887,20 @@ introspection-with-locking.xml
 introspection-with-locking.xml.yanel-rti
 introspection-without-locking.xml
 introspection-without-locking.xml.yanel-rti
+introspection.c
+introspection.go
+introspection.h
 introspection.java
 introspection.js
 introspection.js.flow
+introspection.m4
+introspection.pb.go
 introspection.php
+introspection.proto
 introspection.py
+introspection.pyc
+introspection.rb
+introspection.tcl
 introspection.uno.dll
 introspection.xml
 introspection1.xml
@@ -14841,6 +14911,7 @@ introspection5.xml
 introspection6.xml
 introspection7.xml
 introspection_plugins
+introspection_test.js
 introspectional
 introspectionanalysisengine.dll
 introspectioncachedata.class
@@ -14850,23 +14921,35 @@ introspectioncontext.java
 introspectionelpee
 introspectionelpees
 introspectionexception
+introspectionexception.class
+introspectionexception.h
+introspectionexception.java
+introspectionextensions.cs
 introspectionextensions.xml
 introspectionforms.dll
 introspectionhelper
 introspectionhelper.java.xml
 introspectionhelper.php
 introspectionhelpertest.java.xml
+introspectionincubator.class
+introspectionincubator.h
+introspectionincubator.java
 introspectionism
 introspectionisme
 introspectionist
 introspectionistic
 introspectionplaten
+introspectionprocessor.php
+introspectionprocessortest.php
 introspectionquery.js
 introspectionquery.js.flow
 introspectionquerytest.php
 introspections
 introspectionserver
 introspectionserver.php
+introspectionstrategy.php
+introspectionsupport.java
+introspectionsupporttest.java
 introspectionutils.class
 introspectionutils.java
 invalidategraphqlresolvercacheobserver.php
@@ -15406,6 +15489,7 @@ lib/vendor/zend/xmlrpc/client/serverintrospection.php
 lib/zend/xmlrpc/client/serverintrospection.php
 lib/zend/zend/xmlrpc/client/serverintrospection.php
 libgraphqlparser
+libgraphqlparser.rb
 libraries/ace/js/mode-graphqlschema.js
 libraries/ace/js/snippets/graphqlschema.js
 library/vendor/zend/xmlrpc/client/serverintrospection.php
@@ -15866,6 +15950,7 @@ magento/customergraphql/model/customer/updatecustomeraccount.php
 magento/customergraphql/model/customer/validatecustomerdata.php
 magento/customergraphql/model/customer/validatecustomerdata/validateemail.php
 magento/customergraphql/model/customer/validatecustomerdata/validategender.php
+magento/customergraphql/model/customer/validatecustomerdata/validaterequiredarguments.php
 magento/customergraphql/model/formatter/customeraddresses.php
 magento/customergraphql/model/getcustomergroupname.php
 magento/customergraphql/model/getguestordersbyemail.php
@@ -15899,6 +15984,7 @@ magento/customergraphql/model/resolver/deletecustomeraddress.php
 magento/customergraphql/model/resolver/deletecustomeraddressv2.php
 magento/customergraphql/model/resolver/generatecustomertoken.php
 magento/customergraphql/model/resolver/isemailavailable.php
+magento/customergraphql/model/resolver/issubscribed.php
 magento/customergraphql/model/resolver/requestpasswordresetemail.php
 magento/customergraphql/model/resolver/requestpasswordresetemailtest.php
 magento/customergraphql/model/resolver/resendconfirmationemail.php
@@ -15915,8 +16001,10 @@ magento/customergraphql/plugin/clearcustomersessionafterrequest.php
 magento/customergraphql/plugin/model/mergeguestorder.php
 magento/customergraphql/readme.md
 magento/customergraphql/registration.php
+magento/customergraphql/test/unit/model/context/adduserinfotocontexttest.php
 magento/customergraphql/test/unit/model/getguestordersbyemailtest.php
 magento/customergraphql/test/unit/model/resolver/cache/customer/modelhydratortest.php
+magento/customergraphql/test/unit/model/resolver/issubscribedtest.php
 magento/customergraphql/test/unit/model/resolver/revokecustomertokentest.php
 magento/customergraphql/test/unit/model/validatorexceptionprocessortest.php
 magento/customergraphql/test/unit/plugin/clearcustomersessionafterrequesttest.php
@@ -16463,6 +16551,7 @@ magento/graphql/model/query/contextparametersinterface.php
 magento/graphql/model/query/contextparametersprocessorinterface.php
 magento/graphql/model/query/logger/loggerinterface.php
 magento/graphql/model/query/logger/loggerpool.php
+magento/graphql/model/query/logger/newrelic.php
 magento/graphql/model/query/resolver/context.php
 magento/graphql/model/query/usercontextparametersprocessorinterface.php
 magento/graphql/newsletter/customer/subscribeemailtonewslettertest.php
@@ -16531,6 +16620,7 @@ magento/graphql/quote/_files/set_freeshipping_shipping_method.php
 magento/graphql/quote/_files/set_gift_options.php
 magento/graphql/quote/_files/set_multishipping_with_two_shipping_addresses.php
 magento/graphql/quote/_files/set_new_billing_address.php
+magento/graphql/quote/_files/set_new_billing_address_without_telephone.php
 magento/graphql/quote/_files/set_new_shipping_address.php
 magento/graphql/quote/_files/set_new_shipping_canada_address.php
 magento/graphql/quote/addconfigurableproducttocarttest.php
@@ -16717,6 +16807,7 @@ magento/graphql/salesrule/getappliedcartrulestest.php
 magento/graphql/sendfriend/sendfriendtest.php
 magento/graphql/sendfriend/storeconfigtest.php
 magento/graphql/service/graphqlrequest.php
+magento/graphql/store/availablestoreconfigtest.php
 magento/graphql/store/availablestorescachetest.php
 magento/graphql/store/availablestorestest.php
 magento/graphql/store/storeconfigcachetest.php
@@ -16741,12 +16832,14 @@ magento/graphql/tax/_files/tax_rule_for_region_with_translated_titles_rollback.p
 magento/graphql/tax/productviewtest.php
 magento/graphql/tax/storeconfigresolvertest.php
 magento/graphql/test/mftf/readme.md
+magento/graphql/test/unit/controller/httprequestvalidator/httpverbvalidatortest.php
 magento/graphql/test/unit/helper/error/aggregateexceptionmessageformattertest.php
 magento/graphql/test/unit/model/backpressure/backpressurecontextfactorytest.php
 magento/graphql/test/unit/model/config/disablesessiontest.php
 magento/graphql/test/unit/plugin/disablesessiontest.php
 magento/graphql/testmodule/graphqlmutationtest.php
 magento/graphql/testmodule/graphqlquerytest.php
+magento/graphql/ups/setupsshippingmethodsoncarttest.php
 magento/graphql/urlrewrite/routetest.php
 magento/graphql/urlrewrite/urlresolvertest.php
 magento/graphql/usps/_files/enable_usps_shipping_method.php
@@ -17019,6 +17112,7 @@ magento/quotegraphql/model/cart/createemptycartforguest.php
 magento/quotegraphql/model/cart/extractquoteaddressdata.php
 magento/quotegraphql/model/cart/getcartforcheckout.php
 magento/quotegraphql/model/cart/getcartforuser.php
+magento/quotegraphql/model/cart/getcartproducts.php
 magento/quotegraphql/model/cart/getshippingaddress.php
 magento/quotegraphql/model/cart/isactive.php
 magento/quotegraphql/model/cart/mergecarts/cartquantityvalidator.php
@@ -17027,6 +17121,9 @@ magento/quotegraphql/model/cart/payment/additionaldataproviderinterface.php
 magento/quotegraphql/model/cart/payment/additionaldataproviderpool.php
 magento/quotegraphql/model/cart/payment/paymentmethodbuilder.php
 magento/quotegraphql/model/cart/placeorder.php
+magento/quotegraphql/model/cart/placeordermutex.php
+magento/quotegraphql/model/cart/placeordermutexinterface.php
+magento/quotegraphql/model/cart/placeordermutextest.php
 magento/quotegraphql/model/cart/quoteaddressfactory.php
 magento/quotegraphql/model/cart/setbillingaddressoncart.php
 magento/quotegraphql/model/cart/setpaymentandplaceorder.php
@@ -17272,6 +17369,7 @@ magento/storegraphql/model/resolver/store/storeconfigdataprovider.php
 magento/storegraphql/model/resolver/storeconfigresolver.php
 magento/storegraphql/model/resolver/stores/configidentity.php
 magento/storegraphql/plugin/group.php
+magento/storegraphql/plugin/localizeemail.php
 magento/storegraphql/plugin/store.php
 magento/storegraphql/plugin/website.php
 magento/storegraphql/readme.md
@@ -18593,6 +18691,8 @@ phpunit_graphql.xml.dist
 picos-graphql
 pimcore/lib/zend/xmlrpc/client/serverintrospection.php
 pkgbuild-introspection-9-1-any.pkg.tar.zst
+platform_introspection.rb
+platform_introspection_spec.rb
 plugin/graphql.php
 plugins/graphql/.eslintignore
 plugins/graphql/.eslintrc
@@ -19125,6 +19225,8 @@ previewgraphql
 previewgraphqlcallback
 previewgraphqlfield
 previewgraphqlurlcallback
+prism-graphql.js
+prism-graphql.min.js
 product__type
 product__type__in
 produktgraphql1view
@@ -19148,6 +19250,8 @@ qa1-master-graphql-service-websockets
 qa4-master-graphql-service-websockets
 qa5-master-graphql-service-websockets
 qa7-master-graphql-service-websockets
+qdbusintrospection.cpp
+qdbusintrospection_p.h
 quartermaster-graphql
 queries/about.graphql
 queries/aiassistancetexttools/aiassistancetexttoolslist.graphql
@@ -19279,6 +19383,7 @@ quotegraphql/model/cart/createemptycartforguest.php
 quotegraphql/model/cart/extractquoteaddressdata.php
 quotegraphql/model/cart/getcartforcheckout.php
 quotegraphql/model/cart/getcartforuser.php
+quotegraphql/model/cart/getcartproducts.php
 quotegraphql/model/cart/getshippingaddress.php
 quotegraphql/model/cart/isactive.php
 quotegraphql/model/cart/mergecarts/cartquantityvalidator.php
@@ -19287,6 +19392,9 @@ quotegraphql/model/cart/payment/additionaldataproviderinterface.php
 quotegraphql/model/cart/payment/additionaldataproviderpool.php
 quotegraphql/model/cart/payment/paymentmethodbuilder.php
 quotegraphql/model/cart/placeorder.php
+quotegraphql/model/cart/placeordermutex.php
+quotegraphql/model/cart/placeordermutexinterface.php
+quotegraphql/model/cart/placeordermutextest.php
 quotegraphql/model/cart/quoteaddressfactory.php
 quotegraphql/model/cart/setbillingaddressoncart.php
 quotegraphql/model/cart/setpaymentandplaceorder.php
@@ -20626,6 +20734,7 @@ storegraphql/model/resolver/store/storeconfigdataprovider.php
 storegraphql/model/resolver/storeconfigresolver.php
 storegraphql/model/resolver/stores/configidentity.php
 storegraphql/plugin/group.php
+storegraphql/plugin/localizeemail.php
 storegraphql/plugin/store.php
 storegraphql/plugin/website.php
 storegraphql/readme.md
@@ -21715,6 +21824,8 @@ tests/test-projects/crud-notifications/schema.graphql
 tests/test-projects/live-reloading/schema.graphql
 tests_in_graphql_parser.xml
 tests_in_graphql_schema.xml
+testschema.graphql
+testschema.rfc.graphql
 testsuite/magento/cataloggraphql/model/config/attributereadertest.php
 testsuite/magento/cataloggraphql/model/config/configtest.php
 testsuite/magento/cataloggraphql/model/resolver/cache/product/mediagallery/productmodelhydratordehydratortest.php
@@ -22687,6 +22798,8 @@ ticketwithmentionlimit.graphql
 titleupdate.graphql
 togglegraphqlapiauthbydatalayerid
 togglemerlingraphqlapienabled
+tographql-test.js
+tographql.js
 tographqlid
 tokenattributes.graphql
 tokenintrospection
@@ -22699,6 +22812,7 @@ tracks__product__type__in
 tradezonemapgraphql
 transactions/schema.graphql
 transform.graphql
+transformgraphql.js
 translations.graphql
 trentino-trasporti-graphql
 tribes/demos/introspectionutils.java

