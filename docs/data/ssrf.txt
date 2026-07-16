@@ -13655,6 +13655,7 @@ en/glossary/internalexternal-rich-media/feed/
 en/internal
 en/internal/
 en/internal/internal-lead-referral-form
+en/internal/test-ssg-deploy
 en/internaljustice/files
 en/servers/racks-internal
 enable-secure-admin-internal-user.1
@@ -18954,6 +18955,7 @@ internal/admin/emailpreview/previeworder.php
 internal/admin/emails/emaillistingrestcontroller.php
 internal/admin/events.php
 internal/admin/featureplugin.php
+internal/admin/featureplugintest.php
 internal/admin/homescreen.php
 internal/admin/importexport/csvuploadhelper.php
 internal/admin/loader.php
@@ -19693,6 +19695,8 @@ internal/internalpublishedproperty.cs
 internal/javascript file.js
 internal/jetpack/jetpackconnection.php
 internal/keys.json
+internal/legacyassets/legacyselect2usagetracker.php
+internal/legacyassets/legacyselect2usagetrackertest.php
 internal/legacyphpapi/settingstest.php
 internal/linlibertinefont/bugs
 internal/linlibertinefont/changelog.txt
@@ -46497,6 +46501,7 @@ php/src/internal/admin/blocktemplates/customblocktemplatetest.php
 php/src/internal/admin/blocktemplates/customblocktest.php
 php/src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 php/src/internal/admin/emailpreview/emailpreviewtest.php
+php/src/internal/admin/featureplugintest.php
 php/src/internal/admin/loadertest.php
 php/src/internal/admin/logging/filev2/filecontrollertest.php
 php/src/internal/admin/logging/filev2/filetest.php
@@ -46791,6 +46796,7 @@ php/src/internal/emaileditor/wctransactionalemails/wctransactionalemailstest.php
 php/src/internal/emaileditor/woocontentprocessortest.php
 php/src/internal/features/featurescontrollertest.php
 php/src/internal/integration/wpconsentapitest.php
+php/src/internal/legacyassets/legacyselect2usagetrackertest.php
 php/src/internal/legacyphpapi/settingstest.php
 php/src/internal/logging/orderlogscleanuptest.php
 php/src/internal/logging/orderlogsdeletionprocessortest.php
@@ -48214,6 +48220,7 @@ plugins/woocommerce/src/internal/features/orderdetailredesign/init.php
 plugins/woocommerce/src/internal/integrations/wpconsentapi.php
 plugins/woocommerce/src/internal/integrations/wppostsimporter.php
 plugins/woocommerce/src/internal/jetpack/jetpackconnection.php
+plugins/woocommerce/src/internal/legacyassets/legacyselect2usagetracker.php
 plugins/woocommerce/src/internal/logging/orderlogscleanuphelper.php
 plugins/woocommerce/src/internal/logging/orderlogsdeletionprocessor.php
 plugins/woocommerce/src/internal/logging/remotelogger.php
@@ -48485,6 +48492,7 @@ plugins/woocommerce/tests/php/src/internal/admin/agentic/agenticwebhookmanagerte
 plugins/woocommerce/tests/php/src/internal/admin/agentic/agenticwebhookpayloadbuildertest.php
 plugins/woocommerce/tests/php/src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 plugins/woocommerce/tests/php/src/internal/admin/emailpreview/emailpreviewtest.php
+plugins/woocommerce/tests/php/src/internal/admin/featureplugintest.php
 plugins/woocommerce/tests/php/src/internal/admin/loadertest.php
 plugins/woocommerce/tests/php/src/internal/admin/logging/filev2/filecontrollertest.php
 plugins/woocommerce/tests/php/src/internal/admin/logging/filev2/filetest.php
@@ -48779,6 +48787,7 @@ plugins/woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wct
 plugins/woocommerce/tests/php/src/internal/emaileditor/woocontentprocessortest.php
 plugins/woocommerce/tests/php/src/internal/features/featurescontrollertest.php
 plugins/woocommerce/tests/php/src/internal/integration/wpconsentapitest.php
+plugins/woocommerce/tests/php/src/internal/legacyassets/legacyselect2usagetrackertest.php
 plugins/woocommerce/tests/php/src/internal/legacyphpapi/settingstest.php
 plugins/woocommerce/tests/php/src/internal/logging/orderlogscleanuptest.php
 plugins/woocommerce/tests/php/src/internal/logging/remoteloggertest.php
@@ -51962,6 +51971,7 @@ src/internal/admin/emailpreview/previeworder.php
 src/internal/admin/emails/emaillistingrestcontroller.php
 src/internal/admin/events.php
 src/internal/admin/featureplugin.php
+src/internal/admin/featureplugintest.php
 src/internal/admin/homescreen.php
 src/internal/admin/importexport/csvuploadhelper.php
 src/internal/admin/loader.php
@@ -52603,6 +52613,8 @@ src/internal/integration/wpconsentapitest.php
 src/internal/integrations/wpconsentapi.php
 src/internal/integrations/wppostsimporter.php
 src/internal/jetpack/jetpackconnection.php
+src/internal/legacyassets/legacyselect2usagetracker.php
+src/internal/legacyassets/legacyselect2usagetrackertest.php
 src/internal/legacyphpapi/settingstest.php
 src/internal/logging/orderlogscleanuphelper.php
 src/internal/logging/orderlogscleanuptest.php
@@ -54594,6 +54606,7 @@ tests/php/src/internal/admin/blocktemplates/customblocktemplatetest.php
 tests/php/src/internal/admin/blocktemplates/customblocktest.php
 tests/php/src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 tests/php/src/internal/admin/emailpreview/emailpreviewtest.php
+tests/php/src/internal/admin/featureplugintest.php
 tests/php/src/internal/admin/loadertest.php
 tests/php/src/internal/admin/logging/filev2/filecontrollertest.php
 tests/php/src/internal/admin/logging/filev2/filetest.php
@@ -54888,6 +54901,7 @@ tests/php/src/internal/emaileditor/wctransactionalemails/wctransactionalemailste
 tests/php/src/internal/emaileditor/woocontentprocessortest.php
 tests/php/src/internal/features/featurescontrollertest.php
 tests/php/src/internal/integration/wpconsentapitest.php
+tests/php/src/internal/legacyassets/legacyselect2usagetrackertest.php
 tests/php/src/internal/legacyphpapi/settingstest.php
 tests/php/src/internal/logging/orderlogscleanuptest.php
 tests/php/src/internal/logging/orderlogsdeletionprocessortest.php
@@ -58339,6 +58353,7 @@ woocommerce/src/internal/features/productblockeditor/producttemplates/subsection
 woocommerce/src/internal/integrations/wpconsentapi.php
 woocommerce/src/internal/integrations/wppostsimporter.php
 woocommerce/src/internal/jetpack/jetpackconnection.php
+woocommerce/src/internal/legacyassets/legacyselect2usagetracker.php
 woocommerce/src/internal/logging/orderlogscleanuphelper.php
 woocommerce/src/internal/logging/orderlogsdeletionprocessor.php
 woocommerce/src/internal/logging/remotelogger.php
@@ -58610,6 +58625,7 @@ woocommerce/tests/php/src/internal/admin/agentic/agenticwebhookmanagertest.php
 woocommerce/tests/php/src/internal/admin/agentic/agenticwebhookpayloadbuildertest.php
 woocommerce/tests/php/src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 woocommerce/tests/php/src/internal/admin/emailpreview/emailpreviewtest.php
+woocommerce/tests/php/src/internal/admin/featureplugintest.php
 woocommerce/tests/php/src/internal/admin/loadertest.php
 woocommerce/tests/php/src/internal/admin/logging/filev2/filecontrollertest.php
 woocommerce/tests/php/src/internal/admin/logging/filev2/filetest.php
@@ -58904,6 +58920,7 @@ woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wctransacti
 woocommerce/tests/php/src/internal/emaileditor/woocontentprocessortest.php
 woocommerce/tests/php/src/internal/features/featurescontrollertest.php
 woocommerce/tests/php/src/internal/integration/wpconsentapitest.php
+woocommerce/tests/php/src/internal/legacyassets/legacyselect2usagetrackertest.php
 woocommerce/tests/php/src/internal/legacyphpapi/settingstest.php
 woocommerce/tests/php/src/internal/logging/orderlogscleanuptest.php
 woocommerce/tests/php/src/internal/logging/orderlogsdeletionprocessortest.php
@@ -59545,7 +59562,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://pub.dev/robots.txt
+zh/internalhttp://exploratorium.edu/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
