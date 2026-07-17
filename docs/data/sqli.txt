@@ -53665,6 +53665,7 @@ actions/undodelete.php
 actions/update.html.twig
 actions/update.tsx
 actions/upgrade/delete.php
+actions/versionupdate.php
 actions/widgets/delete.php
 actions_addupdatedelete.inc.php
 actions_delete.xml
@@ -55245,6 +55246,9 @@ admin/src/hooks/usedraganddrop.ts
 admin/src/hooks/useforceupdate.ts
 admin/src/hooks/usekeyboarddraganddrop.ts
 admin/src/members/components/bulk-action-modals/delete-modal.tsx
+admin/src/members/detail/member-delete-modal.tsx
+admin/src/members/detail/member-delete.test.ts
+admin/src/members/detail/member-delete.ts
 admin/src/pages/settings/components/tokens/tokentypeselect.tsx
 admin/src/resources/views/components/form/control-group/advance/multiselect.blade.php
 admin/src/resources/views/components/form/control-group/advance/select.blade.php
@@ -64109,6 +64113,7 @@ application/espo/core/defaults/layout/massupdate.json
 application/espo/core/defaults/layouts/massupdate.json
 application/espo/core/massaction/actions/massdelete.php
 application/espo/core/massaction/actions/massupdate.php
+application/espo/core/rebuild/actions/versionupdate.php
 application/espo/core/record/select
 application/espo/core/record/select/applierclassnamelistprovider.php
 application/espo/core/select
@@ -64569,6 +64574,9 @@ apps/admin/handlers/delete.php
 apps/admin/src/analytics/views/stats/components/date-range-select.tsx
 apps/admin/src/analytics/views/stats/components/newsletter-select.tsx
 apps/admin/src/members/components/bulk-action-modals/delete-modal.tsx
+apps/admin/src/members/detail/member-delete-modal.tsx
+apps/admin/src/members/detail/member-delete.test.ts
+apps/admin/src/members/detail/member-delete.ts
 apps/admin/src/shared/analytics/date-range-select.tsx
 apps/attributes/ajax/delete.php
 apps/blocks/handlers/delete.php
@@ -72842,6 +72850,8 @@ changelog/update-settings-edits
 changelog/update-settings-payments-type-for-onboarding-supported
 changelog/update-settings-return-to-wc-home
 changelog/update-settings-router-calypso-package
+changelog/update-settings-ui-shell-header-top-level
+changelog/update-shell-header-top-level-pages
 changelog/update-sku-remove-description
 changelog/update-status-options-and-labels
 changelog/update-stock-column-badge
@@ -79443,6 +79453,7 @@ core/plugins/update/support/support.php
 core/plugins/update/support/ticketmessage.php
 core/plugins/update/support/ticketstate.php
 core/profiles/demo_umami/themes/umami/css/classy/components/tableselect.css
+core/rebuild/actions/versionupdate.php
 core/record/select/applierclassnamelistprovider.php
 core/render/element/languageselect.php
 core/render/element/select.php
@@ -88099,6 +88110,9 @@ detail-update-pk
 detail-update-ref
 detail-update-uid
 detail-update-uuid
+detail/member-delete-modal.tsx
+detail/member-delete.test.ts
+detail/member-delete.ts
 detail_update
 detail_view_delete.xml
 details-update
@@ -93218,6 +93232,7 @@ espo/classes/select/webhook/accesscontrolfilters/mandatory.php
 espo/classes/select/workingtimerange/primaryfilters/actual.php
 espo/core/massaction/actions/massdelete.php
 espo/core/massaction/actions/massupdate.php
+espo/core/rebuild/actions/versionupdate.php
 espo/core/record/select/applierclassnamelistprovider.php
 espo/core/select/accesscontrol/applier.php
 espo/core/select/accesscontrol/defaultfilterresolver.php
@@ -102276,11 +102291,6 @@ icon-delete.svg
 icon-delete.ts
 icon-drop.svg
 icon-drop.ts
-icon-library/insert-after.svg
-icon-library/insert-before.svg
-icon-library/table-column-delete.svg
-icon-library/table-row-delete.svg
-icon-library/update.svg
 icon-parachute-drop.svg
 icon-parachute-drop.ts
 icon-registry/icons/icon-delete-key.ts
@@ -102655,11 +102665,6 @@ images/help/tips/dragdrop.png
 images/helpers/list/list_action_delete.tpl
 images/hotel-images/fortune-select-exotica-navi-mumbai/fullsize/
 images/icon-delete.svg
-images/icon-library/insert-after.svg
-images/icon-library/insert-before.svg
-images/icon-library/table-column-delete.svg
-images/icon-library/table-row-delete.svg
-images/icon-library/update.svg
 images/icons/delete.png
 images/icons/smalldelete.png
 images/icons/tabupdate.png
@@ -104122,7 +104127,6 @@ insert-adsense-plus-ultra
 insert-adventure-attendees.sql
 insert-after-exists.xml
 insert-after-new.xml
-insert-after.svg
 insert-ajax.es6.js
 insert-ajax.js
 insert-amazon-images
@@ -104166,7 +104170,6 @@ insert-basic.sql
 insert-bbb
 insert-before-exists.xml
 insert-before-new.xml
-insert-before.svg
 insert-before.xml
 insert-beheerder.sql
 insert-berlin-seed.xml
@@ -107635,6 +107638,7 @@ js/settings-ui/changelog/update-adopt-wpds-components
 js/settings-ui/changelog/update-number-spin-control
 js/settings-ui/changelog/update-rename-settings-ui-package
 js/settings-ui/changelog/update-section-scope-semantics
+js/settings-ui/changelog/update-shell-header-top-level-pages
 js/settings-ui/changelog/update-wordpress-admin-ui
 js/site.widgets.rich_select.js
 js/sortablecheckboxselect.js
@@ -113388,6 +113392,9 @@ mem_exec
 mem_exec.exe
 mem_exec.static
 member-delete
+member-delete-modal.tsx
+member-delete.test.ts
+member-delete.ts
 member-select
 member-select.asp
 member-sutterselect
@@ -113442,6 +113449,9 @@ members-email/default-recipients-select.js
 members-join-select.sql
 members.delete
 members/components/bulk-action-modals/delete-modal.tsx
+members/detail/member-delete-modal.tsx
+members/detail/member-delete.test.ts
+members/detail/member-delete.ts
 members/emails/update-email.js
 members/modals/bulk-delete.hbs
 members/modals/bulk-delete.js
@@ -121913,6 +121923,7 @@ organization/graphql/mutations/update.api.ts
 organization/graphql/mutations/update.graphql
 organization/graphql/mutations/update.mocks.ts
 organization/note_update.rb
+organization/union-square-ventures
 organization/update.rb
 organization_cart_delete
 organization_contact.delete-1.xml
@@ -122798,6 +122809,7 @@ packages/js/settings-ui/changelog/update-adopt-wpds-components
 packages/js/settings-ui/changelog/update-number-spin-control
 packages/js/settings-ui/changelog/update-rename-settings-ui-package
 packages/js/settings-ui/changelog/update-section-scope-semantics
+packages/js/settings-ui/changelog/update-shell-header-top-level-pages
 packages/js/settings-ui/changelog/update-wordpress-admin-ui
 packages/language/app-language-select/app-language-select.element.ts
 packages/language/app-language-select/manifests.ts
@@ -125343,6 +125355,7 @@ plugins/woocommerce/changelog/update-deflag-wc-admin-onboarding
 plugins/woocommerce/changelog/update-deflag-wc-admin-shell-features
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
 plugins/woocommerce/changelog/update-product-image-gallery-upgrade-notice-with-add-to-cart-with-options
+plugins/woocommerce/changelog/update-settings-ui-shell-header-top-level
 plugins/woocommerce/changelog/update-wordpress-ui-theme-provider
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
@@ -130804,6 +130817,7 @@ reasonofdelete
 reaverdrop
 rebuild,accommodate,adapt,adjust,alter,ameliorate,better,break up,change,convert,copy,deform,denature,diversify,do over,do up,doctor,duplicate,fit,fix,improve,make over,meliorate,mitigate,modify,modulate,mutate,overhaul,overthrow,patch,qualify,re-create,re-form,realign,reassemble,recondition,reconstitute,reconstruct,redesign,redo,reestablish,refabricate,refashion,refit,reform,refound,regenerate,reinstitute,reissue,remake,remodel,renew,renovate,reorganize,repair,repeat,reprint,reproduce,reshape,restore,restructure,resurrect,revamp,revise,revive,ring the changes,shift the scene,shuffle the cards,subvert,turn the scale,turn the tables,turn the tide,turn upside down,vary,work a change,worsen
 rebuild-from-update-hook.txt
+rebuild/actions/versionupdate.php
 rebuild_update.exe
 recalldelete
 recant,abandon,abjure,abolish,abrogate,annul,assert the contrary,back down,back out,backwater,belie,brush aside,cancel,cede,chuck,chuck out,climb down,contemn,contest,contradict,contravene,controvert,counter,countermand,counterorder,crawfish out,cross,decline,deny,despise,disaffirm,disallow,disannul,disapprove,disavow,discard,disclaim,discount,disdain,disgorge,dismiss,disown,dispense with,dispose of,disprove,dispute,disregard,do away with,do without,drop,dump,eat crow,eat humble pie,except,exclude,forgo,forsake,forswear,gainsay,get along without,get rid of,give away,give up,have done with,ignore,impugn,invalidate,join issue upon,kiss good-bye,make a sacrifice,make void,not accept,not admit,nullify,oppose,override,overrule,part with,pass by,pass up,push aside,quitclaim,rebuff,recall,refuse,refuse to admit,refuse to consider,refute,reject,relinquish,render up,renege,renounce,repeal,repel,repudiate,repulse,rescind,resign,retract,reverse,revoke,sacrifice,scout,set aside,shove away,spare,spurn,surrender,suspend,swallow,swear off,take back,take issue with,throw away,throw out,throw up,turn away,turn out,unsay,vacate,void,waive,withdraw,write off,yield
@@ -142506,6 +142520,7 @@ settings-ui/changelog/update-adopt-wpds-components
 settings-ui/changelog/update-number-spin-control
 settings-ui/changelog/update-rename-settings-ui-package
 settings-ui/changelog/update-section-scope-semantics
+settings-ui/changelog/update-shell-header-top-level-pages
 settings-ui/changelog/update-wordpress-admin-ui
 settings-update
 settings-update.xml
@@ -146365,6 +146380,9 @@ src/main/webapp/web-inf/views/student/graduate-weekly-update.jsp
 src/main/webapp/web-inf/views/student/weekly-report-update.jsp
 src/main/webapp/web-inf/views/update.jsp
 src/members/components/bulk-action-modals/delete-modal.tsx
+src/members/detail/member-delete-modal.tsx
+src/members/detail/member-delete.test.ts
+src/members/detail/member-delete.ts
 src/merchello.fasttrack.ui/app_data/nugetbackup/20160823-095311/umbraco/actions/delete.aspx
 src/merchello.fasttrack.ui/umbraco/actions/delete.aspx
 src/merchello.implementation.ui/umbraco/actions/delete.aspx
@@ -150469,14 +150487,12 @@ table drop.sql
 table insert.sqlplan
 table insert.xml
 table-column-delete.action.ts
-table-column-delete.svg
 table-delete
 table-delete.action.ts
 table-drop.sql
 table-insert
 table-insert.element.ts
 table-row-delete.action.ts
-table-row-delete.svg
 table-select
 table-select.sql
 table-update
@@ -167372,12 +167388,14 @@ update-settings-payments-type-for-onboarding-supported
 update-settings-return-to-wc-home
 update-settings-router-calypso-package
 update-settings-test.xml
+update-settings-ui-shell-header-top-level
 update-settings.asciidoc
 update-settings.ini
 update-sftp
 update-shaming
 update-share-info.sql
 update-sharetrackjiratunnel-mx
+update-shell-header-top-level-pages
 update-shopping-cart.js
 update-shopping.xml
 update-short.xml
@@ -176287,6 +176305,7 @@ woocommerce/changelog/update-deflag-wc-admin-onboarding
 woocommerce/changelog/update-deflag-wc-admin-shell-features
 woocommerce/changelog/update-pay-506-always-show-payment-radio
 woocommerce/changelog/update-product-image-gallery-upgrade-notice-with-add-to-cart-with-options
+woocommerce/changelog/update-settings-ui-shell-header-top-level
 woocommerce/changelog/update-wordpress-ui-theme-provider
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
@@ -177925,6 +177944,7 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
+wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments
@@ -177946,11 +177966,6 @@ wp-hydro-raindrop
 wp-ie6update
 wp-imgareaselect
 wp-includes/._update.php
-wp-includes/images/icon-library/insert-after.svg
-wp-includes/images/icon-library/insert-before.svg
-wp-includes/images/icon-library/table-column-delete.svg
-wp-includes/images/icon-library/table-row-delete.svg
-wp-includes/images/icon-library/update.svg
 wp-includes/js/imgareaselect
 wp-includes/js/imgareaselect/
 wp-includes/js/imgareaselect/border-anim-h.gif
