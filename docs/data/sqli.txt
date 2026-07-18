@@ -43878,6 +43878,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 65-update-article-detail-layout.sql
 658577-update-addons.sql
 65dewdrop
+66078-update-scaffold-flat-config
 664-update-publisher-group-rules.sql
 666union
 668-drop-inapp.sql
@@ -64366,6 +64367,7 @@ application/espo/resources/layouts/scheduledjob/massupdate.json
 application/espo/resources/layouts/user/massupdate.json
 application/espo/resources/metadata/app/select.json
 application/espo/tools/currency/api/putupdate.php
+application/espo/tools/currency/events/currencyrateupdate.php
 application/espo/tools/entitymanager/link/hooks/foreignfielddelete.php
 application/espo/tools/entitymanager/link/hooks/targetlistdelete.php
 application/espo/tools/linkmanager/hook/hooks/foreignfielddelete.php
@@ -72429,6 +72431,7 @@ changelog/57219-update-remove-zip-feature-from-blueprint
 changelog/57935-update-blueprint-docs
 changelog/58792-update-blueprint-doc-exporter-ui
 changelog/61753-fix-support-composer-update
+changelog/66078-update-scaffold-flat-config
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
 changelog/add-tree-select-control
@@ -79753,6 +79756,8 @@ core/system/customfield/xml/customfieldtypes/_fixtures/multi-entity-select-field
 core/system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
 core/system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
 core/system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
+core/system/snippet/datatransfer/translationupdate/translationupdateresult.php
+core/system/snippet/datatransfer/translationupdate/translationupdateresulttest.php
 core/templates/layouts/categorytree/massupdate.json
 core/templates/update.admin.php
 core/templates/update.use-cli.php
@@ -80286,6 +80291,7 @@ create-update.sql
 create-updated-update
 create-valid-update
 create-visible-update
+create-woo-extension/changelog/66078-update-scaffold-flat-config
 create.exec
 create.procedure._servicename_delete.sql
 create.procedure._servicename_insert.sql
@@ -80932,6 +80938,7 @@ currency.drop.sql
 currency.insert.sql
 currency/_createorupdate.cshtml
 currency/api/putupdate.php
+currency/events/currencyrateupdate.php
 currency_delete
 currency_delete.sql
 currency_insert
@@ -80944,6 +80951,7 @@ currency_update.sql
 currencycornupdate
 currencydelete
 currencyrate.delete
+currencyrateupdate.php
 currencyrecordrate/afterdelete.php
 currencyselect
 currencyupdate
@@ -81963,6 +81971,8 @@ datatablerowupdate
 datatables.select.js
 datatables.select.min.js
 datatableupdate
+datatransfer/translationupdate/translationupdateresult.php
+datatransfer/translationupdate/translationupdateresulttest.php
 datatype_definition.11.update.sqlpp
 datatype_definition.2.update.sqlpp
 datatype_with_union.xml
@@ -93463,6 +93473,7 @@ espo/resources/layouts/scheduledjob/massupdate.json
 espo/resources/layouts/user/massupdate.json
 espo/resources/metadata/app/select.json
 espo/tools/currency/api/putupdate.php
+espo/tools/currency/events/currencyrateupdate.php
 espo/tools/linkmanager/hook/hooks/foreignfielddelete.php
 espo/tools/linkmanager/hook/hooks/targetlistdelete.php
 espo/tools/massupdate/action.php
@@ -93734,6 +93745,7 @@ eventprototypeupdate
 eventregistrationpersonalupdate
 eventregistrationteamupdate
 events-users-aqlplus_1.2.update.sqlpp
+events/currencyrateupdate.php
 events/select.php
 events/store-update.event.ts
 events_delete
@@ -94717,6 +94729,7 @@ ext.net.examples/examples/miscellaneous/progressbar/server_side_update/default.a
 ext:sql intext:"alter user" intext:"identified by"
 ext_drop.sql
 exteardrop
+extend-cart-checkout-block/changelog/66078-update-scaffold-flat-config
 extend-rest-api-update-cart.md
 extend-store-api-update-cart.md
 extenddrop.xml
@@ -107383,6 +107396,7 @@ js/components/src/tree-select-control/useisequalrefvalue.js
 js/components/use-parent-settings/select.js
 js/components/visible-on-option/select.js
 js/create-product-editor-block/changelog/dev-ci-lint-monorepo-job-update
+js/create-woo-extension/changelog/66078-update-scaffold-flat-config
 js/cropper/dragdrop.js
 js/cropper/dragdrop.license
 js/customer-effort-score/changelog/dev-ci-lint-monorepo-job-update
@@ -107456,6 +107470,7 @@ js/experimental/changelog/update-remove-banner-layout-from-inbox-note
 js/experimental/changelog/update-storybook_documentation
 js/explat/changelog/dev-ci-lint-monorepo-job-update
 js/expression-evaluation/changelog/dev-ci-lint-monorepo-job-update
+js/extend-cart-checkout-block/changelog/66078-update-scaffold-flat-config
 js/extjs/resources/images/default/dd/drop-add.gif
 js/extjs/resources/images/default/dd/drop-no.gif
 js/extjs/resources/images/default/dd/drop-yes.gif
@@ -122657,6 +122672,7 @@ packages/js/components/src/tree-select-control/test/options.test.js
 packages/js/components/src/tree-select-control/test/tags.test.js
 packages/js/components/src/tree-select-control/useisequalrefvalue.js
 packages/js/create-product-editor-block/changelog/dev-ci-lint-monorepo-job-update
+packages/js/create-woo-extension/changelog/66078-update-scaffold-flat-config
 packages/js/customer-effort-score/changelog/dev-ci-lint-monorepo-job-update
 packages/js/data/changelog/update-settings-payments-type-for-onboarding-supported
 packages/js/data/src/use-select-with-refresh.ts
@@ -122718,6 +122734,7 @@ packages/js/experimental/changelog/update-remove-banner-layout-from-inbox-note
 packages/js/experimental/changelog/update-storybook_documentation
 packages/js/explat/changelog/dev-ci-lint-monorepo-job-update
 packages/js/expression-evaluation/changelog/dev-ci-lint-monorepo-job-update
+packages/js/extend-cart-checkout-block/changelog/66078-update-scaffold-flat-config
 packages/js/integrate-plugin/changelog/dev-ci-lint-monorepo-job-update
 packages/js/integrate-plugin/changelog/update-separate-php-and-js-tests
 packages/js/internal-js-tests/changelog/42860-update-pnpm
@@ -144259,6 +144276,8 @@ snifter,draft,dram,drench,drink,drop,gargle,guzzle,jigger,jolt,libation,nip,peg,
 snip,amputate,ax,bakehead,bantam,banty,bisect,bit,black gang,boilerman,breeze,bungs,butcher,butt,button,cabin boy,carve,chip,chips,chit,chop,chunk,cinch,cleave,clip,clipping,collop,commissary steward,complement,crop,crumb,cut,cut away,cut in two,cut off,cutting,deckhand,deckie,dichotomize,diminutive,dissever,dock,dollop,dot,drop,droplet,end,excise,featherweight,fingerling,fireman,fissure,fleck,flyspeck,fragment,gash,gnat,gob,gobbet,grain,gun loader,gunner,hack,halve,hand,hew,hospital steward,hunk,hussy,incise,incision,iota,jade,jigsaw,jot,lance,landing signalman,lightweight,lop,lump,mail orderly,malapert,microbe,microorganism,midge,mini,minikin,minim,minnow,minny,minutia,minutiae,mite,modicum,moiety,morceau,morsel,mote,mouse,navigator,nick,nip,nubbin,oiler,pare,paring,particle,patch,peewee,picnic,pie,piece,pinhead,pinpoint,pipe,point,pony,prune,purser,pushover,radio operator,rasher,remnant,rend,rive,roustabout,runt,saucebox,saw,scissor,scissors,scoop,scrap,sever,shard,shaving,shears,shiver,shred,shrimp,slash,slice,slip,slit,sliver,slut,small fry,smithereen,snack,snap,snatch,snick,snippet,snips,sparks,speck,splinter,split,steward,stewardess,stitch,stoker,stump,sunder,tag,tatter,tear,tit,tittle,torpedoman,vanishing point,wart,watch,whittle,wisp,yeoman
 snipe,aim at,attack,barrage,blast,blitz,bombard,cannon,cannonade,carp at,charge,cock,commence firing,criticize,deride,detonate,discharge,drop,eject,enfilade,fell,fire,fire a volley,fire at,fire off,fire upon,fusillade,gun,gun for,hit,knock,let fly,let off,load,mortar,open fire,open up on,pan,pelt,pepper,pick off,pistol,plug,pop at,pot,potshoot,potshot,prime,rake,rap,riddle,shell,shoot,shoot at,shoot down,slam,snipe at,strafe,strike,take a potshot,take aim at,torpedo,zero in on
 snippet,bantam,banty,bit,butt,button,chip,chit,chunk,clip,clipping,collop,crumb,cut,cutting,diminutive,dollop,dot,drop,droplet,end,featherweight,fingerling,fleck,flyspeck,fragment,gnat,gob,gobbet,grain,hunk,iota,jot,lightweight,lump,microbe,microorganism,midge,mini,minikin,minim,minnow,minny,minutia,minutiae,mite,modicum,moiety,morceau,morsel,mote,mouse,nip,nubbin,paring,particle,patch,peewee,piece,pinhead,pinpoint,point,pony,rasher,runt,scoop,scrap,shard,shaving,shiver,shred,shrimp,slice,slip,sliver,small fry,smithereen,snack,snatch,snick,snip,speck,splinter,stitch,stump,tag,tatter,tit,tittle,vanishing point,wart,wisp
+snippet/datatransfer/translationupdate/translationupdateresult.php
+snippet/datatransfer/translationupdate/translationupdateresulttest.php
 snippet/update.class.php
 snippet/update.js
 snippet/update.php
@@ -145869,6 +145888,7 @@ src/core/migration/v6_7/migration1752750171addindextoorderaddresscreateandupdate
 src/core/migration/v6_7/migration1752750234addindextoordertransactioncreateandupdate.php
 src/core/service/api/update.api.service.spec.js
 src/core/service/api/update.api.service.ts
+src/core/system/snippet/datatransfer/translationupdate/translationupdateresult.php
 src/css/_entry-type-select.scss
 src/css/_grouped-entry-type-select.scss
 src/customselect.js
@@ -150137,6 +150157,8 @@ system/select.asp
 system/settings/update.php
 system/smarty/sysplugins/smarty_internal_compile_insert.php
 system/smarty/sysplugins/smarty_internal_nocache_insert.php
+system/snippet/datatransfer/translationupdate/translationupdateresult.php
+system/snippet/datatransfer/translationupdate/translationupdateresulttest.php
 system/src/grav/installer/versionupdate.php
 system/storage/vendor/aws/aws-sdk-php/src/s3/batchdelete.php
 system/storage/vendor/composer/autoload_files.php
@@ -152767,6 +152789,7 @@ tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-entity-s
 tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
 tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
 tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
+tests/unit/core/system/snippet/datatransfer/translationupdate/translationupdateresulttest.php
 tests/unit/espo/core/select
 tests/unit/espo/core/select/accesscontrol
 tests/unit/espo/core/select/accesscontrol/filterfactorytest.php
@@ -154151,6 +154174,7 @@ tools/cliupdate.php
 tools/commands/trigger-update-callbacks.js
 tools/commands/update-block-template-logging-threshold.tsx
 tools/currency/api/putupdate.php
+tools/currency/events/currencyrateupdate.php
 tools/daux.io/libs/format/confluence/publisherdelete.php
 tools/delete-all-products.php
 tools/editer/fck/editor/dialog/fck_select
@@ -154581,6 +154605,8 @@ translationsdelete
 translationsetupdate
 translationsupdate
 translationupdate
+translationupdate/translationupdateresult.php
+translationupdate/translationupdateresulttest.php
 translog-insert.sql
 translog-update.sql
 transmissionupdate
@@ -161124,6 +161150,7 @@ unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-entity-select-
 unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
 unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
 unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
+unit/core/system/snippet/datatransfer/translationupdate/translationupdateresulttest.php
 unit/espo/core/select/accesscontrol/filterfactorytest.php
 unit/espo/core/select/accesscontrol/filterresolverfactorytest.php
 unit/espo/core/select/accesscontrol/filterresolvertest.php
@@ -177944,7 +177971,6 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
-wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments

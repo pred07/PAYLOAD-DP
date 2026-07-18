@@ -7717,6 +7717,7 @@ blocks/docs/internal-developers/translations/translations-in-php-files.md
 blocks/view/internal_note.html.twig
 blog-internal
 blog.internal
+blog/.html.*http://s3.amazonaws.com/robots.txt
 blog/inside-figma-securing-internal-web-apps/$
 blog/learn-how-a-microsoft-designer-built-an-internal-icon-library-in-his-spare/$
 blog/melcrum-selects-workbooks-crm-transform-its-internal-business-processes-0
@@ -13656,6 +13657,7 @@ en/internal
 en/internal/
 en/internal/internal-lead-referral-form
 en/internal/test-ssg-deploy
+en/internaljustice/files
 en/servers/racks-internal
 enable-secure-admin-internal-user.1
 enabledforinternaluse
@@ -15742,7 +15744,6 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
-http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -17291,8 +17292,8 @@ internal-buasiresources
 internal-bucket
 internal-bucketalpha-s3secure-partner-devel
 internal-bugs
-internal-build/.eslintrc.cjs
 internal-build/configs/tsconfig.json
+internal-build/eslint.config.mjs
 internal-build/package.json
 internal-build/scripts/generate-types.mjs
 internal-build/src/composer/index.ts
@@ -17952,8 +17953,10 @@ internal-js-tests/changelog/update-59804
 internal-js-tests/changelog/update-pnpm-10-upgrade
 internal-js-tests/changelog/update-settings-router-calypso-package
 internal-js-tests/changelog/update-wp-68-packages
+internal-js-tests/changelog/wooplug-6930-eslint-v10-flat-config
 internal-js-tests/composer.json
 internal-js-tests/composer.lock
+internal-js-tests/eslint.config.mjs
 internal-js-tests/jest-preset.js
 internal-js-tests/package.json
 internal-js-tests/src/mocks/api-request.js
@@ -24269,6 +24272,7 @@ internal/orders/pointofsaleemailhandlertest.php
 internal/orders/pointofsaleorderutil.php
 internal/orders/pointofsaleorderutiltest.php
 internal/orders/taxescontroller.php
+internal/orderwithdrawal/orderwithdrawalcontroller.php
 internal/package-lock.json
 internal/package.json
 internal/portal
@@ -28108,8 +28112,8 @@ jp/ja/product-finder/internal-hard-drives/
 jrc-geoportal-internal
 js-internal-link
 js/block-templates/changelog/dev-monorepo-internal-packages-linking-fixes
-js/internal-build/.eslintrc.cjs
 js/internal-build/configs/tsconfig.json
+js/internal-build/eslint.config.mjs
 js/internal-build/package.json
 js/internal-build/scripts/generate-types.mjs
 js/internal-build/src/composer/index.ts
@@ -28176,8 +28180,10 @@ js/internal-js-tests/changelog/update-59804
 js/internal-js-tests/changelog/update-pnpm-10-upgrade
 js/internal-js-tests/changelog/update-settings-router-calypso-package
 js/internal-js-tests/changelog/update-wp-68-packages
+js/internal-js-tests/changelog/wooplug-6930-eslint-v10-flat-config
 js/internal-js-tests/composer.json
 js/internal-js-tests/composer.lock
+js/internal-js-tests/eslint.config.mjs
 js/internal-js-tests/jest-preset.js
 js/internal-js-tests/package.json
 js/internal-js-tests/src/mocks/api-request.js
@@ -46044,8 +46050,8 @@ packages/core/types/src/internal/registry.ts
 packages/core/types/src/internal/uid.ts
 packages/errors/src/errors/internal.ts
 packages/js/block-templates/changelog/dev-monorepo-internal-packages-linking-fixes
-packages/js/internal-build/.eslintrc.cjs
 packages/js/internal-build/configs/tsconfig.json
+packages/js/internal-build/eslint.config.mjs
 packages/js/internal-build/package.json
 packages/js/internal-build/scripts/generate-types.mjs
 packages/js/internal-build/src/composer/index.ts
@@ -46112,8 +46118,10 @@ packages/js/internal-js-tests/changelog/update-59804
 packages/js/internal-js-tests/changelog/update-pnpm-10-upgrade
 packages/js/internal-js-tests/changelog/update-settings-router-calypso-package
 packages/js/internal-js-tests/changelog/update-wp-68-packages
+packages/js/internal-js-tests/changelog/wooplug-6930-eslint-v10-flat-config
 packages/js/internal-js-tests/composer.json
 packages/js/internal-js-tests/composer.lock
+packages/js/internal-js-tests/eslint.config.mjs
 packages/js/internal-js-tests/jest-preset.js
 packages/js/internal-js-tests/package.json
 packages/js/internal-js-tests/src/mocks/api-request.js
@@ -48253,6 +48261,7 @@ plugins/woocommerce/src/internal/orders/paymentinfo.php
 plugins/woocommerce/src/internal/orders/pointofsaleemailhandler.php
 plugins/woocommerce/src/internal/orders/pointofsaleorderutil.php
 plugins/woocommerce/src/internal/orders/taxescontroller.php
+plugins/woocommerce/src/internal/orderwithdrawal/orderwithdrawalcontroller.php
 plugins/woocommerce/src/internal/pos/capabilities.php
 plugins/woocommerce/src/internal/pos/poscontroller.php
 plugins/woocommerce/src/internal/pos/pospreset.php
@@ -52667,6 +52676,7 @@ src/internal/orders/pointofsaleemailhandlertest.php
 src/internal/orders/pointofsaleorderutil.php
 src/internal/orders/pointofsaleorderutiltest.php
 src/internal/orders/taxescontroller.php
+src/internal/orderwithdrawal/orderwithdrawalcontroller.php
 src/internal/pos/capabilities.php
 src/internal/pos/capabilitiestest.php
 src/internal/pos/poscontroller.php
@@ -58384,6 +58394,7 @@ woocommerce/src/internal/orders/paymentinfo.php
 woocommerce/src/internal/orders/pointofsaleemailhandler.php
 woocommerce/src/internal/orders/pointofsaleorderutil.php
 woocommerce/src/internal/orders/taxescontroller.php
+woocommerce/src/internal/orderwithdrawal/orderwithdrawalcontroller.php
 woocommerce/src/internal/pos/capabilities.php
 woocommerce/src/internal/pos/poscontroller.php
 woocommerce/src/internal/pos/pospreset.php
@@ -59558,7 +59569,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://gazzetta.it/robots.txt
+zh/internalhttp://karlsruhe.de/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php

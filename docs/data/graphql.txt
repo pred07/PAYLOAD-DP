@@ -3430,6 +3430,7 @@ app/code/magento/wishlistgraphql/registration.php
 app/code/magento/wishlistgraphql/test/unit/customerwishlistresolvertest.php
 app/code/magento/wishlistgraphql/test/unit/model/resolver/wishlist/addtocarttest.php
 app/code/magento/wishlistgraphql/test/unit/model/resolver/wishlistitemstest.php
+app/code/magento/wishlistgraphql/test/unit/wishlistresolvertest.php
 app/controllers/graphql_controller.rb
 app/frontend/apps/desktop/components/betaui/graphql/mutations/betauisendfeedback.api.ts
 app/frontend/apps/desktop/components/betaui/graphql/mutations/betauisendfeedback.graphql
@@ -6833,6 +6834,7 @@ code/magento/wishlistgraphql/registration.php
 code/magento/wishlistgraphql/test/unit/customerwishlistresolvertest.php
 code/magento/wishlistgraphql/test/unit/model/resolver/wishlist/addtocarttest.php
 code/magento/wishlistgraphql/test/unit/model/resolver/wishlistitemstest.php
+code/magento/wishlistgraphql/test/unit/wishlistresolvertest.php
 code/search/searchintrospection.php
 coerceandvalidateforgraphqlinput.ts
 com.adobe.cq.commerce.graphql.client.impl.graphqlclientimpl-default.config
@@ -17509,6 +17511,7 @@ magento/wishlistgraphql/registration.php
 magento/wishlistgraphql/test/unit/customerwishlistresolvertest.php
 magento/wishlistgraphql/test/unit/model/resolver/wishlist/addtocarttest.php
 magento/wishlistgraphql/test/unit/model/resolver/wishlistitemstest.php
+magento/wishlistgraphql/test/unit/wishlistresolvertest.php
 maghomepagegraphql1view
 magic-graphql
 main-graphql
@@ -23578,6 +23581,7 @@ wishlistgraphql/registration.php
 wishlistgraphql/test/unit/customerwishlistresolvertest.php
 wishlistgraphql/test/unit/model/resolver/wishlist/addtocarttest.php
 wishlistgraphql/test/unit/model/resolver/wishlistitemstest.php
+wishlistgraphql/test/unit/wishlistresolvertest.php
 wlan-ui-graphql
 woo-graphql-api
 woocommerce/bin/api-builder/code-templates/graphqlcontrollertemplate.php
