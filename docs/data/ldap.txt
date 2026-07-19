@@ -483,7 +483,6 @@ and row([randnum],[randnum1])>(select count(*),concat('[delimiter_start]',(selec
 ander!(
 anilram)()(!(&(
 anilram)()(!(&(t4yad!h*7#7!@-+)(ma4ritzx4!!
-api/url/article?uuid=
 api/url/article?uuid=*
 api/wizards/getlanguages/sfacilityguid=null&slocationguid=null
 apps.php?q=article&uid=
@@ -1278,6 +1277,7 @@ silvana!((
 sither145%*)
 skuid=
 sldc!(*^)#@%gjw
+sm_guid=
 soft!(!(
 songchao!(()0802
 songda!(&$

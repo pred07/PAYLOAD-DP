@@ -53428,6 +53428,8 @@ aciddrop-93
 aciddrop-com
 acidrop
 acknowledgeshiftupdate
+acl/events/portaluserroleupdate.php
+acl/events/userroleupdate.php
 acl_delete.xml
 acl_update.xml
 aclroles/delete.php
@@ -64110,10 +64112,12 @@ application/espo/classes/select/webhook/accesscontrolfilters/mandatory.php
 application/espo/classes/select/workingtimerange
 application/espo/classes/select/workingtimerange/primaryfilters
 application/espo/classes/select/workingtimerange/primaryfilters/actual.php
+application/espo/core/acl/events/userroleupdate.php
 application/espo/core/defaults/layout/massupdate.json
 application/espo/core/defaults/layouts/massupdate.json
 application/espo/core/massaction/actions/massdelete.php
 application/espo/core/massaction/actions/massupdate.php
+application/espo/core/portal/acl/events/portaluserroleupdate.php
 application/espo/core/rebuild/actions/versionupdate.php
 application/espo/core/record/select
 application/espo/core/record/select/applierclassnamelistprovider.php
@@ -77985,6 +77989,7 @@ core-war/src/main/webapp/pdcpeas/jsp/refreshfromuserselect.jsp
 core.drop.__start__.1.sql
 core.drop.__start__.sql
 core.update.php
+core/acl/events/userroleupdate.php
 core/actions_addupdatedelete.inc.php
 core/admin/admin/src/hooks/useforceupdate.ts
 core/admin/admin/src/pages/settings/components/tokens/tokentypeselect.tsx
@@ -79455,6 +79460,7 @@ core/plugins/update/cache/cache.php
 core/plugins/update/support/support.php
 core/plugins/update/support/ticketmessage.php
 core/plugins/update/support/ticketstate.php
+core/portal/acl/events/portaluserroleupdate.php
 core/profiles/demo_umami/themes/umami/css/classy/components/tableselect.css
 core/rebuild/actions/versionupdate.php
 core/record/select/applierclassnamelistprovider.php
@@ -93240,8 +93246,10 @@ espo/classes/select/user/primaryfilters/portal.php
 espo/classes/select/user/where/itemconverters/isoftype.php
 espo/classes/select/webhook/accesscontrolfilters/mandatory.php
 espo/classes/select/workingtimerange/primaryfilters/actual.php
+espo/core/acl/events/userroleupdate.php
 espo/core/massaction/actions/massdelete.php
 espo/core/massaction/actions/massupdate.php
+espo/core/portal/acl/events/portaluserroleupdate.php
 espo/core/rebuild/actions/versionupdate.php
 espo/core/record/select/applierclassnamelistprovider.php
 espo/core/select/accesscontrol/applier.php
@@ -93746,8 +93754,10 @@ eventregistrationpersonalupdate
 eventregistrationteamupdate
 events-users-aqlplus_1.2.update.sqlpp
 events/currencyrateupdate.php
+events/portaluserroleupdate.php
 events/select.php
 events/store-update.event.ts
+events/userroleupdate.php
 events_delete
 events_session_select.https.html.ini
 eventsdao_delete.sql
@@ -95065,6 +95075,7 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
+false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -99992,51 +100003,13 @@ gotg-1741-update-github-actions-with-staging-and
 goto/double_select.tpl
 gotoreunion.net
 gov_exec
-government/agencies-departments-offices-redirect/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
-government/agencies-departments-offices-redirect/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/agencies-departments-offices-redirect/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
-government/agencies-departments-offices-redirect/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices-directory/clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/denver-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/webb-vspc-ocr-service-update
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/copy-of-leafdrop-1/*
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/*
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-north-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-northeast-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-south-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-southeast-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-southwest-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/copy-of-leafdrop-west-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-central
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-north
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-northeast
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-south
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-southeast
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-southwest
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/leafdrop-west
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/leafdrop/new-page
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/copy-of-leafdrop-central-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/copy-of-leafdrop-northeast-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/copy-of-leafdrop-southeast-1
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-central
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-north
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-northeast
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-south
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-southeast
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-southwest
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/locations/leafdrop-west
-government/agencies-departments-offices/agencies-departments-offices-directory/recycle-compost-trash/seasonal-programs/copy-of-leafdrop-1
 government/agencies-departments-offices/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
-government/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/departments/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
-government/departments/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/departments/office-of-the-clerk-recorder/marriages-and-civil-unions/marriage-and-civil-union-rules-and-guidance
-government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-and-guidance
-government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government_drop
 governmentcompanyupdate
 governmentinfoupdate
@@ -118350,8 +118323,6 @@ negativhalter
 negotiator,agent,arbitrator,bargainer,broker,business agent,cardholder,connection,contact,deputy,front,front man,go-between,interagent,interceder,intercessor,intermediary,intermediate,intermediate agent,intermediator,intermedium,internuncio,interpleader,intervener,interventionist,interventor,labor organizer,mediator,medium,middleman,mouthpiece,negotiant,negotiatress,negotiatrix,ombudsman,organizer,shop steward,spokesman,spokeswoman,trade unionist,union member,union officer,unionist
 neighbor,abut,abut on,abutter,acquaintance,adjacent,adjoin,adjoiner,adjoining,advocate,alter ego,appose,backer,be contiguous,be in contact,best friend,border,border on,borderer,bordering,bosom friend,bring near,brother,butt,bystander,casual acquaintance,close acquaintance,close friend,communicate,confidant,confidante,conjoin,connect,connecting,conterminous,contiguous,coterminous,end to end,endways,endwise,face to face,familiar,favorer,fellow,fellow creature,fellowman,friend,immediate,immediate neighbor,inseparable friend,intimate,join,joined,juxtapose,juxtaposed,juxtaposit,juxtapositional,juxtapositive,lie by,line,looker-on,lover,march,neighborer,neighboring,next,onlooker,other self,partisan,pickup,put with,repository,stand by,supporter,sympathizer,tangent,touch,verge,verge upon,well-wisher
 neighbor-update-source.xml.i
-neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-gallery
-neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-image-gallery
 neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/new-page
 neighborhoodselect
 neighborhoodupdate
@@ -125726,6 +125697,7 @@ pornhubselect-com
 porno-reunion
 port union
 port_list_delete.xml
+portal/acl/events/portaluserroleupdate.php
 portal/afterupdate.php
 portal/broker/dentalselect.do
 portal/broker/dentalselect.sdo
@@ -125775,6 +125747,7 @@ portalproviderversiontypeupdate
 portalstateupdate
 portalthemeupdate
 portalupdate
+portaluserroleupdate.php
 portdelete
 portexec
 portfolio/umbraco/actions/delete.aspx
@@ -158100,6 +158073,7 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
+true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -171127,6 +171101,7 @@ userrolesdao_update.sql
 userroleselect
 userrolesupdate
 userroleupdate
+userroleupdate.php
 users-delete.xml
 users-drop-indexes.sql
 users-drop-tables.sql

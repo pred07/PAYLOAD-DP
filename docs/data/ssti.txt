@@ -586,6 +586,7 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{cookiecutter.stem_name}}.xml
 {{cookiecutter.stem_name}}_build.xml
 {{cycler.__init__.__globals__.os}}
+{{data.c.link_offerid}}
 {{dump(app)}}
 {{else}}
 {{endpoints}}
