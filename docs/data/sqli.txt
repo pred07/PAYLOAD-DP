@@ -43133,6 +43133,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
 2026-06-23-00-00-00-drop-gift-links-revoked-at.js
 2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
+2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 2026_04_09_120000_change_tax_category_id_fk_on_cart_items_to_null_on_delete.php
 2026_04_09_120100_change_tax_category_id_fk_on_order_items_to_null_on_delete.php
 203-rhnactionerrataupdate-indexes.sql
@@ -43865,6 +43866,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
 6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
 6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
+6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 60fps_select.xml
 61-update-reviews.sql
 61753-fix-support-composer-update
@@ -78125,6 +78127,7 @@ core/core/server/data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable
 core/core/server/data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
 core/core/server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
 core/core/server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
+core/core/server/data/migrations/versions/6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 core/core/server/run-update-check.js
 core/core/server/services/email-analytics/jobs/update-member-email-analytics/index.js
 core/core/server/services/members/emails/update-email.js
@@ -79668,6 +79671,7 @@ core/server/data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gift
 core/server/data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
 core/server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
 core/server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
+core/server/data/migrations/versions/6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 core/server/run-update-check.js
 core/server/services/email-analytics/jobs/update-member-email-analytics/index.js
 core/server/services/members/emails/update-email.js
@@ -81690,6 +81694,7 @@ data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at
 data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
 data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
 data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
+data/migrations/versions/6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 data/multiselect.php
 data/query?q=select+idsubjectstartdatetimeenddatetime+from+event
 data/resource/js/jquery.imgareaselect
@@ -99586,6 +99591,7 @@ ghost/core/core/server/data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nu
 ghost/core/core/server/data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
 ghost/core/core/server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
 ghost/core/core/server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
+ghost/core/core/server/data/migrations/versions/6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 ghost/core/core/server/run-update-check.js
 ghost/core/core/server/services/email-analytics/jobs/update-member-email-analytics/index.js
 ghost/core/core/server/services/members/emails/update-email.js
@@ -100003,10 +100009,6 @@ gotg-1741-update-github-actions-with-staging-and
 goto/double_select.tpl
 gotoreunion.net
 gov_exec
-government/agencies-departments-offices-redirect/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
-government/agencies-departments-offices-redirect/agencies-departments-offices-directory/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/agencies-departments-offices-redirect/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
-government/agencies-departments-offices-redirect/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices-directory/clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/denver-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
@@ -100042,12 +100044,6 @@ government/agencies-departments-offices/agencies-departments-offices-directory/r
 government/agencies-departments-offices/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
-government/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/departments/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
-government/departments/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
-government/departments/office-of-the-clerk-recorder/marriages-and-civil-unions/marriage-and-civil-union-rules-and-guidance
-government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-and-guidance
-government/departments/office-of-the-clerk-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government_drop
 governmentcompanyupdate
 governmentinfoupdate
@@ -114120,6 +114116,7 @@ migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
 migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
 migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
+migrations/versions/6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 migrationversionsdelete
 migrationversionsupdate
 mihewalter
@@ -118362,8 +118359,6 @@ negativhalter
 negotiator,agent,arbitrator,bargainer,broker,business agent,cardholder,connection,contact,deputy,front,front man,go-between,interagent,interceder,intercessor,intermediary,intermediate,intermediate agent,intermediator,intermedium,internuncio,interpleader,intervener,interventionist,interventor,labor organizer,mediator,medium,middleman,mouthpiece,negotiant,negotiatress,negotiatrix,ombudsman,organizer,shop steward,spokesman,spokeswoman,trade unionist,union member,union officer,unionist
 neighbor,abut,abut on,abutter,acquaintance,adjacent,adjoin,adjoiner,adjoining,advocate,alter ego,appose,backer,be contiguous,be in contact,best friend,border,border on,borderer,bordering,bosom friend,bring near,brother,butt,bystander,casual acquaintance,close acquaintance,close friend,communicate,confidant,confidante,conjoin,connect,connecting,conterminous,contiguous,coterminous,end to end,endways,endwise,face to face,familiar,favorer,fellow,fellow creature,fellowman,friend,immediate,immediate neighbor,inseparable friend,intimate,join,joined,juxtapose,juxtaposed,juxtaposit,juxtapositional,juxtapositive,lie by,line,looker-on,lover,march,neighborer,neighboring,next,onlooker,other self,partisan,pickup,put with,repository,stand by,supporter,sympathizer,tangent,touch,verge,verge upon,well-wisher
 neighbor-update-source.xml.i
-neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-gallery
-neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/fran-and-anna-simon-image-gallery
 neighborhood/i-am-denver/featured-stories/fran-and-anna-simon-first-gay-couple-civil-union/new-page
 neighborhoodselect
 neighborhoodupdate
@@ -142088,6 +142083,7 @@ server/data/migrations/versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-exp
 server/data/migrations/versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
 server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
 server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
+server/data/migrations/versions/6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 server/graphql/mutations/crud/role/delete-role.js
 server/graphql/mutations/crud/role/update-role.js
 server/graphql/mutations/crud/user/delete-user.js
@@ -172986,6 +172982,7 @@ versions/6.28/2026-04-09-15-17-41-drop-nullable-gifts-expires-at.js
 versions/6.29/2026-04-13-09-12-13-drop-gift-subscription-redemption-notification-column.js
 versions/6.48/2026-06-23-00-00-00-drop-gift-links-revoked-at.js
 versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
+versions/6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 versionselect
 versionsupdate
 versiontoupdate.sql

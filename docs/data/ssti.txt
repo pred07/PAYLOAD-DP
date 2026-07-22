@@ -78,7 +78,6 @@ ${{<%[%'"}}%\
 %20{${sleep(3)}}
 %7b%7b
 %7b%7bsettings
-%7b%7bsport%7d%7d
 %7b%7burl$
 %7b%7burl%7d%7d
 &tl961x${gcu{_9un}!q7j-3sh29pge}oxfwc@n&j1j&}!zcr)

@@ -11339,9 +11339,11 @@ graphql/gql/mutations/ticket/checklist/title_update_spec.rb
 graphql/gql/mutations/ticket/concerns/handles_group.rb
 graphql/gql/mutations/ticket/create.rb
 graphql/gql/mutations/ticket/create_spec.rb
+graphql/gql/mutations/ticket/create_suppress_notifications_spec.rb
 graphql/gql/mutations/ticket/customer_group_restriction_spec.rb
 graphql/gql/mutations/ticket/customer_update.rb
 graphql/gql/mutations/ticket/customer_update_spec.rb
+graphql/gql/mutations/ticket/customer_update_trigger_response_spec.rb
 graphql/gql/mutations/ticket/external_references/idoit_object_add.rb
 graphql/gql/mutations/ticket/external_references/idoit_object_add_spec.rb
 graphql/gql/mutations/ticket/external_references/idoit_object_remove.rb
@@ -11371,11 +11373,13 @@ graphql/gql/mutations/ticket/shared_draft/zoom/update.rb
 graphql/gql/mutations/ticket/shared_draft/zoom/update_spec.rb
 graphql/gql/mutations/ticket/title_update.rb
 graphql/gql/mutations/ticket/title_update_spec.rb
+graphql/gql/mutations/ticket/title_update_trigger_response_spec.rb
 graphql/gql/mutations/ticket/update.rb
 graphql/gql/mutations/ticket/update/bulk.rb
 graphql/gql/mutations/ticket/update/bulk_spec.rb
 graphql/gql/mutations/ticket/update_spec.rb
 graphql/gql/mutations/ticket/update_suppress_notifications_spec.rb
+graphql/gql/mutations/ticket/update_trigger_response_spec.rb
 graphql/gql/mutations/two_factor_method_initiate_authentication.rb
 graphql/gql/mutations/two_factor_method_initiate_authentication_spec.rb
 graphql/gql/mutations/user/add.rb
@@ -17832,6 +17836,7 @@ native_client_sdk/doc_generated/pepper_stable/c/group___typedefs.html
 nebenstellengraphql1view
 net::dbus::binding::introspector - handler for object introspection data
 newsgraphql1view
+newsletter/$http://graphql.org/robots.txt
 newslettergraphql/composer.json
 newslettergraphql/etc/di.xml
 newslettergraphql/etc/graphql/di.xml
@@ -20384,8 +20389,10 @@ spec/graphql/gql/mutations/ticket/checklist/item_upsert_spec.rb
 spec/graphql/gql/mutations/ticket/checklist/items_add_spec.rb
 spec/graphql/gql/mutations/ticket/checklist/title_update_spec.rb
 spec/graphql/gql/mutations/ticket/create_spec.rb
+spec/graphql/gql/mutations/ticket/create_suppress_notifications_spec.rb
 spec/graphql/gql/mutations/ticket/customer_group_restriction_spec.rb
 spec/graphql/gql/mutations/ticket/customer_update_spec.rb
+spec/graphql/gql/mutations/ticket/customer_update_trigger_response_spec.rb
 spec/graphql/gql/mutations/ticket/external_references/idoit_object_add_spec.rb
 spec/graphql/gql/mutations/ticket/external_references/idoit_object_remove_spec.rb
 spec/graphql/gql/mutations/ticket/external_references/issue_tracker_item_add_spec.rb
@@ -20400,9 +20407,11 @@ spec/graphql/gql/mutations/ticket/shared_draft/zoom/create_spec.rb
 spec/graphql/gql/mutations/ticket/shared_draft/zoom/delete_spec.rb
 spec/graphql/gql/mutations/ticket/shared_draft/zoom/update_spec.rb
 spec/graphql/gql/mutations/ticket/title_update_spec.rb
+spec/graphql/gql/mutations/ticket/title_update_trigger_response_spec.rb
 spec/graphql/gql/mutations/ticket/update/bulk_spec.rb
 spec/graphql/gql/mutations/ticket/update_spec.rb
 spec/graphql/gql/mutations/ticket/update_suppress_notifications_spec.rb
+spec/graphql/gql/mutations/ticket/update_trigger_response_spec.rb
 spec/graphql/gql/mutations/two_factor_method_initiate_authentication_spec.rb
 spec/graphql/gql/mutations/user/add_first_admin_spec.rb
 spec/graphql/gql/mutations/user/add_spec.rb

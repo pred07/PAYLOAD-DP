@@ -7138,6 +7138,7 @@ bbs/source/core/smarty/sysplugins/smarty_internal_templateparser.php
 bbs/source/core/smarty/sysplugins/smarty_internal_utility.php
 bbs/source/core/smarty/sysplugins/smarty_internal_wrapper.php
 bbs/source/core/smarty/sysplugins/smarty_internal_write_file.php
+bcchange/becomesinternal.php
 bcgovinternaljobpostings
 bck-internal
 bd-internal-polkadot-pit03
@@ -7208,6 +7209,7 @@ beaker-localhost.config
 beans-internal-api.xml
 beans-internal.xml
 beans-internal2.xml
+becomesinternal.php
 bedita/vendors/smarty/libs/sysplugins/smarty_internal_cacheresource_file.php
 bedita/vendors/smarty/libs/sysplugins/smarty_internal_compile_append.php
 bedita/vendors/smarty/libs/sysplugins/smarty_internal_compile_assign.php
@@ -10081,6 +10083,7 @@ core/field/internalviolation.php
 core/field/internalviolationtest.php
 core/final-and-internal.md
 core/framework/api/serializer/fixtures/testinternalfieldsarefiltered.php
+core/framework/deprecation/bcchange/becomesinternal.php
 core/framework/plugin/fixtures/bundleconfiggenerator/project/extensions/plugins/ignoredassets/resources/views/components/feature/node_modules/internal.ts
 core/httpclient/exceptions/notallowedinternalhost.php
 core/httpclient/options/internalhostrestriction.php
@@ -12502,6 +12505,7 @@ deploy_project_internal.sql
 deployment_plan_localhost.xml
 depot-internal
 depot-internal-webhooks
+deprecation/bcchange/becomesinternal.php
 dept-internal
 depth,french pitch,sophia,abstruseness,abysm,abyss,acumen,amplitude,area,astuteness,bigness,bodily size,body,bottomless pit,brain,breadth,brightness,brilliance,brilliancy,broad-mindedness,bulk,caliber,cavity,chasm,classical pitch,coarseness,complexity,comprehensively,corpulence,coverage,crater,crevasse,deep,deeply,deepness,deeps,depths,diameter,dimension,dimensions,distance through,draft,drop,erudition,expanse,expansion,extension,extensively,extent,fatness,gauge,girth,good understanding,greatness,grossness,gulf,height,high pitch,hole,hollow,in detail,innerness,inness,insight,intellect,intelligence,intensity,intensively,interiority,internality,internalization,intricacy,intrinsicality,introversion,intuition,inwardness,keenness,key,largeness,length,low pitch,lowness,magnitude,mass,measure,measurement,mellow wisdom,nadir,new philharmonic pitch,note,obscurity,penetration,perception,perspicaciousness,perspicacity,philharmonic pitch,philosophical pitch,pit,pitch,profoundly,profoundness,profundity,proportion,proportions,radius,range,reach,reconditeness,register,richness,ripe wisdom,sagacity,sageness,sapience,scale,scope,seasoned understanding,sense,shaft,sharpness,size,sound understanding,sounding,spread,standard pitch,strength,the third dimension,thickness,thoroughly,tonality,tone,tune,understanding,vividness,volume,well,width,wisdom,wiseness,yawning abyss
 dermatitisduetofoodtakeninternally.xml
@@ -14804,6 +14808,7 @@ fragment_internal_police_info.xml
 fragment_internal_storage.xml
 fragment_m2case3_internalstrorage.xml
 framework/api/serializer/fixtures/testinternalfieldsarefiltered.php
+framework/deprecation/bcchange/becomesinternal.php
 framework/plugin/fixtures/bundleconfiggenerator/project/extensions/plugins/ignoredassets/resources/views/components/feature/node_modules/internal.ts
 framework/setup/declaration/schema/db/mysql/definition/constraints/internal.php
 framework/setup/declaration/schema/dto/constraints/internal.php
@@ -15743,7 +15748,6 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
-http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -49092,6 +49096,7 @@ preferencesinternal-cache-data-proxy-vpn
 preferencesinternalgateway
 premise/front/getpingdata?url=http://0.0.0.0:9600/sm/api/v1/firewall/zone/services?zone=;/usr/bin/id;
 premista-internal
+premium/http://s3.amazonaws.com/robots.txt
 prepareinternalpurchaseorder
 prepopulatesql_applicationinformation_dc_localhost443.sql
 prepopulatesql_applicationinformation_dc_localhost8080.sql
@@ -51879,6 +51884,7 @@ src/core/devops/staticanalyze/phpstan/rules/internal/internalclassrule.php
 src/core/devops/staticanalyze/phpstan/rules/internal/internalmethodrule.php
 src/core/domain/order/command/setinternalordernotecommand.php
 src/core/domain/order/commandhandler/setinternalordernotehandlerinterface.php
+src/core/framework/deprecation/bcchange/becomesinternal.php
 src/core/migration/v6_7/migration1741163941addorderinternalcomment.php
 src/core/migration/v6_7/migration1762356839addinternalcommenttostatemachinehistory.php
 src/core/migration/v6_7/migration1768986102addinternalcolumntoproductstream.php
@@ -59569,7 +59575,6 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://kctv5.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
