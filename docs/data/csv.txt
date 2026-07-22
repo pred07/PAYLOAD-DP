@@ -257,6 +257,7 @@
 =mozilla/5.0 (windows; u; windows nt 6.1; en-us) applewebkit/534.16 (khtml, like gecko) chrome/10.0.648.204 safari/534.16
 =rand()
 =scq(2+ucm)x77m
+@!@#%^&*().x
 @"><img src=x/onerror=confirm(1)>xss
 @#$%&*()
 @#$%&*()_+
@@ -272,8 +273,12 @@
 @#$%^&*()qwertyuiop
 @#$%^&amp:*()_+qazwsxedc12345
 @#$567*()
+@#%&*()
+@#%&*()_+
+@#%^&*!()
 @#&(&(*)
 @#?$!w()
+@(#)
 @()&!@%&
 @(*)snoppy97
 @(1+2)

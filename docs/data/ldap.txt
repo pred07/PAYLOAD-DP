@@ -1,7 +1,11 @@
+!!(
 !!((
 !!hl8!(pm%9!
 !#!(&)n
 !#%&(@$^*)
+!#%&(@^*)!@#%)(*&
+!#%&(@^*)!@#%)(*&^zxcvbnm85
+!#()!!(^^^
 !%!!!((@
 !%)@!(&!
 !&)(!(*(
@@ -28,7 +32,9 @@
 !(*@)*@$
 !(*^!!
 !(*^)(@)
+!(*^)^!^
 !(3
+!(@
 !(@*#&$^%)))#!
 !(^%&@
 !(^(!@!#8892567
@@ -37,10 +43,15 @@
 !(vt)/92
 !(wang40
 !)%!(&^)
+!)(!(&
 !))*!(
+!2dw!(zgjdefoqy3uts
 !@!@!(($
 !@#$%^&*)
 !@#$%^&*)(
+!^)!(*&
+"!!(@(*#*))mnnnbhsa{{""**(@"
+"!()*#""el"
 "'`><script>a=/xss;*chr*;i=0;log(*num*);a/i;</script>
 "'`><script>log*chr*(*num*)</script>
 "'`>abc<div style="font-family:'foo'*chr*x:expression(log(*num*));/*';">def
@@ -134,9 +145,11 @@ $@!(!^&
 ("port_255/home")|(inurl:"home?port=255")
 ("port_255/home")|(inurl:"home?port=255?)
 ("skin design by amie of intense")|("fanfiction categories" "featured stories")|("default2, 3column, romance, efiction")
+(#**&)(*)@#
 ('[delimiter_start]'||(case when ([randnum]=[randnum]) then '1' else '0' end)||'[delimiter_stop]')
 (*)(*)
 (*)*)
+(*)admin#%#^
 (*)asus1987(*)
 (*)steve(*)
 (**))))
@@ -197,6 +210,7 @@ $@!(!^&
 )!)^!((@1992
 )!@#@#**)$
 )$)$!(*@
+)&@#(&!(@
 )()%!(*(
 )(cn=))\x00
 )*)(*&
@@ -289,6 +303,8 @@ $@!(!^&
 1222!(*^
 123456*)
 13579@$^*)
+13579@^*)
+13579qsc@^*)
 14 jan!(*(
 1511980!%!!(*)
 15aug!(@*
@@ -321,6 +337,7 @@ $@!(!^&
 2disallowactivityuid=
 32jhkic!@#ckx!*)ggm54k2v432kcl3j48$04#fkgk
 39k!(bnu+h57w<r
+3am#@!(*7hur@y@t3am#
 3disallow/.xml?uuid=
 3disallow/?uid=
 3disallow/uid=
@@ -338,6 +355,8 @@ $@!(!^&
 726044464!((@
 7882451lu#!(
 7`|(zn+evsk!|#r([
+7hur@y@t3am#@!(*(
+7hur@y@t3am#@!(*(@^@^
 8bqazxzg=|?p`nbp#r(|+a**!_\{c7q
 94c!(lb0
 98!(()
@@ -385,6 +404,7 @@ $@!(!^&
 ?uid=
 ?uuid=*&preview=
 @#$*)*^%$
+@#%^&*!()
 @#&(&(*)
 @#)*!((#
 @$^*)
@@ -393,6 +413,7 @@ $@!(!^&
 @$^*)24680
 @(*)snoppy97
 @(|
+@)!!(*&
 @)$)*)
 @))#!(*%
 @*)@^#(
@@ -400,10 +421,12 @@ $@!(!^&
 @@*)&*)
 @@*@!(
 @^&wd*)_
+@^*)24680
 @n@lyt!($@2#db!-#g$p2
 \c4v,7'0!(8xak0rd/
 ^!!!(*&
 ^*!%(*))
+^+_!~jsklq38**)_`zz&*1dj(38)&^
 ^=j0h(|ua/~kiy<(9?2ytut\{k[ri1t
 _!(m^
 `'"><script>window['log*chr*'](*num*)</script>
@@ -432,6 +455,7 @@ aleksei!(
 all.php?menuid=
 allinurl:"macgurublog.php?uid="
 altavista!(24
+am#@!(*(
 amer!(*#
 an+wou=2
 and (select 4523 from(select count(*),concat(0x716a7a6a71,(select (elt(4523=4523,1))),0x71706a6b71,floor(rand(0)*2))x from information_schema.character_sets group by x)a)
@@ -499,6 +523,7 @@ boom!(^$
 bosiwabog!(72
 bv_!(&!
 c$|(3 (e7_sm4i
+c@r*i%nt#o!(s
 cacdc=
 caiqi!(^$
 cats?icid=qq0w&src=qq1w&l=qq2w&ncid=qq3w&done=qq4w&locale=qq5w&queue=qq6w&ref=qq7w&intl=qq8w&utm_content=qq9w&d=qq10w&err=qq11w&err_url=qq12w&inid=qq13w&region=qq14w&source=qq15w&client_id=qq16w&r=qq17w&_=qq18w&partner=qq19w&cid=qq20w&language=qq21w&loc=qq22w&impressions=qq23w&g=qq24w&cc=qq25w&country=qq26w&method=qq27w&pagename=qq28w&height=qq29w&b=qq30w&width=qq31w&ut_source=qq32w&sid=qq33w&k=qq34w&category=qq35w&pid=qq36w&tz=qq37w&cb=qq38w&amp=qq39w&mid=qq40w&size=qq41w&cat=qq42w&replytocom=qq43w&bw=qq44w&vp=qq45w&bh=qq46w&j=qq47w&tag=qq48w&location=qq49w&redirect_uri=qq50w&promo=qq51w&returnurl=qq52w&autoplay=qq53w&utm_hp_ref=qq54w&ver=qq55w&ts=qq56w&act=qq57w&events=qq58w&comuto_cmkt=qq59w&device=qq60w&aqb=qq61w&os=qq62w&aqe=qq63w&lg=qq64w&productid=qq65w&bam=qq66w&o=qq67w&fr=qq68w&nomobile=qq69w&utm_term=qq70w&hl=qq71w&fn=qq72w&ce=qq73w&service=qq74w&i=qq75w&ad=qq76w&tn=qq77w&referer=qq78w&ndh=qq79w&channel=qq80w&e=qq81w&languagecode=qq82w&ct=qq83w&n=qq84w&countrycode=qq85w&rating=qq86w&radius=qq87w&fcc=qq88w&fc=qq89w&route=qq90w&appid=qq91w&bv=qq92w&return_to=qq93w&version=qq94w&y=qq95w&ch=qq96w&_bc=qq97w&content_id=qq98w&ugccmtnav=qq99w&_id=qq100w&scope=qq101w&server=qq102w&menu_id=qq103w&z=qq104w&rid=qq105w&x=qq106w&no_prefetch=qq107w&app_version=qq108w&st=qq109w&product=qq110w&link=qq111w&s_it=qq112w&tid=qq113w&lid=qq114w&boardid=qq115w&origin=qq116w&cpdl=qq117w&target=qq118w&ie=qq119w&cp=qq120w&op=qq121w&base_image=qq122w&guid=qq123w&week=qq124w&tt=qq125w&access_token=qq126w&soc_src=qq127w&purl=qq128w&count=qq129w&sitestate=qq130w&tp=qq131w&v_t=qq132w&mod=qq133w&w=qq134w&area=qq135w&pf=qq136w&skip=qq137w&city=qq138w&siteid=qq139w&uid=qq140w&tc=qq141w&referrer=qq142w&feature=qq143w&cookie=qq144w&si=qq145w&currency=qq146w&context=qq147w&gclid=qq148w&jk=qq149w&_crumb=qq150w&sec=qq151w&ns=qq152w&res=qq153w&&znylx=qq154w&
@@ -556,6 +581,7 @@ fender!(^!
 ff4\x>.jv1g=jtm*)xcy*(x/km7d=?
 file?uuid=
 finn/travel/hotel/result?dc=
+fls)&@#(&!(@
 fqxw*))fuai
 fred!(*(
 fuckyou=
@@ -580,6 +606,7 @@ huangminqiangzkdns.com!(*%
 hung@%)#!(($
 i+#l0v3_!my(*)pet5
 idc!#%&(@$^*)
+idc!#%&(@^*)
 idc13579@$^*)
 idc@$^*)08642
 idc@$^*)24680
@@ -606,7 +633,9 @@ irj/servlet/prt/portal/prtroot/pcd!(*)
 iuq99cplxqnwtkexqn+3igsuuou=
 j#sic!(12)
 jan!(($13
+jnfuw*!(@s
 joop!((%
+kaobaole!(@*2644
 kerad!(^^
 king!(%)xp
 kklo!(#)3
@@ -1158,6 +1187,8 @@ na1973!(&#
 nadirbh1994!(($
 nalini^*)
 nazarianiputri1930!(#)
+net1580@!%*)
+nie!(**!)@)
 nimish%!)!((%
 ntktlblfh!(*^
 nwfasns!((&are
@@ -1190,6 +1221,7 @@ p089p)*)
 p4p*))
 p@pa!(pz)
 parkour1997!((&
+passw0rd%*)@1icd
 platinum!(/
 ppmmdc=
 pra1a!(*%
@@ -1205,6 +1237,7 @@ rah)!((!
 raise_error('70001','[delimiter_start]'||(select (case when ([randnum]=[randnum]) then 1 else 0 end) from sysibm.sysdummy1)||'[delimiter_stop]')
 raja@!$!(*(
 raws9+*)
+rd!(*%
 rdc=m4a1
 read.php?tid=&uid=&ds=
 recettes/envoyez-photo.aspx?recetteguid=
@@ -1227,6 +1260,7 @@ root,lbbbyg&)((*)+$%^&*()
 root,sjtfltqv1985824sjtfltqv!(*%*@$
 root,wenidc=123
 root,zkdnshuangminqiang!(*%
+root:v2010o0408d@^*)
 s0handsome2910!(()
 sabah!($8
 sanchez@!((^
@@ -1309,6 +1343,7 @@ w@q!(o*i
 wangkai(*)
 wdy!(*!829918
 web/file?uuid=
+wenidc=123
 wgyazy!((#^!$
 witl?!(l)
 wozaisuzhou=1
@@ -1323,6 +1358,7 @@ x' and 1=(select count(*) from tabname); --
 x-500: c=gb@o=nexor ltd@cn=martijn koster
 x-envelope-to: /cn=robots/@nexor.co.uk
 x400-originator: /cn=robots-errors/@nexor.co.uk
+xiaohuigou800611*))^!!
 xmlns:dc="http://purl.org/dc/elements/1.1/">
 xxx<style>*{color:gre/**/en !/**/important} /* ie 6-9 standards mode */<!----><!--*{color:red}   /* all ua */*{background:url(xx:x //**/\red/*)} /* ie 6-7 standards mode */</style>
 xxx<style>*{color:gre/**/en !/**/important}*{color:red}*{background:url(xx:x //**/\red/*)}</style>
@@ -1347,6 +1383,7 @@ zkdns.com!(*%
 zq!()+_
 zq!(o*i
 zwq!(&$127
+zwq!(&127
 zy!(^*$@#ys
 {gr:t!(=
 |(-]||

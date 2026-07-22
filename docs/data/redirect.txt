@@ -12263,6 +12263,7 @@ admantx-ussy02/3.0 (+http://www.admantx.com/service-fetcher.html)
 admin*http://autoriteitpersoonsgegevens.nl/robots.txt
 admin*http://techeblog.com/robots.txt
 admin/\
+admin@1234567/\
 admin\\3
 ads.txthttp://de-de.facebook.com/robots.txt
 ads.txthttp://lifehack.org/robots.txt
@@ -15406,6 +15407,12 @@ http://citrus-island.com/home
 http://cityu.edu.hk/robots.txt
 http://claris.com/robots.txt
 http://clickfunnels.com/robots.txt
+http://clientapi.ipip.net/echo.php?info=20160803023655
+http://clientapi.ipip.net/echo.php?info=20160805060605
+http://clientapi.ipip.net/echo.php?info=20160809192413
+http://clientapi.ipip.net/echo.php?info=20161002024712
+http://clientapi.ipip.net/echo.php?info=20161214125948
+http://clientapi.ipip.net/echo.php?info=20170419181401
 http://code.visualstudio.com/robots.txt
 http://coinpayments.net/robots.txt
 http://commerce.gov/robots.txt
@@ -15617,6 +15624,7 @@ http://myip.ms/view/comp_browseragents/969396/mozilla_5_0_windows_nt_6_1_wow64_r
 http://mytheresa.com/robots.txt
 http://nature.com/robots.txt
 http://news.nationalgeographic.com/robots.txt
+http://news.sina.com.cn/
 http://news.stanford.edu/robots.txt
 http://news.yale.edu/robots.txt
 http://newsweek.com/robots.txt

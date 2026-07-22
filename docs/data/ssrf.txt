@@ -35579,6 +35579,9 @@ localhost - copia.sql
 localhost delete and rebuild.publish.xml
 localhost en ventatges y poderes.sql
 localhost julien.sql
+localhost!@#
+localhost!@#123
+localhost!@#456
 localhost(1).sql
 localhost(3).sql
 localhost(4).sql
@@ -35982,6 +35985,11 @@ localhost11
 localhost12
 localhost12#
 localhost123
+localhost123!@#
+localhost123%^
+localhost1234
+localhost12345
+localhost123456
 localhost13
 localhost14
 localhost15
@@ -36113,6 +36121,10 @@ localhost98
 localhost:80
 localhost:80.conf
 localhost::80
+localhost@123
+localhost@1234
+localhost@12345
+localhost@123456
 localhost_1.sql
 localhost_127.0.0.1_localhost.crt
 localhost_127.0.0.1_localhost.key
