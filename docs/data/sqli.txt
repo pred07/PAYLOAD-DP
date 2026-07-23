@@ -53340,7 +53340,6 @@ accountingentrydelete
 accountingentryupdate
 accountingupdate
 accountinventorysettingsupdate
-accountkiller-details-how-to-delete-your-account-from-n-5810754
 accountlayoutupdate
 accountlegalinfoupdate
 accountlog-update.sql
@@ -68956,6 +68955,7 @@ blade/input/location-select.blade.php
 blade/input/manufacturer-select.blade.php
 blade/input/select.blade.php
 blade/input/supplier-select.blade.php
+blade/input/user-select.blade.php
 blade/input/username-select.blade.php
 blake ferguson sacked by japanese rugby union club after drug-related arrest
 blank/magento_b2b/web/css/source/actions/_actions-select.less
@@ -72441,6 +72441,7 @@ changelog/66078-update-scaffold-flat-config
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
 changelog/add-tree-select-control
+changelog/dev-66517-orders-meta-schema-union-coverage
 changelog/dev-add-note-drop-image-layout
 changelog/dev-ci-lint-monorepo-job-update
 changelog/fix-51573-remove-sample-badge-on-product-update
@@ -72860,6 +72861,7 @@ changelog/update-settings-payments-type-for-onboarding-supported
 changelog/update-settings-return-to-wc-home
 changelog/update-settings-router-calypso-package
 changelog/update-shell-header-top-level-pages
+changelog/update-shipping-zone-method-save-action
 changelog/update-sku-remove-description
 changelog/update-status-options-and-labels
 changelog/update-stock-column-badge
@@ -87983,7 +87985,6 @@ description_update
 descriptiondelete
 descriptionselect
 descriptionupdate
-deseat-me-finds-and-helps-you-delete-random-accounts-yo-1789840847
 deselect
 deselect.js
 deselect.psd
@@ -88166,6 +88167,7 @@ deu-de/delete/
 deunion
 deurnegeldrop
 deutschland-im-mittelalter-de
+dev-66517-orders-meta-schema-union-coverage
 dev-a-docusignupdate
 dev-add-note-drop-image-layout
 dev-airdrop
@@ -89029,7 +89031,6 @@ dnsupdate
 dnui-delete-not-used-image-wordpress
 dnutzsalter
 do without,abandon,abjure,abstain,abstain from,avoid,cede,disgorge,dispense with,dispose of,drop,dump,eschew,forbear,forgo,forswear,get along without,get rid of,give away,give up,have done with,hold aloof from,hold back,hold off,keep back,keep from,keep in hand,kiss good-bye,let alone,let go by,make a sacrifice,never touch,not touch,not use,part with,pass up,quitclaim,recant,refrain,refrain from,relinquish,render up,renounce,reserve,resign,retract,sacrifice,save,shun,spare,stand aloof from,surrender,swear off,throw up,vacate,waive,withhold,yield
-do-i-really-need-to-update-my-drivers-5912682
 do-not-delete-applicationgatewaytestakscluster-dns-dcf4b48f
 do-nsupdate.conf
 do/ajax_select.php
@@ -89365,7 +89366,6 @@ donotdelete
 donotdelete.txt
 donotdelete.txt.meta
 donotdelete.xml
-dont-delete-your-twitter-account-do-this-instead-1849779710
 dont-skip-primary-index-search-in-delete.sqlpp
 dontdelete
 dontdrop
@@ -100009,6 +100009,7 @@ gotg-1741-update-github-actions-with-staging-and
 goto/double_select.tpl
 gotoreunion.net
 gov_exec
+government/agencies-departments-offices-redirect/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices-directory/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices-directory/clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/agencies-departments-offices-directory/denver-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
@@ -100044,6 +100045,7 @@ government/agencies-departments-offices/agencies-departments-offices-directory/r
 government/agencies-departments-offices/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
 government/agencies-departments-offices/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government/agencies-departments-offices/business-licensing/business-licenses/liquor-licenses/liquor-common-consumption/make-an-update-to-existing-liquor-common-consumption-license
+government/agencies-departments-offices/office-of-the-clerk-and-recorder/ocr-shared-content/marriage-and-civil-union-rules-guidance
 government_drop
 governmentcompanyupdate
 governmentinfoupdate
@@ -101008,8 +101010,6 @@ heads_up_update.xml
 headteacher-update
 headteacher-update-com
 healter
-health/echelon-firmware-subscription-update
-health/my-favorite-glances-from-garmins-latest-software-update
 health_insurance_insert.sql
 healthcare/solutions/refurbished-systems/refurbished-systems-ultrasound/diamond-select
 healthcarefamilycreditunion
@@ -101196,7 +101196,6 @@ henrybooks/build/web/inventoryupdate.jsp
 henrywalter
 her,i,i myself,alter,alter ego,alterum,better self,ego,ethical self,female,female being,he,herself,him,himself,inner man,inner self,it,me,my humble self,myself,number one,oneself,other self,ourselves,self,she,subconscious self,subliminal self,superego,them,themselves,they,you,yours truly,yourself,yourselves
 heratexchangeunion-com
-heres-your-state-of-the-union-drinking-game-1822391102
 hero_image1_backdrop.ashx
 hero_select.xml
 heroesreunion.xml
@@ -101462,7 +101461,6 @@ hofhalter
 hofverwalter
 hoketus_speaker_select.xml
 hold off,abstain,adjourn,be dilatory,beat back,beat off,blench,block,boggle,brush off,chase,chase away,chase off,check,continue,counter,cut,defer,delay,demur,dismiss,dispense with,do without,drag out,drive away,drive back,extend,falter,fend,fend off,fight shy of,filibuster,flinch,forbear,forgo,gain time,hang,hang back,hang fire,hang off,hang up,have qualms,hesitate,hinder,hold at bay,hold back,hold over,hold up,keep at bay,keep back,keep in hand,keep off,lay aside,lay by,lay over,let alone,make bones about,make time,not touch,not use,obstruct,pack off,parry,pause,pigeonhole,play for time,postpone,procrastinate,prolong,prorogate,prorogue,protract,pull back,push aside,push back,put,put aside,put back,put off,put on ice,quail,rebuff,rebut,recess,recoil,refrain,refuse,repel,repulse,reserve,save,scruple,send away,send off,send packing,set aside,set by,shelve,shift off,shrink,shy,shy at,sleep on,snub,spare,spurn,stall,stall for time,stall off,stand over,stave off,stay,stick at,stickle,stooge around,stop,strain,stretch out,suspend,table,take a recess,talk against time,temporize,thrust back,turn aside,turn back,waive,ward off,waver,wince
-holding-your-own-how-to-alter-your-masturbation-routin-1712270009
 holdrop
 hole up,be incognito,burrow,disappear,drop from sight,go into hiding,go to ground,go underground,hide,hide away,hide out,lie,lie close,lie doggo,lie hid,lie low,lie snug,masquerade,play peekaboo,remain anonymous,retire from sight,sit tight,stay in hiding,take cover,wear a mask
 holiday_delete
@@ -101731,12 +101729,8 @@ how do i delete an inappropriate thread now?
 how fermented foods may alter your microbiome and improve your health
 how the european union allowed hungary to become an illiberal model
 how walter mondale transformed the vice presidency
-how-to-airdrop-between-windows-macos-ios-and-android-1826014518
 how-to-delete-facebook-website
 how-to-delete-outpost-starfield-9352
-how-to-finally-delete-duplicate-icloud-contacts-1847271375
-how-to-find-and-delete-all-your-old-unused-accounts-1847470037
-how-to-hide-or-mass-delete-all-images-in-a-microsoft-wo-1846861306
 how-to-select-a-babysitter-without-regretting.html
 howtodelete.html
 howtogetheredelete
@@ -103951,6 +103945,7 @@ input/select.blade.php
 input/select.js
 input/supplier-select.blade.php
 input/upload_file_input_type.rb
+input/user-select.blade.php
 input/username-select.blade.php
 input_bg_round_select.xml
 input_bg_select.xml
@@ -105491,7 +105486,6 @@ instanceworkplaceupdate
 instandhalter
 instant-cart-update
 instantdelete
-instantly-select-text-with-similar-formatting-in-google-5949887
 instantmessageupdate
 instantupdate
 instaorderupdate
@@ -125370,6 +125364,7 @@ plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
+plugins/woocommerce/changelog/dev-66517-orders-meta-schema-union-coverage
 plugins/woocommerce/changelog/fix-51573-remove-sample-badge-on-product-update
 plugins/woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
 plugins/woocommerce/changelog/update-deflag-commerce-recommendations
@@ -125381,6 +125376,7 @@ plugins/woocommerce/changelog/update-deflag-wc-admin-onboarding
 plugins/woocommerce/changelog/update-deflag-wc-admin-shell-features
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
 plugins/woocommerce/changelog/update-product-image-gallery-upgrade-notice-with-add-to-cart-with-options
+plugins/woocommerce/changelog/update-shipping-zone-method-save-action
 plugins/woocommerce/changelog/update-wordpress-ui-theme-provider
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
@@ -131217,7 +131213,6 @@ refreshcurrentupdate
 refreshdefaultupdate
 refreshdetailsupdate
 refreshdetailupdate
-refreshed-hphttp://alliantcreditunion.org/robots.txt
 refreshenabledupdate
 refreshexportedupdate
 refreshfinishedupdate
@@ -132861,6 +132856,7 @@ resources/views/blade/input/location-select.blade.php
 resources/views/blade/input/manufacturer-select.blade.php
 resources/views/blade/input/select.blade.php
 resources/views/blade/input/supplier-select.blade.php
+resources/views/blade/input/user-select.blade.php
 resources/views/blade/input/username-select.blade.php
 resources/views/categories/update.blade.php
 resources/views/components/form/control-group/advance/multiselect.blade.php
@@ -151146,27 +151142,7 @@ tearsdrop
 teaser,artful dodger,casanova,circe,don juan,gordian knot,lorelei,machiavel,machiavelli,machiavellian,parthenope,siren,act drop,actor,annoyer,asbestos,asbestos board,backdrop,badgerer,bamboozler,batten,befuddler,beguiler,border,bully,charmer,cloth,coquette,coulisse,counterfeiter,counterweight,crux,curtain,curtain board,cyclorama,deceiver,decor,deluder,dilemma,dissembler,dissimulator,dodger,double-dealer,drop,drop curtain,duper,ecdysiast,enchanter,enchantress,enigma,enticer,entrancer,faker,femme fatale,fire curtain,flat,flipper,flirt,fooler,forger,gay deceiver,hanging,harasser,harrier,heckler,hoaxer,hypnotizer,inveigler,jilt,jilter,joker,jokester,kidder,knot,knotty point,leg-puller,mesmerizer,misleader,nag,node,nodus,nonplus,nudnik,nudzh,oxymoron,paradox,peeler,perplexity,persecutor,pest,pesterer,plagiarist,plagiarizer,plaguer,playactor,pons asinorum,poser,practical joker,puzzle,quandary,rag,ragger,role-player,sadist,scene,scenery,screen,seducer,seductress,side scene,siren,spoofer,stage screw,stripper,striptease,tab,tableau,tease,tempter,temptress,torment,tormentor,transformation,transformation scene,vamp,vampire,vexed question,wing,wingcut,woodcut
 tec_dump.xml.smalltest.delete
 tech giants alter 5g rollout plans
-tech/airdrop-is-coming-to-more-android-phones-this-year
-tech/amazon-4k-fire-tv-stick-select-sale-march-2026
-tech/apple-music-changes-ios-26-4-update-ai-playlists
-tech/apples-security-update-iphone-mac-setting
-tech/chatgpt-update-renders-highly-realistic-text
-tech/chrome-update-scam-wordpress-sites
-tech/delete-bloatware-from-android
-tech/google-photos-now-lets-you-delete-your-data-from-the-cloud
-tech/how-to-find-and-delete-all-of-your-google-activity-data
-tech/how-to-update-safari-on-mac
-tech/macbook-update-edge-light-feature
-tech/poshmarks-new-update-removed-the-bulk-share-option
-tech/update-and-shut-down-actually-restarts-your-pc
-tech/update-android-asap-patch-129-security-flaws
-tech/update-android-asap-patch-129-security-flaws?utm_medium=rss
-tech/update-chrome-asap-to-patch-the-latest-zero-day
-tech/update-your-iphone-to-ios-2631-to-patch-these-bugs
-tech/update-your-iphone-to-stop-your-deleted-photos-from-coming-back
 tech/update.php
-tech/windows-update-pop-up-clickfix-scam
-tech/you-can-safely-delete-these-preinstalled-apps-from-your-samsung
 tech_insert
 techexec
 technicalservicesupdate.xml
@@ -167435,6 +167411,7 @@ update-shaming
 update-share-info.sql
 update-sharetrackjiratunnel-mx
 update-shell-header-top-level-pages
+update-shipping-zone-method-save-action
 update-shopping-cart.js
 update-shopping.xml
 update-short.xml
@@ -173417,6 +173394,7 @@ views/blade/input/location-select.blade.php
 views/blade/input/manufacturer-select.blade.php
 views/blade/input/select.blade.php
 views/blade/input/supplier-select.blade.php
+views/blade/input/user-select.blade.php
 views/blade/input/username-select.blade.php
 views/blog/_createorupdate.cshtml
 views/blog/_createorupdate.info.cshtml
@@ -175894,7 +175872,6 @@ wholesalejerseysunion-com
 wholestagecodegenexec.scala
 whq-travel-union
 why-does-oil-price-drop-so-fast.html
-why-you-really-should-go-to-your-high-school-reunion-1848779696
 whymihu_09_05_2014-after-update-to-3.9.1.sql
 wi-creditunion
 wickelalter
@@ -176336,6 +176313,7 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
+woocommerce/changelog/dev-66517-orders-meta-schema-union-coverage
 woocommerce/changelog/fix-51573-remove-sample-badge-on-product-update
 woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
 woocommerce/changelog/update-deflag-commerce-recommendations
@@ -176347,6 +176325,7 @@ woocommerce/changelog/update-deflag-wc-admin-onboarding
 woocommerce/changelog/update-deflag-wc-admin-shell-features
 woocommerce/changelog/update-pay-506-always-show-payment-radio
 woocommerce/changelog/update-product-image-gallery-upgrade-notice-with-add-to-cart-with-options
+woocommerce/changelog/update-shipping-zone-method-save-action
 woocommerce/changelog/update-wordpress-ui-theme-provider
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
@@ -176768,6 +176747,7 @@ wp-cleanup-automatic-update.ini
 wp-content/mu-plugins/acf-repeater/acf-repeater-update.php
 wp-content/mu-plugins/advanced-custom-fields/core/fields/select.php
 wp-content/mu-plugins/contact-form-7/modules/select.php
+wp-content/mu-plugins/http://raindrop.io/robots.txt
 wp-content/plugins/1and1-wordpress-wizard/inc/views/setup-wizard-plugins-select-step.php
 wp-content/plugins/1and1-wordpress-wizard/inc/views/setup-wizard-site-select-step.php
 wp-content/plugins/1and1-wordpress-wizard/inc/views/setup-wizard-theme-select-step.php

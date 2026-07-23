@@ -14400,6 +14400,7 @@ how-to-authorize-graphql.md
 howtographql-com
 htdocs/includes/ace/src/mode-graphqlschema.js
 htdocs/includes/ace/src/snippets/graphqlschema.js
+http://apollographql.com/robots.txt
 http___schemas.xmlsoap.org_soap_envelope_
 http_request_configuration__md__type__.xml
 hypergraphql
