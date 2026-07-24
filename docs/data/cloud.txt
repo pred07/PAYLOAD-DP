@@ -42,13 +42,11 @@ aws_secret_key
 aws_secret_key=
 aws_secrets.json
 aws_secrets.yaml
-blob.core.windows.net.rproxy
 bsh9fimdsp
 bucketeer_aws_access_key_id
 bucketeer_aws_access_key_id=
 bucketeer_aws_secret_access_key
 bucketeer_aws_secret_access_key=
-byrosimds
 chennaimds
 chronicle-assets.s3.amazonaws.com.indianapolis.libproxy
 ciimds0395

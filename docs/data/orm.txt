@@ -644,11 +644,6 @@ annotation.hibernate.cfg.xml
 annotation.hibernate.cfg.xml.svn-base
 antler.nhibernate.dll.nuspec
 apache_geode_modules-1.0.0-incubating.m2-hibernate.zip
-api/asset/find_by_guest
-api/getactiverecord
-api/v1/merchants/find_by_hostname
-api/v5/company/find_by_ref/hsbc_uk_hq
-api/v5/company/find_by_ref/hse_allbr
 app-context-hibernate.xml
 app-dao-hibernate.xml
 app/protected/modules/user/components/uactiverecord.php

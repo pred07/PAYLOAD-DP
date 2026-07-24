@@ -422,7 +422,6 @@ htmleditorkit$inserthtmltextaction.h
 htools_h_nosql.sql
 icro$$ing
 ict$nec
-idbe3_lib_filtros_nosql.cfm
 idc/admini/include/nosqlhack.asp
 idc/include/nosqlhack.asp
 if [ $input -eq '1' ]
@@ -539,8 +538,6 @@ nosql.json.old
 nosql.jsp
 nosql.php
 nosql/
-nosql/.env
-nosql/.git/config
 nosql/drier
 nosql/drier/mongo.init.php
 nosql/drier/redis.init.php
@@ -669,7 +666,6 @@ src/utils/$insertandselectnode.ts
 standalone-nosql.xml
 stringcontent$insertundo.class
 stringcontent$insertundo.h
-svn::$index_allocation/entries
 sy/inc/nosql.asp
 ta350$lt1
 tepo$$ino
@@ -699,7 +695,6 @@ u$inger77
 uriinputencode="$inj3ct"
 utils/$insertandselectnode.ts
 v0ux6_<43\{}%g(uhk$ordt*^55fvkb
-v1/casino/groups/slots/slots$new-manual
 vendor/psy/psysh/src/tabcompletion/matcher/mongoclientmatcher.php
 webnosql.js
 webnotenosql/webnotenosql/views/home/create.aspx
