@@ -5793,6 +5793,7 @@ app/component/utils/sw-internal-link/sw-internal-link.scss
 app/component/utils/sw-internal-link/sw-internal-link.spec.js
 app/controller/taskinternallinkcontroller.php
 app/controllers/ticket_zoom/article_action/internal.coffee
+app/frontend/apps/desktop/initializer/assets/kb-internal.svg
 app/frontend/apps/mobile/initializer/assets/internal-article.svg
 app/graphql/gql/fields/internal_field.rb
 app/graphql/gql/types/concerns/has_internal_id_field.rb
@@ -6468,6 +6469,7 @@ apps-internal
 apps-localhost
 apps.internal
 apps.uat.internal
+apps/desktop/initializer/assets/kb-internal.svg
 apps/mobile/initializer/assets/internal-article.svg
 apps/sling/config/org.apache.felix.webconsole.internal.servlet.osgimanager.config/jcr%3acontent/jcr%3adata
 apps/sling/config/org.apache.felix.webconsole.internal.servlet.osgimanager.config/jcr%3content/jc%3adata
@@ -6670,6 +6672,7 @@ assets.localhost
 assets/images/icons/internal-modifier.svg
 assets/internal-article.svg
 assets/javascripts/app/controllers/ticket_zoom/article_action/internal.coffee
+assets/kb-internal.svg
 assetsinternal
 assetsinternalvip
 assetslocalhost
@@ -12513,6 +12516,7 @@ dermatitisduetounspecifiedsubstancetakeninternally.xml
 des-internal.c
 designinternal
 desk-internal
+desktop/initializer/assets/kb-internal.svg
 desktop_localhost.xml
 desktopmodules/eastlinkinternalip
 desktopmodules/eastlinkinternalip/
@@ -13660,8 +13664,8 @@ en/internal
 en/internal/
 en/internal/internal-lead-referral-form
 en/internal/test-ssg-deploy
-en/internaljustice/files
 en/servers/racks-internal
+en/servers/racks-internal/\
 enable-secure-admin-internal-user.1
 enabledforinternaluse
 enableinternaluser
@@ -14824,6 +14828,7 @@ frontend-internal
 frontend.e.internal
 frontend.localhost
 frontend.w.internal
+frontend/apps/desktop/initializer/assets/kb-internal.svg
 frontend/apps/mobile/initializer/assets/internal-article.svg
 frs-internal
 fs-dev-kubernetes-dns-3bfc677f
@@ -15748,7 +15753,6 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
-http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -16820,6 +16824,7 @@ inherent,accessible,at hand,attendant,automatic,available,basic,born,characteris
 ininternal
 init_internal_schema.sql
 initializer/assets/internal-article.svg
+initializer/assets/kb-internal.svg
 ink-kubern-ink-kubernetes-b-2db719-540cd0e8
 ink-kubern-ink-kubernetes-r-2db719-15aa57de
 inland,heartland,hinterland,home,inlands,inshore,interior,internal,intestine,inward,inwardly,inwards,mediterranean,midland,midlands,municipal,national,native,up-country,withinwards
@@ -28278,6 +28283,7 @@ karniyarik-web/src/main/webapp/internal/servlets.jsp
 kayinternal
 kayinternal-st
 kb-internal
+kb-internal.svg
 kbclustera-rskubernetes-dd2d6e-cda4690c
 kc-internal
 kcinternal
@@ -59597,7 +59603,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://pub.dev/robots.txt
+zh/internalhttp://kctv5.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
