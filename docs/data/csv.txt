@@ -214,6 +214,7 @@
 -prompt(1)-
 -r                  follow redirects (default: false)
 -rate               rate of requests per second (default: 0)
+-receiver(1).html
 -recursion          scan recursively. only fuzz keyword is supported, and url (-u) has to end in it. (default: false)
 -recursion-depth    maximum recursion depth. (default: 0)
 -recursion-strategy recursion strategy: "default" for a redirect based, and "greedy" to recurse on all matches (default: default)
@@ -289,6 +290,21 @@
 @crystal()
 @font-face {font-family: y; src: url("font.svg#x") format("svg");} body {font: 100px "y";}
 @i\6d\70o\72\74'javascr\ipt:alert(document.cookie)';
+@media (forced-colors:active){.joyarh{outline:1px solid transparent;}}/*!sc*/
+@media (min-width:768px){.hlzfvi{font-size:var(--text-body-size-medium);}}/*!sc*/
+@media (pointer:coarse){.bhmvop:before{content:"";position:absolute;left:0;right:0;-webkit-transform:translatey(-50%);-ms-transform:translatey(-50%);transform:translatey(-50%);top:50%;min-height:44px;}}/*!sc*/
+@media (pointer:coarse){.dbgjoi:before{content:"";position:absolute;left:0;right:0;-webkit-transform:translatey(-50%);-ms-transform:translatey(-50%);transform:translatey(-50%);top:50%;min-height:44px;}}/*!sc*/
+@media print,screen and (max-width:1011px) and (min-width:768px){.cemwse{display:none;}}/*!sc*/
+@media screen and (max-width:768px){.bckfwo[data-size="medium"]{display:block;}}/*!sc*/
+@media screen and (min-width:1280px){.ffsopl{--pane-max-width-diff:959px;}}/*!sc*/
+@media screen and (min-width:1360px){.hkaejf{display:block;}}/*!sc*/
+@media screen and (min-width:544px){.dzcjzi{-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;}}/*!sc*/
+@media screen and (min-width:544px){.gissdq{width:100%;}}/*!sc*/
+@media screen and (min-width:544px){}/*!sc*/
+@media screen and (min-width:768px){.cemwse{width:auto;margin-top:0 !important;margin-bottom:0 !important;position:-webkit-sticky;position:sticky;top:0px;max-height:100vh !important;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;margin-right:0;height:100vh;}}/*!sc*/
+@media screen and (min-width:768px){.ffsopl{width:clamp(var(--pane-min-width),var(--pane-width),var(--pane-max-width));overflow:auto;}}/*!sc*/
+@media screen and (min-width:768px){.gissdq{width:auto;}}/*!sc*/
+@media screen and (min-width:768px){.hpvfuc{margin-left:0 !important;margin-right:0 !important;}}/*!sc*/
 @q8m\\~[9#;lvq@wqp()5ukv]n2wp_|
 @w!q&*()
 @w!q()+_

