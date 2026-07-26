@@ -9590,6 +9590,7 @@ framework/graphql/schema/typefactory.php
 framework/graphql/schema/typeinterface.php
 framework/graphql/schemafactory.php
 framework/graphql/test/unit/query/enumlookuptest.php
+framework/graphql/test/unit/query/errorhandlertest.php
 framework/graphql/test/unit/query/fieldstest.php
 framework/graphql/test/unit/query/querydataformattertest.php
 framework/graphql/test/unit/query/queryparsertest.php
@@ -13475,6 +13476,7 @@ graphql/test/unit/model/backpressure/backpressurecontextfactorytest.php
 graphql/test/unit/model/config/disablesessiontest.php
 graphql/test/unit/plugin/disablesessiontest.php
 graphql/test/unit/query/enumlookuptest.php
+graphql/test/unit/query/errorhandlertest.php
 graphql/test/unit/query/fieldstest.php
 graphql/test/unit/query/querydataformattertest.php
 graphql/test/unit/query/queryparsertest.php
@@ -14473,7 +14475,6 @@ how-to-authorize-graphql.md
 howtographql-com
 htdocs/includes/ace/src/mode-graphqlschema.js
 htdocs/includes/ace/src/snippets/graphqlschema.js
-http://graphql.org/robots.txt
 http___schemas.xmlsoap.org_soap_envelope_
 http_request_configuration__md__type__.xml
 hypergraphql
@@ -14936,6 +14937,7 @@ internal/magento/framework/graphql/schema/typefactory.php
 internal/magento/framework/graphql/schema/typeinterface.php
 internal/magento/framework/graphql/schemafactory.php
 internal/magento/framework/graphql/test/unit/query/enumlookuptest.php
+internal/magento/framework/graphql/test/unit/query/errorhandlertest.php
 internal/magento/framework/graphql/test/unit/query/fieldstest.php
 internal/magento/framework/graphql/test/unit/query/querydataformattertest.php
 internal/magento/framework/graphql/test/unit/query/queryparsertest.php
@@ -15327,6 +15329,7 @@ lib/internal/magento/framework/graphql/schema/typefactory.php
 lib/internal/magento/framework/graphql/schema/typeinterface.php
 lib/internal/magento/framework/graphql/schemafactory.php
 lib/internal/magento/framework/graphql/test/unit/query/enumlookuptest.php
+lib/internal/magento/framework/graphql/test/unit/query/errorhandlertest.php
 lib/internal/magento/framework/graphql/test/unit/query/fieldstest.php
 lib/internal/magento/framework/graphql/test/unit/query/querydataformattertest.php
 lib/internal/magento/framework/graphql/test/unit/query/queryparsertest.php
@@ -16438,6 +16441,7 @@ magento/framework/graphql/schema/typefactory.php
 magento/framework/graphql/schema/typeinterface.php
 magento/framework/graphql/schemafactory.php
 magento/framework/graphql/test/unit/query/enumlookuptest.php
+magento/framework/graphql/test/unit/query/errorhandlertest.php
 magento/framework/graphql/test/unit/query/fieldstest.php
 magento/framework/graphql/test/unit/query/querydataformattertest.php
 magento/framework/graphql/test/unit/query/queryparsertest.php
