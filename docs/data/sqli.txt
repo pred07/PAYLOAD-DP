@@ -7636,6 +7636,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 .bhmvop .segmentedcontrol-text:after{content:"blame";display:block;font-weight:600;height:0;overflow:hidden;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;visibility:hidden;}/*!sc*/
 .changeset/drop-field-path.md
 .chatadmin/update.asp
+.claude/skills/umb-update-openapi/skill.md
 .claude/skills/umb-update-server-dependencies-for-minor/skill.md
 .creditunion
 .dbgjoi .segmentedcontrol-text:after{content:"code";display:block;font-weight:600;height:0;overflow:hidden;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;visibility:hidden;}/*!sc*/
@@ -43476,6 +43477,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 32-billing-amount-update.xml
 32.3.update.xml
 320-mips-bcm47xx-devices-database-update-for-4.x.patch
+32085-prevent-product-search-deselect
 325401390update
 329-update-max-comparisons-snippet.sql
 32_deploy_update.sql
@@ -61879,6 +61881,7 @@ api/src/operations/item-delete/index.ts
 api/src/operations/item-update/index.test.ts
 api/src/operations/item-update/index.ts
 api/src/utils/delete-from-require-cache.ts
+api/src/utils/schema/is-delete-allowed.ts
 api/stat/recentdrop
 api/static-page/ab-test-update
 api/statics/vue/components/branch-select.js
@@ -63222,6 +63225,8 @@ app/src/htmlform/cformelementselect.php
 app/src/interfaces/_system/system-manual-flow-select/index.ts
 app/src/interfaces/_system/system-manual-flow-select/system-manual-flow-select.test.ts
 app/src/interfaces/_system/system-manual-flow-select/system-manual-flow-select.vue
+app/src/interfaces/input-rich-text-html/extensions/drop-cursor.test.ts
+app/src/interfaces/input-rich-text-html/extensions/drop-cursor.ts
 app/src/interfaces/select-color/index.ts
 app/src/interfaces/select-color/preview.svg
 app/src/interfaces/select-color/select-color.test.ts
@@ -69486,6 +69491,7 @@ blueprint/changelog/57935-update-blueprint-docs
 blueprint/changelog/58792-update-blueprint-doc-exporter-ui
 blueprint/changelog/61753-fix-support-composer-update
 blueprint/changelog/update-blueprint-require-permission-exporters-api
+blueprint/changelog/update-wpcs-3-4-1
 bluesunion
 bluetooth_select.xml
 blumenhalter
@@ -72466,6 +72472,7 @@ changelog-010-update-users-table-structure.xml
 changelog-2.6.4-insert-default-settings.xml
 changelog-4.15.0-delete-department-calendar-on-department-deletion.xml
 changelog-insert-rules.xml
+changelog/32085-prevent-product-search-deselect
 changelog/42860-update-pnpm
 changelog/43595-update-wireit-0.14.3
 changelog/47385-dev-update-pnpm9-1
@@ -72826,6 +72833,7 @@ changelog/update-deflag-wc-admin-analytics
 changelog/update-deflag-wc-admin-onboarding
 changelog/update-deflag-wc-admin-shell-features
 changelog/update-dimensions-row-layout
+changelog/update-docs-for-conditional-functions
 changelog/update-e2e-product-editor-create-simple-product
 changelog/update-export-product-edits
 changelog/update-featured-product-checkbox
@@ -72909,10 +72917,13 @@ changelog/update-stricter-global-unique-id
 changelog/update-switch-version-button-location
 changelog/update-taxonomy-fields-chip-select
 changelog/update-woopayments-methods-logos-component
+changelog/update-woopayments-onboarding-troubleshooting-link
 changelog/update-woosubs-engine-make-phpstan-ci-required
 changelog/update-wordpress-admin-ui
 changelog/update-wordpress-ui-theme-provider
 changelog/update-wp-68-packages
+changelog/update-wpcs-3-4-1
+changelog/update-wpcs-3-4-1-phpcs-tooling
 changemainupdate
 changemodifiedupdate
 changenewupdate
@@ -78700,6 +78711,7 @@ core/modules/search/tests/modules/search_query_alter/src/hook/searchqueryalterho
 core/modules/search/tests/src/functional/update
 core/modules/search/tests/src/functional/update/blockpagesettingtest.php
 core/modules/search/tests/src/functional/update/searchupdatetest.php
+core/modules/search/tests/src/functional/update/searchupdateusertest.php
 core/modules/serialization/serialization.post_update.php
 core/modules/serialization/tests/fixtures/update
 core/modules/serialization/tests/fixtures/update/drupal-8.rest-serialization_update_8301.php
@@ -79817,6 +79829,8 @@ core/test/legacy/api/admin/update-user-last-seen.test.js
 core/test/regression/api/admin/update-user-last-seen.test.js
 core/test/unit/server/services/update-check.test.js
 core/test/unit/server/web/api/middleware/update-user-last-seen.test.js
+core/test/utils/fixtures/csv/members-update-blank.csv
+core/test/utils/fixtures/csv/members-update-named.csv
 core/test/utils/fixtures/csv/valid-members-for-bulk-delete.csv
 core/tests/drupal/functionaltests/update
 core/tests/drupal/functionaltests/update/updatepathtestbase.php
@@ -80892,6 +80906,8 @@ cstalter
 csunion
 csv-file-select.hbs
 csv-file-select.js
+csv/members-update-blank.csv
+csv/members-update-named.csv
 csv/valid-members-for-bulk-delete.csv
 csv_01.2.update.sqlpp
 csv_02.2.update.sqlpp
@@ -90222,6 +90238,8 @@ drop-create-tables-testdata.sql
 drop-create-tables.sql
 drop-create.sql
 drop-csm-tables.sql
+drop-cursor.test.ts
+drop-cursor.ts
 drop-curtain
 drop-data-model.sql
 drop-data-sync-tools.sql
@@ -94864,6 +94882,8 @@ extension_update.sql
 extensionfieldcollectiontemplateupdate
 extensions/charinsert/charinsert.php
 extensions/chromium/suppress-update.js
+extensions/drop-cursor.test.ts
+extensions/drop-cursor.ts
 extensions/gii/generators/crud/default/views/update.php
 extensions/localisationupdate
 extensions/localisationupdate/autoload.php
@@ -95167,7 +95187,6 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
-false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -96806,6 +96825,8 @@ fixture/delete/deletecascadeparentdefinition.php
 fixture/setnullondelete/setnullondeletechilddefinition.php
 fixture/setnullondelete/setnullondeletemanytoonedefinition.php
 fixture/setnullondelete/setnullondeleteparentdefinition.php
+fixtures/csv/members-update-blank.csv
+fixtures/csv/members-update-named.csv
 fixtures/csv/valid-members-for-bulk-delete.csv
 fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/delete.php
 fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/insert.php
@@ -98801,6 +98822,7 @@ functional/update/rssdefaultrowviewmodeupdatetest.php
 functional/update/schemaversionupdatetest.php
 functional/update/searchblockpageidupdatepathtest.php
 functional/update/searchupdatetest.php
+functional/update/searchupdateusertest.php
 functional/update/sequencestableremovalupdatetest.php
 functional/update/serializationsettingsdeletionupdatetest.php
 functional/update/stableuninstallupdatetest.php
@@ -99692,6 +99714,8 @@ ghost/core/test/legacy/api/admin/update-user-last-seen.test.js
 ghost/core/test/regression/api/admin/update-user-last-seen.test.js
 ghost/core/test/unit/server/services/update-check.test.js
 ghost/core/test/unit/server/web/api/middleware/update-user-last-seen.test.js
+ghost/core/test/utils/fixtures/csv/members-update-blank.csv
+ghost/core/test/utils/fixtures/csv/members-update-named.csv
 ghost/core/test/utils/fixtures/csv/valid-members-for-bulk-delete.csv
 ghost/mw-update-user-last-seen/.eslintrc.js
 ghost/mw-update-user-last-seen/index.js
@@ -104027,6 +104051,8 @@ input-culture-select/input-culture-select.stories.ts
 input-events-exec-command.html.ini
 input-events-get-target-ranges-forwarddelete.tentative.html.ini
 input-onselect.xml
+input-rich-text-html/extensions/drop-cursor.test.ts
+input-rich-text-html/extensions/drop-cursor.ts
 input-select.html
 input/category-select.blade.php
 input/company-select.blade.php
@@ -105785,6 +105811,8 @@ interface_update
 interfaces/_system/system-manual-flow-select/index.ts
 interfaces/_system/system-manual-flow-select/system-manual-flow-select.test.ts
 interfaces/_system/system-manual-flow-select/system-manual-flow-select.vue
+interfaces/input-rich-text-html/extensions/drop-cursor.test.ts
+interfaces/input-rich-text-html/extensions/drop-cursor.ts
 interfaces/select-color/index.ts
 interfaces/select-color/preview.svg
 interfaces/select-color/select-color.test.ts
@@ -106306,6 +106334,7 @@ is-count-update
 is-created-update
 is-current-update
 is-default-update
+is-delete-allowed.ts
 is-detail-update
 is-detailed-update-syntax.test.ts
 is-detailed-update-syntax.ts
@@ -113555,6 +113584,8 @@ members of tv and film workers union authorize strike
 members-email/default-recipients-select.hbs
 members-email/default-recipients-select.js
 members-join-select.sql
+members-update-blank.csv
+members-update-named.csv
 members.delete
 members/components/bulk-action-modals/delete-modal.tsx
 members/detail/member-delete-modal.tsx
@@ -115922,6 +115953,7 @@ modules/search/tests/modules/search_query_alter/search_query_alter.module
 modules/search/tests/modules/search_query_alter/src/hook/searchqueryalterhooks.php
 modules/search/tests/src/functional/update/searchblockpageidupdatepathtest.php
 modules/search/tests/src/functional/update/searchupdatetest.php
+modules/search/tests/src/functional/update/searchupdateusertest.php
 modules/search_date_query_alter/search_date_query_alter.info.yml
 modules/search_date_query_alter/search_date_query_alter.module
 modules/search_date_query_alter/src/hook/searchdatequeryalterhooks.php
@@ -122927,15 +122959,20 @@ packages/php/blueprint/changelog/57935-update-blueprint-docs
 packages/php/blueprint/changelog/58792-update-blueprint-doc-exporter-ui
 packages/php/blueprint/changelog/61753-fix-support-composer-update
 packages/php/blueprint/changelog/update-blueprint-require-permission-exporters-api
+packages/php/blueprint/changelog/update-wpcs-3-4-1
 packages/php/remote-specs-validation/changelog/dev-ci-lint-monorepo-job-update
+packages/php/woocommerce-analytics/changelog/update-wpcs-3-4-1
 packages/php/woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
+packages/php/woocommerce-subscriptions-engine/changelog/update-wpcs-3-4-1
 packages/plugins/graphql/server/src/services/internals/types/delete-mutation-response.ts
-packages/plugins/users-permissions/server/graphql/mutations/crud/role/delete-role.js
-packages/plugins/users-permissions/server/graphql/mutations/crud/role/update-role.js
-packages/plugins/users-permissions/server/graphql/mutations/crud/user/delete-user.js
-packages/plugins/users-permissions/server/graphql/mutations/crud/user/update-user.js
 packages/plugins/users-permissions/server/graphql/types/delete-role-payload.js
 packages/plugins/users-permissions/server/graphql/types/update-role-payload.js
+packages/plugins/users-permissions/server/src/graphql/mutations/crud/role/delete-role.js
+packages/plugins/users-permissions/server/src/graphql/mutations/crud/role/update-role.js
+packages/plugins/users-permissions/server/src/graphql/mutations/crud/user/delete-user.js
+packages/plugins/users-permissions/server/src/graphql/mutations/crud/user/update-user.js
+packages/plugins/users-permissions/server/src/graphql/types/delete-role-payload.js
+packages/plugins/users-permissions/server/src/graphql/types/update-role-payload.js
 packages/pmsg/packages/pmsg_controller/conf/cfcxs_pmsg_delete
 packages/property-editors/select/manifests.ts
 packages/property-editors/select/property-editor-ui-select.element.ts
@@ -124495,6 +124532,7 @@ php/blueprint/changelog/57935-update-blueprint-docs
 php/blueprint/changelog/58792-update-blueprint-doc-exporter-ui
 php/blueprint/changelog/61753-fix-support-composer-update
 php/blueprint/changelog/update-blueprint-require-permission-exporters-api
+php/blueprint/changelog/update-wpcs-3-4-1
 php/delete.php
 php/external/phpunit/extensions/database/operation/delete.php
 php/external/phpunit/extensions/database/operation/insert.php
@@ -124515,7 +124553,9 @@ php/src/trangebuttom_9_delete.php
 php/src/userbuttom_9_delete.php
 php/update.php
 php/vendor/composer/autoload_files.php
+php/woocommerce-analytics/changelog/update-wpcs-3-4-1
 php/woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
+php/woocommerce-subscriptions-engine/changelog/update-wpcs-3-4-1
 php_curl_exec()_url_is_controlled_by_user.xml
 php_multiple_rows_update_delete.zip
 php_select
@@ -125428,12 +125468,14 @@ plugins/userimages/userimages.profile.update.php
 plugins/userimages/userimages.users.edit.update.php
 plugins/users-permissions/content-api/auth-password-update-revokes-sessions.test.api.ts
 plugins/users-permissions/content-api/user-update-relations.test.api.js
-plugins/users-permissions/server/graphql/mutations/crud/role/delete-role.js
-plugins/users-permissions/server/graphql/mutations/crud/role/update-role.js
-plugins/users-permissions/server/graphql/mutations/crud/user/delete-user.js
-plugins/users-permissions/server/graphql/mutations/crud/user/update-user.js
 plugins/users-permissions/server/graphql/types/delete-role-payload.js
 plugins/users-permissions/server/graphql/types/update-role-payload.js
+plugins/users-permissions/server/src/graphql/mutations/crud/role/delete-role.js
+plugins/users-permissions/server/src/graphql/mutations/crud/role/update-role.js
+plugins/users-permissions/server/src/graphql/mutations/crud/user/delete-user.js
+plugins/users-permissions/server/src/graphql/mutations/crud/user/update-user.js
+plugins/users-permissions/server/src/graphql/types/delete-role-payload.js
+plugins/users-permissions/server/src/graphql/types/update-role-payload.js
 plugins/vmcalculation/avalara/classes/batchsvc/batchdelete.class.php
 plugins/vmcalculation/avalara/classes/batchsvc/batchfiledelete.class.php
 plugins/webservices/joomlaupdate/joomlaupdate.xml
@@ -125449,11 +125491,13 @@ plugins/woocommerce-beta-tester/changelog/update-migrate-reactify-feature-flag
 plugins/woocommerce-beta-tester/changelog/update-pnpm-10-upgrade
 plugins/woocommerce-beta-tester/changelog/update-switch-version-button-location
 plugins/woocommerce-beta-tester/changelog/update-wp-68-packages
+plugins/woocommerce-beta-tester/changelog/update-wpcs-3-4-1
 plugins/woocommerce-beta-tester/src/admin-notes/delete-all-notes.js
 plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
+plugins/woocommerce/changelog/32085-prevent-product-search-deselect
 plugins/woocommerce/changelog/dev-66517-orders-meta-schema-union-coverage
 plugins/woocommerce/changelog/fix-51573-remove-sample-badge-on-product-update
 plugins/woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
@@ -125464,10 +125508,13 @@ plugins/woocommerce/changelog/update-deflag-product-pattern-features
 plugins/woocommerce/changelog/update-deflag-wc-admin-analytics
 plugins/woocommerce/changelog/update-deflag-wc-admin-onboarding
 plugins/woocommerce/changelog/update-deflag-wc-admin-shell-features
+plugins/woocommerce/changelog/update-docs-for-conditional-functions
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
 plugins/woocommerce/changelog/update-product-image-gallery-upgrade-notice-with-add-to-cart-with-options
 plugins/woocommerce/changelog/update-shipping-zone-method-save-action
+plugins/woocommerce/changelog/update-woopayments-onboarding-troubleshooting-link
 plugins/woocommerce/changelog/update-wordpress-ui-theme-provider
+plugins/woocommerce/changelog/update-wpcs-3-4-1-phpcs-tooling
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -135747,6 +135794,7 @@ schema-update.v0-1602184489.sql
 schema.drop.sql
 schema/db/mysql/definition/columns/onupdate.php
 schema/entity_test_update.schema.yml
+schema/is-delete-allowed.ts
 schema/metadata/app/select.json
 schema/storeapi/components/schemas/cartitemsupdate.json
 schema/update.schema.yml
@@ -136199,6 +136247,7 @@ search/tests/modules/search_query_alter/search_query_alter.module
 search/tests/modules/search_query_alter/src/hook/searchqueryalterhooks.php
 search/tests/src/functional/update/searchblockpageidupdatepathtest.php
 search/tests/src/functional/update/searchupdatetest.php
+search/tests/src/functional/update/searchupdateusertest.php
 search/update.php
 search/web/inc/admin/_display_rights_for_delete.jsp
 search_active_update
@@ -142188,6 +142237,12 @@ server/services/update-check/index.js
 server/services/update-check/run-update-check.js
 server/services/update-check/update-check-service.js
 server/src/controllers/__tests__/bulkdelete.test.ts
+server/src/graphql/mutations/crud/role/delete-role.js
+server/src/graphql/mutations/crud/role/update-role.js
+server/src/graphql/mutations/crud/user/delete-user.js
+server/src/graphql/mutations/crud/user/update-user.js
+server/src/graphql/types/delete-role-payload.js
+server/src/graphql/types/update-role-payload.js
 server/src/services/internals/types/delete-mutation-response.ts
 server/update-check.js
 server/update-user-traffic-source
@@ -144088,6 +144143,7 @@ skilldelete
 skilllevelupframe_update
 skillplateupdate
 skillreflectiondelete
+skills/umb-update-openapi/skill.md
 skills/umb-update-server-dependencies-for-minor/skill.md
 skills_select.xml
 skillscountforselect
@@ -146215,6 +146271,7 @@ src/functional/update/rssdefaultrowviewmodeupdatetest.php
 src/functional/update/schemaversionupdatetest.php
 src/functional/update/searchblockpageidupdatepathtest.php
 src/functional/update/searchupdatetest.php
+src/functional/update/searchupdateusertest.php
 src/functional/update/sequencestableremovalupdatetest.php
 src/functional/update/serializationsettingsdeletionupdatetest.php
 src/functional/update/stableuninstallupdatetest.php
@@ -146252,6 +146309,12 @@ src/global/form/select-with-other.tsx
 src/global/form/select.stories.tsx
 src/global/form/select.tsx
 src/globalmanifesto.demo/umbraco/actions/delete.aspx
+src/graphql/mutations/crud/role/delete-role.js
+src/graphql/mutations/crud/role/update-role.js
+src/graphql/mutations/crud/user/delete-user.js
+src/graphql/mutations/crud/user/update-user.js
+src/graphql/types/delete-role-payload.js
+src/graphql/types/update-role-payload.js
 src/grav/installer/versionupdate.php
 src/grid/displayers/select.php
 src/grid/filter/field/select.php
@@ -146328,6 +146391,8 @@ src/insert.php
 src/interfaces/_system/system-manual-flow-select/index.ts
 src/interfaces/_system/system-manual-flow-select/system-manual-flow-select.test.ts
 src/interfaces/_system/system-manual-flow-select/system-manual-flow-select.vue
+src/interfaces/input-rich-text-html/extensions/drop-cursor.test.ts
+src/interfaces/input-rich-text-html/extensions/drop-cursor.ts
 src/interfaces/select-color/index.ts
 src/interfaces/select-color/preview.svg
 src/interfaces/select-color/select-color.test.ts
@@ -147438,6 +147503,7 @@ src/utils/delete-folder.test.ts
 src/utils/delete-folder.ts
 src/utils/delete-from-require-cache.ts
 src/utils/draganddrop.js
+src/utils/schema/is-delete-allowed.ts
 src/utils/update-notifier/index.ts
 src/vendor/composer/autoload_files.php
 src/view-setup-handlers/document/record-list-drag-n-drop.js
@@ -152030,6 +152096,8 @@ test/update.js
 test/update.php
 test/use-update-preferred-autocomplete-provider.ts
 test/utils/color-select-helper.ts
+test/utils/fixtures/csv/members-update-blank.csv
+test/utils/fixtures/csv/members-update-named.csv
 test/utils/fixtures/csv/valid-members-for-bulk-delete.csv
 test/variation-quick-update-menu-item.test.tsx
 test/with-transform-single-select-to-multiple-select.js
@@ -152752,6 +152820,7 @@ tests/src/functional/update/rssdefaultrowviewmodeupdatetest.php
 tests/src/functional/update/schemaversionupdatetest.php
 tests/src/functional/update/searchblockpageidupdatepathtest.php
 tests/src/functional/update/searchupdatetest.php
+tests/src/functional/update/searchupdateusertest.php
 tests/src/functional/update/sequencestableremovalupdatetest.php
 tests/src/functional/update/serializationsettingsdeletionupdatetest.php
 tests/src/functional/update/stableuninstallupdatetest.php
@@ -158180,7 +158249,6 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
-true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -158834,6 +158902,7 @@ ulist-jaccard.2.update.sqlpp
 ulrich_walter.xml
 ultraselect
 umanit-update-urls
+umb-update-openapi/skill.md
 umb-update-server-dependencies-for-minor/skill.md
 umbraco cms/umbraco/actions/delete.aspx
 umbraco dev/umbraco/actions/delete.aspx
@@ -164941,6 +165010,7 @@ update-dnssec-bind-config.ini
 update-doc.xml
 update-dockercsimgshare
 update-docs
+update-docs-for-conditional-functions
 update-docs.sh
 update-document
 update-document-table.xml
@@ -168369,6 +168439,7 @@ update-wiki-monitoring
 update-winra
 update-without-using-ftp
 update-woopayments-methods-logos-component
+update-woopayments-onboarding-troubleshooting-link
 update-woosubs-engine-make-phpstan-ci-required
 update-wordpress-admin-ui
 update-wordpress-ui-theme-provider
@@ -168376,6 +168447,8 @@ update-worker.js
 update-worker.py
 update-workspace-mirror.sh
 update-wp-68-packages
+update-wpcs-3-4-1
+update-wpcs-3-4-1-phpcs-tooling
 update-write
 update-ww0
 update-ww0-controller-files
@@ -169498,6 +169571,7 @@ update/rssdefaultrowviewmodeupdatetest.php
 update/schemaversionupdatetest.php
 update/searchblockpageidupdatepathtest.php
 update/searchupdatetest.php
+update/searchupdateusertest.php
 update/sequencestableremovalupdatetest.php
 update/serializationsettingsdeletionupdatetest.php
 update/services/apiclient.php
@@ -171223,6 +171297,12 @@ users-permissions/server/graphql/mutations/crud/user/delete-user.js
 users-permissions/server/graphql/mutations/crud/user/update-user.js
 users-permissions/server/graphql/types/delete-role-payload.js
 users-permissions/server/graphql/types/update-role-payload.js
+users-permissions/server/src/graphql/mutations/crud/role/delete-role.js
+users-permissions/server/src/graphql/mutations/crud/role/update-role.js
+users-permissions/server/src/graphql/mutations/crud/user/delete-user.js
+users-permissions/server/src/graphql/mutations/crud/user/update-user.js
+users-permissions/server/src/graphql/types/delete-role-payload.js
+users-permissions/server/src/graphql/types/update-role-payload.js
 users-update.xml
 users.mysql.drop.sql
 users.update-01.sql
@@ -171503,10 +171583,13 @@ utils/delete-folder.test.ts
 utils/delete-folder.ts
 utils/delete-from-require-cache.ts
 utils/extension-cart-update.ts
+utils/fixtures/csv/members-update-blank.csv
+utils/fixtures/csv/members-update-named.csv
 utils/fixtures/csv/valid-members-for-bulk-delete.csv
 utils/insert-cards-from-files.js
 utils/masterserver/cronstatsupdate.php
 utils/partial-update-frozen-array.function.ts
+utils/schema/is-delete-allowed.ts
 utils/shared/is-detailed-update-syntax.test.ts
 utils/shared/is-detailed-update-syntax.ts
 utils/update-field-widths.test.ts
@@ -176372,6 +176455,7 @@ woocommerce-admin-update.php
 woocommerce-admin/db-updates/class-wc-tests-update-is-read-from-last-read.php
 woocommerce-all-price-update
 woocommerce-alter-inventory
+woocommerce-analytics/changelog/update-wpcs-3-4-1
 woocommerce-beta-tester/api/admin-notes/delete-all-notes.php
 woocommerce-beta-tester/api/tools/delete-all-products.php
 woocommerce-beta-tester/api/tools/trigger-update-callbacks.php
@@ -176382,6 +176466,7 @@ woocommerce-beta-tester/changelog/update-migrate-reactify-feature-flag
 woocommerce-beta-tester/changelog/update-pnpm-10-upgrade
 woocommerce-beta-tester/changelog/update-switch-version-button-location
 woocommerce-beta-tester/changelog/update-wp-68-packages
+woocommerce-beta-tester/changelog/update-wpcs-3-4-1
 woocommerce-beta-tester/src/admin-notes/delete-all-notes.js
 woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
@@ -176393,6 +176478,7 @@ woocommerce-drop-shop
 woocommerce-local-pickup-time-select
 woocommerce-modified-files(copy-and-overwrite-default-after-install-or-update)(temp-solution).zip
 woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
+woocommerce-subscriptions-engine/changelog/update-wpcs-3-4-1
 woocommerce-update-1.4.php
 woocommerce-update-1.5.php
 woocommerce-update-2.0.15.php
@@ -176405,6 +176491,7 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
+woocommerce/changelog/32085-prevent-product-search-deselect
 woocommerce/changelog/dev-66517-orders-meta-schema-union-coverage
 woocommerce/changelog/fix-51573-remove-sample-badge-on-product-update
 woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
@@ -176415,10 +176502,13 @@ woocommerce/changelog/update-deflag-product-pattern-features
 woocommerce/changelog/update-deflag-wc-admin-analytics
 woocommerce/changelog/update-deflag-wc-admin-onboarding
 woocommerce/changelog/update-deflag-wc-admin-shell-features
+woocommerce/changelog/update-docs-for-conditional-functions
 woocommerce/changelog/update-pay-506-always-show-payment-radio
 woocommerce/changelog/update-product-image-gallery-upgrade-notice-with-add-to-cart-with-options
 woocommerce/changelog/update-shipping-zone-method-save-action
+woocommerce/changelog/update-woopayments-onboarding-troubleshooting-link
 woocommerce/changelog/update-wordpress-ui-theme-provider
+woocommerce/changelog/update-wpcs-3-4-1-phpcs-tooling
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -179887,7 +179977,9 @@ zmetric.simplecounters_update.sql
 zmkd-sql-drop-all.sql
 zmkd-sql-update-test.sql
 zn6qwi1fgkuqp6nel-healthunion.siteintercept
+znakomstva/banmem/index/delete/id
 znakomstva/banmem/index/delete/id/*
+znakomstva/blogs/delete
 znakomstva/blogs/delete/*
 znakomstva/blogs/delete/*/format/smoothbox
 zodiacrolesmodifierupdate

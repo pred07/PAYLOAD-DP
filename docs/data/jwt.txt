@@ -3773,7 +3773,9 @@ packages/core/core/src/services/__tests__/session-manager-jwt-config.test.ts
 packages/lexik_jwt_authentication.yaml
 packages/plugins/users-permissions/server/services/__tests__/jwt.test.js
 packages/plugins/users-permissions/server/services/jwt.js
-packages/plugins/users-permissions/server/utils/verify-jwt-with-jwks.js
+packages/plugins/users-permissions/server/src/services/__tests__/jwt.test.js
+packages/plugins/users-permissions/server/src/services/jwt.js
+packages/plugins/users-permissions/server/src/utils/verify-jwt-with-jwks.js
 pajwts6l
 pajwts6l-hbfkdj3b
 passport-jwt
@@ -3812,7 +3814,9 @@ platform/cjwt.html
 plugins/users-permissions/content-api/auth-jwt-algorithm.test.api.js
 plugins/users-permissions/server/services/__tests__/jwt.test.js
 plugins/users-permissions/server/services/jwt.js
-plugins/users-permissions/server/utils/verify-jwt-with-jwks.js
+plugins/users-permissions/server/src/services/__tests__/jwt.test.js
+plugins/users-permissions/server/src/services/jwt.js
+plugins/users-permissions/server/src/utils/verify-jwt-with-jwks.js
 pnkx9p4jmwjwtgrm
 podiumjsrocksjwt
 ppghjwt
@@ -4034,7 +4038,9 @@ security/oauth2/jwttokenuser.php
 sellers2567
 server/services/__tests__/jwt.test.js
 server/services/jwt.js
-server/utils/verify-jwt-with-jwks.js
+server/src/services/__tests__/jwt.test.js
+server/src/services/jwt.js
+server/src/utils/verify-jwt-with-jwks.js
 server_1_withjwtssofeature.xml
 server_1_withjwtssofeature_unsolicited.xml
 server_disablejwtcookie_false_includeltpa_false.xml
@@ -4155,7 +4161,9 @@ src/providers/jwt/jwtinterface.php
 src/providers/jwt/namshi.php
 src/providers/jwt/provider.php
 src/providers/jwtauthserviceprovider.php
+src/services/__tests__/jwt.test.js
 src/services/__tests__/session-manager-jwt-config.test.ts
+src/services/jwt.js
 src/sylius/bundle/apibundle/tests/application/config/jwt/.gitkeep
 src/sylius/bundle/apibundle/tests/application/config/jwt/private-test.pem
 src/sylius/bundle/apibundle/tests/application/config/jwt/public-test.pem
@@ -4168,6 +4176,7 @@ src/utils/jwt-payload.ts
 src/utils/jwt.test.ts
 src/utils/jwt.ts
 src/utils/tests/jwt.test.ts
+src/utils/verify-jwt-with-jwks.js
 src/utils/verify-session-jwt.test.ts
 src/utils/verify-session-jwt.ts
 srf9jwti2napc8uw
@@ -4432,7 +4441,9 @@ usercurrentjwt
 users-permissions/content-api/auth-jwt-algorithm.test.api.js
 users-permissions/server/services/__tests__/jwt.test.js
 users-permissions/server/services/jwt.js
-users-permissions/server/utils/verify-jwt-with-jwks.js
+users-permissions/server/src/services/__tests__/jwt.test.js
+users-permissions/server/src/services/jwt.js
+users-permissions/server/src/utils/verify-jwt-with-jwks.js
 useuser-jwt-in-header.xml
 util_jwt.cls-meta.xml
 util_jwt_test.cls-meta.xml

