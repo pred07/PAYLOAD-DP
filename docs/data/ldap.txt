@@ -275,6 +275,8 @@ $@!(!^&
 /((\%3d)|(=))[^\n]*((\%3c)|&lt;)[^\n]+((\%3e)|>)/
 /((\%3d)|(=))[^\n]*((\%3c)|<)[^\n]+((\%3e)|>)/
 /((src|href|data|location|code|value|action)\su["'\]]*\s*\+?\s*=)|(replace|assign|navigate|getresponseheader|open(dialog)?|showmodeldialog|eval|evaluate|execcommand|execscript|settimeout|setinterval)\s*["'\]]*\s*\()/
+/*?*&kuid=
+/*?kuid=
 /all.php?menuid=
 /api/v1/confup?mode=&uid=1
 /api/v1/confup?mode=lean&uid=1
@@ -380,6 +382,7 @@ $@!(!^&
 =6rj8icn=o1<y+&=
 =nrj_news_city_page&uid=
 > to: /cn=robots/@nexor.co.uk
+?*&kuid=
 ?*kuid=
 ?*referrer_vuid=
 ?admitad_uid=

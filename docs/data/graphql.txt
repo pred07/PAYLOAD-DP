@@ -2118,6 +2118,7 @@ api/plugins/graphql/dp-relations.test.api.js
 api/plugins/graphql/fields/date.test.api.js
 api/plugins/graphql/fields/datetime.test.api.js
 api/plugins/graphql/has-published-version.test.api.js
+api/plugins/graphql/pagination-defaults.test.api.js
 api/plugins/graphql/publication-filter.test.api.js
 api/plugins/graphql/relation-order.test.api.js
 api/plugins/graphql/relations.test.api.js
@@ -12543,6 +12544,7 @@ graphql/pagecache/urlrewrite/routecachetest.php
 graphql/pagecache/urlrewrite/urlresolvercachetest.php
 graphql/pagecache/varnishtest.php
 graphql/pagination
+graphql/pagination-defaults.test.api.js
 graphql/paymentgraphql/getisdeferredpaymentmethodtest.php
 graphql/paymentgraphql/storeconfigtest.php
 graphql/paypalgraphql/getispaypalexpressdeferredpaymentmethodtest.php
@@ -18951,6 +18953,7 @@ plugins/graphql/jest.config.js
 plugins/graphql/license
 plugins/graphql/lint-staged.config.mjs
 plugins/graphql/package.json
+plugins/graphql/pagination-defaults.test.api.js
 plugins/graphql/publication-filter.test.api.js
 plugins/graphql/readme.md
 plugins/graphql/relation-order.test.api.js
@@ -21806,6 +21809,7 @@ tests/api/plugins/graphql/dp-relations.test.api.js
 tests/api/plugins/graphql/fields/date.test.api.js
 tests/api/plugins/graphql/fields/datetime.test.api.js
 tests/api/plugins/graphql/has-published-version.test.api.js
+tests/api/plugins/graphql/pagination-defaults.test.api.js
 tests/api/plugins/graphql/publication-filter.test.api.js
 tests/api/plugins/graphql/relation-order.test.api.js
 tests/api/plugins/graphql/relations.test.api.js

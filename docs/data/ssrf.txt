@@ -13668,6 +13668,7 @@ en/internal
 en/internal/
 en/internal/internal-lead-referral-form
 en/internal/test-ssg-deploy
+en/internaljustice/files
 en/servers/racks-internal
 enable-secure-admin-internal-user.1
 enabledforinternaluse
@@ -59628,7 +59629,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://steelcase.com/robots.txt
+zh/internalhttp://karlsruhe.de/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
