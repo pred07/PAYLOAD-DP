@@ -20884,7 +20884,6 @@ contests?*onmouseover=
 control/stream?contentid=%27\%22%3e%3csvg/onload=alert(/xss/)%3e
 control/stream?contentid=<svg/onload=alert(1)>
 controlsvisibleonload=
-cottonmouse
 creaprezzi.php?prezzoperiodo4=%22><script>javascript:alert(%27xss%27)</script>
 create_user/?username=%3cscript%3ealert(document.domain)%3c%2fscript%3e
 crimsonblur
@@ -22001,7 +22000,6 @@ phpwebsite/index.php?module=fatcat&fatcat[user]=viewcategory&fatcat_id=1%00+\"><
 phpwebsite/index.php?module=pagemaster&page_user_op=view_page&page_id=10\"><script>alert('vulnerable')</script>&mmn_position=[x:x]
 phpwebsite/index.php?module=search&sea_search_op=continue&pda_limit=10\"><script>alert('vulnerable')</script>
 pin/catego<script
-pinionfocusingmicroscope
 platform/platform-resources-en/src/tips/quickdoconmousemove.html
 pls/dadname/htp.print?cbuf=<script>alert('vulnerable')</script>
 pls/help/<script>alert('vulnerable')</script>
@@ -22020,7 +22018,6 @@ pmf_movable_frame_onmousedown
 pms.php?action=send&recipient=destinataire&subject=happy&posticon=javascript:alert('vulnerable')&mode=0&message=hello
 portmonload=1
 postnuke/html/modules.php?op=modload&name=news&file=article&sid=<script>alert('vulnerable');</script>
-precisionfocusing
 printenv.shtml?%3cscript%3ealert(%27xss%27)%3c/script%3e
 profiles.php?uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
 profiles.php?what=contact&author=ich&authoremail=bla%40bla.com&subject=hello&message=text&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
@@ -22055,7 +22052,6 @@ s%22%20style=%22background:url(javascript:alert(’x’))
 s%22%20style=x:expression(alert(1))
 samples/search.dll?query=<script>alert(document.cookie)</script>
 saveonblur
-scorpionmouse
 script w/alert()
 script>">'><script>alert(string.fromcharcode(75,67,70))</script>
 script>alert('vulnerable')</script>.cfm
