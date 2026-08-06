@@ -217,8 +217,6 @@ and1eq2status=`echo $and1eq2 | cut -d ":" -f 1`
 and1eq2time=`echo "$and1eq2" | cut -d ":" -f 3| cut -d "." -f1`
 apel$ink
 app/cache/dev/annotations/symfony-component-form-form$initialized.cache.php
-app/cache/dev/annotations/symfony-component-form-util-orderedhashmap$orderedkeys.cache.php
-app/cache/prod/annotations/symfony-component-form-form$initialized.cache.php
 applicationcontext-nosql-configuration-it.xml
 applicationcontext-nosql-configuration.xml
 aq!sw@de#fr$gt%
@@ -416,7 +414,6 @@ hdr|^y%9d!vac*yk2|^hd3pzp$ne
 he$interes
 hell$ing02
 hello-mongoclient-5d46df9c58-bnd88
-htdocs/core/class/nosqldocument.class.php
 htmleditorkit$inserthtmltextaction.class
 htmleditorkit$inserthtmltextaction.h
 htools_h_nosql.sql
@@ -664,7 +661,6 @@ sofa-nosqlha
 spring-nosql.xml
 sql-vs-nosql
 sql2nosql.settings.xml
-src/mongoclient.php
 src/utils/$insertandselectnode.ts
 standalone-nosql.xml
 stringcontent$insertundo.class
@@ -677,9 +673,6 @@ test-com.example.project.calculatortests$nestedclass.xml
 test-org.apache.shindig.protocol.testhandler$input.xml
 test-org.sonar.plugins.surefire.nestedtest$inner1$run.xml
 test-org.sonar.plugins.surefire.nestedtest$inner2$run.xml
-test/mongoclient-getserverversion.php
-test/mongoclienttest.php
-tests/suites/unit/joomla/database/stubs/nosqldriver.php
 thai$inha
 then sqlequallength=`echo $and1eq2 | cut -d ":" -f 2`
 then sqlunequallength=`echo $and1eq2 | cut -d ":" -f 2`
@@ -700,7 +693,6 @@ uriinputencode="$inj3ct"
 utils/$insertandselectnode.ts
 v0ux6_<43\{}%g(uhk$ordt*^55fvkb
 v1/casino/groups/slots/slots$new-manual
-vendor/psy/psysh/src/tabcompletion/matcher/mongoclientmatcher.php
 webnosql.js
 webnotenosql/webnotenosql/views/home/create.aspx
 webnotenosql/webnotenosql/views/home/details.aspx
