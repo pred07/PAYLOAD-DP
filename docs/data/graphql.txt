@@ -21259,6 +21259,7 @@ swatchesgraphql/readme.md
 swatchesgraphql/registration.php
 swatchesgraphql/test/mftf/readme.md
 sympathetic introspection
+sympatheticintrospection
 sysext/core/classes/log/processor/introspectionprocessor.php
 sysext/core/tests/unit/log/processor/introspectiontest.php
 systemimportconfiguration.graphql
