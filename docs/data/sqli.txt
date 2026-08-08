@@ -56214,6 +56214,7 @@ administration/resources/app/administration/src/module/sw-category/component/sw-
 administration/resources/app/administration/src/module/sw-cms/component/sw-cms-page-select/index.ts
 administration/resources/app/administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.html.twig
 administration/resources/app/administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.scss
+administration/resources/app/administration/src/module/sw-cms/component/sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 administration/resources/app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/index.js
 administration/resources/app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.html.twig
 administration/resources/app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.scss
@@ -56384,6 +56385,7 @@ administration/src/module/sw-category/component/sw-category-sales-channel-multi-
 administration/src/module/sw-cms/component/sw-cms-page-select/index.ts
 administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.html.twig
 administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.scss
+administration/src/module/sw-cms/component/sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/index.js
 administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.html.twig
 administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.scss
@@ -62267,6 +62269,7 @@ app/administration/src/module/sw-category/component/sw-category-sales-channel-mu
 app/administration/src/module/sw-cms/component/sw-cms-page-select/index.ts
 app/administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.html.twig
 app/administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.scss
+app/administration/src/module/sw-cms/component/sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/index.js
 app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.html.twig
 app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.scss
@@ -72839,6 +72842,7 @@ changelog/update-always-show-sale-price
 changelog/update-blueprint-require-permission-exporters-api
 changelog/update-branding-updates-to-woocommerce
 changelog/update-categories-remove-description
+changelog/update-coding-guidelines-css-logical-properties-over-physical-ones
 changelog/update-create-shipping-classes-optimistically
 changelog/update-dataviews_package
 changelog/update-deflag-commerce-recommendations
@@ -72849,6 +72853,7 @@ changelog/update-deflag-wc-admin-analytics
 changelog/update-deflag-wc-admin-onboarding
 changelog/update-deflag-wc-admin-shell-features
 changelog/update-dimensions-row-layout
+changelog/update-disable-responsive-editing
 changelog/update-docs-for-conditional-functions
 changelog/update-e2e-product-editor-create-simple-product
 changelog/update-export-product-edits
@@ -76211,6 +76216,7 @@ component/sw-category-sales-channel-multi-select/sw-category-sales-channel-multi
 component/sw-cms-page-select/index.ts
 component/sw-cms-page-select/sw-cms-page-select.html.twig
 component/sw-cms-page-select/sw-cms-page-select.scss
+component/sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 component/sw-custom-field-type-select/index.js
 component/sw-custom-field-type-select/sw-custom-field-type-select.html.twig
 component/sw-custom-field-type-select/sw-custom-field-type-select.scss
@@ -87499,6 +87505,7 @@ delete.rst
 delete.scala.html
 delete.sdf.xml
 delete.sh
+delete.spec.js
 delete.sql
 delete.sql.go
 delete.sql.php
@@ -92141,6 +92148,7 @@ email-editor-integration/review-update-plugin.tsx
 email-editor-integration/update-banner-plugin.tsx
 email-editor-integration/update-banner.scss
 email-editor-integration/update-banner.tsx
+email-editor/changelog/update-disable-responsive-editing
 email-editor/src/components/template-select/async.ts
 email-editor/src/components/template-select/index.ts
 email-editor/src/components/template-select/select-modal.tsx
@@ -107565,6 +107573,7 @@ js/dist/5.1.0/bundle.forms.apphookselect.min.js
 js/dist/5.1.0a1/bundle.forms.apphookselect.min.js
 js/dynamic-rows/action-delete.js
 js/editor/dialog/fck_select.html
+js/email-editor/changelog/update-disable-responsive-editing
 js/email-editor/src/components/template-select/async.ts
 js/email-editor/src/components/template-select/index.ts
 js/email-editor/src/components/template-select/select-modal.tsx
@@ -115173,6 +115182,7 @@ module/sw-category/component/sw-category-sales-channel-multi-select/sw-category-
 module/sw-cms/component/sw-cms-page-select/index.ts
 module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.html.twig
 module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.scss
+module/sw-cms/component/sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/index.js
 module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.html.twig
 module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.scss
@@ -122829,6 +122839,7 @@ packages/js/customer-effort-score/changelog/dev-ci-lint-monorepo-job-update
 packages/js/data/changelog/update-settings-payments-type-for-onboarding-supported
 packages/js/data/src/use-select-with-refresh.ts
 packages/js/date/changelog/dev-ci-lint-monorepo-job-update
+packages/js/email-editor/changelog/update-disable-responsive-editing
 packages/js/email-editor/src/components/template-select/async.ts
 packages/js/email-editor/src/components/template-select/index.ts
 packages/js/email-editor/src/components/template-select/select-modal.tsx
@@ -125538,6 +125549,7 @@ plugins/woocommerce/changelog/32085-prevent-product-search-deselect
 plugins/woocommerce/changelog/dev-66517-orders-meta-schema-union-coverage
 plugins/woocommerce/changelog/fix-51573-remove-sample-badge-on-product-update
 plugins/woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
+plugins/woocommerce/changelog/update-coding-guidelines-css-logical-properties-over-physical-ones
 plugins/woocommerce/changelog/update-deflag-commerce-recommendations
 plugins/woocommerce/changelog/update-deflag-launch-your-store
 plugins/woocommerce/changelog/update-deflag-mini-cart-iapi
@@ -131397,6 +131409,7 @@ refreshcurrentupdate
 refreshdefaultupdate
 refreshdetailsupdate
 refreshdetailupdate
+refreshed-hphttp://alliantcreditunion.org/robots.txt
 refreshenabledupdate
 refreshexportedupdate
 refreshfinishedupdate
@@ -132809,6 +132822,7 @@ resources/app/administration/src/module/sw-category/component/sw-category-sales-
 resources/app/administration/src/module/sw-cms/component/sw-cms-page-select/index.ts
 resources/app/administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.html.twig
 resources/app/administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.scss
+resources/app/administration/src/module/sw-cms/component/sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 resources/app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/index.js
 resources/app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.html.twig
 resources/app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.scss
@@ -145749,6 +145763,7 @@ src/administration/resources/app/administration/src/module/sw-category/component
 src/administration/resources/app/administration/src/module/sw-cms/component/sw-cms-page-select/index.ts
 src/administration/resources/app/administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.html.twig
 src/administration/resources/app/administration/src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.scss
+src/administration/resources/app/administration/src/module/sw-cms/component/sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 src/administration/resources/app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/index.js
 src/administration/resources/app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.html.twig
 src/administration/resources/app/administration/src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.scss
@@ -146630,6 +146645,7 @@ src/module/sw-category/component/sw-category-sales-channel-multi-select/sw-categ
 src/module/sw-cms/component/sw-cms-page-select/index.ts
 src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.html.twig
 src/module/sw-cms/component/sw-cms-page-select/sw-cms-page-select.scss
+src/module/sw-cms/component/sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/index.js
 src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.html.twig
 src/module/sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.scss
@@ -149561,9 +149577,12 @@ sw-cms-page-select.scss
 sw-cms-page-select/index.ts
 sw-cms-page-select/sw-cms-page-select.html.twig
 sw-cms-page-select/sw-cms-page-select.scss
+sw-cms-sidebar.spec/delete.spec.js
+sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 sw-cms/component/sw-cms-page-select/index.ts
 sw-cms/component/sw-cms-page-select/sw-cms-page-select.html.twig
 sw-cms/component/sw-cms-page-select/sw-cms-page-select.scss
+sw-cms/component/sw-cms-sidebar/sw-cms-sidebar.spec/delete.spec.js
 sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/index.js
 sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.html.twig
 sw-cms/elements/product-listing/config/components/sw-cms-el-config-product-listing-config-delete-modal/sw-cms-el-config-product-listing-config-delete-modal.scss
@@ -163781,6 +163800,7 @@ update-coc
 update-codecgen.sh
 update-codegen.sh
 update-codemirror-resources.rb
+update-coding-guidelines-css-logical-properties-over-physical-ones
 update-collations.sql
 update-collection.xml
 update-color.xml
@@ -165054,6 +165074,7 @@ update-dioneembargo-anno.sql
 update-dioneembargo-kb.sql
 update-directory-structure.js
 update-disable
+update-disable-responsive-editing
 update-distr
 update-dns
 update-dns-script-768f95b64c-hpslm
@@ -176551,6 +176572,7 @@ woocommerce/changelog/32085-prevent-product-search-deselect
 woocommerce/changelog/dev-66517-orders-meta-schema-union-coverage
 woocommerce/changelog/fix-51573-remove-sample-badge-on-product-update
 woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
+woocommerce/changelog/update-coding-guidelines-css-logical-properties-over-physical-ones
 woocommerce/changelog/update-deflag-commerce-recommendations
 woocommerce/changelog/update-deflag-launch-your-store
 woocommerce/changelog/update-deflag-mini-cart-iapi
@@ -178208,7 +178230,7 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
-wp-content/uploads/wp-import-export-lite/http://transunion.com/robots.txt
+wp-content/uploads/http://european-union.europa.eu/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments

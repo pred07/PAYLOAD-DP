@@ -216,6 +216,9 @@ $sitepreview/localhost:2006/wizard/
 .0.0.0.0
 .0.0.0.0.0
 ._prototestdb-localhost-27-oct.sql
+.agents/skills/migrate-internal-package/references/history-and-merge.md
+.agents/skills/migrate-internal-package/scripts/merge-history-pr
+.agents/skills/migrate-internal-package/skill.md
 .changeset/add-context-internal.md
 .ci/azure-deploy-kubernetes.yml
 .com-internal-server-error.html
@@ -19195,6 +19198,7 @@ internal/admin/settings/settingsuischema.php
 internal/admin/settings/settingsuischematest.php
 internal/admin/settings/utils.php
 internal/admin/settings/utilstest.php
+internal/admin/settingstest.php
 internal/admin/shippinglabelbanner.php
 internal/admin/shippinglabelbannerdisplayrules.php
 internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
@@ -36970,6 +36974,9 @@ microsoft.visualstudio.text.internal.dll
 microsoft.visualstudio.utilities.internal.dll
 microsoft.windowsazure.internal.runtimeserver.dll
 microsoftinternalmishandlingsecurity
+migrate-internal-package/references/history-and-merge.md
+migrate-internal-package/scripts/merge-history-pr
+migrate-internal-package/skill.md
 migrate/20170123000001_ui_ticket_zoom_article_new_internal.rb
 migrate/20210407000001_setting_add_internal_article_check.rb
 migrate/20260219063427_object_manager_attributes_add_internal_flag.rb
@@ -46656,6 +46663,7 @@ php/src/internal/admin/settings/settingsuifeatureflagtest.php
 php/src/internal/admin/settings/settingsuipages/productssettingspageadaptertest.php
 php/src/internal/admin/settings/settingsuischematest.php
 php/src/internal/admin/settings/utilstest.php
+php/src/internal/admin/settingstest.php
 php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 php/src/internal/admin/sitehealthtest.php
 php/src/internal/admin/suggestions/incentives/incentivetest.php
@@ -48680,6 +48688,7 @@ plugins/woocommerce/tests/php/src/internal/admin/settings/settingsuifeatureflagt
 plugins/woocommerce/tests/php/src/internal/admin/settings/settingsuipages/productssettingspageadaptertest.php
 plugins/woocommerce/tests/php/src/internal/admin/settings/settingsuischematest.php
 plugins/woocommerce/tests/php/src/internal/admin/settings/utilstest.php
+plugins/woocommerce/tests/php/src/internal/admin/settingstest.php
 plugins/woocommerce/tests/php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 plugins/woocommerce/tests/php/src/internal/admin/sitehealthtest.php
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/incentives/incentivetest.php
@@ -51077,6 +51086,9 @@ sizedinternalformat.xml
 sjc1-internalmon-a1
 sjpinternalapplications
 skerrorinternals.h
+skills/migrate-internal-package/references/history-and-merge.md
+skills/migrate-internal-package/scripts/merge-history-pr
+skills/migrate-internal-package/skill.md
 skinfra-internal
 skip_lock_internal_abort
 skip_trylock_internal_abort
@@ -52311,6 +52323,7 @@ src/internal/admin/settings/settingsuischema.php
 src/internal/admin/settings/settingsuischematest.php
 src/internal/admin/settings/utils.php
 src/internal/admin/settings/utilstest.php
+src/internal/admin/settingstest.php
 src/internal/admin/shippinglabelbanner.php
 src/internal/admin/shippinglabelbannerdisplayrules.php
 src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
@@ -54825,6 +54838,7 @@ tests/php/src/internal/admin/settings/settingsuifeatureflagtest.php
 tests/php/src/internal/admin/settings/settingsuipages/productssettingspageadaptertest.php
 tests/php/src/internal/admin/settings/settingsuischematest.php
 tests/php/src/internal/admin/settings/utilstest.php
+tests/php/src/internal/admin/settingstest.php
 tests/php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 tests/php/src/internal/admin/sitehealthtest.php
 tests/php/src/internal/admin/suggestions/incentives/incentivetest.php
@@ -58877,6 +58891,7 @@ woocommerce/tests/php/src/internal/admin/settings/settingsuifeatureflagtest.php
 woocommerce/tests/php/src/internal/admin/settings/settingsuipages/productssettingspageadaptertest.php
 woocommerce/tests/php/src/internal/admin/settings/settingsuischematest.php
 woocommerce/tests/php/src/internal/admin/settings/utilstest.php
+woocommerce/tests/php/src/internal/admin/settingstest.php
 woocommerce/tests/php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 woocommerce/tests/php/src/internal/admin/sitehealthtest.php
 woocommerce/tests/php/src/internal/admin/suggestions/incentives/incentivetest.php
@@ -59776,7 +59791,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://index.hr/robots.txt
+zh/internalhttp://native-instruments.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
