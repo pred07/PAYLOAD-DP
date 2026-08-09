@@ -72839,6 +72839,7 @@ changelog/update-59804
 changelog/update-abrev-global-unique-id
 changelog/update-adopt-wpds-components
 changelog/update-always-show-sale-price
+changelog/update-back-button-wp71
 changelog/update-blueprint-require-permission-exporters-api
 changelog/update-branding-updates-to-woocommerce
 changelog/update-categories-remove-description
@@ -72949,6 +72950,7 @@ changelog/update-wp-68-packages
 changelog/update-wpcs-3-4-1
 changelog/update-wpcs-3-4-1-phpcs-tooling
 changelog/woo6-97-update-runsql-trust-boundary-docs
+changelog/wooplug-6171-delete-never-customized-email-posts
 changemainupdate
 changemodifiedupdate
 changenewupdate
@@ -92148,6 +92150,7 @@ email-editor-integration/review-update-plugin.tsx
 email-editor-integration/update-banner-plugin.tsx
 email-editor-integration/update-banner.scss
 email-editor-integration/update-banner.tsx
+email-editor/changelog/update-back-button-wp71
 email-editor/changelog/update-disable-responsive-editing
 email-editor/src/components/template-select/async.ts
 email-editor/src/components/template-select/index.ts
@@ -107573,6 +107576,7 @@ js/dist/5.1.0/bundle.forms.apphookselect.min.js
 js/dist/5.1.0a1/bundle.forms.apphookselect.min.js
 js/dynamic-rows/action-delete.js
 js/editor/dialog/fck_select.html
+js/email-editor/changelog/update-back-button-wp71
 js/email-editor/changelog/update-disable-responsive-editing
 js/email-editor/src/components/template-select/async.ts
 js/email-editor/src/components/template-select/index.ts
@@ -122839,6 +122843,7 @@ packages/js/customer-effort-score/changelog/dev-ci-lint-monorepo-job-update
 packages/js/data/changelog/update-settings-payments-type-for-onboarding-supported
 packages/js/data/src/use-select-with-refresh.ts
 packages/js/date/changelog/dev-ci-lint-monorepo-job-update
+packages/js/email-editor/changelog/update-back-button-wp71
 packages/js/email-editor/changelog/update-disable-responsive-editing
 packages/js/email-editor/src/components/template-select/async.ts
 packages/js/email-editor/src/components/template-select/index.ts
@@ -125567,6 +125572,7 @@ plugins/woocommerce/changelog/update-stabilize-order-withdrawal
 plugins/woocommerce/changelog/update-woopayments-onboarding-troubleshooting-link
 plugins/woocommerce/changelog/update-wordpress-ui-theme-provider
 plugins/woocommerce/changelog/update-wpcs-3-4-1-phpcs-tooling
+plugins/woocommerce/changelog/wooplug-6171-delete-never-customized-email-posts
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -163570,6 +163576,7 @@ update-awdatabase-r5-r6.sql
 update-awspaymentsstorage
 update-b
 update-b2b-oceania-exchangedns
+update-back-button-wp71
 update-backend-db.sql
 update-backticks.sql
 update-backupacc-apiproduction
@@ -176590,6 +176597,7 @@ woocommerce/changelog/update-stabilize-order-withdrawal
 woocommerce/changelog/update-woopayments-onboarding-troubleshooting-link
 woocommerce/changelog/update-wordpress-ui-theme-provider
 woocommerce/changelog/update-wpcs-3-4-1-phpcs-tooling
+woocommerce/changelog/wooplug-6171-delete-never-customized-email-posts
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -176697,6 +176705,7 @@ woopayments/components/custom-select-control/style.scss
 woopayments/components/custom-select-control/test/index.test.tsx
 woopayments/components/grouped-select-control/index.tsx
 woopayments/components/grouped-select-control/style.scss
+wooplug-6171-delete-never-customized-email-posts
 word-jaccard-inline.2.update.sqlpp
 word-jaccard.2.update.sqlpp
 word-tokens_01.2.update.sqlpp
@@ -178230,7 +178239,6 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
-wp-content/uploads/http://european-union.europa.eu/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments

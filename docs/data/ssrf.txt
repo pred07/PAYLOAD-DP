@@ -15791,6 +15791,7 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
+http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -19007,6 +19008,7 @@ internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 internal/admin/emailpreview/emailpreviewtest.php
 internal/admin/emailpreview/previeworder.php
 internal/admin/emails/emaillistingrestcontroller.php
+internal/admin/emails/emaillistingrestcontrollertest.php
 internal/admin/events.php
 internal/admin/featureplugin.php
 internal/admin/featureplugintest.php
@@ -19650,6 +19652,7 @@ internal/emaileditor/emailtemplates/templateapicontrollertest.php
 internal/emaileditor/emailtemplates/templatescontroller.php
 internal/emaileditor/emailtemplates/wooemailtemplate.php
 internal/emaileditor/integration.php
+internal/emaileditor/integrationtest.php
 internal/emaileditor/logger.php
 internal/emaileditor/package.php
 internal/emaileditor/pagerenderer.php
@@ -19666,6 +19669,9 @@ internal/emaileditor/wctransactionalemails/fixtures/block/test-fallback.php
 internal/emaileditor/wctransactionalemails/fixtures/block/third-party-with-version.php
 internal/emaileditor/wctransactionalemails/fixtures/block/third-party-without-version.php
 internal/emaileditor/wctransactionalemails/fixtures/plain/test-fallback.php
+internal/emaileditor/wctransactionalemails/wcemailpostscleanup.php
+internal/emaileditor/wctransactionalemails/wcemailpostscleanuptest.php
+internal/emaileditor/wctransactionalemails/wcemailscratchpadrefresher.php
 internal/emaileditor/wctransactionalemails/wcemailtemplateautoapplier.php
 internal/emaileditor/wctransactionalemails/wcemailtemplateautoappliertest.php
 internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummary.php
@@ -46615,6 +46621,7 @@ php/src/internal/admin/blocktemplates/customblocktemplatetest.php
 php/src/internal/admin/blocktemplates/customblocktest.php
 php/src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 php/src/internal/admin/emailpreview/emailpreviewtest.php
+php/src/internal/admin/emails/emaillistingrestcontrollertest.php
 php/src/internal/admin/featureplugintest.php
 php/src/internal/admin/loadertest.php
 php/src/internal/admin/logging/filev2/filecontrollertest.php
@@ -46898,11 +46905,13 @@ php/src/internal/emaileditor/blockemailrenderertest.php
 php/src/internal/emaileditor/emailapicontrollertest.php
 php/src/internal/emaileditor/emailstub.php
 php/src/internal/emaileditor/emailtemplates/templateapicontrollertest.php
+php/src/internal/emaileditor/integrationtest.php
 php/src/internal/emaileditor/transactionalemailpersonalizertest.php
 php/src/internal/emaileditor/wctransactionalemails/fixtures/block/test-fallback.php
 php/src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-with-version.php
 php/src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-without-version.php
 php/src/internal/emaileditor/wctransactionalemails/fixtures/plain/test-fallback.php
+php/src/internal/emaileditor/wctransactionalemails/wcemailpostscleanuptest.php
 php/src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoappliertest.php
 php/src/internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummarytest.php
 php/src/internal/emaileditor/wctransactionalemails/wcemailtemplatedivergencedetectortest.php
@@ -48345,6 +48354,8 @@ plugins/woocommerce/src/internal/emaileditor/personalizationtags/sitetagsprovide
 plugins/woocommerce/src/internal/emaileditor/personalizationtags/storetagsprovider.php
 plugins/woocommerce/src/internal/emaileditor/personalizationtags/unsubscribetagsprovider.php
 plugins/woocommerce/src/internal/emaileditor/transactionalemailpersonalizer.php
+plugins/woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailpostscleanup.php
+plugins/woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailscratchpadrefresher.php
 plugins/woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoapplier.php
 plugins/woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummary.php
 plugins/woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplatedivergencedetector.php
@@ -48640,6 +48651,7 @@ plugins/woocommerce/tests/php/src/internal/admin/agentic/agenticwebhookmanagerte
 plugins/woocommerce/tests/php/src/internal/admin/agentic/agenticwebhookpayloadbuildertest.php
 plugins/woocommerce/tests/php/src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 plugins/woocommerce/tests/php/src/internal/admin/emailpreview/emailpreviewtest.php
+plugins/woocommerce/tests/php/src/internal/admin/emails/emaillistingrestcontrollertest.php
 plugins/woocommerce/tests/php/src/internal/admin/featureplugintest.php
 plugins/woocommerce/tests/php/src/internal/admin/loadertest.php
 plugins/woocommerce/tests/php/src/internal/admin/logging/filev2/filecontrollertest.php
@@ -48923,11 +48935,13 @@ plugins/woocommerce/tests/php/src/internal/emaileditor/blockemailrenderertest.ph
 plugins/woocommerce/tests/php/src/internal/emaileditor/emailapicontrollertest.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/emailstub.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/emailtemplates/templateapicontrollertest.php
+plugins/woocommerce/tests/php/src/internal/emaileditor/integrationtest.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/transactionalemailpersonalizertest.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/block/test-fallback.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-with-version.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-without-version.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/plain/test-fallback.php
+plugins/woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wcemailpostscleanuptest.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoappliertest.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummarytest.php
 plugins/woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wcemailtemplatedivergencedetectortest.php
@@ -52132,6 +52146,7 @@ src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 src/internal/admin/emailpreview/emailpreviewtest.php
 src/internal/admin/emailpreview/previeworder.php
 src/internal/admin/emails/emaillistingrestcontroller.php
+src/internal/admin/emails/emaillistingrestcontrollertest.php
 src/internal/admin/events.php
 src/internal/admin/featureplugin.php
 src/internal/admin/featureplugintest.php
@@ -52731,6 +52746,7 @@ src/internal/emaileditor/emailtemplates/templateapicontrollertest.php
 src/internal/emaileditor/emailtemplates/templatescontroller.php
 src/internal/emaileditor/emailtemplates/wooemailtemplate.php
 src/internal/emaileditor/integration.php
+src/internal/emaileditor/integrationtest.php
 src/internal/emaileditor/logger.php
 src/internal/emaileditor/package.php
 src/internal/emaileditor/pagerenderer.php
@@ -52747,6 +52763,9 @@ src/internal/emaileditor/wctransactionalemails/fixtures/block/test-fallback.php
 src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-with-version.php
 src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-without-version.php
 src/internal/emaileditor/wctransactionalemails/fixtures/plain/test-fallback.php
+src/internal/emaileditor/wctransactionalemails/wcemailpostscleanup.php
+src/internal/emaileditor/wctransactionalemails/wcemailpostscleanuptest.php
+src/internal/emaileditor/wctransactionalemails/wcemailscratchpadrefresher.php
 src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoapplier.php
 src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoappliertest.php
 src/internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummary.php
@@ -54790,6 +54809,7 @@ tests/php/src/internal/admin/blocktemplates/customblocktemplatetest.php
 tests/php/src/internal/admin/blocktemplates/customblocktest.php
 tests/php/src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 tests/php/src/internal/admin/emailpreview/emailpreviewtest.php
+tests/php/src/internal/admin/emails/emaillistingrestcontrollertest.php
 tests/php/src/internal/admin/featureplugintest.php
 tests/php/src/internal/admin/loadertest.php
 tests/php/src/internal/admin/logging/filev2/filecontrollertest.php
@@ -55073,11 +55093,13 @@ tests/php/src/internal/emaileditor/blockemailrenderertest.php
 tests/php/src/internal/emaileditor/emailapicontrollertest.php
 tests/php/src/internal/emaileditor/emailstub.php
 tests/php/src/internal/emaileditor/emailtemplates/templateapicontrollertest.php
+tests/php/src/internal/emaileditor/integrationtest.php
 tests/php/src/internal/emaileditor/transactionalemailpersonalizertest.php
 tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/block/test-fallback.php
 tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-with-version.php
 tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-without-version.php
 tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/plain/test-fallback.php
+tests/php/src/internal/emaileditor/wctransactionalemails/wcemailpostscleanuptest.php
 tests/php/src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoappliertest.php
 tests/php/src/internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummarytest.php
 tests/php/src/internal/emaileditor/wctransactionalemails/wcemailtemplatedivergencedetectortest.php
@@ -58541,6 +58563,8 @@ woocommerce/src/internal/emaileditor/personalizationtags/sitetagsprovider.php
 woocommerce/src/internal/emaileditor/personalizationtags/storetagsprovider.php
 woocommerce/src/internal/emaileditor/personalizationtags/unsubscribetagsprovider.php
 woocommerce/src/internal/emaileditor/transactionalemailpersonalizer.php
+woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailpostscleanup.php
+woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailscratchpadrefresher.php
 woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoapplier.php
 woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummary.php
 woocommerce/src/internal/emaileditor/wctransactionalemails/wcemailtemplatedivergencedetector.php
@@ -58843,6 +58867,7 @@ woocommerce/tests/php/src/internal/admin/agentic/agenticwebhookmanagertest.php
 woocommerce/tests/php/src/internal/admin/agentic/agenticwebhookpayloadbuildertest.php
 woocommerce/tests/php/src/internal/admin/emailpreview/emailpreviewrestcontrollertest.php
 woocommerce/tests/php/src/internal/admin/emailpreview/emailpreviewtest.php
+woocommerce/tests/php/src/internal/admin/emails/emaillistingrestcontrollertest.php
 woocommerce/tests/php/src/internal/admin/featureplugintest.php
 woocommerce/tests/php/src/internal/admin/loadertest.php
 woocommerce/tests/php/src/internal/admin/logging/filev2/filecontrollertest.php
@@ -59126,11 +59151,13 @@ woocommerce/tests/php/src/internal/emaileditor/blockemailrenderertest.php
 woocommerce/tests/php/src/internal/emaileditor/emailapicontrollertest.php
 woocommerce/tests/php/src/internal/emaileditor/emailstub.php
 woocommerce/tests/php/src/internal/emaileditor/emailtemplates/templateapicontrollertest.php
+woocommerce/tests/php/src/internal/emaileditor/integrationtest.php
 woocommerce/tests/php/src/internal/emaileditor/transactionalemailpersonalizertest.php
 woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/block/test-fallback.php
 woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-with-version.php
 woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/block/third-party-without-version.php
 woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/fixtures/plain/test-fallback.php
+woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wcemailpostscleanuptest.php
 woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wcemailtemplateautoappliertest.php
 woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wcemailtemplatechangesummarytest.php
 woocommerce/tests/php/src/internal/emaileditor/wctransactionalemails/wcemailtemplatedivergencedetectortest.php
@@ -59791,7 +59818,6 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://native-instruments.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
