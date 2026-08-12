@@ -69511,6 +69511,7 @@ blueprint/changelog/57935-update-blueprint-docs
 blueprint/changelog/58792-update-blueprint-doc-exporter-ui
 blueprint/changelog/61753-fix-support-composer-update
 blueprint/changelog/update-blueprint-require-permission-exporters-api
+blueprint/changelog/update-php-dev-dependency-security-patches
 blueprint/changelog/update-wpcs-3-4-1
 blueprint/changelog/woo6-97-update-runsql-trust-boundary-docs
 bluesunion
@@ -72839,11 +72840,13 @@ changelog/tweak-searchable-chip-select-spacing
 changelog/tweak-select-tree-2
 changelog/update-59804
 changelog/update-abrev-global-unique-id
+changelog/update-action-scheduler-via-automation
 changelog/update-adopt-wpds-components
 changelog/update-always-show-sale-price
 changelog/update-back-button-wp71
 changelog/update-blueprint-require-permission-exporters-api
 changelog/update-branding-updates-to-woocommerce
+changelog/update-catalog-sorting-content-width
 changelog/update-categories-remove-description
 changelog/update-coding-guidelines-css-logical-properties-over-physical-ones
 changelog/update-create-shipping-classes-optimistically
@@ -72875,6 +72878,8 @@ changelog/update-order-withdrawal-doc-link
 changelog/update-order-withdrawal-notice-copy
 changelog/update-pay-506-always-show-payment-radio
 changelog/update-pft-populate-template-selector
+changelog/update-php-dev-dependency-security-patches
+changelog/update-plugin-directory-screenshots
 changelog/update-pnpm-10-upgrade
 changelog/update-populate-attribute-terms-optimistically
 changelog/update-product-attribute-types
@@ -78217,7 +78222,6 @@ core/core/server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gift-lin
 core/core/server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 core/core/server/data/migrations/versions/6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 core/core/server/run-update-check.js
-core/core/server/services/email-analytics/jobs/update-member-email-analytics/index.js
 core/core/server/services/members/emails/update-email.js
 core/core/server/services/update-check/index.js
 core/core/server/services/update-check/run-update-check.js
@@ -92155,6 +92159,7 @@ email-editor-integration/update-banner.scss
 email-editor-integration/update-banner.tsx
 email-editor/changelog/update-back-button-wp71
 email-editor/changelog/update-disable-responsive-editing
+email-editor/changelog/update-php-dev-dependency-security-patches
 email-editor/src/components/template-select/async.ts
 email-editor/src/components/template-select/index.ts
 email-editor/src/components/template-select/select-modal.tsx
@@ -99746,7 +99751,6 @@ ghost/core/core/server/data/migrations/versions/6.48/2026-06-23-00-00-00-drop-gi
 ghost/core/core/server/data/migrations/versions/6.48/2026-06-24-00-00-00-drop-gift-links-redemption-columns.js
 ghost/core/core/server/data/migrations/versions/6.54/2026-07-20-13-59-21-drop-email-tracked-sent-count-from-automation-action-revisions.js
 ghost/core/core/server/run-update-check.js
-ghost/core/core/server/services/email-analytics/jobs/update-member-email-analytics/index.js
 ghost/core/core/server/services/members/emails/update-email.js
 ghost/core/core/server/services/update-check/index.js
 ghost/core/core/server/services/update-check/run-update-check.js
@@ -123008,10 +123012,14 @@ packages/php/blueprint/changelog/57935-update-blueprint-docs
 packages/php/blueprint/changelog/58792-update-blueprint-doc-exporter-ui
 packages/php/blueprint/changelog/61753-fix-support-composer-update
 packages/php/blueprint/changelog/update-blueprint-require-permission-exporters-api
+packages/php/blueprint/changelog/update-php-dev-dependency-security-patches
 packages/php/blueprint/changelog/update-wpcs-3-4-1
 packages/php/blueprint/changelog/woo6-97-update-runsql-trust-boundary-docs
+packages/php/email-editor/changelog/update-php-dev-dependency-security-patches
 packages/php/remote-specs-validation/changelog/dev-ci-lint-monorepo-job-update
+packages/php/woocommerce-analytics/changelog/update-php-dev-dependency-security-patches
 packages/php/woocommerce-analytics/changelog/update-wpcs-3-4-1
+packages/php/woocommerce-subscriptions-engine/changelog/update-php-dev-dependency-security-patches
 packages/php/woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
 packages/php/woocommerce-subscriptions-engine/changelog/update-wpcs-3-4-1
 packages/plugins/graphql/server/src/services/internals/types/delete-mutation-response.ts
@@ -124588,9 +124596,11 @@ php/blueprint/changelog/57935-update-blueprint-docs
 php/blueprint/changelog/58792-update-blueprint-doc-exporter-ui
 php/blueprint/changelog/61753-fix-support-composer-update
 php/blueprint/changelog/update-blueprint-require-permission-exporters-api
+php/blueprint/changelog/update-php-dev-dependency-security-patches
 php/blueprint/changelog/update-wpcs-3-4-1
 php/blueprint/changelog/woo6-97-update-runsql-trust-boundary-docs
 php/delete.php
+php/email-editor/changelog/update-php-dev-dependency-security-patches
 php/external/phpunit/extensions/database/operation/delete.php
 php/external/phpunit/extensions/database/operation/insert.php
 php/external/phpunit/extensions/database/operation/update.php
@@ -124610,7 +124620,9 @@ php/src/trangebuttom_9_delete.php
 php/src/userbuttom_9_delete.php
 php/update.php
 php/vendor/composer/autoload_files.php
+php/woocommerce-analytics/changelog/update-php-dev-dependency-security-patches
 php/woocommerce-analytics/changelog/update-wpcs-3-4-1
+php/woocommerce-subscriptions-engine/changelog/update-php-dev-dependency-security-patches
 php/woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
 php/woocommerce-subscriptions-engine/changelog/update-wpcs-3-4-1
 php_curl_exec()_url_is_controlled_by_user.xml
@@ -125545,6 +125557,7 @@ plugins/woocommerce-beta-tester/changelog/61753-fix-support-composer-update
 plugins/woocommerce-beta-tester/changelog/dev-add-note-drop-image-layout
 plugins/woocommerce-beta-tester/changelog/fix-beta-tester-delete-option-error
 plugins/woocommerce-beta-tester/changelog/update-migrate-reactify-feature-flag
+plugins/woocommerce-beta-tester/changelog/update-php-dev-dependency-security-patches
 plugins/woocommerce-beta-tester/changelog/update-pnpm-10-upgrade
 plugins/woocommerce-beta-tester/changelog/update-switch-version-button-location
 plugins/woocommerce-beta-tester/changelog/update-wp-68-packages
@@ -125558,6 +125571,8 @@ plugins/woocommerce/changelog/32085-prevent-product-search-deselect
 plugins/woocommerce/changelog/dev-66517-orders-meta-schema-union-coverage
 plugins/woocommerce/changelog/fix-51573-remove-sample-badge-on-product-update
 plugins/woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
+plugins/woocommerce/changelog/update-action-scheduler-via-automation
+plugins/woocommerce/changelog/update-catalog-sorting-content-width
 plugins/woocommerce/changelog/update-coding-guidelines-css-logical-properties-over-physical-ones
 plugins/woocommerce/changelog/update-deflag-commerce-recommendations
 plugins/woocommerce/changelog/update-deflag-launch-your-store
@@ -125570,6 +125585,8 @@ plugins/woocommerce/changelog/update-docs-for-conditional-functions
 plugins/woocommerce/changelog/update-order-withdrawal-doc-link
 plugins/woocommerce/changelog/update-order-withdrawal-notice-copy
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
+plugins/woocommerce/changelog/update-php-dev-dependency-security-patches
+plugins/woocommerce/changelog/update-plugin-directory-screenshots
 plugins/woocommerce/changelog/update-product-image-gallery-upgrade-notice-with-add-to-cart-with-options
 plugins/woocommerce/changelog/update-shipping-zone-method-save-action
 plugins/woocommerce/changelog/update-stabilize-order-withdrawal
@@ -163160,6 +163177,7 @@ update-acount
 update-acpi.sh
 update-acq-date.xml.erb
 update-acq-funding.xml.erb
+update-action-scheduler-via-automation
 update-activate
 update-activate-function-template.sql
 update-active
@@ -163642,6 +163660,7 @@ update-canary
 update-caption
 update-cart
 update-catalog
+update-catalog-sorting-content-width
 update-catalog.csv
 update-categories-remove-description
 update-category
@@ -166847,6 +166866,7 @@ update-pft-populate-template-selector
 update-ph
 update-phoenix-hbase-process.xml
 update-photo
+update-php-dev-dependency-security-patches
 update-php-parser.xml
 update-phr-docs.sql
 update-picture
@@ -166857,6 +166877,7 @@ update-planet_osm_line.sql
 update-planet_osm_point.sql
 update-planet_osm_polygon.sql
 update-plugin-config.xml
+update-plugin-directory-screenshots
 update-pnpm-10-upgrade
 update-po
 update-pod-k8s.sh
@@ -176544,6 +176565,7 @@ woocommerce-admin-update.php
 woocommerce-admin/db-updates/class-wc-tests-update-is-read-from-last-read.php
 woocommerce-all-price-update
 woocommerce-alter-inventory
+woocommerce-analytics/changelog/update-php-dev-dependency-security-patches
 woocommerce-analytics/changelog/update-wpcs-3-4-1
 woocommerce-beta-tester/api/admin-notes/delete-all-notes.php
 woocommerce-beta-tester/api/tools/delete-all-products.php
@@ -176552,6 +176574,7 @@ woocommerce-beta-tester/changelog/61753-fix-support-composer-update
 woocommerce-beta-tester/changelog/dev-add-note-drop-image-layout
 woocommerce-beta-tester/changelog/fix-beta-tester-delete-option-error
 woocommerce-beta-tester/changelog/update-migrate-reactify-feature-flag
+woocommerce-beta-tester/changelog/update-php-dev-dependency-security-patches
 woocommerce-beta-tester/changelog/update-pnpm-10-upgrade
 woocommerce-beta-tester/changelog/update-switch-version-button-location
 woocommerce-beta-tester/changelog/update-wp-68-packages
@@ -176566,6 +176589,7 @@ woocommerce-drop-down-cart-widget
 woocommerce-drop-shop
 woocommerce-local-pickup-time-select
 woocommerce-modified-files(copy-and-overwrite-default-after-install-or-update)(temp-solution).zip
+woocommerce-subscriptions-engine/changelog/update-php-dev-dependency-security-patches
 woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
 woocommerce-subscriptions-engine/changelog/update-wpcs-3-4-1
 woocommerce-update-1.4.php
@@ -176584,6 +176608,8 @@ woocommerce/changelog/32085-prevent-product-search-deselect
 woocommerce/changelog/dev-66517-orders-meta-schema-union-coverage
 woocommerce/changelog/fix-51573-remove-sample-badge-on-product-update
 woocommerce/changelog/testops-179-fix-product-delete-quick-delete-flake
+woocommerce/changelog/update-action-scheduler-via-automation
+woocommerce/changelog/update-catalog-sorting-content-width
 woocommerce/changelog/update-coding-guidelines-css-logical-properties-over-physical-ones
 woocommerce/changelog/update-deflag-commerce-recommendations
 woocommerce/changelog/update-deflag-launch-your-store
@@ -176596,6 +176622,8 @@ woocommerce/changelog/update-docs-for-conditional-functions
 woocommerce/changelog/update-order-withdrawal-doc-link
 woocommerce/changelog/update-order-withdrawal-notice-copy
 woocommerce/changelog/update-pay-506-always-show-payment-radio
+woocommerce/changelog/update-php-dev-dependency-security-patches
+woocommerce/changelog/update-plugin-directory-screenshots
 woocommerce/changelog/update-product-image-gallery-upgrade-notice-with-add-to-cart-with-options
 woocommerce/changelog/update-shipping-zone-method-save-action
 woocommerce/changelog/update-stabilize-order-withdrawal

@@ -219,6 +219,7 @@ $sitepreview/localhost:2006/wizard/
 .agents/skills/convert-internal-package-to-typescript/references/history-and-verification.md
 .agents/skills/convert-internal-package-to-typescript/skill.md
 .agents/skills/migrate-internal-package/references/history-and-merge.md
+.agents/skills/migrate-internal-package/references/legacy-integration.md
 .agents/skills/migrate-internal-package/scripts/merge-history-pr
 .agents/skills/migrate-internal-package/skill.md
 .changeset/add-context-internal.md
@@ -5353,7 +5354,6 @@ api/internal/
 api/internal/*/location
 api/internal//auth/user
 api/internal/_analytics/publish_event
-api/internal/_bb
 api/internal/_bb/bigbingo/mark_conversions
 api/internal/_bb/page_perf_log
 api/internal/account/
@@ -19236,7 +19236,9 @@ internal/admin/systemstatusreporttest.php
 internal/admin/taxsettingsrecommendations.php
 internal/admin/taxsettingsrecommendationstest.php
 internal/admin/translations.php
+internal/admin/translationstest.php
 internal/admin/wcadminassets.php
+internal/admin/wcadminassetstest.php
 internal/admin/wcadminsharedsettings.php
 internal/admin/wcadminuser.php
 internal/admin/wcpaypromotion/defaultpromotions.php
@@ -36999,6 +37001,7 @@ microsoft.visualstudio.utilities.internal.dll
 microsoft.windowsazure.internal.runtimeserver.dll
 microsoftinternalmishandlingsecurity
 migrate-internal-package/references/history-and-merge.md
+migrate-internal-package/references/legacy-integration.md
 migrate-internal-package/scripts/merge-history-pr
 migrate-internal-package/skill.md
 migrate/20170123000001_ui_ticket_zoom_article_new_internal.rb
@@ -46698,6 +46701,8 @@ php/src/internal/admin/suggestions/paymentsextensionsuggestionincentivestest.php
 php/src/internal/admin/suggestions/paymentsextensionsuggestionstest.php
 php/src/internal/admin/systemstatusreporttest.php
 php/src/internal/admin/taxsettingsrecommendationstest.php
+php/src/internal/admin/translationstest.php
+php/src/internal/admin/wcadminassetstest.php
 php/src/internal/admin/wcpaypromotion/defaultpromotionstest.php
 php/src/internal/admin/wcpaypromotion/inittest.php
 php/src/internal/api/authorizationattributetest.php
@@ -47071,6 +47076,9 @@ php/src/internal/variationgallery/legacyvariationgallerycompatibilitytest.php
 php/src/internal/variationgallery/migrationtest.php
 php/src/internal/variationgallery/packagetest.php
 php/src/internal/wccom/connectionhelpertest.php
+phpcs/woocommerceinternal/ruleset.xml
+phpcs/woocommerceinternal/sniffs/db/identifierplaceholdersniff.php
+phpcs/woocommerceinternal/tests/db/identifierplaceholderunittest.inc
 phpgwapi/js/fckeditor/editor/_source/internals
 phpinternalsbook-com
 phpmyadmin.internal
@@ -48731,6 +48739,8 @@ plugins/woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsu
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionstest.php
 plugins/woocommerce/tests/php/src/internal/admin/systemstatusreporttest.php
 plugins/woocommerce/tests/php/src/internal/admin/taxsettingsrecommendationstest.php
+plugins/woocommerce/tests/php/src/internal/admin/translationstest.php
+plugins/woocommerce/tests/php/src/internal/admin/wcadminassetstest.php
 plugins/woocommerce/tests/php/src/internal/admin/wcpaypromotion/defaultpromotionstest.php
 plugins/woocommerce/tests/php/src/internal/admin/wcpaypromotion/inittest.php
 plugins/woocommerce/tests/php/src/internal/api/authorizationattributetest.php
@@ -49103,6 +49113,9 @@ plugins/woocommerce/tests/php/src/internal/variationgallery/legacyvariationgalle
 plugins/woocommerce/tests/php/src/internal/variationgallery/migrationtest.php
 plugins/woocommerce/tests/php/src/internal/variationgallery/packagetest.php
 plugins/woocommerce/tests/php/src/internal/wccom/connectionhelpertest.php
+plugins/woocommerce/tests/tools/phpcs/woocommerceinternal/ruleset.xml
+plugins/woocommerce/tests/tools/phpcs/woocommerceinternal/sniffs/db/identifierplaceholdersniff.php
+plugins/woocommerce/tests/tools/phpcs/woocommerceinternal/tests/db/identifierplaceholderunittest.inc
 plugins/wordpress-seo/inc/options/class-wpseo-option-internallinks.php
 pluralsightkubernetesapep-dns-06be5c2b
 plus/fckeditor/editor/_source/internals
@@ -51127,6 +51140,7 @@ skerrorinternals.h
 skills/convert-internal-package-to-typescript/references/history-and-verification.md
 skills/convert-internal-package-to-typescript/skill.md
 skills/migrate-internal-package/references/history-and-merge.md
+skills/migrate-internal-package/references/legacy-integration.md
 skills/migrate-internal-package/scripts/merge-history-pr
 skills/migrate-internal-package/skill.md
 skinfra-internal
@@ -52385,7 +52399,9 @@ src/internal/admin/systemstatusreporttest.php
 src/internal/admin/taxsettingsrecommendations.php
 src/internal/admin/taxsettingsrecommendationstest.php
 src/internal/admin/translations.php
+src/internal/admin/translationstest.php
 src/internal/admin/wcadminassets.php
+src/internal/admin/wcadminassetstest.php
 src/internal/admin/wcadminsharedsettings.php
 src/internal/admin/wcadminuser.php
 src/internal/admin/wcpaypromotion/defaultpromotions.php
@@ -54900,6 +54916,8 @@ tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionincentiveste
 tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionstest.php
 tests/php/src/internal/admin/systemstatusreporttest.php
 tests/php/src/internal/admin/taxsettingsrecommendationstest.php
+tests/php/src/internal/admin/translationstest.php
+tests/php/src/internal/admin/wcadminassetstest.php
 tests/php/src/internal/admin/wcpaypromotion/defaultpromotionstest.php
 tests/php/src/internal/admin/wcpaypromotion/inittest.php
 tests/php/src/internal/api/authorizationattributetest.php
@@ -55280,6 +55298,9 @@ tests/src/kernel/plugin/ckeditorplugin/internaltest.php
 tests/src/unit/normalizer/internaltypeddatatesttrait.php
 tests/src/unit/plugin/validation/constraint/linknotexistinginternalconstraintvalidatortest.php
 tests/test/internalintegrationcasefactory.php
+tests/tools/phpcs/woocommerceinternal/ruleset.xml
+tests/tools/phpcs/woocommerceinternal/sniffs/db/identifierplaceholdersniff.php
+tests/tools/phpcs/woocommerceinternal/tests/db/identifierplaceholderunittest.inc
 tests/ui/campaigns/functional/api/01_clientcredentialgrantflow/01_internalauthserver/01_authorizationendpoint.ts
 tests/ui/campaigns/functional/api/01_clientcredentialgrantflow/01_internalauthserver/02_resourceendpoint.ts
 tests/unit/core/devops/docs/script/_fixtures/internalservice.php
@@ -55788,6 +55809,9 @@ tomo-ms-testing-kubernetes-dns-2e86f15b
 toolmanager-internal
 tools-internal
 tools/editer/fck/editor/_source/internals
+tools/phpcs/woocommerceinternal/ruleset.xml
+tools/phpcs/woocommerceinternal/sniffs/db/identifierplaceholdersniff.php
+tools/phpcs/woocommerceinternal/tests/db/identifierplaceholderunittest.inc
 tools/projectgenerator/smarty/internals/core.assemble_plugin_filepath.php
 tools/projectgenerator/smarty/internals/core.assign_smarty_interface.php
 tools/projectgenerator/smarty/internals/core.create_dir_structure.php
@@ -58958,6 +58982,8 @@ woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsuggestion
 woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionstest.php
 woocommerce/tests/php/src/internal/admin/systemstatusreporttest.php
 woocommerce/tests/php/src/internal/admin/taxsettingsrecommendationstest.php
+woocommerce/tests/php/src/internal/admin/translationstest.php
+woocommerce/tests/php/src/internal/admin/wcadminassetstest.php
 woocommerce/tests/php/src/internal/admin/wcpaypromotion/defaultpromotionstest.php
 woocommerce/tests/php/src/internal/admin/wcpaypromotion/inittest.php
 woocommerce/tests/php/src/internal/api/authorizationattributetest.php
@@ -59331,6 +59357,12 @@ woocommerce/tests/php/src/internal/variationgallery/legacyvariationgallerycompat
 woocommerce/tests/php/src/internal/variationgallery/migrationtest.php
 woocommerce/tests/php/src/internal/variationgallery/packagetest.php
 woocommerce/tests/php/src/internal/wccom/connectionhelpertest.php
+woocommerce/tests/tools/phpcs/woocommerceinternal/ruleset.xml
+woocommerce/tests/tools/phpcs/woocommerceinternal/sniffs/db/identifierplaceholdersniff.php
+woocommerce/tests/tools/phpcs/woocommerceinternal/tests/db/identifierplaceholderunittest.inc
+woocommerceinternal/ruleset.xml
+woocommerceinternal/sniffs/db/identifierplaceholdersniff.php
+woocommerceinternal/tests/db/identifierplaceholderunittest.inc
 wordcountstream-wordcountstream_2.10-compile-internal.xml
 wordcountstream-wordcountstream_2.10-runtime-internal.xml
 wordcountstream-wordcountstream_2.10-test-internal.xml
@@ -59850,7 +59882,6 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://readymag.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
