@@ -15807,6 +15807,7 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
+http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -19221,6 +19222,7 @@ internal/admin/shippinglabelbannerdisplayrules.php
 internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 internal/admin/sitehealth.php
 internal/admin/sitehealthtest.php
+internal/admin/suggestions/fixtures/expected-country-placements.php
 internal/admin/suggestions/incentives/incentive.php
 internal/admin/suggestions/incentives/incentivetest.php
 internal/admin/suggestions/incentives/woopayments.php
@@ -19229,6 +19231,7 @@ internal/admin/suggestions/mocks/fakeincentive.php
 internal/admin/suggestions/paymentsextensionsuggestionincentives.php
 internal/admin/suggestions/paymentsextensionsuggestionincentivestest.php
 internal/admin/suggestions/paymentsextensionsuggestions.php
+internal/admin/suggestions/paymentsextensionsuggestionscountryplacementtest.php
 internal/admin/suggestions/paymentsextensionsuggestionstest.php
 internal/admin/survey.php
 internal/admin/systemstatusreport.php
@@ -46694,10 +46697,12 @@ php/src/internal/admin/settings/utilstest.php
 php/src/internal/admin/settingstest.php
 php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 php/src/internal/admin/sitehealthtest.php
+php/src/internal/admin/suggestions/fixtures/expected-country-placements.php
 php/src/internal/admin/suggestions/incentives/incentivetest.php
 php/src/internal/admin/suggestions/incentives/woopaymentstest.php
 php/src/internal/admin/suggestions/mocks/fakeincentive.php
 php/src/internal/admin/suggestions/paymentsextensionsuggestionincentivestest.php
+php/src/internal/admin/suggestions/paymentsextensionsuggestionscountryplacementtest.php
 php/src/internal/admin/suggestions/paymentsextensionsuggestionstest.php
 php/src/internal/admin/systemstatusreporttest.php
 php/src/internal/admin/taxsettingsrecommendationstest.php
@@ -48732,10 +48737,12 @@ plugins/woocommerce/tests/php/src/internal/admin/settings/utilstest.php
 plugins/woocommerce/tests/php/src/internal/admin/settingstest.php
 plugins/woocommerce/tests/php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 plugins/woocommerce/tests/php/src/internal/admin/sitehealthtest.php
+plugins/woocommerce/tests/php/src/internal/admin/suggestions/fixtures/expected-country-placements.php
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/incentives/incentivetest.php
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/incentives/woopaymentstest.php
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/mocks/fakeincentive.php
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionincentivestest.php
+plugins/woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionscountryplacementtest.php
 plugins/woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionstest.php
 plugins/woocommerce/tests/php/src/internal/admin/systemstatusreporttest.php
 plugins/woocommerce/tests/php/src/internal/admin/taxsettingsrecommendationstest.php
@@ -49291,6 +49298,7 @@ preferencesinternal-cache-data-proxy-vpn
 preferencesinternalgateway
 premise/front/getpingdata?url=http://0.0.0.0:9600/sm/api/v1/firewall/zone/services?zone=;/usr/bin/id;
 premista-internal
+premium/http://s3.amazonaws.com/robots.txt
 prepareinternalpurchaseorder
 prepopulatesql_applicationinformation_dc_localhost443.sql
 prepopulatesql_applicationinformation_dc_localhost8080.sql
@@ -52384,6 +52392,7 @@ src/internal/admin/shippinglabelbannerdisplayrules.php
 src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 src/internal/admin/sitehealth.php
 src/internal/admin/sitehealthtest.php
+src/internal/admin/suggestions/fixtures/expected-country-placements.php
 src/internal/admin/suggestions/incentives/incentive.php
 src/internal/admin/suggestions/incentives/incentivetest.php
 src/internal/admin/suggestions/incentives/woopayments.php
@@ -52392,6 +52401,7 @@ src/internal/admin/suggestions/mocks/fakeincentive.php
 src/internal/admin/suggestions/paymentsextensionsuggestionincentives.php
 src/internal/admin/suggestions/paymentsextensionsuggestionincentivestest.php
 src/internal/admin/suggestions/paymentsextensionsuggestions.php
+src/internal/admin/suggestions/paymentsextensionsuggestionscountryplacementtest.php
 src/internal/admin/suggestions/paymentsextensionsuggestionstest.php
 src/internal/admin/survey.php
 src/internal/admin/systemstatusreport.php
@@ -54909,10 +54919,12 @@ tests/php/src/internal/admin/settings/utilstest.php
 tests/php/src/internal/admin/settingstest.php
 tests/php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 tests/php/src/internal/admin/sitehealthtest.php
+tests/php/src/internal/admin/suggestions/fixtures/expected-country-placements.php
 tests/php/src/internal/admin/suggestions/incentives/incentivetest.php
 tests/php/src/internal/admin/suggestions/incentives/woopaymentstest.php
 tests/php/src/internal/admin/suggestions/mocks/fakeincentive.php
 tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionincentivestest.php
+tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionscountryplacementtest.php
 tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionstest.php
 tests/php/src/internal/admin/systemstatusreporttest.php
 tests/php/src/internal/admin/taxsettingsrecommendationstest.php
@@ -58975,10 +58987,12 @@ woocommerce/tests/php/src/internal/admin/settings/utilstest.php
 woocommerce/tests/php/src/internal/admin/settingstest.php
 woocommerce/tests/php/src/internal/admin/shippingpartnersuggestions/shippingpartnersuggestionstest.php
 woocommerce/tests/php/src/internal/admin/sitehealthtest.php
+woocommerce/tests/php/src/internal/admin/suggestions/fixtures/expected-country-placements.php
 woocommerce/tests/php/src/internal/admin/suggestions/incentives/incentivetest.php
 woocommerce/tests/php/src/internal/admin/suggestions/incentives/woopaymentstest.php
 woocommerce/tests/php/src/internal/admin/suggestions/mocks/fakeincentive.php
 woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionincentivestest.php
+woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionscountryplacementtest.php
 woocommerce/tests/php/src/internal/admin/suggestions/paymentsextensionsuggestionstest.php
 woocommerce/tests/php/src/internal/admin/systemstatusreporttest.php
 woocommerce/tests/php/src/internal/admin/taxsettingsrecommendationstest.php
@@ -59882,6 +59896,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
+zh/internalhttp://steelcase.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php

@@ -2456,6 +2456,7 @@ app/code/magento/cataloggraphql/model/resolver/rootcategoryid.php
 app/code/magento/cataloggraphql/model/resolver/rootcategoryuid.php
 app/code/magento/cataloggraphql/observer/afterimportdataobserver.php
 app/code/magento/cataloggraphql/plugin/availableproductsfilter.php
+app/code/magento/cataloggraphql/plugin/dataprovider/product/searchcriteriabuilderplugin.php
 app/code/magento/cataloggraphql/plugin/designloader.php
 app/code/magento/cataloggraphql/plugin/productattributesortinput.php
 app/code/magento/cataloggraphql/plugin/search/request/configreader.php
@@ -2475,6 +2476,7 @@ app/code/magento/cataloggraphql/test/unit/model/resolver/product/productcategori
 app/code/magento/cataloggraphql/test/unit/model/resolver/product/productcustomattributestest.php
 app/code/magento/cataloggraphql/test/unit/model/resolver/products/query/searchtest.php
 app/code/magento/cataloggraphql/test/unit/model/resolver/products/searchcriteria/collectionprocessor/filterprocessor/categoryfiltertest.php
+app/code/magento/cataloggraphql/test/unit/plugin/dataprovider/product/searchcriteriabuilderplugintest.php
 app/code/magento/cataloginventorygraphql/composer.json
 app/code/magento/cataloginventorygraphql/etc/graphql/di.xml
 app/code/magento/cataloginventorygraphql/etc/module.xml
@@ -5557,6 +5559,7 @@ cataloggraphql/model/resolver/rootcategoryid.php
 cataloggraphql/model/resolver/rootcategoryuid.php
 cataloggraphql/observer/afterimportdataobserver.php
 cataloggraphql/plugin/availableproductsfilter.php
+cataloggraphql/plugin/dataprovider/product/searchcriteriabuilderplugin.php
 cataloggraphql/plugin/designloader.php
 cataloggraphql/plugin/productattributesortinput.php
 cataloggraphql/plugin/search/request/configreader.php
@@ -5579,6 +5582,7 @@ cataloggraphql/test/unit/model/resolver/product/productcategoriestest.php
 cataloggraphql/test/unit/model/resolver/product/productcustomattributestest.php
 cataloggraphql/test/unit/model/resolver/products/query/searchtest.php
 cataloggraphql/test/unit/model/resolver/products/searchcriteria/collectionprocessor/filterprocessor/categoryfiltertest.php
+cataloggraphql/test/unit/plugin/dataprovider/product/searchcriteriabuilderplugintest.php
 cataloginventorygraphql/composer.json
 cataloginventorygraphql/etc/graphql/di.xml
 cataloginventorygraphql/etc/module.xml
@@ -5910,6 +5914,7 @@ code/magento/cataloggraphql/model/resolver/rootcategoryid.php
 code/magento/cataloggraphql/model/resolver/rootcategoryuid.php
 code/magento/cataloggraphql/observer/afterimportdataobserver.php
 code/magento/cataloggraphql/plugin/availableproductsfilter.php
+code/magento/cataloggraphql/plugin/dataprovider/product/searchcriteriabuilderplugin.php
 code/magento/cataloggraphql/plugin/designloader.php
 code/magento/cataloggraphql/plugin/productattributesortinput.php
 code/magento/cataloggraphql/plugin/search/request/configreader.php
@@ -5929,6 +5934,7 @@ code/magento/cataloggraphql/test/unit/model/resolver/product/productcategorieste
 code/magento/cataloggraphql/test/unit/model/resolver/product/productcustomattributestest.php
 code/magento/cataloggraphql/test/unit/model/resolver/products/query/searchtest.php
 code/magento/cataloggraphql/test/unit/model/resolver/products/searchcriteria/collectionprocessor/filterprocessor/categoryfiltertest.php
+code/magento/cataloggraphql/test/unit/plugin/dataprovider/product/searchcriteriabuilderplugintest.php
 code/magento/cataloginventorygraphql/composer.json
 code/magento/cataloginventorygraphql/etc/graphql/di.xml
 code/magento/cataloginventorygraphql/etc/module.xml
@@ -15934,6 +15940,7 @@ magento/cataloggraphql/model/resolver/rootcategoryid.php
 magento/cataloggraphql/model/resolver/rootcategoryuid.php
 magento/cataloggraphql/observer/afterimportdataobserver.php
 magento/cataloggraphql/plugin/availableproductsfilter.php
+magento/cataloggraphql/plugin/dataprovider/product/searchcriteriabuilderplugin.php
 magento/cataloggraphql/plugin/designloader.php
 magento/cataloggraphql/plugin/productattributesortinput.php
 magento/cataloggraphql/plugin/search/request/configreader.php
@@ -15953,6 +15960,7 @@ magento/cataloggraphql/test/unit/model/resolver/product/productcategoriestest.ph
 magento/cataloggraphql/test/unit/model/resolver/product/productcustomattributestest.php
 magento/cataloggraphql/test/unit/model/resolver/products/query/searchtest.php
 magento/cataloggraphql/test/unit/model/resolver/products/searchcriteria/collectionprocessor/filterprocessor/categoryfiltertest.php
+magento/cataloggraphql/test/unit/plugin/dataprovider/product/searchcriteriabuilderplugintest.php
 magento/cataloginventorygraphql/composer.json
 magento/cataloginventorygraphql/etc/graphql/di.xml
 magento/cataloginventorygraphql/etc/module.xml
