@@ -8712,6 +8712,8 @@ chatroom:127.0.0.1:1257|cristi
 cheat_internal.conf
 check internal only.xml
 check primers without sequence and internal.xml
+check-internal-packages.js
+check-internal-packages.test.js
 check-my-ride-check-my-ride_2.10-compile-internal.xml
 check-my-ride-check-my-ride_2.10-runtime-internal.xml
 check-my-ride-check-my-ride_2.10-test-internal.xml
@@ -10133,6 +10135,8 @@ core/framework/plugin/fixtures/bundleconfiggenerator/project/extensions/plugins/
 core/httpclient/exceptions/notallowedinternalhost.php
 core/httpclient/options/internalhostrestriction.php
 core/internal.md
+core/js/dist-typings/forum/utils/routeinternallinks.d.ts
+core/js/src/forum/utils/routeinternallinks.ts
 core/lib/drupal/core/field/internalviolation.php
 core/lib/drupal/core/typeddata/typeddatainternalpropertieshelper.php
 core/library/vendor/smarty/sysplugins/smarty_internal_cacheresource_file.php
@@ -10351,6 +10355,7 @@ core/templates/internalaltmail.php
 core/templates/internalmail.php
 core/templates/kimera/html/com_projects/projects/internal.php
 core/tests/drupal/tests/core/field/internalviolationtest.php
+core/tests/integration/formatter/internallinkstest.php
 core/txtcms/libs/template/smarty/sysplugins/smarty_internal_cacheresource_file.php
 core/txtcms/libs/template/smarty/sysplugins/smarty_internal_compile_append.php
 core/txtcms/libs/template/smarty/sysplugins/smarty_internal_compile_assign.php
@@ -10918,6 +10923,7 @@ ddcinternal-com
 dds_oci_tao-2_2_0_localhost_linux_gcc_d1o0.xml
 dds_oci_tao-2_2_0_localhost_win7_vc10_d1o0.xml
 de-de.plg_fabrik_element_internalid.sys.ini
+de-de/blog/how-we-secure-figmas-internal-systems-with-agents/$
 de.kcct.hi5.e4.handlers.internal.headlessentrypointhandlerfactory.xml
 de.kcct.hi5.e4.internal.e4equinoxapphandler.xml
 de.kcct.hi5.e4.internal.e4runtime.xml
@@ -12872,6 +12878,7 @@ diskinternals_uneraser
 diskstation.internal
 dispatchers/internalnotificationdispatcher.php
 dispatchers/internalnotificationdispatchertest.php
+dist-typings/forum/utils/routeinternallinks.d.ts
 distudiokubernetes-dns-45863660
 diverst-staging-kubernetes-e0b03724
 divi-kubernetes1-dev-dns-4c20b9ac
@@ -13946,9 +13953,11 @@ errorinternaltraining
 errorretrievedocumentsetresponseinternalpeperror.xml
 errors/internal.ts
 errors/src/errors/internal.ts
+es-es/blog/how-we-secure-figmas-internal-systems-with-agents/$
 es-internal
 es-internal-1
 es-internal-2
+es-la/blog/how-we-secure-figmas-internal-systems-with-agents/$
 es.internal
 es/es/product-finder/internal-hard-drives/
 es/internal
@@ -14810,6 +14819,7 @@ foreman.internal
 forgeinternaldnsapps
 forklorest-kubernetes-dns-81fbf667
 form/admin/sell/order/internalnotetype.php
+formatter/internallinkstest.php
 formmail.cgi?recipient=root@localhost%0acat%20/etc/passwd&email=joeuser@localhost&subject=test
 formmail.cgi?recipient=root@localhost%0acat%20{knownfile}&email=joeuser@localhost&subject=test
 formmail.cgi?recipient=root@localhost0acat20/etc/passwd&email=joeuser@localhost&subject=test
@@ -14822,6 +14832,8 @@ formmail?recipient=root@localhost%0acat%20/etc/passwd&email=joeuser@localhost&su
 formmail?recipient=root@localhost%0acat%20{knownfile}&email=joeuser@localhost&subject=test
 formmail?recipient=root@localhost0acat20/etc/passwd&email=joeuser@localhost&subject=test
 formmail?recipient=root@localhost0acat20{knownfile}&email=joeuser@localhost&subject=test
+forum/utils/routeinternallinks.d.ts
+forum/utils/routeinternallinks.ts
 forward_internal_ip_access.conf
 forwarded: for=127.0.0.1;proto=http;by=127.0.0.1
 fotl-ase-internal-prod-01
@@ -14856,6 +14868,7 @@ fpcheck-internal-api-dev
 fpcheck-internal-api-stg
 fpu-internal.h
 fr-fr.plg_fabrik_element_internalid.sys.ini
+fr-fr/blog/how-we-secure-figmas-internal-systems-with-agents/$
 fr/fr/product-finder/internal-hard-drives/
 fr/internal
 fr2-kubernetes-cluster-main-dns-4d16260b
@@ -14866,6 +14879,9 @@ fragment_internal_police_info.xml
 fragment_internal_storage.xml
 fragment_m2case3_internalstrorage.xml
 framework/api/serializer/fixtures/testinternalfieldsarefiltered.php
+framework/core/js/dist-typings/forum/utils/routeinternallinks.d.ts
+framework/core/js/src/forum/utils/routeinternallinks.ts
+framework/core/tests/integration/formatter/internallinkstest.php
 framework/deprecation/bcchange/becomesinternal.php
 framework/plugin/fixtures/bundleconfiggenerator/project/extensions/plugins/ignoredassets/resources/views/components/feature/node_modules/internal.ts
 framework/setup/declaration/schema/db/mysql/definition/constraints/internal.php
@@ -15807,7 +15823,6 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
-http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -17008,6 +17023,7 @@ integ-voltronbus-api-internal
 integration-mirth-internal
 integration.internal
 integration/core/framework/api/serializer/fixtures/testinternalfieldsarefiltered.php
+integration/formatter/internallinkstest.php
 integration/testsuite/magento/setup/console/command/_files/root/lib/internal/magento/framework/test/unit/view/element/uicomponentfactorytest.php
 integrations-internal
 integrationsbundle/event/internalcompanyevent.php
@@ -19056,6 +19072,8 @@ internal/admin/notes/editproductsonthemove.php
 internal/admin/notes/emailimprovements.php
 internal/admin/notes/euvatnumber.php
 internal/admin/notes/firstproduct.php
+internal/admin/notes/fullrefundfixdatatoolnotice.php
+internal/admin/notes/fullrefundfixdatatoolnoticetest.php
 internal/admin/notes/givingfeedbacknotes.php
 internal/admin/notes/installjpandwcsplugins.php
 internal/admin/notes/installjpandwcspluginstest.php
@@ -24721,6 +24739,7 @@ internal/traits/scriptdebug.php
 internal/transientfiles/readme.md
 internal/transientfiles/transientfilesengine.php
 internal/transientfiles/transientfilesenginetest.php
+internal/transientfiles/transientfilesteststreamwrapper.php
 internal/tsconfig.json
 internal/uid.ts
 internal/users.json
@@ -26078,6 +26097,7 @@ internallinks.xml
 internallinksteaser.xml
 internallinksteaserscompoundmixin.xml
 internallinksteasersmixin.xml
+internallinkstest.php
 internallms
 internallmsapi
 internalloadbalancer
@@ -28225,6 +28245,7 @@ jp/ja/product-finder/internal-hard-drives/
 jrc-geoportal-internal
 js-internal-link
 js/block-templates/changelog/dev-monorepo-internal-packages-linking-fixes
+js/dist-typings/forum/utils/routeinternallinks.d.ts
 js/internal-build/configs/tsconfig.json
 js/internal-build/eslint.config.mjs
 js/internal-build/package.json
@@ -28331,6 +28352,7 @@ js/internal-style-build/readme.md
 js/internal-style-build/style-asset-plugin.js
 js/product-editor/changelog/dev-monorepo-internal-packages-linking-fixes
 js/settings-editor/changelog/dev-monorepo-internal-packages-linking-fixes
+js/src/forum/utils/routeinternallinks.ts
 js_internal_link
 jscontextinternal.h
 jserv/status?module=127.0.0.1
@@ -28438,6 +28460,7 @@ km.apim.stage.oh-internal
 kmsat.internal
 knowledge_base/internal_assets.rb
 knowledge_base/internal_assets_spec.rb
+ko-kr/blog/how-we-secure-figmas-internal-systems-with-agents/$
 koenig-lexical/src/utils/isinternalurl.ts
 koenig-lexical/src/utils/lexical-internals.ts
 koenig/koenig-lexical/src/utils/isinternalurl.ts
@@ -46654,6 +46677,7 @@ php/src/internal/admin/logging/loghandlerfilev2test.php
 php/src/internal/admin/logging/pagecontrollertest.php
 php/src/internal/admin/logging/settingstest.php
 php/src/internal/admin/marketingrecommendations/inittest.php
+php/src/internal/admin/notes/fullrefundfixdatatoolnoticetest.php
 php/src/internal/admin/notes/installjpandwcspluginstest.php
 php/src/internal/admin/notes/scheduledupdatespromotiontest.php
 php/src/internal/admin/ordermilestoneeastereggtest.php
@@ -47066,6 +47090,7 @@ php/src/internal/tax/taxratedatastoretest.php
 php/src/internal/telemetry/telemetrycontrollertest.php
 php/src/internal/traits/restapicachetest.php
 php/src/internal/transientfiles/transientfilesenginetest.php
+php/src/internal/transientfiles/transientfilesteststreamwrapper.php
 php/src/internal/utilities/arrayutiltest.php
 php/src/internal/utilities/blocksutiltest.php
 php/src/internal/utilities/cotmigrationutiltest.php
@@ -48084,6 +48109,7 @@ plugins/woocommerce/src/internal/admin/notes/editproductsonthemove.php
 plugins/woocommerce/src/internal/admin/notes/emailimprovements.php
 plugins/woocommerce/src/internal/admin/notes/euvatnumber.php
 plugins/woocommerce/src/internal/admin/notes/firstproduct.php
+plugins/woocommerce/src/internal/admin/notes/fullrefundfixdatatoolnotice.php
 plugins/woocommerce/src/internal/admin/notes/givingfeedbacknotes.php
 plugins/woocommerce/src/internal/admin/notes/installjpandwcsplugins.php
 plugins/woocommerce/src/internal/admin/notes/launchchecklist.php
@@ -48694,6 +48720,7 @@ plugins/woocommerce/tests/php/src/internal/admin/logging/loghandlerfilev2test.ph
 plugins/woocommerce/tests/php/src/internal/admin/logging/pagecontrollertest.php
 plugins/woocommerce/tests/php/src/internal/admin/logging/settingstest.php
 plugins/woocommerce/tests/php/src/internal/admin/marketingrecommendations/inittest.php
+plugins/woocommerce/tests/php/src/internal/admin/notes/fullrefundfixdatatoolnoticetest.php
 plugins/woocommerce/tests/php/src/internal/admin/notes/installjpandwcspluginstest.php
 plugins/woocommerce/tests/php/src/internal/admin/notes/scheduledupdatespromotiontest.php
 plugins/woocommerce/tests/php/src/internal/admin/ordermilestoneeastereggtest.php
@@ -49105,6 +49132,7 @@ plugins/woocommerce/tests/php/src/internal/tax/taxratedatastoretest.php
 plugins/woocommerce/tests/php/src/internal/telemetry/telemetrycontrollertest.php
 plugins/woocommerce/tests/php/src/internal/traits/restapicachetest.php
 plugins/woocommerce/tests/php/src/internal/transientfiles/transientfilesenginetest.php
+plugins/woocommerce/tests/php/src/internal/transientfiles/transientfilesteststreamwrapper.php
 plugins/woocommerce/tests/php/src/internal/utilities/arrayutiltest.php
 plugins/woocommerce/tests/php/src/internal/utilities/blocksutiltest.php
 plugins/woocommerce/tests/php/src/internal/utilities/cotmigrationutiltest.php
@@ -49298,7 +49326,6 @@ preferencesinternal-cache-data-proxy-vpn
 preferencesinternalgateway
 premise/front/getpingdata?url=http://0.0.0.0:9600/sm/api/v1/firewall/zone/services?zone=;/usr/bin/id;
 premista-internal
-premium/http://s3.amazonaws.com/robots.txt
 prepareinternalpurchaseorder
 prepopulatesql_applicationinformation_dc_localhost443.sql
 prepopulatesql_applicationinformation_dc_localhost8080.sql
@@ -49536,6 +49563,7 @@ psychological,cerebral,cognitive,conceptive,conceptual,endopsychic,functional,in
 psychology/internal/coursesandmodules/modules
 psychology/internal/coursesandmodules/pgcourses
 psychology/internal/coursesandmodules/ugcourses
+pt-br/blog/how-we-secure-figmas-internal-systems-with-agents/$
 pt-pt.plg_fabrik_element_internalid.sys.ini
 pt/internal
 ptcc-internal
@@ -50448,6 +50476,8 @@ root@localhost root
 rootfs/opt/tomcat/webapps/fedora/jsp/internal-error-500.jsp
 roslyninternalkey.private.snk
 roslyninternalkey.public.snk
+routeinternallinks.d.ts
+routeinternallinks.ts
 router-internal-default
 router.internal
 rover-internal
@@ -50738,7 +50768,9 @@ scottcountykubernetes-dns-2ac494ae
 scribe.internal
 script/_fixtures/internalservice.php
 script/_fixtures/internalservice2.php
+scripts/check-internal-packages.js
 scripts/features/discussions/filters/selectinternalstatus.tsx
+scripts/test/check-internal-packages.test.js
 scriptsharp.internal.zipbuilder.dll
 scrm-kubernetes-dns-b0bfb3ca
 scroll_localhost.sql.zip
@@ -52113,6 +52145,7 @@ src/fields/filters/internal.ts
 src/fields/types/image/internal-utils.ts
 src/fixer/classnotation/finalinternalclassfixer.php
 src/fixer/phpunit/phpunitinternalclassfixer.php
+src/forum/utils/routeinternallinks.ts
 src/frapi/library/frapi/internal.php
 src/frapi/tests/mock/mockfrapi/internal.php
 src/frapi/tests/unit-tests/library/frapi/internaltest.php
@@ -52226,6 +52259,8 @@ src/internal/admin/notes/editproductsonthemove.php
 src/internal/admin/notes/emailimprovements.php
 src/internal/admin/notes/euvatnumber.php
 src/internal/admin/notes/firstproduct.php
+src/internal/admin/notes/fullrefundfixdatatoolnotice.php
+src/internal/admin/notes/fullrefundfixdatatoolnoticetest.php
 src/internal/admin/notes/givingfeedbacknotes.php
 src/internal/admin/notes/installjpandwcsplugins.php
 src/internal/admin/notes/installjpandwcspluginstest.php
@@ -53215,6 +53250,7 @@ src/internal/traits/scriptdebug.php
 src/internal/transientfiles/readme.md
 src/internal/transientfiles/transientfilesengine.php
 src/internal/transientfiles/transientfilesenginetest.php
+src/internal/transientfiles/transientfilesteststreamwrapper.php
 src/internal/uid.ts
 src/internal/utilities/arrayutil.php
 src/internal/utilities/arrayutiltest.php
@@ -54360,6 +54396,7 @@ test.localhost.conf
 test.mars-internal
 test.ucms.internal
 test.vps-internal
+test/check-internal-packages.test.js
 test/diff/libs/smarty-3.1.5/sysplugins/smarty_internal_cacheresource_file.php
 test/diff/libs/smarty-3.1.5/sysplugins/smarty_internal_compile_append.php
 test/diff/libs/smarty-3.1.5/sysplugins/smarty_internal_compile_assign.php
@@ -54828,6 +54865,7 @@ tests/fixer/classnotation/finalinternalclassfixertest.php
 tests/fixer/phpunit/phpunitinternalclassfixertest.php
 tests/functional/services/syncdataexchange/internal/objecthelper/companyobjecthelpertest.php
 tests/integration/core/framework/api/serializer/fixtures/testinternalfieldsarefiltered.php
+tests/integration/formatter/internallinkstest.php
 tests/integration/testsuite/magento/setup/console/command/_files/root/lib/internal/magento/framework/test/unit/view/element/uicomponentfactorytest.php
 tests/internals/.log
 tests/internals/.trs
@@ -54876,6 +54914,7 @@ tests/php/src/internal/admin/logging/loghandlerfilev2test.php
 tests/php/src/internal/admin/logging/pagecontrollertest.php
 tests/php/src/internal/admin/logging/settingstest.php
 tests/php/src/internal/admin/marketingrecommendations/inittest.php
+tests/php/src/internal/admin/notes/fullrefundfixdatatoolnoticetest.php
 tests/php/src/internal/admin/notes/installjpandwcspluginstest.php
 tests/php/src/internal/admin/notes/scheduledupdatespromotiontest.php
 tests/php/src/internal/admin/ordermilestoneeastereggtest.php
@@ -55288,6 +55327,7 @@ tests/php/src/internal/tax/taxratedatastoretest.php
 tests/php/src/internal/telemetry/telemetrycontrollertest.php
 tests/php/src/internal/traits/restapicachetest.php
 tests/php/src/internal/transientfiles/transientfilesenginetest.php
+tests/php/src/internal/transientfiles/transientfilesteststreamwrapper.php
 tests/php/src/internal/utilities/arrayutiltest.php
 tests/php/src/internal/utilities/blocksutiltest.php
 tests/php/src/internal/utilities/cotmigrationutiltest.php
@@ -56478,6 +56518,8 @@ util/net/ocsp/testocspsoftfailinternalerror.java
 utils/config/internalconfighelper.php
 utils/isinternalurl.ts
 utils/lexical-internals.ts
+utils/routeinternallinks.d.ts
+utils/routeinternallinks.ts
 utils/sw-internal-link/index.js
 utils/sw-internal-link/sw-internal-link.html.twig
 utils/sw-internal-link/sw-internal-link.scss
@@ -58327,6 +58369,7 @@ woocommerce/src/internal/admin/notes/editproductsonthemove.php
 woocommerce/src/internal/admin/notes/emailimprovements.php
 woocommerce/src/internal/admin/notes/euvatnumber.php
 woocommerce/src/internal/admin/notes/firstproduct.php
+woocommerce/src/internal/admin/notes/fullrefundfixdatatoolnotice.php
 woocommerce/src/internal/admin/notes/givingfeedbacknotes.php
 woocommerce/src/internal/admin/notes/installjpandwcsplugins.php
 woocommerce/src/internal/admin/notes/launchchecklist.php
@@ -58944,6 +58987,7 @@ woocommerce/tests/php/src/internal/admin/logging/loghandlerfilev2test.php
 woocommerce/tests/php/src/internal/admin/logging/pagecontrollertest.php
 woocommerce/tests/php/src/internal/admin/logging/settingstest.php
 woocommerce/tests/php/src/internal/admin/marketingrecommendations/inittest.php
+woocommerce/tests/php/src/internal/admin/notes/fullrefundfixdatatoolnoticetest.php
 woocommerce/tests/php/src/internal/admin/notes/installjpandwcspluginstest.php
 woocommerce/tests/php/src/internal/admin/notes/scheduledupdatespromotiontest.php
 woocommerce/tests/php/src/internal/admin/ordermilestoneeastereggtest.php
@@ -59356,6 +59400,7 @@ woocommerce/tests/php/src/internal/tax/taxratedatastoretest.php
 woocommerce/tests/php/src/internal/telemetry/telemetrycontrollertest.php
 woocommerce/tests/php/src/internal/traits/restapicachetest.php
 woocommerce/tests/php/src/internal/transientfiles/transientfilesenginetest.php
+woocommerce/tests/php/src/internal/transientfiles/transientfilesteststreamwrapper.php
 woocommerce/tests/php/src/internal/utilities/arrayutiltest.php
 woocommerce/tests/php/src/internal/utilities/blocksutiltest.php
 woocommerce/tests/php/src/internal/utilities/cotmigrationutiltest.php
@@ -59896,7 +59941,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://steelcase.com/robots.txt
+zh/internalhttp://exploratorium.edu/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php

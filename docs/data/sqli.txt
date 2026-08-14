@@ -56099,6 +56099,8 @@ administercommunion
 administration/diagnosticdelete.php
 administration/eslint-rules/deprecation-rules/no-deprecated-component-usage-checks/mt-select.check.js
 administration/resources/app/administration/eslint-rules/deprecation-rules/no-deprecated-component-usage-checks/mt-select.check.js
+administration/resources/app/administration/scripts/extensiontooling/select.spec.ts
+administration/resources/app/administration/scripts/extensiontooling/select.ts
 administration/resources/app/administration/src/app/assets/scss/directives/dragdrop.scss
 administration/resources/app/administration/src/app/component/base/sw-sorting-select/index.js
 administration/resources/app/administration/src/app/component/base/sw-sorting-select/sw-sorting-select.html.twig
@@ -56270,6 +56272,8 @@ administration/resources/app/administration/src/module/sw-settings-listing/compo
 administration/resources/app/administration/src/module/sw-settings-listing/component/sw-settings-listing-delete-modal/sw-settings-listing-delete-modal.scss
 administration/resources/app/administration/static/img/data-sharing/union.svg
 administration/resources/app/administration/test/_helper_/select-mt-select-by-text.js
+administration/scripts/extensiontooling/select.spec.ts
+administration/scripts/extensiontooling/select.ts
 administration/src/app/assets/scss/directives/dragdrop.scss
 administration/src/app/component/base/sw-sorting-select/index.js
 administration/src/app/component/base/sw-sorting-select/sw-sorting-select.html.twig
@@ -62154,6 +62158,8 @@ app.select-latest.skeleton.sql
 app/admin/view/update
 app/admin/view/update/index.html
 app/administration/eslint-rules/deprecation-rules/no-deprecated-component-usage-checks/mt-select.check.js
+app/administration/scripts/extensiontooling/select.spec.ts
+app/administration/scripts/extensiontooling/select.ts
 app/administration/src/app/assets/scss/directives/dragdrop.scss
 app/administration/src/app/component/base/sw-sorting-select/index.js
 app/administration/src/app/component/base/sw-sorting-select/sw-sorting-select.html.twig
@@ -79890,6 +79896,8 @@ core/tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefa
 core/tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/insert.php
 core/tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/select.php
 core/tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/update.php
+core/tests/unit/update/indexcontrollertest.php
+core/tests/unit/update/updatecontrollertest.php
 core/themes/admin/js/tableselect.js
 core/themes/admin/migration/js/tableselect.js
 core/themes/admin/templates/admin/update-project-status.html.twig
@@ -94974,6 +94982,8 @@ extensions/update.yaml
 extensions_extension_manager_update.html
 extensionsubscription_update
 extensionsupdate.php
+extensiontooling/select.spec.ts
+extensiontooling/select.ts
 extensionupdate
 extensionupdate.php
 extensionupdate.xml
@@ -98139,6 +98149,8 @@ framework/core/src/api/endpoint/update.php
 framework/core/src/update/controller/indexcontroller.php
 framework/core/src/update/controller/updatecontroller.php
 framework/core/src/update/updateserviceprovider.php
+framework/core/tests/unit/update/indexcontrollertest.php
+framework/core/tests/unit/update/updatecontrollertest.php
 framework/core/views/install/update.php
 framework/data/form/element/editablemultiselect.php
 framework/data/form/element/multiselect.php
@@ -132727,6 +132739,8 @@ resourcemodel/theme/customization/update.php
 resourceqaservice_qadataupdate
 resources-update-sample.xml
 resources/app/administration/eslint-rules/deprecation-rules/no-deprecated-component-usage-checks/mt-select.check.js
+resources/app/administration/scripts/extensiontooling/select.spec.ts
+resources/app/administration/scripts/extensiontooling/select.ts
 resources/app/administration/src/app/assets/scss/directives/dragdrop.scss
 resources/app/administration/src/app/component/base/sw-sorting-select/index.js
 resources/app/administration/src/app/component/base/sw-sorting-select/sw-sorting-select.html.twig
@@ -136093,6 +136107,8 @@ scripts/daemon/exec/exec_daemon.php
 scripts/delete-bintray-package.sh
 scripts/delete-mongo-test-dbs.js
 scripts/draft_delete.php
+scripts/extensiontooling/select.spec.ts
+scripts/extensiontooling/select.ts
 scripts/features/discussions/discussionoptionsdelete.tsx
 scripts/forms/dashboardnestedselect.tsx
 scripts/forms/dashboardselect.tsx
@@ -145671,6 +145687,8 @@ src/admin/calculatedfieldinsert.aspx
 src/admin/memberselect.aspx
 src/admin/ownerselect.aspx
 src/administration/resources/app/administration/eslint-rules/deprecation-rules/no-deprecated-component-usage-checks/mt-select.check.js
+src/administration/resources/app/administration/scripts/extensiontooling/select.spec.ts
+src/administration/resources/app/administration/scripts/extensiontooling/select.ts
 src/administration/resources/app/administration/src/app/assets/scss/directives/dragdrop.scss
 src/administration/resources/app/administration/src/app/component/base/sw-sorting-select/index.js
 src/administration/resources/app/administration/src/app/component/base/sw-sorting-select/sw-sorting-select.html.twig
@@ -153096,6 +153114,7 @@ tests/unit/testclasses/core/select/where
 tests/unit/testclasses/core/select/where/itemconverters
 tests/unit/testclasses/core/select/where/itemconverters/testconverter.php
 tests/unit/testsuite/magento/testframework/dependency/_files/layout_handle_update.xml
+tests/unit/update/indexcontrollertest.php
 tests/unit/update/step/abstractsteptestcase.php
 tests/unit/update/step/deletecachesteptest.php
 tests/unit/update/step/finalizeupdatesteptest.php
@@ -153106,6 +153125,7 @@ tests/unit/update/step/resources/update.zip
 tests/unit/update/step/updateschemasteptest.php
 tests/unit/update/step/updatetranslationssteptest.php
 tests/unit/update/stepprovidertest.php
+tests/unit/update/updatecontrollertest.php
 tests/update
 tests/update-throttle.test.js
 tests/update.php
@@ -161467,6 +161487,7 @@ unit/server/services/update-check.test.js
 unit/server/web/api/middleware/update-user-last-seen.test.js
 unit/testclasses/core/select/where/itemconverters/testconverter.php
 unit/testsuite/magento/testframework/dependency/_files/layout_handle_update.xml
+unit/update/indexcontrollertest.php
 unit/update/step/abstractsteptestcase.php
 unit/update/step/deletecachesteptest.php
 unit/update/step/finalizeupdatesteptest.php
@@ -161477,6 +161498,7 @@ unit/update/step/resources/update.zip
 unit/update/step/updateschemasteptest.php
 unit/update/step/updatetranslationssteptest.php
 unit/update/stepprovidertest.php
+unit/update/updatecontrollertest.php
 unit/utils/api/update-queries.test.ts
 unit_delete
 unit_section_delete
@@ -169572,6 +169594,7 @@ update/index.main
 update/index.php
 update/index.ts
 update/index2.aspx
+update/indexcontrollertest.php
 update/indexskin.asp
 update/inputtype/datetest.php
 update/inputtype/datetimetest.php
@@ -170034,6 +170057,7 @@ update/updatebuilder.cs
 update/updatecachebackendfactory.php
 update/updatecompilerpass.php
 update/updatecontroller.php
+update/updatecontrollertest.php
 update/updatedatabuilder.cs
 update/updatedb.php
 update/updateemptyemailsupdatepathtest.php
