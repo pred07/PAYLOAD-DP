@@ -3984,6 +3984,9 @@ app/frontend/shared/entities/object-attributes/graphql/queries/objectmanagerfron
 app/frontend/shared/entities/online-notification/graphql/mutations/delete.api.ts
 app/frontend/shared/entities/online-notification/graphql/mutations/delete.graphql
 app/frontend/shared/entities/online-notification/graphql/mutations/delete.mocks.ts
+app/frontend/shared/entities/online-notification/graphql/mutations/deleteall.api.ts
+app/frontend/shared/entities/online-notification/graphql/mutations/deleteall.graphql
+app/frontend/shared/entities/online-notification/graphql/mutations/deleteall.mocks.ts
 app/frontend/shared/entities/online-notification/graphql/mutations/markallasseen.api.ts
 app/frontend/shared/entities/online-notification/graphql/mutations/markallasseen.graphql
 app/frontend/shared/entities/online-notification/graphql/mutations/markallasseen.mocks.ts
@@ -4374,6 +4377,7 @@ app/graphql/gql/mutations/mention/base.rb
 app/graphql/gql/mutations/mention/subscribe.rb
 app/graphql/gql/mutations/mention/unsubscribe.rb
 app/graphql/gql/mutations/online_notification/delete.rb
+app/graphql/gql/mutations/online_notification/delete_all.rb
 app/graphql/gql/mutations/online_notification/mark_all_as_seen.rb
 app/graphql/gql/mutations/online_notification/seen.rb
 app/graphql/gql/mutations/organization/note_update.rb
@@ -7492,6 +7496,7 @@ defaultintrospectioncontext.java
 delete.graphql
 delete_test_introspection
 delete_test_introspection_by_pk
+deleteall.graphql
 deletecmsgraphqlquery
 deletegraphqlapis
 deletegraphqldocument
@@ -8803,6 +8808,9 @@ entities/object-attributes/graphql/queries/objectmanagerfrontendattributes.mocks
 entities/online-notification/graphql/mutations/delete.api.ts
 entities/online-notification/graphql/mutations/delete.graphql
 entities/online-notification/graphql/mutations/delete.mocks.ts
+entities/online-notification/graphql/mutations/deleteall.api.ts
+entities/online-notification/graphql/mutations/deleteall.graphql
+entities/online-notification/graphql/mutations/deleteall.mocks.ts
 entities/online-notification/graphql/mutations/markallasseen.api.ts
 entities/online-notification/graphql/mutations/markallasseen.graphql
 entities/online-notification/graphql/mutations/markallasseen.mocks.ts
@@ -10318,6 +10326,9 @@ frontend/shared/entities/object-attributes/graphql/queries/objectmanagerfrontend
 frontend/shared/entities/online-notification/graphql/mutations/delete.api.ts
 frontend/shared/entities/online-notification/graphql/mutations/delete.graphql
 frontend/shared/entities/online-notification/graphql/mutations/delete.mocks.ts
+frontend/shared/entities/online-notification/graphql/mutations/deleteall.api.ts
+frontend/shared/entities/online-notification/graphql/mutations/deleteall.graphql
+frontend/shared/entities/online-notification/graphql/mutations/deleteall.mocks.ts
 frontend/shared/entities/online-notification/graphql/mutations/markallasseen.api.ts
 frontend/shared/entities/online-notification/graphql/mutations/markallasseen.graphql
 frontend/shared/entities/online-notification/graphql/mutations/markallasseen.mocks.ts
@@ -11572,6 +11583,8 @@ graphql/gql/mutations/mention/subscribe_spec.rb
 graphql/gql/mutations/mention/unsubscribe.rb
 graphql/gql/mutations/mention/unsubscribe_spec.rb
 graphql/gql/mutations/online_notification/delete.rb
+graphql/gql/mutations/online_notification/delete_all.rb
+graphql/gql/mutations/online_notification/delete_all_spec.rb
 graphql/gql/mutations/online_notification/delete_spec.rb
 graphql/gql/mutations/online_notification/mark_all_as_seen.rb
 graphql/gql/mutations/online_notification/mark_all_as_seen_spec.rb
@@ -12490,6 +12503,9 @@ graphql/mutations/customerupdate.mocks.ts
 graphql/mutations/delete.api.ts
 graphql/mutations/delete.graphql
 graphql/mutations/delete.mocks.ts
+graphql/mutations/deleteall.api.ts
+graphql/mutations/deleteall.graphql
+graphql/mutations/deleteall.mocks.ts
 graphql/mutations/highlightedtextupsert.api.ts
 graphql/mutations/highlightedtextupsert.graphql
 graphql/mutations/highlightedtextupsert.mocks.ts
@@ -18094,6 +18110,7 @@ mutations/channelemailvalidateconfigurationroundtrip.graphql
 mutations/create.graphql
 mutations/customerupdate.graphql
 mutations/delete.graphql
+mutations/deleteall.graphql
 mutations/highlightedtextupsert.graphql
 mutations/knowledgebase/suggestion/content/transform.graphql
 mutations/linkadd.graphql
@@ -18240,6 +18257,9 @@ omit/schema.graphql
 online-notification/graphql/mutations/delete.api.ts
 online-notification/graphql/mutations/delete.graphql
 online-notification/graphql/mutations/delete.mocks.ts
+online-notification/graphql/mutations/deleteall.api.ts
+online-notification/graphql/mutations/deleteall.graphql
+online-notification/graphql/mutations/deleteall.mocks.ts
 online-notification/graphql/mutations/markallasseen.api.ts
 online-notification/graphql/mutations/markallasseen.graphql
 online-notification/graphql/mutations/markallasseen.mocks.ts
@@ -20442,6 +20462,9 @@ shared/entities/object-attributes/graphql/queries/objectmanagerfrontendattribute
 shared/entities/online-notification/graphql/mutations/delete.api.ts
 shared/entities/online-notification/graphql/mutations/delete.graphql
 shared/entities/online-notification/graphql/mutations/delete.mocks.ts
+shared/entities/online-notification/graphql/mutations/deleteall.api.ts
+shared/entities/online-notification/graphql/mutations/deleteall.graphql
+shared/entities/online-notification/graphql/mutations/deleteall.mocks.ts
 shared/entities/online-notification/graphql/mutations/markallasseen.api.ts
 shared/entities/online-notification/graphql/mutations/markallasseen.graphql
 shared/entities/online-notification/graphql/mutations/markallasseen.mocks.ts
@@ -20781,6 +20804,7 @@ spec/graphql/gql/mutations/login_spec.rb
 spec/graphql/gql/mutations/logout_spec.rb
 spec/graphql/gql/mutations/mention/subscribe_spec.rb
 spec/graphql/gql/mutations/mention/unsubscribe_spec.rb
+spec/graphql/gql/mutations/online_notification/delete_all_spec.rb
 spec/graphql/gql/mutations/online_notification/delete_spec.rb
 spec/graphql/gql/mutations/online_notification/mark_all_as_seen_spec.rb
 spec/graphql/gql/mutations/online_notification/seen_spec.rb
