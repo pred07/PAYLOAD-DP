@@ -44758,7 +44758,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <div draggable="true" contenteditable>drag me</div><xmp ondragover=alert(1) contenteditable>drop here</xmp>
 <div draggable="true" contenteditable>drag me</div><xmp ondrop=alert(1) contenteditable style=display:block>drop here</xmp>
 <div draggable="true" contenteditable>drag me</div><xmp ondrop=alert(1) contenteditable>drop here</xmp>
-<div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"> <h1>drop me</h1></div><iframe src="http://www.example.org/drophere.html"></iframe>
 <div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"><h1>drop me</h1></div><iframe src="http://www.example.org/drophere.html"></iframe>
 <div id="118"><div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"><h1>drop me</h1></div>
 <div id="131"><b>drag and drop one of the following strings to the drop box:</b>
@@ -78694,6 +78693,8 @@ core/modules/migrate_drupal/src/tests/table/d7/cacheupdate.php
 core/modules/migrate_drupal_ui/migrate_drupal_ui.post_update.php
 core/modules/mysql/src/driver/database/mysql/insert.php
 core/modules/navigation/navigation.post_update.php
+core/modules/navigation/tests/fixtures/navigation_post_update.php
+core/modules/navigation/tests/src/functional/update/navigationupdatetest.php
 core/modules/node/lib/drupal/node/plugin/views/field/linkdelete.php
 core/modules/node/lib/drupal/node/plugin/views/field/revisionlinkdelete.php
 core/modules/node/node.post_update.php
@@ -95237,6 +95238,7 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
+false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -96896,6 +96898,7 @@ fixtures/install/update/new/test_files_diff.php
 fixtures/install/update/old/test_files_diff.php
 fixtures/language_select.xml
 fixtures/multiselect/test-fixtures.ts
+fixtures/navigation_post_update.php
 fixtures/post_update.php
 fixtures/release-history/package_manager_test_update.7.0.1.xml
 fixtures/select/non-null/test-fixtures.ts
@@ -98862,6 +98865,7 @@ functional/update/jsonapiupdatepathtest.php
 functional/update/layoutbuildercontextmappingupdatepathtest.php
 functional/update/menublockdepthtest.php
 functional/update/menutreestorageschemaupdatetest.php
+functional/update/navigationupdatetest.php
 functional/update/nodecontenttranslationupdatetest.php
 functional/update/oliveropostupdatetest.php
 functional/update/pathaliasrevisionindexesupdatepathtest.php
@@ -115881,6 +115885,8 @@ modules/mysql/src/driver/database/mysql/insert.php
 modules/mysql/src/driver/database/mysql/select.php
 modules/mysql/src/driver/database/mysql/update.php
 modules/navigation/navigation.post_update.php
+modules/navigation/tests/fixtures/navigation_post_update.php
+modules/navigation/tests/src/functional/update/navigationupdatetest.php
 modules/news/delete.php
 modules/news/editor-4plus1-select-art.php
 modules/news/headline-edit-select-art.php
@@ -118453,9 +118459,12 @@ navigation.post_update.php
 navigation.update.mysql.sql
 navigation/changelog/dev-ci-lint-monorepo-job-update
 navigation/navigation.post_update.php
+navigation/tests/fixtures/navigation_post_update.php
+navigation/tests/src/functional/update/navigationupdatetest.php
 navigation_drawer_action_last_update.xml
 navigation_group_edit_delete.xml
 navigation_item_select.xml
+navigation_post_update.php
 navigationupdate
 navmuniselect.action
 navselect.xml
@@ -131436,7 +131445,6 @@ refreshcurrentupdate
 refreshdefaultupdate
 refreshdetailsupdate
 refreshdetailupdate
-refreshed-hphttp://alliantcreditunion.org/robots.txt
 refreshenabledupdate
 refreshexportedupdate
 refreshfinishedupdate
@@ -146358,6 +146366,7 @@ src/functional/update/jsonapiupdatepathtest.php
 src/functional/update/layoutbuildercontextmappingupdatepathtest.php
 src/functional/update/menublockdepthtest.php
 src/functional/update/menutreestorageschemaupdatetest.php
+src/functional/update/navigationupdatetest.php
 src/functional/update/nodecontenttranslationupdatetest.php
 src/functional/update/oliveropostupdatetest.php
 src/functional/update/pathaliasrevisionindexesupdatepathtest.php
@@ -152595,6 +152604,7 @@ tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewit
 tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/select.php
 tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/update.php
 tests/fixtures/db_update.php
+tests/fixtures/navigation_post_update.php
 tests/fixtures/post_update.php
 tests/fixtures/release-history/package_manager_test_update.7.0.1.xml
 tests/fixtures/smarty/unsafe/insert-script.tpl
@@ -152915,6 +152925,7 @@ tests/src/functional/update/jsonapiupdatepathtest.php
 tests/src/functional/update/layoutbuildercontextmappingupdatepathtest.php
 tests/src/functional/update/menublockdepthtest.php
 tests/src/functional/update/menutreestorageschemaupdatetest.php
+tests/src/functional/update/navigationupdatetest.php
 tests/src/functional/update/nodecontenttranslationupdatetest.php
 tests/src/functional/update/oliveropostupdatetest.php
 tests/src/functional/update/pathaliasrevisionindexesupdatepathtest.php
@@ -158356,6 +158367,7 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
+true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -169620,6 +169632,7 @@ update/migrateupdatecontroller.php
 update/migrations/state/update.migrate_drupal.yml
 update/migrations/update_settings.yml
 update/multi_value_fields.php
+update/navigationupdatetest.php
 update/new
 update/new/test_files_diff.php
 update/nodecontenttranslationupdatetest.php
