@@ -145,6 +145,7 @@
 <div style="background-image: url(&#1;javascript:alert(1))">
 <div style="background-image: url(&#1;javascript:alert(6481))">
 <div style="background-image: url(&#1;javascript:confirm(5))">
+<div style="background-image: url(&#1;javascript:document.cookie=true;)">
 <div style="background-image: url(&#1;javascript:document.vulnerable=true;)">
 <div style="background-image: url(http://ha.ckers.org/xss.js)">div body</div>
 <div style="background-image: url(javascript:alert('crosssitescripting'))">
@@ -187,6 +188,7 @@
 <font style='color:expression(alert('xss'))'>
 <font style='color:expression(alert(1))'>
 <font style='color:expression(alert(document.cookie))'>
+<img src="x" alt="``onerror=alert(1)//"><div style="font-family:'foobar\27\3bx:expression(alert(2))/*';"></div>
 <img style="xss:expression(alert(1))">
 <input type=hidden style=`x:expression(confirm(1))`>
 <input type=hidden style=`x:expression(confirm(4))`>
@@ -227,6 +229,7 @@
 <style>@import "data:,*%7bx:expression(write(1))%7d";</style>
 <style>body { background-image:url('http://www.blah.com/</style><script>alert(1)</script>'); }</style>
 <vmlframe xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute;width:100%;height:100% src=%(vml)s#xss></vmlframe>
+<vmlframe xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute;width:100%;height:100% src=test.vml#xss></vmlframe>
 <x style="behavior:url(%(sct)s)">
 <x style="behavior:url(test.sct)">
 <x style="x:expression(alert(1))">

