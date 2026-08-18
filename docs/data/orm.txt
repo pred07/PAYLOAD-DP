@@ -3362,15 +3362,11 @@ system.hibernate.cfg.xml
 system/framework/db/ar/cactiverecord.php
 system/framework/db/ar/cactiverecordbehavior.php
 system/plugin_installer/libs/db/activerecord.php
-systemd-hibernate-resume
-systemd-hibernate-resume-generator
 systemd-hibernate-resume-generator.8.xml
 systemd-hibernate-resume-generator.xml
-systemd-hibernate-resume@.service
 systemd-hibernate-resume@.service.8.xml
 systemd-hibernate-resume@.service.in
 systemd-hibernate-resume@.service.xml
-systemd-hibernate.service
 systemd-hibernate.service.in
 systemhibernate.java
 tactiverecord

@@ -52703,7 +52703,6 @@ _meiew/user_update.htm
 _menuitemcreateorupdate.cshtml
 _modal_generic_confirm_delete.coffee
 _multi-select.scss
-_newselect
 _offeringunion
 _pgfunc_delete.sql
 _pgfunc_update.sql
@@ -52971,7 +52970,6 @@ a_music_select.xml
 a_normal_shadow_insert.xml
 a_order_update.xml
 a_walter
-aa-exec
 aa_change_onexec
 aa_modelbank-aa-aa.account.category.drop.xml
 aa_modelbank-aa-pricing.product.group.select.xml
@@ -66142,9 +66140,7 @@ arena,academic discipline,academic specialty,ambit,amphitheater,applied science,
 areswalter
 args3-01.exec
 argus-policy-iota-update.conf
-argz_delete
 argz_delete.c
-argz_insert
 argz_insert.c
 ariellewalter
 arithmetic_insert.sql
@@ -70480,7 +70476,6 @@ btree-sidx-non-idxonly-01.2.update.sqlpp
 btree-sidx-non-idxonly-to-pidx-equi-join_01.2.update.sqlpp
 btree-sidx-non-idxonly-to-sidx-idxonly-equi-join_01.2.update.sqlpp
 btreunion-co-uk
-btrfs-select-super
 btrfs-select-super.8.xml
 btwaldrop
 buchalter
@@ -72524,6 +72519,7 @@ changelog/fix-51573-remove-sample-badge-on-product-update
 changelog/fix-beta-tester-delete-option-error
 changelog/fix-product-editor-images-drop-error
 changelog/fix-rsm-3550-stock-multiselect
+changelog/fix-select-control-inline-tag-alignment
 changelog/release-6-3-1-1/2020-09-04-symfony-update-4.4.11.md
 changelog/release-6-3-2-0/2020-09-07-consider-admin-order-for-stock-update.md
 changelog/release-6-3-2-0/2020-09-11-update-jest-and-vue-test-utils.md
@@ -76322,6 +76318,7 @@ components/bulk-action-modals/delete-modal.tsx
 components/cart-checkout/local-pickup-select/index.tsx
 components/cart-checkout/local-pickup-select/style.scss
 components/cart-checkout/local-pickup-select/test/index.tsx
+components/changelog/fix-select-control-inline-tag-alignment
 components/cleanup-after-delete.test.api.ts
 components/com_acymailing/views/frontfile/tmpl/select.php
 components/com_akeeba/model/json/task/delete.php
@@ -95239,7 +95236,6 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
-false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -96864,6 +96860,7 @@ fix-percent-complete-select-box.sql
 fix-plugin-update
 fix-product-editor-images-drop-error
 fix-rsm-3550-stock-multiselect
+fix-select-control-inline-tag-alignment
 fix-update-in-process
 fix-update.go
 fix_exec.py
@@ -101077,7 +101074,6 @@ hashconfigsdao_delete.sql
 hashconfigsdao_insert.sql
 hashconfigsdao_raw_insert.sql
 hashconfigsdao_update.sql
-hashdelete
 hashdelete.js
 hashdelete.php
 hashed-gram-tokens_01.2.update.sqlpp
@@ -107512,6 +107508,7 @@ js/classes/draganddrop.js
 js/components/associated-product-insert-listing.js
 js/components/attribute-set-select.js
 js/components/attributes-insert-listing.js
+js/components/changelog/fix-select-control-inline-tag-alignment
 js/components/disable-hide-select.js
 js/components/disable-on-option/select.js
 js/components/grid/extension/action/bulk/category/delete-categories-bulk-action-extension.ts
@@ -120266,7 +120263,6 @@ notifytype.template.delete
 notifyupdate
 notifyuserpointbalanceupdate
 notifyvenuestripeaccountverifiedupdate
-notmuch-insert
 notranspoint.select.sql
 notreallymultipoint.select.sql
 notschalter
@@ -120349,7 +120345,6 @@ nt-db-insert-testdata.sql
 ntd-select
 ntexec
 ntfe-bpm-drop.sql
-ntfsundelete
 ntfsundelete-com
 ntguestdelete
 nti cd & dvd-maker platinum suite update*
@@ -122806,6 +122801,7 @@ packages/fields-document/src/documenteditor/insert-menu.tsx
 packages/js/admin-layout/changelog/dev-ci-lint-monorepo-job-update
 packages/js/admin-layout/changelog/task-update-eslint-config
 packages/js/block-templates/changelog/dev-ci-lint-monorepo-job-update
+packages/js/components/changelog/fix-select-control-inline-tag-alignment
 packages/js/components/src/advanced-filters/select-filter.js
 packages/js/components/src/dynamic-form/field-types/field-select.tsx
 packages/js/components/src/experimental-select-control/combo-box.scss
@@ -123313,8 +123309,6 @@ palunion
 palunion-net
 palvandrop
 pam's mob drop crops 1.7.10a.zip
-pam-auth-update
-pam_exec
 pam_exec.8.xml
 pam_exec.xml
 pan american union
@@ -130865,7 +130859,6 @@ re-insert
 re-ordering_microarray_clusters_delete-nonsignif.xlsx
 re-update
 re5union
-re_exec
 re_exec read readdir readdir_r readline readlink readv real realloc
 re_number_select.result
 re_number_select.test
@@ -138484,7 +138477,6 @@ select-dropdown/select-dropdown.vue
 select-dual.sql
 select-duplicados-stackoverflow.sql
 select-dynamic-readonly.xml
-select-editor
 select-element-zero-height-001.html.ini
 select-element-zero-height-002.html.ini
 select-email
@@ -144506,7 +144498,6 @@ sn:s: select * from users where id=1 or "$:" or 1=1 -- 1
 sn;s: select * from users where id=1 or "_;" or 1=1 -- 1
 sn?s: select * from users where id=1 or "$?" or 1=1 -- 1
 snake_valter
-snap-update-ns
 snapchat-update
 snapchat_update
 snapchatupdate
@@ -149476,7 +149467,6 @@ supporttemplatedelete
 supportupdate
 supreme,absolute,acmatic,all-absorbing,all-knowing,all-powerful,all-seeing,all-wise,almighty,apical,ascendant,at the head,authoritarian,authoritative,authorized,autocratic,best,boss,boundless,brilliant,capital,cardinal,champion,changeless,chief,choice,clothed with authority,commanding,competent,consequential,considerable,consummate,controlling,creating,creative,crowning,dominant,duly constituted,elect,elite,eminent,empowered,eternal,eternally the same,everlasting,ex officio,excellent,extreme,final,first,first-class,first-rate,for the best,foremost,general,glorious,good,governing,great,greatest,hallowed,handpicked,head,headmost,hegemonic,hegemonistic,highest,holy,immortal,immutable,imperative,important,in ascendancy,in charge,in chief,in the ascendant,incomparable,infinite,influential,inimitable,just,last,leading,limitless,loftiest,loving,luminous,main,majestic,making,master,masterful,masterly,matchless,maximal,maximum,merciful,meridian,meridional,mighty,momentous,monocratic,most,numinous,official,omnipotent,omnipresent,omniscient,one,optimal,optimum,outstanding,overmost,overriding,overruling,paramount,peerless,perfect,permanent,perpetual,picked,plenipotentiary,potent,powerful,predominant,predominate,preeminent,premier,prepollent,preponderant,preponderate,prepotent,prestigious,prevalent,primary,prime,principal,prize,prominent,puissant,quintessential,radiant,ranking,regnant,regulating,regulative,regulatory,reigning,ruling,sacred,select,senior,shaping,sovereign,sublime,substantial,summital,superb,superior,superlative,surpassing,timeless,tip-top,top,top-notch,topmost,totalitarian,towering,transcendent,ubiquitous,ultimate,unbounded,unchanging,undefined,unequaled,unexcelled,unlimited,unmatchable,unmatched,unparalleled,unrivaled,unsurpassable,unsurpassed,upmost,uppermost,utmost,uttermost,vertical,very best,weighty,zenithal
 suredrop
-surfraw-update-path
 surgerybunion-com
 surpassing,a cut above,above,absolute,ahead,arrant,ascendant,best,better,capping,champion,choice,chosen,classical,complete,consummate,crass,decided,definitive,distinguished,downright,eclipsing,egregious,elect,elite,eminent,enormous,exceeding,excellent,excelling,excessive,extraordinary,finer,flagrant,for the best,glaring,great,greater,greatest,gross,handpicked,higher,in ascendancy,in the ascendant,incomparable,intolerable,major,marked,matchless,of choice,one up on,optimal,optimum,out-and-out,outright,outstanding,over,paramount,peerless,perfect,picked,positive,precious,preeminent,prime,prize,profound,pronounced,proper,quintessential,rank,rare,regular,rivaling,select,shattering,shocking,stark,stark-staring,super,superior,superlative,supreme,the veriest,thorough,thoroughgoing,topping,total,towering,transcendent,transcendental,transcending,ultimate,unbearable,unconscionable,undeniable,unequivocal,unmatchable,unmatched,unmitigated,unparalleled,unqualified,unrelieved,unspoiled,unsurpassable,unsurpassed,upper,utter,very best
 surprise,admiration,amaze,amazement,ambush,assail,assault,astonish,astonishment,astound,astoundment,attack,awe,awestrike,bedaze,bedazzle,beguilement,bewilder,bewilderment,blitz,blockbuster,blow,boggle,bomb,bombshell,bowl down,bowl over,breathless wonder,bushwhack,capture,catch,catch off-guard,catch unawares,come at,come down on,come from behind,come upon unexpectedly,confound,crack down on,daze,dazzle,descend on,descend upon,discomfit,disconcert,discover,dismay,do the unexpected,drop in on,dumbfound,dumbfounder,dumbfoundment,earthshaker,eye-opener,fall on,fall upon,fascination,faze,flabbergast,floor,gang up on,go at,go for,grab,grasp,harry,have at,hit,hit like lightning,incredulity,joker,jolt,jump,kicker,land on,lay at,lay for,lay hands on,lay into,light into,marvel,marveling,mug,nonplus,overwhelm,paralyze,peripeteia,perplex,petrify,pitch into,pounce upon,pound,pull up short,puzzlement,rattle,revelation,rock,sail into,seize,sense of mystery,sense of wonder,set on,set upon,shock,shocker,sneak attack,spring a surprise,spring upon,stagger,staggerer,startle,startler,strike,strike dead,strike dumb,strike with wonder,stun,stupefaction,stupefy,surprisal,surprise attack,surprise ending,surprise package,surprise party,swan,switch,swoop down on,take,take aback,take by surprise,take short,take the offensive,take unawares,thunderbolt,thunderclap,wade into,waylay,wonder,wonderment
@@ -150566,24 +150556,18 @@ systemconfigsdao_update.sql
 systemconfigurationsupdate
 systemd-hwdb-update.service.in
 systemd-journal-catalog-update.service.in
-systemd-kexec.service
 systemd-kexec.service.in
-systemd-system-update-generator
 systemd-system-update-generator.8.xml
 systemd-system-update-generator.xml
 systemd-sysupdate.xml
 systemd-update-done.service.8.xml
 systemd-update-done.service.in
 systemd-update-done.service.xml
-systemd-update-utmp
-systemd-update-utmp-runlevel.service
 systemd-update-utmp-runlevel.service.in
 systemd-update-utmp-runlevel.service.xml
-systemd-update-utmp.service
 systemd-update-utmp.service.8.xml
 systemd-update-utmp.service.in
 systemd-update-utmp.service.xml
-systemd.exec
 systemd.exec.5
 systemd.exec.5.gz
 systemd.exec.5.html
@@ -158368,7 +158352,6 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
-true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -158607,8 +158590,6 @@ type/select.phtml
 type/select/checkable.php
 type/select/multiple.php
 type/update.php
-type::coercion::union
-type::tiny::union
 type_delete
 type_delete.ini
 type_error_in_self-insert.sf-921985.sql
@@ -158681,7 +158662,6 @@ typo3update
 tyredrop
 tz_update.xml
 tzinfodelete
-tzselect
 tzselect.ksh
 tzurl/zoneinfo-outlook/indian/reunion.ics
 tzurl/zoneinfo/indian/reunion.ics
@@ -161545,7 +161525,6 @@ universitydegreesdelete
 universitydelete
 universityupdate
 universityupdate-com
-unix_update
 unix_update.8.xml
 unizoaalter
 unk_union
@@ -163461,7 +163440,6 @@ update-alpha-portal
 update-alphalabs-develip-git
 update-alphav1-minerva
 update-alt-attribute
-update-alternatives
 update-alternatives completion
 update-always-show-sale-price
 update-alwayson
@@ -163644,7 +163622,6 @@ update-billing-address.xml
 update-billing-info.xml
 update-billing_on_errorcode.sql
 update-binary
-update-binfmts
 update-block-template-logging-threshold.tsx
 update-blocks.conf
 update-blog
@@ -163671,7 +163648,6 @@ update-button.tsx
 update-bytecheck.https.html.ini
 update-c
 update-c-parser.xml
-update-ca-certificates
 update-ca-trust
 update-cache
 update-cache-mailfiles
@@ -163681,7 +163657,6 @@ update-calendar
 update-canary
 update-caption
 update-cart
-update-catalog
 update-catalog-sorting-content-width
 update-catalog.csv
 update-categories-remove-description
@@ -165548,7 +165523,6 @@ update-flow.hbs
 update-flow.js
 update-flow.xml
 update-flower.xml
-update-fmtutil
 update-fo
 update-folder-queries-expected.xml
 update-folder-queries-with-add-operation.xml
@@ -165618,9 +165592,6 @@ update-greeting-template-to-support-issue-link.sql
 update-group
 update-group-data-for-2.0.0.sql
 update-group-data-for-2.3.0.sql
-update-grub
-update-grub-gfxpayload
-update-grub2
 update-gtfs-agency-zone.sql
 update-guide
 update-gw
@@ -165745,8 +165716,6 @@ update-hurlcastortojpa2-anno.sql
 update-hurlimageurls-anno.sql
 update-i
 update-icon
-update-icon-caches
-update-icon-caches.gtk2
 update-icu-component.php
 update-id
 update-idaccount.cloud
@@ -165870,7 +165839,6 @@ update-indivo-docs.sql
 update-inetd
 update-info
 update-info-account
-update-info-dir
 update-info-secure-identification
 update-info.aspx
 update-info.xml
@@ -165936,7 +165904,6 @@ update-item-db-dataset-username.xml.svn-base
 update-item.sql
 update-itembundle.sql
 update-j
-update-java-alternatives
 update-java.sql
 update-javascriptcore-test-results
 update-jemalloc.sh
@@ -165977,9 +165944,6 @@ update-labelling-roman-lower-initial.xml
 update-labelling-roman-upper-initial.xml
 update-labelling-uppercaps-initial.xml
 update-language
-update-language-dat
-update-language-def
-update-language-lua
 update-last
 update-last-account
 update-last-admin
@@ -166124,7 +166088,6 @@ update-livereload
 update-load
 update-loadbalancerdatabase-corporate
 update-local-template-options.js
-update-locale
 update-location
 update-location-post-import.sql
 update-location.js
@@ -166281,7 +166244,6 @@ update-migratesolsticetoequinox1-anno.sql
 update-migratesolsticetoequinox2-anno.sql
 update-migratesolsticetoequinox2-kb.sql
 update-mijn
-update-mime
 update-mime-database
 update-mime-database.exe
 update-mirrorsqlserverdb
@@ -166395,7 +166357,6 @@ update-module
 update-monitoring-mysql
 update-mono.exe
 update-moss-station-json.prs.sql
-update-motd
 update-motd.d
 update-move-logic-to-add-new-attribute
 update-multiattributes-v1.1.sql
@@ -166854,7 +166815,6 @@ update-part 2.sql
 update-partial-row.binlog
 update-partial.xml
 update-partner
-update-passwd
 update-password
 update-password-alias.1
 update-password-form.blade.php
@@ -166875,9 +166835,7 @@ update-paypal-support.com
 update-paypal.com
 update-paypay
 update-pc
-update-pciids
 update-pcre
-update-perl-sax-parsers
 update-perm.sql
 update-permission
 update-permissions-table.sql
@@ -167218,7 +167176,6 @@ update-query-folder-initial.xml
 update-query-trigger.sql
 update-quiet.php
 update-r
-update-rc.d
 update-re-qc5
 update-read
 update-reader.conf
@@ -168016,8 +167973,6 @@ update-test.sql
 update-testcases.py
 update-testing
 update-tests.ini
-update-texmf
-update-texmf-config
 update-text
 update-thanks
 update-the-excerpt
@@ -168031,7 +167986,6 @@ update-throttle.test.js
 update-time10-with-daynight-indicator.sql
 update-time10-with-primary-key.sql
 update-time10-with-timestamp10.sql
-update-tl-stacked-conffile
 update-tmpl-chrome.xml
 update-tmpl-opera.xml
 update-to 7.sql
@@ -168216,7 +168170,6 @@ update-updated-user
 update-updated-version
 update-updated-view
 update-updatetask.xml
-update-updmap
 update-upload
 update-uploads-v1-web
 update-uploadsloginfomediaconfig-helpdesk
@@ -168226,7 +168179,6 @@ update-url
 update-url-caption/
 update-us
 update-us1
-update-usbids
 update-usbimbrowser-viewer
 update-user
 update-user-admin_yanel-rc.xml
@@ -168584,7 +168536,6 @@ update-www-test
 update-www0access-master
 update-www1-connect-access
 update-x
-update-xmlcatalog
 update-y
 update-year
 update-you-information-cause-of-limit
@@ -179349,11 +179300,9 @@ xdg-app-repo-update.xml
 xdg-app-update-app.xml
 xdg-app-update-runtime.xml
 xdg-app-update.xml
-xdg-user-dirs-update
 xdg-user-dirs-update.xml
 xdh_x_exec
 xdialogselect.xml
-xdr_union
 xdrag_ui/ruan_ajax_called_page/glabelinsert.ascx
 xdrop
 xdrop.xml
