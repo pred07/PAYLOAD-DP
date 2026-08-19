@@ -24490,6 +24490,10 @@ internal/productfilters/taxonomyhierarchydatatest.php
 internal/productgallery/productmediagallery.php
 internal/productgallery/productmediagallerytest.php
 internal/productimage/matchimagebysku.php
+internal/products/productsorderingmoveservice.php
+internal/products/productsorderingmoveservicetest.php
+internal/products/productsorderingreindexservice.php
+internal/products/productsorderingreindexservicetest.php
 internal/purchase-flow-all
 internal/pushnotifications/controllers/notificationpreferencesrestcontroller.php
 internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
@@ -24765,6 +24769,8 @@ internal/utilities/htmlsanitizertest.php
 internal/utilities/legacyrestapistub.php
 internal/utilities/orderitemmetautil.php
 internal/utilities/plugininstaller.php
+internal/utilities/priceseparators.php
+internal/utilities/priceseparatorstest.php
 internal/utilities/productutil.php
 internal/utilities/productutiltest.php
 internal/utilities/types.php
@@ -47038,6 +47044,8 @@ php/src/internal/productfilters/paramstest.php
 php/src/internal/productfilters/queryclausestest.php
 php/src/internal/productfilters/taxonomyhierarchydatatest.php
 php/src/internal/productgallery/productmediagallerytest.php
+php/src/internal/products/productsorderingmoveservicetest.php
+php/src/internal/products/productsorderingreindexservicetest.php
 php/src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 php/src/internal/pushnotifications/controllers/pushnotificationrestcontrollertest.php
 php/src/internal/pushnotifications/controllers/pushtokenrestcontrollertest.php
@@ -47107,6 +47115,7 @@ php/src/internal/utilities/cotmigrationutiltest.php
 php/src/internal/utilities/databaseutiltest.php
 php/src/internal/utilities/filesystemutiltest.php
 php/src/internal/utilities/htmlsanitizertest.php
+php/src/internal/utilities/priceseparatorstest.php
 php/src/internal/utilities/productutiltest.php
 php/src/internal/utilities/typestest.php
 php/src/internal/utilities/urltest.php
@@ -48536,6 +48545,8 @@ plugins/woocommerce/src/internal/productfilters/readme.md
 plugins/woocommerce/src/internal/productfilters/taxonomyhierarchydata.php
 plugins/woocommerce/src/internal/productgallery/productmediagallery.php
 plugins/woocommerce/src/internal/productimage/matchimagebysku.php
+plugins/woocommerce/src/internal/products/productsorderingmoveservice.php
+plugins/woocommerce/src/internal/products/productsorderingreindexservice.php
 plugins/woocommerce/src/internal/pushnotifications/controllers/notificationpreferencesrestcontroller.php
 plugins/woocommerce/src/internal/pushnotifications/controllers/pushnotificationrestcontroller.php
 plugins/woocommerce/src/internal/pushnotifications/controllers/pushtokenrestcontroller.php
@@ -48695,6 +48706,7 @@ plugins/woocommerce/src/internal/utilities/htmlsanitizer.php
 plugins/woocommerce/src/internal/utilities/legacyrestapistub.php
 plugins/woocommerce/src/internal/utilities/orderitemmetautil.php
 plugins/woocommerce/src/internal/utilities/plugininstaller.php
+plugins/woocommerce/src/internal/utilities/priceseparators.php
 plugins/woocommerce/src/internal/utilities/productutil.php
 plugins/woocommerce/src/internal/utilities/types.php
 plugins/woocommerce/src/internal/utilities/url.php
@@ -49080,6 +49092,8 @@ plugins/woocommerce/tests/php/src/internal/productfilters/paramstest.php
 plugins/woocommerce/tests/php/src/internal/productfilters/queryclausestest.php
 plugins/woocommerce/tests/php/src/internal/productfilters/taxonomyhierarchydatatest.php
 plugins/woocommerce/tests/php/src/internal/productgallery/productmediagallerytest.php
+plugins/woocommerce/tests/php/src/internal/products/productsorderingmoveservicetest.php
+plugins/woocommerce/tests/php/src/internal/products/productsorderingreindexservicetest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/controllers/pushnotificationrestcontrollertest.php
 plugins/woocommerce/tests/php/src/internal/pushnotifications/controllers/pushtokenrestcontrollertest.php
@@ -49149,6 +49163,7 @@ plugins/woocommerce/tests/php/src/internal/utilities/cotmigrationutiltest.php
 plugins/woocommerce/tests/php/src/internal/utilities/databaseutiltest.php
 plugins/woocommerce/tests/php/src/internal/utilities/filesystemutiltest.php
 plugins/woocommerce/tests/php/src/internal/utilities/htmlsanitizertest.php
+plugins/woocommerce/tests/php/src/internal/utilities/priceseparatorstest.php
 plugins/woocommerce/tests/php/src/internal/utilities/productutiltest.php
 plugins/woocommerce/tests/php/src/internal/utilities/typestest.php
 plugins/woocommerce/tests/php/src/internal/utilities/urltest.php
@@ -53047,6 +53062,10 @@ src/internal/productfilters/taxonomyhierarchydatatest.php
 src/internal/productgallery/productmediagallery.php
 src/internal/productgallery/productmediagallerytest.php
 src/internal/productimage/matchimagebysku.php
+src/internal/products/productsorderingmoveservice.php
+src/internal/products/productsorderingmoveservicetest.php
+src/internal/products/productsorderingreindexservice.php
+src/internal/products/productsorderingreindexservicetest.php
 src/internal/pushnotifications/controllers/notificationpreferencesrestcontroller.php
 src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 src/internal/pushnotifications/controllers/pushnotificationrestcontroller.php
@@ -53277,6 +53296,8 @@ src/internal/utilities/htmlsanitizertest.php
 src/internal/utilities/legacyrestapistub.php
 src/internal/utilities/orderitemmetautil.php
 src/internal/utilities/plugininstaller.php
+src/internal/utilities/priceseparators.php
+src/internal/utilities/priceseparatorstest.php
 src/internal/utilities/productutil.php
 src/internal/utilities/productutiltest.php
 src/internal/utilities/types.php
@@ -55275,6 +55296,8 @@ tests/php/src/internal/productfilters/paramstest.php
 tests/php/src/internal/productfilters/queryclausestest.php
 tests/php/src/internal/productfilters/taxonomyhierarchydatatest.php
 tests/php/src/internal/productgallery/productmediagallerytest.php
+tests/php/src/internal/products/productsorderingmoveservicetest.php
+tests/php/src/internal/products/productsorderingreindexservicetest.php
 tests/php/src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 tests/php/src/internal/pushnotifications/controllers/pushnotificationrestcontrollertest.php
 tests/php/src/internal/pushnotifications/controllers/pushtokenrestcontrollertest.php
@@ -55344,6 +55367,7 @@ tests/php/src/internal/utilities/cotmigrationutiltest.php
 tests/php/src/internal/utilities/databaseutiltest.php
 tests/php/src/internal/utilities/filesystemutiltest.php
 tests/php/src/internal/utilities/htmlsanitizertest.php
+tests/php/src/internal/utilities/priceseparatorstest.php
 tests/php/src/internal/utilities/productutiltest.php
 tests/php/src/internal/utilities/typestest.php
 tests/php/src/internal/utilities/urltest.php
@@ -58803,6 +58827,8 @@ woocommerce/src/internal/productfilters/readme.md
 woocommerce/src/internal/productfilters/taxonomyhierarchydata.php
 woocommerce/src/internal/productgallery/productmediagallery.php
 woocommerce/src/internal/productimage/matchimagebysku.php
+woocommerce/src/internal/products/productsorderingmoveservice.php
+woocommerce/src/internal/products/productsorderingreindexservice.php
 woocommerce/src/internal/pushnotifications/controllers/notificationpreferencesrestcontroller.php
 woocommerce/src/internal/pushnotifications/controllers/pushnotificationrestcontroller.php
 woocommerce/src/internal/pushnotifications/controllers/pushtokenrestcontroller.php
@@ -58962,6 +58988,7 @@ woocommerce/src/internal/utilities/htmlsanitizer.php
 woocommerce/src/internal/utilities/legacyrestapistub.php
 woocommerce/src/internal/utilities/orderitemmetautil.php
 woocommerce/src/internal/utilities/plugininstaller.php
+woocommerce/src/internal/utilities/priceseparators.php
 woocommerce/src/internal/utilities/productutil.php
 woocommerce/src/internal/utilities/types.php
 woocommerce/src/internal/utilities/url.php
@@ -59348,6 +59375,8 @@ woocommerce/tests/php/src/internal/productfilters/paramstest.php
 woocommerce/tests/php/src/internal/productfilters/queryclausestest.php
 woocommerce/tests/php/src/internal/productfilters/taxonomyhierarchydatatest.php
 woocommerce/tests/php/src/internal/productgallery/productmediagallerytest.php
+woocommerce/tests/php/src/internal/products/productsorderingmoveservicetest.php
+woocommerce/tests/php/src/internal/products/productsorderingreindexservicetest.php
 woocommerce/tests/php/src/internal/pushnotifications/controllers/notificationpreferencesrestcontrollertest.php
 woocommerce/tests/php/src/internal/pushnotifications/controllers/pushnotificationrestcontrollertest.php
 woocommerce/tests/php/src/internal/pushnotifications/controllers/pushtokenrestcontrollertest.php
@@ -59417,6 +59446,7 @@ woocommerce/tests/php/src/internal/utilities/cotmigrationutiltest.php
 woocommerce/tests/php/src/internal/utilities/databaseutiltest.php
 woocommerce/tests/php/src/internal/utilities/filesystemutiltest.php
 woocommerce/tests/php/src/internal/utilities/htmlsanitizertest.php
+woocommerce/tests/php/src/internal/utilities/priceseparatorstest.php
 woocommerce/tests/php/src/internal/utilities/productutiltest.php
 woocommerce/tests/php/src/internal/utilities/typestest.php
 woocommerce/tests/php/src/internal/utilities/urltest.php
@@ -59951,7 +59981,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://kctv5.com/robots.txt
+zh/internalhttp://pushpay.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
