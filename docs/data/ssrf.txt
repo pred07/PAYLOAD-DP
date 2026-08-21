@@ -18040,6 +18040,7 @@ internal-js-tests/changelog/update-pnpm-10-upgrade
 internal-js-tests/changelog/update-settings-router-calypso-package
 internal-js-tests/changelog/update-wp-68-packages
 internal-js-tests/changelog/wooplug-6930-eslint-v10-flat-config
+internal-js-tests/changelog/wooplug-7554-add-tooling-catalog
 internal-js-tests/composer.json
 internal-js-tests/composer.lock
 internal-js-tests/eslint.config.mjs
@@ -28328,6 +28329,7 @@ js/internal-js-tests/changelog/update-pnpm-10-upgrade
 js/internal-js-tests/changelog/update-settings-router-calypso-package
 js/internal-js-tests/changelog/update-wp-68-packages
 js/internal-js-tests/changelog/wooplug-6930-eslint-v10-flat-config
+js/internal-js-tests/changelog/wooplug-7554-add-tooling-catalog
 js/internal-js-tests/composer.json
 js/internal-js-tests/composer.lock
 js/internal-js-tests/eslint.config.mjs
@@ -46293,6 +46295,7 @@ packages/js/internal-js-tests/changelog/update-pnpm-10-upgrade
 packages/js/internal-js-tests/changelog/update-settings-router-calypso-package
 packages/js/internal-js-tests/changelog/update-wp-68-packages
 packages/js/internal-js-tests/changelog/wooplug-6930-eslint-v10-flat-config
+packages/js/internal-js-tests/changelog/wooplug-7554-add-tooling-catalog
 packages/js/internal-js-tests/composer.json
 packages/js/internal-js-tests/composer.lock
 packages/js/internal-js-tests/eslint.config.mjs
@@ -59980,7 +59983,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://kctv5.com/robots.txt
+zh/internalhttp://exploratorium.edu/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
