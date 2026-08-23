@@ -4360,6 +4360,8 @@ ___internal-do-not-use-will-break-in-patch/admin-ui/pages/noaccesspage/index.tsx
 ___internal-do-not-use-will-break-in-patch/admin-ui/pages/noaccesspage/package.json
 ___internal-do-not-use-will-break-in-patch/artifacts.ts
 ___internal-do-not-use-will-break-in-patch/artifacts/package.json
+__fixtures__/sw-mixin-internal-override/index.js
+__fixtures__/sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 __fopen_internal
 __gconv_transform_ascii_internal
 __gconv_transform_internal_ascii
@@ -4754,10 +4756,14 @@ adminftp/smarty/internals/core.run_insert_handler.php
 admininternal
 admininternal-originv2
 admininternalusers
+administration/resources/app/administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/index.js
+administration/resources/app/administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 administration/resources/app/administration/src/app/component/utils/sw-internal-link/index.js
 administration/resources/app/administration/src/app/component/utils/sw-internal-link/sw-internal-link.html.twig
 administration/resources/app/administration/src/app/component/utils/sw-internal-link/sw-internal-link.scss
 administration/resources/app/administration/src/app/component/utils/sw-internal-link/sw-internal-link.spec.js
+administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/index.js
+administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 administration/src/app/component/utils/sw-internal-link/index.js
 administration/src/app/component/utils/sw-internal-link/sw-internal-link.html.twig
 administration/src/app/component/utils/sw-internal-link/sw-internal-link.scss
@@ -5741,6 +5747,8 @@ app-proxy-internal
 app.internal
 app.kubernetes.example.ini
 app.localhost
+app/administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/index.js
+app/administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 app/administration/src/app/component/utils/sw-internal-link/index.js
 app/administration/src/app/component/utils/sw-internal-link/sw-internal-link.html.twig
 app/administration/src/app/component/utils/sw-internal-link/sw-internal-link.scss
@@ -9557,6 +9565,8 @@ codefckeditor/editor/_source/internals/_notes
 codefckeditor/editor/_source/internals/_notes/dwsync.xml
 codekvast_dashboard_localhost.xml
 codemirror/doc/internals.html
+codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/index.js
+codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 coding-guidelines/core/final-and-internal.md
 coding-guidelines/core/internal.md
 coest xml artifactscollection format internal.xml
@@ -13725,6 +13735,7 @@ en/internal
 en/internal/
 en/internal/internal-lead-referral-form
 en/internal/test-ssg-deploy
+en/internaljustice/files
 en/servers/racks-internal
 enable-secure-admin-internal-user.1
 enabledforinternaluse
@@ -15824,6 +15835,7 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
+http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -24649,6 +24661,7 @@ internal/service-worker.json
 internal/session.json
 internal/settings.json
 internal/settings/optionsanitizer.php
+internal/settings/optionsanitizertest.php
 internal/settings/pointofsaledefaultsettings.php
 internal/shopperlists/privacy/privacy.php
 internal/shopperlists/privacy/privacytests.php
@@ -47088,6 +47101,7 @@ php/src/internal/restapi/routes/v4/settings/paymentgateways/schema/abstractpayme
 php/src/internal/restapi/routes/v4/settings/paymentgateways/wcgatewaymockpassword.php
 php/src/internal/restapi/routes/v4/settings/tax/taxcontrollertest.php
 php/src/internal/restapiparameterutiltest.php
+php/src/internal/settings/optionsanitizertest.php
 php/src/internal/shopperlists/privacy/privacytests.php
 php/src/internal/shopperlists/shopperlistitemtests.php
 php/src/internal/shopperlists/shopperlistscontrollertests.php
@@ -49139,6 +49153,7 @@ plugins/woocommerce/tests/php/src/internal/restapi/routes/v4/settings/paymentgat
 plugins/woocommerce/tests/php/src/internal/restapi/routes/v4/settings/paymentgateways/wcgatewaymockpassword.php
 plugins/woocommerce/tests/php/src/internal/restapi/routes/v4/settings/tax/taxcontrollertest.php
 plugins/woocommerce/tests/php/src/internal/restapiparameterutiltest.php
+plugins/woocommerce/tests/php/src/internal/settings/optionsanitizertest.php
 plugins/woocommerce/tests/php/src/internal/shopperlists/privacy/privacytests.php
 plugins/woocommerce/tests/php/src/internal/shopperlists/shopperlistitemtests.php
 plugins/woocommerce/tests/php/src/internal/shopperlists/shopperlistscontrollertests.php
@@ -50332,6 +50347,8 @@ resources-localhost
 resources.internal.de.designer.cs.dll
 resources.internal.designer.cs.dll
 resources/.arch-internal-preview.css
+resources/app/administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/index.js
+resources/app/administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 resources/app/administration/src/app/component/utils/sw-internal-link/index.js
 resources/app/administration/src/app/component/utils/sw-internal-link/sw-internal-link.html.twig
 resources/app/administration/src/app/component/utils/sw-internal-link/sw-internal-link.scss
@@ -50802,6 +50819,8 @@ scribe.internal
 script/_fixtures/internalservice.php
 script/_fixtures/internalservice2.php
 scripts/check-internal-packages.js
+scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/index.js
+scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 scripts/features/discussions/filters/selectinternalstatus.tsx
 scripts/test/check-internal-packages.test.js
 scriptsharp.internal.zipbuilder.dll
@@ -51079,6 +51098,8 @@ sf.eas.internal.mesh.test.api
 sf.sea.internal.mesh.dev.api
 sf.sea.internal.mesh.test.api
 sfb-vip-web-internal
+sfc-migration/__fixtures__/sw-mixin-internal-override/index.js
+sfc-migration/__fixtures__/sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 sfk8sinternal-7bb752ba
 sft-internal
 sft-internal-dt
@@ -52140,6 +52161,8 @@ src/___internal-do-not-use-will-break-in-patch/admin-ui/pages/listpage/tag.tsx
 src/___internal-do-not-use-will-break-in-patch/admin-ui/pages/noaccesspage/index.tsx
 src/___internal-do-not-use-will-break-in-patch/artifacts.ts
 src/adapter/order/commandhandler/setinternalordernotehandler.php
+src/administration/resources/app/administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/index.js
+src/administration/resources/app/administration/scripts/codemods/sfc-migration/__fixtures__/sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 src/administration/resources/app/administration/src/app/component/utils/sw-internal-link/index.js
 src/administration/resources/app/administration/src/app/component/utils/sw-internal-link/sw-internal-link.html.twig
 src/administration/resources/app/administration/src/app/component/utils/sw-internal-link/sw-internal-link.scss
@@ -53211,6 +53234,7 @@ src/internal/restapiparameterutiltest.php
 src/internal/restockrefundeditemsadjuster.php
 src/internal/scheduledsalepricereconciler.php
 src/internal/settings/optionsanitizer.php
+src/internal/settings/optionsanitizertest.php
 src/internal/settings/pointofsaledefaultsettings.php
 src/internal/shopperlists/privacy/privacy.php
 src/internal/shopperlists/privacy/privacytests.php
@@ -53768,6 +53792,9 @@ sw-internal-link/index.js
 sw-internal-link/sw-internal-link.html.twig
 sw-internal-link/sw-internal-link.scss
 sw-internal-link/sw-internal-link.spec.js
+sw-mixin-internal-override.html.twig
+sw-mixin-internal-override/index.js
+sw-mixin-internal-override/sw-mixin-internal-override.html.twig
 swakubernetesopscim-dns-ec150088
 swallow-sim-swallow-sim$sources_2.12-compile-internal.xml
 swallow-sim-swallow-sim$sources_2.12-runtime-internal.xml
@@ -55347,6 +55374,7 @@ tests/php/src/internal/restapi/routes/v4/settings/paymentgateways/schema/abstrac
 tests/php/src/internal/restapi/routes/v4/settings/paymentgateways/wcgatewaymockpassword.php
 tests/php/src/internal/restapi/routes/v4/settings/tax/taxcontrollertest.php
 tests/php/src/internal/restapiparameterutiltest.php
+tests/php/src/internal/settings/optionsanitizertest.php
 tests/php/src/internal/shopperlists/privacy/privacytests.php
 tests/php/src/internal/shopperlists/shopperlistitemtests.php
 tests/php/src/internal/shopperlists/shopperlistscontrollertests.php
@@ -59429,6 +59457,7 @@ woocommerce/tests/php/src/internal/restapi/routes/v4/settings/paymentgateways/sc
 woocommerce/tests/php/src/internal/restapi/routes/v4/settings/paymentgateways/wcgatewaymockpassword.php
 woocommerce/tests/php/src/internal/restapi/routes/v4/settings/tax/taxcontrollertest.php
 woocommerce/tests/php/src/internal/restapiparameterutiltest.php
+woocommerce/tests/php/src/internal/settings/optionsanitizertest.php
 woocommerce/tests/php/src/internal/shopperlists/privacy/privacytests.php
 woocommerce/tests/php/src/internal/shopperlists/shopperlistitemtests.php
 woocommerce/tests/php/src/internal/shopperlists/shopperlistscontrollertests.php
@@ -59995,8 +60024,8 @@ zend_tool_project-internals.xml
 zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
+zh/internalhttp://amightygirl.com/robots.txt
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://pushpay.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
