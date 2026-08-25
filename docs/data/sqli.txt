@@ -43888,6 +43888,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 669-update-addon-indices.sql
 67-update-fields.sql
 676-drop-category-carrier-region-columns.sql
+67632-fix-select-icon-overlap-wp70
 677-drop-featured-tables.sql
 67drop
 682-remove-waffle-soft-delete.sql
@@ -72541,6 +72542,7 @@ changelog/57935-update-blueprint-docs
 changelog/58792-update-blueprint-doc-exporter-ui
 changelog/61753-fix-support-composer-update
 changelog/66078-update-scaffold-flat-config
+changelog/67632-fix-select-icon-overlap-wp70
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
 changelog/dev-add-note-drop-image-layout
@@ -72550,6 +72552,7 @@ changelog/fix-beta-tester-delete-option-error
 changelog/fix-outofstock-update-since
 changelog/fix-product-editor-images-drop-error
 changelog/fix-select-control-inline-tag-alignment
+changelog/fix-update-antom-icon
 changelog/release-6-3-1-1/2020-09-04-symfony-update-4.4.11.md
 changelog/release-6-3-2-0/2020-09-07-consider-admin-order-for-stock-update.md
 changelog/release-6-3-2-0/2020-09-11-update-jest-and-vue-test-utils.md
@@ -79871,6 +79874,8 @@ core/tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefa
 core/tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/insert.php
 core/tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/select.php
 core/tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/update.php
+core/tests/unit/update/indexcontrollertest.php
+core/tests/unit/update/updatecontrollertest.php
 core/themes/admin/js/tableselect.js
 core/themes/admin/migration/js/tableselect.js
 core/themes/admin/templates/admin/update-project-status.html.twig
@@ -95193,7 +95198,6 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
-false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -96810,6 +96814,7 @@ fix-percent-complete-select-box.sql
 fix-plugin-update
 fix-product-editor-images-drop-error
 fix-select-control-inline-tag-alignment
+fix-update-antom-icon
 fix-update-in-process
 fix-update.go
 fix_exec.py
@@ -98094,6 +98099,8 @@ framework/core/src/api/endpoint/update.php
 framework/core/src/update/controller/indexcontroller.php
 framework/core/src/update/controller/updatecontroller.php
 framework/core/src/update/updateserviceprovider.php
+framework/core/tests/unit/update/indexcontrollertest.php
+framework/core/tests/unit/update/updatecontrollertest.php
 framework/core/views/install/update.php
 framework/data/form/element/editablemultiselect.php
 framework/data/form/element/multiselect.php
@@ -102149,6 +102156,7 @@ http/controllers/v1/admin/update/finishupdatecontroller.php
 http/controllers/v1/admin/update/migrateupdatecontroller.php
 http/controllers/v1/admin/update/unzipupdatecontroller.php
 http/controllers/v1/admin/update/updatecontroller.php
+http://raindrop.io/robots.txt
 http_feed.2.update.sqlpp
 http_feed.6.update.sqlpp
 http_feed_json.2.update.sqlpp
@@ -103768,7 +103776,6 @@ index.aspx.old.delete
 index.exec.css
 index.exec.ts
 index.html?id=qq0w&action=qq1w&page=qq2w&name=qq3w&f=qq4w&url=qq5w&email=qq6w&type=qq7w&file=qq8w&title=qq9w&code=qq10w&q=qq11w&user=qq12w&token=qq13w&t=qq14w&c=qq15w&data=qq16w&mode=qq17w&order=qq18w&lang=qq19w&p=qq20w&key=qq21w&status=qq22w&start=qq23w&charset=qq24w&s=qq25w&post=qq26w&login=qq27w&search=qq28w&content=qq29w&comment=qq30w&step=qq31w&ajax=qq32w&debug=qq33w&state=qq34w&query=qq35w&error=qq36w&save=qq37w&sort=qq38w&format=qq39w&tab=qq40w&offset=qq41w&edit=qq42w&preview=qq43w&filter=qq44w&from=qq45w&view=qq46w&a=qq47w&limit=qq48w&do=qq49w&plugin=qq50w&theme=qq51w&text=qq52w&test=qq53w&path=qq54w&pass=qq55w&dir=qq56w&show=qq57w&h=qq58w&value=qq59w&filename=qq60w&redirect=qq61w&year=qq62w&group=qq63w&template=qq64w&subject=qq65w&m=qq66w&u=qq67w&dest=qq68w&uri=qq69w&continue=qq70w&window=qq71w&next=qq72w&reference=qq73w&site=qq74w&html=qq75w&val=qq76w&validate=qq77w&domain=qq78w&callback=qq79w&return=qq80w&feed=qq81w&host=qq82w&port=qq83w&to=qq84w&out=qq85w&navigation=qq86w&open=qq87w&account=qq88w&number=qq89w&no=qq90w&doc=qq91w&profile=qq92w&report=qq93w&daemon=qq94w&upload=qq95w&execute=qq96w&download=qq97w&log=qq98w&ip=qq99w&cli=qq100w&cmd=qq101w&document=qq102w&folder=qq103w&root=qq104w&pg=qq105w&style=qq106w&pdf=qq107w&php_path=qq108w&select=qq109w&role=qq110w&update=qq111w&where=qq112w&params=qq113w&process=qq114w&row=qq115w&table=qq116w&sel=qq117w&results=qq118w&sleep=qq119w&fetch=qq120w&keyword=qq121w&column=qq122w&field=qq123w&delete=qq124w&string=qq125w&activity=qq126w&access=qq127w&admin=qq128w&dbg=qq129w&grant=qq130w&alter=qq131w&clone=qq132w&create=qq133w&disable=qq134w&enable=qq135w&exec=qq136w&load=qq137w&make=qq138w&modify=qq139w&rename=qq140w&reset=qq141w&shell=qq142w&toggle=qq143w&adm=qq144w&cfg=qq145w&config=qq146w&utm_source=qq147w&utm_campaign=qq148w&utm_medium=qq149w&&r9oap=qq150w&
-index.htmlhttp://westernunion.com/robots.txt
 index.jsf.old.delete
 index.jsp.old.delete
 index.myaccount.update.en-us
@@ -125507,7 +125514,9 @@ plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
+plugins/woocommerce/changelog/67632-fix-select-icon-overlap-wp70
 plugins/woocommerce/changelog/fix-outofstock-update-since
+plugins/woocommerce/changelog/fix-update-antom-icon
 plugins/woocommerce/changelog/update-action-scheduler-via-automation
 plugins/woocommerce/changelog/update-catalog-sorting-content-width
 plugins/woocommerce/changelog/update-patterns-category-name
@@ -131359,7 +131368,6 @@ refreshcurrentupdate
 refreshdefaultupdate
 refreshdetailsupdate
 refreshdetailupdate
-refreshed-hphttp://alliantcreditunion.org/robots.txt
 refreshenabledupdate
 refreshexportedupdate
 refreshfinishedupdate
@@ -153023,6 +153031,7 @@ tests/unit/testclasses/core/select/where
 tests/unit/testclasses/core/select/where/itemconverters
 tests/unit/testclasses/core/select/where/itemconverters/testconverter.php
 tests/unit/testsuite/magento/testframework/dependency/_files/layout_handle_update.xml
+tests/unit/update/indexcontrollertest.php
 tests/unit/update/step/abstractsteptestcase.php
 tests/unit/update/step/deletecachesteptest.php
 tests/unit/update/step/finalizeupdatesteptest.php
@@ -153033,6 +153042,7 @@ tests/unit/update/step/resources/update.zip
 tests/unit/update/step/updateschemasteptest.php
 tests/unit/update/step/updatetranslationssteptest.php
 tests/unit/update/stepprovidertest.php
+tests/unit/update/updatecontrollertest.php
 tests/update
 tests/update-throttle.test.js
 tests/update.php
@@ -158270,7 +158280,6 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
-true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -161393,6 +161402,7 @@ unit/server/services/update-check.test.js
 unit/server/web/api/middleware/update-user-last-seen.test.js
 unit/testclasses/core/select/where/itemconverters/testconverter.php
 unit/testsuite/magento/testframework/dependency/_files/layout_handle_update.xml
+unit/update/indexcontrollertest.php
 unit/update/step/abstractsteptestcase.php
 unit/update/step/deletecachesteptest.php
 unit/update/step/finalizeupdatesteptest.php
@@ -161403,6 +161413,7 @@ unit/update/step/resources/update.zip
 unit/update/step/updateschemasteptest.php
 unit/update/step/updatetranslationssteptest.php
 unit/update/stepprovidertest.php
+unit/update/updatecontrollertest.php
 unit/utils/api/update-queries.test.ts
 unit_delete
 unit_section_delete
@@ -169454,6 +169465,7 @@ update/index.main
 update/index.php
 update/index.ts
 update/index2.aspx
+update/indexcontrollertest.php
 update/indexskin.asp
 update/inputtype/datetest.php
 update/inputtype/datetimetest.php
@@ -169917,6 +169929,7 @@ update/updatebuilder.cs
 update/updatecachebackendfactory.php
 update/updatecompilerpass.php
 update/updatecontroller.php
+update/updatecontrollertest.php
 update/updatedatabuilder.cs
 update/updatedb.php
 update/updateemptyemailsupdatepathtest.php
@@ -176487,7 +176500,9 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
+woocommerce/changelog/67632-fix-select-icon-overlap-wp70
 woocommerce/changelog/fix-outofstock-update-since
+woocommerce/changelog/fix-update-antom-icon
 woocommerce/changelog/update-action-scheduler-via-automation
 woocommerce/changelog/update-catalog-sorting-content-width
 woocommerce/changelog/update-patterns-category-name
