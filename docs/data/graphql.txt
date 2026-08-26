@@ -2722,6 +2722,7 @@ app/code/magento/customergraphql/model/resolver/cache/customer/modelhydrator.php
 app/code/magento/customergraphql/model/resolver/cache/customer/resolvercacheidentity.php
 app/code/magento/customergraphql/model/resolver/cache/customer/tagsstrategy.php
 app/code/magento/customergraphql/model/resolver/cachekey/factorprovider/currentcustomerid.php
+app/code/magento/customergraphql/model/resolver/cachekey/factorprovider/currentwebsiteid.php
 app/code/magento/customergraphql/model/resolver/cachekey/factorprovider/customergroup.php
 app/code/magento/customergraphql/model/resolver/cachekey/factorprovider/customertaxrate.php
 app/code/magento/customergraphql/model/resolver/cachekey/factorprovider/isloggedin.php
@@ -2760,6 +2761,7 @@ app/code/magento/customergraphql/readme.md
 app/code/magento/customergraphql/registration.php
 app/code/magento/customergraphql/test/unit/model/getguestordersbyemailtest.php
 app/code/magento/customergraphql/test/unit/model/resolver/cache/customer/modelhydratortest.php
+app/code/magento/customergraphql/test/unit/model/resolver/cachekey/factorprovider/currentwebsiteidtest.php
 app/code/magento/customergraphql/test/unit/model/resolver/revokecustomertokentest.php
 app/code/magento/customergraphql/test/unit/model/validatorexceptionprocessortest.php
 app/code/magento/customergraphql/test/unit/plugin/clearcustomersessionafterrequesttest.php
@@ -6370,6 +6372,7 @@ code/magento/customergraphql/model/resolver/cache/customer/modelhydrator.php
 code/magento/customergraphql/model/resolver/cache/customer/resolvercacheidentity.php
 code/magento/customergraphql/model/resolver/cache/customer/tagsstrategy.php
 code/magento/customergraphql/model/resolver/cachekey/factorprovider/currentcustomerid.php
+code/magento/customergraphql/model/resolver/cachekey/factorprovider/currentwebsiteid.php
 code/magento/customergraphql/model/resolver/cachekey/factorprovider/customergroup.php
 code/magento/customergraphql/model/resolver/cachekey/factorprovider/customertaxrate.php
 code/magento/customergraphql/model/resolver/cachekey/factorprovider/isloggedin.php
@@ -6408,6 +6411,7 @@ code/magento/customergraphql/readme.md
 code/magento/customergraphql/registration.php
 code/magento/customergraphql/test/unit/model/getguestordersbyemailtest.php
 code/magento/customergraphql/test/unit/model/resolver/cache/customer/modelhydratortest.php
+code/magento/customergraphql/test/unit/model/resolver/cachekey/factorprovider/currentwebsiteidtest.php
 code/magento/customergraphql/test/unit/model/resolver/revokecustomertokentest.php
 code/magento/customergraphql/test/unit/model/validatorexceptionprocessortest.php
 code/magento/customergraphql/test/unit/plugin/clearcustomersessionafterrequesttest.php
@@ -7532,6 +7536,7 @@ customergraphql/model/resolver/cache/customer/resolvercacheidentity.php
 customergraphql/model/resolver/cache/customer/tagsstrategy.php
 customergraphql/model/resolver/cache/customermodelhydratordehydratortest.php
 customergraphql/model/resolver/cachekey/factorprovider/currentcustomerid.php
+customergraphql/model/resolver/cachekey/factorprovider/currentwebsiteid.php
 customergraphql/model/resolver/cachekey/factorprovider/customergroup.php
 customergraphql/model/resolver/cachekey/factorprovider/customertaxrate.php
 customergraphql/model/resolver/cachekey/factorprovider/isloggedin.php
@@ -7575,6 +7580,7 @@ customergraphql/registration.php
 customergraphql/test/unit/model/context/adduserinfotocontexttest.php
 customergraphql/test/unit/model/getguestordersbyemailtest.php
 customergraphql/test/unit/model/resolver/cache/customer/modelhydratortest.php
+customergraphql/test/unit/model/resolver/cachekey/factorprovider/currentwebsiteidtest.php
 customergraphql/test/unit/model/resolver/issubscribedtest.php
 customergraphql/test/unit/model/resolver/revokecustomertokentest.php
 customergraphql/test/unit/model/validatorexceptionprocessortest.php
@@ -16792,6 +16798,7 @@ magento/customergraphql/model/resolver/cache/customer/resolvercacheidentity.php
 magento/customergraphql/model/resolver/cache/customer/tagsstrategy.php
 magento/customergraphql/model/resolver/cache/customermodelhydratordehydratortest.php
 magento/customergraphql/model/resolver/cachekey/factorprovider/currentcustomerid.php
+magento/customergraphql/model/resolver/cachekey/factorprovider/currentwebsiteid.php
 magento/customergraphql/model/resolver/cachekey/factorprovider/customergroup.php
 magento/customergraphql/model/resolver/cachekey/factorprovider/customertaxrate.php
 magento/customergraphql/model/resolver/cachekey/factorprovider/isloggedin.php
@@ -16834,6 +16841,7 @@ magento/customergraphql/registration.php
 magento/customergraphql/test/unit/model/context/adduserinfotocontexttest.php
 magento/customergraphql/test/unit/model/getguestordersbyemailtest.php
 magento/customergraphql/test/unit/model/resolver/cache/customer/modelhydratortest.php
+magento/customergraphql/test/unit/model/resolver/cachekey/factorprovider/currentwebsiteidtest.php
 magento/customergraphql/test/unit/model/resolver/issubscribedtest.php
 magento/customergraphql/test/unit/model/resolver/revokecustomertokentest.php
 magento/customergraphql/test/unit/model/validatorexceptionprocessortest.php

