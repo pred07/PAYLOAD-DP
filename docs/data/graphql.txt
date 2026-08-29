@@ -2331,6 +2331,8 @@ app/code/magento/bundlegraphql/model/resolver/product/price/provider.php
 app/code/magento/bundlegraphql/model/wishlist/bundleoptions.php
 app/code/magento/bundlegraphql/readme.md
 app/code/magento/bundlegraphql/registration.php
+app/code/magento/bundlegraphql/test/fixture/bundleselectionwebsiteprice.php
+app/code/magento/bundlegraphql/test/integration/resolver/bundleproductwebsitepricescopetest.php
 app/code/magento/bundlegraphql/test/mftf/readme.md
 app/code/magento/catalogcmsgraphql/composer.json
 app/code/magento/catalogcmsgraphql/etc/graphql/di.xml
@@ -2580,6 +2582,8 @@ app/code/magento/cmsgraphql/model/resolver/page/resolvercacheidentity.php
 app/code/magento/cmsgraphql/readme.md
 app/code/magento/cmsgraphql/registration.php
 app/code/magento/cmsgraphql/test/integration/model/resolver/pagetest.php
+app/code/magento/cmsgraphql/test/unit/model/resolver/dataprovider/pagetest.php
+app/code/magento/cmsgraphql/test/unit/model/resolver/pagetest.php
 app/code/magento/cmsurlrewritegraphql/composer.json
 app/code/magento/cmsurlrewritegraphql/etc/di.xml
 app/code/magento/cmsurlrewritegraphql/etc/graphql/di.xml
@@ -2592,6 +2596,7 @@ app/code/magento/cmsurlrewritegraphql/model/resolver/urlrewrite/homepageurllocat
 app/code/magento/cmsurlrewritegraphql/readme.md
 app/code/magento/cmsurlrewritegraphql/registration.php
 app/code/magento/cmsurlrewritegraphql/test/mftf/readme.md
+app/code/magento/cmsurlrewritegraphql/test/unit/model/dataprovider/urlrewrite/pagetest.php
 app/code/magento/cmsurlrewritegraphql/test/unit/model/resolver/urlrewrite/homepageurllocatortest.php
 app/code/magento/comparelistgraphql/composer.json
 app/code/magento/comparelistgraphql/etc/module.xml
@@ -3227,6 +3232,7 @@ app/code/magento/quotegraphql/readme.md
 app/code/magento/quotegraphql/registration.php
 app/code/magento/quotegraphql/test/unit/model/cart/getcartforcheckouttest.php
 app/code/magento/quotegraphql/test/unit/model/cart/setpaymentmethodoncarttest.php
+app/code/magento/quotegraphql/test/unit/model/cart/updatecartcurrencytest.php
 app/code/magento/quotegraphql/test/unit/model/cartitem/productstocktest.php
 app/code/magento/quotegraphql/test/unit/model/errormappertest.php
 app/code/magento/quotegraphql/test/unit/model/orderresponseformattertest.php
@@ -3540,6 +3546,9 @@ app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebas
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.graphql
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.api.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.graphql
+app/frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.api.ts
+app/frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.graphql
+app/frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.mocks.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.api.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.graphql
 app/frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.mocks.ts
@@ -3576,6 +3585,9 @@ app/frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasec
 app/frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.api.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.graphql
 app/frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.mocks.ts
+app/frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.api.ts
+app/frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.graphql
+app/frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.mocks.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.api.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.graphql
 app/frontend/apps/desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.mocks.ts
@@ -4409,6 +4421,7 @@ app/graphql/gql/mutations/form/upload_cache/add.rb
 app/graphql/gql/mutations/form/upload_cache/concerns/handles_authorization.rb
 app/graphql/gql/mutations/form/upload_cache/remove.rb
 app/graphql/gql/mutations/guided_setup/set_system_information.rb
+app/graphql/gql/mutations/knowledge_base/answer/add.rb
 app/graphql/gql/mutations/knowledge_base/answer/suggestion/content/transform.rb
 app/graphql/gql/mutations/knowledge_base/base.rb
 app/graphql/gql/mutations/knowledge_base/category/add.rb
@@ -4542,6 +4555,7 @@ app/graphql/gql/queries/knowledge_base/answer/suggestions.rb
 app/graphql/gql/queries/knowledge_base/answers.rb
 app/graphql/gql/queries/knowledge_base/category_subcategories.rb
 app/graphql/gql/queries/knowledge_base/feed.rb
+app/graphql/gql/queries/knowledge_base/search.rb
 app/graphql/gql/queries/link/list.rb
 app/graphql/gql/queries/locales.rb
 app/graphql/gql/queries/macros.rb
@@ -4760,8 +4774,10 @@ app/graphql/gql/types/input/form_updater/changed_field_input_type.rb
 app/graphql/gql/types/input/form_updater/meta_input_type.rb
 app/graphql/gql/types/input/form_updater/relation_field_type.rb
 app/graphql/gql/types/input/knowledge_base/category_input_type.rb
+app/graphql/gql/types/input/knowledge_base/create_answer_input_type.rb
 app/graphql/gql/types/input/knowledge_base/input_type.rb
 app/graphql/gql/types/input/knowledge_base/role_permission_input_type.rb
+app/graphql/gql/types/input/knowledge_base/visibility_input_type.rb
 app/graphql/gql/types/input/link_input_type.rb
 app/graphql/gql/types/input/login_input_type.rb
 app/graphql/gql/types/input/object_attribute_value_input_type.rb
@@ -4820,6 +4836,10 @@ app/graphql/gql/types/knowledge_base/category_type.rb
 app/graphql/gql/types/knowledge_base/feed_type.rb
 app/graphql/gql/types/knowledge_base/icon_set_type.rb
 app/graphql/gql/types/knowledge_base/locale_type.rb
+app/graphql/gql/types/knowledge_base/search/item_type.rb
+app/graphql/gql/types/knowledge_base/search/path_segment_type.rb
+app/graphql/gql/types/knowledge_base/search/preview_segment_type.rb
+app/graphql/gql/types/knowledge_base/search/result_type.rb
 app/graphql/gql/types/knowledge_base_type.rb
 app/graphql/gql/types/link_object_type.rb
 app/graphql/gql/types/link_type.rb
@@ -4910,6 +4930,7 @@ app/graphql/gql/types/user/personal_settings/notification_matrix_row_type.rb
 app/graphql/gql/types/user/personal_settings/notification_matrix_type.rb
 app/graphql/gql/types/user/personal_settings/notification_sound_type.rb
 app/graphql/gql/types/user/personal_settings_type.rb
+app/graphql/gql/types/user/taskbar_item_entity/knowledge_base_answer_create_type.rb
 app/graphql/gql/types/user/taskbar_item_entity/search_type.rb
 app/graphql/gql/types/user/taskbar_item_entity/ticket_create_type.rb
 app/graphql/gql/types/user/taskbar_item_entity_type.rb
@@ -5000,6 +5021,9 @@ apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategoryprei
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.graphql
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.api.ts
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.graphql
+apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.api.ts
+apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.graphql
+apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.mocks.ts
 apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.api.ts
 apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.graphql
 apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.mocks.ts
@@ -5036,6 +5060,9 @@ apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasecategorysubcat
 apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.api.ts
 apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.graphql
 apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.mocks.ts
+apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.api.ts
+apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.graphql
+apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.mocks.ts
 apps/desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.api.ts
 apps/desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.graphql
 apps/desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.mocks.ts
@@ -5603,6 +5630,8 @@ bundlegraphql/model/resolver/products/dataprovider/product/disabledproductoption
 bundlegraphql/model/wishlist/bundleoptions.php
 bundlegraphql/readme.md
 bundlegraphql/registration.php
+bundlegraphql/test/fixture/bundleselectionwebsiteprice.php
+bundlegraphql/test/integration/resolver/bundleproductwebsitepricescopetest.php
 bundlegraphql/test/mftf/readme.md
 byte-encoding/schema.graphql
 cachedintrospectionresults.class
@@ -5938,6 +5967,8 @@ cmsgraphql/model/resolver/pagetest.php
 cmsgraphql/readme.md
 cmsgraphql/registration.php
 cmsgraphql/test/integration/model/resolver/pagetest.php
+cmsgraphql/test/unit/model/resolver/dataprovider/pagetest.php
+cmsgraphql/test/unit/model/resolver/pagetest.php
 cmsurlrewritegraphql/composer.json
 cmsurlrewritegraphql/etc/di.xml
 cmsurlrewritegraphql/etc/graphql/di.xml
@@ -5950,6 +5981,7 @@ cmsurlrewritegraphql/model/resolver/urlrewrite/homepageurllocator.php
 cmsurlrewritegraphql/readme.md
 cmsurlrewritegraphql/registration.php
 cmsurlrewritegraphql/test/mftf/readme.md
+cmsurlrewritegraphql/test/unit/model/dataprovider/urlrewrite/pagetest.php
 cmsurlrewritegraphql/test/unit/model/resolver/urlrewrite/homepageurllocatortest.php
 code-templates/graphqlcontrollertemplate.php
 code/magento/bundlegraphql/composer.json
@@ -5980,6 +6012,8 @@ code/magento/bundlegraphql/model/resolver/product/price/provider.php
 code/magento/bundlegraphql/model/wishlist/bundleoptions.php
 code/magento/bundlegraphql/readme.md
 code/magento/bundlegraphql/registration.php
+code/magento/bundlegraphql/test/fixture/bundleselectionwebsiteprice.php
+code/magento/bundlegraphql/test/integration/resolver/bundleproductwebsitepricescopetest.php
 code/magento/bundlegraphql/test/mftf/readme.md
 code/magento/catalogcmsgraphql/composer.json
 code/magento/catalogcmsgraphql/etc/graphql/di.xml
@@ -6229,6 +6263,8 @@ code/magento/cmsgraphql/model/resolver/page/resolvercacheidentity.php
 code/magento/cmsgraphql/readme.md
 code/magento/cmsgraphql/registration.php
 code/magento/cmsgraphql/test/integration/model/resolver/pagetest.php
+code/magento/cmsgraphql/test/unit/model/resolver/dataprovider/pagetest.php
+code/magento/cmsgraphql/test/unit/model/resolver/pagetest.php
 code/magento/cmsurlrewritegraphql/composer.json
 code/magento/cmsurlrewritegraphql/etc/di.xml
 code/magento/cmsurlrewritegraphql/etc/graphql/di.xml
@@ -6241,6 +6277,7 @@ code/magento/cmsurlrewritegraphql/model/resolver/urlrewrite/homepageurllocator.p
 code/magento/cmsurlrewritegraphql/readme.md
 code/magento/cmsurlrewritegraphql/registration.php
 code/magento/cmsurlrewritegraphql/test/mftf/readme.md
+code/magento/cmsurlrewritegraphql/test/unit/model/dataprovider/urlrewrite/pagetest.php
 code/magento/cmsurlrewritegraphql/test/unit/model/resolver/urlrewrite/homepageurllocatortest.php
 code/magento/comparelistgraphql/composer.json
 code/magento/comparelistgraphql/etc/module.xml
@@ -6878,6 +6915,7 @@ code/magento/quotegraphql/readme.md
 code/magento/quotegraphql/registration.php
 code/magento/quotegraphql/test/unit/model/cart/getcartforcheckouttest.php
 code/magento/quotegraphql/test/unit/model/cart/setpaymentmethodoncarttest.php
+code/magento/quotegraphql/test/unit/model/cart/updatecartcurrencytest.php
 code/magento/quotegraphql/test/unit/model/cartitem/productstocktest.php
 code/magento/quotegraphql/test/unit/model/errormappertest.php
 code/magento/quotegraphql/test/unit/model/orderresponseformattertest.php
@@ -7677,6 +7715,9 @@ desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.a
 desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.graphql
 desktop/entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.api.ts
 desktop/entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.graphql
+desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.api.ts
+desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.graphql
+desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.mocks.ts
 desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.api.ts
 desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.graphql
 desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.mocks.ts
@@ -7713,6 +7754,9 @@ desktop/entities/knowledge-base/graphql/queries/knowledgebasecategorysubcategori
 desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.api.ts
 desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.graphql
 desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.mocks.ts
+desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.api.ts
+desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.graphql
+desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.mocks.ts
 desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.api.ts
 desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.graphql
 desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.mocks.ts
@@ -8942,6 +8986,9 @@ entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.api.ts
 entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.graphql
 entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.api.ts
 entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.graphql
+entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.api.ts
+entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.graphql
+entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.mocks.ts
 entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.api.ts
 entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.graphql
 entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.mocks.ts
@@ -8978,6 +9025,9 @@ entities/knowledge-base/graphql/queries/knowledgebasecategorysubcategories.mocks
 entities/knowledge-base/graphql/queries/knowledgebasefeed.api.ts
 entities/knowledge-base/graphql/queries/knowledgebasefeed.graphql
 entities/knowledge-base/graphql/queries/knowledgebasefeed.mocks.ts
+entities/knowledge-base/graphql/queries/knowledgebasesearch.api.ts
+entities/knowledge-base/graphql/queries/knowledgebasesearch.graphql
+entities/knowledge-base/graphql/queries/knowledgebasesearch.mocks.ts
 entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.api.ts
 entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.graphql
 entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.mocks.ts
@@ -10068,6 +10118,9 @@ frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecat
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.graphql
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.api.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasefeedattributes.graphql
+frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.api.ts
+frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.graphql
+frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebaseansweradd.mocks.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.api.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.graphql
 frontend/apps/desktop/entities/knowledge-base/graphql/mutations/knowledgebasecategoryadd.mocks.ts
@@ -10104,6 +10157,9 @@ frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasecateg
 frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.api.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.graphql
 frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasefeed.mocks.ts
+frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.api.ts
+frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.graphql
+frontend/apps/desktop/entities/knowledge-base/graphql/queries/knowledgebasesearch.mocks.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.api.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.graphql
 frontend/apps/desktop/entities/knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.mocks.ts
@@ -11803,6 +11859,8 @@ graphql/gql/mutations/form/upload_cache/remove.rb
 graphql/gql/mutations/form/upload_cache/remove_spec.rb
 graphql/gql/mutations/guided_setup/set_system_information.rb
 graphql/gql/mutations/guided_setup/set_system_information_spec.rb
+graphql/gql/mutations/knowledge_base/answer/add.rb
+graphql/gql/mutations/knowledge_base/answer/add_spec.rb
 graphql/gql/mutations/knowledge_base/answer/suggestion/content/transform.rb
 graphql/gql/mutations/knowledge_base/answer/suggestion/content/transform_spec.rb
 graphql/gql/mutations/knowledge_base/base.rb
@@ -12066,6 +12124,8 @@ graphql/gql/queries/knowledge_base/category_subcategories.rb
 graphql/gql/queries/knowledge_base/category_subcategories_spec.rb
 graphql/gql/queries/knowledge_base/feed.rb
 graphql/gql/queries/knowledge_base/feed_spec.rb
+graphql/gql/queries/knowledge_base/search.rb
+graphql/gql/queries/knowledge_base/search_spec.rb
 graphql/gql/queries/knowledge_base_spec.rb
 graphql/gql/queries/link/list.rb
 graphql/gql/queries/link/list_spec.rb
@@ -12378,8 +12438,10 @@ graphql/gql/types/input/form_updater/changed_field_input_type.rb
 graphql/gql/types/input/form_updater/meta_input_type.rb
 graphql/gql/types/input/form_updater/relation_field_type.rb
 graphql/gql/types/input/knowledge_base/category_input_type.rb
+graphql/gql/types/input/knowledge_base/create_answer_input_type.rb
 graphql/gql/types/input/knowledge_base/input_type.rb
 graphql/gql/types/input/knowledge_base/role_permission_input_type.rb
+graphql/gql/types/input/knowledge_base/visibility_input_type.rb
 graphql/gql/types/input/link_input_type.rb
 graphql/gql/types/input/login_input_type.rb
 graphql/gql/types/input/object_attribute_value_input_type.rb
@@ -12440,6 +12502,10 @@ graphql/gql/types/knowledge_base/feed_type.rb
 graphql/gql/types/knowledge_base/icon_set_type.rb
 graphql/gql/types/knowledge_base/icon_set_type_spec.rb
 graphql/gql/types/knowledge_base/locale_type.rb
+graphql/gql/types/knowledge_base/search/item_type.rb
+graphql/gql/types/knowledge_base/search/path_segment_type.rb
+graphql/gql/types/knowledge_base/search/preview_segment_type.rb
+graphql/gql/types/knowledge_base/search/result_type.rb
 graphql/gql/types/knowledge_base_type.rb
 graphql/gql/types/knowledge_base_type_spec.rb
 graphql/gql/types/link_object_type.rb
@@ -12534,6 +12600,7 @@ graphql/gql/types/user/personal_settings/notification_matrix_row_type.rb
 graphql/gql/types/user/personal_settings/notification_matrix_type.rb
 graphql/gql/types/user/personal_settings/notification_sound_type.rb
 graphql/gql/types/user/personal_settings_type.rb
+graphql/gql/types/user/taskbar_item_entity/knowledge_base_answer_create_type.rb
 graphql/gql/types/user/taskbar_item_entity/search_type.rb
 graphql/gql/types/user/taskbar_item_entity/ticket_create_type.rb
 graphql/gql/types/user/taskbar_item_entity_type.rb
@@ -12783,6 +12850,9 @@ graphql/mutations/index.js
 graphql/mutations/knowledgebase/suggestion/content/transform.api.ts
 graphql/mutations/knowledgebase/suggestion/content/transform.graphql
 graphql/mutations/knowledgebase/suggestion/content/transform.mocks.ts
+graphql/mutations/knowledgebaseansweradd.api.ts
+graphql/mutations/knowledgebaseansweradd.graphql
+graphql/mutations/knowledgebaseansweradd.mocks.ts
 graphql/mutations/knowledgebasecategoryadd.api.ts
 graphql/mutations/knowledgebasecategoryadd.graphql
 graphql/mutations/knowledgebasecategoryadd.mocks.ts
@@ -13166,6 +13236,9 @@ graphql/queries/knowledgebasecategorysubcategories.mocks.ts
 graphql/queries/knowledgebasefeed.api.ts
 graphql/queries/knowledgebasefeed.graphql
 graphql/queries/knowledgebasefeed.mocks.ts
+graphql/queries/knowledgebasesearch.api.ts
+graphql/queries/knowledgebasesearch.graphql
+graphql/queries/knowledgebasesearch.mocks.ts
 graphql/queries/linklist.api.ts
 graphql/queries/linklist.graphql
 graphql/queries/linklist.mocks.ts
@@ -15741,6 +15814,9 @@ knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.api.ts
 knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.graphql
 knowledge-base/graphql/fragments/knowledgebasefeedattributes.api.ts
 knowledge-base/graphql/fragments/knowledgebasefeedattributes.graphql
+knowledge-base/graphql/mutations/knowledgebaseansweradd.api.ts
+knowledge-base/graphql/mutations/knowledgebaseansweradd.graphql
+knowledge-base/graphql/mutations/knowledgebaseansweradd.mocks.ts
 knowledge-base/graphql/mutations/knowledgebasecategoryadd.api.ts
 knowledge-base/graphql/mutations/knowledgebasecategoryadd.graphql
 knowledge-base/graphql/mutations/knowledgebasecategoryadd.mocks.ts
@@ -15777,6 +15853,9 @@ knowledge-base/graphql/queries/knowledgebasecategorysubcategories.mocks.ts
 knowledge-base/graphql/queries/knowledgebasefeed.api.ts
 knowledge-base/graphql/queries/knowledgebasefeed.graphql
 knowledge-base/graphql/queries/knowledgebasefeed.mocks.ts
+knowledge-base/graphql/queries/knowledgebasesearch.api.ts
+knowledge-base/graphql/queries/knowledgebasesearch.graphql
+knowledge-base/graphql/queries/knowledgebasesearch.mocks.ts
 knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.api.ts
 knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.graphql
 knowledge-base/graphql/subscriptions/knowledgebaseanswerupdates.mocks.ts
@@ -15787,6 +15866,7 @@ knowledgebase.graphql
 knowledgebase/answersuggestions.graphql
 knowledgebase/suggestion/content/transform.graphql
 knowledgebaseanswer.graphql
+knowledgebaseansweradd.graphql
 knowledgebaseanswerattributes.graphql
 knowledgebaseanswers.graphql
 knowledgebaseanswertranslation.graphql
@@ -15801,6 +15881,7 @@ knowledgebasecontentupdates.graphql
 knowledgebasefeed.graphql
 knowledgebasefeedattributes.graphql
 knowledgebasefeedtokenrenew.graphql
+knowledgebasesearch.graphql
 knowledgebaseupdate.graphql
 kunstwerkengraphql1view
 laravel-graphql-playground
@@ -16395,6 +16476,8 @@ magento/bundlegraphql/model/resolver/product/price/provider.php
 magento/bundlegraphql/model/wishlist/bundleoptions.php
 magento/bundlegraphql/readme.md
 magento/bundlegraphql/registration.php
+magento/bundlegraphql/test/fixture/bundleselectionwebsiteprice.php
+magento/bundlegraphql/test/integration/resolver/bundleproductwebsitepricescopetest.php
 magento/bundlegraphql/test/mftf/readme.md
 magento/catalogcmsgraphql/composer.json
 magento/catalogcmsgraphql/etc/graphql/di.xml
@@ -16647,6 +16730,8 @@ magento/cmsgraphql/model/resolver/page/resolvercacheidentity.php
 magento/cmsgraphql/readme.md
 magento/cmsgraphql/registration.php
 magento/cmsgraphql/test/integration/model/resolver/pagetest.php
+magento/cmsgraphql/test/unit/model/resolver/dataprovider/pagetest.php
+magento/cmsgraphql/test/unit/model/resolver/pagetest.php
 magento/cmsurlrewritegraphql/composer.json
 magento/cmsurlrewritegraphql/etc/di.xml
 magento/cmsurlrewritegraphql/etc/graphql/di.xml
@@ -16659,6 +16744,7 @@ magento/cmsurlrewritegraphql/model/resolver/urlrewrite/homepageurllocator.php
 magento/cmsurlrewritegraphql/readme.md
 magento/cmsurlrewritegraphql/registration.php
 magento/cmsurlrewritegraphql/test/mftf/readme.md
+magento/cmsurlrewritegraphql/test/unit/model/dataprovider/urlrewrite/pagetest.php
 magento/cmsurlrewritegraphql/test/unit/model/resolver/urlrewrite/homepageurllocatortest.php
 magento/comparelistgraphql/composer.json
 magento/comparelistgraphql/etc/module.xml
@@ -18066,6 +18152,7 @@ magento/quotegraphql/readme.md
 magento/quotegraphql/registration.php
 magento/quotegraphql/test/unit/model/cart/getcartforcheckouttest.php
 magento/quotegraphql/test/unit/model/cart/setpaymentmethodoncarttest.php
+magento/quotegraphql/test/unit/model/cart/updatecartcurrencytest.php
 magento/quotegraphql/test/unit/model/cartitem/productstocktest.php
 magento/quotegraphql/test/unit/model/errormappertest.php
 magento/quotegraphql/test/unit/model/orderresponseformattertest.php
@@ -18466,6 +18553,7 @@ mutations/delete.graphql
 mutations/deleteall.graphql
 mutations/highlightedtextupsert.graphql
 mutations/knowledgebase/suggestion/content/transform.graphql
+mutations/knowledgebaseansweradd.graphql
 mutations/knowledgebasecategoryadd.graphql
 mutations/knowledgebasecategorydelete.graphql
 mutations/knowledgebasecategoryupdate.graphql
@@ -20184,6 +20272,7 @@ queries/knowledgebaseanswer.graphql
 queries/knowledgebaseanswers.graphql
 queries/knowledgebasecategorysubcategories.graphql
 queries/knowledgebasefeed.graphql
+queries/knowledgebasesearch.graphql
 queries/linklist.graphql
 queries/links.graphql
 queries/locales.graphql
@@ -20408,6 +20497,7 @@ quotegraphql/readme.md
 quotegraphql/registration.php
 quotegraphql/test/unit/model/cart/getcartforcheckouttest.php
 quotegraphql/test/unit/model/cart/setpaymentmethodoncarttest.php
+quotegraphql/test/unit/model/cart/updatecartcurrencytest.php
 quotegraphql/test/unit/model/cartitem/productstocktest.php
 quotegraphql/test/unit/model/errormappertest.php
 quotegraphql/test/unit/model/orderresponseformattertest.php
@@ -21163,6 +21253,7 @@ spec/graphql/gql/mutations/channel/email/validate_configuration_roundtrip_spec.r
 spec/graphql/gql/mutations/form/upload_cache/add_spec.rb
 spec/graphql/gql/mutations/form/upload_cache/remove_spec.rb
 spec/graphql/gql/mutations/guided_setup/set_system_information_spec.rb
+spec/graphql/gql/mutations/knowledge_base/answer/add_spec.rb
 spec/graphql/gql/mutations/knowledge_base/answer/suggestion/content/transform_spec.rb
 spec/graphql/gql/mutations/knowledge_base/category/add_spec.rb
 spec/graphql/gql/mutations/knowledge_base/category/delete_spec.rb
@@ -21293,6 +21384,7 @@ spec/graphql/gql/queries/knowledge_base/answer_spec.rb
 spec/graphql/gql/queries/knowledge_base/answers_spec.rb
 spec/graphql/gql/queries/knowledge_base/category_subcategories_spec.rb
 spec/graphql/gql/queries/knowledge_base/feed_spec.rb
+spec/graphql/gql/queries/knowledge_base/search_spec.rb
 spec/graphql/gql/queries/knowledge_base_spec.rb
 spec/graphql/gql/queries/link/list_spec.rb
 spec/graphql/gql/queries/locales_spec.rb

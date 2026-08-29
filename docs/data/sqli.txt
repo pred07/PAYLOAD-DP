@@ -7635,6 +7635,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 ._workout_select.xml
 .bhmvop .segmentedcontrol-text:after{content:"blame";display:block;font-weight:600;height:0;overflow:hidden;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;visibility:hidden;}/*!sc*/
 .changeset/drop-field-path.md
+.changeset/fix-system-filter-delete-hover.md
 .chatadmin/update.asp
 .claude/skills/umb-update-openapi/skill.md
 .claude/skills/umb-update-server-dependencies-for-minor/skill.md
@@ -55172,6 +55173,7 @@ admin/plugin/localpluginupdate.aspx
 admin/plurality_company_update.aspx
 admin/plurality_person_update.aspx
 admin/plus/management/lists_insert.aspx
+admin/post-delete-permissions.test.js
 admin/posts/delete/1
 admin/product/product_batch_update.ashx
 admin/product_delete.asp
@@ -63242,7 +63244,6 @@ app/select.json
 app/serve/download_file
 app/services/koenig-drag-drop-handler.js
 app/services/service/channel/whatsapp/update.rb
-app/services/service/knowledge_base/category/delete.rb
 app/services/service/knowledge_base/category/update.rb
 app/services/service/knowledge_base/update.rb
 app/services/service/ticket/bulk/dispatch_update.rb
@@ -72915,6 +72916,7 @@ changelog/update-fix-performance-issues-in-attributes-modal
 changelog/update-introduce-attributes-combobox-control
 changelog/update-introduce-optimistc-query-update
 changelog/update-migrate-reactify-feature-flag
+changelog/update-mini-cart-default-labels
 changelog/update-move-logic-to-add-new-attribute
 changelog/update-navigation-while-on-input
 changelog/update-nox-in-context-onboarding-preload
@@ -72968,6 +72970,7 @@ changelog/update-stricter-global-unique-id
 changelog/update-switch-version-button-location
 changelog/update-vendored-graphql-php-security
 changelog/update-woopayments-methods-logos-component
+changelog/update-wooprd-3716-kustom-checkout-rebrand
 changelog/update-woosubs-engine-make-phpstan-ci-required
 changelog/update-wordpress-admin-ui
 changelog/update-wp-68-packages
@@ -78706,7 +78709,6 @@ core/modules/migrate_drupal/src/tests/table/d7/cacheupdate.php
 core/modules/migrate_drupal_ui/migrate_drupal_ui.post_update.php
 core/modules/mysql/src/driver/database/mysql/insert.php
 core/modules/navigation/navigation.post_update.php
-core/modules/navigation/tests/fixtures/navigation_post_update.php
 core/modules/navigation/tests/src/functional/update/navigationupdatetest.php
 core/modules/node/lib/drupal/node/plugin/views/field/linkdelete.php
 core/modules/node/lib/drupal/node/plugin/views/field/revisionlinkdelete.php
@@ -78771,8 +78773,6 @@ core/modules/search/tests/modules/search_query_alter/search_query_alter.module
 core/modules/search/tests/modules/search_query_alter/src/hook/searchqueryalterhooks.php
 core/modules/search/tests/src/functional/update
 core/modules/search/tests/src/functional/update/blockpagesettingtest.php
-core/modules/search/tests/src/functional/update/searchupdatetest.php
-core/modules/search/tests/src/functional/update/searchupdateusertest.php
 core/modules/serialization/serialization.post_update.php
 core/modules/serialization/tests/fixtures/update
 core/modules/serialization/tests/fixtures/update/drupal-8.rest-serialization_update_8301.php
@@ -78927,7 +78927,6 @@ core/modules/system/tests/fixtures/update/system.action.send_email_2815379.yml
 core/modules/system/tests/fixtures/update/uninstall-ban.php
 core/modules/system/tests/fixtures/update/uninstall-contact.php
 core/modules/system/tests/fixtures/update/uninstall-history.php
-core/modules/system/tests/fixtures/update/uninstall-shortcut.php
 core/modules/system/tests/fixtures/update/views.view.entity_test_mul_revlog_for_2248983.yml
 core/modules/system/tests/fixtures/update/views.view.entity_test_revlog_for_2248983.yml
 core/modules/system/tests/modules/ajax_test/js/insert-ajax.es6.js
@@ -79886,6 +79885,7 @@ core/templates/layouts/categorytree/massupdate.json
 core/templates/update.admin.php
 core/templates/update.use-cli.php
 core/templates/update.user.php
+core/test/e2e-api/admin/post-delete-permissions.test.js
 core/test/integration/jobs/update-check.test.js
 core/test/legacy/api/admin/update-user-last-seen.test.js
 core/test/regression/api/admin/update-user-last-seen.test.js
@@ -91375,6 +91375,7 @@ e107_admin/sql/db_update
 e107_admin/sql/db_update/index.html
 e107_update.php
 e2 tpc update.xls
+e2e-api/admin/post-delete-permissions.test.js
 e2e-pw/data/shared/batch-update.js
 e2e-pw/tests/product/product-delete.spec.ts
 e2e-pw/tests/product/update-variations.spec.ts
@@ -93815,6 +93816,7 @@ eu-es.plg_quickicon_extensionupdate.sys.ini
 eu-es.plg_quickicon_joomlaupdate.ini
 eu-es.plg_quickicon_joomlaupdate.sys.ini
 eu-update
+eu/en/preferences/update
 eu2-autoupdate
 eu_select
 euca-tms-db-update-1.1.2.sql
@@ -96852,6 +96854,7 @@ fix-percent-complete-select-box.sql
 fix-plugin-update
 fix-product-editor-images-drop-error
 fix-select-control-inline-tag-alignment
+fix-system-filter-delete-hover.md
 fix-update-antom-icon
 fix-update-in-process
 fix-update.go
@@ -96888,7 +96891,6 @@ fixtures/install/update/new/test_files_diff.php
 fixtures/install/update/old/test_files_diff.php
 fixtures/language_select.xml
 fixtures/multiselect/test-fixtures.ts
-fixtures/navigation_post_update.php
 fixtures/post_update.php
 fixtures/release-history/package_manager_test_update.7.0.1.xml
 fixtures/select/non-null/test-fixtures.ts
@@ -96932,7 +96934,6 @@ fixtures/update/test_table_css_class.php
 fixtures/update/uninstall-ban.php
 fixtures/update/uninstall-contact.php
 fixtures/update/uninstall-history.php
-fixtures/update/uninstall-shortcut.php
 fixtures/update/views-block-items-per-page.php
 fixtures/update/views.view.node_link_update_test.yml
 fixtures/update/views.view.test_another_broken_config_multi_value.yml
@@ -98880,8 +98881,6 @@ functional/update/routealiasupdatetest.php
 functional/update/rssdefaultrowviewmodeupdatetest.php
 functional/update/schemaversionupdatetest.php
 functional/update/searchblockpageidupdatepathtest.php
-functional/update/searchupdatetest.php
-functional/update/searchupdateusertest.php
 functional/update/sequencestableremovalupdatetest.php
 functional/update/serializationsettingsdeletionupdatetest.php
 functional/update/stableuninstallupdatetest.php
@@ -99057,6 +99056,7 @@ galvaunion-com
 gambleframe_onupdate
 game-drop.net
 game-update.xml
+game/playupdate
 game_drop
 game_mode_select.xml
 game_select.xml
@@ -99767,6 +99767,7 @@ ghost/core/core/server/services/update-check/run-update-check.js
 ghost/core/core/server/services/update-check/update-check-service.js
 ghost/core/core/server/update-check.js
 ghost/core/core/server/web/api/middleware/update-user-last-seen.js
+ghost/core/test/e2e-api/admin/post-delete-permissions.test.js
 ghost/core/test/integration/jobs/update-check.test.js
 ghost/core/test/legacy/api/admin/update-user-last-seen.test.js
 ghost/core/test/regression/api/admin/update-user-last-seen.test.js
@@ -103051,6 +103052,9 @@ import/otrs/history/priority_update/default.json
 import/otrs/history/state_update.rb
 import/otrs/history/state_update/default.json
 import/product/validator/layoutupdate.php
+import/product_features_custom_update.csv
+import/product_multilang_update.csv
+import/product_price_only_update.csv
 import/zendesk/object_attribute/attribute_type/multiselect.rb
 import/zendesk/object_attribute/attribute_type/select.rb
 import_active_update
@@ -115887,7 +115891,6 @@ modules/mysql/src/driver/database/mysql/insert.php
 modules/mysql/src/driver/database/mysql/select.php
 modules/mysql/src/driver/database/mysql/update.php
 modules/navigation/navigation.post_update.php
-modules/navigation/tests/fixtures/navigation_post_update.php
 modules/navigation/tests/src/functional/update/navigationupdatetest.php
 modules/news/delete.php
 modules/news/editor-4plus1-select-art.php
@@ -116016,8 +116019,6 @@ modules/search/tests/modules/search_query_alter/search_query_alter.info.yml
 modules/search/tests/modules/search_query_alter/search_query_alter.module
 modules/search/tests/modules/search_query_alter/src/hook/searchqueryalterhooks.php
 modules/search/tests/src/functional/update/searchblockpageidupdatepathtest.php
-modules/search/tests/src/functional/update/searchupdatetest.php
-modules/search/tests/src/functional/update/searchupdateusertest.php
 modules/search_date_query_alter/search_date_query_alter.info.yml
 modules/search_date_query_alter/search_date_query_alter.module
 modules/search_date_query_alter/src/hook/searchdatequeryalterhooks.php
@@ -116149,7 +116150,6 @@ modules/system/tests/fixtures/update/remove-description-from-user-register-form-
 modules/system/tests/fixtures/update/uninstall-ban.php
 modules/system/tests/fixtures/update/uninstall-contact.php
 modules/system/tests/fixtures/update/uninstall-history.php
-modules/system/tests/fixtures/update/uninstall-shortcut.php
 modules/system/tests/modules/ajax_test/js/insert-ajax.es6.js
 modules/system/tests/modules/ajax_test/js/insert-ajax.js
 modules/system/tests/modules/entity_test/update/entity_definition_updates_8001.inc
@@ -118474,12 +118474,10 @@ navigation.post_update.php
 navigation.update.mysql.sql
 navigation/changelog/dev-ci-lint-monorepo-job-update
 navigation/navigation.post_update.php
-navigation/tests/fixtures/navigation_post_update.php
 navigation/tests/src/functional/update/navigationupdatetest.php
 navigation_drawer_action_last_update.xml
 navigation_group_edit_delete.xml
 navigation_item_select.xml
-navigation_post_update.php
 navigationupdate
 navmuniselect.action
 navselect.xml
@@ -125555,12 +125553,14 @@ plugins/woocommerce/changelog/fix-outofstock-update-since
 plugins/woocommerce/changelog/fix-update-antom-icon
 plugins/woocommerce/changelog/update-action-scheduler-via-automation
 plugins/woocommerce/changelog/update-catalog-sorting-content-width
+plugins/woocommerce/changelog/update-mini-cart-default-labels
 plugins/woocommerce/changelog/update-patterns-category-name
 plugins/woocommerce/changelog/update-pay-506-always-show-payment-radio
 plugins/woocommerce/changelog/update-php-dev-dependency-security-patches
 plugins/woocommerce/changelog/update-plugin-directory-screenshots
 plugins/woocommerce/changelog/update-react-number-format-5
 plugins/woocommerce/changelog/update-vendored-graphql-php-security
+plugins/woocommerce/changelog/update-wooprd-3716-kustom-checkout-rebrand
 plugins/woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 plugins/woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
@@ -125626,7 +125626,6 @@ plugins/woocommerce/includes/react-admin/wc-admin-update-functions.php
 plugins/woocommerce/includes/wc-update-functions.php
 plugins/woocommerce/src/internal/abilities/domain/productdelete.php
 plugins/woocommerce/src/internal/abilities/domain/productupdate.php
-plugins/woocommerce/src/storeapi/routes/v1/agentic/checkoutsessionsupdate.php
 plugins/woocommerce/tests/e2e-pw/data/shared/batch-update.js
 plugins/woocommerce/tests/e2e-pw/tests/product/product-delete.spec.ts
 plugins/woocommerce/tests/e2e-pw/tests/product/update-variations.spec.ts
@@ -126032,6 +126031,7 @@ posroutingupdate
 post-comments-01.exec
 post-communion
 post-delete
+post-delete-permissions.test.js
 post-insert
 post-insert.sql
 post-select
@@ -127976,8 +127976,11 @@ product_categoryupdate
 product_commentdelete
 product_delete
 product_entity_01_insert.sql
+product_features_custom_update.csv
+product_multilang_update.csv
 product_option/form/sections/values/value/button_delete.html.twig
 product_option/update.yaml
+product_price_only_update.csv
 product_productdelete
 product_productupdate
 product_productvariantattributedelete
@@ -131491,6 +131494,7 @@ regexp_split.001.update.sqlpp
 regierungsstatthalter
 regierungsstatthalter-ch
 reginsert.jsp
+region-la-reunion
 region-select
 region_reunion
 region_select.jsp
@@ -132974,6 +132978,9 @@ resources/dbupdate
 resources/dbupdate/mysql
 resources/dbupdate/mysql/fromalphalemontoredkitecms.sql
 resources/defaults/layouts/massupdate.json
+resources/import/product_features_custom_update.csv
+resources/import/product_multilang_update.csv
+resources/import/product_price_only_update.csv
 resources/jquery.effects/jquery.effects.drop.js
 resources/layouts/account/massupdate.json
 resources/layouts/addresscountry/massupdate.json
@@ -136316,8 +136323,6 @@ search/tests/modules/search_query_alter/search_query_alter.info.yml
 search/tests/modules/search_query_alter/search_query_alter.module
 search/tests/modules/search_query_alter/src/hook/searchqueryalterhooks.php
 search/tests/src/functional/update/searchblockpageidupdatepathtest.php
-search/tests/src/functional/update/searchupdatetest.php
-search/tests/src/functional/update/searchupdateusertest.php
 search/update.php
 search/web/inc/admin/_display_rights_for_delete.jsp
 search_active_update
@@ -142353,7 +142358,6 @@ service.update.xml
 service/api/update.api.service.spec.js
 service/api/update.api.service.ts
 service/channel/whatsapp/update.rb
-service/knowledge_base/category/delete.rb
 service/knowledge_base/category/update.rb
 service/knowledge_base/update.rb
 service/newsletter/delete
@@ -142469,7 +142473,6 @@ services/mediatypeeditingservicetests.update.cs
 services/members/emails/update-email.js
 services/rostermvc/webrostermvc/web/delete-team.jsp
 services/service/channel/whatsapp/update.rb
-services/service/knowledge_base/category/delete.rb
 services/service/knowledge_base/category/update.rb
 services/service/knowledge_base/update.rb
 services/service/ticket/bulk/dispatch_update.rb
@@ -146347,8 +146350,6 @@ src/functional/update/routealiasupdatetest.php
 src/functional/update/rssdefaultrowviewmodeupdatetest.php
 src/functional/update/schemaversionupdatetest.php
 src/functional/update/searchblockpageidupdatepathtest.php
-src/functional/update/searchupdatetest.php
-src/functional/update/searchupdateusertest.php
 src/functional/update/sequencestableremovalupdatetest.php
 src/functional/update/serializationsettingsdeletionupdatetest.php
 src/functional/update/stableuninstallupdatetest.php
@@ -150453,7 +150454,6 @@ system/tests/fixtures/update/remove-description-from-user-register-form-mode.php
 system/tests/fixtures/update/uninstall-ban.php
 system/tests/fixtures/update/uninstall-contact.php
 system/tests/fixtures/update/uninstall-history.php
-system/tests/fixtures/update/uninstall-shortcut.php
 system/tests/modules/ajax_test/js/insert-ajax.es6.js
 system/tests/modules/ajax_test/js/insert-ajax.js
 system/tests/modules/entity_test/update/entity_definition_updates_8001.inc
@@ -152138,6 +152138,7 @@ test/diff_fis3_smarty/libs/smarty-3.1.5/sysplugins/smarty_internal_compile_inser
 test/diff_fis3_smarty/libs/smarty-3.1.5/sysplugins/smarty_internal_nocache_insert.php
 test/drop.js
 test/dummy/public/javascripts/dragdrop.js
+test/e2e-api/admin/post-delete-permissions.test.js
 test/exec.js
 test/insert.js
 test/integration/instance/update.test.js
@@ -152593,7 +152594,6 @@ tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewit
 tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/select.php
 tests/fixtures/database_drivers/module/core_fake/src/driver/database/corefakewithallcustomclasses/update.php
 tests/fixtures/db_update.php
-tests/fixtures/navigation_post_update.php
 tests/fixtures/post_update.php
 tests/fixtures/release-history/package_manager_test_update.7.0.1.xml
 tests/fixtures/smarty/unsafe/insert-script.tpl
@@ -152634,7 +152634,6 @@ tests/fixtures/update/test_table_css_class.php
 tests/fixtures/update/uninstall-ban.php
 tests/fixtures/update/uninstall-contact.php
 tests/fixtures/update/uninstall-history.php
-tests/fixtures/update/uninstall-shortcut.php
 tests/fixtures/update/views-block-items-per-page.php
 tests/fixtures/update/views.view.node_link_update_test.yml
 tests/fixtures/update/views.view.test_another_broken_config_multi_value.yml
@@ -152861,6 +152860,9 @@ tests/qunit/form_tree_select.js
 tests/refinements/union.js
 tests/regressiontests/generic_views/templates/generic_views/author_confirm_delete.html
 tests/regressiontests/generic_views/templates/generic_views/confirm_delete.html
+tests/resources/import/product_features_custom_update.csv
+tests/resources/import/product_multilang_update.csv
+tests/resources/import/product_price_only_update.csv
 tests/sabre/dav/partialupdate/filemock.php
 tests/sabre/dav/partialupdate/plugintest.php
 tests/sabre/dav/partialupdate/specificationtest.php
@@ -152926,8 +152928,6 @@ tests/src/functional/update/routealiasupdatetest.php
 tests/src/functional/update/rssdefaultrowviewmodeupdatetest.php
 tests/src/functional/update/schemaversionupdatetest.php
 tests/src/functional/update/searchblockpageidupdatepathtest.php
-tests/src/functional/update/searchupdatetest.php
-tests/src/functional/update/searchupdateusertest.php
 tests/src/functional/update/sequencestableremovalupdatetest.php
 tests/src/functional/update/serializationsettingsdeletionupdatetest.php
 tests/src/functional/update/stableuninstallupdatetest.php
@@ -166259,6 +166259,7 @@ update-mijn
 update-mime
 update-mime-database
 update-mime-database.exe
+update-mini-cart-default-labels
 update-mirrorsqlserverdb
 update-missing-import-scripts.https.html.ini
 update-mobile
@@ -168515,6 +168516,7 @@ update-wiki-monitoring
 update-winra
 update-without-using-ftp
 update-woopayments-methods-logos-component
+update-wooprd-3716-kustom-checkout-rebrand
 update-woosubs-engine-make-phpstan-ci-required
 update-wordpress-admin-ui
 update-worker.js
@@ -169645,8 +169647,6 @@ update/rss-default-view-mode.php
 update/rssdefaultrowviewmodeupdatetest.php
 update/schemaversionupdatetest.php
 update/searchblockpageidupdatepathtest.php
-update/searchupdatetest.php
-update/searchupdateusertest.php
 update/sequencestableremovalupdatetest.php
 update/serializationsettingsdeletionupdatetest.php
 update/services/apiclient.php
@@ -169950,7 +169950,6 @@ update/translations.ts
 update/uninstall-ban.php
 update/uninstall-contact.php
 update/uninstall-history.php
-update/uninstall-shortcut.php
 update/unzipupdatecontroller.php
 update/update.api.php
 update/update.authorize.inc
@@ -176580,12 +176579,14 @@ woocommerce/changelog/fix-outofstock-update-since
 woocommerce/changelog/fix-update-antom-icon
 woocommerce/changelog/update-action-scheduler-via-automation
 woocommerce/changelog/update-catalog-sorting-content-width
+woocommerce/changelog/update-mini-cart-default-labels
 woocommerce/changelog/update-patterns-category-name
 woocommerce/changelog/update-pay-506-always-show-payment-radio
 woocommerce/changelog/update-php-dev-dependency-security-patches
 woocommerce/changelog/update-plugin-directory-screenshots
 woocommerce/changelog/update-react-number-format-5
 woocommerce/changelog/update-vendored-graphql-php-security
+woocommerce/changelog/update-wooprd-3716-kustom-checkout-rebrand
 woocommerce/client/admin/client/core-profiler/components/geolocation-country-select/geolocation-country-select.tsx
 woocommerce/client/admin/client/marketplace/components/my-subscriptions/table/actions/update.tsx
 woocommerce/client/admin/client/marketplace/components/woo-update-manager-plugin/install-woo-connect-modal.tsx
