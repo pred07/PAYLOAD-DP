@@ -72578,6 +72578,7 @@ changelog/dev-drop-phpunit-and-bump-symfony-process
 changelog/dev-update-cookie-security
 changelog/dev-update-dompurify-security
 changelog/fix-beta-tester-delete-option-error
+changelog/fix-order-item-delete-overrides
 changelog/fix-outofstock-update-since
 changelog/fix-product-editor-images-drop-error
 changelog/fix-select-control-inline-tag-alignment
@@ -95238,6 +95239,7 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
+false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -96849,6 +96851,7 @@ fitzwalter
 fix-another-update-in-progress
 fix-automatic-update
 fix-beta-tester-delete-option-error
+fix-order-item-delete-overrides
 fix-outofstock-update-since
 fix-percent-complete-select-box.sql
 fix-plugin-update
@@ -125549,6 +125552,7 @@ plugins/woocommerce-beta-tester/src/tools/commands/trigger-update-callbacks.js
 plugins/woocommerce-beta-tester/src/tools/commands/update-block-template-logging-threshold.tsx
 plugins/woocommerce/bin/package-update-textdomain.js
 plugins/woocommerce/bin/post-update.sh
+plugins/woocommerce/changelog/fix-order-item-delete-overrides
 plugins/woocommerce/changelog/fix-outofstock-update-since
 plugins/woocommerce/changelog/fix-update-antom-icon
 plugins/woocommerce/changelog/update-action-scheduler-via-automation
@@ -158358,6 +158362,7 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
+true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -176575,6 +176580,7 @@ woocommerce-update-2.4.1.php
 woocommerce-update-2.4.php
 woocommerce/bin/package-update-textdomain.js
 woocommerce/bin/post-update.sh
+woocommerce/changelog/fix-order-item-delete-overrides
 woocommerce/changelog/fix-outofstock-update-since
 woocommerce/changelog/fix-update-antom-icon
 woocommerce/changelog/update-action-scheduler-via-automation
