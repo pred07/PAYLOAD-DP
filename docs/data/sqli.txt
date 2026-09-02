@@ -79905,6 +79905,8 @@ core/system/customfield/xml/customfieldtypes/_fixtures/multi-entity-select-field
 core/system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
 core/system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
 core/system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
+core/system/snippet/datatransfer/translationupdate/translationinstallplan.php
+core/system/snippet/datatransfer/translationupdate/translationinstallplantest.php
 core/system/snippet/datatransfer/translationupdate/translationupdateresult.php
 core/system/snippet/datatransfer/translationupdate/translationupdateresulttest.php
 core/templates/layouts/categorytree/massupdate.json
@@ -82132,6 +82134,8 @@ datatablerowupdate
 datatables.select.js
 datatables.select.min.js
 datatableupdate
+datatransfer/translationupdate/translationinstallplan.php
+datatransfer/translationupdate/translationinstallplantest.php
 datatransfer/translationupdate/translationupdateresult.php
 datatransfer/translationupdate/translationupdateresulttest.php
 datatype_definition.11.update.sqlpp
@@ -144594,6 +144598,8 @@ snifter,draft,dram,drench,drink,drop,gargle,guzzle,jigger,jolt,libation,nip,peg,
 snip,amputate,ax,bakehead,bantam,banty,bisect,bit,black gang,boilerman,breeze,bungs,butcher,butt,button,cabin boy,carve,chip,chips,chit,chop,chunk,cinch,cleave,clip,clipping,collop,commissary steward,complement,crop,crumb,cut,cut away,cut in two,cut off,cutting,deckhand,deckie,dichotomize,diminutive,dissever,dock,dollop,dot,drop,droplet,end,excise,featherweight,fingerling,fireman,fissure,fleck,flyspeck,fragment,gash,gnat,gob,gobbet,grain,gun loader,gunner,hack,halve,hand,hew,hospital steward,hunk,hussy,incise,incision,iota,jade,jigsaw,jot,lance,landing signalman,lightweight,lop,lump,mail orderly,malapert,microbe,microorganism,midge,mini,minikin,minim,minnow,minny,minutia,minutiae,mite,modicum,moiety,morceau,morsel,mote,mouse,navigator,nick,nip,nubbin,oiler,pare,paring,particle,patch,peewee,picnic,pie,piece,pinhead,pinpoint,pipe,point,pony,prune,purser,pushover,radio operator,rasher,remnant,rend,rive,roustabout,runt,saucebox,saw,scissor,scissors,scoop,scrap,sever,shard,shaving,shears,shiver,shred,shrimp,slash,slice,slip,slit,sliver,slut,small fry,smithereen,snack,snap,snatch,snick,snippet,snips,sparks,speck,splinter,split,steward,stewardess,stitch,stoker,stump,sunder,tag,tatter,tear,tit,tittle,torpedoman,vanishing point,wart,watch,whittle,wisp,yeoman
 snipe,aim at,attack,barrage,blast,blitz,bombard,cannon,cannonade,carp at,charge,cock,commence firing,criticize,deride,detonate,discharge,drop,eject,enfilade,fell,fire,fire a volley,fire at,fire off,fire upon,fusillade,gun,gun for,hit,knock,let fly,let off,load,mortar,open fire,open up on,pan,pelt,pepper,pick off,pistol,plug,pop at,pot,potshoot,potshot,prime,rake,rap,riddle,shell,shoot,shoot at,shoot down,slam,snipe at,strafe,strike,take a potshot,take aim at,torpedo,zero in on
 snippet,bantam,banty,bit,butt,button,chip,chit,chunk,clip,clipping,collop,crumb,cut,cutting,diminutive,dollop,dot,drop,droplet,end,featherweight,fingerling,fleck,flyspeck,fragment,gnat,gob,gobbet,grain,hunk,iota,jot,lightweight,lump,microbe,microorganism,midge,mini,minikin,minim,minnow,minny,minutia,minutiae,mite,modicum,moiety,morceau,morsel,mote,mouse,nip,nubbin,paring,particle,patch,peewee,piece,pinhead,pinpoint,point,pony,rasher,runt,scoop,scrap,shard,shaving,shiver,shred,shrimp,slice,slip,sliver,small fry,smithereen,snack,snatch,snick,snip,speck,splinter,stitch,stump,tag,tatter,tit,tittle,vanishing point,wart,wisp
+snippet/datatransfer/translationupdate/translationinstallplan.php
+snippet/datatransfer/translationupdate/translationinstallplantest.php
 snippet/datatransfer/translationupdate/translationupdateresult.php
 snippet/datatransfer/translationupdate/translationupdateresulttest.php
 snippet/update.class.php
@@ -146226,6 +146232,7 @@ src/core/migration/v6_7/migration1752750171addindextoorderaddresscreateandupdate
 src/core/migration/v6_7/migration1752750234addindextoordertransactioncreateandupdate.php
 src/core/service/api/update.api.service.spec.js
 src/core/service/api/update.api.service.ts
+src/core/system/snippet/datatransfer/translationupdate/translationinstallplan.php
 src/core/system/snippet/datatransfer/translationupdate/translationupdateresult.php
 src/css/_entry-type-select.scss
 src/css/_grouped-entry-type-select.scss
@@ -150520,6 +150527,8 @@ system/select.asp
 system/settings/update.php
 system/smarty/sysplugins/smarty_internal_compile_insert.php
 system/smarty/sysplugins/smarty_internal_nocache_insert.php
+system/snippet/datatransfer/translationupdate/translationinstallplan.php
+system/snippet/datatransfer/translationupdate/translationinstallplantest.php
 system/snippet/datatransfer/translationupdate/translationupdateresult.php
 system/snippet/datatransfer/translationupdate/translationupdateresulttest.php
 system/src/grav/installer/versionupdate.php
@@ -153148,6 +153157,7 @@ tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-entity-s
 tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
 tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
 tests/unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
+tests/unit/core/system/snippet/datatransfer/translationupdate/translationinstallplantest.php
 tests/unit/core/system/snippet/datatransfer/translationupdate/translationupdateresulttest.php
 tests/unit/espo/core/select
 tests/unit/espo/core/select/accesscontrol
@@ -154967,6 +154977,8 @@ translationsdelete
 translationsetupdate
 translationsupdate
 translationupdate
+translationupdate/translationinstallplan.php
+translationupdate/translationinstallplantest.php
 translationupdate/translationupdateresult.php
 translationupdate/translationupdateresulttest.php
 translog-insert.sql
@@ -161511,6 +161523,7 @@ unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-entity-select-
 unit/core/system/customfield/xml/customfieldtypes/_fixtures/multi-select-field.xml
 unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-entity-select-field.xml
 unit/core/system/customfield/xml/customfieldtypes/_fixtures/single-select-field.xml
+unit/core/system/snippet/datatransfer/translationupdate/translationinstallplantest.php
 unit/core/system/snippet/datatransfer/translationupdate/translationupdateresulttest.php
 unit/espo/core/select/accesscontrol/filterfactorytest.php
 unit/espo/core/select/accesscontrol/filterresolverfactorytest.php

@@ -101,7 +101,6 @@ ${{<%[%'"}}%\
 -@{.vtjjzkjvm0dgx#pa{r
 / libs / opensocial / makerequest {0}? url = {{0}}
 / libs / opensocial / proxy {0}? container = default & url = {{0}}
-/%7b%7b$
 /*/%7b%7burl%20absolute=
 /.putty/{{hostname}}.ppk
 /.ssh/{{hostname}}.ppk

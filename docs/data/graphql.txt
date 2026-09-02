@@ -2078,6 +2078,7 @@ api/graphql/query
 api/graphql/query/en-us
 api/graphql/querycms2loadcontentgql
 api/graphql/regions
+api/graphql/route.ts
 api/graphql/salerulesbyspuandrolegql
 api/graphql/schema
 api/graphql/schema/internal
@@ -2304,6 +2305,7 @@ apiv1/graphql
 apollographql
 apollographql-com
 app-graphql
+app/api/graphql/route.ts
 app/channels/graphql_channel.rb
 app/code/magento/bundlegraphql/composer.json
 app/code/magento/bundlegraphql/etc/di.xml
@@ -9621,6 +9623,7 @@ examples/extend-prisma-schema/schema.graphql
 examples/field-groups/schema.graphql
 examples/framework-astro/schema.graphql
 examples/framework-nextjs-app-directory/schema.graphql
+examples/framework-nextjs-app-directory/src/app/api/graphql/route.ts
 examples/framework-nextjs-app-directory/src/pages/api/graphql.ts
 examples/framework-nextjs-pages-directory/schema.graphql
 examples/framework-nextjs-pages-directory/src/pages/api/graphql.ts
@@ -10014,6 +10017,7 @@ fragments/userpersonalsettings.graphql
 fragments/usertaskbartabattributes.graphql
 framework-astro/schema.graphql
 framework-nextjs-app-directory/schema.graphql
+framework-nextjs-app-directory/src/app/api/graphql/route.ts
 framework-nextjs-app-directory/src/pages/api/graphql.ts
 framework-nextjs-pages-directory/schema.graphql
 framework-nextjs-pages-directory/src/pages/api/graphql.ts
@@ -13877,6 +13881,7 @@ graphql/responsecontainserrorsexception.php
 graphql/review/createproductreviewstest.php
 graphql/review/getproductreviewstest.php
 graphql/rollup.config.mjs
+graphql/route.ts
 graphql/rules/block-field-suggestions.test.ts
 graphql/rules/block-field-suggestions.ts
 graphql/rules/get-validation-rules.test.ts
@@ -21772,6 +21777,7 @@ sqlite__md__type__.xml
 src/admin-ui/admin-meta-graphql.ts
 src/admin-ui/components/graphqlerrornotice.tsx
 src/api/infrastructure/graphqlcontrollerbase.php
+src/app/api/graphql/route.ts
 src/composables/use-item/lib/get-graphql-query-fields.test.ts
 src/composables/use-item/lib/get-graphql-query-fields.ts
 src/console/controllers/graphqlcontroller.php

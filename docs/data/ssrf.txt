@@ -19526,6 +19526,8 @@ internal/caches/productcache.php
 internal/caches/productcachecontroller.php
 internal/caches/productcachecontrollertest.php
 internal/caches/productcachetest.php
+internal/caches/producttermcacheinvalidator.php
+internal/caches/producttermcacheinvalidatortest.php
 internal/caches/producttransientsdeferrer.php
 internal/caches/producttransientsdeferrertest.php
 internal/caches/productversionstringinvalidator.php
@@ -24611,6 +24613,7 @@ internal/restapi/routes/v4/ordernotes/schema/ordernoteschema.php
 internal/restapi/routes/v4/orders/actioncontroller.php
 internal/restapi/routes/v4/orders/collectionquery.php
 internal/restapi/routes/v4/orders/controller.php
+internal/restapi/routes/v4/orders/orderlinemetavalidator.php
 internal/restapi/routes/v4/orders/schema/abstractlineitemschema.php
 internal/restapi/routes/v4/orders/schema/ordercouponschema.php
 internal/restapi/routes/v4/orders/schema/orderfeeschema.php
@@ -46932,6 +46935,7 @@ php/src/internal/batchprocessing/batchprocessingcontrollertests.php
 php/src/internal/caches/ordersversionstringinvalidatortest.php
 php/src/internal/caches/productcachecontrollertest.php
 php/src/internal/caches/productcachetest.php
+php/src/internal/caches/producttermcacheinvalidatortest.php
 php/src/internal/caches/producttransientsdeferrertest.php
 php/src/internal/caches/productversionstringinvalidatortest.php
 php/src/internal/caches/taxrateversionstringinvalidatortest.php
@@ -48378,6 +48382,7 @@ plugins/woocommerce/src/internal/brands.php
 plugins/woocommerce/src/internal/caches/ordersversionstringinvalidator.php
 plugins/woocommerce/src/internal/caches/productcache.php
 plugins/woocommerce/src/internal/caches/productcachecontroller.php
+plugins/woocommerce/src/internal/caches/producttermcacheinvalidator.php
 plugins/woocommerce/src/internal/caches/producttransientsdeferrer.php
 plugins/woocommerce/src/internal/caches/productversionstringinvalidator.php
 plugins/woocommerce/src/internal/caches/taxrateversionstringinvalidator.php
@@ -48628,6 +48633,7 @@ plugins/woocommerce/src/internal/restapi/routes/v4/ordernotes/schema/ordernotesc
 plugins/woocommerce/src/internal/restapi/routes/v4/orders/actioncontroller.php
 plugins/woocommerce/src/internal/restapi/routes/v4/orders/collectionquery.php
 plugins/woocommerce/src/internal/restapi/routes/v4/orders/controller.php
+plugins/woocommerce/src/internal/restapi/routes/v4/orders/orderlinemetavalidator.php
 plugins/woocommerce/src/internal/restapi/routes/v4/orders/schema/abstractlineitemschema.php
 plugins/woocommerce/src/internal/restapi/routes/v4/orders/schema/ordercouponschema.php
 plugins/woocommerce/src/internal/restapi/routes/v4/orders/schema/orderfeeschema.php
@@ -48965,6 +48971,7 @@ plugins/woocommerce/tests/php/src/internal/batchprocessing/batchprocessingcontro
 plugins/woocommerce/tests/php/src/internal/caches/ordersversionstringinvalidatortest.php
 plugins/woocommerce/tests/php/src/internal/caches/productcachecontrollertest.php
 plugins/woocommerce/tests/php/src/internal/caches/productcachetest.php
+plugins/woocommerce/tests/php/src/internal/caches/producttermcacheinvalidatortest.php
 plugins/woocommerce/tests/php/src/internal/caches/producttransientsdeferrertest.php
 plugins/woocommerce/tests/php/src/internal/caches/productversionstringinvalidatortest.php
 plugins/woocommerce/tests/php/src/internal/caches/taxrateversionstringinvalidatortest.php
@@ -52739,6 +52746,8 @@ src/internal/caches/productcache.php
 src/internal/caches/productcachecontroller.php
 src/internal/caches/productcachecontrollertest.php
 src/internal/caches/productcachetest.php
+src/internal/caches/producttermcacheinvalidator.php
+src/internal/caches/producttermcacheinvalidatortest.php
 src/internal/caches/producttransientsdeferrer.php
 src/internal/caches/producttransientsdeferrertest.php
 src/internal/caches/productversionstringinvalidator.php
@@ -53184,6 +53193,7 @@ src/internal/restapi/routes/v4/ordernotes/schema/ordernoteschema.php
 src/internal/restapi/routes/v4/orders/actioncontroller.php
 src/internal/restapi/routes/v4/orders/collectionquery.php
 src/internal/restapi/routes/v4/orders/controller.php
+src/internal/restapi/routes/v4/orders/orderlinemetavalidator.php
 src/internal/restapi/routes/v4/orders/schema/abstractlineitemschema.php
 src/internal/restapi/routes/v4/orders/schema/ordercouponschema.php
 src/internal/restapi/routes/v4/orders/schema/orderfeeschema.php
@@ -55188,6 +55198,7 @@ tests/php/src/internal/batchprocessing/batchprocessingcontrollertests.php
 tests/php/src/internal/caches/ordersversionstringinvalidatortest.php
 tests/php/src/internal/caches/productcachecontrollertest.php
 tests/php/src/internal/caches/productcachetest.php
+tests/php/src/internal/caches/producttermcacheinvalidatortest.php
 tests/php/src/internal/caches/producttransientsdeferrertest.php
 tests/php/src/internal/caches/productversionstringinvalidatortest.php
 tests/php/src/internal/caches/taxrateversionstringinvalidatortest.php
@@ -57945,6 +57956,7 @@ wiki.atysinternal
 wiki.internal
 wiki.webinternal
 wiki.xeinternal
+wiki/wikipedia%3avermittlungsausschuss%2fhttp://s3.amazonaws.com/robots.txt
 wikiinternal
 wildlifelicensing-internal.dpaw
 wildlifelicensing-temp-internal.dpaw
@@ -58673,6 +58685,7 @@ woocommerce/src/internal/brands.php
 woocommerce/src/internal/caches/ordersversionstringinvalidator.php
 woocommerce/src/internal/caches/productcache.php
 woocommerce/src/internal/caches/productcachecontroller.php
+woocommerce/src/internal/caches/producttermcacheinvalidator.php
 woocommerce/src/internal/caches/producttransientsdeferrer.php
 woocommerce/src/internal/caches/productversionstringinvalidator.php
 woocommerce/src/internal/caches/taxrateversionstringinvalidator.php
@@ -58930,6 +58943,7 @@ woocommerce/src/internal/restapi/routes/v4/ordernotes/schema/ordernoteschema.php
 woocommerce/src/internal/restapi/routes/v4/orders/actioncontroller.php
 woocommerce/src/internal/restapi/routes/v4/orders/collectionquery.php
 woocommerce/src/internal/restapi/routes/v4/orders/controller.php
+woocommerce/src/internal/restapi/routes/v4/orders/orderlinemetavalidator.php
 woocommerce/src/internal/restapi/routes/v4/orders/schema/abstractlineitemschema.php
 woocommerce/src/internal/restapi/routes/v4/orders/schema/ordercouponschema.php
 woocommerce/src/internal/restapi/routes/v4/orders/schema/orderfeeschema.php
@@ -59267,6 +59281,7 @@ woocommerce/tests/php/src/internal/batchprocessing/batchprocessingcontrollertest
 woocommerce/tests/php/src/internal/caches/ordersversionstringinvalidatortest.php
 woocommerce/tests/php/src/internal/caches/productcachecontrollertest.php
 woocommerce/tests/php/src/internal/caches/productcachetest.php
+woocommerce/tests/php/src/internal/caches/producttermcacheinvalidatortest.php
 woocommerce/tests/php/src/internal/caches/producttransientsdeferrertest.php
 woocommerce/tests/php/src/internal/caches/productversionstringinvalidatortest.php
 woocommerce/tests/php/src/internal/caches/taxrateversionstringinvalidatortest.php
@@ -60031,7 +60046,6 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://marketplace.atlassian.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
