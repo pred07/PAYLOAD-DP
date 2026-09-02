@@ -20,7 +20,10 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 .wafpickle
 .wafpickle-7
 /2018pickleballschedule.pdf
+/amfbasedeserializer.php
+/amfdeserializer.php
 /deserialize
+/deserializer.php
 /fu_prediction/pickle_created_date
 /jacksonvillepickleball.pdf
 /lib/zend/amf/parse/amf0/deserializer.php
@@ -28,9 +31,11 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 /lib/zend/amf/parse/deserializer.php
 /lib/zend/serializer/adapter/pythonpickle.php
 /lib/zend/serializer/adapter/pythonpickleoptions.php
+/lib/zend/zend/amf/parse/deserializer.php
 /mecklenburgpickleball.pdf
 /misc/typo3/phar-stream-wrapper/src/phar/deserializationexception.php
 /outerbankspickleball.pdf
+/pickle.php
 /pickle/src/download.php
 /pickleballcourtlayout.pdf
 /pickleballinfosheet.pdf
@@ -227,6 +232,7 @@ api/pickle/guest/v1/user/i4k5ixwdxnbi-guest
 api/pickle_plans
 api/v2/recess-pickleball/timeline/
 api/v2/sites/pickleball360/configuration
+api_v3/lib/kalturarequestdeserializer.php
 apickle
 apickleforyourthoughts
 apiplatform/provider/emptybodydeserializerprovider.php
@@ -234,6 +240,8 @@ apiuser.pickle.zip
 app/code/magento/catalog/model/product/webapi/rest/requesttypebaseddeserializer.php
 app/code/magento/catalog/test/unit/model/product/webapi/rest/requesttypebaseddeserializertest.php
 app/code/magento/user/setup/patch/data/upgradeserializedfields.php
+app/lib/core/zend/amf/parse/deserializer.php
+app/lib/core/zend/serializer/adapter/pythonpickle.php
 app_deserialization.log
 appinventor/lib/closure-library/closure/goog/proto2/lazydeserializer.js
 apple_pickles.xml
@@ -241,6 +249,7 @@ application/libraries/zend/amf/parse/amf0/deserializer.php
 application/libraries/zend/amf/parse/amf3/deserializer.php
 application/libraries/zend/amf/parse/deserializer.php
 application/libraries/zend/serializer/adapter/pythonpickle.php
+application/third_party/dropbox/deserializeexception.php
 appwelcomeuserconnection.pickle.zip
 arrayblockingqueuedeserializer.class
 arrayblockingqueuedeserializer.java
@@ -420,6 +429,8 @@ collectiondeserializer.java
 color-palettes/pickle-jar/$
 com_lihaoyi_upickle_2_12_0_5_1.xml
 completemultipartuploadtest_testdeserialization.xml
+concrete/vendor/zendframework/zend-serializer/src/adapter/pythonpickle.php
+concrete/vendor/zendframework/zend-serializer/src/adapter/pythonpickleoptions.php
 condiment,tabasco,worcestershire sauce,allspice,anchovies,angelica,applesauce,basil,bell pepper,black pepper,borage,burnet,caper,capsicum,caraway seeds,cardamom,catsup,celery salt,chervil,chili,chili sauce,chili vinegar,chives,chutney,cinnamon,cloves,condiments,coriander,cranberry sauce,cubeb,cumin,curry,dahl sauce,dill,dillseed,duck sauce,fagara,fennel,file,five spice powder,flavor,flavorer,flavoring,garlic,garlic butter,garlic powder,garlic salt,ginger,green pepper,hedge garlic,horseradish,hyssop,leek,mace,marinade,marjoram,mayonnaise,mint,mustard,nutmeg,onion,onion salt,oregano,paprika,parsley,pepper,peppercorn,peppermint,piccalilli,pickle,pimento,pimpernel,potherb,radish,red pepper,relish,saffron,sage,salad dressing,salt,sauce-alone,savory,seasoned salt,seasoner,seasoning,sesame oil,sesame seeds,shallot,soy,soy sauce,spice,star anise,tarragon,tartar sauce,thyme,tomato paste,turmeric,vanilla,vinegar,white pepper
 config4pickle.ini
 confusion,abashment,agitation,aloofness,ambiguity,ambiguousness,amorphia,amorphism,amorphousness,anarchism,anarcho-syndicalism,anarchy,antinomianism,assortment,ataxia,babel,baffle,bafflement,balk,bashfulness,bedlam,befuddlement,bewilderment,blurriness,bother,botheration,chagrin,chaos,check,checkmate,cloud,clutter,combining,commotion,confounding,confoundment,contradiction,coyness,criminal syndicalism,daze,demureness,demurity,derangement,destruction,devastation,diffusion,dilemma,din,disarrangement,disarray,discombobulation,discomfiture,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,discontinuity,discountenance,discreteness,disjunction,dislocation,disorder,disorderliness,disorganization,disorientation,dispersal,dispersion,disruption,dissolution,distress,disturbance,dither,embarrassment,enigma,entropy,fabulous formless darkness,fix,flap,flummox,flurry,fluster,flutter,fog,foil,formlessness,foul-up,frenzy,frustration,fuddle,fuddlement,fuzziness,gallimaufry,hassle,havoc,haze,haziness,huddle,hullabaloo,incoherence,inconsistency,indecisiveness,indefiniteness,indeterminateness,intermingling,jam,jumble,lather,license,loss,lynch law,maze,mess,messiness,misrule,mist,mistiness,misunderstanding,mix-up,mixing,mixture,mob law,mob rule,mobocracy,morass,mortification,mousiness,muck,muddle,muddlement,mystery,nihilism,nonadhesion,noncohesion,nonplus,obscurity,ochlocracy,orderlessness,pandemonium,perplexity,perturbation,pickle,plight,pother,predicament,primal chaos,problem,pucker,puzzle,puzzlement,quandary,rebellion,rebuff,repulse,reversal,reverse,revolution,riddle,rout,ruffle,ruination,scattering,scrape,screw-up,self-consciousness,separateness,setback,shambles,shamefacedness,shamefastness,shapelessness,shuffle,shyness,skittishness,snafu,snarl,stagefright,stammering,stew,sweat,swivet,syndicalism,timidity,timidness,timorousness,tizzy,tohubohu,tumult,turbulence,turmoil,unadherence,unadhesiveness,unassuredness,unclearness,unease,uneasiness,unruliness,unsettlement,untenacity,upset,vagueness
@@ -641,6 +652,10 @@ embarrassed,abashed,abroad,adrift,afflicted,agitated,annoyed,anxious,ashamed,ast
 emma_pickles
 emmapickles
 emptybodydeserializerprovider.php
+engine/library/zend/amf/parse/amf0/deserializer.php
+engine/library/zend/amf/parse/amf3/deserializer.php
+engine/library/zend/amf/parse/deserializer.php
+engine/library/zend/serializer/adapter/pythonpickle.php
 enigma,chinese puzzle,gordian knot,arcanum,baffle,bafflement,baffling problem,bewilderment,bother,brain twister,cabala,classified information,confidence,confidential communication,confoundment,confusion,conundrum,crossword puzzle,crux,dark horse,dilemma,discomposure,disconcert,disconcertedness,disconcertion,disconcertment,disturbance,embarrassment,enigmatic question,esoterica,fix,floorer,frontier,frontiers of knowledge,guarded secret,hermetics,jam,jigsaw puzzle,knot,knotty point,matter of ignorance,mind-boggler,mystery,mystery of mysteries,mystification,n,node,nodus,nonplus,nut to crack,oxymoron,paradox,perplexed question,perplexity,personal matter,perturbation,pickle,plight,pons asinorum,poser,pother,predicament,private matter,privileged communication,privity,problem,profound secret,puzzle,puzzlement,puzzler,quandary,question,question mark,restricted information,riddle,scrape,sealed book,secret,sixty-four dollar question,stew,sticker,stumper,teaser,terra incognita,the incalculable,the occult,the strange,the unfamiliar,the unknowable,the unknown,tough proposition,unassuredness,unexplored ground,unexplored territory,unknown quantity,upset,vexed question,why,x,z
 entity/promotionindividualcodeserializer.php
 entity/promotionindividualcodeserializertest.php
@@ -665,6 +680,12 @@ eventlogentry.pickle.zip
 evilpickles
 extensiondeserializer.class
 extensiondeserializer.java
+extensions/semanticmediawiki/includes/serializer/deserializer.php
+extensions/semanticmediawiki/includes/serializer/deserializers/semanticdatadeserializer.php
+extensions/semanticmediawiki/tests/phpunit/includes/serializer/semanticdatadeserializertest.php
+external/zend/amf/parse/amf0/deserializer.php
+external/zend/amf/parse/amf3/deserializer.php
+external/zend/amf/parse/deserializer.php
 extrapickles
 f1pickle
 f1pickles76
@@ -920,6 +941,7 @@ legalholdtest_testdeserialization.xml
 lemon,acid,acidulant,aureate,auric,beige,bomb,bread-and-butter pickle,buff,buff-yellow,bust,canary,canary-yellow,chokecherry,citron,citron-yellow,crab apple,cream,creamy,dill pickle,dud,dull thud,ecru,fallow,fizzle,flat failure,flaxen,flop,floperoo,frost,gilded,gilt,gold,gold-colored,golden,green apple,lemon-yellow,lime,loser,luteolous,lutescent,ocherish,ocherous,ochery,ochreous,ochroid,ochrous,ochry,or,pickle,primrose,primrose-colored,primrose-yellow,saffron,saffron-colored,saffron-yellow,sallow,sand-colored,sandy,sour,sour balls,sour cream,sour grapes,sour pickle,sourdough,straw,straw-colored,total loss,turkey,verjuice,vinegar,washout,xanthic,xanthous,yellow,yellowish,yogurt
 lenazeepickle
 lib/deserializer/functions.php
+lib/dropbox/deserializeexception.php
 lib/internal/magento/framework/webapi/rest/request/deserializer/json.php
 lib/internal/magento/framework/webapi/rest/request/deserializer/xml.php
 lib/internal/magento/framework/webapi/rest/request/deserializerfactory.php
@@ -930,21 +952,35 @@ lib/internal/magento/framework/webapi/test/unit/rest/request/deserializerfactory
 lib/lib2to3/.pickle
 lib/pear/command/pickle.php
 lib/pear/command/pickle.xml
+lib/pear/pear/command/pickle.php
+lib/vendor/pear/pear/command/pickle.php
+lib/vendor/zend/amf/parse/amf0/deserializer.php
+lib/vendor/zend/amf/parse/amf3/deserializer.php
+lib/vendor/zend/amf/parse/deserializer.php
 lib/xmldeserializable.php
 lib/zend/amf/parse/amf0/deserializer.php
 lib/zend/amf/parse/amf3/deserializer.php
 lib/zend/amf/parse/deserializer.php
 lib/zend/serializer/adapter/pythonpickle.php
+lib/zend/serializer/adapter/pythonpickleoptions.php
 lib/zend/zend/amf/parse/amf0/deserializer.php
 lib/zend/zend/amf/parse/amf3/deserializer.php
 lib/zend/zend/amf/parse/deserializer.php
 libraries/sabredav/xml/deserializer
+libraries/sabredav/xml/deserializer/functions.php
+libraries/sabredav/xml/xmldeserializable.php
+library/pear/command/pickle.php
 library/src/scripts/vanilla-editor/plugins/mentionplugin/deserializementionhtml.ts
 library/src/scripts/vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.spec.tsx
 library/src/scripts/vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.ts
+library/vendor/zend/serializer/adapter/pythonpickle.php
 library/zend/amf/parse/amf0/deserializer.php
 library/zend/amf/parse/amf3/deserializer.php
 library/zend/amf/parse/deserializer.php
+library/zend/amf/parser/abstractdeserializer.php
+library/zend/amf/parser/amf0/deserializer.php
+library/zend/amf/parser/amf3/deserializer.php
+library/zend/amf/parser/deserializer.php
 library/zend/serializer/adapter/pythonpickle.php
 library/zend/serializer/adapter/pythonpickleoptions.php
 license-cloudpickle.txt
@@ -979,6 +1015,7 @@ magento/framework/webapi/test/unit/rest/request/deserializer/xmltest.php
 magento/framework/webapi/test/unit/rest/request/deserializerfactorytest.php
 magento/user/setup/patch/data/upgradeserializedfields.php
 magento/webapi/deserializationtest.php
+mailscanner/lib/pear/pear/command/pickle.php
 maison-de-pickles-com
 maisonpickle-com
 mangopickle
@@ -1074,9 +1111,11 @@ namdharipickle
 nannypickle
 natepickle
 neo4j-stream-deserializer
+neos.contentrepository/classes/typeconverter/nodeserializer.php
 net_layers_deserialize.m
 netpickle
 newpickle
+newscoop/include/pear/command/pickle.php
 nflpickles-com
 nicholpickle
 nickelpickle
@@ -2072,6 +2111,10 @@ piepickle123
 pikpickles
 pimcore/lib/pear/command/pickle.php
 pimcore/lib/pear/command/pickle.xml
+pimcore/lib/zend/amf/parse/amf0/deserializer.php
+pimcore/lib/zend/amf/parse/amf3/deserializer.php
+pimcore/lib/zend/amf/parse/deserializer.php
+pimcore/lib/zend/serializer/adapter/pythonpickle.php
 pinkpickle
 pinkpicklejuice
 pinkpickles
@@ -2228,6 +2271,7 @@ scarypickle
 scene.pickle.zip
 schemadeserializer.class
 schemadeserializer.java
+scripts/dynamic_invocation/wsf_wsdl_deserialization.php
 scripts/vanilla-editor/plugins/mentionplugin/deserializementionhtml.ts
 scripts/vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.spec.tsx
 scripts/vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.ts
@@ -2237,6 +2281,7 @@ sequence.pickle.zip
 serdeserializer.java.xml
 serdeserializers.java.xml
 serialize_deserialize.sql
+serializer/deserializationcontext.php
 serializer/entity/promotionindividualcodeserializer.php
 serializer/entity/promotionindividualcodeserializertest.php
 sessa_pickles
@@ -2301,8 +2346,21 @@ sportspickle-com
 sportspicklecom
 springexporterunsafedeserialization.xml
 sqldatedeserializer.java
+src/channel/__tests__/phutilphpobjectprotocolchanneltestcase.php
+src/channel/phutilphpobjectprotocolchannel.php
 src/core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializer.php
+src/deserializer.php
+src/eventlistener/deserializelistener.php
+src/exception/deserializationexception.php
+src/frapi/library/zend/amf/parse/deserializer.php
+src/frapi/library/zend/serializer/adapter/pythonpickle.php
 src/icons/solid/pickleball.svg
+src/jms/serializer/annotation/postdeserialize.php
+src/jms/serializer/deserializationcontext.php
+src/jms/serializer/eventdispatcher/predeserializeevent.php
+src/jms/serializer/genericdeserializationvisitor.php
+src/jms/serializer/jsondeserializationvisitor.php
+src/jms/serializer/xmldeserializationvisitor.php
 src/orchard.web/modules/orchard.layouts/scripts/jquery.deserialize.js
 src/prestashopbundle/apiplatform/provider/emptybodydeserializerprovider.php
 src/scripts/vanilla-editor/plugins/mentionplugin/deserializementionhtml.ts
@@ -2396,16 +2454,24 @@ testdeserializeaplicationresponse.xml
 testdeserializer.java.xml
 testpickles
 tests/api-functional/testsuite/magento/webapi/deserializationtest.php
+tests/eventlistener/deserializelistenertest.php
 tests/integration/core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializertest.php
+tests/jms/serializer/tests/fixtures/customdeserializationobject.php
 tests/model_regress/test_pickle.py
 tests/queryset_pickle
 tests/queryset_pickle/__init__.py
 tests/queryset_pickle/models.py
 tests/queryset_pickle/tests.py
 tests/serializers/test_deserializedobject.py
+tests/unit/windowsazure/serviceruntime/internal/chunkedgoalstatedeserializertest.php
+tests/unit/windowsazure/serviceruntime/internal/xmlgoalstatedeserializertest.php
+tests/unit/windowsazure/serviceruntime/internal/xmlroleenvironmentdatadeserializertest.php
 tests/zend/serializer/adapter/pythonpickleserializeprotocol0test.php
 tests/zend/serializer/adapter/pythonpickleserializeprotocol1test.php
 tests/zend/serializer/adapter/pythonpickleunserializetest.php
+tests/zendtest/serializer/adapter/pythonpickleserializeprotocol0test.php
+tests/zendtest/serializer/adapter/pythonpickleserializeprotocol1test.php
+tests/zendtest/serializer/adapter/pythonpickleunserializetest.php
 testsuite/magento/webapi/deserializationtest.php
 testtdeserializer.java
 textbufferdeserializefunc.xml
@@ -2426,8 +2492,14 @@ thepickleproject
 there was an error deserializing the object of type
 there was an error deserializing the object of type system.uint32
 there was an error while trying to deserialize parameter
+thinkphp/extend/vendor/zend/amf/parse/deserializer.php
 third_party/closure/goog/proto2/lazydeserializer.js
 thomasbigpickle
+thrift/lib/hack/src/protocol/simplephpobject/tsimplephpobjectprotocol.php
+thrift/lib/hack/src/protocol/simplephpobject/tsimplephpobjectprotocolkeyediteratorwrapper.php
+thrift/lib/php/src/protocol/simplephpobject/tsimplephpobjectprotocol.php
+thrift/lib/php/src/protocol/simplephpobject/tsimplephpobjectprotocolkeyediteratorwrapper.php
+thrift/test/php/testnativedeserialize.php
 throwabledeserializer.class
 throwabledeserializer.java
 ticket.pickle.zip
@@ -2499,12 +2571,25 @@ valuedeserializer.java
 vanilla-editor/plugins/mentionplugin/deserializementionhtml.ts
 vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.spec.tsx
 vanilla-editor/plugins/richembedplugin/deserializerichembedhtml.ts
+vendor/consolidation/annotated-command/src/parser/commandinfodeserializer.php
+vendor/data-values/data-values/src/datavalues/undeserializablevalue.php
+vendor/data-values/data-values/tests/phpunit/undeserializablevaluetest.php
+vendor/dropbox/dropbox-sdk/lib/dropbox/deserializeexception.php
 vendor/jms/serializer/src/jms/serializer/deserializationcontext.php
 vendor/jms/serializer/src/jms/serializer/genericdeserializationvisitor.php
 vendor/jms/serializer/src/jms/serializer/jsondeserializationvisitor.php
 vendor/jms/serializer/src/jms/serializer/xmldeserializationvisitor.php
+vendor/jms/serializer/tests/fixtures/customdeserializationobject.php
 vendor/laminas/laminas-diactoros/src/exception/deserializationexception.php
+vendor/microsoft/windowsazure/windowsazure/serviceruntime/internal/chunkedgoalstatedeserializer.php
+vendor/microsoft/windowsazure/windowsazure/serviceruntime/internal/igoalstatedeserializer.php
+vendor/microsoft/windowsazure/windowsazure/serviceruntime/internal/xmlgoalstatedeserializer.php
+vendor/pear-pear.php.net/pear/pear/command/pickle.php
+vendor/sabre/xml/lib/deserializer/functions.php
+vendor/sabre/xml/lib/xmldeserializable.php
 vendor/typo3/phar-stream-wrapper/src/phar/deserializationexception.php
+vendor/zend/serializer/adapter/pythonpickle.php
+vendor/zend/serializer/adapter/pythonpickleoptions.php
 vendor/zendframework/zend-serializer/src/adapter/pythonpickle.php
 vendor/zendframework/zend-serializer/src/adapter/pythonpickleoptions.php
 vendor/zf2/library/zend/serializer/adapter/pythonpickle.php
@@ -2540,8 +2625,14 @@ white-pickle
 white-pickle mosaic
 white-picklemosaic
 wildpickles
+windowsazure/serviceruntime/internal/chunkedgoalstatedeserializer.php
+windowsazure/serviceruntime/internal/igoalstatedeserializer.php
+windowsazure/serviceruntime/internal/iroleenvironmentdatadeserializer.php
+windowsazure/serviceruntime/internal/xmlgoalstatedeserializer.php
+windowsazure/serviceruntime/internal/xmlroleenvironmentdatadeserializer.php
 world.pickle.zip
 wp-content/plugins/deserialize-metadata/
+wp-content/plugins/worker/src/dropbox/deserializeexception.php
 wp-content/themes/pickle
 wp-content/themes/pickle/
 wp-content/themes/picklewagon
@@ -2579,6 +2670,10 @@ zcl_abapgit_file_deserialize.clas.xml
 zcl_mdp_json_deserializer.clas.xml
 zebrapickle
 zeet-aadillpickle
+zend/amf/parse/amf0/deserializer.php
+zend/amf/parse/amf3/deserializer.php
+zend/amf/parse/deserializer.php
+zend/serializer/adapter/pythonpickle.php
 zif_abapgit_data_deserializer.intf.xml
 zoeypickle!
 zonked,afflicted,asleep,bent,boiled,bombed,boozy,canned,cataleptic,catatonic,cockeyed,cockeyed drunk,cold,comatose,crocked,crocko,dead,doped,drugged,drunk,drunken,elevated,fried,fuddled,half-conscious,half-seas over,high,hopped-up,illuminated,inebriated,lit,lit up,loaded,lubricated,lushy,muzzy,narcotized,nirvanic,oblivious,oiled,organized,out,out cold,out of it,pickled,pie-eyed,pissed,pissy-eyed,plastered,polluted,potted,raddled,semiconscious,senseless,shellacked,skunk-drunk,smashed,soaked,soused,spaced out,spaced-out,squiffy,stewed,stinko,stoned,strung out,swacked,tanked,tight,unconscious,wiped out,zonked out
