@@ -70,7 +70,6 @@
 20151029070742_cloud-47417_hibernate_does_not_affect_sequences.sql
 201606081955oldtobasehibernatemigration.sql
 20170201_migration_hibernate_5.xml
-20210310090351_activerecord_session_store114.rb
 2disallow/dealers/includes/find_by_label.html
 32-spring-mvc-demo-hibernate-validation/webcontent/web-inf/view/customer-form.jsp
 32-spring-mvc-demo-hibernate-validation/webcontent/web-inf/view/main-menu.jsp
@@ -928,7 +927,6 @@ db-hibernate.hbm.xml
 db/activerecord.php
 db/activerecordtest.php
 db/baseactiverecord.stub
-db/migrate/20210310090351_activerecord_session_store114.rb
 db2dialect.hibernate.cfg.xml
 db_hibernate.xml
 db_hibernate_log.xml
@@ -2185,13 +2183,6 @@ lib/psu/activerecord.php
 lib/psu/activerecord/exception.php
 lib/psu/activerecord/notfoundexception.php
 lib/psu/teachercert/activerecord.php
-lib/sequencer/unit/import/common/model/find_by/id.rb
-lib/sequencer/unit/import/common/model/find_by/message_id.rb
-lib/sequencer/unit/import/common/model/find_by/name.rb
-lib/sequencer/unit/import/common/model/find_by/number.rb
-lib/sequencer/unit/import/common/model/find_by/same_named_attribute.rb
-lib/sequencer/unit/import/common/model/find_by/time_accounting_attributes.rb
-lib/sequencer/unit/import/common/model/find_by/user_attributes.rb
 library/db/ar/cactiverecord.php
 library/db/ar/cactiverecordbehavior.php
 libreplan-business-hibernate-test.cfg.xml
@@ -2584,7 +2575,6 @@ messagemonitoringdb.hibernate.cfg.xml
 metadata-hibernate.xml
 metadatahibernate.cfg.xml
 migracaospring4hibernate5.sql
-migrate/20210310090351_activerecord_session_store114.rb
 missingldapandhibernatetransactiontestcontext.xml
 mockactiverecord
 model/find_by/id.rb

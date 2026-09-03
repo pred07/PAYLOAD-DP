@@ -111,9 +111,6 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 2 pickle2
 2 pickles
 20061121113016ilanadonna-loveandbigjewishpickles158
-2021-07-07-fix-cart-deserialize.md
-2025-01-15-fix-message-deserialization.md
-2025-07-29-fix-cart-deserialization-type-error.md
 20pickle
 20pickles
 22pickles
@@ -237,9 +234,6 @@ apickle
 apickleforyourthoughts
 apiplatform/provider/emptybodydeserializerprovider.php
 apiuser.pickle.zip
-app/code/magento/catalog/model/product/webapi/rest/requesttypebaseddeserializer.php
-app/code/magento/catalog/test/unit/model/product/webapi/rest/requesttypebaseddeserializertest.php
-app/code/magento/user/setup/patch/data/upgradeserializedfields.php
 app/lib/core/zend/amf/parse/deserializer.php
 app/lib/core/zend/serializer/adapter/pythonpickle.php
 app_deserialization.log
@@ -389,12 +383,8 @@ candidate.pickle.zip
 captainpickles
 carrotpicklesthai01
 catalog/model/product/webapi/rest/requesttypebaseddeserializer.php
-catalog/test/unit/model/product/webapi/rest/requesttypebaseddeserializertest.php
 cepickle11
 ch33senpickle
-changelog/release-6-4-2-1/2021-07-07-fix-cart-deserialize.md
-changelog/release-6-6-10-0/2025-01-15-fix-message-deserialization.md
-changelog/release-6-7-1-2/2025-07-29-fix-cart-deserialization-type-error.md
 charlespickles
 cheesepickle
 cheesypickles
@@ -421,8 +411,6 @@ clown,babbitt,columbine,hanswurst,harlequin,pantalone,pantaloon,philistine,polic
 clutch,abduct,adhere to,amount,array,batch,bear hug,bind,bite,body,brood,budget,bunch,bundle,carry off,catch,cherish,chunk,clamp,clasp,cleave to,clench,climacteric,clinch,cling,clinging,clip,clump,cluster,clutches,complication,cone clutch,control,convergence of events,count,crisis,critical juncture,critical point,crossroads,crucial period,crunch,deal,death grip,disk clutch,dominance,domination,dose,embarrassing position,embarrassment,embrace,emergency,exigency,extremity,farrow,fine how-do-you-do,firm hold,foothold,footing,freeze to,friction clutch,fry,get,gob,grab,grapple,grasp,grip,gripe,group,hang on,hang on to,harbor,hatch,heap,hell to pay,high pressure,hinge,hobble,hold,hold fast,hold on,hold on to,hold tight,hot water,how-do-you-do,hug,hunk,imbroglio,imperativeness,influence,iron grip,jam,keep,keep hold of,kidnap,large amount,lay hold of,litter,lot,measure,mess,mix,morass,multiple-disk clutch,nab,nail,nest,never let go,nip,number,pack,parcel,parlous straits,part,pass,pickle,pinch,plate clutch,plight,portion,possession,power,predicament,press,pressure,pretty pass,pretty pickle,pretty predicament,purchase,push,quagmire,quantity,quicksand,ration,rim clutch,rub,scrape,seize,seizure,set,shanghai,slip friction clutch,slough,small amount,snag,snatch,spat,spawn,spot,squeeze,stew,stick to,sticky wicket,strait,straits,stress,sum,swamp,take,take hold of,tension,tenure,throttle,tight grip,tight spot,tight squeeze,tightrope,toehold,tricky spot,turn,turning point,unholy mess,urgency,young
 cmpickles
 cockeyed,afflicted,agee,agee-jawed,amiss,anamorphous,apish,asinine,askance,askant,askew,askewgee,asquint,asymmetric,awry,batty,befooled,beguiled,bent,besotted,boiled,bombed,boozy,bowed,brainless,buffoonish,bug-eyed,cam,canned,catawampous,catawamptious,cock-a-hoop,cockeyed drunk,contorted,convulsed,crazy,credulous,crocked,crocko,crooked,crookedly,cross-eyed,crumpled,crunched,daffy,daft,dazed,deranged,deviative,disarranged,discomfited,discomposed,disconcerted,disguised,dislocated,disordered,disorderly,disorganized,distorted,disturbed,dizzy,doting,drunk,dumb,elevated,fatuitous,fatuous,flaky,fond,fool,foolheaded,foolish,fried,fuddled,futile,gaga,glare-eyed,goofy,gulled,half-seas over,haywire,high,idiotic,illuminated,imbecile,in disorder,inane,inebriated,inept,infatuated,insane,irregular,kooky,labyrinthine,lit,lit up,loaded,loony,lopsided,lubricated,lushy,mad,maudlin,misplaced,monocular,moon-eyed,moronic,muddled,muzzy,nonsymmetric,nutty,oiled,on the fritz,one-eyed,one-sided,organized,out of gear,out of joint,out of kelter,out of kilter,out of order,out of place,out of tune,out of whack,perturbed,pickled,pie-eyed,pissed,pissy-eyed,pixilated,plastered,polluted,popeyed,potted,raddled,roily,sappy,saucer-eyed,screwy,senseless,sentimental,shellacked,shuffled,silly,skew,skew-jawed,skewed,skunk-drunk,slaunchways,smashed,soaked,soused,sprung,squiffy,squinting,stewed,stinko,stupid,swacked,swivel-eyed,tanked,thoughtless,tight,tortuous,turbid,turbulent,twisted,unsettled,unsymmetric,upset,wacky,walleyed,wamper-jawed,warped,wet,witless,wry,yaw-ways
-code/magento/catalog/model/product/webapi/rest/requesttypebaseddeserializer.php
-code/magento/catalog/test/unit/model/product/webapi/rest/requesttypebaseddeserializertest.php
 code/magento/user/setup/patch/data/upgradeserializedfields.php
 collectiondeserializer.class
 collectiondeserializer.java
@@ -437,15 +425,12 @@ confusion,abashment,agitation,aloofness,ambiguity,ambiguousness,amorphia,amorphi
 containerdeserializerbase.class
 containerdeserializerbase.java
 content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializer.php
-content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializertest.php
 contextualdeserializer.class
 contextualdeserializer.java
 contextualkeydeserializer.class
 contextualkeydeserializer.java
 cookiepickle
 cookiescottpickle
-core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializer.php
-core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializertest.php
 core/src/settings/event/deserializing.php
 corexmldeserializers.class
 corexmldeserializers.java
@@ -710,8 +695,6 @@ framework/webapi/rest/request/deserializer/json.php
 framework/webapi/rest/request/deserializer/xml.php
 framework/webapi/rest/request/deserializerfactory.php
 framework/webapi/rest/request/deserializerinterface.php
-framework/webapi/test/unit/rest/request/deserializer/jsontest.php
-framework/webapi/test/unit/rest/request/deserializer/xmltest.php
 framework/webapi/test/unit/rest/request/deserializerfactorytest.php
 fred_and_pickles.xml
 freeze dry,anhydrate,blast-freeze,brine,corn,cure,dehydrate,desiccate,dry,dry-cure,dry-salt,embalm,evaporate,freeze,fume,irradiate,jerk,kipper,marinade,marinate,mummify,pickle,preservatize,quick-freeze,refrigerate,salt,season,smoke,smoke-cure,stuff
@@ -775,7 +758,6 @@ hot water,dutch,old faithful,bind,boiling water,box,clutch,complication,corner,c
 hotpickle
 hotpickledpeppers
 hpickle
-htdocs/includes/sabre/sabre/xml/lib/deserializer/functions.php
 htdocs/includes/sabre/sabre/xml/lib/xmldeserializable.php
 http-inputs-ack-picklesauction
 http-inputs-firehose-picklesauction
@@ -793,7 +775,6 @@ icklepickleslife
 icklepickleslife-co-uk
 icomponentdeserializer.xml
 icon.pickle.zip
-icons/solid/pickleball.svg
 ideserializationcallback
 ideserializationcallback.cs
 ideserializationcallback.xml
@@ -834,14 +815,8 @@ inputstreamdeserializer.java
 inspectpickles
 integerdeserializer.class
 integerdeserializer.java
-integration/core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializertest.php
-internal/magento/framework/webapi/rest/request/deserializer/json.php
-internal/magento/framework/webapi/rest/request/deserializer/xml.php
 internal/magento/framework/webapi/rest/request/deserializerfactory.php
 internal/magento/framework/webapi/rest/request/deserializerinterface.php
-internal/magento/framework/webapi/test/unit/rest/request/deserializer/jsontest.php
-internal/magento/framework/webapi/test/unit/rest/request/deserializer/xmltest.php
-internal/magento/framework/webapi/test/unit/rest/request/deserializerfactorytest.php
 intoxicated,abandoned,ablaze,addled,affected,afire,amok,ardent,beery,befuddled,bellowing,bemused,berserk,besotted,blind,blind drunk,blotto,boiled,boiling over,bombed,boozy,breathless,burning,canned,carried away,cockeyed,concerned,cordial,crapulent,crapulous,crocked,cut,dazed,delirious,demoniac,disguised,distracted,dizzy,dopey,drenched,drunk,drunken,ecstatic,elated,enraptured,enthusiastic,excited,exhilarated,exuberant,far-gone,febrile,feral,ferocious,fervent,fervid,fevered,feverish,fierce,fiery,flaming,flushed,flustered,fou,frantic,frenzied,fried,fuddled,full,fulminating,furious,galvanized,gay,giddy,glorious,glowing,haggard,half-seas over,happy,hearty,heated,hog-wild,hot,howling,hysterical,impassioned,in a transport,in hysterics,in liquor,in the bag,inebriate,inebriated,inebrious,intense,interested,jagged,jolly,juiced,keen,lit,lit up,lively,loaded,looped,loopy,mad,madding,maniac,maudlin,mellow,merry,moved,muddled,nappy,oiled,on fire,organized,orgasmic,orgiastic,passionate,pickled,pie-eyed,piqued,pissed,pixilated,plastered,polluted,possessed,potted,rabid,raging,ramping,ranting,raving,ravished,red-hot,reeling,roaring,running mad,screwy,shikker,shot,sloppy,smashed,sodden,soppy,sotted,sozzled,steaming,steamy,stewed,stiff,stimulated,stinking,stinko,stoned,storming,swacked,tanked,tiddly,tight,tipsy,transported,turned-on,uncontrollable,under the influence,under the weather,unrestrained,vigorous,violent,warm,wet,wild,wild-eyed,wild-looking,zealous,zonked
 invisiblepickle
 ipickle
@@ -942,13 +917,6 @@ lemon,acid,acidulant,aureate,auric,beige,bomb,bread-and-butter pickle,buff,buff-
 lenazeepickle
 lib/deserializer/functions.php
 lib/dropbox/deserializeexception.php
-lib/internal/magento/framework/webapi/rest/request/deserializer/json.php
-lib/internal/magento/framework/webapi/rest/request/deserializer/xml.php
-lib/internal/magento/framework/webapi/rest/request/deserializerfactory.php
-lib/internal/magento/framework/webapi/rest/request/deserializerinterface.php
-lib/internal/magento/framework/webapi/test/unit/rest/request/deserializer/jsontest.php
-lib/internal/magento/framework/webapi/test/unit/rest/request/deserializer/xmltest.php
-lib/internal/magento/framework/webapi/test/unit/rest/request/deserializerfactorytest.php
 lib/lib2to3/.pickle
 lib/pear/command/pickle.php
 lib/pear/command/pickle.xml
@@ -1005,14 +973,10 @@ lovepickles23
 lpickle
 macpickle
 magento/catalog/model/product/webapi/rest/requesttypebaseddeserializer.php
-magento/catalog/test/unit/model/product/webapi/rest/requesttypebaseddeserializertest.php
 magento/framework/webapi/rest/request/deserializer/json.php
 magento/framework/webapi/rest/request/deserializer/xml.php
 magento/framework/webapi/rest/request/deserializerfactory.php
 magento/framework/webapi/rest/request/deserializerinterface.php
-magento/framework/webapi/test/unit/rest/request/deserializer/jsontest.php
-magento/framework/webapi/test/unit/rest/request/deserializer/xmltest.php
-magento/framework/webapi/test/unit/rest/request/deserializerfactorytest.php
 magento/user/setup/patch/data/upgradeserializedfields.php
 magento/webapi/deserializationtest.php
 mailscanner/lib/pear/pear/command/pickle.php
@@ -1516,7 +1480,6 @@ pickleball-huntsville
 pickleball-paradise-by-midwest-sports-myshopify-com
 pickleball.aspx
 pickleball.jsp
-pickleball.svg
 pickleball7676
 pickleballcentral-com
 pickleballhelp-com
@@ -2211,9 +2174,6 @@ rbertspickler
 realpickle
 red1pickle
 refrigerate,air-condition,air-cool,anhydrate,benumb,bite,blast-freeze,brine,chill,cool,corn,cure,cut,dehydrate,desiccate,dry,dry-cure,dry-salt,embalm,evaporate,freeze,freeze-dry,freshen,frost,frostbite,fume,go through,ice,ice-cool,infrigidate,irradiate,jerk,kipper,marinade,marinate,mummify,nip,numb,penetrate,pickle,pierce,preservatize,quick-freeze,refresh,salt,season,smoke,smoke-cure,stuff,ventilate
-release-6-4-2-1/2021-07-07-fix-cart-deserialize.md
-release-6-6-10-0/2025-01-15-fix-message-deserialization.md
-release-6-7-1-2/2025-07-29-fix-cart-deserialization-type-error.md
 release.pickle.zip
 releaseticketconnection.pickle.zip
 rempickle
@@ -2318,7 +2278,6 @@ so.deserialize.exe.config
 soaked,sro,afflicted,awash,bathed,bent,bloated,boiled,bombed,boozy,brimful,brimming,bulging,bursting,canned,capacity,chock-full,choked,chuck-full,cockeyed,cockeyed drunk,congested,cram-full,crammed,crocked,crocko,crowded,deluged,dipped,distended,drenched,dribbling,dripping,dripping wet,drowned,elevated,engulfed,farci,filled,filled to overflowing,flooded,flush,fried,fuddled,full,full to bursting,glutted,gorged,half-seas over,high,hyperemic,illuminated,immersed,in spate,inundated,jam-packed,jammed,lit,lit up,loaded,lubricated,lushy,macerated,muzzy,oiled,oozing,organized,overblown,overburdened,overcharged,overfed,overflowed,overflowing,overfraught,overfreighted,overfull,overladen,overloaded,overstocked,overstuffed,oversupplied,overweighted,packed,packed like sardines,permeated,pickled,pie-eyed,pissed,pissy-eyed,plastered,plenary,plethoric,polluted,potted,raddled,ready to burst,replete,round,running over,satiated,saturated,seeping,shellacked,skunk-drunk,smashed,soaking,soaking wet,soaky,sodden,soggy,sopping,sopping wet,soppy,soused,squiffy,standing room only,steeped,stewed,stinko,stuffed,stuffed up,submerged,submersed,supercharged,supersaturated,surcharged,surfeited,swacked,swamped,swollen,tanked,tight,topful,waterlogged,watersoaked,weeping,weltering,wet,whelmed,wringing wet
 sobjectworkdeserializer.cls-meta.xml
 sobjectworkdeserializer_test.cls-meta.xml
-solid/pickleball.svg
 somanypickles27
 soup,cat,aerospace,aerosphere,air hole,air pocket,airspace,albumen,batter,bisque,bonnyclabber,borscht,bouillabaisse,bouillon,box,broth,bump,burgoo,butter,ceiling,chicken soup,chowder,clabber,clam chowder,clear soup,consomme,corner,cornstarch,cream,crosswind,curd,developer,dilemma,dough,egg drop soup,egg white,empty space,favorable wind,fish soup,fix,fixer,fixing bath,fog,front,gaum,gazpacho,gel,gelatin,glair,glop,glue,gluten,goo,gook,goop,gravy soup,gruel,gumbo,gunk,head wind,high-pressure area,hole,hypo,ionosphere,jam,jell,jelly,jetstream,julienne,lath,loblolly,low-pressure area,matzo ball soup,mere shadow,minestrone,misoshiru soup,mock turtle soup,molasses,mucilage,mucus,mulligatawny,overcast,oxtail soup,pap,paper,paste,pickle,plight,pocket,porridge,pot-au-feu,potage,potage au tomate,potato soup,pottage,processing solution,pudding,pulp,puree,putty,rail,rake,rob,roughness,scrape,semifluid,semiliquid,shadow,shaving,short-stop,short-stop bath,size,skeleton,slat,slip,sodium hyposulfite,sodium thiosulfate,space,splinter,starch,sticky mess,stock,stop bath,stratosphere,streak,substratosphere,syrup,tail wind,thick soup,thin soup,tomato soup,treacle,tropopause,troposphere,trough,turbulence,turtle soup,vegetable soup,vein,vichyssoise,visibility,visibility zero,wafer,won ton soup
 sour grapes,acid,acidulant,belittling,bread-and-butter pickle,chokecherry,comedown,contempt,crab apple,decrial,depreciation,derogation,detraction,dill pickle,disapproval,discrediting,disgrace,disparagement,faint praise,green apple,indignity,knocking,lemon,lime,lukewarm support,minimizing,pickle,putting down,slighting,sour,sour balls,sour cream,sour pickle,sourdough,verjuice,vinegar,yogurt
@@ -2348,13 +2307,11 @@ springexporterunsafedeserialization.xml
 sqldatedeserializer.java
 src/channel/__tests__/phutilphpobjectprotocolchanneltestcase.php
 src/channel/phutilphpobjectprotocolchannel.php
-src/core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializer.php
 src/deserializer.php
 src/eventlistener/deserializelistener.php
 src/exception/deserializationexception.php
 src/frapi/library/zend/amf/parse/deserializer.php
 src/frapi/library/zend/serializer/adapter/pythonpickle.php
-src/icons/solid/pickleball.svg
 src/jms/serializer/annotation/postdeserialize.php
 src/jms/serializer/deserializationcontext.php
 src/jms/serializer/eventdispatcher/predeserializeevent.php
@@ -2455,7 +2412,6 @@ testdeserializer.java.xml
 testpickles
 tests/api-functional/testsuite/magento/webapi/deserializationtest.php
 tests/eventlistener/deserializelistenertest.php
-tests/integration/core/content/importexport/dataabstractionlayer/serializer/entity/promotionindividualcodeserializertest.php
 tests/jms/serializer/tests/fixtures/customdeserializationobject.php
 tests/model_regress/test_pickle.py
 tests/queryset_pickle

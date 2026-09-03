@@ -488,12 +488,7 @@
 1rxxqidxlna316nwuna814hxnta315nwtnedlcdxldaw15dwtdeqineu1rjxkna416jwttel
 1yjwtu
 2015-11-27-addjwtkeyconfig.sql
-2021-05-26-update-lcobucci-jwt.md
-2022-02-28-added-option-to-skip-jwt-keys-generation-to-system-install-command.md
 202204281728_anon_jwt.sql
-2023-04-12-fix-jwt-key-generation.md
-2023-11-13-update-jwt-package.md
-2024-02-12-allow-hmac-jwt.md
 20gjwtketd
 23189586jwtxgsgqzw_th
 233156163oyjwtt_th
@@ -638,11 +633,7 @@ add_your_jwtt_secret
 aditjwtsecret
 admin-jwt-configuration.test.api.ts
 admin/admin-jwt-configuration.test.api.ts
-admin/admin/src/utils/jwt.ts
-admin/admin/src/utils/tests/jwt.test.ts
 admin/default/build/assets/email-5ajwt575.svg
-admin/src/utils/jwt.ts
-admin/src/utils/tests/jwt.test.ts
 admin888/ewebeditor/zjwtadmin_login.asp
 admin_account_jwt
 adminadobeims/authorization/_files/jwtrs256.key
@@ -768,7 +759,6 @@ api/src/utils/is-directus-jwt.test.ts
 api/src/utils/is-directus-jwt.ts
 api/src/utils/jwt.test.ts
 api/src/utils/jwt.ts
-api/src/utils/verify-session-jwt.test.ts
 api/src/utils/verify-session-jwt.ts
 api/token-jwt/tkn
 api/tpi/jwt
@@ -819,9 +809,6 @@ app/code/magento/cardinalcommerce/model/response/jwtparser.php
 app/code/magento/cardinalcommerce/model/response/jwtparserinterface.php
 app/code/magento/cardinalcommerce/model/response/jwtpayloadvalidator.php
 app/code/magento/cardinalcommerce/model/response/jwtpayloadvalidatorinterface.php
-app/code/magento/cardinalcommerce/test/unit/model/jwtmanagementtest.php
-app/code/magento/cardinalcommerce/test/unit/model/response/jwtparsertest.php
-app/code/magento/cardinalcommerce/test/unit/model/response/jwtpayloadvalidatortest.php
 app/code/magento/jwtframeworkadapter/composer.json
 app/code/magento/jwtframeworkadapter/etc/di.xml
 app/code/magento/jwtframeworkadapter/etc/module.xml
@@ -849,9 +836,6 @@ app/code/magento/jwtframeworkadapter/model/unsecuredjwtfactory.php
 app/code/magento/jwtframeworkadapter/model/unsecuredjwtmanager.php
 app/code/magento/jwtframeworkadapter/readme.md
 app/code/magento/jwtframeworkadapter/registration.php
-app/code/magento/jwtframeworkadapter/test/unit/model/jwefactorytest.php
-app/code/magento/jwtframeworkadapter/test/unit/model/jwsfactorytest.php
-app/code/magento/jwtframeworkadapter/test/unit/model/unsecuredjwtfactorytest.php
 app/code/magento/jwtusertoken/api/configreaderinterface.php
 app/code/magento/jwtusertoken/api/data/jwttokendatainterface.php
 app/code/magento/jwtusertoken/api/data/revoked.php
@@ -1120,13 +1104,6 @@ cdjwtz
 cfvjwtkm
 cfvsqgjwtkeq
 cgt-jwthzjbkbd
-changelog/release-6-4-1-1/2021-05-26-update-lcobucci-jwt.md
-changelog/release-6-4-10-0/2022-02-28-added-option-to-skip-jwt-keys-generation-to-system-install-command.md
-changelog/release-6-4-2-0/2021-05-26-update-lcobucci-jwt.md
-changelog/release-6-5-0-0/2023-04-12-fix-jwt-key-generation.md
-changelog/release-6-5-1-0/2023-04-12-fix-jwt-key-generation.md
-changelog/release-6-6-0-0/2023-11-13-update-jwt-package.md
-changelog/release-6-6-1-0/2024-02-12-allow-hmac-jwt.md
 changemelater-jwtsecret
 chartsjwt
 chatbot-jwt
@@ -1182,8 +1159,6 @@ code/magento/cardinalcommerce/model/response/jwtparserinterface.php
 code/magento/cardinalcommerce/model/response/jwtpayloadvalidator.php
 code/magento/cardinalcommerce/model/response/jwtpayloadvalidatorinterface.php
 code/magento/cardinalcommerce/test/unit/model/jwtmanagementtest.php
-code/magento/cardinalcommerce/test/unit/model/response/jwtparsertest.php
-code/magento/cardinalcommerce/test/unit/model/response/jwtpayloadvalidatortest.php
 code/magento/jwtframeworkadapter/composer.json
 code/magento/jwtframeworkadapter/etc/di.xml
 code/magento/jwtframeworkadapter/etc/module.xml
@@ -1267,8 +1242,6 @@ content-api/auth-jwt-algorithm.test.api.js
 convertapitokentojwtauth
 cookie_check=yes; lang=en_us%3bus; tsrce=settingsnodeweb; ts=vr%3de012017a1640a101aa0c24dafffd19fe%26vrexpyrs%3d1627438410%26vtexpyrs%3d1532769433%26vt%3de01201911640a101aa0c24dafffd19fd; x-pp-s=eyj0ijoimtuzmjc2nzy2ndq5myisim0ioiiwin0; nsid=s%3ay8glvpmkfkxj_mr2hof2tvmhueguxf1n.8s5le6ieok4gevlg59wyswy8xxzcycxwk7nwtun3utq; akdc=ccg11-origin-www-1.paypal.com; akavpau_ppsd=1532768264~id=928bd1c25ce0be991ae8f454b7c7fc8c; xppcts=f34bc8847fea2560; login_email=pete.johnson%40shaw.ca; ui_experience=home%3d2%26login_type%3demail_password; fn_dt=344a91a6fb904898a12a18a9a268cfcf; id_token=idtoken3a976f8244b84dfe948aa108edef4953; khcl0euy7aksmgfvhl7j5e7hptk=wguwe1-mrq4xoiqepo9cyaieqt2dgexq3mfzofvq-6br53skk66ufddoukdh35iuwjwxzeo33lpstkal; hac80bwxscjqz7km6voxulob534=4sixhbrkowaac6vovotkkvgd937rbje-l3g1b6zvfps0xsennvljdymdx1nsoq5e2nyynxwatknrkuhqavt9bxsdyfug8akgxrurrxw9rptrnzoll5b_2qkvbd_i6gqiwkilz0; x-pp-ads=atoboc1cw36jqolibn15jwf.2uvpho4; navcmd=_restriction-details; x-pp-p=px45apy-swrncghzjjzv6vdwdmordffif07-wchblleotuwiplwkbamfdwd6x.zga3das4imy-eotdphtc2fkw2bqb3ctl1n4ydwv9rwbkxioejsfkupxlmxgnvny5jbgnn3zevmr8nar969rtxhuyf9nbe7fgwihrnox0yz.dxxf6qux8ggvnh12nnyk.8alk2owfx3y8jdst8wtag9mtqy7zrzzsl-xtzabaarsuufulswdjuixpcs-o1ki484; segm=kpdr9wad9vnd2klo5j9sdt3jd9dr8ddbshd72ddrt8zqpln941oplfgh9isom0wdwngll83ghjir932dfkd8fcou; cwrclyrk4locv1fydgbaxinl6ig=off2i1vuw2k_ftkk5if_rl61amxxjgyp4ekn16v1tfjk5_e01fzhgus6h0ojnguomuyi3rynk5yykbm7unnli5mpha21vzgenb_ggqybqdblrw9uygrhmcywqe4gcve2afr0ebpddcyvwwp2hpf8f0pwpkqsyzc7c22bzsigaoblsn3lysnbaezbawkwhn1vwb3d_91yehpdnf-rgh6df3reyxfzssntwo5kugue7knpamyqil_ngqoj0la
 core/admin/admin-jwt-configuration.test.api.ts
-core/admin/admin/src/utils/jwt.ts
-core/admin/admin/src/utils/tests/jwt.test.ts
 core/authentication/jwt/defaultkeyfactory.php
 core/authentication/jwt/exceptions/expired.php
 core/authentication/jwt/exceptions/invalid.php
@@ -1350,7 +1323,6 @@ custom-jwt-iap-test
 custom-session-jwt/keystone-example.db
 custom-session-jwt/keystone.ts
 custom-session-jwt/package.json
-custom-session-jwt/prisma.config.ts
 custom-session-jwt/sandbox.config.json
 custom-session-jwt/schema.graphql
 custom-session-jwt/schema.prisma
@@ -1392,12 +1364,6 @@ dev-api-jwt
 dev-jwt-secret
 dev-jwt-secret-token
 dev-jwtsecret
-dev/tests/integration/testsuite/magento/framework/jwt/jwtmanagertest.php
-dev/tests/integration/testsuite/magento/jwtframeworkadapter/model/jwsmanagertest.php
-dev/tests/integration/testsuite/magento/jwtusertoken/api/revokedrepositorytest.php
-dev/tests/integration/testsuite/magento/jwtusertoken/model/issuertest.php
-dev/tests/integration/testsuite/magento/jwtusertoken/model/readertest.php
-dev/tests/integration/testsuite/magento/jwtusertoken/model/revokertest.php
 dev_jwt_secret_key
 develop-jwt
 development_only_jwt_secret
@@ -1503,7 +1469,6 @@ evjwtewu
 examples/custom-session-jwt/keystone-example.db
 examples/custom-session-jwt/keystone.ts
 examples/custom-session-jwt/package.json
-examples/custom-session-jwt/prisma.config.ts
 examples/custom-session-jwt/sandbox.config.json
 examples/custom-session-jwt/schema.graphql
 examples/custom-session-jwt/schema.prisma
@@ -1981,12 +1946,6 @@ internal/magento/framework/jwt/payload/nestedpayload.php
 internal/magento/framework/jwt/payload/nestedpayloadinterface.php
 internal/magento/framework/jwt/payloadinterface.php
 internal/magento/framework/jwt/readme.md
-internal/magento/framework/jwt/test/unit/claim/abstractclaimtest.php
-internal/magento/framework/jwt/test/unit/header/x509chaintest.php
-internal/magento/framework/jwt/test/unit/header/x509sha1thumbprinttest.php
-internal/magento/framework/jwt/test/unit/header/x509sha256thumbprinttest.php
-internal/magento/framework/jwt/test/unit/jwe/jweencryptionjwkstest.php
-internal/magento/framework/jwt/test/unit/jws/jwssignaturejwkstest.php
 internal/magento/framework/jwt/unsecured/noencryption.php
 internal/magento/framework/jwt/unsecured/unsecuredjwt.php
 internal/magento/framework/jwt/unsecured/unsecuredjwtinterface.php
@@ -3260,8 +3219,6 @@ lib/internal/magento/framework/jwt/header/x509sha256thumbprint.php
 lib/internal/magento/framework/jwt/header/x509url.php
 lib/internal/magento/framework/jwt/headerinterface.php
 lib/internal/magento/framework/jwt/headerparameterinterface.php
-lib/internal/magento/framework/jwt/jwe/header/compressionalgorithm.php
-lib/internal/magento/framework/jwt/jwe/header/encryption.php
 lib/internal/magento/framework/jwt/jwe/jwe.php
 lib/internal/magento/framework/jwt/jwe/jweencryptionjwks.php
 lib/internal/magento/framework/jwt/jwe/jweencryptionsettingsinterface.php
@@ -3287,12 +3244,6 @@ lib/internal/magento/framework/jwt/payload/nestedpayload.php
 lib/internal/magento/framework/jwt/payload/nestedpayloadinterface.php
 lib/internal/magento/framework/jwt/payloadinterface.php
 lib/internal/magento/framework/jwt/readme.md
-lib/internal/magento/framework/jwt/test/unit/claim/abstractclaimtest.php
-lib/internal/magento/framework/jwt/test/unit/header/x509chaintest.php
-lib/internal/magento/framework/jwt/test/unit/header/x509sha1thumbprinttest.php
-lib/internal/magento/framework/jwt/test/unit/header/x509sha256thumbprinttest.php
-lib/internal/magento/framework/jwt/test/unit/jwe/jweencryptionjwkstest.php
-lib/internal/magento/framework/jwt/test/unit/jws/jwssignaturejwkstest.php
 lib/internal/magento/framework/jwt/unsecured/noencryption.php
 lib/internal/magento/framework/jwt/unsecured/unsecuredjwt.php
 lib/internal/magento/framework/jwt/unsecured/unsecuredjwtinterface.php
@@ -3767,15 +3718,10 @@ p4-gd7moeyjqt5aw-k6zhzbqssvel6guk-561946-i1-v6exp3.ds.metric
 p4-gd7moeyjqt5aw-k6zhzbqssvel6guk-561946-i2-v6exp3.v4.metric
 p4-gd7moeyjqt5aw-k6zhzbqssvel6guk-if-v6exp3-v4.metric
 p4-hjneyjitcgynq-a5tkz4tmxlzdl7h6-if-v6exp3-v4.metric
-packages/core/admin/admin/src/utils/jwt.ts
-packages/core/admin/admin/src/utils/tests/jwt.test.ts
 packages/core/core/src/services/__tests__/session-manager-jwt-config.test.ts
 packages/lexik_jwt_authentication.yaml
 packages/plugins/users-permissions/server/services/__tests__/jwt.test.js
 packages/plugins/users-permissions/server/services/jwt.js
-packages/plugins/users-permissions/server/src/services/__tests__/jwt.test.js
-packages/plugins/users-permissions/server/src/services/jwt.js
-packages/plugins/users-permissions/server/src/utils/verify-jwt-with-jwks.js
 pajwts6l
 pajwts6l-hbfkdj3b
 passport-jwt
@@ -3814,9 +3760,6 @@ platform/cjwt.html
 plugins/users-permissions/content-api/auth-jwt-algorithm.test.api.js
 plugins/users-permissions/server/services/__tests__/jwt.test.js
 plugins/users-permissions/server/services/jwt.js
-plugins/users-permissions/server/src/services/__tests__/jwt.test.js
-plugins/users-permissions/server/src/services/jwt.js
-plugins/users-permissions/server/src/utils/verify-jwt-with-jwks.js
 pnkx9p4jmwjwtgrm
 podiumjsrocksjwt
 ppghjwt
@@ -3879,13 +3822,6 @@ re932jwt
 refreshjwt
 refreshjwtauthtoken
 refreshjwttoken
-release-6-4-1-1/2021-05-26-update-lcobucci-jwt.md
-release-6-4-10-0/2022-02-28-added-option-to-skip-jwt-keys-generation-to-system-install-command.md
-release-6-4-2-0/2021-05-26-update-lcobucci-jwt.md
-release-6-5-0-0/2023-04-12-fix-jwt-key-generation.md
-release-6-5-1-0/2023-04-12-fix-jwt-key-generation.md
-release-6-6-0-0/2023-11-13-update-jwt-package.md
-release-6-6-1-0/2024-02-12-allow-hmac-jwt.md
 renewjwt
 replace this with your jwt secret
 replacement-jwt.json
@@ -4038,9 +3974,6 @@ security/oauth2/jwttokenuser.php
 sellers2567
 server/services/__tests__/jwt.test.js
 server/services/jwt.js
-server/src/services/__tests__/jwt.test.js
-server/src/services/jwt.js
-server/src/utils/verify-jwt-with-jwks.js
 server_1_withjwtssofeature.xml
 server_1_withjwtssofeature_unsolicited.xml
 server_disablejwtcookie_false_includeltpa_false.xml
@@ -4161,12 +4094,7 @@ src/providers/jwt/jwtinterface.php
 src/providers/jwt/namshi.php
 src/providers/jwt/provider.php
 src/providers/jwtauthserviceprovider.php
-src/services/__tests__/jwt.test.js
 src/services/__tests__/session-manager-jwt-config.test.ts
-src/services/jwt.js
-src/sylius/bundle/apibundle/tests/application/config/jwt/.gitkeep
-src/sylius/bundle/apibundle/tests/application/config/jwt/private-test.pem
-src/sylius/bundle/apibundle/tests/application/config/jwt/public-test.pem
 src/sylius/bundle/corebundle/console/command/jwtconfigurationcommand.php
 src/users/jwt-service-with-strategy.ts
 src/utils/is-directus-jwt.test.ts
@@ -4175,9 +4103,6 @@ src/utils/jwt-payload.test.ts
 src/utils/jwt-payload.ts
 src/utils/jwt.test.ts
 src/utils/jwt.ts
-src/utils/tests/jwt.test.ts
-src/utils/verify-jwt-with-jwks.js
-src/utils/verify-session-jwt.test.ts
 src/utils/verify-session-jwt.ts
 srf9jwti2napc8uw
 srjjwtwan
@@ -4230,9 +4155,6 @@ swiftyjwt
 sydneyjewishmuseum-com-au
 sydneyjolovesyou416
 syhxmxktjwtlhg
-sylius/bundle/apibundle/tests/application/config/jwt/.gitkeep
-sylius/bundle/apibundle/tests/application/config/jwt/private-test.pem
-sylius/bundle/apibundle/tests/application/config/jwt/public-test.pem
 sylius/bundle/corebundle/console/command/jwtconfigurationcommand.php
 sypjwtkdqx
 syq8imvfzjwtk
@@ -4297,7 +4219,6 @@ tests/integration/testsuite/magento/jwtusertoken/api/revokedrepositorytest.php
 tests/integration/testsuite/magento/jwtusertoken/model/issuertest.php
 tests/integration/testsuite/magento/jwtusertoken/model/readertest.php
 tests/integration/testsuite/magento/jwtusertoken/model/revokertest.php
-tests/jwt.test.ts
 tests/jwtauthtest.php
 tests/jwtmanagertest.php
 tests/jwttest.php
@@ -4306,7 +4227,6 @@ tests/namshi/jose/test/signer/openssl/rs256test.php
 tests/providers/jwt/namshitest.php
 tests/providers/jwt/providertest.php
 tests/stubs/jwtproviderstub.php
-tests/unit/core/checkout/payment/cart/token/jwtfactoryv2test.php
 tests/unit/core/framework/api/oauth/jwtconfigurationfactorytest.php
 tests/unit/core/framework/app/api/appjwtgenerateroutetest.php
 tests/unit/core/framework/jwt/_fixtures/invalid-jwks.json
@@ -4441,9 +4361,6 @@ usercurrentjwt
 users-permissions/content-api/auth-jwt-algorithm.test.api.js
 users-permissions/server/services/__tests__/jwt.test.js
 users-permissions/server/services/jwt.js
-users-permissions/server/src/services/__tests__/jwt.test.js
-users-permissions/server/src/services/jwt.js
-users-permissions/server/src/utils/verify-jwt-with-jwks.js
 useuser-jwt-in-header.xml
 util_jwt.cls-meta.xml
 util_jwt_test.cls-meta.xml
@@ -4453,9 +4370,6 @@ utils/jwt-payload.test.ts
 utils/jwt-payload.ts
 utils/jwt.test.ts
 utils/jwt.ts
-utils/tests/jwt.test.ts
-utils/verify-jwt-with-jwks.js
-utils/verify-session-jwt.test.ts
 utils/verify-session-jwt.ts
 utkbjwtynhbpv
 utnljwtj
@@ -4654,8 +4568,6 @@ vendor/tymon/jwt-auth/tests/validators/tokenvalidatortest.php
 vendor/zfcampus/zf-oauth2/test/adapter/pdo/jwtaccesstokentest.php
 vendor/zfcampus/zf-oauth2/test/adapter/pdo/jwtbearertest.php
 verify-internal-jwt.xml
-verify-jwt-with-jwks.js
-verify-session-jwt.test.ts
 verify-session-jwt.ts
 verifydynamicjwt
 verifyjwt
