@@ -14652,6 +14652,7 @@ $(`cat /etc/passwd`)
 \\\../etc\\\issue
 \\\../etc\\\passwd
 \\\../windows\\\system32\\\drivers\\\etc\\\hosts
+_fixtures/root/.gitkeep
 _mem_bin/..%%35%63../..%%35%63../..%%35%63../winnt/system32/cmd.exe?/c+dir
 _mem_bin/..%%35%63../..%%35%63../winnt/system32/cmd.exe?/c+dir
 _mem_bin/..%%35c../..%%35c../..%%35c../winnt/system32/cmd.exe?/c+dir
@@ -15470,6 +15471,7 @@ code/magento/tax/etc/crontab.xml
 color:black'>get /cfdocs/exampleapp/docs/sourcewindow.cfm?template=../../file
 comm.php?id=../../../../../../../../../../etc/passwd
 command.cgi?cat%20/etc/passwd
+command/_fixtures/root/.gitkeep
 commerce.cgi?page=../../../../../../../../../../etc
 commerce.cgi?page=../../../../../../../../../../etc/passwd%00index.html
 commerce.cgi?page=../../../../../../../../../..{knownfile}%00index.html
@@ -15490,6 +15492,7 @@ content/dynpage_load.php?file=/etc/passwd
 contrib/acog/print_form.php?formname=../../../etc/passwd%00
 copy myfile from '/etc/passwd';
 core/editor.php?editor_insert_bottom=/etc/passwd
+core/framework/dataabstractionlayer/command/_fixtures/root/.gitkeep
 costmodule/faces/javax.faces.resource/web.xml?loc=../web-inf
 cron/etc/crontab.xml
 cron/etc/crontab.xsd
@@ -15529,6 +15532,7 @@ cutesoft_client/cuteeditor/load.ashx?type=image&file=../www.rar
 cutesoft_client/cuteeditor/load.ashx?type=image&file=../wwwroot.rar
 cutesoft_client/cuteeditor/load.ashx?type=image&file=../wwwroot.zip
 dana-na/../dana/html5acc/guacamole/../../../../../../etc/passwd?/dana/html5acc/guacamole/
+dataabstractionlayer/command/_fixtures/root/.gitkeep
 db4web_c/dbdirname//etc/passwd
 dcforum.cgi?az=list&forum=../../../../../../../../../../etc
 dcforum.cgi?az=list&forum=../../../../../../../../../../etc/passwd%00
@@ -15883,6 +15887,7 @@ forum_professionnel.asp?n=/../../../../../../../../../../../../../../../../../..
 forum_professionnel.asp?n=/../../../../../../../../etc/passwd|41|80040e14|[microsoft][odbc_sql_server_driver][sql_server]line_1:_incorrect_syntax_near_&#039;/&#039;.
 forum_professionnel.asp?n=/etc/passwd%00|41|80040e14|[microsoft][odbc_sql_server_driver][sql_server]line_1:_incorrect_syntax_near_&#039;/&#039;.
 forum_professionnel.asp?n=/etc/passwd|41|80040e14|[microsoft][odbc_sql_server_driver][sql_server]line_1:_incorrect_syntax_near_&#039;/&#039;.
+framework/dataabstractionlayer/command/_fixtures/root/.gitkeep
 ftb/imagegallery.aspx?rif=/&cif=../&ftb=reproduct_content2
 ftp/etc/group
 g#s/../x
@@ -16664,6 +16669,7 @@ templates../.git/config
 test.jsp../
 test/pathtraversal/master/..%252f..%252f..%252f..%252f../etc/passwd
 test_duportal/home/../home/channel.asp
+tests/unit/core/framework/dataabstractionlayer/command/_fixtures/root/.gitkeep
 text-base/etc/passwd
 texteditor/dialogs/upload.asp?uploadfolder=../../upfile.asp/
 texteditor/dialogs/upload.asp?uploadfolder=../../upfile/
@@ -16685,6 +16691,7 @@ ubuntu-server-users: common uid names found in /etc/passwd on ubuntu server
 uir//etc/passwd
 undefined../
 union select 1,load_file('/etc/passwd'),1,1,1;
+unit/core/framework/dataabstractionlayer/command/_fixtures/root/.gitkeep
 userreg.cgi?cmd=insert&amp;lang=eng&amp;tnum=3&amp;fld1=test999%0acat&lt;/var/spool/mail/login&gt;&gt;/etc/passwd
 userreg.cgi?cmd=insert>/etc/passwd
 usr/home/user/var/log/apache.log
