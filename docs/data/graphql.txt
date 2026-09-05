@@ -3543,6 +3543,8 @@ app/frontend/apps/desktop/entities/channel-email/graphql/mutations/channelemailv
 app/frontend/apps/desktop/entities/email-addresses/graphql/queries/emailaddresses.api.ts
 app/frontend/apps/desktop/entities/email-addresses/graphql/queries/emailaddresses.graphql
 app/frontend/apps/desktop/entities/email-addresses/graphql/queries/emailaddresses.mocks.ts
+app/frontend/apps/desktop/entities/knowledge-base/graphql/__tests__/answerlocalecache.spec.ts
+app/frontend/apps/desktop/entities/knowledge-base/graphql/__tests__/categorylocalecache.spec.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.api.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.graphql
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerliveuserattributes.api.ts
@@ -3553,6 +3555,8 @@ app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebas
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertaskbartabattributes.graphql
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.api.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.graphql
+app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.api.ts
+app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.graphql
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.api.ts
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.graphql
 app/frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.api.ts
@@ -4752,6 +4756,7 @@ app/graphql/gql/types/concerns/has_model_relations.rb
 app/graphql/gql/types/concerns/has_pundit_authorization.rb
 app/graphql/gql/types/concerns/has_scoped_model_user_relations.rb
 app/graphql/gql/types/concerns/is_model_object.rb
+app/graphql/gql/types/concerns/resolves_knowledge_base_locale.rb
 app/graphql/gql/types/data_privacy_task_type.rb
 app/graphql/gql/types/email_address_parsed_type.rb
 app/graphql/gql/types/email_address_type.rb
@@ -4903,6 +4908,7 @@ app/graphql/gql/types/knowledge_base/search/item_type.rb
 app/graphql/gql/types/knowledge_base/search/path_segment_type.rb
 app/graphql/gql/types/knowledge_base/search/preview_segment_type.rb
 app/graphql/gql/types/knowledge_base/search/result_type.rb
+app/graphql/gql/types/knowledge_base/translation_type.rb
 app/graphql/gql/types/knowledge_base_type.rb
 app/graphql/gql/types/link_object_type.rb
 app/graphql/gql/types/link_type.rb
@@ -5074,6 +5080,8 @@ apps/desktop/entities/channel-email/graphql/mutations/channelemailvalidateconfig
 apps/desktop/entities/email-addresses/graphql/queries/emailaddresses.api.ts
 apps/desktop/entities/email-addresses/graphql/queries/emailaddresses.graphql
 apps/desktop/entities/email-addresses/graphql/queries/emailaddresses.mocks.ts
+apps/desktop/entities/knowledge-base/graphql/__tests__/answerlocalecache.spec.ts
+apps/desktop/entities/knowledge-base/graphql/__tests__/categorylocalecache.spec.ts
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.api.ts
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.graphql
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerliveuserattributes.api.ts
@@ -5084,6 +5092,8 @@ apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertaskba
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertaskbartabattributes.graphql
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.api.ts
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.graphql
+apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.api.ts
+apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.graphql
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.api.ts
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.graphql
 apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.api.ts
@@ -6056,6 +6066,8 @@ cli-tests/fixtures/basic-project/schema.graphql
 cli-tests/fixtures/custom-prisma-project/schema.graphql
 clientlogosgraphql1view
 cloudinary/schema.graphql
+cms/graphql
+cms/graphql-playground
 cmsgraphql-ingress
 cmsgraphql/composer.json
 cmsgraphql/etc/di.xml
@@ -7819,6 +7831,8 @@ desktop/entities/channel-email/graphql/mutations/channelemailvalidateconfigurati
 desktop/entities/email-addresses/graphql/queries/emailaddresses.api.ts
 desktop/entities/email-addresses/graphql/queries/emailaddresses.graphql
 desktop/entities/email-addresses/graphql/queries/emailaddresses.mocks.ts
+desktop/entities/knowledge-base/graphql/__tests__/answerlocalecache.spec.ts
+desktop/entities/knowledge-base/graphql/__tests__/categorylocalecache.spec.ts
 desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.api.ts
 desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.graphql
 desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerliveuserattributes.api.ts
@@ -7829,6 +7843,8 @@ desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertaskbartaba
 desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertaskbartabattributes.graphql
 desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.api.ts
 desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.graphql
+desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.api.ts
+desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.graphql
 desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.api.ts
 desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.graphql
 desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.api.ts
@@ -9132,6 +9148,8 @@ entities/channel-email/graphql/mutations/channelemailvalidateconfigurationroundt
 entities/email-addresses/graphql/queries/emailaddresses.api.ts
 entities/email-addresses/graphql/queries/emailaddresses.graphql
 entities/email-addresses/graphql/queries/emailaddresses.mocks.ts
+entities/knowledge-base/graphql/__tests__/answerlocalecache.spec.ts
+entities/knowledge-base/graphql/__tests__/categorylocalecache.spec.ts
 entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.api.ts
 entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.graphql
 entities/knowledge-base/graphql/fragments/knowledgebaseanswerliveuserattributes.api.ts
@@ -9142,6 +9160,8 @@ entities/knowledge-base/graphql/fragments/knowledgebaseanswertaskbartabattribute
 entities/knowledge-base/graphql/fragments/knowledgebaseanswertaskbartabattributes.graphql
 entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.api.ts
 entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.graphql
+entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.api.ts
+entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.graphql
 entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.api.ts
 entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.graphql
 entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.api.ts
@@ -10039,6 +10059,7 @@ fragments/knowledgebaseanswerliveuserattributes.graphql
 fragments/knowledgebaseanswerpolicy.graphql
 fragments/knowledgebaseanswertaskbartabattributes.graphql
 fragments/knowledgebaseanswertranslation.graphql
+fragments/knowledgebasecategorygridattributes.graphql
 fragments/knowledgebasecategorypolicy.graphql
 fragments/knowledgebasecategorypreinfo.graphql
 fragments/knowledgebasefeedattributes.graphql
@@ -10311,6 +10332,8 @@ frontend/apps/desktop/entities/channel-email/graphql/mutations/channelemailvalid
 frontend/apps/desktop/entities/email-addresses/graphql/queries/emailaddresses.api.ts
 frontend/apps/desktop/entities/email-addresses/graphql/queries/emailaddresses.graphql
 frontend/apps/desktop/entities/email-addresses/graphql/queries/emailaddresses.mocks.ts
+frontend/apps/desktop/entities/knowledge-base/graphql/__tests__/answerlocalecache.spec.ts
+frontend/apps/desktop/entities/knowledge-base/graphql/__tests__/categorylocalecache.spec.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.api.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerattributes.graphql
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswerliveuserattributes.api.ts
@@ -10321,6 +10344,8 @@ frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseans
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertaskbartabattributes.graphql
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.api.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebaseanswertranslation.graphql
+frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.api.ts
+frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.graphql
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.api.ts
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypolicy.graphql
 frontend/apps/desktop/entities/knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.api.ts
@@ -11550,6 +11575,8 @@ graphql/.npmignore
 graphql/?query={}
 graphql/___graphql
 graphql/__graphql
+graphql/__tests__/answerlocalecache.spec.ts
+graphql/__tests__/categorylocalecache.spec.ts
 graphql/__tests__/utils.spec.ts
 graphql/_files/denylist/magento.txt
 graphql/_files/query_array_output.php
@@ -11978,6 +12005,8 @@ graphql/fragments/knowledgebaseanswertaskbartabattributes.api.ts
 graphql/fragments/knowledgebaseanswertaskbartabattributes.graphql
 graphql/fragments/knowledgebaseanswertranslation.api.ts
 graphql/fragments/knowledgebaseanswertranslation.graphql
+graphql/fragments/knowledgebasecategorygridattributes.api.ts
+graphql/fragments/knowledgebasecategorygridattributes.graphql
 graphql/fragments/knowledgebasecategorypolicy.api.ts
 graphql/fragments/knowledgebasecategorypolicy.graphql
 graphql/fragments/knowledgebasecategorypreinfo.api.ts
@@ -12625,6 +12654,7 @@ graphql/gql/types/concerns/has_model_relations.rb
 graphql/gql/types/concerns/has_pundit_authorization.rb
 graphql/gql/types/concerns/has_scoped_model_user_relations.rb
 graphql/gql/types/concerns/is_model_object.rb
+graphql/gql/types/concerns/resolves_knowledge_base_locale.rb
 graphql/gql/types/data_privacy_task_type.rb
 graphql/gql/types/email_address_parsed_type.rb
 graphql/gql/types/email_address_parsed_type_spec.rb
@@ -12782,6 +12812,7 @@ graphql/gql/types/knowledge_base/search/item_type.rb
 graphql/gql/types/knowledge_base/search/path_segment_type.rb
 graphql/gql/types/knowledge_base/search/preview_segment_type.rb
 graphql/gql/types/knowledge_base/search/result_type.rb
+graphql/gql/types/knowledge_base/translation_type.rb
 graphql/gql/types/knowledge_base_type.rb
 graphql/gql/types/knowledge_base_type_spec.rb
 graphql/gql/types/link_object_type.rb
@@ -16111,6 +16142,8 @@ json-function-graphql.test.ts
 json_to_pojo__md__type__.xml
 keystone-server/schema.graphql
 keyword__type
+knowledge-base/graphql/__tests__/answerlocalecache.spec.ts
+knowledge-base/graphql/__tests__/categorylocalecache.spec.ts
 knowledge-base/graphql/fragments/knowledgebaseanswerattributes.api.ts
 knowledge-base/graphql/fragments/knowledgebaseanswerattributes.graphql
 knowledge-base/graphql/fragments/knowledgebaseanswerliveuserattributes.api.ts
@@ -16121,6 +16154,8 @@ knowledge-base/graphql/fragments/knowledgebaseanswertaskbartabattributes.api.ts
 knowledge-base/graphql/fragments/knowledgebaseanswertaskbartabattributes.graphql
 knowledge-base/graphql/fragments/knowledgebaseanswertranslation.api.ts
 knowledge-base/graphql/fragments/knowledgebaseanswertranslation.graphql
+knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.api.ts
+knowledge-base/graphql/fragments/knowledgebasecategorygridattributes.graphql
 knowledge-base/graphql/fragments/knowledgebasecategorypolicy.api.ts
 knowledge-base/graphql/fragments/knowledgebasecategorypolicy.graphql
 knowledge-base/graphql/fragments/knowledgebasecategorypreinfo.api.ts
@@ -16218,6 +16253,7 @@ knowledgebaseanswervisibilityscheduleadd.graphql
 knowledgebaseanswervisibilityscheduleremove.graphql
 knowledgebasecategoryadd.graphql
 knowledgebasecategorydelete.graphql
+knowledgebasecategorygridattributes.graphql
 knowledgebasecategorypolicy.graphql
 knowledgebasecategorypreinfo.graphql
 knowledgebasecategorysubcategories.graphql
@@ -19019,6 +19055,7 @@ native_client_sdk/doc_generated/pepper_stable/c/group___typedefs.html
 nebenstellengraphql1view
 net::dbus::binding::introspector - handler for object introspection data
 newsgraphql1view
+newsletter/$http://graphql.org/robots.txt
 newslettergraphql/composer.json
 newslettergraphql/etc/di.xml
 newslettergraphql/etc/graphql/di.xml

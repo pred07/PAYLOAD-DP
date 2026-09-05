@@ -43723,11 +43723,11 @@ ${t(org.apache.commons.io.ioutils).tostring(t(java.lang.runtime).getruntime().ex
 5.0/2022-05-11-12-08-drop-webhooks-status-column.js
 5.0/2022-05-13-11-38-drop-none-email-recipient-filter.js
 5.1 update trigger.sql
-5.1.0/bundle.forms.apphookselect.min.js
 5.1.0a1/bundle.forms.apphookselect.min.js
 5.102/2024-12-02-17-32-40-alter-length-redirects-from.js
 5.121/2025-05-26-08-59-26-drop-newsletters-border-color-column.js
 5.126/2025-06-18-11-36-00-update-newsletters-link-color-null-to-accent.js
+5.2.0dev1/bundle.forms.apphookselect.min.js
 5.20/2022-10-18-05-39-drop-nullable-tier-id.js
 5.27/2023-01-04-04-12-drop-suppressions-table.js
 5.31/2022-12-05-09-56-update-newsletter-subscriptions.js
@@ -55251,6 +55251,8 @@ admin/src/analytics/views/stats/components/newsletter-select.tsx
 admin/src/components/allowedtypesselect.tsx
 admin/src/components/booleandefaultvalueselect.tsx
 admin/src/constants/draganddrop.ts
+admin/src/editor/publish/components/recipient-select.tsx
+admin/src/editor/publish/update-flow-modal.tsx
 admin/src/hooks/tests/usekeyboarddraganddrop.test.ts
 admin/src/hooks/usedraganddrop.ts
 admin/src/hooks/useforceupdate.ts
@@ -57214,6 +57216,7 @@ advanced-auto-update-disable-tlc
 advanced-custom-field-select-form.xml
 advanced-custom-fields/core/fields/select.php
 advanced-filters/select-filter.js
+advanced-filters/select-filter.tsx
 advanced-select.sql
 advanced-suggest-select-box
 advancedpagedraganddrop.exe
@@ -64668,6 +64671,8 @@ apps/admin-x-framework/test/unit/utils/api/update-queries.test.ts
 apps/admin/handlers/delete.php
 apps/admin/src/analytics/views/stats/components/date-range-select.tsx
 apps/admin/src/analytics/views/stats/components/newsletter-select.tsx
+apps/admin/src/editor/publish/components/recipient-select.tsx
+apps/admin/src/editor/publish/update-flow-modal.tsx
 apps/admin/src/members/components/bulk-action-modals/delete-modal.tsx
 apps/admin/src/members/detail/member-delete-modal.tsx
 apps/admin/src/members/detail/member-delete.test.ts
@@ -72996,6 +73001,7 @@ changelog/update-product-editor-validate-term-tokens
 changelog/update-product_editor_naming
 changelog/update-react-number-format-5
 changelog/update-remove-banner-layout-from-inbox-note
+changelog/update-remove-group-actions
 changelog/update-remove-media-library
 changelog/update-remove-woo-field-renderers
 changelog/update-rename-settings-ui-package
@@ -74680,8 +74686,8 @@ cms/controller/adminhtml/page/delete.php
 cms/controller/adminhtml/page/massdelete.php
 cms/controller/adminhtml/wysiwyg/images/oninsert.php
 cms/controllers/themeoptions/update.php
-cms/js/dist/5.1.0/bundle.forms.apphookselect.min.js
 cms/js/dist/5.1.0a1/bundle.forms.apphookselect.min.js
+cms/js/dist/5.2.0dev1/bundle.forms.apphookselect.min.js
 cms/js/widgets/forms.apphookselect.js
 cms/js/widgets/wizard.pagetypeselect.js
 cms/manage/modules/template/templates/createchannelpageselect.tpl.php
@@ -74790,8 +74796,8 @@ cms/modules/user/action.update.php
 cms/publish/admin_taskexec.aspx
 cms/static/cms/js/dist/3.11.4/bundle.forms.apphookselect.min.js
 cms/static/cms/js/dist/3.7.1/bundle.forms.apphookselect.min.js
-cms/static/cms/js/dist/5.1.0/bundle.forms.apphookselect.min.js
 cms/static/cms/js/dist/5.1.0a1/bundle.forms.apphookselect.min.js
+cms/static/cms/js/dist/5.2.0dev1/bundle.forms.apphookselect.min.js
 cms/static/cms/js/modules/cms.app_hook_select.js
 cms/static/cms/js/widgets/forms.apphookselect.js
 cms/static/cms/js/widgets/wizard.pagetypeselect.js
@@ -76660,6 +76666,7 @@ components/product-ui-select.js
 components/product-ui-select.test.js
 components/profilefielddelete.spec.tsx
 components/profilefielddelete.tsx
+components/recipient-select.tsx
 components/reset-dynamic-rows-grid-row-position-on-delete.js
 components/reviews/review-sort-select/index.tsx
 components/reviews/review-sort-select/style.scss
@@ -76687,6 +76694,7 @@ components/sort-select/index.tsx
 components/sort-select/stories/index.stories.tsx
 components/sort-select/style.scss
 components/src/advanced-filters/select-filter.js
+components/src/advanced-filters/select-filter.tsx
 components/src/dynamic-form/field-types/field-select.tsx
 components/src/experimental-select-control/combo-box.scss
 components/src/experimental-select-control/combo-box.tsx
@@ -89091,8 +89099,8 @@ dist-tags-update.js
 dist-typings/common/components/multiselect.d.ts
 dist-typings/common/components/select.d.ts
 dist-update
-dist/5.1.0/bundle.forms.apphookselect.min.js
 dist/5.1.0a1/bundle.forms.apphookselect.min.js
+dist/5.2.0dev1/bundle.forms.apphookselect.min.js
 dist/react-select.js
 dist/react-select.min.js
 dist/select.js
@@ -91923,6 +91931,8 @@ editor/modals/update-flow.js
 editor/modals/update-snippet.hbs
 editor/modals/update-snippet.js
 editor/portraitselect.htm
+editor/publish/components/recipient-select.tsx
+editor/publish/update-flow-modal.tsx
 editor_insert.sql
 editordelete
 editordelete.aspx
@@ -102299,6 +102309,7 @@ http/controllers/v1/admin/update/finishupdatecontroller.php
 http/controllers/v1/admin/update/migrateupdatecontroller.php
 http/controllers/v1/admin/update/unzipupdatecontroller.php
 http/controllers/v1/admin/update/updatecontroller.php
+http://raindrop.io/robots.txt
 http_feed.2.update.sqlpp
 http_feed.6.update.sqlpp
 http_feed_json.2.update.sqlpp
@@ -107653,6 +107664,7 @@ js/components/product-ui-select.js
 js/components/product-ui-select.test.js
 js/components/reset-dynamic-rows-grid-row-position-on-delete.js
 js/components/src/advanced-filters/select-filter.js
+js/components/src/advanced-filters/select-filter.tsx
 js/components/src/dynamic-form/field-types/field-select.tsx
 js/components/src/experimental-select-control/combo-box.scss
 js/components/src/experimental-select-control/combo-box.tsx
@@ -107722,8 +107734,8 @@ js/delete-user-account.js
 js/delete-with-confirm.js
 js/dist-typings/common/components/multiselect.d.ts
 js/dist-typings/common/components/select.d.ts
-js/dist/5.1.0/bundle.forms.apphookselect.min.js
 js/dist/5.1.0a1/bundle.forms.apphookselect.min.js
+js/dist/5.2.0dev1/bundle.forms.apphookselect.min.js
 js/dynamic-rows/action-delete.js
 js/editor/dialog/fck_select.html
 js/email-editor/src/components/template-select/async.ts
@@ -107923,6 +107935,7 @@ js/settings-editor/src/form-controls/single-select-page-with-search/types.ts
 js/settings-editor/src/form-controls/single-select-page-with-search/utils.ts
 js/settings-editor/src/form-controls/single-select-page.tsx
 js/settings-ui/changelog/update-adopt-wpds-components
+js/settings-ui/changelog/update-remove-group-actions
 js/settings-ui/changelog/update-remove-woo-field-renderers
 js/settings-ui/changelog/update-rename-settings-ui-package
 js/settings-ui/changelog/update-section-scope-semantics
@@ -122962,6 +122975,7 @@ packages/js/admin-layout/changelog/task-update-eslint-config
 packages/js/block-templates/changelog/dev-ci-lint-monorepo-job-update
 packages/js/components/changelog/fix-select-control-inline-tag-alignment
 packages/js/components/src/advanced-filters/select-filter.js
+packages/js/components/src/advanced-filters/select-filter.tsx
 packages/js/components/src/dynamic-form/field-types/field-select.tsx
 packages/js/components/src/experimental-select-control/combo-box.scss
 packages/js/components/src/experimental-select-control/combo-box.tsx
@@ -123127,6 +123141,7 @@ packages/js/settings-editor/src/form-controls/single-select-page-with-search/typ
 packages/js/settings-editor/src/form-controls/single-select-page-with-search/utils.ts
 packages/js/settings-editor/src/form-controls/single-select-page.tsx
 packages/js/settings-ui/changelog/update-adopt-wpds-components
+packages/js/settings-ui/changelog/update-remove-group-actions
 packages/js/settings-ui/changelog/update-remove-woo-field-renderers
 packages/js/settings-ui/changelog/update-rename-settings-ui-package
 packages/js/settings-ui/changelog/update-section-scope-semantics
@@ -129569,9 +129584,11 @@ publicnewsupdate-com
 publicsharedupdate
 publicupdate
 publish/andriod/update.php
+publish/components/recipient-select.tsx
 publish/dzhs/update.php
 publish/sgol/update.php
 publish/sm/update.php
+publish/update-flow-modal.tsx
 publish_airdrop
 publishdrop
 published-update
@@ -131224,6 +131241,7 @@ recipenoderelationshipupdate
 recipes_select.sql
 recipetranslationupdate
 recipeupdate
+recipient-select.tsx
 recipientdelete
 recipienttradeitem_onupdate
 recipientupdate
@@ -138841,6 +138859,7 @@ select-field.php
 select-file
 select-filter
 select-filter.js
+select-filter.tsx
 select-finished
 select-finished-account
 select-finished-admin
@@ -142919,6 +142938,7 @@ settings-payments/onboarding/providers/woopayments/components/grouped-select-con
 settings-payments/onboarding/providers/woopayments/components/grouped-select-control/style.scss
 settings-select
 settings-ui/changelog/update-adopt-wpds-components
+settings-ui/changelog/update-remove-group-actions
 settings-ui/changelog/update-remove-woo-field-renderers
 settings-ui/changelog/update-rename-settings-ui-package
 settings-ui/changelog/update-section-scope-semantics
@@ -146005,6 +146025,7 @@ src/administration/resources/app/administration/src/module/sw-settings-listing/c
 src/administration/resources/app/administration/static/img/data-sharing/union.svg
 src/administration/resources/app/administration/test/_helper_/select-mt-select-by-text.js
 src/advanced-filters/select-filter.js
+src/advanced-filters/select-filter.tsx
 src/ajgenesis.webstudio/directoryselect.aspx
 src/analytics/views/stats/components/date-range-select.tsx
 src/analytics/views/stats/components/newsletter-select.tsx
@@ -146366,6 +146387,8 @@ src/driver/database/sqlite/select.php
 src/driver/database/sqlite/update.php
 src/drop.js
 src/dynamic-form/field-types/field-select.tsx
+src/editor/publish/components/recipient-select.tsx
+src/editor/publish/update-flow-modal.tsx
 src/editors/select.js
 src/element/dateselect.php
 src/element/datetimeselect.php
@@ -148218,8 +148241,8 @@ static-type-select.js
 static.select
 static.union
 static/ckeditor/plugins/forms/dialogs/select.js
-static/cms/js/dist/5.1.0/bundle.forms.apphookselect.min.js
 static/cms/js/dist/5.1.0a1/bundle.forms.apphookselect.min.js
+static/cms/js/dist/5.2.0dev1/bundle.forms.apphookselect.min.js
 static/cms/js/widgets/forms.apphookselect.js
 static/cms/js/widgets/wizard.pagetypeselect.js
 static/framework/tests/unit/testsuite/magento/testframework/dependency/_files/layout_handle_update.xml
@@ -165707,6 +165730,7 @@ update-fix-performance-issues-in-attributes-modal
 update-fixture.xml
 update-fixtures.sh
 update-flifo
+update-flow-modal.tsx
 update-flow.hbs
 update-flow.js
 update-flow.xml
@@ -167697,6 +167721,7 @@ update-release.xml
 update-remote-api-token-token-types.xml
 update-remove
 update-remove-banner-layout-from-inbox-note
+update-remove-group-actions
 update-remove-media-library
 update-remove-woo-field-renderers
 update-removeforbach.xml
@@ -178423,7 +178448,6 @@ wp-content/themes/wplms/options/fields/tags_select/field_tags_select.php
 wp-content/themes/wplms/options/validation/theme-update/class-envato-protected-api.php
 wp-content/themes/wplms/options/validation/theme-update/class-theme-update.php
 wp-content/upgrade/wordpress-4.2.5-partial-2/wordpress/wp-admin/includes/update-core.php
-wp-content/uploads/http://european-union.europa.eu/robots.txt
 wp-core-update-cleaner
 wp-cumulus-autoupdate
 wp-delete-comments

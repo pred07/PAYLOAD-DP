@@ -167,6 +167,7 @@ http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
 http://spoofed.169.254.169.254.xip.io/
+http://storage.googleapis.com/robots.txt
 https://bdn-data.s3.amazonaws.com/uploads/wpforms/
 i105-instance-data.xml
 i105-instance-data.xml_
@@ -389,7 +390,6 @@ timdstacy
 timdstewart
 timdsweeney
 trofimds
-wiki/wikipedia%3avermittlungsausschuss%2fhttp://s3.amazonaws.com/robots.txt
 www.byrosimds
 xqkupajjmcwgimds
 ||marketing.beatport.com.s3.amazonaws.com/html/*/banner_ads/header_$image

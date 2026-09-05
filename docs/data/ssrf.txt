@@ -15838,6 +15838,7 @@ http://169.254.169.254.nicelocal.com/
 http://169.254.169.254/latest/meta-data/
 http://169.254.169.254/latest/meta-data/iam/security-credentials/
 http://169.254.169.254/latest/user-data/
+http://aws.amazon.com/robots.txt
 http://instance-data/latest/meta-data/
 http://internalhost.eu
 http://localhost
@@ -19187,6 +19188,8 @@ internal/admin/remoteinboxnotifications.php
 internal/admin/remoteinboxnotificationstest.php
 internal/admin/reports/hposlegacyorderreportquerybuilder.php
 internal/admin/reports/hposlegacyorderreportquerybuildertest.php
+internal/admin/reports/productsearchquery.php
+internal/admin/reports/productsearchquerytest.php
 internal/admin/schedulers/customersscheduler.php
 internal/admin/schedulers/importinterface.php
 internal/admin/schedulers/importscheduler.php
@@ -46773,6 +46776,7 @@ php/src/internal/admin/remotefreeextensions/inittest.php
 php/src/internal/admin/remotefreeextensions/processcoreprofilerplugininstalloptionstest.php
 php/src/internal/admin/remoteinboxnotificationstest.php
 php/src/internal/admin/reports/hposlegacyorderreportquerybuildertest.php
+php/src/internal/admin/reports/productsearchquerytest.php
 php/src/internal/admin/schedulers/ordersschedulertest.php
 php/src/internal/admin/settings/mocks/fakekomojupaymentgateway.php
 php/src/internal/admin/settings/mocks/fakepaymentgateway.php
@@ -48261,6 +48265,7 @@ plugins/woocommerce/src/internal/admin/remotefreeextensions/processcoreprofilerp
 plugins/woocommerce/src/internal/admin/remotefreeextensions/remotefreeextensionsdatasourcepoller.php
 plugins/woocommerce/src/internal/admin/remoteinboxnotifications.php
 plugins/woocommerce/src/internal/admin/reports/hposlegacyorderreportquerybuilder.php
+plugins/woocommerce/src/internal/admin/reports/productsearchquery.php
 plugins/woocommerce/src/internal/admin/schedulers/customersscheduler.php
 plugins/woocommerce/src/internal/admin/schedulers/importinterface.php
 plugins/woocommerce/src/internal/admin/schedulers/importscheduler.php
@@ -48821,6 +48826,7 @@ plugins/woocommerce/tests/php/src/internal/admin/remotefreeextensions/inittest.p
 plugins/woocommerce/tests/php/src/internal/admin/remotefreeextensions/processcoreprofilerplugininstalloptionstest.php
 plugins/woocommerce/tests/php/src/internal/admin/remoteinboxnotificationstest.php
 plugins/woocommerce/tests/php/src/internal/admin/reports/hposlegacyorderreportquerybuildertest.php
+plugins/woocommerce/tests/php/src/internal/admin/reports/productsearchquerytest.php
 plugins/woocommerce/tests/php/src/internal/admin/schedulers/ordersschedulertest.php
 plugins/woocommerce/tests/php/src/internal/admin/settings/mocks/fakekomojupaymentgateway.php
 plugins/woocommerce/tests/php/src/internal/admin/settings/mocks/fakepaymentgateway.php
@@ -52453,6 +52459,8 @@ src/internal/admin/remoteinboxnotifications.php
 src/internal/admin/remoteinboxnotificationstest.php
 src/internal/admin/reports/hposlegacyorderreportquerybuilder.php
 src/internal/admin/reports/hposlegacyorderreportquerybuildertest.php
+src/internal/admin/reports/productsearchquery.php
+src/internal/admin/reports/productsearchquerytest.php
 src/internal/admin/schedulers/customersscheduler.php
 src/internal/admin/schedulers/importinterface.php
 src/internal/admin/schedulers/importscheduler.php
@@ -55068,6 +55076,7 @@ tests/php/src/internal/admin/remotefreeextensions/inittest.php
 tests/php/src/internal/admin/remotefreeextensions/processcoreprofilerplugininstalloptionstest.php
 tests/php/src/internal/admin/remoteinboxnotificationstest.php
 tests/php/src/internal/admin/reports/hposlegacyorderreportquerybuildertest.php
+tests/php/src/internal/admin/reports/productsearchquerytest.php
 tests/php/src/internal/admin/schedulers/ordersschedulertest.php
 tests/php/src/internal/admin/settings/mocks/fakekomojupaymentgateway.php
 tests/php/src/internal/admin/settings/mocks/fakepaymentgateway.php
@@ -58006,7 +58015,6 @@ wiki.atysinternal
 wiki.internal
 wiki.webinternal
 wiki.xeinternal
-wiki/wikipedia%3avermittlungsausschuss%2fhttp://s3.amazonaws.com/robots.txt
 wikiinternal
 wildlifelicensing-internal.dpaw
 wildlifelicensing-temp-internal.dpaw
@@ -58583,6 +58591,7 @@ woocommerce/src/internal/admin/remotefreeextensions/processcoreprofilerpluginins
 woocommerce/src/internal/admin/remotefreeextensions/remotefreeextensionsdatasourcepoller.php
 woocommerce/src/internal/admin/remoteinboxnotifications.php
 woocommerce/src/internal/admin/reports/hposlegacyorderreportquerybuilder.php
+woocommerce/src/internal/admin/reports/productsearchquery.php
 woocommerce/src/internal/admin/schedulers/customersscheduler.php
 woocommerce/src/internal/admin/schedulers/importinterface.php
 woocommerce/src/internal/admin/schedulers/importscheduler.php
@@ -59163,6 +59172,7 @@ woocommerce/tests/php/src/internal/admin/remotefreeextensions/inittest.php
 woocommerce/tests/php/src/internal/admin/remotefreeextensions/processcoreprofilerplugininstalloptionstest.php
 woocommerce/tests/php/src/internal/admin/remoteinboxnotificationstest.php
 woocommerce/tests/php/src/internal/admin/reports/hposlegacyorderreportquerybuildertest.php
+woocommerce/tests/php/src/internal/admin/reports/productsearchquerytest.php
 woocommerce/tests/php/src/internal/admin/schedulers/ordersschedulertest.php
 woocommerce/tests/php/src/internal/admin/settings/mocks/fakekomojupaymentgateway.php
 woocommerce/tests/php/src/internal/admin/settings/mocks/fakepaymentgateway.php
@@ -60108,7 +60118,7 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://news9.com/robots.txt
+zh/internalhttp://pushpay.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
