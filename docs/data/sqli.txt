@@ -72233,6 +72233,7 @@ cde-kafdrop-uat
 cdelete
 cdexec
 cdio3 schema only aug 03 11 (drop questiontype).sql
+cdn-cgi/http://find-and-update.company-information.service.gov.uk/robots.txt
 cdn.update
 cdnselect
 cdnunion
@@ -78628,6 +78629,7 @@ core/modules/field/src/tests/update/emailwidgetsizesettingupdatetest.php
 core/modules/field/src/tests/update/entityreferencehandlersettingupdatetest.php
 core/modules/field/src/tests/update/fieldupdatetest.php
 core/modules/field/tests/fixtures/update
+core/modules/field/tests/fixtures/update/display_dependency_update_test.php
 core/modules/field/tests/fixtures/update/drupal-8.email_widget_size_setting-2578741.php
 core/modules/field/tests/fixtures/update/drupal-8.remove_handler_submit_setting-2715589.php
 core/modules/field/tests/fixtures/update/drupal-8.update_deleted_field_definitions-2931436.php
@@ -78642,6 +78644,7 @@ core/modules/field/tests/src/functional/update
 core/modules/field/tests/src/functional/update/emailwidgetsizesettingupdatetest.php
 core/modules/field/tests/src/functional/update/entityreferencehandlersettingupdatetest.php
 core/modules/field/tests/src/functional/update/fieldupdatetest.php
+core/modules/field/tests/src/functional/update/recalculatedependenciesupdatetest.php
 core/modules/field/tests/src/kernel/entity/update
 core/modules/field/tests/src/kernel/entity/update/sqlcontententitystorageschemacolumntest.php
 core/modules/file/file.post_update.php
@@ -79200,6 +79203,7 @@ core/modules/update/src/tests/updatecoretest.php
 core/modules/update/src/tests/updatedeletefileifstaletest.php
 core/modules/update/src/tests/updatetestbase.php
 core/modules/update/src/tests/updateuploadtest.php
+core/modules/update/src/updatecalculator.php
 core/modules/update/src/updatefetcher.php
 core/modules/update/src/updatefetcherinterface.php
 core/modules/update/src/updatemanager.php
@@ -79207,8 +79211,10 @@ core/modules/update/src/updatemanagerinterface.php
 core/modules/update/src/updatemessagetrait.php
 core/modules/update/src/updateprocessor.php
 core/modules/update/src/updateprocessorinterface.php
+core/modules/update/src/updateproject.php
 core/modules/update/src/updateroot.php
 core/modules/update/src/updaterootfactory.php
+core/modules/update/src/updateserverprojectinfo.php
 core/modules/update/src/updatesettingsform.php
 core/modules/update/templates
 core/modules/update/templates/update-fetch-error-message.html.twig
@@ -95326,6 +95332,7 @@ fall upon,alight upon,ambush,appear unexpectedly,arrive at,arrive upon,assail,as
 fall_of_the_soviet_union
 falling out,alienation,altercation,beef,bickering,breach,breach of friendship,break,cleavage,cleft,controversy,disaffection,disfavor,dispute,disruption,disunion,disunity,divergence,dividedness,division,estrangement,feud,hassle,open rupture,recall of ambassadors,rift,row,run-in,rupture,schism,separation,split
 false-drop
+false/select-store-cookies.html
 falsify,alter,be untruthful,belie,burlesque,camouflage,caricature,change,cheat,color,contort,contradict,contravene,cook,deceive,deny,disguise,distort,doctor,draw the longbow,dress up,embellish,embroider,equivocate,evade,exaggerate,fake,fib,fudge,garble,gild,gloss,gloss over,lie,lie flatly,mask,miscite,miscolor,mislead,misquote,misreport,misrepresent,misstate,misteach,overdraw,overstate,palter,parody,pervert,prevaricate,shift,shift about,slant,speak falsely,story,strain,stretch the truth,tell a lie,titivate,traverse,travesty,trick out,trump up,twist,understate,varnish,warp,whitewash,wrench
 falter
 falter's
@@ -95816,7 +95823,9 @@ field/select.html.twig
 field/select/allowspecific.php
 field/select/allowspecifictest.php
 field/select/controller.php
+field/tests/fixtures/update/display_dependency_update_test.php
 field/tests/modules/field_test_views/test_views/views.view.test_view_field_delete.yml
+field/tests/src/functional/update/recalculatedependenciesupdatetest.php
 field/tests/src/kernel/entity/update/sqlcontententitystorageschemacolumntest.php
 field_access-asterixdb-2289.2.update.sqlpp
 field_access_union-asterixdb-2288.1.ddl.sqlpp
@@ -96986,6 +96995,7 @@ fixtures/select/test-fixtures.ts
 fixtures/smarty/unsafe/insert-script.tpl
 fixtures/style_select.xml
 fixtures/update/add-menu-block-with-zero-depth.php
+fixtures/update/display_dependency_update_test.php
 fixtures/update/drupal-10.3.0.bare.standard.php.gz
 fixtures/update/drupal-10.3.0.filled.standard.php.gz
 fixtures/update/drupal-11.3.0.bare.standard.php.gz
@@ -98974,6 +98984,7 @@ functional/update/navigationupdatetest.php
 functional/update/nodecontenttranslationupdatetest.php
 functional/update/pathaliasrevisionindexesupdatepathtest.php
 functional/update/readme.txt
+functional/update/recalculatedependenciesupdatetest.php
 functional/update/removepathkeytest.php
 functional/update/removerevisionmetadatabclayerupdatetest.php
 functional/update/restsettingsdeletionupdatetest.php
@@ -102309,7 +102320,6 @@ http/controllers/v1/admin/update/finishupdatecontroller.php
 http/controllers/v1/admin/update/migrateupdatecontroller.php
 http/controllers/v1/admin/update/unzipupdatecontroller.php
 http/controllers/v1/admin/update/updatecontroller.php
-http://raindrop.io/robots.txt
 http_feed.2.update.sqlpp
 http_feed.6.update.sqlpp
 http_feed_json.2.update.sqlpp
@@ -115879,7 +115889,9 @@ modules/fees/views/fees-category-details/update.php
 modules/fees/views/fees-collect-category/update.php
 modules/fees/views/fees-payment-transaction/update.php
 modules/field/field.post_update.php
+modules/field/tests/fixtures/update/display_dependency_update_test.php
 modules/field/tests/modules/field_test_views/test_views/views.view.test_view_field_delete.yml
+modules/field/tests/src/functional/update/recalculatedependenciesupdatetest.php
 modules/field/tests/src/kernel/entity/update/sqlcontententitystorageschemacolumntest.php
 modules/field_test_views/test_views/views.view.test_view_field_delete.yml
 modules/file/file.post_update.php
@@ -116403,6 +116415,7 @@ modules/update/src/projectcorecompatibility.php
 modules/update/src/projectrelease.php
 modules/update/src/projectsecuritydata.php
 modules/update/src/projectsecurityrequirement.php
+modules/update/src/updatecalculator.php
 modules/update/src/updatefetcher.php
 modules/update/src/updatefetcherinterface.php
 modules/update/src/updatemanager.php
@@ -116410,7 +116423,9 @@ modules/update/src/updatemanagerinterface.php
 modules/update/src/updatemessagetrait.php
 modules/update/src/updateprocessor.php
 modules/update/src/updateprocessorinterface.php
+modules/update/src/updateproject.php
 modules/update/src/updateroot.php
+modules/update/src/updateserverprojectinfo.php
 modules/update/src/updatesettingsform.php
 modules/update/templates/update-fetch-error-message.html.twig
 modules/update/templates/update-last-check.html.twig
@@ -146535,6 +146550,7 @@ src/functional/update/navigationupdatetest.php
 src/functional/update/nodecontenttranslationupdatetest.php
 src/functional/update/pathaliasrevisionindexesupdatepathtest.php
 src/functional/update/readme.txt
+src/functional/update/recalculatedependenciesupdatetest.php
 src/functional/update/removepathkeytest.php
 src/functional/update/removerevisionmetadatabclayerupdatetest.php
 src/functional/update/restsettingsdeletionupdatetest.php
@@ -152796,6 +152812,7 @@ tests/fixtures/post_update.php
 tests/fixtures/release-history/package_manager_test_update.7.0.1.xml
 tests/fixtures/smarty/unsafe/insert-script.tpl
 tests/fixtures/update/add-menu-block-with-zero-depth.php
+tests/fixtures/update/display_dependency_update_test.php
 tests/fixtures/update/drupal-10.3.0.bare.standard.php.gz
 tests/fixtures/update/drupal-10.3.0.filled.standard.php.gz
 tests/fixtures/update/drupal-11.3.0.bare.standard.php.gz
@@ -153119,6 +153136,7 @@ tests/src/functional/update/navigationupdatetest.php
 tests/src/functional/update/nodecontenttranslationupdatetest.php
 tests/src/functional/update/pathaliasrevisionindexesupdatepathtest.php
 tests/src/functional/update/readme.txt
+tests/src/functional/update/recalculatedependenciesupdatetest.php
 tests/src/functional/update/removepathkeytest.php
 tests/src/functional/update/removerevisionmetadatabclayerupdatetest.php
 tests/src/functional/update/restsettingsdeletionupdatetest.php
@@ -158559,6 +158577,7 @@ truckfilterlistselect
 truckupdate
 true user bea weblogic soap xml head post delete get put options trace
 true/query_sql_insert.php
+true/select-store-cookies.html
 truenas-update.conf
 trueupdate
 trueupdate/
@@ -169634,6 +169653,7 @@ update/deployment.ts
 update/discountbuilder.php
 update/discountconditionsupdater.php
 update/discountduplicator.php
+update/display_dependency_update_test.php
 update/download
 update/downloadupdatecontroller.php
 update/dropindexallonkeyvalueexpiretableupdatetest.php
@@ -169841,6 +169861,7 @@ update/productsupplierupdater.php
 update/producttagupdater.php
 update/producttypeupdater.php
 update/readme.txt
+update/recalculatedependenciesupdatetest.php
 update/recharge.php
 update/relatedproductsupdater.php
 update/relations.ts
@@ -169897,6 +169918,7 @@ update/src/projectcorecompatibility.php
 update/src/projectrelease.php
 update/src/projectsecuritydata.php
 update/src/projectsecurityrequirement.php
+update/src/updatecalculator.php
 update/src/updatefetcher.php
 update/src/updatefetcherinterface.php
 update/src/updatemanager.php
@@ -169904,7 +169926,9 @@ update/src/updatemanagerinterface.php
 update/src/updatemessagetrait.php
 update/src/updateprocessor.php
 update/src/updateprocessorinterface.php
+update/src/updateproject.php
 update/src/updateroot.php
+update/src/updateserverprojectinfo.php
 update/src/updatesettingsform.php
 update/stableuninstallupdatetest.php
 update/status_report_8001.inc
