@@ -15839,6 +15839,7 @@ http://169.254.169.254.nicelocal.com/
 http://169.254.169.254/latest/meta-data/
 http://169.254.169.254/latest/meta-data/iam/security-credentials/
 http://169.254.169.254/latest/user-data/
+http://aws.amazon.com/robots.txt
 http://instance-data/latest/meta-data/
 http://internalhost.eu
 http://localhost
@@ -15850,7 +15851,6 @@ http://localhost:80
 http://metadata.google.internal/computeMetadata/v1/
 http://metadata.google.internal/computeMetadata/v1/instance/attributes/
 http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token
-http://s3.amazonaws.com/robots.txt
 http://spoofed.169.254.169.254.xip.io/
 http___localhost_8080_.xml
 http___localhost_8080_sandbox_.xml
@@ -49425,7 +49425,6 @@ preferencesinternal-cache-data-proxy-vpn
 preferencesinternalgateway
 premise/front/getpingdata?url=http://0.0.0.0:9600/sm/api/v1/firewall/zone/services?zone=;/usr/bin/id;
 premista-internal
-premium/http://s3.amazonaws.com/robots.txt
 prepareinternalpurchaseorder
 prepopulatesql_applicationinformation_dc_localhost443.sql
 prepopulatesql_applicationinformation_dc_localhost8080.sql
@@ -60120,7 +60119,6 @@ zendesk/ticket/comment/internal_ticket_links.rb
 zetta-internal
 zeus.internal
 zh/internalhttp://emsc-csem.org/robots.txt
-zh/internalhttp://kctv5.com/robots.txt
 zh/libs/sysplugins/smarty_internal_cacheresource_file.php
 zh/libs/sysplugins/smarty_internal_compile_append.php
 zh/libs/sysplugins/smarty_internal_compile_assign.php
